@@ -2,9 +2,13 @@
 ASR-Derived Transcript Features as Complementary Signal for Pose-Based Speaker Action Classification in Lecture 
 
 **Kritika Bhat** 
+
 2178208
+
 DePaul University 
+
 CSC 575  
+
 Supervisor: Professor Kenny Davila Castellanos
 
 ---
