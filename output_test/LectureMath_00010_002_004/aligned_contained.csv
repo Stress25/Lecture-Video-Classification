@@ -1,0 +1,213 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,178,0.00,5972.64,0.000,5.973,5.973,out,0,,1,[silence]
+1,179,180,5972.64,6039.37,5.973,6.039,0.067,out,0,,1,[silence]
+2,181,201,6039.37,6740.07,6.039,6.740,0.701,out,0,,1,[silence]
+3,202,5655,6740.07,188722.06,6.740,188.722,181.982,explain,508,0.912,0,"BAM! Mr. Tarrou. In this lesson we are going to learn how to solve equations that have more than one absolute value function in them. Our three examples we going to work through are all going to have two absolute value functions in them, but this technique works for even more than two. There could be three or four absolute value functions in a single equation and this technique will still work, even though that would be a lot of work to go through. So the absolute value equations or graphs have turning points that occur at values that make the expression inside the absolute values equal to zero. You can rewrite the absolute value expressions as a piecewise function. The absolute value of ax -b, the sort of general version of this language that on the right side of the board, has got sort of a linear function inside this absolute value expression, but you could have more complex expressions inside here. If we have ax -b, well then it is going to be rewritten as ax -b if x is greater than or equal to b over a. And you are going replace the absolute value of ax -b with a set of, the opposite expression, negative parentheses ax -b if x is less than b over a. Well this b over a idea is again coming from, they the turning points, they coming from taking the expression inside the absolute value equation or function and setting it equal to zero. And of course we are going add by b and divide by a with this sort of general form again expression that we going to get x is equal to b over a. This is the x value of the turning points. Okay. So what? Well for any equation involving absolute values there are at least one turning point value for the variable, of the variable, for each absolute value. In other words again you might have more than just a linear expression inside your absolute value function. So for each absolute value you may get more than one turning point. The n turning points are used to split the number line into n plus one intervals. So if you find that you have two turning points, two answers or x values that take the expressions inside your absolute value functions and making them equal to zero, then those two turning points are going to cut your number line into three parts. Now within each of those three parts are those n plus one intervals. Well within each interval each absolute value in your equation can be replaced by the expression inside the absolute value, if what is inside that absolute value symbol is positive within that interval. If what is in that absolute value symbol is negative within this interval, then you are going to replace it with its opposite or that set of negative parenthesis wrapped around the expression inside your absolute value function. Now when you do that you are going to"
+4,5656,5869,188722.06,195862.53,188.722,195.863,7.140,addboard,10,0.924,0,get an equation without any absolute value symbols in it.
+5,5870,6727,195862.53,224491.16,195.863,224.491,28.629,explain,99,0.923,0,"Each of those new equations are going to be solved and when you do so you are to be restricting your solutions to the corresponding interval that you use to create that new equation. And if you have a graphing calculator or some way to graph these functions that you trying to solve, these equations that you are trying to solve, it would be really nice to be able to graph that and actually check your solutions with a graphing utility or computer if possible. And when you done, you are done. YELL BAM! And get to that first"
+6,6728,6787,224491.16,226493.16,224.491,226.493,2.002,out,1,0.998,0,example.
+7,6788,6843,226493.16,228361.70,226.493,228.362,1.869,transit,0,,1,[silence]
+8,6844,6860,228361.70,228928.93,228.362,228.929,0.567,out,0,,1,[silence]
+9,6861,7350,228928.93,245278.61,228.929,245.279,16.350,explain,47,0.916,0,"First example. 7 over absolute value of 2x minus 3 is equal to 2 over the absolute value of 3x plus 5. Ok, we are going to get these variables out of the denominator by cross multiplying because there just one fraction on each side. And we"
+10,7351,7631,245278.61,254654.65,245.279,254.655,9.376,write,18,0.932,0,have 7 times the absolute value of 3x plus 5 is equal to 2 times the absolute value
+11,7632,8133,254654.65,271404.74,254.655,271.405,16.750,explain,46,0.923,0,of 2x minus 3. And now we need to figure out a way of rewriting this equation whether it 2 or 3 of these without these absolute value symbols so we can continue. That means setting the expressions inside these absolute value symbols equal to 0.
+12,8134,8350,271404.74,278645.31,271.405,278.645,7.241,write,20,0.875,0,So we have 3x plus 5 is equal to 0. Moving the 5 over we get 3x is equal to
+13,8351,8417,278645.31,280880.88,278.645,280.881,2.236,explain,6,0.773,0,negative 5. And dividing by 3
+14,8418,8505,280880.88,283817.15,280.881,283.817,2.936,write,1,0.717,0,we
+15,8506,8759,283817.15,292292.29,283.817,292.292,8.475,explain,20,0.87,0,get negative 5 thirds which is going be approximately negative 1 .67. Or negative 1 .6 repeating. And here we
+16,8760,8839,292292.29,294961.63,292.292,294.962,2.669,write,7,0.989,0,have 2x minus 3 is equal to
+17,8840,8903,294961.63,297097.10,294.962,297.097,2.135,explain,7,0.82,0,0. Moving the 3 over with addition
+18,8904,8965,297097.10,299165.83,297.097,299.166,2.069,write,6,0.84,0,we get 2x is equal to
+19,8966,9013,299165.83,300767.43,299.166,300.767,1.602,explain,5,0.838,0,3. And dividing by 2
+20,9014,9087,300767.43,303236.57,300.767,303.237,2.469,write,7,0.953,0,we get x is equal to 3
+21,9088,9153,303236.57,305438.77,303.237,305.439,2.202,explain,4,0.927,0,over 2. So we
+22,9154,9179,305438.77,306306.31,305.439,306.306,0.868,write,3,0.996,0,have a number
+23,9180,9367,306306.31,312579.25,306.306,312.579,6.273,explain,15,0.921,0,line that is going to be broken up into three intervals by this turning point
+24,9368,9539,312579.25,318318.32,312.579,318.318,5.739,write,11,0.883,0,of negative 5 over 3 and this turning point of 3
+25,9540,9906,318318.32,330563.90,318.318,330.564,12.246,explain,33,0.879,0,over 2. So guess maybe we could do this in color coding. Let's work with this first interval. Now again that is approximately negative 1 .6 repeating. So let's think about what if
+26,9907,9985,330563.90,333199.87,330.564,333.200,2.636,write,6,0.963,0,we were looking at an x
+27,9986,10611,333199.87,354087.42,333.200,354.087,20.888,explain,54,0.929,0,"value of negative 2. Well an x value of negative 2, 2 times negative 2 is negative 4. Negative 4 minus 3 is negative 7. So this first inequality is going to be, well that inequality is going to be negative. I really want to be looking here. But that inequality is going to"
+28,10612,10618,354087.42,354320.99,354.087,354.321,0.234,write,1,0.989,0,be
+29,10619,10827,354320.99,361294.63,354.321,361.295,6.974,explain,16,0.873,0,negative. And 3 times negative 2 is negative 6 and negative 6 plus 5 is negative
+30,10828,10835,361294.63,361561.56,361.295,361.562,0.267,write,1,0.983,0,1.
+31,10836,11265,361561.56,375909.24,361.562,375.909,14.348,explain,46,0.906,0,"when we are to the left on the number line, when we are to the left of negative 5 thirds, both of our absolute value expressions are going to be negative. So they both need to be replaced with the opposite of that. So for this,"
+32,11266,11287,375909.24,376643.31,375.909,376.643,0.734,write,3,0.981,0,let's call this
+33,11288,11354,376643.31,378878.88,376.643,378.879,2.236,explain,9,0.822,0,"interval 1, we are going to be looking at"
+34,11355,11649,378878.88,388722.06,378.879,388.722,9.843,write,13,0.914,0,negative 7 times 3x plus 5 is equal to negative 2 times 2x
+35,11650,11736,388722.06,391624.96,388.722,391.625,2.903,explain,6,0.87,0,minus 3. Now we going to
+36,11737,11805,391624.96,393927.26,391.625,393.927,2.302,write,2,0.959,0,distribute these
+37,11806,11928,393927.26,398031.36,393.927,398.031,4.104,explain,13,0.815,0,values of negative 7 and negative 2 through the parenthesis and we get
+38,11929,12137,398031.36,405005.01,398.031,405.005,6.974,write,10,0.925,0,negative 21x minus 35 is equal to negative 4x plus
+39,12138,12392,405005.01,413513.51,405.005,413.514,8.509,explain,23,0.953,0,6. Let's go ahead and move the negative 4 to the left with addition. We are going to add 4x to both sides.
+40,12393,12798,413513.51,427060.39,413.514,427.060,13.547,write,15,0.854,0,That is going to give us negative 17x minus 35 is equal to 6. Add
+41,12799,12859,427060.39,429095.76,427.060,429.096,2.035,explain,7,0.935,0,35 to both sides and we get
+42,12860,12979,429095.76,433099.77,429.096,433.100,4.004,write,5,0.976,0,negative 17x is equal to
+43,12980,13209,433099.77,440774.11,433.100,440.774,7.674,explain,25,0.913,0,"41. Let me just make sure that I am heading in the right direction here. Yes. Ok, now we going to divide both sides by"
+44,13210,13516,440774.11,451017.68,440.774,451.018,10.244,write,18,0.869,0,"negative 17 and get our first solution which is negative, or x is equal to negative 41 over"
+45,13517,15026,451017.68,501401.40,451.018,501.401,50.384,explain,124,0.896,0,"17. actually I just misspoke a little bit. I don't really know if that is my solution yet. This is a solution to this equation. This equation that I rewrote from this equation with the absolute value symbols set up for the interval to the left of negative 5 thirds. So this is only a solution if this is within this restricted domain if you will. And negative 41 over 7, well let's see here. 2 times 17 is going to be 34 and 34 is less than 41. So this is to the left. This is less than negative 5 thirds. Indeed it is actually less than negative 2. So this is within this restriction or this interval in our number line and"
+46,15027,15037,501401.40,501768.44,501.401,501.768,0.367,hook,1,0.964,0,so
+47,15038,15095,501768.44,503703.70,501.768,503.704,1.935,emphasize,2,0.972,0,that is
+48,15096,15275,503703.70,509709.71,503.704,509.710,6.006,explain,17,0.913,0,"one of our solutions. Ok, now let's pick a different color here. Let's do blue. For interval"
+49,15276,15309,509709.71,510844.18,509.710,510.844,1.134,write,1,0.614,0,"2,"
+50,15310,15540,510844.18,518551.89,510.844,518.552,7.708,explain,32,0.88,0,let's see. Well what is going to be the easiest number to work with to kind test the signs between a negative number and a positive number? Well that is going to
+51,15541,15599,518551.89,520520.52,518.552,520.521,1.969,write,1,0.997,0,be
+52,15600,15829,520520.52,528194.86,520.521,528.195,7.674,explain,14,0.898,0,"0. Ok, well 3 times 0 is 0 plus 5 is a positive number."
+53,15830,15845,528194.86,528728.73,528.195,528.729,0.534,write,0,,1,[silence]
+54,15846,15978,528728.73,533166.50,528.729,533.166,4.438,explain,12,0.93,0,And 2 times 0 is 0 and 0 minus 3 is a
+55,15979,15985,533166.50,533400.07,533.166,533.400,0.234,write,1,0.997,0,negative
+56,15986,16346,533400.07,545445.45,533.400,545.445,12.045,explain,41,0.857,0,"number. So for the second interval this is going to be, these absolute value symbols are just going to get dropped and replaced with parentheses. And this set with the opposite of. So we are going to have for interval 2"
+57,16347,16367,545445.45,546146.15,545.445,546.146,0.701,write,1,0.445,0,we
+58,16368,16463,546146.15,549349.35,546.146,549.349,3.203,explain,6,0.894,0,are going to have positive right?
+59,16464,16831,549349.35,561628.29,549.349,561.628,12.279,write,17,0.799,0,So 7 parentheses 3x plus 5 is equal to negative 2 parentheses 2x minus 3. And again
+60,16832,17188,561628.29,573540.21,561.628,573.540,11.912,explain,24,0.808,0,that negative I want to bring in a opposite type operation into this parentheses because in the second interval this was negative right? again
+61,17189,17515,573540.21,584451.12,573.540,584.451,10.911,write,18,0.874,0,"distributing through the parentheses we get 21x plus 35 is equal to negative 4 plus, whoops, x plus"
+62,17516,17693,584451.12,590390.39,584.451,590.390,5.939,explain,14,0.878,0,"6. Ok, now we going to move this 4 over to the other side"
+63,17694,18029,590390.39,601601.60,590.390,601.602,11.211,write,12,0.849,0,with addition and get 25x plus 35 is equal to 6. I
+64,18030,18201,601601.60,607340.67,601.602,607.341,5.739,explain,26,0.926,0,am getting excited about being close to the answer and I want to make a careless mistake. Now am going to move the 35 over with
+65,18202,18465,607340.67,616149.48,607.341,616.149,8.809,write,9,0.908,0,subtraction and get 25x is equal to negative 29.
+66,18466,18700,616149.48,623990.66,616.149,623.991,7.841,explain,20,0.818,0,Because this is a larger absolute value so 35 minus 6 is 29 and it is negative of course. Dividing
+67,18701,18951,623990.66,632365.70,623.991,632.366,8.375,write,11,0.88,0,by 25 we get x is equal to negative 29 over
+68,18952,19483,632365.70,650116.78,632.366,650.117,17.751,explain,36,0.91,0,"25. Is that one of the solutions? Is that between 1 .5 and is it greater than negative 1 .67? Well this is, did I write an approximation of this? Yeah, this is approximately equal to"
+69,19484,19565,650116.78,652852.85,650.117,652.853,2.736,write,3,0.833,0,negative 1 .16.
+70,19566,19771,652852.85,659726.39,652.853,659.726,6.874,explain,15,0.88,0,So our solution certainly does fall within the restriction of this interval. So this is
+71,19772,19833,659726.39,661795.13,659.726,661.795,2.069,emphasize,3,0.976,0,a solution as
+72,19834,20049,661795.13,669002.34,661.795,669.002,7.207,explain,10,0.778,0,well. Now I am running out of space here so
+73,20050,20087,669002.34,670270.27,669.002,670.270,1.268,pickerase,3,0.958,0,let's clear off
+74,20088,20244,670270.27,675508.84,670.270,675.509,5.239,outerase,12,0.873,0,our picture in picture. Very high tech here. Actually that is the
+75,20245,20271,675508.84,676409.74,675.509,676.410,0.901,droperase,4,0.984,0,way I like it.
+76,20272,20291,676409.74,677077.08,676.410,677.077,0.667,explain,0,,1,[silence]
+77,20292,20457,677077.08,682615.95,677.077,682.616,5.539,addboard,1,0.744,0,Voila!
+78,20458,20540,682615.95,685385.39,682.616,685.385,2.769,explain,3,0.746,0,"Ok, our third"
+79,20541,20569,685385.39,686353.02,685.385,686.353,0.968,write,1,0.576,0,interval.
+80,20570,20698,686353.02,690657.32,686.353,690.657,4.304,explain,17,0.918,0,"Let's go ahead and do this in white. Alright, this is 1 .5 so let's think about"
+81,20699,20761,690657.32,692759.43,690.657,692.759,2.102,write,3,0.989,0,the value of
+82,20762,21081,692759.43,703436.77,692.759,703.437,10.677,explain,22,0.933,0,2. Get the glare off of there. 3 times 2 is 6 and 6 plus 5 is going to be a positive
+83,21082,21095,703436.77,703903.90,703.437,703.904,0.467,write,1,0.998,0,answer.
+84,21096,21209,703903.90,707707.71,703.904,707.708,3.804,explain,8,0.907,0,And 2 times 2 is 4 minus 1
+85,21210,21225,707707.71,708241.57,707.708,708.242,0.534,write,1,0.93,0,is
+86,21226,21679,708241.57,723390.06,708.242,723.390,15.148,explain,52,0.916,0,"also positive. Now this is going come out to be, well both of these absolute values are positive in this interval so we just drop the absolute value symbols and replace them with a set of parenthesis if we need to distribute like we do here with the 7 and the 2."
+87,21680,22021,723390.06,734801.47,723.390,734.801,11.411,write,0,,1,[silence]
+88,22022,23430,734801.47,781815.15,734.801,781.815,47.014,explain,129,0.921,0,"Now you don't want to notice sort of a shortcut pattern in these problems. You want to create a new equation from each of these intervals, solve it, and then test those solutions against each of these intervals to make sure it falls within there. Now with this one, if you look at what we did with the first interval, both of those absolute value symbols need to be rewritten with an opposite type expression. Now if I divide both sides of this equation by negative 1, I am going to get positive 7 parenthesis 3x plus 5 equals positive 2 times 2x minus 3. So the solution to this is going to be the same as what we have already found and that was negative 41 over 17."
+89,23431,23451,781815.15,782515.85,781.815,782.516,0.701,point,0,,1,[silence]
+90,23452,23557,782515.85,786052.72,782.516,786.053,3.537,write,0,,1,[silence]
+91,23558,24249,786052.72,809142.48,786.053,809.142,23.090,explain,51,0.944,0,Don't expect to necessarily get an exact answer again as you go through these multiple intervals that you creating new equations from on your number line. But that does happen to be the case here. Now I kind of want to say that this solution for this equation would have to
+92,24250,24279,809142.48,810143.48,809.142,810.143,1.001,crossout,2,0.994,0,be rejected
+93,24280,25240,810143.48,842208.88,810.143,842.209,32.065,explain,88,0.878,0,"because that solution for this equation, well this equation was created using this right most interval or as I labeled here with interval 3, and it doesn't fall, negative 41 over 7 of course is not greater than 3 halves or 1 and 1 half or 1 .5. So for this equation, this solution is getting rejected, but we have already seen that that was a solution for this equation from another interval. So I am kind throwing out an answer that I am using, but again don't"
+94,25241,25369,842208.88,846513.18,842.209,846.513,4.304,removeboard,13,0.946,0,expect that kind pattern to show up on a regular basis. And that
+95,25370,25513,846513.18,851317.98,846.513,851.318,4.805,explain,8,0.974,0,is the end of our first example. Next!
+96,25514,25537,851317.98,852118.79,851.318,852.119,0.801,out,0,,1,[silence]
+97,25538,25593,852118.79,853987.32,852.119,853.987,1.869,transit,0,,1,[silence]
+98,25594,25611,853987.32,854587.92,853.987,854.588,0.601,out,0,,1,[silence]
+99,25612,26192,854587.92,873973.97,854.588,873.974,19.386,explain,47,0.858,0,"Bam! Example 2. x is equal to the absolute value of 2x minus 4 over 5x minus 1. Okay. Well for this one we going to, we can rewrite this so we can give the numerator and denominator their own separate absolute value functions. So we have"
+100,26193,26489,873973.97,883883.88,873.974,883.884,9.910,write,17,0.936,0,x is equal to the absolute value of 2x minus 4 over the absolute value of 5x
+101,26490,26828,883883.88,895195.20,883.884,895.195,11.311,explain,32,0.908,0,minus 1. Now we have this variable in the denominator so we going to multiply both sides of the equation by the absolute value of 5x minus 1 and we get x
+102,26829,27106,895195.20,904471.14,895.195,904.471,9.276,write,12,0.969,0,times 5x minus 1 is equal to the absolute value of 2x
+103,27107,28439,904471.14,948948.95,904.471,948.949,44.478,explain,128,0.928,0,"minus 4. Now this problem is a little bit different than the previous example because we have a variable of x outside of the absolute value symbols. But the process that you go through to finish this problem is exactly like the previous one. It is not any different because there is an x out there. We are going to set each of these inside expressions equal to zero, find our turning points, get those on the number line, get it separated, and set up these equations. So because this is so similar to the previous example, I am going release the one step at a time and give you an opportunity to pause the video and try this one on your own before you see the solution."
+104,28440,28475,948948.95,950150.15,948.949,950.150,1.201,out,0,,1,[silence]
+105,28476,29451,950150.15,982716.05,950.150,982.716,32.566,out,0,,1,[silence]
+106,29452,30745,982716.05,1025892.56,982.716,1025.893,43.177,explain,155,0.923,0,"I fibbed a little bit. Let me help you finish this up. I am not sure if you need this help or not. I don't know if you are watching this as an Algebra 1 or Algebra 2 student and you might need to get a little hint on this or if you are really advanced in mathematics and this is hopefully not a waste of your time, but you have a quadratic. Now when you have a second degree and a first degree variable, you are not going to just get x alone. You need to set that thing equal to zero. If I take the 5 times 4 and get 20, there is not a pair of factors of positive 20 that add to be the middle term of negative 3. So you need to finish this up with the quadratic formula. That means that we are going to have an A value"
+107,30746,31021,1025892.56,1035101.77,1025.893,1035.102,9.209,write,19,0.916,0,"of 5, a B value of negative 3, and a C value of 4. So we get x is"
+108,31022,31090,1035101.77,1037404.07,1035.102,1037.404,2.302,explain,6,0.964,0,equal to the opposite of b
+109,31091,31183,1037404.07,1040507.17,1037.404,1040.507,3.103,write,3,0.789,0,plus or minus
+110,31184,31264,1040507.17,1043209.88,1040.507,1043.210,2.703,explain,6,0.973,0,the square root of b squared
+111,31265,31528,1043209.88,1052018.69,1043.210,1052.019,8.809,write,3,0.709,0,minus 4ac all
+112,31529,31675,1052018.69,1056923.59,1052.019,1056.924,4.905,explain,14,0.886,0,"over 2a. Well, b is negative 3, so we are to have the opposite"
+113,31676,31699,1056923.59,1057724.39,1056.924,1057.724,0.801,write,2,0.928,0,of negative
+114,31700,31786,1057724.39,1060627.29,1057.724,1060.627,2.903,explain,6,0.971,0,3 plus or minus b squared
+115,31787,31807,1060627.29,1061327.99,1060.627,1061.328,0.701,write,0,,1,[silence]
+116,31808,31913,1061327.99,1064864.86,1061.328,1064.865,3.537,explain,2,0.941,0,minus 4ac
+117,31914,31939,1064864.86,1065732.40,1064.865,1065.732,0.868,write,0,,1,[silence]
+118,31940,32000,1065732.40,1067767.77,1065.732,1067.768,2.035,explain,0,,1,[silence]
+119,32001,32025,1067767.77,1068601.94,1067.768,1068.602,0.834,write,0,,1,[silence]
+120,32026,32103,1068601.94,1071204.54,1068.602,1071.205,2.603,explain,3,0.969,0,all over 2a.
+121,32104,32128,1071204.54,1072038.71,1071.205,1072.039,0.834,write,0,,1,[silence]
+122,32129,33823,1072038.71,1128595.26,1072.039,1128.595,56.557,explain,163,0.91,0,"Ok. Well, you can see what is going to happen in here, I hope. Negative 3 squared is going to be positive 9, but you are have 9 minus, well, this is a negative times 2 positive, so 4 times 5 is 20, and 20 times 5 is 100. Or excuse me, did I say the right 20 times 5 is 100? Well, 9 minus 100, if you only accepting real answers, you are going be taking the square root of a negative number. So there is not a real solution. There would be a couple of imaginary solutions, but not a real solution. So as far as real solutions, this would have, well, no solution. So we did not get a solution on this number line, a real solution that is less than 1 fifth. So from this equation, we not going to get a solution to this equation. So now let's move on to the second interval on our number line."
+123,33824,33831,1128595.26,1128862.20,1128.595,1128.862,0.267,out,0,,1,[silence]
+124,33832,33861,1128862.20,1129863.20,1128.862,1129.863,1.001,transit,0,,1,[silence]
+125,33862,34085,1129863.20,1137337.34,1129.863,1137.337,7.474,out,0,,1,[silence]
+126,34086,34355,1137337.34,1146346.35,1137.337,1146.346,9.009,explain,16,0.866,0,"Now at this point, got 5x squared plus x minus 4, and 5 times negative 4"
+127,34356,34471,1146346.35,1150216.88,1146.346,1150.217,3.871,write,0,,1,[silence]
+128,34472,35598,1150216.88,1187821.15,1150.217,1187.821,37.604,explain,118,0.93,0,"is equal to negative 20. Now there are factors of negative 20 that add to the middle term of positive 1. And, well, I ended up with that pair. I mean we could talk about negative 1 and 20, 1 and negative 20, 2 and negative 10, 10 and negative 2. But you can take with quadratics the first and last number, the leading coefficient and the constant, multiply them together. And if that product has a set of factors again that add to the middle number, then you can use those factors to rewrite the middle term into two separate ones. We basically writing this in four terms instead of three. So we are going to have"
+129,35599,35647,1187821.15,1189456.12,1187.821,1189.456,1.635,write,1,0.892,0,5x
+130,35648,35722,1189456.12,1191958.63,1189.456,1191.959,2.503,explain,3,0.719,0,squared plus 5x.
+131,35723,35775,1191958.63,1193727.06,1191.959,1193.727,1.768,write,0,,1,[silence]
+132,35776,35846,1193727.06,1196096.10,1193.727,1196.096,2.369,explain,1,0.746,0,"Actually,"
+133,35847,35878,1196096.10,1197163.83,1196.096,1197.164,1.068,pickerase,2,0.908,0,I want
+134,35879,35935,1197163.83,1199065.73,1197.164,1199.066,1.902,erase,7,0.911,0,"to put the, it doesn't matter what"
+135,35936,35959,1199065.73,1199866.53,1199.066,1199.867,0.801,droperase,3,0.989,0,order you do
+136,35960,36122,1199866.53,1205305.31,1199.867,1205.305,5.439,explain,29,0.861,0,"this in, when you are factoring like this, there is a little bit of a thing I want to point out here. So am going put the negative 4"
+137,36123,36277,1205305.31,1210477.14,1205.305,1210.477,5.172,write,1,0.995,0,first.
+138,36278,36818,1210477.14,1228528.53,1210.477,1228.529,18.051,explain,66,0.937,0,"Again, it doesn't really matter, but I just want to point something out here. If put the negative 4 first, you are now going to, we have rewritten again that middle term with these two factors. And we have got four terms. You are to factor this by grouping. What comes out of the first two terms? Well, they both have a common factor of x."
+139,36819,36913,1228528.53,1231698.37,1228.529,1231.698,3.170,write,0,,1,[silence]
+140,36914,37957,1231698.37,1266533.20,1231.698,1266.533,34.835,explain,119,0.937,0,"Now when you factor by grouping, can factor by grouping if you can take something out of the first two terms and something out of the last two terms and get a new line that has in itself two terms which are like or are equal. So that means that I have to show that I have factored something out of the first two terms and something out of the last two terms. So this is 5x -4, and on the end of our equation we have a match already, 5x -4. Well, if this is already a match, then I need to show that I am factoring out a positive 1. I need to show that I am"
+141,37958,38139,1266533.20,1272605.94,1266.533,1272.606,6.073,write,12,0.979,0,"factoring something out, but I don't want to change these two terms."
+142,38140,38154,1272605.94,1273106.44,1272.606,1273.106,0.501,explain,1,0.402,0,"Okay,"
+143,38155,38455,1273106.44,1283149.82,1273.106,1283.150,10.043,explain,21,0.894,0,now we have x times 5x -4 plus 5x -4 plus 1 times 5x -4. And now these two terms have
+144,38456,38495,1283149.82,1284484.48,1283.150,1284.484,1.335,write,3,0.995,0,a common factor
+145,38496,38577,1284484.48,1287220.55,1284.484,1287.221,2.736,explain,8,0.919,0,"of 5x -4. So we pull that out,"
+146,38578,38749,1287220.55,1292959.63,1287.221,1292.960,5.739,write,0,,1,[silence]
+147,38750,38839,1292959.63,1295962.63,1292.960,1295.963,3.003,explain,7,0.88,0,"set each one these equal to 0,"
+148,38840,39045,1295962.63,1302836.17,1295.963,1302.836,6.874,write,0,,1,[silence]
+149,39046,39126,1302836.17,1305538.87,1302.836,1305.539,2.703,explain,9,0.818,0,and we get x is equal to negative 1.
+150,39127,39195,1305538.87,1307841.17,1305.539,1307.841,2.302,write,0,,1,[silence]
+151,39196,39225,1307841.17,1308842.18,1307.841,1308.842,1.001,explain,4,0.848,0,Add the 4 to
+152,39226,39359,1308842.18,1313313.31,1308.842,1313.313,4.471,write,5,0.981,0,"both sides, divide by 5,"
+153,39360,39894,1313313.31,1331164.50,1313.313,1331.164,17.851,explain,36,0.87,0,"and we get x is equal to 4 fifths. Well, negative 1, we created this equation using this interval of the number line. And negative 1 is not between 1 fifth and positive 2. So while"
+154,39895,39920,1331164.50,1332032.03,1331.164,1332.032,0.868,crossout,3,0.986,0,this is a
+155,39921,40499,1332032.03,1351351.35,1332.032,1351.351,19.319,explain,49,0.929,0,"solution to this equation, doesn't meet the restrictions of this interval, so we need to toss it. And right now we are looking at a solution so far for this absolute value equation of 4 fifths. So let's get on to the third interval and see what happens there."
+156,40500,40515,1351351.35,1351885.22,1351.351,1351.885,0.534,out,0,,1,[silence]
+157,40516,40562,1351885.22,1353453.45,1351.885,1353.453,1.568,transit,0,,1,[silence]
+158,40563,40630,1353453.45,1355722.39,1353.453,1355.722,2.269,out,0,,1,[silence]
+159,40631,40772,1355722.39,1360460.46,1355.722,1360.460,4.738,transit,0,,1,[silence]
+160,40773,40787,1360460.46,1360960.96,1360.460,1360.961,0.501,out,0,,1,[silence]
+161,40788,41213,1360960.96,1375175.18,1360.961,1375.175,14.214,explain,41,0.913,0,Alrighty then. are getting right back to where we were in the first place with the first interval and ended up with a quadratic that is not going to have a solution. So moving on to our third and last example.
+162,41214,41263,1375175.18,1376843.51,1375.175,1376.844,1.668,transit,0,,1,[silence]
+163,41264,41292,1376843.51,1377811.14,1376.844,1377.811,0.968,out,0,,1,[silence]
+164,41293,42517,1377811.14,1418685.35,1377.811,1418.685,40.874,explain,126,0.903,0,"Last example. Absolute value of 2x plus 3 minus absolute value of x plus 4 is equal to 2. Looks a little bit different. Absolute values are on the same side. They subtracted together, a little bit different than the previous ones. But they again all work through the same process. Now as you set up these little equations they are all going to be linear functions and much simpler to solve than the previous examples. So I going to step out and release the solution one step at a time. And when done with this, don't tune out yet, we are going to replace this equal sign with an inequality and just see what that adds to our work at the end of the problem."
+165,42518,42535,1418685.35,1419285.95,1418.685,1419.286,0.601,out,0,,1,[silence]
+166,42536,43841,1419285.95,1462862.86,1419.286,1462.863,43.577,transit,0,,1,[silence]
+167,43842,43848,1462862.86,1463096.43,1462.863,1463.096,0.234,out,0,,1,[silence]
+168,43849,46582,1463096.43,1554320.99,1463.096,1554.321,91.225,explain,255,0.896,0,"So we found our turning points. We marked those along the x axis. We tested the values of negative 5, negative 3, and 0 and realized that our two absolute values would be negative here, the negative positive, and then positive when we get to the right of 3 over 2. And that set up our following equations. Which you hopefully followed the process of solving those. Like again, at least for the first group here, let's replace this absolute value with a set of negative parenthesis. And then there is a minus from right there. And then we going to replace the second set of absolute values with another set of negative parenthesis. And they cancel out here. We distributed this negative. We combined like terms. Negative 2 plus 1 is negative 1x. We combined the negative 3 plus 4 which is positive 1 and continued to solve for x. And we got x is equal to negative 1. Negative 1 was not in this interval of the number line or not less than negative 4. So for this equation that was not acceptable as a solution. And then we repeated the process for the second and the third case where we had a negative positive and then two positives. That gave us two final answers of x equals negative 3 and x equals 3 for this equation. Which of course has our two absolute value functions in it. Or expressions or whatever you want to call it. Now what if that was not"
+169,46583,46774,1554320.99,1560727.39,1554.321,1560.727,6.406,addboard,11,0.924,0,equal to 2 but less than 2. So breaking out our
+170,46775,48345,1560727.39,1613146.48,1560.727,1613.146,52.419,explain,158,0.906,0,very high tech picture in picture here. We get this idea that ok well we solved the equation. Now let's deal with it if it were an inequality. Well those answers of negative 3 and positive 3 become yet another couple of critical values to separate our number line again. Now I have open dots on the negative 3 and positive 3 because the way I have this equation written or this inequality written now I want it to be less than 2 not equal to 2. So if it was equal to 2 then these dots would be filled in. And I have picked a numerical value an x value within each of these three intervals on the number line. And we simply going to plug them into the inequality and see if we get an answer that less than 2. And if it is then that portion of the inequality is part of the solution set.
+171,48346,48373,1613146.48,1614080.75,1613.146,1614.081,0.934,addboard,0,,1,[silence]
+172,48374,48823,1614080.75,1629095.76,1614.081,1629.096,15.015,explain,38,0.875,0,So if I plug negative 4 into here I am going to have 2 times negative 4 which is negative 8. And negative 8 plus 3 is a negative 5. And the absolute value of negative 5 is
+173,48824,48845,1629095.76,1629829.83,1629.096,1629.830,0.734,write,1,0.9,0,positive
+174,48846,49307,1629829.83,1645245.25,1629.830,1645.245,15.415,explain,42,0.898,0,5. And again if I plug in negative 4 into this absolute value negative 4 plus 4 0. The absolute value of 0 is 0 so we have minus 0. So we have 5 from this absolute value function minus 0. Now
+175,49308,49546,1645245.25,1653219.89,1645.245,1653.220,7.975,write,18,0.894,0,is that less than 2? Is 5 less than 2? Well we know the answer to that. answer
+176,49547,49567,1653219.89,1653920.59,1653.220,1653.921,0.701,crossout,4,0.912,0,is a big fat
+177,49568,49639,1653920.59,1656322.99,1653.921,1656.323,2.402,explain,4,0.853,0,NO! So this portion
+178,49640,49657,1656322.99,1656923.59,1656.323,1656.924,0.601,crossout,1,0.975,0,of
+179,49658,49918,1656923.59,1665632.30,1656.924,1665.632,8.709,explain,23,0.96,0,"our number line does not work, does not give us a left side which is less than 2. Let's plug in 0. Well"
+180,49919,49932,1665632.30,1666099.43,1665.632,1666.099,0.467,write,3,0.92,0,when you plug
+181,49933,50168,1666099.43,1673973.97,1666.099,1673.974,7.875,explain,22,0.974,0,"in 0, 2 times 0 is 0. 0 plus 3 is 3. And the absolute value of 3 is of course equal"
+182,50169,50182,1673973.97,1674441.11,1673.974,1674.441,0.467,write,1,0.994,0,to
+183,50183,50254,1674441.11,1676843.51,1674.441,1676.844,2.402,explain,1,0.99,0,3.
+184,50255,50261,1676843.51,1677077.08,1676.844,1677.077,0.234,write,0,,1,[silence]
+185,50262,50470,1677077.08,1684050.72,1677.077,1684.051,6.974,explain,21,0.863,0,Minus 0 plus 4 is 4. And the absolute value of is positive 4. But I am going write minus 4
+186,50471,50489,1684050.72,1684684.68,1684.051,1684.685,0.634,write,1,0.881,0,because
+187,50490,50758,1684684.68,1693660.33,1684.685,1693.660,8.976,explain,33,0.893,0,of the negative that is in front of the absolute value symbol. I holding the board so it does not bounce on the other blackboard here. And 3 minus 4 is equal to
+188,50759,50890,1693660.33,1698064.73,1693.660,1698.065,4.404,write,9,0.924,0,negative 1. And indeed negative 1 is less than
+189,50891,50901,1698064.73,1698431.77,1698.065,1698.432,0.367,hook,1,0.989,0,2.
+190,50902,51462,1698431.77,1717150.48,1698.432,1717.150,18.719,explain,50,0.957,0,"So if one number within this interval between negative 3 and 3 gives me a value less than 2, then I know every value between negative 3 and 3 is going to give us a value which is less than 2. So this whole interval is our solution so far."
+191,51463,51475,1717150.48,1717584.25,1717.150,1717.584,0.434,hook,0,,1,[silence]
+192,51476,51619,1717584.25,1722389.06,1717.584,1722.389,4.805,explain,20,0.853,0,Now I don't think that this last interval is going to work but let's check it anyway. Plug in 4.
+193,51620,51636,1722389.06,1722956.29,1722.389,1722.956,0.567,write,0,,1,[silence]
+194,51637,51912,1722956.29,1732165.50,1722.956,1732.165,9.209,explain,23,0.896,0,We have 2 times 4 is positive 8. Positive 8 plus 3 is equal to 11. And the absolute value 11 is 11.
+195,51913,51928,1732165.50,1732699.37,1732.165,1732.699,0.534,write,0,,1,[silence]
+196,51929,51964,1732699.37,1733900.57,1732.699,1733.901,1.201,explain,1,0.889,0,Minus
+197,51965,51971,1733900.57,1734134.13,1733.901,1734.134,0.234,write,0,,1,[silence]
+198,51972,52258,1734134.13,1743710.38,1734.134,1743.710,9.576,explain,25,0.935,0,4 plus 4 is equal to 8. And the absolute value of 8 is going to be equal to 8. And so we have 11
+199,52259,52515,1743710.38,1752285.62,1743.710,1752.286,8.575,write,15,0.89,0,minus 8 is that less than 2. Well no. 3 is not less than 2.
+200,52516,52563,1752285.62,1753887.22,1752.286,1753.887,1.602,crossout,3,0.782,0,So this part
+201,52564,52743,1753887.22,1759893.23,1753.887,1759.893,6.006,explain,15,0.957,0,of the number line is not part of our solution to this inequality. And our
+202,52744,52794,1759893.23,1761594.93,1759.893,1761.595,1.702,pickerase,3,0.97,0,"final answer, if"
+203,52795,52858,1761594.93,1763730.40,1761.595,1763.730,2.135,erase,7,0.976,0,it was the absolute value of 2x
+204,52859,52889,1763730.40,1764764.76,1763.730,1764.765,1.034,droperase,2,0.526,0,plus 3
+205,52890,53057,1764764.76,1770370.37,1764.765,1770.370,5.606,explain,21,0.969,0,"minus the absolute value of x plus 4 is less than 2, the answer to that inequality is going to be"
+206,53058,53219,1770370.37,1775775.78,1770.370,1775.776,5.405,write,13,0.927,0,x has got to be greater than negative 3 and less than positive
+207,53220,53311,1775775.78,1778845.51,1775.776,1778.846,3.070,explain,13,0.854,0,3. Or if you are using interval notation that means that your answers
+208,53312,53395,1778845.51,1781648.31,1778.846,1781.648,2.803,write,8,0.977,0,are to be between negative 3 and positive
+209,53396,53594,1781648.31,1788288.29,1781.648,1788.288,6.640,explain,23,0.934,0,"3. And that is the end of my last example, end of my video. I am Mr. Tarrou. BAM!!! Go do your homework!"
+210,53595,53644,1788288.29,1789956.62,1788.288,1789.957,1.668,out,0,,1,[silence]
+211,53645,53999,1789956.62,1801801.80,1789.957,1801.802,11.845,transit,0,,1,[silence]

@@ -1,0 +1,14 @@
+=== LectureMath_00000_000_003  started 2026-06-04 15:39:17 ===
+  [1/4] Parsing annotations: /Users/kritikabhat/Documents/MastersResearch/annotations/LectureMath_00000_000_003.xml
+        Done — 699 segments  (0.0s)
+  [2/4] Extracting audio → /Users/kritikabhat/Documents/MastersResearch/Code/output/LectureMath_00000_000_003/LectureMath_00000_000_003.wav
+        Done — 79.3 MB  (3.8s)
+  [3/4] Transcribing with Whisper (medium) ...
+        Done — 609 whisper segs, 5167 words, RTF=0.42x  (1032.1s)
+  [4/4] Aligning words to segments (both modes) ...
+        [contained] silent=125/699 -> /Users/kritikabhat/Documents/MastersResearch/Code/output/LectureMath_00000_000_003/aligned_contained.csv
+        [overlap] silent=88/699 -> /Users/kritikabhat/Documents/MastersResearch/Code/output/LectureMath_00000_000_003/aligned_overlap.csv
+        Done  (0.0s)
+  wav removed (--no-keep-wav)
+
+  DONE in 1035.8s  (segments=699, words=5167)

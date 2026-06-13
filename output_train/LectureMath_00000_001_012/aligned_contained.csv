@@ -1,0 +1,483 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,46,0.00,1568.23,0.000,1.568,1.568,out,0,,1,[silence]
+1,47,89,1568.23,3003.00,1.568,3.003,1.435,explain,0,,1,[silence]
+2,90,139,3003.00,4671.34,3.003,4.671,1.668,out,0,,1,[silence]
+3,140,479,4671.34,16016.02,4.671,16.016,11.345,explain,7,0.894,0,"So, today we begin our lecture 12,"
+4,480,553,16016.02,18485.15,16.016,18.485,2.469,write,0,,1,[silence]
+5,554,665,18485.15,22222.22,18.485,22.222,3.737,explain,0,,1,[silence]
+6,666,731,22222.22,24424.42,22.222,24.424,2.202,out,0,,1,[silence]
+7,732,1060,24424.42,35402.07,24.424,35.402,10.978,explain,11,0.882,0,"so we begin with lecture 12, let us recall the things"
+8,1061,1453,35402.07,48515.18,35.402,48.515,13.113,write,13,0.961,0,"that we did last time, we talked about the concept of vector space,"
+9,1454,1556,48515.18,51951.95,48.515,51.952,3.437,explain,4,0.994,0,then we talked about
+10,1557,2055,51951.95,68601.94,51.952,68.602,16.650,write,31,0.927,0,"the concept of a subspace, so just as a reminder, vector space was basically a non -empty set which had two operations, one about addition, one about multiplication by a scalar"
+11,2056,2329,68601.94,77744.41,68.602,77.744,9.142,explain,19,0.8,0,and we said it is closed in the addition and multiplication by scalar and it had total ten axioms
+12,2330,2331,77744.41,77811.14,77.744,77.811,0.067,write,0,,1,[silence]
+13,2332,2473,77811.14,82549.22,77.811,82.549,4.738,write,5,0.951,0,"that we talked about, various"
+14,2474,2779,82549.22,92759.43,82.549,92.759,10.210,explain,22,0.927,0,"laws like distributive law, commutative law, existence of zero, existence of inverses, so all those things we had talked about and subspace"
+15,2780,3130,92759.43,104471.14,92.759,104.471,11.712,write,9,0.812,0,was basically a subset of a vector space which
+16,3131,3251,104471.14,108508.51,104.471,108.509,4.037,explain,0,,1,[silence]
+17,3252,3677,108508.51,122722.72,108.509,122.723,14.214,write,8,0.966,0,"is a vector space in its own right,"
+18,3678,3893,122722.72,129929.93,122.723,129.930,7.207,explain,11,0.904,0,"so this is like so -called, I would say crude way"
+19,3894,3927,129929.93,131064.40,129.930,131.064,1.134,out,3,0.994,0,"of putting things,"
+20,3928,4019,131064.40,134134.13,131.064,134.134,3.070,explain,12,0.958,0,"since it is a reminder, so I just giving the essence of"
+21,4020,4068,134134.13,135769.10,134.134,135.769,1.635,out,2,0.792,0,"it, subspace"
+22,4069,4306,135769.10,143710.38,135.769,143.710,7.941,explain,26,0.918,0,of a vector space is a non -empty subset of a vector space which is a vector space in its own right and we had seen
+23,4307,6357,143710.38,212145.48,143.710,212.145,68.435,write,89,0.903,0,"how to check something is a vector space, how to check something is a subspace, so let me recall for subspace, all we needed to ensure was that if I say a subset S of my vector space V is a subspace, then it should be non -empty and it should be closed under and the third thing we want is it should be closed under scalar, now these two things can be combined under one simple idea and we can say that S is closed under linear combination,"
+24,6358,6502,212145.48,216983.65,212.145,216.984,4.838,explain,7,0.877,0,so we pick two vectors in here
+25,6503,6545,216983.65,218418.42,216.984,218.418,1.435,out,2,0.921,0,and form
+26,6546,6846,218418.42,228461.80,218.418,228.462,10.043,explain,18,0.893,0,"every possible linear combination, all the combinations thus formed would be inside set S, so what this means,"
+27,6847,7701,228461.80,256990.32,228.462,256.990,28.529,write,48,0.88,0,"so what I will do I will to give you the meaning of it, so if I pick two vectors, let us say U and V which belong to my set S and suppose C1 and C2 are linear numbers, in general you can call them as scalars"
+28,7702,8814,256990.32,294127.46,256.990,294.127,37.137,explain,54,0.84,0,"depending on the field we are using, but since our attention goes to the numbers, so this is a subspace if we can guarantee that C1 U plus C2 V can always be inside S, so if it is closed under linear combinations, then we can say that our set S is a subspace"
+29,8815,8905,294127.46,297163.83,294.127,297.164,3.036,out,3,0.888,0,of our vector
+30,8906,9097,297163.83,303570.24,297.164,303.570,6.406,explain,23,0.917,0,"space, so this is what I just trying to recall in a nutshell of things that we saw, now what we will do"
+31,9098,9190,303570.24,306673.34,303.570,306.673,3.103,out,8,0.882,0,is I come up with some examples of
+32,9191,9323,306673.34,311111.11,306.673,311.111,4.438,explain,10,0.898,0,"how addition and multiplication can be defined on different sets,"
+33,9324,9379,311111.11,312979.65,311.111,312.980,1.869,out,6,0.986,0,something which is less familiar to
+34,9380,9407,312979.65,313913.91,312.980,313.914,0.934,pick_eraser,2,0.778,0,us and
+35,9408,9866,313913.91,329229.23,313.914,329.229,15.315,erase,26,0.918,0,"we check how well whether they will form a vector space or not, so let me construct some simple examples first that can help us understand"
+36,9867,9912,329229.23,330764.10,329.229,330.764,1.535,drop_eraser,4,0.978,0,or sort of come
+37,9913,9937,330764.10,331598.26,330.764,331.598,0.834,explain,4,0.992,0,out of our comfort
+38,9938,10033,331598.26,334801.47,331.598,334.801,3.203,out,6,0.994,0,"zone, so here is one example,"
+39,10034,10130,334801.47,338038.04,334.801,338.038,3.237,explain,8,0.962,0,"so here is my space, here is my"
+40,10131,10490,338038.04,350050.05,338.038,350.050,12.012,write,19,0.872,0,"set, this must be a very lesser to us, basically I am saying let us again look at the"
+41,10491,10523,350050.05,351151.15,350.050,351.151,1.101,explain,2,0.716,0,two dimensional
+42,10524,10633,351151.15,354821.49,351.151,354.821,3.670,out,8,0.934,0,"vectors in real space, however this time I"
+43,10634,10685,354821.49,356556.56,354.821,356.557,1.735,explain,4,0.995,0,am going to define
+44,10686,11299,356556.56,377043.71,356.557,377.044,20.487,write,42,0.941,0,"my addition and subtraction slightly differently, so this time I am going to say that suppose you want to add two vectors x y and say a b, this is how you are going to add x plus a y plus b,"
+45,11300,11396,377043.71,380280.28,377.044,380.280,3.237,explain,13,0.918,0,so this is my definition of addition which is the same as what
+46,11397,11682,380280.28,389823.16,380.280,389.823,9.543,write,24,0.96,0,"we have seen so many times, here is my definition of multiplication by a scalar, notice that I want to define it like this,"
+47,11683,11710,389823.16,390757.42,389.823,390.757,0.934,explain,2,0.915,0,I am
+48,11711,11845,390757.42,395261.93,390.757,395.262,4.505,out,10,0.905,0,"only multiplying the second component not the first one, suppose"
+49,11846,11904,395261.93,397230.56,395.262,397.231,1.969,explain,7,0.989,0,this is my new definition of addition
+50,11905,11967,397230.56,399332.67,397.231,399.333,2.102,out,6,0.982,0,"and multiplication by a scalar, the"
+51,11968,11987,399332.67,400000.00,399.333,400.000,0.667,explain,4,0.987,0,question we are asking
+52,11988,12508,400000.00,417384.05,400.000,417.384,17.384,write,9,0.846,0,"is, is V a vector space under these operations,"
+53,12509,12541,417384.05,418485.15,417.384,418.485,1.101,explain,0,,1,[silence]
+54,12542,13260,418485.15,442475.81,418.485,442.476,23.991,out,71,0.934,0,"so what it means to say is that we are taking a familiar set namely R2, but this time we are trying to come up with a different way of adding things and multiplying the scalars, so that in some sense it will lead us to a different kind of geometry, now under this new set of operations where it is still be a vector space or this one of the"
+55,13261,13335,442475.81,444978.31,442.476,444.978,2.503,pick_eraser,8,0.953,0,"axioms or some of the axioms go wrong,"
+56,13336,13888,444978.31,463430.10,444.978,463.430,18.452,erase,35,0.887,0,"so what we will do is we go through all the axioms one by one and see all of them are followed over, is there a problem somewhere, so let try to analyze is this"
+57,13889,13995,463430.10,467000.33,463.430,467.000,3.570,drop_eraser,11,0.969,0,"a vector space, so first of all we will talk about"
+58,13996,14087,467000.33,470070.07,467.000,470.070,3.070,out,2,0.98,0,"closure, so"
+59,14088,14168,470070.07,472772.77,470.070,472.773,2.703,explain,7,0.971,0,"let us talk about the closure part,"
+60,14169,14177,472772.77,473073.07,472.773,473.073,0.300,explain,0,,1,[silence]
+61,14178,14210,473073.07,474174.17,473.073,474.174,1.101,explain,2,0.964,0,is closure
+62,14211,14318,474174.17,477777.78,474.174,477.778,3.604,write,2,0.907,0,"under addition,"
+63,14319,14338,477777.78,478445.11,477.778,478.445,0.667,pick_eraser,0,,1,[silence]
+64,14339,14383,478445.11,479946.61,478.445,479.947,1.502,erase,0,,1,[silence]
+65,14384,14405,479946.61,480680.68,479.947,480.681,0.734,drop_eraser,0,,1,[silence]
+66,14406,14408,480680.68,480780.78,480.681,480.781,0.100,explain,0,,1,[silence]
+67,14409,14443,480780.78,481948.62,480.781,481.949,1.168,out,0,,1,[silence]
+68,14444,14600,481948.62,487187.19,481.949,487.187,5.239,explain,6,0.884,0,is closure under addition there or
+69,14601,14619,487187.19,487821.15,487.187,487.821,0.634,explain,0,,1,[silence]
+70,14620,14708,487821.15,490790.79,487.821,490.791,2.970,out,9,0.984,0,"not, as you can see it is the usual"
+71,14709,15153,490790.79,505638.97,490.791,505.639,14.848,explain,46,0.927,0,"addition the way we add things, so if I take vector in V, I pick another vector in V, as you can see the only criteria for something being in V is that both of these are real numbers, so I would say closure under addition,"
+72,15154,15595,505638.97,520387.05,505.639,520.387,14.748,write,10,0.836,0,"it is the usual addition I am guaranteed the closure,"
+73,15596,15634,520387.05,521688.36,520.387,521.688,1.301,explain,0,,1,[silence]
+74,15635,15780,521688.36,526559.89,521.688,526.560,4.872,out,14,0.91,0,"so that is something which is not a, which we can check fairly easily,"
+75,15781,15801,526559.89,527260.59,526.560,527.261,0.701,explain,3,0.971,0,now we have
+76,15802,15929,527260.59,531531.53,527.261,531.532,4.271,write,7,0.883,0,"to worry about closure under multiplication, is"
+77,15930,15951,531531.53,532265.60,531.532,532.266,0.734,explain,0,,1,[silence]
+78,15952,16024,532265.60,534701.37,532.266,534.701,2.436,out,5,0.956,0,"it closed under multiplication, well"
+79,16025,16420,534701.37,547914.58,534.701,547.915,13.213,explain,31,0.908,0,"let us see if I pick a vector in R2 in V and multiplied by scalar under this definition, the first component and the second component both belong to R, so"
+80,16421,17315,547914.58,577777.78,547.915,577.778,29.863,write,47,0.874,0,"suppose I pick x, in V and suppose I have a scalar C, then C times x, y which is basically x, C, y both the components, so both x and C, y are in R, this implies this vector x, C, y will also belong to"
+81,17316,17357,577777.78,579179.18,577.778,579.179,1.401,explain,3,0.651,0,"V, hence it"
+82,17358,17717,579179.18,591191.19,579.179,591.191,12.012,out,36,0.908,0,"is closed under multiplication also, so closure is not a problem is closed under both these operations, so maybe it is a vector space, but remember we have to talk about other axioms, so what I"
+83,17718,17767,591191.19,592859.53,591.191,592.860,1.668,explain,10,0.89,0,will do is I will pick one or two axioms
+84,17768,18053,592859.53,602402.40,592.860,602.402,9.543,out,24,0.909,0,as an example just to illustrate the process and then we will see if we are able to randomly come up with an idea
+85,18054,18341,602402.40,612012.01,602.402,612.012,9.610,explain,16,0.95,0,"of which axiom may fail in this case, so let us try the axiom about the"
+86,18342,19409,612012.01,647647.65,612.012,647.648,35.636,write,48,0.872,0,"zero vector, is there a zero vector, well I claim that 0, 0 which is a member of V is the vector, now the easiest way to check is let us perform the addition on defined on V, based on the definition of addition we are going to"
+87,19410,19608,647647.65,654287.62,647.648,654.288,6.640,explain,12,0.893,0,"this, so existence of zero vector is guaranteed to us and hence"
+88,19609,20108,654287.62,670970.97,654.288,670.971,16.683,out,34,0.862,0,"at least this axiom about the existence of a zero vector for an identity is also taken care of, so we have a zero vector, what about commutativity, is the addition commutative that means"
+89,20109,20205,670970.97,674207.54,670.971,674.208,3.237,explain,13,0.907,0,if I switch the order of these guys will I still get the
+90,20206,20363,674207.54,679479.48,674.208,679.479,5.272,out,15,0.925,0,"same vector as produced before, instead of checking all these axioms one by one let"
+91,20364,20401,679479.48,680747.41,679.479,680.747,1.268,explain,3,0.994,0,us apply some
+92,20402,20437,680747.41,681948.62,680.747,681.949,1.201,out,2,0.981,0,"common sense,"
+93,20438,20489,681948.62,683683.68,681.949,683.684,1.735,explain,5,0.996,0,this addition that we have
+94,20490,20507,683683.68,684284.28,683.684,684.284,0.601,out,2,0.83,0,obtained we
+95,20508,20541,684284.28,685418.75,684.284,685.419,1.134,explain,4,0.81,0,have defined for V
+96,20542,20570,685418.75,686386.39,685.419,686.386,0.968,out,4,0.924,0,is the same as
+97,20571,20631,686386.39,688421.76,686.386,688.422,2.035,explain,6,0.909,0,"we had already encountered in R2,"
+98,20632,20789,688421.76,693693.69,688.422,693.694,5.272,out,9,0.994,0,so any axiom which is only based on the
+99,20790,20929,693693.69,698365.03,693.694,698.365,4.671,explain,16,0.88,0,"vectors will still be true in V, because we are just using the same old definition"
+100,20930,21099,698365.03,704037.37,698.365,704.037,5.672,out,16,0.919,0,"of addition, so if at all things are going to go bad for us it should"
+101,21100,21256,704037.37,709275.94,704.037,709.276,5.239,explain,13,0.928,0,be somewhere where multiplication is involved because scalar multiplication is defined in an
+102,21257,21651,709275.94,722455.79,709.276,722.456,13.180,out,41,0.917,0,"unusual way, so if at all there is a problem it should be there, so I will pick one axiom from about multiplication and try to check it whether it is whether it holds or not, so let me try to"
+103,21652,21829,722455.79,728395.06,722.456,728.395,5.939,explain,4,0.895,0,"pick this axiom about,"
+104,21830,22642,728395.06,755522.19,728.395,755.522,27.127,write,33,0.908,0,"remember we had one of the axioms about the distributive law that C plus D times U must be C times U plus D times U, where C and D are skaters, question"
+105,22643,22802,755522.19,760860.86,755.522,760.861,5.339,explain,13,0.93,0,"is will this be true here also, so what we do is we"
+106,22803,24234,760860.86,808641.98,760.861,808.642,47.781,write,85,0.866,0,"will make a check, we will do a check and see if it is worth it or not, so first let us have our vector U and let us have our two skaters, so C plus D times U will be C plus D times vector x y and the vector x and based on the multiplication we have been given this would be x times C plus D y, based on the addition we know I can split it as x C y x,"
+107,24235,24329,808641.98,811811.81,808.642,811.812,3.170,explain,0,,1,[silence]
+108,24330,24394,811811.81,813980.65,811.812,813.981,2.169,pick_eraser,0,,1,[silence]
+109,24395,24502,813980.65,817584.25,813.981,817.584,3.604,erase,8,0.658,0,"x naught is pretty much, let me just"
+110,24503,24589,817584.25,820487.15,817.584,820.487,2.903,drop_eraser,7,0.659,0,"close it, it is slow, suppose I"
+111,24590,24852,820487.15,829262.60,820.487,829.263,8.775,explain,28,0.938,0,"come to this point x C plus D y, question is this is my left hand side, will it equal the right hand side, so let us try"
+112,24853,25583,829262.60,853653.65,829.263,853.654,24.391,write,39,0.807,0,"to understand what the right hand side will be, C U plus D, this would be C times x y plus D times x y, based on our multiplication this would be x C y plus x D y,"
+113,25584,25895,853653.65,864064.06,853.654,864.064,10.410,explain,25,0.96,0,"now the question is, is this quantity that we have obtained here, is this right hand side equal to the left hand side, as you"
+114,25896,26125,864064.06,871738.41,864.064,871.738,7.674,write,18,0.688,0,"add the way we have defined addition, this would give you 2 x C plus D y and"
+115,26126,26702,871738.41,890990.99,871.738,890.991,19.253,explain,32,0.924,0,"if you look at this, definitely these two things need not be equal for all the use of x, so that means this axiom will fail in this particular given set, hence"
+116,26703,27272,890990.99,910010.01,890.991,910.010,19.019,write,29,0.828,0,"so what we have obtained is that C plus D U need not be the same as C U plus D U, hence it is not a vector space,"
+117,27273,27375,910010.01,913446.78,910.010,913.447,3.437,explain,5,0.971,0,so what it means is
+118,27376,27522,913446.78,918351.69,913.447,918.352,4.905,out,13,0.88,0,"that I define, I try to define a new operation on a old"
+119,27523,27541,918351.69,918985.65,918.352,918.986,0.634,explain,1,0.989,0,beast
+120,27542,27555,918985.65,919452.79,918.986,919.453,0.467,out,1,0.863,0,and
+121,27556,27561,919452.79,919652.99,919.453,919.653,0.200,explain,0,,1,[silence]
+122,27562,27705,919652.99,924457.79,919.653,924.458,4.805,out,15,0.933,0,"this failed to be a vector space, what does this mean, does this mean that"
+123,27706,27765,924457.79,926459.79,924.458,926.460,2.002,explain,8,0.958,0,this R2 can only be a vector space
+124,27766,27779,926459.79,926926.93,926.460,926.927,0.467,out,1,0.971,0,in
+125,27780,27834,926926.93,928762.10,926.927,928.762,1.835,explain,7,0.993,0,the usual way of adding things and
+126,27835,27928,928762.10,931898.57,928.762,931.899,3.136,out,3,0.996,0,"multiplying things, because"
+127,27929,27975,931898.57,933466.80,931.899,933.467,1.568,explain,5,0.994,0,it seems to be failing
+128,27976,28257,933466.80,942876.21,933.467,942.876,9.409,out,34,0.919,0,"in the same way of defining things, what does it mean that only this is an operation for which we could not have a vector space structure, but there might still be an operation"
+129,28258,28305,942876.21,944477.81,942.876,944.478,1.602,explain,5,0.914,0,on the same set where
+130,28306,28686,944477.81,957190.52,944.478,957.191,12.713,out,38,0.943,0,"things will turn out to be vector space and it will be different from our usual way of looking at R2, so we can look into that, but the main emphasis of this problem was to show you"
+131,28687,28729,957190.52,958625.29,957.191,958.625,1.435,explain,6,0.957,0,that we have to go through
+132,28730,28768,958625.29,959926.59,958.625,959.927,1.301,out,3,0.986,0,"all the axioms,"
+133,28769,28901,959926.59,964364.36,959.927,964.364,4.438,explain,16,0.913,0,"I was lucky enough to hit in the time what this axiom, which axiom is going"
+134,28902,29077,964364.36,970236.90,964.364,970.237,5.873,out,17,0.898,0,"wrong, partly based on experience, partly luck, but in a sense you can go through all the"
+135,29078,29184,970236.90,973807.14,970.237,973.807,3.570,pick_eraser,13,0.881,0,ten axioms and if even one of them fails then you are guaranteed
+136,29185,30869,973807.14,1030030.03,973.807,1030.030,56.223,erase,20,0.847,0,"it is not a vector space. Let me show you something slightly different and see it, it will be nice,"
+137,30870,30936,1030030.03,1032265.60,1030.030,1032.266,2.236,drop_eraser,0,,1,[silence]
+138,30937,30969,1032265.60,1033366.70,1032.266,1033.367,1.101,explain,0,,1,[silence]
+139,30970,31223,1033366.70,1041841.84,1033.367,1041.842,8.475,out,4,0.933,0,so here is a
+140,31224,31251,1041841.84,1042776.11,1041.842,1042.776,0.934,explain,0,,1,[silence]
+141,31252,31277,1042776.11,1043643.64,1042.776,1043.644,0.868,pick_eraser,2,0.984,0,"new set,"
+142,31278,31479,1043643.64,1050383.72,1043.644,1050.384,6.740,erase,5,0.889,0,I will try to define
+143,31480,31508,1050383.72,1051351.35,1050.384,1051.351,0.968,drop_eraser,3,0.773,0,new operations on
+144,31509,31523,1051351.35,1051851.85,1051.351,1051.852,0.501,explain,1,0.992,0,"it,"
+145,31524,31550,1051851.85,1052752.75,1051.852,1052.753,0.901,out,3,0.822,0,so here is
+146,31551,31600,1052752.75,1054421.09,1052.753,1054.421,1.668,explain,3,0.987,0,my new set
+147,31601,31911,1054421.09,1064798.13,1054.421,1064.798,10.377,write,13,0.94,0,"V, which is basically all real numbers which are greater than or equal"
+148,31912,31933,1064798.13,1065532.20,1064.798,1065.532,0.734,explain,2,0.898,0,to 0
+149,31934,32050,1065532.20,1069436.10,1065.532,1069.436,3.904,out,5,0.863,0,or let me actually take
+150,32051,32089,1069436.10,1070737.40,1069.436,1070.737,1.301,pick_eraser,3,0.648,0,"out 0 first,"
+151,32090,32189,1070737.40,1074074.07,1070.737,1074.074,3.337,erase,7,0.821,0,"I do want to create a problem,"
+152,32190,32224,1074074.07,1075241.91,1074.074,1075.242,1.168,drop_eraser,0,,1,[silence]
+153,32225,32279,1075241.91,1077077.08,1075.242,1077.077,1.835,explain,0,,1,[silence]
+154,32280,32459,1077077.08,1083083.08,1077.077,1083.083,6.006,write,13,0.954,0,"so all positive real numbers, you can think of it as all positive"
+155,32460,32491,1083083.08,1084150.82,1083.083,1084.151,1.068,explain,2,0.992,0,real numbers.
+156,32492,32701,1084150.82,1091157.82,1084.151,1091.158,7.007,out,15,0.811,0,"Now, I give you a definition to add this, here is how we will add,"
+157,32702,33102,1091157.82,1104537.87,1091.158,1104.538,13.380,write,14,0.832,0,"so x you will add into y is x times y, c times x,"
+158,33103,33127,1104537.87,1105372.04,1104.538,1105.372,0.834,explain,4,0.98,0,now here is something
+159,33128,33273,1105372.04,1110243.58,1105.372,1110.244,4.872,out,12,0.94,0,"that you should be very very careful about, c is a scalar"
+160,33274,33431,1110243.58,1115515.52,1110.244,1115.516,5.272,explain,16,0.949,0,and x is an object in this set and this is how we are going to
+161,33432,33553,1115515.52,1119586.25,1115.516,1119.586,4.071,out,1,0.977,0,define
+162,33554,33577,1119586.25,1120387.05,1119.586,1120.387,0.801,explain,0,,1,[silence]
+163,33578,33943,1120387.05,1132599.27,1120.387,1132.599,12.212,write,26,0.906,0,"x, so c has to be from the set of real numbers, remember it has to be a field, so c could be any real number,"
+164,33944,33975,1132599.27,1133667.00,1132.599,1133.667,1.068,explain,2,0.996,0,"positive, negative,"
+165,33976,34079,1133667.00,1137137.14,1133.667,1137.137,3.470,out,7,0.878,0,"0, anything, so these are the two"
+166,34080,34125,1137137.14,1138672.01,1137.137,1138.672,1.535,explain,4,0.886,0,"operations we have defined,"
+167,34126,34239,1138672.01,1142475.81,1138.672,1142.476,3.804,write,0,,1,[silence]
+168,34240,34247,1142475.81,1142742.74,1142.476,1142.743,0.267,explain,0,,1,[silence]
+169,34248,34402,1142742.74,1147914.58,1142.743,1147.915,5.172,out,9,0.926,0,"question is, is V a vector space under these"
+170,34403,34416,1147914.58,1148381.72,1147.915,1148.382,0.467,explain,1,0.998,0,"operations,"
+171,34417,34753,1148381.72,1159626.29,1148.382,1159.626,11.245,write,5,0.898,0,"so is a vector space,"
+172,34754,34846,1159626.29,1162729.40,1159.626,1162.729,3.103,explain,0,,1,[silence]
+173,34847,34875,1162729.40,1163697.03,1162.729,1163.697,0.968,pick_eraser,0,,1,[silence]
+174,34876,34917,1163697.03,1165098.43,1163.697,1165.098,1.401,erase,0,,1,[silence]
+175,34918,34949,1165098.43,1166166.17,1165.098,1166.166,1.068,drop_eraser,0,,1,[silence]
+176,34950,34991,1166166.17,1167567.57,1166.166,1167.568,1.401,explain,0,,1,[silence]
+177,34992,35185,1167567.57,1174040.71,1167.568,1174.041,6.473,write,0,,1,[silence]
+178,35186,35214,1174040.71,1175008.34,1174.041,1175.008,0.968,explain,0,,1,[silence]
+179,35215,35376,1175008.34,1180413.75,1175.008,1180.414,5.405,out,2,0.978,0,so let
+180,35377,35436,1180413.75,1182415.75,1180.414,1182.416,2.002,explain,5,0.967,0,me just for the sake
+181,35437,35559,1182415.75,1186519.85,1182.416,1186.520,4.104,write,7,0.832,0,"of illustration let me just highlight it,"
+182,35560,35577,1186519.85,1187120.45,1186.520,1187.120,0.601,explain,0,,1,[silence]
+183,35578,35721,1187120.45,1191925.26,1187.120,1191.925,4.805,out,12,0.849,0,on looking at it and remind ourselves that we are dealing with
+184,35722,35842,1191925.26,1195962.63,1191.925,1195.963,4.037,explain,3,0.943,0,some new operations.
+185,35843,35984,1195962.63,1200700.70,1195.963,1200.701,4.738,out,13,0.876,0,"So, what I will do is I will first go through closure and"
+186,35985,36089,1200700.70,1204204.20,1200.701,1204.204,3.504,explain,9,0.957,0,"then we will talk about some of the axioms,"
+187,36090,36495,1204204.20,1217751.08,1204.204,1217.751,13.547,write,18,0.861,0,"so here is my closure under addition, so suppose I take two objects x and y belonging to"
+188,36496,36525,1217751.08,1218752.09,1217.751,1218.752,1.001,explain,1,0.715,0,"V,"
+189,36526,36622,1218752.09,1221988.66,1218.752,1221.989,3.237,out,8,0.9,0,so the criteria for them to be V
+190,36623,36675,1221988.66,1223757.09,1221.989,1223.757,1.768,explain,0,,1,[silence]
+191,36676,36977,1223757.09,1233833.83,1223.757,1233.834,10.077,write,6,0.626,0,is multiplication and for sure if
+192,36978,37015,1233833.83,1235101.77,1233.834,1235.102,1.268,explain,5,0.966,0,"x is positive, y is"
+193,37016,37043,1235101.77,1236036.04,1235.102,1236.036,0.934,out,1,0.998,0,"positive,"
+194,37044,37090,1236036.04,1237604.27,1236.036,1237.604,1.568,explain,0,,1,[silence]
+195,37091,37317,1237604.27,1245178.51,1237.604,1245.179,7.574,write,0,,1,[silence]
+196,37318,37384,1245178.51,1247414.08,1245.179,1247.414,2.236,out,7,0.893,0,"therefore x times y would be positive,"
+197,37385,37419,1247414.08,1248581.92,1247.414,1248.582,1.168,explain,1,0.976,0,so
+198,37420,37875,1248581.92,1263797.13,1248.582,1263.797,15.215,write,12,0.924,0,"this implies that x plus y will live inside, hence closed under,"
+199,37876,37905,1263797.13,1264798.13,1263.797,1264.798,1.001,explain,0,,1,[silence]
+200,37906,38066,1264798.13,1270170.17,1264.798,1270.170,5.372,out,3,0.879,0,we try to
+201,38067,38128,1270170.17,1272238.91,1270.170,1272.239,2.069,explain,5,0.786,0,go for closure under multiplication
+202,38129,38450,1272238.91,1282982.98,1272.239,1282.983,10.744,write,12,0.857,0,"and see if that also works there, this closure under scalar multiplication,"
+203,38451,38706,1282982.98,1291524.86,1282.983,1291.525,8.542,explain,19,0.789,0,"the reason I am using these special symbols is just to illustrate that we have defined some special operations,"
+204,38707,39614,1291524.86,1321821.82,1291.525,1321.822,30.297,write,51,0.876,0,"so here we pick a scalar, it would be any real number and we pick x to be an object from our set, then c times x, we are defining it as x to the c and since x is positive this implies x raised to the c can also be"
+205,39615,39829,1321821.82,1328995.66,1321.822,1328.996,7.174,explain,26,0.908,0,"positive irrespective of what c is, even if c is negative it will be just 1 over x to the c which is a positive number,"
+206,39830,40135,1328995.66,1339205.87,1328.996,1339.206,10.210,write,12,0.863,0,"so this implies that this object is still inside V, hence closed,"
+207,40136,40232,1339205.87,1342442.44,1339.206,1342.442,3.237,explain,3,0.896,0,so it is
+208,40233,40559,1342442.44,1353353.35,1342.442,1353.353,10.911,out,23,0.788,0,"closed under both addition as well as multiplication, this theory of defining things but nevertheless as you can check we have shown without"
+209,40560,40679,1353353.35,1357357.36,1353.353,1357.357,4.004,explain,7,0.809,0,"any ambiguity that these operations do hold,"
+210,40680,40749,1357357.36,1359693.03,1357.357,1359.693,2.336,write,11,0.903,0,now what I will do is I will pick two more
+211,40750,40811,1359693.03,1361761.76,1359.693,1361.762,2.069,explain,6,0.935,0,axioms and I will leave the
+212,40812,41119,1361761.76,1372038.71,1361.762,1372.039,10.277,out,30,0.913,0,"rest to you for exercise just to see whether those axioms will hold or not, so I just pick at random an axiom that we can check, for example let"
+213,41120,41254,1372038.71,1376543.21,1372.039,1376.543,4.505,explain,6,0.912,0,"us talk about the zero element,"
+214,41255,41389,1376543.21,1381047.71,1376.543,1381.048,4.505,write,9,0.948,0,"what would be a zero element in this case,"
+215,41390,41568,1381047.71,1387020.35,1381.048,1387.020,5.973,explain,6,0.892,0,now remember zero element let me
+216,41569,41615,1387020.35,1388588.59,1387.020,1388.589,1.568,write,0,,1,[silence]
+217,41616,41706,1388588.59,1391624.96,1388.589,1391.625,3.036,explain,1,0.983,0,give
+218,41707,41727,1391624.96,1392325.66,1391.625,1392.326,0.701,write,0,,1,[silence]
+219,41728,41857,1392325.66,1396663.33,1392.326,1396.663,4.338,explain,7,0.765,0,so what should be the property of
+220,41858,42097,1396663.33,1404671.34,1396.663,1404.671,8.008,write,14,0.938,0,"the zero element, zero element when added to any other element should produce me"
+221,42098,42262,1404671.34,1410176.84,1404.671,1410.177,5.506,explain,7,0.79,0,"the same element, so for any x"
+222,42263,42391,1410176.84,1414481.15,1410.177,1414.481,4.304,write,5,0.897,0,"or all x in V,"
+223,42392,42470,1414481.15,1417117.12,1414.481,1417.117,2.636,explain,8,0.951,0,if I can find such a z in
+224,42471,42561,1417117.12,1420153.49,1417.117,1420.153,3.036,out,8,0.875,0,V which can do this for me then
+225,42562,42740,1420153.49,1426126.13,1420.153,1426.126,5.973,explain,11,0.878,0,"it will be nice, so what is exactly that we want,"
+226,42741,43257,1426126.13,1443376.71,1426.126,1443.377,17.251,write,45,0.905,0,"we want x plus z should be equal to x but the way we have defined x plus z which is x times z should be equal to x for all x, this means x times z minus 1 should be 0 for all x,"
+227,43258,43337,1443376.71,1446046.05,1443.377,1446.046,2.669,explain,5,0.956,0,now this can only happen
+228,43338,43640,1446046.05,1456156.16,1446.046,1456.156,10.110,write,20,0.924,0,"if I take z to be 1, since 1 is positive, so listen we can guarantee that z belongs to"
+229,43641,43702,1456156.16,1458224.89,1456.156,1458.225,2.069,explain,3,0.238,0,"V, and I"
+230,43703,43897,1458224.89,1464731.40,1458.225,1464.731,6.507,out,12,0.838,0,"claim that 1 will act as a zero element, this also should"
+231,43898,43987,1464731.40,1467734.40,1464.731,1467.734,3.003,explain,9,0.854,0,kind of serve as an indicator that we should
+232,43988,44115,1467734.40,1472005.34,1467.734,1472.005,4.271,out,10,0.877,0,"not think zero element being as the zero number always,"
+233,44116,44288,1472005.34,1477777.78,1472.005,1477.778,5.772,explain,19,0.922,0,"zero element is an element which is going to act as added identity, so you should not be led"
+234,44289,44388,1477777.78,1481114.45,1477.778,1481.114,3.337,out,10,0.861,0,"by the phrase zero element it is just for convenience,"
+235,44389,44467,1481114.45,1483750.42,1481.114,1483.750,2.636,explain,9,0.983,0,what you should be thinking about is an object
+236,44468,44678,1483750.42,1490790.79,1483.750,1490.791,7.040,out,16,0.724,0,"is going to act like zero acts in regular tradition, so as you can see we"
+237,44679,44947,1490790.79,1499766.43,1490.791,1499.766,8.976,explain,24,0.849,0,"have found in so called zero element, z is equal to 1 is our zero element, so let me note it down some there,"
+238,44948,45410,1499766.43,1515215.22,1499.766,1515.215,15.449,write,0,,1,[silence]
+239,45411,45499,1515215.22,1518184.85,1515.215,1518.185,2.970,explain,3,0.925,0,in fact until
+240,45500,45554,1518184.85,1520020.02,1518.185,1520.020,1.835,out,5,0.958,0,we have the zero element
+241,45555,45611,1520020.02,1521921.92,1520.020,1521.922,1.902,explain,9,0.91,0,we could not even have talked about the inverses
+242,45612,45744,1521921.92,1526359.69,1521.922,1526.360,4.438,out,14,0.978,0,"or additive inverses, but now that we have the zero element we can definitely"
+243,45745,45751,1526359.69,1526593.26,1526.360,1526.593,0.234,explain,1,0.981,0,talk
+244,45752,45765,1526593.26,1527060.39,1526.593,1527.060,0.467,out,1,0.998,0,about
+245,45766,45779,1527060.39,1527527.53,1527.060,1527.528,0.467,explain,2,0.98,0,"additive inverse,"
+246,45780,45803,1527527.53,1528328.33,1527.528,1528.328,0.801,out,1,0.976,0,so
+247,45804,45832,1528328.33,1529295.96,1528.328,1529.296,0.968,pick_eraser,6,0.953,0,why do not I show you
+248,45833,45851,1529295.96,1529929.93,1529.296,1529.930,0.634,out,2,0.989,0,additive inverse
+249,45852,45865,1529929.93,1530397.06,1529.930,1530.397,0.467,pick_eraser,1,0.993,0,also
+250,45866,46141,1530397.06,1539606.27,1530.397,1539.606,9.209,erase,15,0.89,0,"as one of the axioms, it will help us understand this process a bit better,"
+251,46142,46153,1539606.27,1540006.67,1539.606,1540.007,0.400,drop_eraser,0,,1,[silence]
+252,46154,46199,1540006.67,1541541.54,1540.007,1541.542,1.535,out,4,0.946,0,so now that we
+253,46200,46222,1541541.54,1542308.98,1541.542,1542.309,0.767,drop_eraser,2,0.674,0,have zero
+254,46223,46275,1542308.98,1544077.41,1542.309,1544.077,1.768,explain,5,0.922,0,"element, let us see what"
+255,46276,46293,1544077.41,1544678.01,1544.077,1544.678,0.601,out,3,0.692,0,would be an
+256,46294,46338,1544678.01,1546179.51,1544.678,1546.180,1.502,explain,2,0.49,0,"additive inverse,"
+257,46339,46725,1546179.51,1559092.43,1546.180,1559.092,12.913,write,0,,1,[silence]
+258,46726,46754,1559092.43,1560060.06,1559.092,1560.060,0.968,explain,0,,1,[silence]
+259,46755,46779,1560060.06,1560894.23,1560.060,1560.894,0.834,out,0,,1,[silence]
+260,46780,46880,1560894.23,1564264.26,1560.894,1564.264,3.370,explain,0,,1,[silence]
+261,46881,48362,1564264.26,1613713.71,1564.264,1613.714,49.449,write,54,0.841,0,"suppose x is in V, then we are looking for an element let me call it y, y is we want t inside V such that x plus t would give me the same thing as t plus x that would give me the so called zero vector, remember z is our zero vector"
+262,48363,48396,1613713.71,1614848.18,1613.714,1614.848,1.134,explain,0,,1,[silence]
+263,48397,48485,1614848.18,1617817.82,1614.848,1617.818,2.970,out,1,0.155,0,"okay,"
+264,48486,48558,1617817.82,1620253.59,1617.818,1620.254,2.436,explain,4,0.792,0,so in essence let
+265,48559,48961,1620253.59,1633700.37,1620.254,1633.700,13.447,write,39,0.938,0,"me just check one of them x plus t we want x plus t to be z which means we want xt to be equal to 1, so this means I want my t to be 1 over x,"
+266,48962,48980,1633700.37,1634334.33,1633.700,1634.334,0.634,explain,1,0.036,0,so
+267,48981,49218,1634334.33,1642275.61,1634.334,1642.276,7.941,out,17,0.888,0,"1 over x would be if it exists inside V, then this can act as an inverse"
+268,49219,49249,1642275.61,1643309.98,1642.276,1643.310,1.034,explain,3,0.928,0,"of our element,"
+269,49250,49261,1643309.98,1643710.38,1643.310,1643.710,0.400,out,2,0.899,0,now 1
+270,49262,49307,1643710.38,1645245.25,1643.710,1645.245,1.535,explain,3,0.99,0,over x is
+271,49308,49481,1645245.25,1651051.05,1645.245,1651.051,5.806,write,11,0.96,0,going to be positive because we know that x is a
+272,49482,49549,1651051.05,1653319.99,1651.051,1653.320,2.269,explain,3,0.985,0,"positive real number,"
+273,49550,49642,1653319.99,1656423.09,1653.320,1656.423,3.103,write,7,0.982,0,so this means this guy definitely belongs
+274,49643,49669,1656423.09,1657323.99,1656.423,1657.324,0.901,explain,2,0.965,0,"to V,"
+275,49670,49893,1657323.99,1664798.13,1657.324,1664.798,7.474,out,20,0.855,0,"so for each x in V we have found its additive inverse as 1 over x, so let me note"
+276,49894,49970,1664798.13,1667367.37,1664.798,1667.367,2.569,explain,4,0.898,0,"down this fact also,"
+277,49971,49987,1667367.37,1667934.60,1667.367,1667.935,0.567,out,3,0.968,0,these are some
+278,49988,50024,1667934.60,1669169.17,1667.935,1669.169,1.235,explain,2,0.994,0,special things
+279,50025,50149,1669169.17,1673340.01,1669.169,1673.340,4.171,write,11,0.949,0,"that will help you think outside the box a little bit,"
+280,50150,50154,1673340.01,1673506.84,1673.340,1673.507,0.167,explain,0,,1,[silence]
+281,50155,50173,1673506.84,1674140.81,1673.507,1674.141,0.634,out,0,,1,[silence]
+282,50174,50210,1674140.81,1675375.38,1674.141,1675.375,1.235,explain,0,,1,[silence]
+283,50211,50792,1675375.38,1694794.79,1675.375,1694.795,19.419,write,11,0.901,0,"for each x in V 1 over x belongs to V,"
+284,50793,50803,1694794.79,1695161.83,1694.795,1695.162,0.367,explain,0,,1,[silence]
+285,50804,51045,1695161.83,1703236.57,1695.162,1703.237,8.075,out,2,0.989,0,so as
+286,51046,51279,1703236.57,1711044.38,1703.237,1711.044,7.808,explain,22,0.813,0,you can see based on the existence of the zero element we were able to find the additive inverse and actually this
+287,51280,51389,1711044.38,1714714.71,1711.044,1714.715,3.670,out,8,0.829,0,"should bring this actually brings out a point,"
+288,51390,51504,1714714.71,1718551.89,1714.715,1718.552,3.837,explain,14,0.865,0,since I want t to be 1 over x definitely I cannot have x
+289,51505,51518,1718551.89,1719019.02,1718.552,1719.019,0.467,out,2,0.933,0,to be
+290,51519,51575,1719019.02,1720920.92,1719.019,1720.921,1.902,explain,12,0.878,0,equal to 0 and that is why I had removed 0 from
+291,51576,51769,1720920.92,1727394.06,1720.921,1727.394,6.473,out,21,0.892,0,"there because I wanted every element to have an additive inverse, so that is why 0 had to be thrown out,"
+292,51770,51781,1727394.06,1727794.46,1727.394,1727.794,0.400,explain,0,,1,[silence]
+293,51782,51818,1727794.46,1729029.03,1727.794,1729.029,1.235,out,4,0.979,0,so we have shown
+294,51819,51837,1729029.03,1729663.00,1729.029,1729.663,0.634,explain,2,0.945,0,the existence
+295,51838,51995,1729663.00,1734934.93,1729.663,1734.935,5.272,out,14,0.91,0,"of zero element, existence of an inverse, so in some sense we have shown"
+296,51996,52126,1734934.93,1739305.97,1734.935,1739.306,4.371,pick_eraser,16,0.813,0,"about what 1, 2, 3, 4, of the axioms being true out of the 10 possible,"
+297,52127,52725,1739305.97,1759292.63,1739.306,1759.293,19.987,erase,40,0.937,0,"so I not going to go through all 10, but I will check one more which involves scalar multiplication and we will try to check whether it holds or not, if it does then it can further ensure that we"
+298,52726,52834,1759292.63,1762929.60,1759.293,1762.930,3.637,drop_eraser,7,0.866,0,coming close to proving it to be
+299,52835,52867,1762929.60,1764030.70,1762.930,1764.031,1.101,explain,0,,1,[silence]
+300,52868,53084,1764030.70,1771271.27,1764.031,1771.271,7.241,out,20,0.904,0,"vector space, again I not saying it is a vector space, but if one more axiom holds then we pretty"
+301,53085,53252,1771271.27,1776876.88,1771.271,1776.877,5.606,explain,9,0.785,0,"much in that territory, okay, so let us see"
+302,53253,54064,1776876.88,1803970.64,1776.877,1803.971,27.094,write,37,0.938,0,"which axiom do we want to check, okay let us check the same axiom which kind of gave us the idea last time, so this axiom c plus d times u, c times u plus d times,"
+303,54065,54159,1803970.64,1807140.47,1803.971,1807.140,3.170,explain,8,0.883,0,I have deliberately written it in that form
+304,54160,54294,1807140.47,1811644.98,1807.140,1811.645,4.505,out,13,0.946,0,"so that we keep reminding ourselves the kind of operations we are using,"
+305,54295,54364,1811644.98,1813980.65,1811.645,1813.981,2.336,explain,2,0.504,0,"okay, so"
+306,54365,54692,1813980.65,1824924.92,1813.981,1824.925,10.944,write,23,0.876,0,"c and d are real numbers and for our vector u we take x which belongs to v, so keep in mind x"
+307,54693,54781,1824924.92,1827894.56,1824.925,1827.895,2.970,explain,2,0.974,0,"is positive,"
+308,54782,54840,1827894.56,1829863.20,1827.895,1829.863,1.969,out,0,,1,[silence]
+309,54841,54908,1829863.20,1832132.13,1829.863,1832.132,2.269,explain,9,0.917,0,"so we will go with the left hand side,"
+310,54909,55039,1832132.13,1836503.17,1832.132,1836.503,4.371,out,0,,1,[silence]
+311,55040,55119,1836503.17,1839172.51,1836.503,1839.173,2.669,explain,0,,1,[silence]
+312,55120,56625,1839172.51,1889422.76,1839.173,1889.423,50.250,write,81,0.902,0,"so we go with the left hand side c plus d times u, for us this would be c plus d which is a scalar times x and by our definition this would be x to the c plus d which we know using the rules of exponents is x to the c times x to the d, now we can say x to the c is nothing but times x and x to the d is nothing but d times"
+313,56626,56721,1889422.76,1892625.96,1889.423,1892.626,3.203,explain,7,0.847,0,"x, but this is a regular application,"
+314,56722,56991,1892625.96,1901634.97,1892.626,1901.635,9.009,write,11,0.929,0,so this can be now interpreted as addition in our case
+315,56992,57141,1901634.97,1906639.97,1901.635,1906.640,5.005,explain,9,0.835,0,and hence we have c times x plus d
+316,57142,57239,1906639.97,1909909.91,1906.640,1909.910,3.270,write,8,0.92,0,times x which is the same as saying
+317,57240,57300,1909909.91,1911945.28,1909.910,1911.945,2.035,explain,0,,1,[silence]
+318,57301,57357,1911945.28,1913847.18,1911.945,1913.847,1.902,pick_eraser,0,,1,[silence]
+319,57358,57381,1913847.18,1914647.98,1913.847,1914.648,0.801,erase,0,,1,[silence]
+320,57382,57431,1914647.98,1916316.32,1914.648,1916.316,1.668,drop_eraser,0,,1,[silence]
+321,57432,57515,1916316.32,1919119.12,1916.316,1919.119,2.803,explain,0,,1,[silence]
+322,57516,57739,1919119.12,1926593.26,1919.119,1926.593,7.474,write,9,0.933,0,c times the vector u added to d times
+323,57740,57846,1926593.26,1930163.50,1926.593,1930.163,3.570,explain,5,0.711,0,that addition and this happens
+324,57847,57931,1930163.50,1932999.67,1930.163,1933.000,2.836,write,6,0.967,0,"to be your right hand side,"
+325,57932,58015,1932999.67,1935802.47,1933.000,1935.802,2.803,explain,9,0.977,0,"so this happens to be your right hand side,"
+326,58016,58105,1935802.47,1938805.47,1935.802,1938.805,3.003,out,10,0.93,0,hence we have shown that that axiom also holds true
+327,58106,58163,1938805.47,1940740.74,1938.805,1940.741,1.935,explain,5,0.883,0,with these particular operations on
+328,58164,58321,1940740.74,1946012.68,1940.741,1946.013,5.272,out,6,0.865,0,"this particular set, so it appears"
+329,58322,58362,1946012.68,1947380.71,1946.013,1947.381,1.368,explain,1,0.984,0,that
+330,58363,58595,1947380.71,1955155.16,1947.381,1955.155,7.774,out,18,0.773,0,there would be really really something special if this does not tend to be a vector space because
+331,58596,58744,1955155.16,1960126.79,1955.155,1960.127,4.972,explain,18,0.887,0,the intuition says even if such a log can hold true then the chances of any other log
+332,58745,58749,1960126.79,1960293.63,1960.127,1960.294,0.167,out,0,,1,[silence]
+333,58750,58759,1960293.63,1960627.29,1960.294,1960.627,0.334,explain,1,0.963,0,getting
+334,58760,58965,1960627.29,1967500.83,1960.627,1967.501,6.874,out,16,0.916,0,"deteriorated are less, but that does not mean it could still have a problem somewhere, so"
+335,58966,58973,1967500.83,1967767.77,1967.501,1967.768,0.267,explain,0,,1,[silence]
+336,58974,59196,1967767.77,1975208.54,1967.768,1975.209,7.441,out,11,0.899,0,it up to you to check whether it is if you
+337,59197,59240,1975208.54,1976676.68,1975.209,1976.677,1.468,explain,4,0.971,0,look at these operations
+338,59241,59347,1976676.68,1980246.91,1976.677,1980.247,3.570,out,10,0.931,0,"you might get reminded of something, if you look at"
+339,59348,59406,1980246.91,1982215.55,1980.247,1982.216,1.969,explain,5,0.97,0,this addition is acting like
+340,59407,59438,1982215.55,1983283.28,1982.216,1983.283,1.068,out,1,0.997,0,multiplication
+341,59439,59524,1983283.28,1986152.82,1983.283,1986.153,2.870,explain,4,0.802,0,and multiplication is acting
+342,59525,59581,1986152.82,1988054.72,1986.153,1988.055,1.902,out,3,0.961,0,"like exponentiation, so"
+343,59582,59602,1988054.72,1988755.42,1988.055,1988.755,0.701,explain,4,0.897,0,it should remind you
+344,59603,59672,1988755.42,1991091.09,1988.755,1991.091,2.336,pick_eraser,7,0.98,0,"of things like logarithms and exponential functions,"
+345,59673,59743,1991091.09,1993460.13,1991.091,1993.460,2.369,erase,7,0.952,0,so the idea of this comes from
+346,59744,61437,1993460.13,2049983.32,1993.460,2049.983,56.523,erase,124,0.925,0,"there, if I have to give you the answer then I would say it will turn out to be a vector space under these operations, you can check and verify that all the axioms will true, so moral of the story is when we say something is a vector space we have to also pay attention to the operations and it could happen that the same set is a vector space under different types of operations, so never think that R2 the vector space only under the operations that we are used to, in fact R2 we can have other kinds of addition and multiplication under which it will still be a vector space, so this brings us to an important question not the"
+347,61438,61512,2049983.32,2052485.82,2049.983,2052.486,2.503,drop_eraser,7,0.968,0,"one which we can perhaps answer here,"
+348,61513,61516,2052485.82,2052619.29,2052.486,2052.619,0.133,explain,0,,1,[silence]
+349,61517,61667,2052619.29,2057657.66,2052.619,2057.658,5.038,out,12,0.902,0,but something to think about if I give you a set and
+350,61668,61792,2057657.66,2061828.50,2057.658,2061.828,4.171,explain,9,0.932,0,I define two sets of addition and multiplication and
+351,61793,62277,2061828.50,2078011.34,2061.828,2078.011,16.183,out,50,0.919,0,"somehow it turns out to be a vector space under both those operations, will the two vector spaces be the same in the sense isomorphic or will it turn out to be different, so this is something to think about we do not want to like make it abstract over"
+352,62278,62443,2078011.34,2083550.22,2078.011,2083.550,5.539,explain,10,0.833,0,"here, it is just curiosity, so my question I will"
+353,62444,63067,2083550.22,2104371.04,2083.550,2104.371,20.821,write,40,0.862,0,"just phrase it suppose I have a set V and I define an operation multiplication with the same set V I define another operation of addition and multiplication and it turns out to be vector space under both these operations,"
+354,63068,63099,2104371.04,2105438.77,2104.371,2105.439,1.068,explain,0,,1,[silence]
+355,63100,63216,2105438.77,2109342.68,2105.439,2109.343,3.904,write,5,0.865,0,"will this be isomorphic right,"
+356,63217,63258,2109342.68,2110744.08,2109.343,2110.744,1.401,explain,0,,1,[silence]
+357,63259,63392,2110744.08,2115215.22,2110.744,2115.215,4.471,out,10,0.969,0,it is a kind of a deep question which you
+358,63393,63435,2115215.22,2116649.98,2115.215,2116.650,1.435,explain,6,0.81,0,may not be able answer now
+359,63436,63470,2116649.98,2117817.82,2116.650,2117.818,1.168,pick_eraser,4,0.948,0,with the amount of
+360,63471,63589,2117817.82,2121788.46,2117.818,2121.788,3.971,erase,9,0.951,0,"exposure you have, but something worthwhile to think about."
+361,63590,63648,2121788.46,2123757.09,2121.788,2123.757,1.969,drop_eraser,1,0.618,0,"Okay,"
+362,63649,63652,2123757.09,2123890.56,2123.757,2123.891,0.133,explain,0,,1,[silence]
+363,63653,63817,2123890.56,2129396.06,2123.891,2129.396,5.506,out,4,0.955,0,let us come to
+364,63818,63902,2129396.06,2132232.23,2129.396,2132.232,2.836,explain,4,0.969,0,further understanding the subspace
+365,63903,63941,2132232.23,2133533.53,2132.232,2133.534,1.301,pick_eraser,1,0.986,0,structure.
+366,63942,64081,2133533.53,2138204.87,2133.534,2138.205,4.671,erase,0,,1,[silence]
+367,64082,64128,2138204.87,2139773.11,2138.205,2139.773,1.568,drop_eraser,0,,1,[silence]
+368,64129,64152,2139773.11,2140573.91,2139.773,2140.574,0.801,out,0,,1,[silence]
+369,64153,64349,2140573.91,2147147.15,2140.574,2147.147,6.573,explain,16,0.949,0,"So, let us come back to things, I had made a comment in the previous lecture"
+370,64350,65665,2147147.15,2191057.72,2147.147,2191.058,43.911,write,26,0.852,0,"that all the spaces of R2, R1 was R2 itself, the other was just having the zero vector and the third thing was all straight lines,"
+371,65666,65703,2191057.72,2192325.66,2191.058,2192.326,1.268,explain,0,,1,[silence]
+372,65704,66049,2192325.66,2203870.54,2192.326,2203.871,11.545,out,28,0.897,0,"I had made a kind of a statement which I never proved, I said these are the only subspaces of R2 and there is no other question is"
+373,66050,66169,2203870.54,2207874.54,2203.871,2207.875,4.004,explain,1,0.769,0,why
+374,66170,66697,2207874.54,2225492.16,2207.875,2225.492,17.618,write,3,0.807,0,"are these subspace,"
+375,66698,66731,2225492.16,2226626.63,2225.492,2226.627,1.134,explain,5,0.813,0,so this is the question
+376,66732,67037,2226626.63,2236836.84,2226.627,2236.837,10.210,out,24,0.966,0,"which we want to possibly answer now and see if we are in the position to answer it. Now, you will have to recall"
+377,67038,67161,2236836.84,2240974.31,2236.837,2240.974,4.137,explain,14,0.872,0,I had already shown you that the set containing just the zero vector is
+378,67162,67173,2240974.31,2241374.71,2240.974,2241.375,0.400,out,1,0.998,0,always
+379,67174,67405,2241374.71,2249115.78,2241.375,2249.116,7.741,explain,30,0.916,0,"a subspace, of course the entire space has to be a subspace by default and I had also shown you that all the straight lines had proven that all the"
+380,67406,67536,2249115.78,2253486.82,2249.116,2253.487,4.371,out,12,0.889,0,"straight lines that pass through the origin will be a subspace, that"
+381,67537,67595,2253486.82,2255455.46,2253.487,2255.455,1.969,explain,9,0.923,0,is not in jeopardy that these three things are
+382,67596,67753,2255455.46,2260727.39,2255.455,2260.727,5.272,out,13,0.936,0,"subspaces, question is why are these the only subspaces, so I will try"
+383,67754,67822,2260727.39,2263029.70,2260.727,2263.030,2.302,explain,8,0.929,0,"to give you a idea of the proof,"
+384,67823,68065,2263029.70,2271137.80,2263.030,2271.138,8.108,write,8,0.966,0,"proof is not very involved, but here is"
+385,68066,68078,2271137.80,2271571.57,2271.138,2271.572,0.434,explain,2,0.956,0,a basic
+386,68079,68214,2271571.57,2276109.44,2271.572,2276.109,4.538,out,10,0.966,0,"idea that can help us. Now, suppose I have a"
+387,68215,68241,2276109.44,2277010.34,2276.109,2277.010,0.901,explain,1,0.965,0,subspace
+388,68242,68571,2277010.34,2288021.35,2277.010,2288.021,11.011,write,2,0.772,0,"of R2,"
+389,68572,68616,2288021.35,2289522.86,2288.021,2289.523,1.502,explain,0,,1,[silence]
+390,68617,68640,2289522.86,2290323.66,2289.523,2290.324,0.801,out,0,,1,[silence]
+391,68641,68684,2290323.66,2291791.79,2290.324,2291.792,1.468,explain,0,,1,[silence]
+392,68685,69164,2291791.79,2307807.81,2291.792,2307.808,16.016,write,17,0.856,0,"if S has only the zero vector then nothing to prove, because we have already shown that"
+393,69165,69186,2307807.81,2308541.88,2307.808,2308.542,0.734,explain,2,0.938,0,the set
+394,69187,69299,2308541.88,2312312.31,2308.542,2312.312,3.770,out,9,0.886,0,containing just a zero vector is always a subspace.
+395,69300,69411,2312312.31,2316049.38,2312.312,2316.049,3.737,explain,4,0.969,0,"So, now assume that"
+396,69412,69799,2316049.38,2328995.66,2316.049,2328.996,12.946,write,19,0.876,0,"S has some non -zero vector, so that U belong to S such that U is not a zero"
+397,69800,69824,2328995.66,2329829.83,2328.996,2329.830,0.834,explain,3,0.927,0,"vector, so that"
+398,69825,69979,2329829.83,2335001.67,2329.830,2335.002,5.172,out,12,0.972,0,"means S has a non -zero vector, now since S is a"
+399,69980,70034,2335001.67,2336836.84,2335.002,2336.837,1.835,explain,1,0.985,0,subspace
+400,70035,70621,2336836.84,2356423.09,2336.837,2356.423,19.586,write,22,0.873,0,"this implies that it must be closed under multiplication, so that means C times U must belong to S for all scalars,"
+401,70622,70649,2356423.09,2357357.36,2356.423,2357.357,0.934,explain,0,,1,[silence]
+402,70650,70770,2357357.36,2361394.73,2357.357,2361.395,4.037,out,5,0.958,0,"what does this mean, this"
+403,70771,70847,2361394.73,2363963.96,2361.395,2363.964,2.569,explain,3,0.956,0,means from the
+404,70848,70956,2363963.96,2367600.93,2363.964,2367.601,3.637,write,10,0.916,0,geometry point of view if I have given you that
+405,70957,71186,2367600.93,2375275.28,2367.601,2375.275,7.674,explain,7,0.896,0,"my subspace contains a non -zero vector,"
+406,71187,71288,2375275.28,2378678.68,2375.275,2378.679,3.403,write,9,0.905,0,"let us say that non -zero vector is U,"
+407,71289,71363,2378678.68,2381181.18,2378.679,2381.181,2.503,explain,3,0.978,0,by the closure
+408,71364,71390,2381181.18,2382082.08,2381.181,2382.082,0.901,out,1,0.993,0,property
+409,71391,71625,2382082.08,2389923.26,2382.082,2389.923,7.841,explain,11,0.879,0,"it will contain every multiple of, so it will contain all"
+410,71626,71783,2389923.26,2395195.20,2389.923,2395.195,5.272,write,3,0.651,0,"multiples of U,"
+411,71784,71859,2395195.20,2397731.06,2395.195,2397.731,2.536,explain,5,0.961,0,so that means it contains
+412,71860,71940,2397731.06,2400433.77,2397.731,2400.434,2.703,out,6,0.855,0,a straight line that passes through
+413,71941,72080,2400433.77,2405105.11,2400.434,2405.105,4.671,explain,2,0.867,0,"the origin,"
+414,72081,72944,2405105.11,2433933.93,2405.105,2433.934,28.829,write,0,,1,[silence]
+415,72945,73022,2433933.93,2436536.54,2433.934,2436.537,2.603,explain,5,0.834,0,so it contains the straight
+416,73023,73186,2436536.54,2442008.68,2436.537,2442.009,5.472,out,7,0.851,0,"line that passes through zero, Now, if"
+417,73187,73397,2442008.68,2449049.05,2442.009,2449.049,7.040,explain,15,0.928,0,"S does not have any other vector that means this is totality of vectors, so"
+418,73398,74283,2449049.05,2478611.95,2449.049,2478.612,29.563,write,13,0.877,0,"if S has no other vector then S is basically a straight line,"
+419,74284,74360,2478611.95,2481181.18,2478.612,2481.181,2.569,explain,7,0.835,0,so that we already know all the
+420,74361,74499,2481181.18,2485819.15,2481.181,2485.819,4.638,out,13,0.769,0,"straight lines through origin are subspace, so now the real question is if"
+421,74500,74815,2485819.15,2496363.03,2485.819,2496.363,10.544,explain,39,0.894,0,"S had only the zero vector it was the zero space, if S had a non -zero vector then on the entire straight line will sit inside and if S has no other vector then it is a straight"
+422,74816,74875,2496363.03,2498365.03,2496.363,2498.365,2.002,out,6,0.993,0,"line, but what if S has"
+423,74876,75005,2498365.03,2502702.70,2498.365,2502.703,4.338,explain,12,0.869,0,"another vector which does not lie on this, so now the question"
+424,75006,75589,2502702.70,2522188.86,2502.703,2522.189,19.486,write,18,0.85,0,is what if there exists a vector V in S such that it is not on the time
+425,75590,75667,2522188.86,2524791.46,2522.189,2524.791,2.603,explain,0,,1,[silence]
+426,75668,75815,2524791.46,2529729.73,2524.791,2529.730,4.938,out,11,0.885,0,passes through the origin and is in the direction of the
+427,75816,76230,2529729.73,2543576.91,2529.730,2543.577,13.847,explain,41,0.925,0,"vector U, that means V lies outside, what happens then, so I will give you an intuitive idea first and then we will go about, suppose I find that oh I have a vector V which is let us say somewhere"
+428,76231,76373,2543576.91,2548348.35,2543.577,2548.348,4.771,write,6,0.679,0,"here, this is vector V which"
+429,76374,76451,2548348.35,2550950.95,2548.348,2550.951,2.603,explain,7,0.879,0,"does not lie on this line U,"
+430,76452,76541,2550950.95,2553953.95,2550.951,2553.954,3.003,out,5,0.97,0,"then what could possibly happen,"
+431,76542,76877,2553953.95,2565165.17,2553.954,2565.165,11.211,explain,31,0.926,0,"remember this is a subspace, so if S is subspace it will have all possible linear combinations of U and V, so imagine what will happen if I have all possible"
+432,76878,76988,2565165.17,2568868.87,2565.165,2568.869,3.704,out,5,0.984,0,"combinations of U and V,"
+433,76989,77090,2568868.87,2572272.27,2568.869,2572.272,3.403,explain,6,0.94,0,this will give me the entire
+434,77091,77179,2572272.27,2575241.91,2572.272,2575.242,2.970,out,6,0.954,0,"space R2, so that means if"
+435,77180,77262,2575241.91,2578011.34,2575.242,2578.011,2.769,explain,10,0.891,0,"S is not the zero space, it is not the"
+436,77263,77346,2578011.34,2580814.15,2578.011,2580.814,2.803,out,7,0.607,0,"origin, then S has to be R2"
+437,77347,77480,2580814.15,2585285.29,2580.814,2585.285,4.471,explain,0,,1,[silence]
+438,77481,78151,2585285.29,2607674.34,2585.285,2607.674,22.389,write,21,0.855,0,"and I span the vectors U and V, this is the only thing where you have to fill in the details,"
+439,78152,78240,2607674.34,2610643.98,2607.674,2610.644,2.970,explain,6,0.978,0,why should the linear combination of
+440,78241,78307,2610643.98,2612879.55,2610.644,2612.880,2.236,out,6,0.962,0,"U and V give me everything,"
+441,78308,78358,2612879.55,2614581.25,2612.880,2614.581,1.702,explain,0,,1,[silence]
+442,78359,78407,2614581.25,2616216.22,2614.581,2616.216,1.635,out,7,0.934,0,in fact I will give you some
+443,78408,78421,2616216.22,2616683.35,2616.216,2616.683,0.467,pick_eraser,2,0.964,0,hints for
+444,78422,78437,2616683.35,2617217.22,2616.683,2617.217,0.534,out,2,0.996,0,"that also,"
+445,78438,78458,2617217.22,2617917.92,2617.217,2617.918,0.701,pick_eraser,1,0.995,0,so
+446,78459,79173,2617917.92,2641775.11,2617.918,2641.775,23.857,erase,30,0.911,0,"that you know how to fill in this gap, so let me give you a simple way of thinking about it and perhaps that can fill in all the gap,"
+447,79174,79216,2641775.11,2643209.88,2641.775,2643.210,1.435,drop_eraser,0,,1,[silence]
+448,79217,79357,2643209.88,2647914.58,2643.210,2647.915,4.705,explain,10,0.95,0,"so here is the idea behind it, we are saying"
+449,79358,79683,2647914.58,2658792.13,2647.915,2658.792,10.878,write,17,0.833,0,"that you give me U, give me V which does not lie on the same line as"
+450,79684,79841,2658792.13,2664064.06,2658.792,2664.064,5.272,explain,5,0.952,0,"U, then U and V"
+451,79842,79857,2664064.06,2664597.93,2664.064,2664.598,0.534,write,0,,1,[silence]
+452,79858,79966,2664597.93,2668234.90,2664.598,2668.235,3.637,explain,9,0.85,0,"can linearly combine to produce any vector in R2,"
+453,79967,80557,2668234.90,2687954.62,2668.235,2687.955,19.720,write,20,0.94,0,so that means you give me any vector in R2 and I will be able to find some linear combination
+454,80558,80582,2687954.62,2688788.79,2687.955,2688.789,0.834,explain,0,,1,[silence]
+455,80583,80742,2688788.79,2694127.46,2688.789,2694.127,5.339,out,10,0.853,0,"such that U and V can combine to produce V,"
+456,80743,80805,2694127.46,2696229.56,2694.127,2696.230,2.102,explain,2,0.916,0,remember this
+457,80806,81255,2696229.56,2711244.58,2696.230,2711.245,15.015,write,36,0.943,0,"is a column picture, so what we are saying is and if I have the coefficient matrix with U and V as my column vectors, then no matter what right -hand side I give you, this"
+458,81256,81275,2711244.58,2711911.91,2711.245,2711.912,0.667,explain,3,0.947,0,system would be
+459,81276,81400,2711911.91,2716082.75,2711.912,2716.083,4.171,out,2,0.483,0,"consistent, now"
+460,81401,81427,2716082.75,2716983.65,2716.083,2716.984,0.901,explain,0,,1,[silence]
+461,81428,81582,2716983.65,2722155.49,2716.984,2722.155,5.172,write,2,0.515,0,"since U,"
+462,81583,81616,2722155.49,2723289.96,2722.155,2723.290,1.134,explain,0,,1,[silence]
+463,81617,81632,2723289.96,2723823.82,2723.290,2723.824,0.534,pick_eraser,0,,1,[silence]
+464,81633,81652,2723823.82,2724491.16,2723.824,2724.491,0.667,erase,0,,1,[silence]
+465,81653,81689,2724491.16,2725725.73,2724.491,2725.726,1.235,drop_eraser,0,,1,[silence]
+466,81690,81719,2725725.73,2726726.73,2725.726,2726.727,1.001,explain,0,,1,[silence]
+467,81720,82261,2726726.73,2744811.48,2726.727,2744.811,18.085,write,24,0.96,0,"since V is not a multiple of U, what does this mean? This means the set of vectors U and V is linearly independent,"
+468,82262,82402,2744811.48,2749516.18,2744.811,2749.516,4.705,explain,5,0.941,0,"so this is linearly independent,"
+469,82403,83825,2749516.18,2796997.00,2749.516,2796.997,47.481,write,23,0.883,0,"this means what? If I call this coefficient matrix as A, the coefficient matrix is invertible and from the theorem of invertible matrices,"
+470,83826,83996,2796997.00,2802702.70,2796.997,2802.703,5.706,explain,0,,1,[silence]
+471,83997,84255,2802702.70,2811344.68,2802.703,2811.345,8.642,write,6,0.703,0,"the columns of A will span,"
+472,84256,84277,2811344.68,2812078.75,2811.345,2812.079,0.734,explain,0,,1,[silence]
+473,84278,84465,2812078.75,2818351.69,2812.079,2818.352,6.273,out,16,0.87,0,so the columns of the coefficient matrix A will give you every right -hand side or
+474,84466,84629,2818351.69,2823823.82,2818.352,2823.824,5.472,explain,23,0.915,0,"you can think in this way, since these are independent I will have two pivots, since we are living in a two -dimensional"
+475,84630,84717,2823823.82,2826760.09,2823.824,2826.760,2.936,out,9,0.926,0,"space, no matter what right -hand side I give,"
+476,84718,84787,2826760.09,2829095.76,2826.760,2829.096,2.336,explain,5,0.813,0,the system has consistent and
+477,84788,84955,2829095.76,2834701.37,2829.096,2834.701,5.606,out,13,0.924,0,"hence it has a solution for every right -hand side, which means what?"
+478,84956,85235,2834701.37,2844044.04,2834.701,2844.044,9.343,explain,25,0.87,0,"Which means the moment I have a vector which lies outside this line, these two vectors can combine to give me that R2, that means"
+479,85236,85362,2844044.04,2848281.61,2844.044,2848.282,4.238,out,12,0.891,0,"the only subspaces of R2 can be only the zero space, the"
+480,85363,85531,2848281.61,2853920.59,2848.282,2853.921,5.639,explain,7,0.916,0,line passing through the origin or R2.
+481,85532,85659,2853920.59,2858191.52,2853.921,2858.192,4.271,out,0,,1,[silence]

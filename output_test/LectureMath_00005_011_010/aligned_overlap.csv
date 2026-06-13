@@ -1,0 +1,312 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,2511,0.00,83817.15,0.000,83.817,83.817,explain,213,0.792,0,"Hello, how are you YouTube What we going to do in this video is to the corresponding weight to the B side only having as a value the weight of the A and without knowing at this moment the tensions of the C, C, E, and G so what we going to do is a static according to what corresponds to the equilibrium of the bodies from the point of view of the equilibrium of the particle so we are going to to divide this part into body but here what we can do is draw a body which will cause us to a system of equations with greater incognitas than equations so we to have to section all this diagram in small parts to be to find the values section by section, so first we are to associate the corresponding part to the value given, in this case is the weight of the A that weighs in this case 20 pounds, from there we are to start, so it means that to make a corresponding analysis only to find a system of equations that have the same amount of equations that are incognitas, we are going to divide this part and we are to perform the first body so the first body"
+1,2512,2593,83817.15,86553.22,83.817,86.553,2.736,write,5,0.394,0,body the first body is
+2,2594,2811,86553.22,93827.16,86.553,93.827,7.274,explain,21,0.772,0,is to be associated only to this part in this case we are going to the tension of the EG the
+3,2812,2828,93827.16,94394.39,93.827,94.394,0.567,write,2,0.885,0,the EG
+4,2829,2933,94394.39,97897.90,94.394,97.898,3.504,explain,9,0.695,0,EG the section of the E C in this
+5,2934,2955,97897.90,98631.97,97.898,98.632,0.734,write,2,0.994,0,this case
+6,2956,3109,98631.97,103770.44,98.632,103.770,5.138,explain,13,0.889,0,and the section of the E A that corresponds to the tension exercised
+7,3110,3148,103770.44,105071.74,103.770,105.072,1.301,point,4,0.92,0,exercised by the weight
+8,3149,3634,105071.74,121287.95,105.072,121.288,16.216,explain,36,0.74,0,"weight of the A side so now that we that, we are to do a small analysis and we are to propose the direction of the tensions so first let's that the tensions are going to"
+9,3635,3662,121287.95,122222.22,121.288,122.222,0.934,write,4,0.936,0,to start from this
+10,3663,3836,122222.22,128028.03,122.222,128.028,5.806,explain,12,0.829,0,"this point, the point E towards the other directions, that is, towards"
+11,3837,3860,128028.03,128828.83,128.028,128.829,0.801,write,2,0.932,0,"towards G,"
+12,3861,3893,128828.83,129929.93,128.829,129.930,1.101,explain,1,0.731,0,towards
+13,3894,3930,129929.93,131164.50,129.930,131.164,1.235,write,5,0.885,0,towards C and towards A
+14,3931,4019,131164.50,134134.13,131.164,134.134,2.970,explain,11,0.88,0,A so that means that we are going to a tension
+15,4020,4043,134134.13,134934.93,134.134,134.935,0.801,point,3,0.955,0,tension in this
+16,4044,4088,134934.93,136436.44,134.935,136.436,1.502,explain,4,0.979,0,"this direction, towards C,"
+17,4089,4109,136436.44,137137.14,136.436,137.137,0.701,point,3,0.874,0,"C, one direction"
+18,4110,4209,137137.14,140473.81,137.137,140.474,3.337,explain,9,0.564,0,"direction towards G and another direction, vertical down, towards"
+19,4210,4277,140473.81,142742.74,140.474,142.743,2.269,fingererase,7,0.504,0,"towards A, considering that this is totally"
+20,4278,4326,142742.74,144377.71,142.743,144.378,1.635,write,2,0.849,0,totally vertical
+21,4327,4599,144377.71,153486.82,144.378,153.487,9.109,explain,29,0.756,0,"so from here we are to to do a sum of forces in X and a sum of forces in Y in this case, given the angles that we"
+22,4600,4818,153486.82,160794.13,153.487,160.794,7.307,write,22,0.872,0,"we have, where here it is 45 degrees and here we have an angle of 30 degrees, according to what we there"
+23,4819,4923,160794.13,164297.63,160.794,164.298,3.504,explain,8,0.626,0,so with that we can do the sum
+24,4924,4960,164297.63,165532.20,164.298,165.532,1.235,write,2,0.871,0,sum of
+25,4961,4984,165532.20,166333.00,165.532,166.333,0.801,fingererase,1,0.861,0,of
+26,4985,5147,166333.00,171771.77,166.333,171.772,5.439,write,14,0.762,0,of forces in X and the sum of forces in Y because we are
+27,5148,5243,171771.77,174974.97,171.772,174.975,3.203,explain,9,0.79,0,"are considering that they are static analysis, the sum"
+28,5244,5286,174974.97,176409.74,174.975,176.410,1.435,write,9,0.849,0,"sum of forces has to be equal to 0,"
+29,5287,5546,176409.74,185085.09,176.410,185.085,8.675,explain,20,0.813,0,"0, both for X and for Y in this case we have to place the components corresponding to the tensions"
+30,5547,5571,185085.09,185919.25,185.085,185.919,0.834,write,1,0.815,0,horizontally
+31,5572,5868,185919.25,195829.16,185.919,195.829,9.910,explain,30,0.782,0,"horizontally and vertically, in such a that we are to make a triangle for each of them in this case we are to make a triangle corresponding to the part"
+32,5869,5887,195829.16,196463.13,195.829,196.463,0.634,write,2,0.792,0,part of
+33,5888,5975,196463.13,199399.40,196.463,199.399,2.936,explain,4,0.786,0,of EG considering the
+34,5976,6031,199399.40,201267.93,199.399,201.268,1.869,write,3,0.805,0,the following this
+35,6032,6353,201267.93,212012.01,201.268,212.012,10.744,explain,26,0.766,0,"this triangle represents this part to be obtain, precisely in the corresponding values, the part of EG in X and in Y so let's say that"
+36,6354,6378,212012.01,212846.18,212.012,212.846,0.834,write,4,0.76,0,that this is to
+37,6379,6435,212846.18,214748.08,212.846,214.748,1.902,explain,6,0.805,0,to the force or tension in
+38,6436,6571,214748.08,219285.95,214.748,219.286,4.538,write,6,0.697,0,in EG while these components are
+39,6572,6600,219285.95,220253.59,219.286,220.254,0.968,explain,4,0.526,0,are to delta X
+40,6601,6633,220253.59,221354.69,220.254,221.355,1.101,write,3,0.704,0,X and delta
+41,6634,6755,221354.69,225425.43,221.355,225.425,4.071,explain,9,0.908,0,delta Y considering a reference system in two dimensions
+42,6756,6868,225425.43,229195.86,225.425,229.196,3.770,write,8,0.775,0,dimensions that have the following characteristics that is
+43,6869,7446,229195.86,248481.82,229.196,248.482,19.286,explain,45,0.712,0,is in X and positive towards this side and Y vertical upwards in that sense so now that we have this we can consider it in this way so now what happens? by making that configuration we are to remember what corresponds to the trigonometric
+44,7447,7486,248481.82,249816.48,248.482,249.816,1.335,write,4,0.884,0,trigonometric relations with respect
+45,7487,7521,249816.48,250984.32,249.816,250.984,1.168,explain,6,0.446,0,respect to Z and Z in
+46,7522,7539,250984.32,251584.92,250.984,251.585,0.601,write,3,0.688,0,in this case
+47,7540,7603,251584.92,253720.39,251.585,253.720,2.135,explain,6,0.756,0,"case the Z of theta, the"
+48,7604,7696,253720.39,256823.49,253.720,256.823,3.103,write,10,0.789,0,angle that we have here that is 30 degrees the
+49,7697,7752,256823.49,258692.03,256.823,258.692,1.869,explain,6,0.861,0,"the angle theta is 30 degrees,"
+50,7753,7834,258692.03,261428.09,258.692,261.428,2.736,write,10,0.814,0,therefore here we put the Z of 30 is equal
+51,7835,8024,261428.09,267767.77,261.428,267.768,6.340,explain,17,0.727,0,"equal to to the opposite cathet, that is say, the opposite of this angle that is delta"
+52,8025,8067,267767.77,269202.54,267.768,269.203,1.435,write,4,0.461,0,delta X over the
+53,8068,8127,269202.54,271204.54,269.203,271.205,2.002,explain,6,0.88,0,the hypotenuse where the hypotenuse is
+54,8128,8215,271204.54,274140.81,271.205,274.141,2.936,write,2,0.852,0,is FEG
+55,8216,8364,274140.81,279112.45,274.141,279.112,4.972,explain,14,0.77,0,FEG that is what we in this part now what happens for the cosine?
+56,8365,8514,279112.45,284117.45,279.112,284.117,5.005,write,10,0.828,0,for the cosine of 30 degrees the same angle will
+57,8515,8635,284117.45,288154.82,284.117,288.155,4.037,explain,10,0.697,0,will be equal to the adjacent cathet so angle delta
+58,8636,8797,288154.82,293560.23,288.155,293.560,5.405,write,11,0.589,0,delta Y over the hypotenuse that in this case is FEG
+59,8798,9517,293560.23,317584.25,293.560,317.584,24.024,explain,59,0.734,0,we have that because we need to the values of delta X and delta Y equivalent where we relate in this case the tension EG so for the sum of in X we will have to consider a part of this tension but we also have consider the other part that is the tension of this rope which is
+60,9518,9618,317584.25,320954.29,317.584,320.954,3.370,write,5,0.742,0,is the tension force EC
+61,9619,9865,320954.29,329195.86,320.954,329.196,8.242,explain,18,0.686,0,EC which is along that section of so we are to do the same analysis considering another triangle
+62,9866,10016,329195.86,334234.23,329.196,334.234,5.038,write,15,0.821,0,triangle in this case we are to have this configuration here it is 45 degrees
+63,10017,10114,334234.23,337504.17,334.234,337.504,3.270,explain,8,0.858,0,degrees and we are going to have the
+64,10115,10208,337504.17,340640.64,337.504,340.641,3.136,write,3,0.657,0,the tension EC
+65,10209,10419,340640.64,347681.01,340.641,347.681,7.040,explain,21,0.817,0,EC in this case and here we delta X and delta Y but we can consider delta X1 and delta X2
+66,10420,10485,347681.01,349883.22,347.681,349.883,2.202,write,6,0.538,0,X2 so as to confuse these
+67,10486,10534,349883.22,351518.18,349.883,351.518,1.635,explain,3,0.525,0,these delta X1
+68,10535,10580,351518.18,353053.05,351.518,353.053,1.535,write,4,0.976,0,X1 and delta Y1
+69,10581,10881,353053.05,363096.43,353.053,363.096,10.043,explain,32,0.8,0,Y1 to emphasize that they are different because in end we are to in the sum of forces in X and in sum of forces in Y so the same relation in
+70,10882,11527,363096.43,384651.32,363.096,384.651,21.555,write,66,0.775,0,in this case we have that the sine of 45 degrees is equal to the opposite cathet in this case delta Y1 on the hypotenuse which is FEC in the same way for the cosine what we are going to is that the cosine of 45 degrees by the angle that is driving is the adjacent that is delta X1 on the hypotenuse which is FEC
+71,11528,12517,384651.32,417684.35,384.651,417.684,33.033,explain,95,0.797,0,"FEC and we already have it so now yes, sum of forces in X and sum of forces in Y obviously we did this because if we want to the horizontal part sum of forces in X we have to add what corresponds to delta X and delta X1 because it is is found along the horizontal part therefore for that force we have to clear delta X of the two equations delta X of the two equations so for this case we are to have the following the sum of forces in X in"
+72,12518,12539,417684.35,418418.42,417.684,418.418,0.734,point,3,0.908,0,in this part
+73,12540,12619,418418.42,421087.75,418.418,421.088,2.669,explain,9,0.882,0,part here is to be equal to this delta
+74,12620,12634,421087.75,421588.25,421.088,421.588,0.501,write,2,0.957,0,delta X
+75,12635,12832,421588.25,428194.86,421.588,428.195,6.607,explain,13,0.775,0,X that we are considering this part here where clearing this expression delta
+76,12833,12874,428194.86,429596.26,428.195,429.596,1.401,write,3,0.329,0,delta X is
+77,12875,12920,429596.26,431131.13,429.596,431.131,1.535,explain,3,0.848,0,is equal to
+78,12921,13109,431131.13,437437.44,431.131,437.437,6.306,write,9,0.74,0,to the sine of 30 that multiplies to FEC
+79,13110,13515,437437.44,450984.32,437.437,450.984,13.547,explain,38,0.767,0,"FEC this on the one hand, due to our reference system we see that considering that this is our origin we consider that it goes towards the positive part of X therefore this term is to be positive"
+80,13516,13552,450984.32,452218.89,450.984,452.219,1.235,pickerase,3,0.57,0,so we already
+81,13553,13593,452218.89,453586.92,452.219,453.587,1.368,erase,4,0.835,0,already have this equivalence
+82,13594,13612,453586.92,454220.89,453.587,454.221,0.634,droperase,2,0.768,0,equivalence this
+83,13613,13635,454220.89,454988.32,454.221,454.988,0.767,explain,6,0.921,0,this is going to be positive
+84,13636,13654,454988.32,455622.29,454.988,455.622,0.634,write,1,0.991,0,positive
+85,13655,13712,455622.29,457557.56,455.622,457.558,1.935,explain,2,0.526,0,positive and
+86,13713,13748,457557.56,458758.76,457.558,458.759,1.201,write,6,0.628,0,and this has to be equal
+87,13749,14249,458758.76,475475.48,458.759,475.475,16.717,explain,43,0.714,0,equal to zero and this more or less than plus delta X1 that by clearing it from here we going to have a negative here why negative because considering that this is our origin the axis X that corresponds to delta X1 considering
+88,14250,14262,475475.48,475909.24,475.475,475.909,0.434,write,2,0.841,0,considering that
+89,14263,14434,475909.24,481648.31,475.909,481.648,5.739,explain,16,0.822,0,that it this part here goes towards the negative part according to our reference system this
+90,14435,14480,481648.31,483183.18,481.648,483.183,1.535,write,4,0.84,0,this point here is
+91,14481,14734,483183.18,491658.32,483.183,491.658,8.475,explain,19,0.721,0,is E which corresponds to this in our reference system therefore the direction of delta X1 is negative therefore
+92,14735,14747,491658.32,492092.09,491.658,492.092,0.434,write,4,0.721,0,therefore this is to
+93,14748,14880,492092.09,496529.86,492.092,496.530,4.438,explain,17,0.822,0,to be a negative that is to be equal to delta X1 but clearing here delta X1
+94,14881,14907,496529.86,497430.76,496.530,497.431,0.901,write,2,0.902,0,X1 we
+95,14908,14937,497430.76,498431.77,497.431,498.432,1.001,fingererase,4,0.817,0,we are to have
+96,14938,15043,498431.77,501968.64,498.432,501.969,3.537,explain,8,0.905,0,have that delta X1 is equal to cosine
+97,15044,15186,501968.64,506740.07,501.969,506.740,4.771,write,7,0.771,0,cosine of 45 degrees multiplying to FEC
+98,15187,15507,506740.07,517450.78,506.740,517.451,10.711,explain,23,0.648,0,FEC we already have this equal to zero and it is an equation with two unknowns FEC and FSC now we with the
+99,15508,15534,517450.78,518351.69,517.451,518.352,0.901,write,2,0.13,0,the sum
+100,15535,15638,518351.69,521821.82,518.352,521.822,3.470,explain,6,0.525,0,sum of forces in FJ this
+101,15639,15671,521821.82,522922.92,521.822,522.923,1.101,write,4,0.527,0,this also has to
+102,15672,16235,522922.92,541741.74,522.923,541.742,18.819,explain,59,0.798,0,to be equal to zero and now we with this part here delta Y that we are considering everything that is vertical obviously we also have to take out its part in this case equivalent to delta Y because here the delta Y goes up we are considering that it is positive with respect to our reference system therefore
+103,16236,16281,541741.74,543276.61,541.742,543.277,1.535,write,6,0.6,0,therefore we going to have plus
+104,16282,16509,543276.61,550884.22,543.277,550.884,7.608,explain,23,0.699,0,plus the plus is to emphasize that is positive and here we are to have that delta Y is equal to the cosine
+105,16510,16706,550884.22,557457.46,550.884,557.457,6.573,write,11,0.788,0,cosine of 30 cosine of 30 degrees that multiplies to FEG
+106,16707,17039,557457.46,568568.57,557.457,568.569,11.111,explain,37,0.837,0,FEG for this case now we are with the other part we also have to add the part of delta Y which is delta Y1 for this case of the other triangle here as it goes down
+107,17040,17060,568568.57,569269.27,568.569,569.269,0.701,point,3,0.829,0,down this goes
+108,17061,17316,569269.27,577811.14,569.269,577.811,8.542,explain,25,0.603,0,goes down by the direction we have it down by making the projection in X and Y we are going to delta Y1 then delta
+109,17317,17335,577811.14,578445.11,577.811,578.445,0.634,write,4,0.854,0,delta Y1 is to
+110,17336,17496,578445.11,583817.15,578.445,583.817,5.372,explain,21,0.805,0,to be negative for the sense that it has with respect to our reference system and that is going equal to
+111,17497,17676,583817.15,589823.16,583.817,589.823,6.006,write,9,0.78,0,to the sine of 45 degrees multiplying to FEC
+112,17677,18508,589823.16,617584.25,589.823,617.584,27.761,explain,77,0.771,0,FEC we already have it then since we have this they are two equations with two unknowns it is a system that we can solve and this in order to find what corresponds to value of FEG and FEC in this case the only value that we know here also in the part of sum of forces in Y is the one that we have to add to what corresponds to the sum of forces that corresponds
+113,18509,18542,617584.25,618718.72,617.584,618.719,1.134,write,2,0.951,0,corresponds to
+114,18543,18717,618718.72,624557.89,618.719,624.558,5.839,explain,12,0.597,0,to the block the cosine A then here also goes a negative
+115,18718,18734,624557.89,625125.13,624.558,625.125,0.567,write,2,0.953,0,negative where
+116,18735,18929,625125.13,631631.63,625.125,631.632,6.507,explain,16,0.75,0,where the value of the known of the block A which in this case is 20
+117,18930,18962,631631.63,632732.73,631.632,632.733,1.101,write,2,0.708,0,20 pounds
+118,18963,19745,632732.73,658858.86,632.733,658.859,26.126,explain,75,0.75,0,pounds minus 20 pounds because it goes down and now our system of two equations with two unknowns is complete since it is complete considering the weight of 20 pounds that goes down in this part of here then we already have all the forces both in X and in Y we have to solve this system the value of FEC or FEG can in either of the two equations clearing some of them then
+119,19746,19824,658858.86,661494.83,658.859,661.495,2.636,write,10,0.756,0,then we this as equation 1 and this as equation
+120,19825,20125,661494.83,671538.20,661.495,671.538,10.043,explain,20,0.7,0,equation 2 we are to clear from the first it can be the value that is the corresponding part to
+121,20126,20190,671538.20,673707.04,671.538,673.707,2.169,write,1,0.095,0,FEC
+122,20191,20342,673707.04,678778.78,673.707,678.779,5.072,explain,20,0.706,0,FEC FEC considering that this we pass it on other side and it be the same this will be equal
+123,20343,20505,678778.78,684217.55,678.779,684.218,5.439,write,8,0.832,0,equal to the sine of 30 degrees FEG
+124,20506,20548,684217.55,685652.32,684.218,685.652,1.435,fingererase,1,0.535,0,FEG
+125,20549,20612,685652.32,687787.79,685.652,687.788,2.135,write,1,0.012,0,on
+126,20613,20650,687787.79,689055.72,687.788,689.056,1.268,explain,3,0.502,0,on the value
+127,20651,20677,689055.72,689956.62,689.056,689.957,0.901,pickerase,5,0.745,0,value of cosine of 45
+128,20678,20746,689956.62,692258.93,689.957,692.259,2.302,explain,9,0.658,0,45 which is the one is with FS on
+129,20747,20810,692258.93,694394.39,692.259,694.394,2.135,write,5,0.841,0,on the cosine of 45
+130,20811,20833,694394.39,695161.83,694.394,695.162,0.767,explain,3,0.74,0,45 degrees this
+131,20834,20859,695161.83,696029.36,695.162,696.029,0.868,droperase,2,0.702,0,this value
+132,20860,21068,696029.36,703003.00,696.029,703.003,6.974,explain,17,0.82,0,value we are to substitute in this equation in order to find the value of FEG then
+133,21069,21110,703003.00,704404.40,703.003,704.404,1.401,pickerase,9,0.774,0,then we are to do it up here quickly
+134,21111,21205,704404.40,707574.24,704.404,707.574,3.170,erase,7,0.879,0,quickly because we still need to the
+135,21206,21607,707574.24,720987.65,707.574,720.988,13.413,explain,34,0.705,0,the tension of DC to find the value of the block of the B side then since we have this we are going to substitute in the second equation substituting it would be like
+136,21608,22930,720987.65,765131.80,720.988,765.132,44.144,write,64,0.78,0,like cosine of in this case 30 degrees which multiplies to FEG minus the sine of 45 degrees which multiplies to FS but FS is all this therefore we are to have to write all this then this multiplies to the sine of 30 FEG divided by the cosine of 45 degrees and that we still have to subtract the value of 20 that
+137,22931,22966,765131.80,766333.00,765.132,766.333,1.201,explain,5,0.838,0,that corresponds to the weight
+138,22967,22990,766333.00,767133.80,766.333,767.134,0.801,droperase,4,0.669,0,weight of the block
+139,22991,23075,767133.80,769969.97,767.134,769.970,2.836,explain,7,0.701,0,"block A since we have this, this"
+140,23076,23102,769969.97,770870.87,769.970,770.871,0.901,write,3,0.827,0,this is equal
+141,23103,23389,770870.87,780447.11,770.871,780.447,9.576,explain,25,0.733,0,equal to 0 for the equality of equilibrium then we have to find the value of FEG this value of FEG we can factor it
+142,23390,23713,780447.11,791257.92,780.447,791.258,10.811,write,29,0.663,0,it in such a that it would be as follows 0 equal to the cosine of 30 degrees and factorizing we are to put a parenthesis so that it
+143,23714,23918,791257.92,798098.10,791.258,798.098,6.840,explain,15,0.817,0,it the value of FEG minus sine between cosine since it has the same angle
+144,23919,24277,798098.10,810076.74,798.098,810.077,11.979,write,28,0.828,0,angle we can leave it as the tangent of 45 that multiplies to the sine of 30 and all this that multiplies to FEG and this minus 20
+145,24278,24543,810076.74,818952.29,810.077,818.952,8.876,explain,36,0.706,0,20 and we already have it then this value of 20 we are to pass it on the other side the equality will be positive in such a way that we are to have a clear
+146,24544,25053,818952.29,835969.30,818.952,835.969,17.017,write,34,0.867,0,20 equal to cosine of 30 minus the tangent of 45 we are going to put its angles tangent of 45 degrees that multiplies to the sine of 30 degrees and that by FEG
+147,25054,25113,835969.30,837971.30,835.969,837.971,2.002,explain,8,0.663,0,FEG then from here we find the value
+148,25114,25187,837971.30,840440.44,837.971,840.440,2.469,write,3,0.828,0,value of FEG
+149,25188,25224,840440.44,841675.01,840.440,841.675,1.235,fingererase,1,0.523,0,FEG
+150,25225,25242,841675.01,842275.61,841.675,842.276,0.601,write,1,0.523,0,FEG
+151,25243,25333,842275.61,845311.98,842.276,845.312,3.036,explain,11,0.752,0,FEG clearing all this in the part of the denominator of
+152,25334,25381,845311.98,846913.58,845.312,846.914,1.602,pickerase,4,0.722,0,of the number 20
+153,25382,25448,846913.58,849149.15,846.914,849.149,2.236,erase,7,0.698,0,20 then this is going to be
+154,25449,25548,849149.15,852485.82,849.149,852.486,3.337,write,3,0.77,0,like 20 over
+155,25549,25568,852485.82,853153.15,852.486,853.153,0.667,fingererase,2,0.765,0,over the
+156,25569,25847,853153.15,862462.46,853.153,862.462,9.309,write,19,0.907,0,the cosine of 30 degrees minus the tangent of 45 degrees that multiplies to the sine of 30 degrees
+157,25848,25865,862462.46,863063.06,862.462,863.063,0.601,explain,2,0.724,0,degrees we
+158,25866,25890,863063.06,863897.23,863.063,863.897,0.834,droperase,4,0.731,0,we already have that
+159,25891,25949,863897.23,865865.87,863.897,865.866,1.969,explain,7,0.726,0,that then now we use the calculator
+160,25950,26024,865865.87,868368.37,865.866,868.368,2.503,write,7,0.877,0,calculator to find the value of FEG
+161,26025,26120,868368.37,871571.57,868.368,871.572,3.203,explain,9,0.814,0,FEG and that will give us a value of
+162,26121,26851,871571.57,895962.63,871.572,895.963,24.391,calculate,54,0.786,0,of first we will the part of the denominator which is cosine of 30 minus the tangent of 45 by the sine of 30 and 20 will divide the value of cosine of 30 and well the whole denominator then it be 20 between what we just obtained in such a that FEG gives
+163,26852,26965,895962.63,899766.43,895.963,899.766,3.804,write,6,0.902,0,gives a value of 54 .64
+164,26966,27005,899766.43,901101.10,899.766,901.101,1.335,fingererase,5,0.718,0,.64 rounded to the decimals
+165,27006,27120,901101.10,904938.27,901.101,904.938,3.837,write,14,0.735,0,decimals and in this case for the units that we are handling they are
+166,27121,27484,904938.27,917083.75,904.938,917.084,12.145,explain,37,0.789,0,are free we already have that value but we also need to the value of FSE therefore we can substitute it in any of the two equations where of it is simpler than equation number 1 then
+167,27485,27500,917083.75,917617.62,917.084,917.618,0.534,emphasize,4,0.684,0,then we already found
+168,27501,27792,917617.62,927360.69,917.618,927.361,9.743,explain,26,0.754,0,found that value we are to substitute in this equation doing the clear of the first equation I'm going to do it directly we going to
+169,27793,28248,927360.69,942575.91,927.361,942.576,15.215,write,28,0.766,0,to have the following F of S S is to equal to the sine of 30 degrees that multiplies to FEG divided by the cosine of 45 that's
+170,28249,28361,942575.91,946346.35,942.576,946.346,3.770,explain,13,0.826,0,that's what we have this value of FEG we already have therefore we
+171,28362,28426,946346.35,948515.18,946.346,948.515,2.169,pickerase,7,0.669,0,we can substitute and I will proceed
+172,28427,28524,948515.18,951785.12,948.515,951.785,3.270,erase,9,0.777,0,proceed to erase the first equation of our static
+173,28525,28557,951785.12,952886.22,951.785,952.886,1.101,droperase,2,0.281,0,static in
+174,28558,28623,952886.22,955088.42,952.886,955.088,2.202,explain,6,0.784,0,in such a way that the
+175,28624,28841,955088.42,962362.36,955.088,962.362,7.274,write,18,0.767,0,the value of FSE will be equal to well in this case substituting the values is the sine
+176,28842,28859,962362.36,962962.96,962.362,962.963,0.601,fingererase,3,0.903,0,sine of 30
+177,28860,29250,962962.96,976009.34,962.963,976.009,13.046,write,20,0.849,0,30 that multiplies to 54 .64 divided by the cosine of 45 degrees then now if the value of FSE
+178,29251,29264,976009.34,976476.48,976.009,976.476,0.467,explain,1,0.886,0,FSE
+179,29265,29622,976476.48,988421.76,976.476,988.422,11.945,calculate,25,0.737,0,FSE is to equal to this case sine of 30 by 54 .64 divided by the cosine of 45 which is a value of 38
+180,29623,29635,988421.76,988855.52,988.422,988.856,0.434,explain,2,0.992,0,38 .63
+181,29636,29820,988855.52,995028.36,988.856,995.028,6.173,write,13,0.773,0,.63 rounded to two decimals and this in pounds of course by the
+182,29821,29887,995028.36,997263.93,995.028,997.264,2.236,explain,9,0.747,0,the system that we are handling we already have
+183,29888,29918,997263.93,998298.30,997.264,998.298,1.034,pickerase,2,0.545,0,have FSE
+184,29919,30044,998298.30,1002502.50,998.298,1002.503,4.204,erase,9,0.743,0,FSE and FEG since we found these two values
+185,30045,30067,1002502.50,1003269.94,1002.503,1003.270,0.767,droperase,2,0.929,0,values we
+186,30068,30315,1003269.94,1011544.88,1003.270,1011.545,8.275,explain,22,0.709,0,we now to use it order to do the next static in order to the value of FB in such a way
+187,30316,30374,1011544.88,1013513.51,1011.545,1013.514,1.969,pickerase,4,0.875,0,way that the next
+188,30375,30587,1013513.51,1020620.62,1013.514,1020.621,7.107,erase,11,0.637,0,next the next free body that we are to perform is
+189,30588,30933,1020620.62,1032165.50,1020.621,1032.165,11.545,explain,36,0.817,0,is to from point E forward we are going to consider this part why? because we already the value of this tension and we need to find these two tensions the weight of the FB and
+190,30934,30958,1032165.50,1032999.67,1032.165,1033.000,0.834,droperase,3,0.859,0,and the tension
+191,30959,31052,1032999.67,1036136.14,1033.000,1036.136,3.136,explain,6,0.418,0,tension Cd then the free body
+192,31053,31523,1036136.14,1051851.85,1036.136,1051.852,15.716,write,30,0.793,0,"body 2 is to in the following way a line where we have this 3, 4 and 5 that inclination and in this case an angle of 45 degrees on"
+193,31524,31546,1051851.85,1052619.29,1051.852,1052.619,0.767,point,5,0.808,0,on the other hand we
+194,31547,31962,1052619.29,1066499.83,1052.619,1066.500,13.881,write,36,0.786,0,we have a vertical down which is from the B in this case we call it FB FCB if we it from this point C and in same way we are going to consider that all
+195,31963,32057,1066499.83,1069669.67,1066.500,1069.670,3.170,point,7,0.607,0,all the forces or tensions are starting
+196,32058,32174,1069669.67,1073573.57,1069.670,1073.574,3.904,explain,10,0.669,0,starting from point C towards the ends in this case
+197,32175,32237,1073573.57,1075675.68,1073.574,1075.676,2.102,write,7,0.822,0,case towards point D and towards point
+198,32238,32754,1075675.68,1092926.26,1075.676,1092.926,17.251,explain,58,0.78,0,"point E in this case we are considering the free body of this part since we have that, the static also sum of forces in X and sum of forces in Y again we are going to consider the analysis by means of triangles these values we already have and we are going to write them down to"
+199,32755,33356,1092926.26,1113013.01,1092.926,1113.013,20.087,write,28,0.726,0,"to make little more space and proceed with what follows this value is 54 .64 pounds and the value of FC is equal to 38 .63 pounds well,"
+200,33357,33369,1113013.01,1113446.78,1113.013,1113.447,0.434,fingererase,1,0.163,0,"well,"
+201,33370,33382,1113446.78,1113880.55,1113.447,1113.881,0.434,out,2,0.585,0,since we
+202,33383,33403,1113880.55,1114581.25,1113.881,1114.581,0.701,explain,3,0.925,0,we have this
+203,33404,33419,1114581.25,1115115.12,1114.581,1115.115,0.534,pickerase,2,0.654,0,this we
+204,33420,33505,1115115.12,1117984.65,1115.115,1117.985,2.870,erase,7,0.727,0,we are to continue with what follows
+205,33506,33531,1117984.65,1118852.19,1117.985,1118.852,0.868,droperase,2,0.807,0,what happens
+206,33532,33622,1118852.19,1121888.56,1118.852,1121.889,3.036,explain,11,0.788,0,happens in this part here? for the of forces in X
+207,33623,33713,1121888.56,1124924.92,1121.889,1124.925,3.036,write,5,0.812,0,X this also has to
+208,33714,33743,1124924.92,1125925.93,1124.925,1125.926,1.001,fingererase,6,0.732,0,to be equal to 0 we
+209,33744,33759,1125925.93,1126459.79,1125.926,1126.460,0.534,point,1,0.037,0,we
+210,33760,33779,1126459.79,1127127.13,1126.460,1127.127,0.667,explain,4,0.518,0,we are to the
+211,33780,33847,1127127.13,1129396.06,1127.127,1129.396,2.269,write,4,0.716,0,the arrow indicating what
+212,33848,33864,1129396.06,1129963.30,1129.396,1129.963,0.567,point,4,0.799,0,what we are to
+213,33865,34020,1129963.30,1135168.50,1129.963,1135.169,5.205,explain,13,0.807,0,to 0 and 0 the first triangle we are to see with respect
+214,34021,34042,1135168.50,1135902.57,1135.169,1135.903,0.734,write,4,0.962,0,respect to this part
+215,34043,34101,1135902.57,1137871.20,1135.903,1137.871,1.969,explain,6,0.735,0,part here in same way considering
+216,34102,34130,1137871.20,1138838.84,1137.871,1138.839,0.968,write,1,0.674,0,considering
+217,34131,34167,1138838.84,1140073.41,1138.839,1140.073,1.235,fingererase,1,0.957,0,this
+218,34168,34328,1140073.41,1145445.45,1140.073,1145.445,5.372,write,10,0.833,0,"this triangle we have that is 3, 4 and 5"
+219,34329,34505,1145445.45,1151351.35,1145.445,1151.351,5.906,explain,15,0.847,0,5 if we enlarge this triangle considering it as this whole part in this case
+220,34506,34600,1151351.35,1154521.19,1151.351,1154.521,3.170,write,9,0.768,0,case to obtain the value of C we consider
+221,34601,34706,1154521.19,1158058.06,1154.521,1158.058,3.537,explain,12,0.697,0,consider the angle any can be any angle in this case we
+222,34707,34720,1158058.06,1158525.19,1158.058,1158.525,0.467,write,3,0.763,0,we consider this
+223,34721,34782,1158525.19,1160593.93,1158.525,1160.594,2.069,explain,8,0.764,0,this angle theta whose value we do know
+224,34783,34822,1160593.93,1161928.60,1160.594,1161.929,1.335,write,5,0.737,0,know the sine of theta
+225,34823,34927,1161928.60,1165432.10,1161.929,1165.432,3.504,explain,12,0.931,0,theta is equal to the opposite in this case the opposite is
+226,34928,35033,1165432.10,1168968.97,1165.432,1168.969,3.537,write,9,0.827,0,is 3 on the hypotenuse whose value is 5
+227,35034,35294,1168968.97,1177677.68,1168.969,1177.678,8.709,explain,22,0.847,0,5 these values we already have so when we want to this in the corresponding part where we know that this line
+228,35295,35332,1177677.68,1178945.61,1177.678,1178.946,1.268,fingererase,3,0.673,0,line corresponds this
+229,35333,35358,1178945.61,1179813.15,1178.946,1179.813,0.868,point,2,0.595,0,this line
+230,35359,35370,1179813.15,1180213.55,1179.813,1180.214,0.400,fingererase,1,0.99,0,line
+231,35371,35416,1180213.55,1181748.42,1180.214,1181.748,1.535,explain,2,0.832,0,line corresponds
+232,35417,35490,1181748.42,1184217.55,1181.748,1184.218,2.469,write,7,0.673,0,"corresponds to the force of tension C,"
+233,35491,35633,1184217.55,1188988.99,1184.218,1188.989,4.771,explain,13,0.559,0,"C, D so we are to to that relation in such a that"
+234,35634,35667,1188988.99,1190123.46,1188.989,1190.123,1.134,write,5,0.86,0,that the sum of forces
+235,35668,35745,1190123.46,1192726.06,1190.123,1192.726,2.603,explain,10,0.733,0,forces in X is to equal to 0 the sum
+236,35746,35771,1192726.06,1193593.59,1192.726,1193.594,0.868,write,6,0.953,0,sum of forces in Y is
+237,35772,36049,1193593.59,1202869.54,1193.594,1202.870,9.276,explain,21,0.902,0,is also going to be equal to 0 and now we are going to consider this part where considering the horizontal
+238,36050,36061,1202869.54,1203269.94,1202.870,1203.270,0.400,write,2,0.968,0,horizontal part
+239,36062,36134,1203269.94,1205705.71,1203.270,1205.706,2.436,explain,9,0.73,0,part we will be handling sine or cosine depending
+240,36135,36415,1205705.71,1215081.75,1205.706,1215.082,9.376,write,27,0.749,0,depending so now the cosine of theta which is to be equal to the adjacent in this case the horizontal which 4 between the hypotenuse which is
+241,36416,37199,1215081.75,1241241.24,1215.082,1241.241,26.159,explain,72,0.77,0,is 5 we already that part for this so before doing the analysis of sum of forces we are also going to do the other triangle where for this case we already had it in this part we already had this part and also what happens? this case we already have the value of Fs Fs is this value here but we are to consider this part too why? because we have
+242,37200,37473,1241241.24,1250383.72,1241.241,1250.384,9.142,write,18,0.668,0,have the following this angle of 45° and of course here the force of tension is C which
+243,37474,37589,1250383.72,1254254.25,1250.384,1254.254,3.871,explain,9,0.751,0,which is this part here in the same way
+244,37590,38220,1254254.25,1275308.64,1254.254,1275.309,21.054,write,40,0.721,0,way sine sine of 45° the opposite catet we consider again delta X and delta Y the opposite catet is delta Y over Fs there we have it and the cosine of 45° is equal to delta X over Fs
+245,38221,38514,1275308.64,1285118.45,1275.309,1285.118,9.810,explain,30,0.773,0,that is what we have now if the of in X the equivalent of delta X considering that here the origin is this and the tension goes in this direction
+246,38515,38535,1285118.45,1285819.15,1285.118,1285.819,0.701,point,2,0.75,0,direction towards
+247,38536,38821,1285819.15,1295362.03,1285.819,1295.362,9.543,explain,32,0.817,0,towards this point this part of delta X is to be positive so that is the first thing we are to put delta X its equivalent is cosine of 45° Fs so
+248,38822,38860,1295362.03,1296663.33,1295.362,1296.663,1.301,write,3,0.825,0,so we have
+249,38861,38887,1296663.33,1297564.23,1296.663,1297.564,0.901,fingererase,2,0.834,0,have cosine
+250,38888,39006,1297564.23,1301534.87,1297.564,1301.535,3.971,write,4,0.517,0,of 45° by Fs
+251,39007,39209,1301534.87,1308308.31,1301.535,1308.308,6.773,explain,9,0.556,0,and then the part of this diagram of free
+252,39210,39229,1308308.31,1308975.64,1308.308,1308.976,0.667,point,2,0.481,0,free where
+253,39230,39713,1308975.64,1325125.13,1308.976,1325.125,16.149,explain,53,0.785,0,where we have a tension in this direction considering that this is the origin the horizontal part that corresponds to what in this case would be allusion to the cosine because the cosine is allusion to the horizontal part by the number 4 that it here we are going to consider that this
+254,39714,39723,1325125.13,1325458.79,1325.125,1325.459,0.334,write,3,0.975,0,this is negative
+255,39724,40095,1325458.79,1337871.20,1325.459,1337.871,12.412,explain,34,0.729,0,"negative because here is the origin and the negative part of X is towards here so here is to the cosine of theta of Fcd but the cosine of theta is equal to 45°,"
+256,40096,40176,1337871.20,1340573.91,1337.871,1340.574,2.703,write,8,0.745,0,"45°, therefore we put the value of 45°"
+257,40177,40407,1340573.91,1348281.61,1340.574,1348.282,7.708,explain,18,0.673,0,45° relating to the this goes over the horizontal axis minus the consideration and that multiplied by Fcd
+258,40408,40454,1348281.61,1349849.85,1348.282,1349.850,1.568,write,1,0.95,0,Fcd
+259,40455,40887,1349849.85,1364297.63,1349.850,1364.298,14.448,explain,43,0.786,0,"we already have this part with respect to the sum of forces in X, now the sum of in Y, in Y we have in this part of the triangle delta Y is to be equal to a positive to start where we"
+260,40888,41039,1364297.63,1369369.37,1364.298,1369.369,5.072,write,13,0.801,0,we are going to have the sine of 45 that multiplies to Fec
+261,41040,41120,1369369.37,1372072.07,1369.369,1372.072,2.703,explain,10,0.749,0,"Fec that is what we have there and now more,"
+262,41121,41133,1372072.07,1372505.84,1372.072,1372.506,0.434,write,1,0.525,0,"more,"
+263,41134,41755,1372505.84,1393259.93,1372.506,1393.260,20.754,explain,52,0.794,0,we are going to consider positive here because with respect to our reference system it is still positive with respect to this point therefore we will have more what corresponds to the of this triangle considering that the part of the sine is related to the vertical part therefore it is to
+264,41756,41767,1393259.93,1393660.33,1393.260,1393.660,0.400,write,3,0.936,0,to the sine
+265,41768,41849,1393660.33,1396396.40,1393.660,1396.396,2.736,explain,11,0.87,0,sine of theta of Fcd but the sine of theta is
+266,41850,41956,1396396.40,1399966.63,1396.396,1399.967,3.570,write,8,0.764,0,is equal to 35° and this of Fcd
+267,41957,42152,1399966.63,1406506.51,1399.967,1406.507,6.540,explain,15,0.692,0,we already have that but apart we need to the force of tension of the
+268,42153,42184,1406506.51,1407574.24,1406.507,1407.574,1.068,pickerase,3,0.617,0,the block B
+269,42185,42212,1407574.24,1408508.51,1407.574,1408.509,0.934,erase,3,0.835,0,B therefore this
+270,42213,42240,1408508.51,1409442.78,1408.509,1409.443,0.934,explain,1,0.786,0,this
+271,42241,42248,1409442.78,1409709.71,1409.443,1409.710,0.267,write,3,0.789,0,this is going
+272,42249,42349,1409709.71,1413079.75,1409.710,1413.080,3.370,explain,12,0.716,0,going to be negative because it is vertical down and here we
+273,42350,42448,1413079.75,1416383.05,1413.080,1416.383,3.303,write,6,0.67,0,we are going to the Fcd
+274,42449,42552,1416383.05,1419853.19,1416.383,1419.853,3.470,explain,7,0.527,0,the block is vertical down so it
+275,42553,42608,1419853.19,1421721.72,1419.853,1421.722,1.869,erase,3,0.609,0,it another system
+276,42609,42661,1421721.72,1423490.16,1421.722,1423.490,1.768,droperase,7,0.654,0,system of two equations with two unknowns
+277,42662,43202,1423490.16,1441541.54,1423.490,1441.542,18.051,explain,58,0.818,0,unknowns since we have this in the same way we have to find the value of Fcd and Fcd directly we can substitute the value of Fc then we are going to find first the value of Fcd the value of Fcd is going to come out of this equation and it is to be the following way
+278,43203,43358,1441541.54,1446746.75,1441.542,1446.747,5.205,write,10,0.702,0,way Fcd already cleared from equation 1 and equation 2
+279,43359,43503,1446746.75,1451584.92,1446.747,1451.585,4.838,explain,16,0.829,0,2 cleared from equation 1 we are going to have the following in this case it
+280,43504,43940,1451584.92,1466166.17,1451.585,1466.166,14.581,write,22,0.636,0,it is to the cosine of 45 that multiplies to Fc by if here it four fifths it goes clearing as five
+281,43941,44024,1466166.17,1468968.97,1466.166,1468.969,2.803,explain,9,0.765,0,five quarters and there we have it then this
+282,44025,44614,1468968.97,1488655.32,1468.969,1488.655,19.686,write,43,0.747,0,this here is to be equal Fcd is to be equal to the cosine of 45 that multiplies to Fc that is this value 38 .63 that multiplies to five quarters that is what we have then the value of Fcd with the
+283,44615,45048,1488655.32,1503136.47,1488.655,1503.136,14.481,calculate,25,0.792,0,the calculator we going to have that is 38 .63 by cosine of 45 by five quarters and this gives a value of 34 .14
+284,45049,45183,1503136.47,1507640.97,1503.136,1507.641,4.505,write,8,0.871,0,.14 rounded to two figures and this value
+285,45184,45556,1507640.97,1520086.75,1507.641,1520.087,12.446,explain,38,0.833,0,value is in pounds. Now we are going to find the value of Fcd where Fcd is going to correspond to the value of the weight of the side b and with that we have finished the problem
+286,45557,45646,1520086.75,1523089.76,1520.087,1523.090,3.003,pickerase,8,0.693,0,problem then we are going write down here
+287,45647,45692,1523089.76,1524624.62,1523.090,1524.625,1.535,explain,4,0.838,0,here the value of
+288,45693,45904,1524624.62,1531698.37,1524.625,1531.698,7.074,write,8,0.693,0,Fcd that is equal to 34 .14 pounds
+289,45905,45911,1531698.37,1531931.93,1531.698,1531.932,0.234,explain,0,,1,[silence]
+290,45912,45921,1531931.93,1532265.60,1531.932,1532.266,0.334,out,0,,1,[silence]
+291,45922,46210,1532265.60,1541908.58,1532.266,1541.909,9.643,explain,14,0.528,0,"the value of the side sorry, I'm a little sick the side b is"
+292,46211,46328,1541908.58,1545845.85,1541.909,1545.846,3.937,write,4,0.72,0,is to equal to
+293,46329,46515,1545845.85,1552085.42,1545.846,1552.085,6.240,explain,16,0.686,0,Fcd is to equal to I changed the sign and everything else was the same so
+294,46516,46767,1552085.42,1560493.83,1552.085,1560.494,8.408,write,16,0.631,0,"so it would be the sine of 45 degrees by Fc plus three quarters of Fcd,"
+295,46768,46980,1560493.83,1567600.93,1560.494,1567.601,7.107,explain,20,0.689,0,"Fcd, there we have it now we have to substitute the values that we already found then I'm to delete"
+296,46981,47120,1567600.93,1572272.27,1567.601,1572.272,4.671,erase,8,0.696,0,delete this part here this part here that
+297,47121,47490,1572272.27,1584617.95,1572.272,1584.618,12.346,write,23,0.805,0,"that is going to Fcd equal to sine of 45 that multiplies to Fc, but Fc is the value of 38 .63 and"
+298,47491,47497,1584617.95,1584851.52,1584.618,1584.852,0.234,explain,1,0.831,0,and
+299,47498,47508,1584851.52,1585218.55,1584.852,1585.219,0.367,fingererase,1,0.831,0,and
+300,47509,47601,1585218.55,1588321.65,1585.219,1588.322,3.103,explain,3,0.912,0,and this plus
+301,47602,47634,1588321.65,1589422.76,1588.322,1589.423,1.101,fingererase,0,,1,[silence]
+302,47635,47646,1589422.76,1589823.16,1589.423,1589.823,0.400,write,0,,1,[silence]
+303,47647,47769,1589823.16,1593927.26,1589.823,1593.927,4.104,explain,6,0.623,0,Fcd plus the corresponding part to
+304,47770,47940,1593927.26,1599632.97,1593.927,1599.633,5.706,write,12,0.551,0,to three quarters that multiplies to Fcd where Fcd is 34 .14
+305,47941,48018,1599632.97,1602235.57,1599.633,1602.236,2.603,explain,9,0.687,0,and with this we finish the problem in such
+306,48019,48076,1602235.57,1604170.84,1602.236,1604.171,1.935,write,5,0.93,0,such a way that Fcd
+307,48077,48088,1604170.84,1604571.24,1604.171,1604.571,0.400,explain,2,0.635,0,Fcd is
+308,48089,48694,1604571.24,1624791.46,1604.571,1624.791,20.220,calculate,35,0.756,0,"is to equal to sine of 45 by 38 .63 let's see, let's see sine of 45 by 38 .63 plus three quarters three quarters that multiplies to 34 .14 and this gives a value"
+309,48695,48875,1624791.46,1630830.83,1624.791,1630.831,6.039,write,15,0.839,0,value of 47 .8 rounded to one tenth and this in pounds for what corresponds
+310,48876,49803,1630830.83,1661795.13,1630.831,1661.795,30.964,explain,78,0.818,0,"corresponds to the weight of therefore the B weighs 47 .8 pounds well, far we have already finished the problem, a bit long but nothing difficult if we know how it in order and step by step with respect to equations and all the forces involved so I hope this video has been of help please comment on anything and see you in the next video I am Salvador Fi and see you in next static video, greetings"

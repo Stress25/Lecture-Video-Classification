@@ -1,0 +1,148 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,95,150,3169.84,5038.37,3.170,5.038,1.869,out,5,0.519,0,We are to solve this
+1,151,345,5038.37,11544.88,5.038,11.545,6.507,explain,12,0.821,0,this algebraic start by evaluating this function when x takes the value
+2,346,364,11544.88,12178.85,11.545,12.179,0.634,write,2,0.831,0,value 0.
+3,365,491,12178.85,16416.42,12.179,16.416,4.238,explain,14,0.844,0,"Let's see, in the numerator x takes the value 0, then 1 plus 0"
+4,492,541,16416.42,18084.75,16.416,18.085,1.668,write,3,0.828,0,0 gives 1.
+5,542,658,18084.75,21988.66,18.085,21.989,3.904,explain,13,0.877,0,"Here have 2 times 0 would be 0, and 1 plus 0 gives"
+6,659,703,21988.66,23490.16,21.989,23.490,1.502,write,3,0.942,0,gives us 1.
+7,704,820,23490.16,27394.06,23.490,27.394,3.904,explain,11,0.95,0,"Here 3 times 0 would be 0, 1 plus 0 gives"
+8,821,908,27394.06,30330.33,27.394,30.330,2.936,write,8,0.939,0,"gives us 1, and all this minus 1."
+9,909,934,30330.33,31197.86,30.330,31.198,0.868,explain,2,0.519,0,1. And
+10,935,981,31197.86,32766.10,31.198,32.766,1.568,out,4,0.68,0,And in the denominator
+11,982,1017,32766.10,33967.30,32.766,33.967,1.201,explain,3,0.576,0,denominator x also
+12,1018,1072,33967.30,35802.47,33.967,35.802,1.835,write,4,0.545,0,also changes by 0.
+13,1073,1161,35802.47,38772.11,35.802,38.772,2.970,explain,7,0.754,0,"up here, 1 times 1 times 1"
+14,1162,1456,38772.11,48615.28,38.772,48.615,9.843,write,28,0.85,0,"1 gives 1, we will have 1 minus 1, and all this over 0. We solve in the numerator 1 minus 1 gives 0, and we get to"
+15,1457,1525,48615.28,50917.58,48.615,50.918,2.302,explain,7,0.933,0,"to 0 over 0, which is an"
+16,1526,1552,50917.58,51818.49,50.918,51.818,0.901,out,2,0.863,0,an undetermined
+17,1553,1684,51818.49,56222.89,51.818,56.223,4.404,explain,12,0.888,0,It is an indicator that we must do something to that expression.
+18,1685,1768,56222.89,59025.69,56.223,59.026,2.803,out,9,0.745,0,expression. The strategy that we are going to use
+19,1769,2156,59025.69,71971.97,59.026,71.972,12.946,explain,31,0.845,0,"use is to all this we in the numerator, and see what else could be done to this algebraic Here we have the product of three binomials. Let's remember the following,"
+20,2157,2555,71971.97,85285.29,71.972,85.285,13.313,write,26,0.81,0,"following, when three quantities we have the option to group the first to multiply by the third, or we can also group the last two to"
+21,2556,3099,85285.29,103436.77,85.285,103.437,18.151,explain,48,0.797,0,"to be the first product, and what gives us multiply it by the first quantity. It what is called the associative of multiplication. Well, there we are going do that, we are going to use this option. We are to group the first two binomials that are multiplying."
+22,3100,3348,103436.77,111745.08,103.437,111.745,8.308,write,17,0.713,0,multiplying. Then we have a limit when x tends to 0 of the following. We a corchete
+23,3349,3432,111745.08,114547.88,111.745,114.548,2.803,explain,7,0.558,0,"corchete to make that association or grouping,"
+24,3433,3709,114547.88,123790.46,114.548,123.790,9.243,write,18,0.786,0,"grouping, and there we have 1 plus x, which multiplies with 1 plus 2x. There we have then"
+25,3710,3792,123790.46,126559.89,123.790,126.560,2.769,explain,5,0.84,0,"grouped the first two factors,"
+26,3793,4006,126559.89,133700.37,126.560,133.700,7.140,write,15,0.894,0,"and that is multiplied by the third factor, 1 plus 3x. All that is minus"
+27,4007,4024,133700.37,134300.97,133.700,134.301,0.601,explain,2,0.821,0,"minus 1,"
+28,4025,4076,134300.97,136036.04,134.301,136.036,1.735,out,5,0.942,0,"1, and in the denominator"
+29,4077,4101,136036.04,136870.20,136.036,136.870,0.834,explain,2,0.809,0,denominator remains
+30,4102,4126,136870.20,137704.37,136.870,137.704,0.834,write,2,0.592,0,remains x.
+31,4127,4144,137704.37,138304.97,137.704,138.305,0.601,explain,1,0.555,0,x.
+32,4145,4215,138304.97,140674.01,138.305,140.674,2.369,out,8,0.724,0,x. Now we are going to solve this
+33,4216,4305,140674.01,143677.01,140.674,143.677,3.003,explain,7,0.859,0,this product of binomials that we with
+34,4306,4326,143677.01,144377.71,143.677,144.378,0.701,change,2,0.698,0,with corchetes.
+35,4327,4352,144377.71,145245.25,144.378,145.245,0.868,explain,3,0.675,0,corchetes. There we
+36,4353,4541,145245.25,151551.55,145.245,151.552,6.306,write,12,0.871,0,"we are to apply the distributive multiplying the terms, all with all."
+37,4542,4585,151551.55,153019.69,151.552,153.020,1.468,change,3,0.789,0,"So let's see,"
+38,4586,4612,153019.69,153920.59,153.020,153.921,0.901,explain,3,0.71,0,"see, we have"
+39,4613,5557,153920.59,185452.12,153.921,185.452,31.532,write,71,0.761,0,"have a limit when x tends to 0 of the following. We are going to open a corchete and we have 1 by 1 is 1, 1 times plus 2x gives us plus 2x, then plus x times plus 1 is plus x, and plus x times plus 2x gives us plus 2x squared. We close the corchete and we the other factor that remains there in wait, and all that"
+40,5558,5578,185452.12,186152.82,185.452,186.153,0.701,explain,3,0.827,0,that is minus
+41,5579,5638,186152.82,188154.82,186.153,188.155,2.002,out,6,0.914,0,"minus 1, and in the denominator"
+42,5639,5665,188154.82,189055.72,188.155,189.056,0.901,explain,2,0.499,0,denominator remains
+43,5666,5683,189055.72,189656.32,189.056,189.656,0.601,write,2,0.341,0,remains x.
+44,5684,5698,189656.32,190156.82,189.656,190.157,0.501,explain,1,0.675,0,x.
+45,5699,5770,190156.82,192559.23,190.157,192.559,2.402,out,7,0.643,0,x. Now we are going to reduce
+46,5771,5885,192559.23,196396.40,192.559,196.396,3.837,explain,7,0.772,0,reduce similar in this expression that we
+47,5886,5921,196396.40,197597.60,196.396,197.598,1.201,write,3,0.817,0,These two terms
+48,5922,5952,197597.60,198631.97,197.598,198.632,1.034,explain,4,0.978,0,terms are the only
+49,5953,5992,198631.97,199966.63,198.632,199.967,1.335,change,6,0.778,0,"only ones that meet that condition,"
+50,5993,6016,199966.63,200767.43,199.967,200.767,0.801,out,1,0.975,0,"condition,"
+51,6017,6070,200767.43,202569.24,200.767,202.569,1.802,explain,3,0.719,0,because they x.
+52,6071,6782,202569.24,226326.33,202.569,226.326,23.757,write,54,0.74,0,"So let's see, we have a limit when x tends to 0 of the following. We will have 1, 2x plus x is plus 3x, and that is added with 2x squared. This we can already protect with parentheses, that in turn is multiplying with 1 plus 3x, and all that is minus 1,"
+53,6783,6798,226326.33,226860.19,226.326,226.860,0.534,explain,1,0.817,0,"1,"
+54,6799,6838,226860.19,228194.86,226.860,228.195,1.335,out,3,0.876,0,while in the
+55,6839,6864,228194.86,229062.40,228.195,229.062,0.868,explain,3,0.666,0,the denominator remains
+56,6865,6883,229062.40,229696.36,229.062,229.696,0.634,write,2,0.272,0,remains x.
+57,6884,6901,229696.36,230296.96,229.696,230.297,0.601,explain,1,0.53,0,x.
+58,6902,6982,230296.96,232999.67,230.297,233.000,2.703,out,8,0.85,0,x. Now we are going to solve this
+59,6983,7097,232999.67,236836.84,233.000,236.837,3.837,explain,10,0.92,0,this product that occurs between a trinomial and a binomial.
+60,7098,7141,236836.84,238304.97,236.837,238.305,1.468,change,5,0.768,0,binomial. We will have then
+61,7142,7162,238304.97,239005.67,238.305,239.006,0.701,explain,1,0.657,0,then
+62,7163,7297,239005.67,243510.18,239.006,243.510,4.505,write,7,0.744,0,"then limit when x tends to 0,"
+63,7298,7422,243510.18,247681.01,243.510,247.681,4.171,explain,12,0.703,0,so let's see how have that product. We are to start distributing
+64,7423,7526,247681.01,251151.15,247.681,251.151,3.470,write,7,0.592,0,"distributing this 1, then 1 multiplies to"
+65,7527,7623,251151.15,254387.72,251.151,254.388,3.237,change,10,0.693,0,"to each of these two terms, 1 times 1 gives"
+66,7624,7753,254387.72,258725.39,254.388,258.725,4.338,write,11,0.826,0,"gives us 1, and 1 times plus 3x is plus 3x."
+67,7754,7882,258725.39,263029.70,258.725,263.030,4.304,change,10,0.884,0,Now we are going to distribute what the term 3x
+68,7883,7971,263029.70,265999.33,263.030,265.999,2.970,write,8,0.942,0,"3x is, 3x multiplies to each of these"
+69,7972,8021,265999.33,267667.67,265.999,267.668,1.668,change,4,0.931,0,"these terms, then we"
+70,8022,8071,267667.67,269336.00,267.668,269.336,1.668,explain,5,0.978,0,we have 3x times 1
+71,8072,8263,269336.00,275742.41,269.336,275.742,6.406,write,13,0.783,0,"1 is plus 3x, 3x times plus 3x gives us plus 9x squared."
+72,8264,8388,275742.41,279913.25,275.742,279.913,4.171,change,12,0.85,0,"squared. And now we are going to distribute the other term, is"
+73,8389,8467,279913.25,282549.22,279.913,282.549,2.636,write,7,0.88,0,"is 2x squared, we are going to"
+74,8468,8535,282549.22,284818.15,282.549,284.818,2.269,change,7,0.911,0,"to multiply these two terms, we will"
+75,8536,8585,284818.15,286486.49,284.818,286.486,1.668,explain,6,0.851,0,will have 2x squared times 1
+76,8586,8898,286486.49,296930.26,286.486,296.930,10.444,write,21,0.843,0,"1 is plus 2x squared, 2x squared times plus 3x would be plus 6x cubed, and all that is minus 1,"
+77,8899,8911,296930.26,297364.03,296.930,297.364,0.434,explain,2,0.888,0,"1, while"
+78,8912,8979,297364.03,299632.97,297.364,299.633,2.269,out,5,0.732,0,while in the denominator remains
+79,8980,8997,299632.97,300233.57,299.633,300.234,0.601,write,2,0.463,0,remains x.
+80,8998,9013,300233.57,300767.43,300.234,300.767,0.534,explain,2,0.526,0,"x. Now,"
+81,9014,9076,300767.43,302869.54,300.767,302.870,2.102,out,5,0.622,0,"Now, in all this polynomial"
+82,9077,9139,302869.54,304971.64,302.870,304.972,2.102,explain,8,0.689,0,"polynomial that we obtained, we are to make"
+83,9140,9222,304971.64,307741.07,304.972,307.741,2.769,out,5,0.735,0,make the reduction of similar
+84,9223,9235,307741.07,308174.84,307.741,308.175,0.434,explain,1,0.87,0,similar
+85,9236,9238,308174.84,308274.94,308.175,308.275,0.100,out,0,,1,[silence]
+86,9239,9332,308274.94,311411.41,308.275,311.411,3.136,explain,9,0.898,0,"We have, for example, 1 and minus 1, are"
+87,9333,9382,311411.41,313079.75,311.411,313.080,1.668,write,5,0.769,0,"are opposite numbers, whose sum"
+88,9383,9421,313079.75,314381.05,313.080,314.381,1.301,explain,4,0.528,0,"sum gives 0, so"
+89,9422,9434,314381.05,314814.81,314.381,314.815,0.434,change,2,0.805,0,so we
+90,9435,9495,314814.81,316850.18,314.815,316.850,2.035,out,6,0.896,0,we can cancel them or eliminate
+91,9496,9535,316850.18,318184.85,316.850,318.185,1.335,explain,5,0.647,0,eliminate them. That is will
+92,9536,9674,318184.85,322822.82,318.185,322.823,4.638,write,10,0.64,0,"will have then, limit, when x tends to 0 of"
+93,9675,9824,322822.82,327827.83,322.823,327.828,5.005,explain,14,0.803,0,"of the following, we review the expression, we can start with the higher degree,"
+94,9825,9886,327827.83,329896.56,327.828,329.897,2.069,write,6,0.559,0,"degree, which would be 6x cubed,"
+95,9887,9932,329896.56,331431.43,329.897,331.431,1.535,explain,3,0.562,0,"cubed, now we"
+96,9933,9967,331431.43,332599.27,331.431,332.599,1.168,change,6,0.564,0,we those that have a degree
+97,9968,9984,332599.27,333166.50,332.599,333.166,0.567,explain,3,0.57,0,"degree of 2,"
+98,9985,10012,333166.50,334100.77,333.166,334.101,0.934,write,5,0.688,0,"would be those two terms,"
+99,10013,10042,334100.77,335101.77,334.101,335.102,1.001,explain,2,0.966,0,"terms, can"
+100,10043,10070,335101.77,336036.04,335.102,336.036,0.934,change,5,0.929,0,"can added, they are similar"
+101,10071,10106,336036.04,337237.24,336.036,337.237,1.201,explain,2,0.97,0,"similar terms,"
+102,10107,10216,337237.24,340907.57,337.237,340.908,3.670,write,6,0.759,0,"that gives us plus 11x squared,"
+103,10217,10234,340907.57,341508.17,340.908,341.508,0.601,explain,2,0.972,0,and then
+104,10235,10294,341508.17,343510.18,341.508,343.510,2.002,change,6,0.896,0,"then the terms that contain x,"
+105,10295,10320,343510.18,344377.71,343.510,344.378,0.868,explain,1,0.534,0,"x,"
+106,10321,10349,344377.71,345345.35,344.378,345.345,0.968,write,4,0.932,0,"would be these two,"
+107,10350,10378,345345.35,346312.98,345.345,346.313,0.968,explain,2,0.797,0,then plus
+108,10379,10418,346312.98,347647.65,346.313,347.648,1.335,change,3,0.816,0,plus 3x and
+109,10419,10440,347647.65,348381.72,347.648,348.382,0.734,explain,3,0.848,0,and plus 3x
+110,10441,10520,348381.72,351051.05,348.382,351.051,2.669,write,5,0.952,0,"3x gives us plus 6x,"
+111,10521,10537,351051.05,351618.28,351.051,351.618,0.567,explain,1,0.992,0,"6x,"
+112,10538,10585,351618.28,353219.89,351.618,353.220,1.602,out,5,0.751,0,and in the denominator remains
+113,10586,10611,353219.89,354087.42,353.220,354.087,0.868,explain,2,0.447,0,remains x.
+114,10612,10627,354087.42,354621.29,354.087,354.621,0.534,write,1,0.882,0,x.
+115,10628,10648,354621.29,355321.99,354.621,355.322,0.701,explain,2,0.533,0,"x. Now,"
+116,10649,10713,355321.99,357490.82,355.322,357.491,2.169,out,6,0.667,0,"Now, in the numerator we could"
+117,10714,10773,357490.82,359492.83,357.491,359.493,2.002,explain,4,0.648,0,could extract a common
+118,10774,10792,359492.83,360126.79,359.493,360.127,0.634,write,2,0.509,0,it is
+119,10793,11041,360126.79,368435.10,360.127,368.435,8.308,explain,23,0.813,0,"is x, because it is the letter that is repeated in all its terms, and the minor exponent that is, x to the"
+120,11042,11511,368435.10,384117.45,368.435,384.117,15.682,write,33,0.784,0,"the 1, then we would have limit, when x tends to 0 of x, which comes out as a common and within the parenthesis we have, 6x squared plus 11x plus 6, and"
+121,11512,11527,384117.45,384651.32,384.117,384.651,0.534,explain,1,0.057,0,and
+122,11528,11567,384651.32,385985.99,384.651,385.986,1.335,out,4,0.633,0,and in the denominator
+123,11568,11597,385985.99,386986.99,385.986,386.987,1.001,explain,3,0.451,0,denominator remains x.
+124,11598,11617,386986.99,387654.32,386.987,387.654,0.667,write,1,0.18,0,x.
+125,11618,11635,387654.32,388254.92,387.654,388.255,0.601,explain,1,0.18,0,x.
+126,11636,11695,388254.92,390256.92,388.255,390.257,2.002,out,5,0.748,0,"Now, there we have an"
+127,11696,11803,390256.92,393860.53,390.257,393.861,3.604,explain,9,0.896,0,an algebraic where in the numerator there are two
+128,11804,11819,393860.53,394394.39,393.861,394.394,0.534,write,2,0.93,0,"two factors,"
+129,11820,11953,394394.39,398865.53,394.394,398.866,4.471,explain,13,0.794,0,"factors, and there one that repeated up and down, which is x, then"
+130,11954,12004,398865.53,400567.23,398.866,400.567,1.702,write,5,0.728,0,then we can cancel or
+131,12005,12473,400567.23,416216.22,400.567,416.216,15.649,explain,34,0.752,0,"or eliminate that factor, by the is the problem factor in this exercise, as x tends to 0, then by replacing there, that is what is causing the indetermination 0 over 0, that we"
+132,12474,12493,416216.22,416883.55,416.216,416.884,0.667,out,2,0.76,0,we had
+133,12494,12545,416883.55,418618.62,416.884,418.619,1.735,explain,4,0.83,0,"had obtained at beginning,"
+134,12546,12973,418618.62,432899.57,418.619,432.900,14.281,write,27,0.806,0,"beginning, then this is finally as the limit, when x tends to 0 of this expression, 6x squared plus 11x plus 6, and we all this using"
+135,12974,13003,432899.57,433900.57,432.900,433.901,1.001,explain,2,0.675,0,using parenthesis.
+136,13004,13072,433900.57,436202.87,433.901,436.203,2.302,out,5,0.891,0,"parenthesis. Finally, we to evaluate"
+137,13073,13254,436202.87,442275.61,436.203,442.276,6.073,explain,15,0.832,0,"evaluate this limit, we will replace x when it the value 0, in this expression,"
+138,13255,13508,442275.61,450750.75,442.276,450.751,8.475,write,13,0.831,0,"expression, then have 6 times 0 squared plus 11 times 0 plus 6,"
+139,13509,13576,450750.75,453019.69,450.751,453.020,2.269,change,5,0.798,0,these first two terms become
+140,13577,13685,453019.69,456656.66,453.020,456.657,3.637,write,7,0.793,0,"become 0, and then in the end"
+141,13686,13760,456656.66,459159.16,456.657,459.159,2.503,change,4,0.839,0,end we have 6
+142,13761,13797,459159.16,460393.73,459.159,460.394,1.235,write,3,0.649,0,6 that will
+143,13798,13873,460393.73,462929.60,460.394,462.930,2.536,change,5,0.749,0,will be the answer for
+144,13874,13916,462929.60,464364.36,462.930,464.364,1.435,write,3,0.863,0,for this algebraic
+145,13917,14543,464364.36,485285.29,464.364,485.285,20.921,explain,46,0.813,0,"algebraic We could check this solution by entering all this expression to a scientific and assigning x values very close to 0, both on left and on the right. By doing this exercise, we will see how the values of this expression are approximated to 6."
+146,14544,15304,485285.29,510677.34,485.285,510.677,25.392,out,1,0.946,0,6.

@@ -1,0 +1,211 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,12,1621,400.40,54120.79,0.400,54.121,53.720,explain,117,0.767,0,"we are to find the centroid of the shown here in such a way that we place the figure as a possible constitution of simpler that make up because it is an irregular and does contain any direct that indicates that the centroid is at a certain point therefore what we going to do here having our X and Y as we just put is to divide this figure in such a that we a little simpler of which, in a divided we their areas and their centroids to finally bring them and obtain the coordinates of the centroid of the complete figure now, first, along the X I am going to a horizontal line where this"
+1,1622,1650,54120.79,55088.42,54.121,55.088,0.968,write,4,0.909,0,this point is indicating
+2,1651,1770,55088.42,59092.43,55.088,59.092,4.004,explain,13,0.752,0,indicating the origin because here I have X and Y if I draw
+3,1771,1830,59092.43,61094.43,59.092,61.094,2.002,write,5,0.7,0,draw a horizontal line automatically
+4,1831,3013,61094.43,100567.23,61.094,100.567,39.473,explain,107,0.733,0,"automatically I am dividing that figure into two parts where at bottom I can identify that I a triangle and for case of the triangle I do have a formula that places the coordinates of the centroid, which is what we here well, for the next case, at the top, I can also divide that part into two or more figures depending on how large or wide I want to my procedure here the simplest thing is to it only into two parts what can be seen here is that having 6 inches here and 6 inches here I can form a square that in turn, drawing"
+5,3014,3096,100567.23,103336.67,100.567,103.337,2.769,write,8,0.672,0,drawing a line that forms that square I
+6,3097,4432,103336.67,147914.58,103.337,147.915,44.578,explain,124,0.809,0,"I will obtain two figures in such a that I will have a result a square and a triangle well, now I already have two rectangles and a square for the case of the square and the triangles I am to its centroid in such a that we are going to use this table here to find the coordinates of the centroid of the complete figure now we are going to first calculate the area of each of the here we have the formula for the centroid corresponding to the square and the triangle but first we are to see the case of the square now to everything corresponding to case of the square and then the following two triangles well then for the"
+7,4433,4544,147914.58,151651.65,147.915,151.652,3.737,write,9,0.873,0,the case of the square I have 6 and
+8,4545,4832,151651.65,161261.26,151.652,161.261,9.610,explain,24,0.796,0,"and 6 units respectively that as an area will give me the product of side by side, base by height 6 by 6 are"
+9,4833,4877,161261.26,162762.76,161.261,162.763,1.502,write,5,0.747,0,are 36 in such a
+10,4878,6159,162762.76,205538.87,162.763,205.539,42.776,explain,112,0.771,0,a that my area will be equal to 36 in this case inches squared well now we go with x and y that indicates x and y x and y will represent the coordinates of the centroid but only of the square the coordinates of the centroid I will place them as I have them here the coordinates for case of the square will be located at h half which is the height and b half that corresponds to the base here I have the sketch of the square base and height where I know that I will have in half its centroid then the coordinates if I want to divide this
+11,6160,6212,205538.87,207307.31,205.539,207.307,1.768,write,4,0.838,0,this in half I
+12,6213,6242,207307.31,208308.31,207.307,208.308,1.001,explain,6,0.732,0,I that here I have 3
+13,6243,6260,208308.31,208908.91,208.308,208.909,0.601,write,2,0.669,0,3 units
+14,6261,6444,208908.91,215048.38,208.909,215.048,6.139,explain,11,0.769,0,units that would correspond to the base divided by 2 which
+15,6445,6452,215048.38,215315.32,215.048,215.315,0.267,write,2,0.627,0,which would
+16,6453,6590,215315.32,219919.92,215.315,219.920,4.605,explain,11,0.76,0,"would be this part here, therefore x will be located at"
+17,6591,6611,219919.92,220620.62,219.920,220.621,0.701,write,2,0.587,0,at 3
+18,6612,6852,220620.62,228662.00,220.621,228.662,8.041,explain,25,0.722,0,3 units of what corresponds to x for the case of my centroid now for the centroid in y because it is a square it
+19,6853,7081,228662.00,236302.97,228.662,236.303,7.641,write,16,0.725,0,it will correspond exactly the same units it will be 3 units displaced along the y
+20,7082,7309,236302.97,243910.58,236.303,243.911,7.608,explain,22,0.791,0,y in such a that it correspond to my centroid then that means that the centroid will be located at 3 units
+21,7310,7347,243910.58,245178.51,243.911,245.179,1.268,write,2,0.693,0,units away
+22,7348,8165,245178.51,272472.47,245.179,272.472,27.294,explain,73,0.739,0,away from the origin because remember that it our reference system now here I have x and that means that the only thing I will do is the multiplication of what corresponds to my value of the centroid multiplied by the area in such a that it is the only thing I will do that here will be equal to 3 times 30 and 36 times 3 here it gives me the result
+23,8166,8227,272472.47,274541.21,272.472,274.541,2.069,write,2,0.859,0,result 108
+24,8228,8398,274541.21,280246.91,274.541,280.247,5.706,explain,16,0.767,0,108 and the same for the other case because it is also 3 3 times 36
+25,8399,8437,280246.91,281548.21,280.247,281.548,1.301,write,3,0.874,0,36 is 108
+26,8438,9068,281548.21,302602.60,281.548,302.603,21.054,explain,64,0.82,0,108 well then I already completed the table for the first case in such a way that what follows is to exactly the same but for the case of the two triangles that make up the complete so now what am going to do? what I am going to do is do exactly the same we are going to analyze this small triangle this
+27,9069,9144,302602.60,305138.47,302.603,305.138,2.536,write,7,0.802,0,this triangle with an approximate shape like
+28,9145,9249,305138.47,308641.98,305.138,308.642,3.504,explain,8,0.636,0,like this it 3 units of what corresponds
+29,9250,9294,308641.98,310143.48,308.642,310.143,1.502,write,3,0.797,0,corresponds to its
+30,9295,9354,310143.48,312145.48,310.143,312.145,2.002,explain,3,0.803,0,its base and
+31,9355,9371,312145.48,312712.71,312.145,312.713,0.567,write,1,0.771,0,and
+32,9372,9425,312712.71,314514.51,312.713,314.515,1.802,explain,6,0.701,0,and of height the 6 units
+33,9426,9440,314514.51,315015.02,314.515,315.015,0.501,write,1,0.976,0,units
+34,9441,9664,315015.02,322489.16,315.015,322.489,7.474,explain,19,0.697,0,units that represent me which is the same as the square of height now the area of a triangle
+35,9665,9851,322489.16,328728.73,322.489,328.729,6.240,write,13,0.834,0,the area of a triangle is equal to base by height over 2
+36,9852,9979,328728.73,332999.67,328.729,333.000,4.271,explain,15,0.821,0,2 for this case the area of the first triangle to which it will correspond
+37,9980,10085,332999.67,336536.54,333.000,336.537,3.537,write,4,0.702,0,correspond will correspond to
+38,10086,10129,336536.54,338004.67,336.537,338.005,1.468,explain,7,0.7,0,to the base that is worth 3
+39,10130,10157,338004.67,338938.94,338.005,338.939,0.934,write,1,0.723,0,3
+40,10158,10185,338938.94,339873.21,338.939,339.873,0.934,explain,1,0.31,0,by
+41,10186,10294,339873.21,343510.18,339.873,343.510,3.637,write,13,0.735,0,by the height that is worth 6 over 2 this here will be
+42,10295,10331,343510.18,344744.74,343.510,344.745,1.235,explain,5,0.64,0,be equal to times 3
+43,10332,10409,344744.74,347347.35,344.745,347.347,2.603,write,9,0.777,0,3 is equal to 18 divided 2 which leads
+44,10410,10482,347347.35,349783.12,347.347,349.783,2.436,explain,10,0.84,0,leads to say that the area of the triangle is
+45,10483,10496,349783.12,350250.25,349.783,350.250,0.467,write,2,0.953,0,is equal
+46,10497,10550,350250.25,352052.05,350.250,352.052,1.802,explain,4,0.906,0,equal to 9 therefore
+47,10551,10568,352052.05,352652.65,352.052,352.653,0.601,write,3,0.641,0,therefore that 9
+48,10569,11181,352652.65,373106.44,352.653,373.106,20.454,explain,53,0.773,0,9 I am going to place here 9 square inches now the coordinates of the centroid due to the coordinates of the centroid represented as I have here will be one third of what corresponds to the base and one third of what corresponds to the height that to that if I divide
+49,11182,11205,373106.44,373907.24,373.106,373.907,0.801,write,4,0.758,0,divide this into three
+50,11206,11325,373907.24,377911.24,373.907,377.911,4.004,explain,13,0.657,0,"three sections here I have, due to the is worth 3 here each"
+51,11326,11353,377911.24,378845.51,377.911,378.846,0.934,write,5,0.758,0,"each one would have 1,"
+52,11354,11566,378845.51,385952.62,378.846,385.953,7.107,explain,21,0.743,0,1 and 1 which would give me as result the three units that I have as base likewise height will represent
+53,11567,11594,385952.62,386886.89,385.953,386.887,0.934,write,3,0.903,0,represent a division
+54,11595,11662,386886.89,389155.82,386.887,389.156,2.269,explain,8,0.687,0,division in three parts which would me to
+55,11663,11751,389155.82,392125.46,389.156,392.125,2.970,write,12,0.807,0,"to say that they are 2 inches, 2 inches and 2 inches"
+56,11752,11932,392125.46,398164.83,392.125,398.165,6.039,explain,20,0.774,0,inches which gives me as a result the 6 inches if I want to that I am going to interpret
+57,11933,11964,398164.83,399232.57,398.165,399.233,1.068,write,5,0.917,0,interpret my centroid as I
+58,11965,12177,399232.57,406339.67,399.233,406.340,7.107,explain,26,0.797,0,I have it here in h -thirds and b -thirds it means that I am going to divide by 3 which will give me as a
+59,12178,12310,406339.67,410777.44,406.340,410.777,4.438,write,11,0.858,0,a result a centroid that will be at this point if
+60,12311,12675,410777.44,422956.29,410.777,422.956,12.179,explain,29,0.746,0,if I want to see it like this where will be one unit from this point to the right and two units up but given that my reference system
+61,12676,12726,422956.29,424657.99,422.956,424.658,1.702,write,5,0.766,0,system part of the origin
+62,12727,13329,424657.99,444778.11,424.658,444.778,20.120,explain,56,0.748,0,"origin that is 0 ,0 I am going to locate the coordinates of the centroid of the triangle but based on the origin that means that here in x I would have to put 1 which would indicate the distance that the base over 3 but I will add all the distance that there is from"
+63,13330,13362,444778.11,445879.21,444.778,445.879,1.101,write,4,0.646,0,from the lower of
+64,13363,13954,445879.21,465632.30,445.879,465.632,19.753,explain,53,0.779,0,of the triangle that is formed to where the origin for this case there are 6 units so I am going add 6 units plus the 1 third corresponding to the location of the centroid in such a that 6 plus 1 would be 7 so here I am going to have 7
+65,13955,13976,465632.30,466366.37,465.632,466.366,0.734,write,1,0.963,0,7
+66,13977,14068,466366.37,469436.10,466.366,469.436,3.070,explain,6,0.724,0,7 here we must remember that
+67,14069,14152,469436.10,472238.91,469.436,472.239,2.803,write,8,0.863,0,that it is 1 third of what corresponds
+68,14153,14365,472238.91,479346.01,472.239,479.346,7.107,explain,29,0.725,0,corresponds to the base and since the base is worth 3 between 3 it gives me 1 therefore it is a 6 plus 1 that why it gives 7
+69,14366,14423,479346.01,481281.28,479.346,481.281,1.935,fingererase,5,0.662,0,7 now what happens for
+70,14424,15251,481281.28,508908.91,481.281,508.909,27.628,explain,80,0.794,0,for the case of the y for the case of the y since I do have displacement of what corresponds to my horizontal axis up or down then there I can consider only the part of the height divided by 3 because the height divided by 3 corresponds to 6 between 3 it will give me as a result 2 which is what I here in such a that my coordinate in y for the centroid of my triangular is
+71,15252,15272,508908.91,509609.61,508.909,509.610,0.701,write,2,0.807,0,is 2
+72,15273,15800,509609.61,527227.23,509.610,527.227,17.618,explain,46,0.76,0,"2 well, since I have that 2 now all I am to is multiply the area by the coordinate of the centroid in x and the coordinate of the centroid in y then if we the multiplication for the first case 9 times 7 is 63"
+73,15801,15849,527227.23,528862.20,527.227,528.862,1.635,write,2,0.953,0,63 and
+74,15850,15983,528862.20,533333.33,528.862,533.333,4.471,explain,12,0.911,0,and for the case of y times a 9 times 2 is
+75,15984,16022,533333.33,534634.63,533.333,534.635,1.301,write,3,0.607,0,is 18 and
+76,16023,16246,534634.63,542108.78,534.635,542.109,7.474,explain,24,0.777,0,and there we have it then now we are to do the same but now with the last figure the last figure corresponds to
+77,16247,16401,542108.78,547280.61,542.109,547.281,5.172,write,17,0.891,0,to a triangle that is oriented more or less in this way where I have 6 units
+78,16402,16665,547280.61,556089.42,547.281,556.089,8.809,explain,33,0.836,0,"units here and in this part of here how many units am going to have? well, the sum of 6 plus 3 which is what corresponds to the entire distance which means that"
+79,16666,16688,556089.42,556856.86,556.089,556.857,0.767,write,1,0.875,0,that
+80,16689,17130,556856.86,571604.94,556.857,571.605,14.748,explain,42,0.751,0,"that that distance is to be 9 how am going to locate the centroid of this figure? well, only what I here is same triangle but rotated if I want to it in another way this same triangle, be careful, I can"
+81,17131,17304,571604.94,577410.74,571.605,577.411,5.806,write,19,0.847,0,can represent it in this way but I am going to leave the same dimensions 6 and 9 respectively
+82,17305,18069,577410.74,602936.27,577.411,602.936,25.526,explain,87,0.77,0,"respectively I am rotating it if that how you want to see it it is the only thing I am doing why? so that we can visualize it in terms of what corresponds to the coordinates of the centroid it is the only thing I am going to do well, since I did that I am to the centroid if my centroid tells me that I am going to locate it at h over 3 and in b over 3 if I divide this part between 3"
+83,18070,18178,602936.27,606573.24,602.936,606.573,3.637,write,7,0.71,0,"each part of height will represent 3,"
+84,18179,18334,606573.24,611778.45,606.573,611.778,5.205,explain,19,0.845,0,"3, 3 and 3 in such a way that it me 9 as a result and in the bottom"
+85,18335,18360,611778.45,612645.98,611.778,612.646,0.868,write,4,0.629,0,bottom part it would
+86,18361,18533,612645.98,618418.42,612.646,618.418,5.772,explain,15,0.79,0,would have something similar 6 between 3 would give me each piece of 2 therefore
+87,18534,18654,618418.42,622455.79,618.418,622.456,4.037,write,8,0.596,0,therefore my centroid would be located at this
+88,18655,18835,622455.79,628495.16,622.456,628.495,6.039,explain,14,0.731,0,this point in such a that my coordinate would be here 2 units displaced
+89,18836,18966,628495.16,632866.20,628.495,632.866,4.371,write,9,0.786,0,displaced towards this point and 3 units displaced upwards
+90,18967,19430,632866.20,648348.35,632.866,648.348,15.482,explain,52,0.775,0,upwards but how am going to interpret it in this triangle? the only thing I did was rotate it because I know that this part will correspond to the base with respect to the figure that I am rotating that means that 6 is to represent the part of the base that
+91,19431,19567,648348.35,652919.59,648.348,652.920,4.571,write,14,0.732,0,"that if I divide between 3 I would have 2, 2 and 2 and"
+92,19568,19777,652919.59,659926.59,652.920,659.927,7.007,explain,19,0.73,0,"and likewise my height is going represent this divided by 3 which is going to locate me at 3,"
+93,19778,19843,659926.59,662128.80,659.927,662.129,2.202,write,6,0.878,0,"3, 3 and 3 since all"
+94,19844,19991,662128.80,667067.07,662.129,667.067,4.938,explain,11,0.664,0,all this gives me 9 as if my centroid is one
+95,19992,20168,667067.07,672972.97,667.067,672.973,5.906,write,19,0.871,0,one third of the height and one third of the base my centroid would be passing through this point
+96,20169,20602,672972.97,687454.12,672.973,687.454,14.481,explain,37,0.676,0,"point which means that here I already have my coordinates well, before passing to the coordinates we are to obtain the area the area is equal to this case because it the area of a triangle so"
+97,20603,20742,687454.12,692125.46,687.454,692.125,4.671,write,13,0.714,0,so the area for the triangle 2 is to be equal to the
+98,20743,20974,692125.46,699866.53,692.125,699.867,7.741,explain,22,0.715,0,the base here we can do it in whatever way the result has to be exactly the same at the base 6
+99,20975,21524,699866.53,718218.22,699.867,718.218,18.352,write,27,0.588,0,6 times 9 is equal 2 6 times 9 is equal 54 times 2 which means that the area of this triangle corresponds to 27 27 square
+100,21525,21772,718218.22,726493.16,718.218,726.493,8.275,explain,27,0.691,0,"square well, now I have that we are to the coordinate in X and the coordinate in Y for the centroid we already know that the coordinate"
+101,21773,21805,726493.16,727594.26,726.493,727.594,1.101,write,5,0.776,0,coordinate of the centroid in
+102,21806,21951,727594.26,732465.80,727.594,732.466,4.872,explain,19,0.689,0,in X is to be located at how many? due to the scale that I have here I have
+103,21952,21971,732465.80,733133.13,732.466,733.133,0.667,fingererase,2,0.809,0,have 3
+104,21972,22025,733133.13,734934.93,733.133,734.935,1.802,explain,5,0.833,0,3 and 3 and here
+105,22026,22042,734934.93,735502.17,734.935,735.502,0.567,write,3,0.86,0,here is exactly
+106,22043,22624,735502.17,754921.59,735.502,754.922,19.419,explain,59,0.822,0,"exactly one third of what would correspond to my height with respect to this figure remember that here the only thing we doing is turning it but in end when returning to its original form the point is to be exactly the same because I am not changing the dimensions well, then if I have 3 plus 3 I"
+107,22625,22657,754921.59,756022.69,754.922,756.023,1.101,write,5,0.879,0,I would have 6 units
+108,22658,22746,756022.69,758992.33,756.023,758.992,2.970,explain,7,0.462,0,units in the X therefore that 6
+109,22747,22762,758992.33,759526.19,758.992,759.526,0.534,write,3,0.472,0,6 I am
+110,22763,23142,759526.19,772205.54,759.526,772.206,12.679,explain,29,0.752,0,"am going to there well, now what happens with the point that is for the case of the Ys? here the Y I have it located for the centroid"
+111,23143,23154,772205.54,772605.94,772.206,772.606,0.400,write,1,0.973,0,centroid
+112,23155,23183,772605.94,773573.57,772.606,773.574,0.968,explain,0,,1,[silence]
+113,23184,23325,773573.57,778311.64,773.574,778.312,4.738,write,11,0.853,0,in negative coordinates at this point I would have minus 2
+114,23326,23476,778311.64,783350.02,778.312,783.350,5.038,explain,13,0.876,0,2 that minus 2 I have to put with everything and the sign
+115,23477,23494,783350.02,783950.62,783.350,783.951,0.601,write,2,0.479,0,sign because
+116,23495,25603,783950.62,854320.99,783.951,854.321,70.370,explain,177,0.723,0,"because it is indicating the distance that is to the centroid with respect to my reference system well, that minus 2 I'm going to leave it like this and then what is going to here I have it, there it is now what happens with X times A and Y times A? we are to simply the multiplication obviously for case of YA I will have a negative part now well, for this case I can do the sum of the areas really what happens if I the sum of areas? this part I could consider I could consider it as negative but I'm going to like that because in the end it is a solid part and not a hole so whenever there is a space where a figure is always going to be positive it does matter here we are placing the negative because the coordinate is indicating a minus 2 in the axis of the Y well, here performing the multiplication I will have 27 times 6 which gives me as a result 162"
+117,25604,25654,854320.99,856022.69,854.321,856.023,1.702,write,1,0.969,0,162
+118,25655,25918,856022.69,864831.50,856.023,864.831,8.809,explain,16,0.797,0,162 for XA and for the case of 27 times minus 2 I would have minus
+119,25919,25971,864831.50,866599.93,864.831,866.600,1.768,write,2,0.75,0,"54 well,"
+120,25972,26108,866599.93,871171.17,866.600,871.171,4.571,explain,14,0.672,0,"well, since I did this the only thing I'm going to is perform the"
+121,26109,26170,871171.17,873239.91,871.171,873.240,2.069,write,5,0.811,0,the sum of what corresponds
+122,26171,26401,873239.91,880947.61,873.240,880.948,7.708,explain,19,0.814,0,"corresponds to the area to obtain the total of my figure and the sum of XA and YA well,"
+123,26402,26435,880947.61,882082.08,880.948,882.082,1.134,pickerase,4,0.368,0,"well, then the bottom"
+124,26436,26673,882082.08,890023.36,882.082,890.023,7.941,erase,15,0.687,0,bottom I can delete it because it is the antecedent to remember the formula triangle
+125,26674,26703,890023.36,891024.36,890.023,891.024,1.001,droperase,1,0.537,0,triangle
+126,26704,26779,891024.36,893560.23,891.024,893.560,2.536,explain,6,0.767,0,"triangle well, then here the sum"
+127,26780,26854,893560.23,896062.73,893.560,896.063,2.503,write,6,0.806,0,the sum of the areas here
+128,26855,27037,896062.73,902168.84,896.063,902.169,6.106,explain,16,0.66,0,here it will be equal to 36 plus 9 plus 27 which gives me as 72
+129,27038,27079,902168.84,903570.24,902.169,903.570,1.401,write,1,0.847,0,72
+130,27080,27400,903570.24,914280.95,903.570,914.281,10.711,explain,21,0.781,0,72 units squared which are in this case in inches now here the sum of these terms for XA the sum
+131,27401,27474,914280.95,916750.08,914.281,916.750,2.469,write,6,0.85,0,sum for XA will be equal
+132,27475,27507,916750.08,917851.18,916.750,917.851,1.101,explain,2,0.928,0,equal to
+133,27508,27736,917851.18,925492.16,917.851,925.492,7.641,out,13,0.788,0,to what? 108 plus 63 plus 162 that will give me as a
+134,27737,27763,925492.16,926393.06,925.492,926.393,0.901,explain,3,0.93,0,a result 333
+135,27764,27820,926393.06,928294.96,926.393,928.295,1.902,write,2,0.448,0,"333 well,"
+136,27821,27856,928294.96,929496.16,928.295,929.496,1.201,explain,2,0.368,0,"well, now"
+137,27857,27866,929496.16,929829.83,929.496,929.830,0.334,out,1,0.734,0,now
+138,27867,27942,929829.83,932365.70,929.830,932.366,2.536,explain,8,0.684,0,now the sum for the case of YA
+139,27943,27986,932365.70,933833.83,932.366,933.834,1.468,out,3,0.436,0,YA here I
+140,27987,28023,933833.83,935068.40,933.834,935.068,1.235,explain,7,0.749,0,I have a subtraction I have to
+141,28024,28196,935068.40,940840.84,935.068,940.841,5.772,out,12,0.717,0,to subtract it so it's 108 plus 18 minus 54 which gives
+142,28197,28229,940840.84,941941.94,940.841,941.942,1.101,explain,3,0.72,0,gives me as
+143,28230,28273,941941.94,943410.08,941.942,943.410,1.468,write,3,0.648,0,"as 72 well,"
+144,28274,28284,943410.08,943777.11,943.410,943.777,0.367,explain,1,0.616,0,"well,"
+145,28285,28313,943777.11,944744.74,943.777,944.745,0.968,out,3,0.779,0,since I these
+146,28314,28423,944744.74,948415.08,944.745,948.415,3.670,explain,9,0.855,0,these three terms now what I'm going to do
+147,28424,28439,948415.08,948948.95,948.415,948.949,0.534,out,2,0.966,0,do is
+148,28440,28563,948948.95,953086.42,948.949,953.086,4.137,explain,12,0.838,0,is obtain the centroid how am going to the centroid for X
+149,28564,28600,953086.42,954320.99,953.086,954.321,1.235,write,4,0.689,0,X of the total
+150,28601,28759,954320.99,959626.29,954.321,959.626,5.305,explain,15,0.621,0,total of everything that is entangled in blue here it will be equal for the
+151,28760,29602,959626.29,987754.42,959.626,987.754,28.128,write,61,0.814,0,"the coordinate in X it will be equal to the sum of what? of XA obviously between the total of the area and for Y it will be exactly the same nothing more than for Y we will use the sum of the terms of YA between the total of the area well, since we have this X that will represent"
+152,29603,29848,987754.42,995962.63,987.754,995.963,8.208,explain,23,0.792,0,represent the coordinate of the centroid along the horizontal axis it will be equal to what? the sum of XA is equal to
+153,29849,29915,995962.63,998198.20,995.963,998.198,2.236,write,4,0.711,0,to 333 between what?
+154,29916,30007,998198.20,1001267.93,998.198,1001.268,3.070,explain,6,0.718,0,what? between the total sum which
+155,30008,30029,1001267.93,1002002.00,1001.268,1002.002,0.734,write,3,0.799,0,which is 72
+156,30030,30059,1002002.00,1003003.00,1002.002,1003.003,1.001,explain,5,0.933,0,72 for the case of
+157,30060,30250,1003003.00,1009376.04,1003.003,1009.376,6.373,write,15,0.805,0,of the areas now it be the same for the case of Y but now
+158,30251,30341,1009376.04,1012412.41,1009.376,1012.412,3.036,explain,6,0.502,0,now the sum in Y which
+159,30342,30391,1012412.41,1014080.75,1012.412,1014.081,1.668,write,3,0.705,0,which is 72
+160,30392,30455,1014080.75,1016216.22,1014.081,1016.216,2.135,explain,1,0.282,0,between
+161,30456,30464,1016216.22,1016516.52,1016.216,1016.517,0.300,write,1,0.282,0,between
+162,30465,30474,1016516.52,1016850.18,1016.517,1016.850,0.334,explain,0,,1,[silence]
+163,30475,30489,1016850.18,1017350.68,1016.850,1017.351,0.501,out,0,,1,[silence]
+164,30490,30548,1017350.68,1019319.32,1017.351,1019.319,1.969,explain,1,0.953,0,72
+165,30549,30590,1019319.32,1020720.72,1019.319,1020.721,1.401,write,2,0.586,0,"72 well,"
+166,30591,30607,1020720.72,1021287.95,1020.721,1021.288,0.567,explain,3,0.58,0,"well, since I"
+167,30608,30681,1021287.95,1023757.09,1021.288,1023.757,2.469,out,4,0.824,0,I have this here
+168,30682,30695,1023757.09,1024224.22,1023.757,1024.224,0.467,explain,3,0.574,0,here it will
+169,30696,30783,1024224.22,1027160.49,1024.224,1027.160,2.936,write,11,0.732,0,will be equal for the case of X the coordinate in
+170,30784,30796,1027160.49,1027594.26,1027.160,1027.594,0.434,explain,3,0.833,0,in X will
+171,30797,30959,1027594.26,1033033.03,1027.594,1033.033,5.439,out,12,0.798,0,will be located in 333 between 72 which gives as a result
+172,30960,30982,1033033.03,1033800.47,1033.033,1033.800,0.767,explain,2,0.968,0,result 4
+173,30983,31098,1033800.47,1037671.00,1033.800,1037.671,3.871,write,2,0.884,0,4 .625
+174,31099,31118,1037671.00,1038338.34,1037.671,1038.338,0.667,explain,2,0.859,0,.625 here
+175,31119,31219,1038338.34,1041708.38,1038.338,1041.708,3.370,out,6,0.71,0,here it is 4 .625 but
+176,31220,31316,1041708.38,1044944.94,1041.708,1044.945,3.237,explain,6,0.558,0,but here I could round as
+177,31317,31391,1044944.94,1047447.45,1044.945,1047.447,2.503,fingererase,3,0.787,0,as 4 .63
+178,31392,31417,1047447.45,1048314.98,1047.447,1048.315,0.868,write,1,0.494,0,this
+179,31418,31472,1048314.98,1050150.15,1048.315,1050.150,1.835,explain,4,0.406,0,this is in inches
+180,31473,31481,1050150.15,1050450.45,1050.150,1050.450,0.300,out,2,0.413,0,inches and
+181,31482,31500,1050450.45,1051084.42,1050.450,1051.084,0.634,explain,2,0.447,0,the for
+182,31501,31534,1051084.42,1052218.89,1051.084,1052.219,1.134,write,5,0.7,0,for the case of Y
+183,31535,31547,1052218.89,1052652.65,1052.219,1052.653,0.434,out,1,0.556,0,the
+184,31548,31560,1052652.65,1053086.42,1052.653,1053.086,0.434,explain,2,0.498,0,the coordinate
+185,31561,31604,1053086.42,1054554.55,1053.086,1054.555,1.468,write,6,0.759,0,coordinate in Y because I have
+186,31605,31641,1054554.55,1055789.12,1054.555,1055.789,1.235,explain,7,0.868,0,have the same number in the numerator
+187,31642,31707,1055789.12,1057991.32,1055.789,1057.991,2.202,out,5,0.459,0,numerator and denominator it will
+188,31708,31736,1057991.32,1058958.96,1057.991,1058.959,0.968,explain,2,0.842,0,will be
+189,31737,31766,1058958.96,1059959.96,1058.959,1059.960,1.001,write,4,0.891,0,be equal to 1
+190,31767,31785,1059959.96,1060593.93,1059.960,1060.594,0.634,explain,1,0.778,0,1
+191,31786,31837,1060593.93,1062329.00,1060.594,1062.329,1.735,out,4,0.808,0,1 therefore the coordinates
+192,31838,32089,1062329.00,1070737.40,1062.329,1070.737,8.408,explain,16,0.712,0,coordinates where the centroid of my figure is will be located in X 4 .63 where
+193,32090,32241,1070737.40,1075809.14,1070.737,1075.809,5.072,write,12,0.614,0,where it is more or less 3 around here the red dot
+194,32242,32275,1075809.14,1076943.61,1075.809,1076.944,1.134,fingererase,2,0.912,0,4 .63
+195,32276,32340,1076943.61,1079112.45,1076.944,1079.112,2.169,write,2,0.938,0,.63 and
+196,32341,32497,1079112.45,1084351.02,1079.112,1084.351,5.239,explain,15,0.644,0,and in Y one unit up because it is positive then if this 3 is
+197,32498,32748,1084351.02,1092726.06,1084.351,1092.726,8.375,write,26,0.769,0,is equal or divided between 3 I would have here 1 which would mean that the centroid of the figure is located in the red dot
+198,32749,33068,1092726.06,1103403.40,1092.726,1103.403,10.677,explain,17,0.729,0,"dot where my coordinates are 4 .63 ,1 well then that means finally that the centroid of"
+199,33069,33271,1103403.40,1110176.84,1103.403,1110.177,6.773,write,14,0.832,0,"of the figure located in coordinates will be in 4 .63 ,1 and this"
+200,33272,33305,1110176.84,1111311.31,1110.177,1111.311,1.134,explain,3,0.689,0,this in inches
+201,33306,33388,1111311.31,1114080.75,1111.311,1114.081,2.769,write,4,0.386,0,inches well then this
+202,33389,33752,1114080.75,1126226.23,1114.081,1126.226,12.145,explain,37,0.731,0,this is is solved for the case of an irregular figure it always has to be divided in smaller of which we can obtain its centroid faster and locate it with respect to a reference system which
+203,33753,33788,1126226.23,1127427.43,1126.226,1127.427,1.201,out,3,0.697,0,which gives me
+204,33789,33949,1127427.43,1132799.47,1127.427,1132.799,5.372,explain,11,0.775,0,me the coordinates where the centroid of each the that constitute
+205,33950,33953,1132799.47,1132932.93,1132.799,1132.933,0.133,out,1,0.616,0,constitute
+206,33954,34003,1132932.93,1134601.27,1132.933,1134.601,1.668,explain,3,0.806,0,constitute the original
+207,34004,34007,1134601.27,1134734.73,1134.601,1134.735,0.133,out,3,0.739,0,"original figure well,"
+208,34008,34022,1134734.73,1135235.24,1134.735,1135.235,0.501,explain,1,0.274,0,"well,"
+209,34023,34169,1135235.24,1140140.14,1135.235,1140.140,4.905,out,10,0.755,0,"well, hope this example has been helpful and thank you"

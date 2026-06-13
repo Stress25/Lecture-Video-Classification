@@ -1,0 +1,22 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,600,0.00,20053.39,0.000,20.053,20.053,explain,46,0.938,0,"Okay, in this problem, we have a spring that's vertically hung, and there's a mass attached to the spring, and it's 10 kilograms, and it's stretching the spring 0 .5 meters. So there are two forces acting in this situation, there's the force of the spring,"
+1,601,744,20053.39,24858.19,20.053,24.858,4.805,write,0,,1,[silence]
+2,745,1020,24858.19,34067.40,24.858,34.067,9.209,explain,20,0.933,0,"which is negative k, where k is the spring constant, times y, the distance that the spring is being stretched,"
+3,1021,1097,34067.40,36636.64,34.067,36.637,2.569,write,0,,1,[silence]
+4,1098,1228,36636.64,41007.67,36.637,41.008,4.371,explain,11,0.991,0,"and then there's the force of gravity on the mass, which"
+5,1229,1278,41007.67,42676.01,41.008,42.676,1.668,write,1,0.999,0,is
+6,1279,1697,42676.01,56656.66,42.676,56.657,13.981,explain,31,0.953,0,"the mass times gravity. And we're asked to find the spring constant for this problem. So we know that nothing's moving, so the sum of the two forces should equal 0."
+7,1698,1980,56656.66,66099.43,56.657,66.099,9.443,write,0,,1,[silence]
+8,1981,2230,66099.43,74441.11,66.099,74.441,8.342,explain,17,0.931,0,"So we have the following equation, which we can simplify, or bring this ky to the side,"
+9,2231,2352,74441.11,78511.85,74.441,78.512,4.071,write,0,,1,[silence]
+10,2353,2876,78511.85,95996.00,78.512,95.996,17.484,explain,36,0.945,0,"and we see that the two forces should equal each other with negative ky on the opposite side. So we can plug in our values from the problem. We're given that y is 0 .5 meters,"
+11,2877,3009,95996.00,100433.77,95.996,100.434,4.438,write,0,,1,[silence]
+12,3010,3198,100433.77,106740.07,100.434,106.740,6.306,explain,9,0.981,0,"and we're given that the mass is 10 kilograms,"
+13,3199,3356,106740.07,112012.01,106.740,112.012,5.272,write,0,,1,[silence]
+14,3357,3593,112012.01,119919.92,112.012,119.920,7.908,explain,19,0.956,0,and we know that gravity is 9 .8 meters per second squared. So we can solve for k. This
+15,3594,3780,119919.92,126159.49,119.920,126.159,6.240,write,1,0.994,0,"is,"
+16,3781,3946,126159.49,131698.37,126.159,131.698,5.539,explain,11,0.907,0,"so k is equal to 98 times 2, which is 196,"
+17,3947,4076,131698.37,136036.04,131.698,136.036,4.338,write,0,,1,[silence]
+18,4077,4140,136036.04,138171.50,136.036,138.172,2.135,explain,3,0.992,0,and our final
+19,4141,4196,138171.50,140040.04,138.172,140.040,1.869,emphasize,1,1.0,0,answer
+20,4197,4319,140040.04,144144.14,140.040,144.144,4.104,explain,4,0.877,0,is 196 newton meters.

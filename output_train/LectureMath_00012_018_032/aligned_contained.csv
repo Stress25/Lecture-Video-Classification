@@ -1,0 +1,84 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,65,0.00,2202.20,0.000,2.202,2.202,explain,9,0.93,0,"Okay, in this problem, we're asked to find the"
+1,66,506,2202.20,16916.92,2.202,16.917,14.715,explain,38,0.945,0,"inverse of a matrix given as first row is 1, 2, negative 3, second row is 2, 6, negative 2, and the third row is negative 1, 1, 4. Okay, so we know that if the inverse exists,"
+2,507,620,16916.92,20720.72,16.917,20.721,3.804,fingererase,7,0.959,0,then when we augment the matrix with
+3,621,839,20720.72,28028.03,20.721,28.028,7.307,write,0,,1,[silence]
+4,840,1736,28028.03,57957.96,28.028,57.958,29.930,explain,66,0.914,0,"the identity matrix, we will get the identity on the left -hand side when we put it into reduced row echelon form. So we'll go ahead and put this into reduced row echelon form. So, first step, can, we already have a 1 in the first position, so we just want to clear out the first position in the second and third rows. So we'll take,"
+5,1737,1797,57957.96,59993.33,57.958,59.993,2.035,write,0,,1,[silence]
+6,1798,1884,59993.33,62896.23,59.993,62.896,2.903,explain,6,0.927,0,we'll set row 2 equal to
+7,1885,2027,62896.23,67667.67,62.896,67.668,4.771,write,5,0.893,0,negative 2 times row 1
+8,2028,2133,67667.67,71204.54,67.668,71.205,3.537,explain,8,0.958,0,"plus row 2, and then for row 3,"
+9,2134,2334,71204.54,77911.24,71.205,77.911,6.707,write,0,,1,[silence]
+10,2335,2850,77911.24,95128.46,77.911,95.128,17.217,explain,40,0.937,0,"we'll just add row 1 to row 3. So when we multiply negative 2 times row 1, get negative 2 plus 2 is 0, and 1 plus negative 1 is 0 as well. So we'll go ahead and do that."
+11,2851,3046,95128.46,101668.34,95.128,101.668,6.540,write,0,,1,[silence]
+12,3047,3155,101668.34,105305.31,101.668,105.305,3.637,explain,6,0.992,0,"Negative 4 plus 6 is 2,"
+13,3156,3509,105305.31,117117.12,105.305,117.117,11.812,write,0,,1,[silence]
+14,3510,3613,117117.12,120587.25,117.117,120.587,3.470,explain,5,0.993,0,2 plus 1 is 3.
+15,3614,3883,120587.25,129596.26,120.587,129.596,9.009,write,0,,1,[silence]
+16,3884,4846,129596.26,161728.40,129.596,161.728,32.132,explain,71,0.893,0,"So we get the matrix as follows. second row, the first row remains the same. Second row has changed to 0, 2, 4, negative 2, 1, 0, and the third row is 0, 3, 1, 1, 0, 1. Okay, so now we want to, we can go ahead and scale it, multiply the second row by multiple of 1 half to get a 1 in the second position along the diagonal."
+17,4847,5013,161728.40,167300.63,161.728,167.301,5.572,write,0,,1,[silence]
+18,5014,5199,167300.63,173506.84,167.301,173.507,6.206,explain,19,0.948,0,we'll just let row 2 equal 1 half row 2. We can go ahead and just do this right
+19,5200,5264,173506.84,175675.68,173.507,175.676,2.169,fingererase,2,0.953,0,in here.
+20,5265,5283,175675.68,176309.64,175.676,176.310,0.634,write,0,,1,[silence]
+21,5284,5296,176309.64,176743.41,176.310,176.743,0.434,fingererase,0,,1,[silence]
+22,5297,5352,176743.41,178611.95,176.743,178.612,1.869,handerase,0,,1,[silence]
+23,5353,5393,178611.95,179979.98,178.612,179.980,1.368,write,0,,1,[silence]
+24,5394,5491,179979.98,183249.92,179.980,183.250,3.270,fingererase,0,,1,[silence]
+25,5492,5553,183249.92,185318.65,183.250,185.319,2.069,write,0,,1,[silence]
+26,5554,5824,185318.65,194361.03,185.319,194.361,9.042,explain,15,0.778,0,"So our second row changes to 0, 1, 2, negative 1, 1 half, 0. Okay,"
+27,5825,5893,194361.03,196663.33,194.361,196.663,2.302,fingererase,6,0.991,0,so we can go ahead and
+28,5894,6090,196663.33,203236.57,196.663,203.237,6.573,explain,16,0.954,0,"erase that, and now we want to clear the 3 in the third row. So we'll"
+29,6091,6155,203236.57,205405.41,203.237,205.405,2.169,write,2,0.893,0,let row
+30,6156,6259,205405.41,208875.54,205.405,208.876,3.470,explain,7,0.955,0,3 equal negative 3 times row 2
+31,6260,6390,208875.54,213246.58,208.876,213.247,4.371,write,0,,1,[silence]
+32,6391,6793,213246.58,226693.36,213.247,226.693,13.447,explain,32,0.914,0,"plus row 3. So negative 3 plus 3 is 0, and we have a 0 in our second, or in our third row, second column. So we'll go ahead and do that."
+33,6794,7424,226693.36,247747.75,226.693,247.748,21.054,write,0,,1,[silence]
+34,7425,7492,247747.75,250016.68,247.748,250.017,2.269,explain,0,,1,[silence]
+35,7493,7811,250016.68,260660.66,250.017,260.661,10.644,write,0,,1,[silence]
+36,7812,8545,260660.66,285151.82,260.661,285.152,24.491,explain,51,0.888,0,"Okay, so our first and second rows remain the same, and our third row gets transformed to 0, 0, negative 5, 4, negative 3 halves, 1. So we have, so we can see that all we need to do is scale our third row by a factor of negative 1 fifth,"
+37,8546,8703,285151.82,290423.76,285.152,290.424,5.272,write,0,,1,[silence]
+38,8704,8805,290423.76,293827.16,290.424,293.827,3.403,explain,6,0.928,0,and we have ones all along
+39,8806,8931,293827.16,298031.36,293.827,298.031,4.204,fingererase,2,0.992,0,the diagonal.
+40,8932,9004,298031.36,300467.13,298.031,300.467,2.436,write,0,,1,[silence]
+41,9005,9092,300467.13,303403.40,300.467,303.403,2.936,fingererase,0,,1,[silence]
+42,9093,9211,303403.40,307374.04,303.403,307.374,3.971,write,0,,1,[silence]
+43,9212,9358,307374.04,312278.95,307.374,312.279,4.905,fingererase,0,,1,[silence]
+44,9359,9442,312278.95,315081.75,312.279,315.082,2.803,write,0,,1,[silence]
+45,9443,9543,315081.75,318451.79,315.082,318.452,3.370,fingererase,0,,1,[silence]
+46,9544,9595,318451.79,320186.85,318.452,320.187,1.735,write,0,,1,[silence]
+47,9596,11091,320186.85,370103.44,320.187,370.103,49.917,explain,115,0.916,0,"Okay, so our third row transforms to 0, 0, 1, negative 4 fifths, 3 tenths, negative 1 fifth. Okay, so now we know that we can, since we have an upper triangular matrix on the left, we know that we're going to be able to deduce this down to just the identity matrix column, or with the diagonals all one. So we know that our matrix is invertible, so in order to actually find the inverse, we're going to have to clear out these three values. So we'll go ahead and do that. So the first thing that we're going to do is we'll clear out this 2 and this negative 3. So we'll let,"
+48,11092,11571,370103.44,386119.45,370.103,386.119,16.016,write,0,,1,[silence]
+49,11572,12506,386119.45,417317.32,386.119,417.317,31.198,explain,67,0.886,0,"so we'll let row 2 be equal to negative 2 times row 3 plus row 2. So negative 2 plus 2 is 0, and for row 1, we'll let that be 3 times row 3 plus row 1. So we have 3 plus negative 3 clears the 0, makes the 0 there too. So we'll have all 0s except for this 2 that we need afterwards. So"
+50,12507,12783,417317.32,426559.89,417.317,426.560,9.243,write,3,0.926,0,we have 1.
+51,12784,13346,426559.89,445345.35,426.560,445.345,18.785,explain,28,0.868,0,"Okay, so for our second row, we have negative 2 times row 3. So negative 2 times 4 fifths is 8 fifths or minus 1. So we have"
+52,13347,13459,445345.35,449115.78,445.345,449.116,3.770,write,0,,1,[silence]
+53,13460,13489,449115.78,450116.78,449.116,450.117,1.001,fingererase,0,,1,[silence]
+54,13490,13925,450116.78,464664.66,450.117,464.665,14.548,explain,28,0.888,0,"a positive 3 fifths in this position, and then negative 2 times 3 tenths is negative 6 tenths plus 1 half is going to be negative 1 tenth."
+55,13926,13981,464664.66,466533.20,464.665,466.533,1.869,write,0,,1,[silence]
+56,13982,14333,466533.20,478278.28,466.533,478.278,11.745,explain,20,0.93,0,And then finally we have negative 2 times negative 1 fifth is positive 2 fifths plus 0 is 2 fifths.
+57,14334,14505,478278.28,484017.35,478.278,484.017,5.739,write,1,0.274,0,"Okay,"
+58,14506,14670,484017.35,489522.86,484.017,489.523,5.506,explain,7,0.991,0,we keep the third row the same.
+59,14671,14830,489522.86,494861.53,489.523,494.862,5.339,write,0,,1,[silence]
+60,14831,15318,494861.53,511144.48,494.862,511.144,16.283,explain,29,0.861,0,"And then finally for row 1, we have 3 times row 3 added to row 1. So 3 times negative 4 fifths is negative 12 fifths plus 1 is"
+61,15319,15435,511144.48,515048.38,511.144,515.048,3.904,write,3,0.955,0,negative 7 fifths.
+62,15436,15678,515048.38,523156.49,515.048,523.156,8.108,explain,10,0.947,0,And then 3 times 3 tenths is 9 tenths plus
+63,15679,15734,523156.49,525025.03,523.156,525.025,1.869,write,1,0.839,0,0
+64,15735,15878,525025.03,529829.83,525.025,529.830,4.805,explain,8,0.739,0,and negative 3 fifths is our last term.
+65,15879,15977,529829.83,533133.13,529.830,533.133,3.303,write,0,,1,[silence]
+66,15978,16413,533133.13,547681.01,533.133,547.681,14.548,explain,25,0.948,0,"So we have, we're almost at the identity matrix on the left -hand side of our augmented matrix, and all that's left to do is"
+67,16414,16609,547681.01,554220.89,547.681,554.221,6.540,write,8,0.866,0,let row 1 equal negative 2 row 2
+68,16610,17129,554220.89,571571.57,554.221,571.572,17.351,explain,32,0.911,0,"plus row 1 to clear out this 2. And then our matrix on the right hand side of the matrix, of the augmented matrix, our inverse of our matrix. So we have"
+69,17130,17332,571571.57,578345.01,571.572,578.345,6.773,write,3,0.76,0,1 0 0.
+70,17333,17410,578345.01,580947.61,578.345,580.948,2.603,explain,10,0.932,0,"So we have the identity on the left -hand side,"
+71,17411,17423,580947.61,581381.38,580.948,581.381,0.434,write,0,,1,[silence]
+72,17424,17768,581381.38,592892.89,581.381,592.893,11.512,explain,21,0.91,0,and then we have negative 2 times 3 fifths is negative 6 fifths plus a negative 7 fifths is negative 13
+73,17769,17847,592892.89,595528.86,592.893,595.529,2.636,write,1,0.981,0,fifths.
+74,17848,18199,595528.86,607273.94,595.529,607.274,11.745,explain,16,0.904,0,a negative 2 times negative 1 tenth is positive 2 tenths plus 9 tenths is 11
+75,18200,18253,607273.94,609075.74,607.274,609.076,1.802,write,1,0.964,0,tenths.
+76,18254,18555,609075.74,619152.49,609.076,619.152,10.077,explain,14,0.78,0,And negative 2 times positive 2 fifths is negative 4 fifths minus 3 fifths
+77,18556,18615,619152.49,621154.49,619.152,621.154,2.002,write,0,,1,[silence]
+78,18616,18751,621154.49,625692.36,621.154,625.692,4.538,explain,10,0.866,0,"is minus 7 fifths. And the remaining column, or rows,"
+79,18752,19284,625692.36,643476.81,625.692,643.477,17.784,write,3,0.99,0,remain the same.
+80,19285,19802,643476.81,660760.76,643.477,660.761,17.284,explain,41,0.879,0,"So we're left with our identity, or we're left with the identity on the left -hand side and our inverse matrix on the right -hand side. We can go ahead and factor 1 tenth out. And we're our inverse, so we"
+81,19803,20766,660760.76,692926.26,660.761,692.926,32.165,write,1,0.932,0,"have,"
+82,20767,21651,692926.26,722455.79,692.926,722.456,29.530,explain,59,0.915,0,"and we're left with our inverse matrix is 1 tenth times the matrix negative 26, 11, negative 14 as the first row. Second row is 6, negative 1, 4. And our third row is negative 8, 3, negative 2. So this is our inverse of our matrix 1 2, negative 3, 2 6, negative 2, negative 1, 1, 4."

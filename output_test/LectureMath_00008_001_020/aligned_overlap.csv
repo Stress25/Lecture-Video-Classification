@@ -1,0 +1,68 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,68,0.00,2302.30,0.000,2.302,2.302,explain,5,0.919,0,Welcome to our lecture online.
+1,69,1469,2302.30,49049.05,2.302,49.049,46.747,explain,138,0.945,0,"online. Here we're being asked to simplify numerical expressions. So in the previous video we saw what expressions are. Here they tell us we're dealing with numerical expressions which means there's no constants, letters, like a, b, and c, and there's no variables like x, y, or z, just numbers. They want us to simplify it and notice there's no equal signs anywhere. So we're not really solving anything, we're simply writing things in a simpler form. That's what simplification means or simplifying means. So here we're going to start with the upper right corner and we only have an addition and a subtraction. The rule says that we must start from the left and work to the right. So we must first subtract 42 from 22 and then add 30 to that. So this will then be"
+2,1470,1482,49049.05,49482.82,49.049,49.483,0.434,write,2,0.999,0,be equal
+3,1483,1569,49482.82,52385.72,49.483,52.386,2.903,explain,7,0.976,0,"equal to 22 minus 42, that's equal"
+4,1570,1694,52385.72,56556.56,52.386,56.557,4.171,write,11,0.862,0,"equal to minus 20, then which is equal to a positive"
+5,1695,2208,56556.56,73707.04,56.557,73.707,17.150,explain,32,0.954,0,"positive 10. On the next expression we have exponents, have a subtraction, and an addition. So exponents come before we do the addition and the subtraction. So let's first apply all the"
+6,2209,2221,73707.04,74140.81,73.707,74.141,0.434,write,2,0.993,0,the exponents.
+7,2222,2279,74140.81,76076.08,74.141,76.076,1.935,explain,9,0.954,0,"exponents. So this is equal to 3 squared, which"
+8,2280,2311,76076.08,77143.81,76.076,77.144,1.068,write,3,0.978,0,"which is 9,"
+9,2312,2346,77143.81,78311.64,77.144,78.312,1.168,explain,3,0.977,0,"minus 2 squared,"
+10,2347,2366,78311.64,78978.98,78.312,78.979,0.667,write,4,0.995,0,"squared, which is 4,"
+11,2367,2417,78978.98,80680.68,78.979,80.681,1.702,explain,4,0.805,0,"4, plus 5 cubed,"
+12,2418,2476,80680.68,82649.32,80.681,82.649,1.969,write,2,0.965,0,is 125.
+13,2477,2844,82649.32,94928.26,82.649,94.928,12.279,explain,35,0.968,0,"125. Now we can apply the rule where we start from left to right because subtraction and addition have the same priority, but we must do it from left to right. So 9 minus 4,"
+14,2845,3058,94928.26,102068.74,94.928,102.069,7.140,write,21,0.977,0,"that is equal to minus 5, plus 125. So now when we add these together, that's equal to a positive 120."
+15,3059,3776,102068.74,126026.03,102.069,126.026,23.957,explain,55,0.938,0,"120. On the next expression again we have exponents, have a multiplication, we have subtraction, or let's see here, no this is subtraction, no multiplication, this is 5 squared minus the quantity minus 10 squared, so this is a subtraction, an addition, but we should do the exponents first. So we have 5 squared, which"
+16,3777,3847,126026.03,128395.06,126.026,128.395,2.369,write,4,0.997,0,"which gives us 25,"
+17,3848,3992,128395.06,133233.23,128.395,133.233,4.838,explain,14,0.905,0,"minus a negative 10 squared, negative 10 times negative 10 is a positive 100,"
+18,3993,4051,133233.23,135201.87,133.233,135.202,1.969,write,2,0.905,0,"100, but"
+19,4052,4159,135201.87,138805.47,135.202,138.805,3.604,explain,10,0.934,0,but we have to subtract that from 25 and then
+20,4160,4204,138805.47,140306.97,138.805,140.307,1.502,write,8,0.987,0,then we have to add 30 to that.
+21,4205,4916,140306.97,164064.06,140.307,164.064,23.757,explain,67,0.94,0,"that. So I went ahead and put parentheses around it because I wanted to say that minus 10 squared is equal to a positive 100, but it's subtracted from 5 squared. So first we need to do the left operation first because it's a subtraction and an addition. Subtraction and addition have the same priority, so therefore we must go from left to right. 25 minus 100"
+22,4917,5085,164064.06,169703.04,164.064,169.703,5.639,write,15,0.932,0,"100 is equal to a minus 75, plus 30, which is equal to minus 45."
+23,5086,5645,169703.04,188388.39,169.703,188.388,18.685,explain,46,0.924,0,"45. Here we have a division and an addition. So here plainly we should do the division first, then the addition, even if the division is on the left or the division on the right doesn't matter, it comes first. So therefore 36 divided by 6,"
+24,5646,5755,188388.39,192058.73,188.388,192.059,3.670,write,12,0.964,0,"6, that's equal to 6, then we add the 5, which is"
+25,5756,6279,192058.73,209542.88,192.059,209.543,17.484,explain,53,0.965,0,"is therefore equal to 11. Up here on the upper left corner, notice we always are told to do what's inside the parentheses first before we do any other operation. We know that we have the left parentheses multiplied times the right parentheses, even though there's no multiplication sign, we could put a"
+26,6280,6311,209542.88,210610.61,209.543,210.611,1.068,write,4,0.871,0,a multiplication sign that
+27,6312,6504,210610.61,217050.38,210.611,217.050,6.440,explain,18,0.903,0,"that doesn't have to be there, it's understood to be multiplication, but we simplify what's inside the parentheses,"
+28,6505,6537,217050.38,218151.48,217.050,218.151,1.101,write,3,0.965,0,so this becomes
+29,6538,6574,218151.48,219386.05,218.151,219.386,1.235,explain,4,0.795,0,"becomes 3 minus 6,"
+30,6575,6637,219386.05,221488.15,219.386,221.488,2.102,write,7,0.894,0,"6, which is a minus 3, multiplied"
+31,6638,6674,221488.15,222722.72,221.488,222.723,1.235,explain,5,0.795,0,"multiplied times 6 minus 3,"
+32,6675,6699,222722.72,223556.89,222.723,223.557,0.834,write,5,0.98,0,"3, which is a positive"
+33,6700,6810,223556.89,227260.59,223.557,227.261,3.704,explain,12,0.972,0,"positive 3. Now we can simply multiply the two together, which is"
+34,6811,6858,227260.59,228862.20,227.261,228.862,1.602,write,6,0.958,0,is equal to a negative 9.
+35,6859,7328,228862.20,244544.54,228.862,244.545,15.682,explain,33,0.901,0,"9. Here again we must simplify what's inside the parentheses first. Notice I said the word solve, but that's wrong. We're not solving anything, we're simplifying things. So simplify what's inside the parentheses,"
+36,7329,7410,244544.54,247280.61,244.545,247.281,2.736,write,5,0.868,0,so this becomes 2 plus
+37,7411,7459,247280.61,248915.58,247.281,248.916,1.635,explain,5,0.967,0,"3 plus 5, which is"
+38,7460,7492,248915.58,250016.68,248.916,250.017,1.101,write,3,0.99,0,"is 8, minus"
+39,7493,7543,250016.68,251718.39,250.017,251.718,1.702,explain,4,0.99,0,"minus 6 minus 4,"
+40,7544,7582,251718.39,253019.69,251.718,253.020,1.301,write,4,0.996,0,"4, which is 2."
+41,7583,7972,253019.69,266032.70,253.020,266.033,13.013,explain,40,0.963,0,"So I can already take out the parentheses because I simplify them. 3 plus 5 is 8, 6 minus 4 is 2, and I subtract the 2 from the 8, so 8 minus 2. Now next what I'm going to"
+42,7973,7984,266032.70,266433.10,266.033,266.433,0.400,write,3,0.951,0,to do is
+43,7985,8038,266433.10,268234.90,266.433,268.235,1.802,explain,9,0.96,0,"is I'm going to solve what's inside the brackets,"
+44,8039,8266,268234.90,275842.51,268.235,275.843,7.608,write,22,0.93,0,"brackets, so we have 2 plus 8 minus 2, which is 6, and finally 2 plus 6, which is equal to 8,"
+45,8267,8980,275842.51,299666.33,275.843,299.666,23.824,explain,70,0.916,0,"which is the simplest form of our initial expression. And finally we have something here that looks a little bit more complicated. Notice we have absolute value signs, have exponents, we have brackets. Alright, what do we do first? Well we solve what's inside the parentheses as well as what's inside the absolute value signs. We do exactly the same with absolute value signs as we do with parentheses. So"
+46,8981,9152,299666.33,305405.41,299.666,305.405,5.739,write,12,0.901,0,So this is equal to 5 times 3 minus 4 squared plus
+47,9153,9311,305405.41,310710.71,305.405,310.711,5.305,explain,17,0.941,0,"plus 16 minus 2 squared. So inside the parentheses we have an exponent, we do that first."
+48,9312,9424,310710.71,314481.15,310.711,314.481,3.770,write,10,0.916,0,first. So we end up with 16 minus 4 inside
+49,9425,9566,314481.15,319219.22,314.481,319.219,4.738,explain,18,0.97,0,inside the absolute value signs. Now we can go ahead and do what's inside the absolute value signs.
+50,9567,9796,319219.22,326893.56,319.219,326.894,7.674,write,17,0.934,0,So this is equal to 5 times 3 minus 4 squared plus the value of 12. And
+51,9797,10011,326893.56,334067.40,326.894,334.067,7.174,explain,32,0.916,0,"And now we can remove the absolute value signs and change that number to a positive. Now since it's already a positive we don't have to do that, we simply write 12."
+52,10012,10193,334067.40,340140.14,334.067,340.140,6.073,write,12,0.929,0,12. So this is 5 times 3 minus 4 squared plus 12.
+53,10194,10393,340140.14,346813.48,340.140,346.813,6.673,explain,16,0.993,0,The next thing we need to do is apply the exponent inside the brackets. So this
+54,10394,10488,346813.48,349983.32,346.813,349.983,3.170,write,7,0.983,0,this is equal to 5 times 3
+55,10489,10541,349983.32,351751.75,349.983,351.752,1.768,explain,6,0.99,0,"3 minus 4 squared, which is"
+56,10542,10621,351751.75,354421.09,351.752,354.421,2.669,write,4,0.894,0,is 16 plus 12.
+57,10622,10958,354421.09,365665.67,354.421,365.666,11.245,explain,37,0.905,0,Notice now I can simplify what's inside the brackets but I must operate from left to right because I have a subtraction and an addition. So they have the same priority so I start from the left.
+58,10959,11022,365665.67,367801.13,365.666,367.801,2.135,write,6,0.918,0,This is equal to 5 times
+59,11023,11070,367801.13,369402.74,367.801,369.403,1.602,explain,5,0.849,0,times 3 minus 16 is
+60,11071,11160,369402.74,372405.74,369.403,372.406,3.003,write,6,0.955,0,is a minus 13 plus 12.
+61,11161,11248,372405.74,375342.01,372.406,375.342,2.936,explain,9,0.96,0,Now I can add those two together. So this
+62,11249,11348,375342.01,378678.68,375.342,378.679,3.337,write,9,0.931,0,this is equal to 5 times a negative 1
+63,11349,11402,378678.68,380480.48,378.679,380.480,1.802,explain,7,0.902,0,1 and 5 times a negative 1
+64,11403,11469,380480.48,382716.05,380.480,382.716,2.236,write,7,0.981,0,1 is equal to a negative 5
+65,11470,11485,382716.05,383249.92,382.716,383.250,0.534,emphasize,2,0.722,0,5 and
+66,11486,12487,383249.92,416683.35,383.250,416.683,33.433,explain,73,0.927,0,"and that's the final simplified form of my original expression. Notice start from the inside, work out absolute value signs are treated just like parentheses. Figure out what's inside or simplify what's inside first before we take the absolute value signs away. Continue to simplify from the inside out. Again order of operation is always there for every situation inside parentheses or inside brackets and that is how we simplify these numerical expressions."

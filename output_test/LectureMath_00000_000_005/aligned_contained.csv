@@ -1,0 +1,831 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,205,0.00,6873.54,0.000,6.874,6.874,out,20,0.9,0,"So, today we are going to have our lecture 5 and we will continue from what we did last time."
+1,206,243,6873.54,8141.47,6.874,8.141,1.268,explain,0,,1,[silence]
+2,244,371,8141.47,12412.41,8.141,12.412,4.271,fingererase,7,0.894,0,"So, let see let us recall something"
+3,372,675,12412.41,22555.89,12.412,22.556,10.143,write,9,0.944,0,we introduced last time which was the linear span
+4,676,706,22555.89,23590.26,22.556,23.590,1.034,explain,4,0.863,0,of a set of
+5,707,786,23590.26,26259.59,23.590,26.260,2.669,out,1,0.997,0,vectors.
+6,787,819,26259.59,27360.69,26.260,27.361,1.101,explain,0,,1,[silence]
+7,820,1102,27360.69,36803.47,27.361,36.803,9.443,write,0,,1,[silence]
+8,1103,1124,36803.47,37537.54,36.803,37.538,0.734,explain,0,,1,[silence]
+9,1125,1213,37537.54,40507.17,37.538,40.507,2.970,out,4,0.921,0,Let us see if
+10,1214,1238,40507.17,41341.34,40.507,41.341,0.834,explain,3,0.954,0,we are given
+11,1239,1363,41341.34,45512.18,41.341,45.512,4.171,write,10,0.913,0,a space of vectors let us see we have a
+12,1364,1372,45512.18,45812.48,45.512,45.812,0.300,explain,2,0.994,0,collection of
+13,1373,1456,45812.48,48615.28,45.812,48.615,2.803,out,4,0.964,0,vectors and within that
+14,1457,1491,48615.28,49783.12,48.615,49.783,1.168,explain,2,0.92,0,space suppose
+15,1492,1660,49783.12,55422.09,49.783,55.422,5.639,write,14,0.856,0,I pick a particular vector what we are trying to ask ourselves is what
+16,1661,1672,55422.09,55822.49,55.422,55.822,0.400,explain,2,0.942,0,is the
+17,1673,1764,55822.49,58892.23,55.822,58.892,3.070,out,11,0.951,0,span of this vector? What we mean geometrically is if I
+18,1765,1773,58892.23,59192.53,58.892,59.193,0.300,explain,2,0.994,0,know this
+19,1774,1834,59192.53,61227.89,59.193,61.228,2.035,out,5,0.959,0,vector and if I try
+20,1835,1843,61227.89,61528.19,61.228,61.528,0.300,explain,1,0.997,0,to
+21,1844,1858,61528.19,62028.70,61.528,62.029,0.501,out,3,0.982,0,move along this
+22,1859,1879,62028.70,62729.40,62.029,62.729,0.701,explain,2,0.725,0,vector what
+23,1880,1891,62729.40,63129.80,62.729,63.130,0.400,out,1,0.831,0,all
+24,1892,1898,63129.80,63363.36,63.130,63.363,0.234,explain,1,0.991,0,things
+25,1899,1908,63363.36,63697.03,63.363,63.697,0.334,out,2,0.989,0,can I
+26,1909,1954,63697.03,65231.90,63.697,65.232,1.535,explain,7,0.982,0,"visit? So, if you look at this"
+27,1955,2052,65231.90,68501.84,65.232,68.502,3.270,write,11,0.97,0,particular vector and if this is the only direction we can
+28,2053,2064,68501.84,68902.24,68.502,68.902,0.400,explain,1,0.999,0,go
+29,2065,2137,68902.24,71338.00,68.902,71.338,2.436,out,7,0.798,0,then that means I have the capability
+30,2138,2158,71338.00,72038.71,71.338,72.039,0.701,explain,2,0.994,0,of going
+31,2159,2162,72038.71,72172.17,72.039,72.172,0.133,out,0,,1,[silence]
+32,2163,2174,72172.17,72572.57,72.172,72.573,0.400,explain,2,0.866,0,along this
+33,2175,2218,72572.57,74040.71,72.573,74.041,1.468,out,3,0.894,0,straight line if
+34,2219,2288,74040.71,76376.38,74.041,76.376,2.336,explain,9,0.957,0,I have just this one vector given to me.
+35,2289,2479,76376.38,82749.42,76.376,82.749,6.373,out,22,0.819,0,What if I was given two vectors what are options to open up for me? If I am given two vectors let
+36,2480,2534,82749.42,84584.58,82.749,84.585,1.835,explain,8,0.972,0,us say another vector was given to me
+37,2535,2659,84584.58,88755.42,84.585,88.755,4.171,write,6,0.844,0,say something like this say V2
+38,2660,2668,88755.42,89055.72,88.755,89.056,0.300,explain,0,,1,[silence]
+39,2669,2744,89055.72,91591.59,89.056,91.592,2.536,out,7,0.841,0,in that case I have now capability
+40,2745,2803,91591.59,93560.23,91.592,93.560,1.969,explain,8,0.987,0,of moving in this direction or moving in
+41,2804,2912,93560.23,97197.20,93.560,97.197,3.637,out,9,0.959,0,this direction and I also have the capability of
+42,2913,2955,97197.20,98631.97,97.197,98.632,1.435,explain,3,0.997,0,moving in the
+43,2956,2981,98631.97,99499.50,98.632,99.499,0.868,out,3,0.998,0,combination of these
+44,2982,3088,99499.50,103069.74,99.499,103.070,3.570,explain,11,0.946,0,"directions. So, say for example I want to visit this point"
+45,3089,3097,103069.74,103370.04,103.070,103.370,0.300,write,0,,1,[silence]
+46,3098,3111,103370.04,103837.17,103.370,103.837,0.467,explain,1,0.874,0,just
+47,3112,3157,103837.17,105372.04,103.837,105.372,1.535,out,4,0.923,0,moving along these two
+48,3158,3188,105372.04,106406.41,105.372,106.406,1.034,explain,5,0.912,0,vectors what I can do
+49,3189,3353,106406.41,111911.91,106.406,111.912,5.506,write,18,0.902,0,is I can go along this line up to a multiple of this vector and then I can
+50,3354,3383,111911.91,112912.91,111.912,112.913,1.001,explain,2,0.994,0,try to
+51,3384,3445,112912.91,114981.65,112.913,114.982,2.069,write,2,0.926,0,tag along
+52,3446,3461,114981.65,115515.52,114.982,115.516,0.534,explain,1,0.613,0,V2
+53,3462,3600,115515.52,120153.49,115.516,120.153,4.638,out,15,0.951,0,"or some multiple of it to reach that. So, all of a sudden just having"
+54,3601,3655,120153.49,121988.66,120.153,121.989,1.835,explain,5,0.927,0,these two vectors my capability
+55,3656,3876,121988.66,129362.70,121.989,129.363,7.374,out,18,0.993,0,"increases to visit all the points in this space. So, this is the essence we want to capture"
+56,3877,3895,129362.70,129996.66,129.363,129.997,0.634,explain,2,0.992,0,using the
+57,3896,4095,129996.66,136670.00,129.997,136.670,6.673,out,18,0.928,0,"idea of a linear span. So, we want to capture this thing algebraically instead of thinking only geometrically."
+58,4096,4167,136670.00,139072.41,136.670,139.072,2.402,explain,5,0.981,0,"So, suppose we are working"
+59,4168,4652,139072.41,155255.26,139.072,155.255,16.183,write,25,0.884,0,"in an n dimensional space and somebody gave us bunch of vectors let us say V1 V2 Vk. So, this is the set of vectors"
+60,4653,4673,155255.26,155955.96,155.255,155.956,0.701,explain,2,0.752,0,which lives
+61,4674,4782,155955.96,159592.93,155.956,159.593,3.637,out,11,0.925,0,in this space each of them is a n dimensional vector.
+62,4783,4809,159592.93,160493.83,159.593,160.494,0.901,explain,0,,1,[silence]
+63,4810,5274,160493.83,176009.34,160.494,176.009,15.516,write,19,0.844,0,"So, question we answer is what exactly do I mean by a linear span what is the linear span."
+64,5275,5292,176009.34,176609.94,176.009,176.610,0.601,explain,0,,1,[silence]
+65,5293,5426,176609.94,181081.08,176.610,181.081,4.471,out,4,0.981,0,intuitively speaking what we
+66,5427,5500,181081.08,183550.22,181.081,183.550,2.469,explain,11,0.927,0,are saying is suppose I have all these vectors along which
+67,5501,5620,183550.22,187554.22,183.550,187.554,4.004,out,12,0.911,0,I am capable of traveling what all places can I visit in
+68,5621,5696,187554.22,190090.09,187.554,190.090,2.536,explain,10,0.801,0,this space can I visit every part in this space
+69,5697,5724,190090.09,191024.36,190.090,191.024,0.934,out,2,0.948,0,or is
+70,5725,5841,191024.36,194928.26,191.024,194.928,3.904,explain,9,0.943,0,it like my my capability of visiting points is
+71,5842,5851,194928.26,195261.93,194.928,195.262,0.334,out,1,0.998,0,limited
+72,5852,5874,195261.93,196029.36,195.262,196.029,0.767,explain,3,0.956,0,and if it
+73,5875,6165,196029.36,205739.07,196.029,205.739,9.710,out,28,0.898,0,"is limited to what extent is it limited. So, just let us get familiarized with this idea of linear span and then we will give the algebraic definition."
+74,6166,6208,205739.07,207173.84,205.739,207.174,1.435,explain,2,0.876,0,Imagine I
+75,6209,6450,207173.84,215248.58,207.174,215.249,8.075,write,11,0.961,0,"was in R3. So, if I was in R3 and let"
+76,6451,6464,215248.58,215715.72,215.249,215.716,0.467,explain,1,0.998,0,us
+77,6465,6570,215715.72,219252.59,215.716,219.253,3.537,out,4,0.898,0,say think of it
+78,6571,6630,219252.59,221254.59,219.253,221.255,2.002,explain,6,0.953,0,as this room which is in
+79,6631,6712,221254.59,223990.66,221.255,223.991,2.736,out,8,0.909,0,R3. If I am given two vectors any
+80,6713,6751,223990.66,225291.96,223.991,225.292,1.301,explain,3,0.996,0,two vectors on
+81,6752,6820,225291.96,227594.26,225.292,227.594,2.302,write,2,0.99,0,the floor
+82,6821,6852,227594.26,228662.00,227.594,228.662,1.068,explain,0,,1,[silence]
+83,6853,6897,228662.00,230163.50,228.662,230.163,1.502,out,5,0.963,0,and suppose I was given
+84,6898,6993,230163.50,233366.70,230.163,233.367,3.203,explain,9,0.879,0,to travel along this line and along this line
+85,6994,7086,233366.70,236469.80,233.367,236.470,3.103,out,8,0.639,0,what is the capability what are what is
+86,7087,7133,236469.80,238038.04,236.470,238.038,1.568,explain,5,0.992,0,the capability that I have
+87,7134,7151,238038.04,238638.64,238.038,238.639,0.601,out,1,0.985,0,to
+88,7152,7189,238638.64,239906.57,238.639,239.907,1.268,explain,3,0.966,0,visit points in
+89,7190,7212,239906.57,240674.01,239.907,240.674,0.767,out,1,0.795,0,R3.
+90,7213,7326,240674.01,244477.81,240.674,244.478,3.804,explain,13,0.871,0,"Now, since I am only given vectors in the floor then would you"
+91,7327,7527,244477.81,251184.52,244.478,251.185,6.707,write,16,0.935,0,agree that my only capability would be kind of go in this region which is the
+92,7528,7603,251184.52,253720.39,251.185,253.720,2.536,out,8,0.831,0,"x y plane. So, that means if I"
+93,7604,7897,253720.39,263530.20,253.720,263.530,9.810,explain,30,0.887,0,can only move along the floor I cannot fly or I cannot come attain any height then I can only move in this floor and that is the span that
+94,7898,8025,263530.20,267801.13,263.530,267.801,4.271,out,13,0.975,0,"I would be able to achieve out of these two vectors. So, given"
+95,8026,8151,267801.13,272005.34,267.801,272.005,4.204,explain,13,0.962,0,two vectors I am not able to achieve motion in the entire world
+96,8152,8181,272005.34,273006.34,272.005,273.006,1.001,out,1,0.332,0,I
+97,8182,8260,273006.34,275642.31,273.006,275.642,2.636,explain,11,0.979,0,am only confined to a part of this world which is
+98,8261,8279,275642.31,276276.28,275.642,276.276,0.634,out,1,0.473,0,R2.
+99,8280,8317,276276.28,277544.21,276.276,277.544,1.268,out,2,0.959,0,"So, two"
+100,8318,8940,277544.21,298331.66,277.544,298.332,20.787,write,17,0.92,0,vectors in the plane two vectors in the x y plane may be able to give us
+101,8941,8974,298331.66,299466.13,298.332,299.466,1.134,explain,4,0.781,0,now the question is
+102,8975,9007,299466.13,300567.23,299.466,300.567,1.101,out,5,0.919,0,why did I write maybe
+103,9008,9039,300567.23,301634.97,300.567,301.635,1.068,explain,2,0.735,0,why am
+104,9040,9052,301634.97,302068.74,301.635,302.069,0.434,write,1,0.84,0,I
+105,9053,9064,302068.74,302469.14,302.069,302.469,0.400,explain,2,0.916,0,not saying
+106,9065,9226,302469.14,307874.54,302.469,307.875,5.405,out,19,0.787,0,they will always be able to give x y plane. Well what if the two vectors given to me
+107,9227,9361,307874.54,312379.05,307.875,312.379,4.505,explain,5,0.95,0,were say something like this.
+108,9362,9810,312379.05,327360.69,312.379,327.361,14.982,write,33,0.938,0,"So, let me take a particular example some suppose the first vectors I was given was 1 0 0 and the second vector that I was given was say minus 3 0 0."
+109,9811,9874,327360.69,329496.16,327.361,329.496,2.135,explain,5,0.891,0,"So, if these two vectors"
+110,9875,9972,329496.16,332766.10,329.496,332.766,3.270,out,12,0.984,0,are given to me 1 0 0 and minus 3 0 0.
+111,9973,10095,332766.10,336870.20,332.766,336.870,4.104,explain,13,0.849,0,"So, in the in the my picture over here suppose this was my"
+112,10096,10114,336870.20,337504.17,336.870,337.504,0.634,write,2,0.851,0,x -axis
+113,10115,10157,337504.17,338938.94,337.504,338.939,1.435,explain,1,0.479,0,then
+114,10158,10206,338938.94,340573.91,338.939,340.574,1.635,write,7,0.972,0,I am given one vector in this
+115,10207,10257,340573.91,342275.61,340.574,342.276,1.702,explain,3,0.954,0,direction and the
+116,10258,10342,342275.61,345111.78,342.276,345.112,2.836,write,9,0.904,0,other vector also is along the x -axis it
+117,10343,10369,345111.78,346012.68,345.112,346.013,0.901,explain,4,0.77,0,is just oriented differently.
+118,10370,10477,346012.68,349616.28,346.013,349.616,3.604,out,11,0.928,0,But if I am given these two vectors I can only
+119,10478,10482,349616.28,349783.12,349.616,349.783,0.167,explain,0,,1,[silence]
+120,10483,10486,349783.12,349916.58,349.783,349.917,0.133,out,1,0.962,0,move
+121,10487,10493,349916.58,350150.15,349.917,350.150,0.234,explain,1,0.941,0,back
+122,10494,10500,350150.15,350383.72,350.150,350.384,0.234,out,1,0.993,0,and
+123,10501,10528,350383.72,351317.98,350.384,351.318,0.934,explain,5,0.986,0,"forth. So, the best thing"
+124,10529,10582,351317.98,353119.79,351.318,353.120,1.802,write,7,0.941,0,I can achieve is maybe just go
+125,10583,10597,353119.79,353620.29,353.120,353.620,0.501,explain,1,0.978,0,along
+126,10598,10710,353620.29,357390.72,353.620,357.391,3.770,out,13,0.947,0,"the x -axis and that is the extent I can go for. So,"
+127,10711,10737,357390.72,358291.62,357.391,358.292,0.901,explain,4,0.987,0,even though I given
+128,10738,10770,358291.62,359392.73,358.292,359.393,1.101,out,3,0.92,0,two vectors I
+129,10771,10817,359392.73,360960.96,359.393,360.961,1.568,explain,6,0.987,0,am unable to span a plane
+130,10818,10829,360960.96,361361.36,360.961,361.361,0.400,out,0,,1,[silence]
+131,10830,10899,361361.36,363697.03,361.361,363.697,2.336,explain,12,0.9,0,what I am able to do is just to span a single
+132,10900,10992,363697.03,366800.13,363.697,366.800,3.103,out,8,0.899,0,"line. So, there is no necessity for me"
+133,10993,11064,366800.13,369202.54,366.800,369.203,2.402,explain,7,0.773,0,the two vectors guaranteed in any way
+134,11065,11201,369202.54,373773.77,369.203,373.774,4.571,out,13,0.827,0,"that I am going to achieve fully span ok. So, there are several"
+135,11202,11338,373773.77,378345.01,373.774,378.345,4.571,explain,17,0.916,0,"questions we have to keep in mind first of all is of course, what is the span."
+136,11339,11931,378345.01,398131.46,378.345,398.131,19.786,write,23,0.913,0,The second question we want to achieve is given a set of vectors not to describe perhaps a geometrical picture as well as
+137,11932,11976,398131.46,399632.97,398.131,399.633,1.502,fingererase,4,0.666,0,a geometric picture that
+138,11977,12625,399632.97,421287.95,399.633,421.288,21.655,write,14,0.89,0,is one question I want to achieve. The other question I would like to
+139,12626,12661,421287.95,422489.16,421.288,422.489,1.201,explain,2,0.987,0,answer is
+140,12662,12761,422489.16,425825.83,422.489,425.826,3.337,out,0,,1,[silence]
+141,12762,12944,425825.83,431931.93,425.826,431.932,6.106,explain,6,0.737,0,describe the geometric and algebraic picture
+142,12945,12974,431931.93,432932.93,431.932,432.933,1.001,out,1,0.989,0,of
+143,12975,12996,432932.93,433667.00,432.933,433.667,0.734,explain,2,0.67,0,the span.
+144,12997,13030,433667.00,434801.47,433.667,434.801,1.134,write,0,,1,[silence]
+145,13031,13117,434801.47,437704.37,434.801,437.704,2.903,explain,7,0.859,0,Another thing I want to achieve is
+146,13118,13724,437704.37,457957.96,437.704,457.958,20.254,write,11,0.864,0,suppose I am given a vector does it line the span.
+147,13725,13832,457957.96,461561.56,457.958,461.562,3.604,out,15,0.938,0,"So, if I give you a vector w and if I give you a bunch"
+148,13833,13900,461561.56,463830.50,461.562,463.830,2.269,explain,9,0.891,0,of vectors will it line the span or not
+149,13901,14458,463830.50,482449.12,463.830,482.449,18.619,out,44,0.913,0,this is another question which we would like to answer. One thing you have to keep in mind is these questions the ones which I am different questions they are just asking the same thing slightly differently and even though it may happen that
+150,14459,14510,482449.12,484184.18,482.449,484.184,1.735,explain,8,0.969,0,"we can give answer to one of them,"
+151,14511,14526,484184.18,484718.05,484.184,484.718,0.534,out,2,0.978,0,but whatever
+152,14527,14548,484718.05,485452.12,484.718,485.452,0.734,explain,2,0.958,0,method we
+153,14549,14587,485452.12,486753.42,485.452,486.753,1.301,out,4,0.808,0,employed to give the
+154,14588,14628,486753.42,488121.45,486.753,488.121,1.368,explain,6,0.904,0,answer to one of them we
+155,14629,14639,488121.45,488488.49,488.121,488.488,0.367,out,1,0.997,0,will
+156,14640,14646,488488.49,488722.06,488.488,488.722,0.234,explain,1,0.999,0,see
+157,14647,14652,488722.06,488922.26,488.722,488.922,0.200,out,1,0.99,0,the
+158,14653,14685,488922.26,490023.36,488.922,490.023,1.101,explain,5,0.987,0,same method can be applied
+159,14686,14819,490023.36,494494.49,490.023,494.494,4.471,out,15,0.96,0,and we don't have to do any extra work to answer the other questions also.
+160,14820,14904,494494.49,497330.66,494.494,497.331,2.836,explain,1,0.844,0,And
+161,14905,15017,497330.66,501101.10,497.331,501.101,3.770,write,12,0.758,0,let us answer one more question or least pose one more question
+162,15018,15063,501101.10,502635.97,501.101,502.636,1.535,fingererase,0,,1,[silence]
+163,15064,15613,502635.97,520987.65,502.636,520.988,18.352,write,9,0.712,0,how many vectors required let us say R n.
+164,15614,15649,520987.65,522188.86,520.988,522.189,1.201,explain,2,0.897,0,"Now, let"
+165,15650,15829,522188.86,528194.86,522.189,528.195,6.006,out,26,0.937,0,"me be clear about this question over here when you say how many vectors are required to span R n of course, if you pick every"
+166,15830,15841,528194.86,528595.26,528.195,528.595,0.400,explain,1,0.991,0,vector
+167,15842,15863,528595.26,529329.33,528.595,529.329,0.734,out,5,0.955,0,in R n and put
+168,15864,15867,529329.33,529462.80,529.329,529.463,0.133,explain,1,0.907,0,it
+169,15868,16635,529462.80,555088.42,529.463,555.088,25.626,out,40,0.862,0,"in a box you can get the answer to that, but what we are capable of is. Sorry. So, what we are trying to achieve is what is the minimum set of vectors I need which can span R n."
+170,16636,16741,555088.42,558625.29,555.088,558.625,3.537,explain,11,0.868,0,instead of just saying how many vectors are required I should
+171,16742,16927,558625.29,564831.50,558.625,564.831,6.206,write,15,0.909,0,also keep in mind that I am looking for a minimal set of vectors what
+172,16928,16973,564831.50,566366.37,564.831,566.366,1.535,explain,1,0.994,0,is
+173,16974,17123,566366.37,571371.37,566.366,571.371,5.005,out,12,0.928,0,the least amount of vectors I need to go for it because
+174,17124,17229,571371.37,574908.24,571.371,574.908,3.537,explain,12,0.913,0,that can enhance our capabilities quite a bit if I can say
+175,17230,17368,574908.24,579546.21,574.908,579.546,4.638,out,19,0.912,0,oh I just need two vectors to visit every point in R 2 then that means I only need
+176,17369,17376,579546.21,579813.15,579.546,579.813,0.267,write,2,0.939,0,to care
+177,17377,17390,579813.15,580280.28,579.813,580.280,0.467,out,2,0.99,0,about those
+178,17391,17504,580280.28,584084.08,580.280,584.084,3.804,explain,9,0.834,0,two rest of them will just be the okay.
+179,17505,17520,584084.08,584617.95,584.084,584.618,0.534,pickerase,0,,1,[silence]
+180,17521,17590,584617.95,586953.62,584.618,586.954,2.336,out,7,0.97,0,"So, let me start answering questions one"
+181,17591,17600,586953.62,587287.29,586.954,587.287,0.334,pickerase,2,0.99,0,at a
+182,17601,18039,587287.29,601935.27,587.287,601.935,14.648,erase,36,0.857,0,"time and then we will be able to achieve. So, first thing what is the linear span how do I describe it as a right I have the geometric idea now let us put it in"
+183,18040,18048,601935.27,602235.57,601.935,602.236,0.300,droperase,0,,1,[silence]
+184,18049,18107,602235.57,604204.20,602.236,604.204,1.969,explain,0,,1,[silence]
+185,18108,18551,604204.20,619019.02,604.204,619.019,14.815,write,16,0.768,0,mission of our linear span. Things that are given to us are a set of vectors.
+186,18552,18599,619019.02,620620.62,619.019,620.621,1.602,fingererase,0,,1,[silence]
+187,18600,20005,620620.62,667534.20,620.621,667.534,46.914,write,43,0.825,0,"So, let S be the set of vectors V 1 to V k the linear span which is denoted by L S will be the set of all vectors W in R n such that W can be written as linear combination vectors."
+188,20006,20031,667534.20,668401.74,667.534,668.402,0.868,explain,0,,1,[silence]
+189,20032,20154,668401.74,672505.84,668.402,672.506,4.104,out,8,0.955,0,"So, in other words what you saying is"
+190,20155,20197,672505.84,673940.61,672.506,673.941,1.435,explain,2,0.957,0,this set
+191,20198,20253,673940.61,675809.14,673.941,675.809,1.869,fingererase,3,0.936,0,L of S
+192,20254,21071,675809.14,703103.10,675.809,703.103,27.294,write,19,0.758,0,is basically a collection of I am just writing the same thing in words collection of all possible this
+193,21072,21086,703103.10,703603.60,703.103,703.604,0.501,explain,0,,1,[silence]
+194,21087,21224,703603.60,708208.21,703.604,708.208,4.605,out,7,0.814,0,word though this other I should say
+195,21225,21307,708208.21,710977.64,708.208,710.978,2.769,explain,9,0.902,0,this phrase linear combination of vectors is a very
+196,21308,21477,710977.64,716649.98,710.978,716.650,5.672,out,19,0.951,0,"loaded thing. So, let us understand that before we move on to anything when I say something is a"
+197,21478,21577,716649.98,719986.65,716.650,719.987,3.337,explain,14,0.969,0,"linear combination what exactly do I mean by that. So, I am going to"
+198,21578,21619,719986.65,721388.05,719.987,721.388,1.401,write,5,0.953,0,explain or elaborate more on
+199,21620,21648,721388.05,722355.69,721.388,722.356,0.968,explain,1,0.998,0,this
+200,21649,21690,722355.69,723757.09,722.356,723.757,1.401,out,3,0.909,0,word linear combination.
+201,21691,21721,723757.09,724791.46,723.757,724.791,1.034,explain,2,0.986,0,We say
+202,21722,21786,724791.46,726960.29,724.791,726.960,2.169,write,7,0.893,0,a vector W is a linear combination
+203,21787,21796,726960.29,727293.96,726.960,727.294,0.334,explain,0,,1,[silence]
+204,21797,21822,727293.96,728161.49,727.294,728.161,0.868,out,3,0.998,0,of those vectors
+205,21823,21878,728161.49,730030.03,728.161,730.030,1.869,explain,3,0.681,0,if I can
+206,21879,22174,730030.03,739906.57,730.030,739.907,9.877,write,8,0.92,0,find scalars such that I can write W
+207,22175,22188,739906.57,740373.71,739.907,740.374,0.467,explain,1,0.967,0,as
+208,22189,22360,740373.71,746112.78,740.374,746.113,5.739,out,23,0.784,0,a sum of c 1 times V 1 plus c 2 times V 2 so and so for c k times V k
+209,22361,22392,746112.78,747180.51,746.113,747.181,1.068,explain,2,0.482,0,where these
+210,22393,22689,747180.51,757090.42,747.181,757.090,9.910,write,13,0.833,0,"c i's are basically scalars since we are working over real numbers. So,"
+211,22690,22713,757090.42,757891.22,757.090,757.891,0.801,explain,3,0.989,0,these are scalars
+212,22714,22858,757891.22,762729.40,757.891,762.729,4.838,out,13,0.908,0,"from R. So, if I can find these numbers I have these numbers"
+213,22859,22882,762729.40,763530.20,762.729,763.530,0.801,explain,5,0.863,0,c 1 c 2 c
+214,22883,22917,763530.20,764698.03,763.530,764.698,1.168,out,5,0.915,0,k then I know for
+215,22918,23020,764698.03,768134.80,764.698,768.135,3.437,explain,12,0.855,0,sure I can write W as combination of this hence W belongs
+216,23021,23108,768134.80,771071.07,768.135,771.071,2.936,out,10,0.901,0,"to the span. So, the linear span would be all"
+217,23109,23198,771071.07,774074.07,771.071,774.074,3.003,explain,12,0.811,0,those vectors for which I can find c 1 c 2 c
+218,23199,23375,774074.07,779979.98,774.074,779.980,5.906,out,10,0.881,0,"k that gives me what I want. Now, first let"
+219,23376,23424,779979.98,781614.95,779.980,781.615,1.635,explain,5,0.997,0,us try to understand this
+220,23425,23438,781614.95,782082.08,781.615,782.082,0.467,out,1,0.999,0,definition
+221,23439,23539,782082.08,785452.12,782.082,785.452,3.370,explain,9,0.96,0,from the basic examples we have seen and we
+222,23540,23573,785452.12,786586.59,785.452,786.587,1.134,pickerase,5,0.955,0,will try to figure out
+223,23574,23581,786586.59,786853.52,786.587,786.854,0.267,out,0,,1,[silence]
+224,23582,23625,786853.52,788321.65,786.854,788.322,1.468,explain,5,0.732,0,the geometric as well as
+225,23626,23655,788321.65,789322.66,788.322,789.323,1.001,pickerase,2,0.808,0,algebraic picture
+226,23656,23724,789322.66,791624.96,789.323,791.625,2.302,erase,4,0.81,0,"in one go. So,"
+227,23725,23764,791624.96,792959.63,791.625,792.960,1.335,droperase,4,0.978,0,just to have a
+228,23765,23934,792959.63,798631.97,792.960,798.632,5.672,explain,8,0.66,0,space we choose let us say R 2
+229,23935,24020,798631.97,801501.50,798.632,801.502,2.870,write,9,0.765,0,the reason I am choosing R 2 is it
+230,24021,24091,801501.50,803870.54,801.502,803.871,2.369,explain,8,0.899,0,is most of us are comfortable with it
+231,24092,24133,803870.54,805271.94,803.871,805.272,1.401,out,3,0.855,0,we can visually
+232,24134,24250,805271.94,809175.84,805.272,809.176,3.904,explain,5,0.991,0,"represent things also. Now, what"
+233,24251,24273,809175.84,809943.28,809.176,809.943,0.767,write,4,0.906,0,if somebody gave me
+234,24274,24315,809943.28,811344.68,809.943,811.345,1.401,fingererase,3,0.968,0,just one vector
+235,24316,24617,811344.68,821421.42,811.345,821.421,10.077,write,25,0.843,0,suppose somebody gave me the vector one one vector say V what would be the linear span according to the way I have described it.
+236,24618,24814,821421.42,827994.66,821.421,827.995,6.573,explain,16,0.827,0,Linear span is all those guys which would be simply multiple of my vector V 1.
+237,24815,25056,827994.66,836069.40,827.995,836.069,8.075,write,18,0.889,0,"So, this would be saying c times V 1 where c belongs to the set of real numbers."
+238,25057,25097,836069.40,837437.44,836.069,837.437,1.368,explain,4,0.996,0,"So, this is basically"
+239,25098,25197,837437.44,840774.11,837.437,840.774,3.337,out,7,0.889,0,the algebraic description all multiples all scalar
+240,25198,25410,840774.11,847881.21,840.774,847.881,7.107,explain,22,0.915,0,multiples of V 1 and if I were to give you a geometric description of it it would be simply a line
+241,25411,25427,847881.21,848448.45,847.881,848.448,0.567,write,0,,1,[silence]
+242,25428,25479,848448.45,850183.52,848.448,850.184,1.735,fingererase,5,0.978,0,which would be in the
+243,25480,25495,850183.52,850717.38,850.184,850.717,0.534,write,2,0.998,0,direction of
+244,25496,25548,850717.38,852485.82,850.717,852.486,1.768,explain,4,0.985,0,"the vector V 1,"
+245,25549,25624,852485.82,855021.69,852.486,855.022,2.536,out,5,0.984,0,but when you say a
+246,25625,25667,855021.69,856456.46,855.022,856.456,1.435,explain,1,0.99,0,line
+247,25668,25728,856456.46,858491.83,856.456,858.492,2.035,pickerase,5,0.834,0,let me erase these questions
+248,25729,25745,858491.83,859059.06,858.492,859.059,0.567,pickerase,1,0.354,0,you
+249,25746,25985,859059.06,867067.07,859.059,867.067,8.008,erase,0,,1,[silence]
+250,25986,26012,867067.07,867967.97,867.067,867.968,0.901,droperase,6,0.961,0,will be able to give a
+251,26013,26081,867967.97,870270.27,867.968,870.270,2.302,out,5,0.968,0,nice complete picture of everything
+252,26082,26198,870270.27,874174.17,870.270,874.174,3.904,explain,7,0.868,0,"ok. So, when I say a line"
+253,26199,26306,874174.17,877777.78,874.174,877.778,3.604,write,11,0.784,0,in R 2 in the direction of the vector V 1
+254,26307,26354,877777.78,879379.38,877.778,879.379,1.602,explain,2,0.571,0,now as
+255,26355,26391,879379.38,880613.95,879.379,880.614,1.235,out,7,0.87,0,you know there would be many lines
+256,26392,26509,880613.95,884551.22,880.614,884.551,3.937,explain,18,0.969,0,which are in the direction of V 1 say V 1 was given to be something like this
+257,26510,26584,884551.22,887053.72,884.551,887.054,2.503,write,7,0.87,0,"they. So, this is a line which"
+258,26585,26602,887053.72,887654.32,887.054,887.654,0.601,explain,1,0.995,0,is
+259,26603,26688,887654.32,890523.86,887.654,890.524,2.870,out,11,0.92,0,"in the direction of V 1, but are we interested in"
+260,26689,26715,890523.86,891424.76,890.524,891.425,0.901,explain,2,0.996,0,this line
+261,26716,26786,891424.76,893793.79,891.425,893.794,2.369,fingererase,8,0.926,0,or are we interested in something else as
+262,26787,26811,893793.79,894627.96,893.794,894.628,0.834,explain,3,0.995,0,it turns out
+263,26812,26822,894627.96,894994.99,894.628,894.995,0.367,out,1,0.72,0,then
+264,26823,26901,894994.99,897630.96,894.995,897.631,2.636,explain,12,0.943,0,I say c times V 1 where c can be any real
+265,26902,26980,897630.96,900266.93,897.631,900.267,2.636,out,6,0.697,0,number so would you agree that
+266,26981,27125,900266.93,905105.11,900.267,905.105,4.838,explain,17,0.857,0,0 I can choose c to be 0 hence the 0 vector also lies on the span
+267,27126,27151,905105.11,905972.64,905.105,905.973,0.868,out,2,0.824,0,that tells
+268,27152,27273,905972.64,910043.38,905.973,910.043,4.071,explain,8,0.98,0,me that I not looking for any line
+269,27274,27462,910043.38,916349.68,910.043,916.350,6.306,write,16,0.952,0,in general I am looking for a particular line a line which is in the direction
+270,27463,27513,916349.68,918051.38,916.350,918.051,1.702,explain,6,0.848,0,"of the vector V, but it"
+271,27514,27608,918051.38,921221.22,918.051,921.221,3.170,write,6,0.951,0,also passes through the 0 vector
+272,27609,27628,921221.22,921888.56,921.221,921.889,0.667,explain,1,0.9,0,or
+273,27629,27791,921888.56,927327.33,921.889,927.327,5.439,out,15,0.83,0,"the point represented in the 0 vector. So, linear span will be technically a line"
+274,27792,27796,927327.33,927494.16,927.327,927.494,0.167,explain,1,0.941,0,in
+275,27797,27809,927494.16,927927.93,927.494,927.928,0.434,out,1,0.921,0,the
+276,27810,27865,927927.93,929796.46,927.928,929.796,1.869,explain,5,0.823,0,direction of V passing through
+277,27866,28005,929796.46,934467.80,929.796,934.468,4.671,out,19,0.938,0,"the origin. So, it is not just any line in the direction of the vector V, but I am"
+278,28006,28057,934467.80,936202.87,934.468,936.203,1.735,explain,6,0.651,0,saying V I mean V 1
+279,28058,28220,936202.87,941641.64,936.203,941.642,5.439,out,8,0.673,0,ok let us try with two vectors suppose
+280,28221,28844,941641.64,962462.46,941.642,962.462,20.821,write,44,0.912,0,my span sorry my set contain two vectors V 1 and V 2 according to my algebraic definition the linear span would be all possible combinations of c of V 1 and V 2 where c 1 and c 2 are both real numbers.
+281,28845,28876,962462.46,963530.20,962.462,963.530,1.068,explain,0,,1,[silence]
+282,28877,28995,963530.20,967500.83,963.530,967.501,3.971,out,8,0.884,0,"So, what do we mean geometrically speaking what"
+283,28996,29182,967500.83,973740.41,967.501,973.740,6.240,explain,15,0.831,0,is the collection of these vectors well it depends there are two pictures possible one
+284,29183,29413,973740.41,981448.11,973.740,981.448,7.708,write,16,0.882,0,of the pictures possible is what if I gave V 1 here and V 2 here
+285,29414,29449,981448.11,982649.32,981.448,982.649,1.201,explain,2,0.857,0,in which
+286,29450,29479,982649.32,983650.32,982.649,983.650,1.001,out,1,0.999,0,case
+287,29480,29620,983650.32,988355.02,983.650,988.355,4.705,out,6,0.961,0,my capability of getting anywhere or
+288,29621,29682,988355.02,990423.76,988.355,990.424,2.069,write,5,0.986,0,to any point is greatly
+289,29683,29752,990423.76,992759.43,990.424,992.759,2.336,explain,11,0.79,0,enhanced I can reach any point for example if I reach
+290,29753,29758,992759.43,992959.63,992.759,992.960,0.200,write,1,0.785,0,want
+291,29759,29800,992959.63,994361.03,992.960,994.361,1.401,explain,5,0.972,0,to reach this point I
+292,29801,29816,994361.03,994894.89,994.361,994.895,0.534,write,1,0.017,0,can
+293,29817,29846,994894.89,995895.90,994.895,995.896,1.001,explain,1,0.736,0,find
+294,29847,29971,995895.90,1000066.73,995.896,1000.067,4.171,out,16,0.812,0,a combination of c 1 c 2 to get to that we have already seen geometrically
+295,29972,30082,1000066.73,1003770.44,1000.067,1003.770,3.704,explain,14,0.892,0,"how it is accomplished. So, in that case we will say the span is"
+296,30083,30437,1003770.44,1015615.62,1003.770,1015.616,11.845,write,26,0.883,0,"R 2, but if we were given V 1 and V 2 which are in the same direction then the span would only be a line."
+297,30438,30450,1015615.62,1016049.38,1015.616,1016.049,0.434,explain,0,,1,[silence]
+298,30451,30472,1016049.38,1016783.45,1016.049,1016.783,0.734,out,1,0.993,0,"So,"
+299,30473,30623,1016783.45,1021821.82,1016.783,1021.822,5.038,explain,16,0.892,0,this is these combinations can represent only a line these combinations can present the entire plane
+300,30624,30846,1021821.82,1029262.60,1021.822,1029.263,7.441,out,24,0.837,0,"depending on how V 1 and V 2 are I may be sounding repetitive, I want to make sure that we have this picture"
+301,30847,30906,1029262.60,1031264.60,1029.263,1031.265,2.002,explain,7,0.907,0,as we go along because this concept
+302,30907,31025,1031264.60,1035235.24,1031.265,1035.235,3.971,out,12,0.948,0,can be tied to something later on we will see called linear
+303,31026,31084,1035235.24,1037203.87,1035.235,1037.204,1.969,explain,1,0.987,0,independence.
+304,31085,31184,1037203.87,1040540.54,1037.204,1040.541,3.337,out,8,0.892,0,What about if I give you three vectors
+305,31185,31325,1040540.54,1045245.25,1040.541,1045.245,4.705,explain,14,0.851,0,in R 2 let us take a particular example three vectors in R 2
+306,31326,31637,1045245.25,1055655.66,1045.245,1055.656,10.410,write,12,0.698,0,"suppose somebody gave me three vectors 1, 0, 1 and 2 what"
+307,31638,31695,1055655.66,1057590.92,1055.656,1057.591,1.935,explain,5,0.985,0,would be the span of
+308,31696,31765,1057590.92,1059926.59,1057.591,1059.927,2.336,out,6,0.767,0,these three vectors in R 2
+309,31766,31851,1059926.59,1062796.13,1059.927,1062.796,2.870,explain,4,0.752,0,well algebraically speaking the
+310,31852,32175,1062796.13,1073606.94,1062.796,1073.607,10.811,write,12,0.949,0,linear span would be simply the combinations of these three vectors this
+311,32176,32195,1073606.94,1074274.27,1073.607,1074.274,0.667,explain,0,,1,[silence]
+312,32196,32216,1074274.27,1074974.97,1074.274,1074.975,0.701,pickerase,0,,1,[silence]
+313,32217,32244,1074974.97,1075909.24,1074.975,1075.909,0.934,erase,0,,1,[silence]
+314,32245,32275,1075909.24,1076943.61,1075.909,1076.944,1.034,droperase,0,,1,[silence]
+315,32276,32530,1076943.61,1085452.12,1076.944,1085.452,8.509,write,0,,1,[silence]
+316,32531,32551,1085452.12,1086152.82,1085.452,1086.153,0.701,explain,0,,1,[silence]
+317,32552,32805,1086152.82,1094627.96,1086.153,1094.628,8.475,out,28,0.93,0,"would be so called the algebraic answer to it, but as you can see algebraic answer is not really complete unless I know something more about it how"
+318,32806,32944,1094627.96,1099265.93,1094.628,1099.266,4.638,explain,11,0.896,0,this combination will look like that is where for now let
+319,32945,33136,1099265.93,1105672.34,1099.266,1105.672,6.406,write,18,0.803,0,"me update the geometry for a moment again I can travel along 1, 0 I can travel along"
+320,33137,33191,1105672.34,1107507.51,1105.672,1107.508,1.835,explain,6,0.88,0,"0, 1 and I also have"
+321,33192,33271,1107507.51,1110176.84,1107.508,1110.177,2.669,out,7,0.937,0,"the added capability of traveling around 2,"
+322,33272,33316,1110176.84,1111678.35,1110.177,1111.678,1.502,explain,2,0.642,0,3 if
+323,33317,33365,1111678.35,1113313.31,1111.678,1113.313,1.635,write,10,0.918,0,"you look at the vector 2, 3 it might be"
+324,33366,33391,1113313.31,1114180.85,1113.313,1114.181,0.868,explain,4,0.883,0,looking something like this
+325,33392,33556,1114180.85,1119686.35,1114.181,1119.686,5.506,out,17,0.931,0,I have these three directions to work with what all they can achieve well if you see
+326,33557,33830,1119686.35,1128828.83,1119.686,1128.829,9.142,explain,32,0.893,0,if you go back to the previous example when I had given you V 1 V 2 even if I remove one of them would you agree I can achieve the span
+327,33831,33920,1128828.83,1131831.83,1128.829,1131.832,3.003,out,9,0.681,0,of two dimensional plane so in some sense the
+328,33921,33954,1131831.83,1132966.30,1131.832,1132.966,1.134,explain,4,0.987,0,third vector which is
+329,33955,34127,1132966.30,1138738.74,1132.966,1138.739,5.772,out,16,0.833,0,out here is basically redundant it's a third wheel we really don't need that guy but
+330,34128,34201,1138738.74,1141207.87,1138.739,1141.208,2.469,explain,11,0.987,0,whatever these two are able to achieve the third one is
+331,34202,34217,1141207.87,1141741.74,1141.208,1141.742,0.534,outwriting,1,0.999,0,just
+332,34218,34769,1141741.74,1160160.16,1141.742,1160.160,18.418,out,50,0.874,0,therefore adding it up for no reason so the span would still remain R 2 and that is where that question that we had posed earlier what is the minimum set of vectors I need to span the space becomes of relevance because three vectors are doing the same job
+333,34770,34820,1160160.16,1161861.86,1160.160,1161.862,1.702,explain,6,0.778,0,as two vectors were doing so
+334,34821,34943,1161861.86,1165965.97,1161.862,1165.966,4.104,out,13,0.909,0,why do I need the third vector it's not giving me anything extra
+335,34944,35142,1165965.97,1172605.94,1165.966,1172.606,6.640,explain,17,0.92,0,now so far we have just in some sense looked at the algebraic way of writing things
+336,35143,35247,1172605.94,1176109.44,1172.606,1176.109,3.504,out,12,0.961,0,and trying to get familiar with it but as you can see
+337,35248,35466,1176109.44,1183416.75,1176.109,1183.417,7.307,explain,18,0.984,0,these answers are really not telling the whole story unless I can simplify them and understand them better
+338,35467,35572,1183416.75,1186953.62,1183.417,1186.954,3.537,out,10,0.961,0,so here's a point a question that I would like
+339,35573,35813,1186953.62,1194994.99,1186.954,1194.995,8.041,explain,16,0.889,0,to pose is it necessary that whenever I'm given a set of vectors in a n
+340,35814,35827,1194994.99,1195462.13,1194.995,1195.462,0.467,out,1,0.621,0,-dimensional
+341,35828,36159,1195462.13,1206539.87,1195.462,1206.540,11.078,explain,28,0.859,0,space space is it necessary that my near the span will always be a line or a plane or a three -dimensional world or a four -dimensional world
+342,36160,36377,1206539.87,1213813.81,1206.540,1213.814,7.274,out,15,0.932,0,well before before we even answer that question let me make some quick observations can
+343,36378,36681,1213813.81,1223957.29,1213.814,1223.957,10.143,explain,26,0.893,0,we say the linear span of any set will always contain the zero vector as you can see I can always choose these C1 C2 Ck
+344,36682,36727,1223957.29,1225492.16,1223.957,1225.492,1.535,out,7,0.632,0,to be zero so here's my first
+345,36728,36740,1225492.16,1225925.93,1225.492,1225.926,0.434,explain,1,0.996,0,observation
+346,36741,36972,1225925.93,1233667.00,1225.926,1233.667,7.741,write,10,0.919,0,zero vector is always a member of the linear span
+347,36973,36987,1233667.00,1234167.50,1233.667,1234.168,0.501,explain,0,,1,[silence]
+348,36988,37183,1234167.50,1240707.37,1234.168,1240.707,6.540,out,15,0.838,0,even though this may seem to a very very enough course statement at this stage
+349,37184,37203,1240707.37,1241374.71,1240.707,1241.375,0.667,explain,1,0.857,0,later
+350,37204,37303,1241374.71,1244711.38,1241.375,1244.711,3.337,write,10,0.979,0,on we will see the importance of this guy for
+351,37304,37313,1244711.38,1245045.05,1244.711,1245.045,0.334,explain,0,,1,[silence]
+352,37314,37323,1245045.05,1245378.71,1245.045,1245.379,0.334,out,1,0.996,0,something
+353,37324,37350,1245378.71,1246279.61,1245.379,1246.280,0.901,explain,3,0.835,0,we would like
+354,37351,38010,1246279.61,1268301.63,1246.280,1268.302,22.022,write,14,0.924,0,to describe second thing is the linear span usually contains infinitely many vectors usually
+355,38011,38042,1268301.63,1269369.37,1268.302,1269.369,1.068,explain,0,,1,[silence]
+356,38043,38180,1269369.37,1273973.97,1269.369,1273.974,4.605,out,13,0.761,0,contains infinitely many vectors oh why did I say usually why not say
+357,38181,38239,1273973.97,1275942.61,1273.974,1275.943,1.969,explain,5,0.906,0,always this is where that
+358,38240,38275,1275942.61,1277143.81,1275.943,1277.144,1.201,write,4,0.978,0,question I was posing
+359,38276,38290,1277143.81,1277644.31,1277.144,1277.644,0.501,explain,1,0.967,0,earlier
+360,38291,38361,1277644.31,1280013.35,1277.644,1280.013,2.369,out,4,0.829,0,comes in handy so
+361,38362,38518,1280013.35,1285251.92,1280.013,1285.252,5.239,explain,17,0.961,0,first of all does it really contain infinitely many vectors well how many vectors lie along this
+362,38519,38526,1285251.92,1285518.85,1285.252,1285.519,0.267,out,0,,1,[silence]
+363,38527,38536,1285518.85,1285852.52,1285.519,1285.853,0.334,explain,0,,1,[silence]
+364,38537,38595,1285852.52,1287821.15,1285.853,1287.821,1.969,out,6,0.935,0,line well infinitely many vectors how
+365,38596,38627,1287821.15,1288888.89,1287.821,1288.889,1.068,explain,5,0.959,0,many vectors lie in the
+366,38628,38679,1288888.89,1290623.96,1288.889,1290.624,1.735,out,5,0.897,0,plane infinitely many vectors so
+367,38680,38814,1290623.96,1295128.46,1290.624,1295.128,4.505,explain,13,0.993,0,we have examples of infinitely many vectors and the reason for that is
+368,38815,38868,1295128.46,1296930.26,1295.128,1296.930,1.802,out,3,0.997,0,sort of obvious
+369,38869,38913,1296930.26,1298431.77,1296.930,1298.432,1.502,explain,4,0.996,0,because we are saying
+370,38914,38958,1298431.77,1299933.27,1298.432,1299.933,1.502,write,4,0.866,0,the scalars can be
+371,38959,38972,1299933.27,1300400.40,1299.933,1300.400,0.467,explain,2,0.994,0,any real
+372,38973,39005,1300400.40,1301501.50,1300.400,1301.502,1.101,out,2,0.538,0,number so
+373,39006,39164,1301501.50,1306806.81,1301.502,1306.807,5.305,explain,18,0.899,0,in a sense I can keep on changing C1 and keep on producing new vectors at will hence
+374,39165,39242,1306806.81,1309409.41,1306.807,1309.409,2.603,out,7,0.889,0,it will contain infinitely many vectors still
+375,39243,39266,1309409.41,1310210.21,1309.409,1310.210,0.801,explain,2,0.936,0,the word
+376,39267,39307,1310210.21,1311578.24,1310.210,1311.578,1.368,write,5,0.98,0,usually doesn't make any sense
+377,39308,39320,1311578.24,1312012.01,1311.578,1312.012,0.434,explain,2,0.729,0,why did
+378,39321,39493,1312012.01,1317784.45,1312.012,1317.784,5.772,out,16,0.926,0,I say usually why not say always so question is can there be an instance that
+379,39494,39605,1317784.45,1321521.52,1317.784,1321.522,3.737,explain,12,0.91,0,I give you a set of vectors in a n -dimensional space
+380,39606,39662,1321521.52,1323423.42,1321.522,1323.423,1.902,out,1,0.663,0,and
+381,39663,39669,1323423.42,1323656.99,1323.423,1323.657,0.234,explain,0,,1,[silence]
+382,39670,39710,1323656.99,1325025.03,1323.657,1325.025,1.368,out,1,0.979,0,my
+383,39711,39719,1325025.03,1325325.33,1325.025,1325.325,0.300,explain,0,,1,[silence]
+384,39720,39888,1325325.33,1330964.30,1325.325,1330.964,5.639,out,9,0.744,0,linear span only contains finitely many vectors so I
+385,39889,39943,1330964.30,1332799.47,1330.964,1332.799,1.835,explain,7,0.968,0,give you a vector and I ask
+386,39944,40089,1332799.47,1337671.00,1332.799,1337.671,4.872,out,16,0.899,0,its linear span the linear span does not have infinitely many vectors only finitely many vectors
+387,40090,40277,1337671.00,1343943.94,1337.671,1343.944,6.273,explain,14,0.838,0,can it happen if you think a little bit let's come to this basic
+388,40278,40319,1343943.94,1345345.35,1343.944,1345.345,1.401,out,2,0.93,0,question the
+389,40320,40586,1345345.35,1354254.25,1345.345,1354.254,8.909,explain,27,0.932,0,first step that we took suppose I give you one vector is it possible at all that this set that I create out of that one vector
+390,40587,40669,1354254.25,1357023.69,1354.254,1357.024,2.769,out,5,0.842,0,doesn't have infinitely many things
+391,40670,40715,1357023.69,1358558.56,1357.024,1358.559,1.535,explain,7,0.853,0,in it it has only finitely many
+392,40716,40817,1358558.56,1361961.96,1358.559,1361.962,3.403,out,6,0.779,0,things can't happen at all and
+393,40818,41024,1361961.96,1368868.87,1361.962,1368.869,6.907,explain,16,0.932,0,we think a little bit as long as I have the capability of C getting varied
+394,41025,41080,1368868.87,1370737.40,1368.869,1370.737,1.869,out,4,0.886,0,over real numbers since
+395,41081,41349,1370737.40,1379713.05,1370.737,1379.713,8.976,explain,23,0.917,0,I have infinitely many choices for C so wouldn't it make sense to say that well this guy will take infinitely many values
+396,41350,41516,1379713.05,1385285.29,1379.713,1385.285,5.572,out,10,0.834,0,and hence I will have infinitely vectors it would almost
+397,41517,41530,1385285.29,1385752.42,1385.285,1385.752,0.467,explain,0,,1,[silence]
+398,41531,41533,1385752.42,1385852.52,1385.752,1385.853,0.100,out,0,,1,[silence]
+399,41534,41617,1385852.52,1388655.32,1385.853,1388.655,2.803,explain,13,0.915,0,it would it's just that there is one case we have to be
+400,41618,41695,1388655.32,1391257.92,1388.655,1391.258,2.603,out,6,0.948,0,very very careful about and that
+401,41696,41786,1391257.92,1394294.29,1391.258,1394.294,3.036,explain,2,0.992,0,case is
+402,41787,42485,1394294.29,1417617.62,1394.294,1417.618,23.323,write,32,0.887,0,so the question we are posing is can the set can the span so to answer that question all you have to do is consider the vector consider the set contain just
+403,42486,42592,1417617.62,1421187.85,1417.618,1421.188,3.570,explain,9,0.921,0,the zero vector if you have only the zero
+404,42593,42802,1421187.85,1428194.86,1421.188,1428.195,7.007,write,17,0.869,0,vector in your set then whatever you can make out it whatever multiple you take of it
+405,42803,42856,1428194.86,1429996.66,1428.195,1429.997,1.802,explain,7,0.66,0,it will still be the zero vector
+406,42857,43490,1429996.66,1451151.15,1429.997,1451.151,21.154,out,39,0.901,0,so this is the only instance in which the linear span cannot contain infinitely many vectors and you see zero vectors are going to play a crucial role because of these kind of anomalous properties okay so with these
+407,43491,43545,1451151.15,1452986.32,1451.151,1452.986,1.835,explain,5,0.952,0,observations let's try to start
+408,43546,43584,1452986.32,1454287.62,1452.986,1454.288,1.301,pickerase,2,0.972,0,finding some
+409,43585,43861,1454287.62,1463530.20,1454.288,1463.530,9.243,erase,19,0.823,0,linear spans and trying to answer those questions there's one thing at this stage we should ask ourselves what
+410,43862,43879,1463530.20,1464130.80,1463.530,1464.131,0.601,droperase,2,0.913,0,are we
+411,43880,43901,1464130.80,1464864.86,1464.131,1464.865,0.734,explain,2,0.97,0,dealing with
+412,43902,43986,1464864.86,1467701.03,1464.865,1467.701,2.836,out,10,0.908,0,system of linear equations and all of a sudden why
+413,43987,43993,1467701.03,1467934.60,1467.701,1467.935,0.234,pickerase,2,0.926,0,are we
+414,43994,44018,1467934.60,1468768.77,1467.935,1468.769,0.834,explain,2,0.972,0,jumping into
+415,44019,44046,1468768.77,1469703.04,1468.769,1469.703,0.934,pickerase,3,0.82,0,things like linear
+416,44047,44311,1469703.04,1478545.21,1469.703,1478.545,8.842,erase,23,0.942,0,span if you ask this question then that means you are on the right track you are being curious in the right sense
+417,44312,44325,1478545.21,1479012.35,1478.545,1479.012,0.467,droperase,0,,1,[silence]
+418,44326,44349,1479012.35,1479813.15,1479.012,1479.813,0.801,explain,3,0.984,0,and that is
+419,44350,44427,1479813.15,1482415.75,1479.813,1482.416,2.603,out,10,0.987,0,something we ought to discover what is the connection between
+420,44428,44634,1482415.75,1489322.66,1482.416,1489.323,6.907,explain,18,0.878,0,system of equations and this concept we are trying to learn so let's pose a problem for us
+421,44635,44711,1489322.66,1491891.89,1489.323,1491.892,2.569,write,0,,1,[silence]
+422,44712,44781,1491891.89,1494227.56,1491.892,1494.228,2.336,explain,4,0.546,0,so here is in
+423,44782,45623,1494227.56,1522322.32,1494.228,1522.322,28.095,write,47,0.816,0,r2 we are in r2 and here given this set of vectors one of the vectors is 1 3 and the other vectors and other vectors minus 2 0 so we'll ask one question at a time does vector w belong to the linear span of s
+424,45624,45675,1522322.32,1524057.39,1522.322,1524.057,1.735,explain,1,0.597,0,so
+425,45676,45803,1524057.39,1528328.33,1524.057,1528.328,4.271,out,14,0.958,0,given a vector can i tell whether it is in the span of s
+426,45804,45896,1528328.33,1531431.43,1528.328,1531.431,3.103,explain,8,0.958,0,or not other question we will ask is
+427,45897,46100,1531431.43,1538238.24,1531.431,1538.238,6.807,out,26,0.854,0,once we have answered this one the other question we will ask ourselves is what is the linear span of s what are the things which
+428,46101,46106,1538238.24,1538438.44,1538.238,1538.438,0.200,explain,0,,1,[silence]
+429,46107,46132,1538438.44,1539305.97,1538.438,1539.306,0.868,out,3,0.979,0,can be captured
+430,46133,46261,1539305.97,1543610.28,1539.306,1543.610,4.304,explain,11,0.808,0,by these two values so first let me answer this one
+431,46262,46342,1543610.28,1546312.98,1543.610,1546.313,2.703,write,0,,1,[silence]
+432,46343,46438,1546312.98,1549516.18,1546.313,1549.516,3.203,explain,9,0.684,0,i did not give you the vector w so
+433,46439,46522,1549516.18,1552318.99,1549.516,1552.319,2.803,out,8,0.952,0,at this point of time why not just
+434,46523,46626,1552318.99,1555789.12,1552.319,1555.789,3.470,explain,10,0.932,0,pick some random numbers and see how our luck is
+435,46627,46668,1555789.12,1557190.52,1555.789,1557.191,1.401,write,4,0.713,0,let's pick pi and
+436,46669,46721,1557190.52,1558958.96,1557.191,1558.959,1.768,explain,1,0.907,0,e
+437,46722,46857,1558958.96,1563496.83,1558.959,1563.497,4.538,out,9,0.803,0,e as in the the natural logarithm base e
+438,46858,46896,1563496.83,1564798.13,1563.497,1564.798,1.301,explain,6,0.637,0,and pi we all know what
+439,46897,47016,1564798.13,1568802.14,1564.798,1568.802,4.004,out,13,0.776,0,pi is does this vector belong to l the linear span of these
+440,47017,47126,1568802.14,1572472.47,1568.802,1572.472,3.670,explain,7,0.894,0,guys more important in doing these questions
+441,47127,47232,1572472.47,1576009.34,1572.472,1576.009,3.537,out,13,0.963,0,is not whether you can achieve the answer or not more important is
+442,47233,47345,1576009.34,1579779.78,1576.009,1579.780,3.770,explain,14,0.977,0,can you set it up correctly because once you set it up correctly pretty
+443,47346,47403,1579779.78,1581715.05,1579.780,1581.715,1.935,out,7,0.793,0,much half the battle is one already
+444,47404,47685,1581715.05,1591124.46,1581.715,1591.124,9.409,explain,25,0.868,0,so let's do it slowly and see we can understand what are we after if this guy was in the linear span that means what
+445,47686,48360,1591124.46,1613646.98,1591.124,1613.647,22.523,write,24,0.778,0,can i find scalars c1 c2 w can be written as c1 times vector 1 3 plus c2 times vector minus 2 0 so
+446,48361,48403,1613646.98,1615081.75,1613.647,1615.082,1.435,explain,8,0.906,0,this is the question you're trying to answer
+447,48404,48491,1615081.75,1618018.02,1615.082,1618.018,2.936,out,1,0.579,0,now
+448,48492,48553,1618018.02,1620086.75,1618.018,1620.087,2.069,explain,6,0.895,0,let's see what our w was
+449,48554,48883,1620086.75,1631097.76,1620.087,1631.098,11.011,write,8,0.779,0,w was pi e 3 minus 2 0
+450,48884,48963,1631097.76,1633767.10,1631.098,1633.767,2.669,explain,2,0.798,0,so we
+451,48964,48987,1633767.10,1634567.90,1633.767,1634.568,0.801,out,2,0.951,0,are saying
+452,48988,49353,1634567.90,1646780.11,1634.568,1646.780,12.212,explain,31,0.863,0,can this column vector be written as a linear combination of these two column vectors if you notice this if you look at this in the right way isn't this thing
+453,49354,49413,1646780.11,1648782.12,1646.780,1648.782,2.002,write,2,0.978,0,equivalent to
+454,49414,49527,1648782.12,1652585.92,1648.782,1652.586,3.804,explain,5,0.74,0,so first look at the
+455,49528,49860,1652585.92,1663697.03,1652.586,1663.697,11.111,write,13,0.902,0,first row can i say this is equivalent to this system of equations
+456,49861,49879,1663697.03,1664331.00,1663.697,1664.331,0.634,explain,0,,1,[silence]
+457,49880,49966,1664331.00,1667233.90,1664.331,1667.234,2.903,out,11,0.922,0,can i find c1 c2 which will be solution to this
+458,49967,49972,1667233.90,1667434.10,1667.234,1667.434,0.200,explain,1,0.999,0,system
+459,49973,50115,1667434.10,1672205.54,1667.434,1672.206,4.771,out,14,0.943,0,of equation so that is where lies our observation what is the relationship between
+460,50116,50254,1672205.54,1676843.51,1672.206,1676.844,4.638,explain,14,0.831,0,span and system of equations well anytime you want to check the something is
+461,50255,50306,1676843.51,1678578.58,1676.844,1678.579,1.735,out,6,0.708,0,in the span or not you
+462,50307,50436,1678578.58,1682916.25,1678.579,1682.916,4.338,explain,10,0.92,0,are actually dealing with solutions of a system of equations
+463,50437,50476,1682916.25,1684250.92,1682.916,1684.251,1.335,out,1,0.08,0,okay
+464,50477,50507,1684250.92,1685285.29,1684.251,1685.285,1.034,fingererase,2,0.483,0,now one
+465,50508,50564,1685285.29,1687187.19,1685.285,1687.187,1.902,out,6,0.836,0,more thing i would like to
+466,50565,50590,1687187.19,1688054.72,1687.187,1688.055,0.868,explain,2,0.996,0,have you
+467,50591,50624,1688054.72,1689189.19,1688.055,1689.189,1.134,out,2,0.937,0,observe here
+468,50625,50691,1689189.19,1691424.76,1689.189,1691.425,2.236,explain,6,0.978,0,remember given the system of equations
+469,50692,50736,1691424.76,1692926.26,1691.425,1692.926,1.502,out,1,0.975,0,can
+470,50737,50822,1692926.26,1695795.80,1692.926,1695.796,2.870,explain,8,0.913,0,i all remember that row picture and column
+471,50823,50900,1695795.80,1698398.40,1695.796,1698.398,2.603,out,9,0.966,0,picture the row picture was when i was looking
+472,50901,50927,1698398.40,1699299.30,1698.398,1699.299,0.901,explain,3,0.999,0,at the system
+473,50928,50991,1699299.30,1701434.77,1699.299,1701.435,2.135,out,6,0.979,0,row wise the column picture was
+474,50992,51046,1701434.77,1703269.94,1701.435,1703.270,1.835,explain,5,0.987,0,when i was looking at
+475,51047,51118,1703269.94,1705672.34,1703.270,1705.672,2.402,out,7,0.985,0,the system of equations using columns can
+476,51119,51184,1705672.34,1707874.54,1705.672,1707.875,2.202,explain,8,0.908,0,i not say that this is just column
+477,51185,51196,1707874.54,1708274.94,1707.875,1708.275,0.400,out,1,0.986,0,picture
+478,51197,51220,1708274.94,1709075.74,1708.275,1709.076,0.801,explain,1,0.823,0,of
+479,51221,51245,1709075.74,1709909.91,1709.076,1709.910,0.834,out,4,0.972,0,my system of equations
+480,51246,51343,1709909.91,1713179.85,1709.910,1713.180,3.270,explain,1,0.023,0,so
+481,51344,52480,1713179.85,1751117.78,1713.180,1751.118,37.938,write,19,0.785,0,this is the note we should make here the setup we have the lenient span the column picture equations
+482,52481,52546,1751117.78,1753319.99,1751.118,1753.320,2.202,explain,1,0.395,0,so
+483,52547,52673,1753319.99,1757557.56,1753.320,1757.558,4.238,out,16,0.984,0,if you refer back to your notes from one of the previous lectures you will see
+484,52674,52955,1757557.56,1766966.97,1757.558,1766.967,9.409,explain,31,0.919,0,we had described the concept of a column picture so actually at that time itself what you are doing was you are just trying to answer the question for the span
+485,52956,53091,1766966.97,1771504.84,1766.967,1771.505,4.538,out,18,0.866,0,so now you see that these things are after all tied up they're not really that far apart
+486,53092,53154,1771504.84,1773606.94,1771.505,1773.607,2.102,explain,6,0.852,0,so now we are trying to
+487,53155,53178,1773606.94,1774407.74,1773.607,1774.408,0.801,pickerase,1,0.993,0,capture
+488,53179,53347,1774407.74,1780046.71,1774.408,1780.047,5.639,explain,12,0.941,0,the answer to this question by solving that system of equations so
+489,53348,53360,1780046.71,1780480.48,1780.047,1780.480,0.434,pickerase,0,,1,[silence]
+490,53361,53711,1780480.48,1792192.19,1780.480,1792.192,11.712,erase,34,0.932,0,let's see if we can solve that system of equation and come up with what we want remember all the tools that we had for solving system of equations reduced echelon form rank pivoting
+491,53712,53735,1792192.19,1792992.99,1792.192,1792.993,0.801,droperase,2,0.976,0,everything will
+492,53736,53744,1792992.99,1793293.29,1792.993,1793.293,0.300,explain,0,,1,[silence]
+493,53745,53829,1793293.29,1796129.46,1793.293,1796.129,2.836,out,5,0.741,0,be fair game so let
+494,53830,53884,1796129.46,1797964.63,1796.129,1797.965,1.835,explain,8,0.968,0,me first write it down in the system
+495,53885,54487,1797964.63,1818084.75,1797.965,1818.085,20.120,write,34,0.796,0,so this is one minus two three zero and on the right hand side you have to buy an e and the question you are asking is is this system consistent remember if it
+496,54488,54714,1818084.75,1825658.99,1818.085,1825.659,7.574,explain,30,0.921,0,is consistent that means it has a solution if it has a solution that means i can find c1 c2 that means i can find c1 c2 to express this
+497,54715,54832,1825658.99,1829596.26,1825.659,1829.596,3.937,out,12,0.704,0,so the whole chain is complete if i can talk about its
+498,54833,54900,1829596.26,1831865.20,1829.596,1831.865,2.269,explain,2,0.383,0,exist consistency
+499,54901,54932,1831865.20,1832932.93,1831.865,1832.933,1.068,write,1,0.407,0,so
+500,54933,54988,1832932.93,1834801.47,1832.933,1834.801,1.869,explain,6,0.894,0,remember we how do we go
+501,54989,55168,1834801.47,1840807.47,1834.801,1840.807,6.006,out,16,0.911,0,about checking the consistency of solving a system we do the Gaussian elimination we do row
+502,55169,55227,1840807.47,1842776.11,1840.807,1842.776,1.969,explain,5,0.983,0,operations to make this an
+503,55228,55280,1842776.11,1844544.54,1842.776,1844.545,1.768,fingererase,3,0.892,0,echelon form so
+504,55281,55536,1844544.54,1853086.42,1844.545,1853.086,8.542,write,22,0.924,0,in order to do that in first things first we'll try to create an echelon form by doing the appropriate row operations
+505,55537,55641,1853086.42,1856589.92,1853.086,1856.590,3.504,explain,4,0.7,0,and so this will
+506,55642,55836,1856589.92,1863096.43,1856.590,1863.096,6.507,write,11,0.73,0,become zero this will be six this will be e minus
+507,55837,55846,1863096.43,1863430.10,1863.096,1863.430,0.334,explain,0,,1,[silence]
+508,55847,55980,1863430.10,1867901.23,1863.430,1867.901,4.471,out,14,0.9,0,based on what we have learned can we say this is an echelon form
+509,55981,56034,1867901.23,1869703.04,1867.901,1869.703,1.802,explain,1,0.552,0,so
+510,56035,56287,1869703.04,1878144.81,1869.703,1878.145,8.442,write,5,0.847,0,this is an echelon form
+511,56288,56289,1878144.81,1878211.54,1878.145,1878.212,0.067,explain,0,,1,[silence]
+512,56290,56307,1878211.54,1878812.15,1878.212,1878.812,0.601,out,0,,1,[silence]
+513,56308,56325,1878812.15,1879412.75,1878.812,1879.413,0.601,explain,2,0.908,0,it has
+514,56326,56464,1879412.75,1884050.72,1879.413,1884.051,4.638,write,12,0.88,0,rank rank of this matrix is two because we have two pivots
+515,56465,56483,1884050.72,1884684.68,1884.051,1884.685,0.634,explain,0,,1,[silence]
+516,56484,56647,1884684.68,1890156.82,1884.685,1890.157,5.472,out,15,0.96,0,and in the first column and in the second column and since there is no
+517,56648,56655,1890156.82,1890423.76,1890.157,1890.424,0.267,explain,1,0.982,0,pivot
+518,56656,57161,1890423.76,1907307.31,1890.424,1907.307,16.884,write,5,0.945,0,in the rightmost column so
+519,57162,57171,1907307.31,1907640.97,1907.307,1907.641,0.334,explain,0,,1,[silence]
+520,57172,57352,1907640.97,1913680.35,1907.641,1913.680,6.039,out,13,0.724,0,it is consistent that means i can theoretically find those c1 c2 and
+521,57353,57547,1913680.35,1920186.85,1913.680,1920.187,6.507,explain,12,0.964,0,hence that means this vector can be achieved by combining those two
+522,57548,57733,1920186.85,1926393.06,1920.187,1926.393,6.206,out,19,0.901,0,vectors appropriately see what we haven't found is the solution now that we cannot find it's just that if
+523,57734,57763,1926393.06,1927394.06,1926.393,1927.394,1.001,explain,4,0.869,0,we just want to
+524,57764,57794,1927394.06,1928428.43,1927.394,1928.428,1.034,out,5,0.998,0,find the answer to that
+525,57795,57977,1928428.43,1934534.53,1928.428,1934.535,6.106,explain,23,0.827,0,question does this guy lie in the linear span that without even solving just based on the idea of the pivots in the
+526,57978,58279,1934534.53,1944611.28,1934.535,1944.611,10.077,out,32,0.865,0,rank we can conclude yes it lies in the system in the span of those two things so this vector is definitely achievable of course one might be interested in knowing what
+527,58280,58289,1944611.28,1944944.94,1944.611,1944.945,0.334,explain,1,0.992,0,exactly
+528,58290,58325,1944944.94,1946146.15,1944.945,1946.146,1.201,write,4,0.84,0,is c1 and c2
+529,58326,58333,1946146.15,1946413.08,1946.146,1946.413,0.267,explain,0,,1,[silence]
+530,58334,58471,1946413.08,1951017.68,1946.413,1951.018,4.605,out,16,0.882,0,that means how much of those two vectors should i combine think of it this way
+531,58472,58761,1951017.68,1960694.03,1951.018,1960.694,9.676,explain,25,0.916,0,idea of a span is basically i'm giving you certain ingredients how much how much what quantity of those ingredients should i mix in order
+532,58762,58891,1960694.03,1965031.70,1960.694,1965.032,4.338,out,12,0.973,0,to achieve something out of it so it says somebody gives you
+533,58892,59090,1965031.70,1971671.67,1965.032,1971.672,6.640,explain,17,0.989,0,flour and let's say milk how much quantity of milk how much quantity of flour should i
+534,59091,59386,1971671.67,1981548.21,1971.672,1981.548,9.877,out,25,0.699,0,take and i know we need other contents also but that's the general idea behind it okay so what if i want c1 and c2
+535,59387,59509,1981548.21,1985652.32,1981.548,1985.652,4.104,explain,12,0.923,0,well that amounts to basically solving the system of equation so if
+536,59510,59541,1985652.32,1986720.05,1985.652,1986.720,1.068,write,6,0.993,0,i want to solve the system
+537,59542,59594,1986720.05,1988488.49,1986.720,1988.488,1.768,explain,7,0.969,0,of equation i already have it in
+538,59595,59616,1988488.49,1989222.56,1988.488,1989.223,0.734,out,3,0.968,0,the echelon form
+539,59617,59654,1989222.56,1990490.49,1989.223,1990.490,1.268,explain,2,0.97,0,this tells
+540,59655,60152,1990490.49,2007107.11,1990.490,2007.107,16.617,write,34,0.883,0,me c1 minus 2 c2 is pi and sixth c2 is e minus 3 pi so from here i can read out c2 would be e minus 3 pi over 6 and c1 would
+541,60153,60174,2007107.11,2007841.17,2007.107,2007.841,0.734,fingererase,1,0.989,0,be
+542,60175,60649,2007841.17,2023690.36,2007.841,2023.690,15.849,write,19,0.885,0,y plus 2 c2 which is y plus e minus 3 pi over 3 so c1 and c2 we
+543,60650,60684,2023690.36,2024858.19,2023.690,2024.858,1.168,explain,2,0.96,0,have found
+544,60685,60797,2024858.19,2028628.63,2024.858,2028.629,3.770,out,10,0.863,0,and what it says is if i take my vector
+545,60798,61074,2028628.63,2037871.20,2028.629,2037.871,9.243,explain,25,0.898,0,1 3 and take this much quantity of that vector take the vector 2 3 scale it by this much number i will get my
+546,61075,61243,2037871.20,2043510.18,2037.871,2043.510,5.639,out,8,0.571,0,e so even if i change the numbers
+547,61244,61499,2043510.18,2052052.05,2043.510,2052.052,8.542,explain,27,0.925,0,from pi and e to something else the idea will remain the same i will be still posing the same question i will be still solving the
+548,61500,61560,2052052.05,2054087.42,2052.052,2054.087,2.035,out,4,0.994,0,same system of equations
+549,61561,61667,2054087.42,2057657.66,2054.087,2057.658,3.570,explain,11,0.98,0,i will try to see what the rank is is the
+550,61668,61707,2057657.66,2058992.33,2057.658,2058.992,1.335,out,7,0.988,0,system consistent or not if it is
+551,61708,61716,2058992.33,2059292.63,2058.992,2059.293,0.300,explain,1,1.0,0,not
+552,61717,61735,2059292.63,2059926.59,2059.293,2059.927,0.634,out,1,0.999,0,consistent
+553,61736,61790,2059926.59,2061761.76,2059.927,2061.762,1.835,explain,10,0.915,0,my answer would be oh it does not line this
+554,61791,61811,2061761.76,2062462.46,2061.762,2062.462,0.701,out,2,0.868,0,span if
+555,61812,61907,2062462.46,2065665.67,2062.462,2065.666,3.203,explain,10,0.996,0,it is consistent then i am able to find the
+556,61908,62207,2065665.67,2075675.68,2065.666,2075.676,10.010,out,30,0.881,0,solution and tell you how much of those two vectors i need to create my vector okay so that is one part of the deal the second question i could
+557,62208,62326,2075675.68,2079646.31,2075.676,2079.646,3.971,explain,5,0.995,0,pose for the same problem
+558,62327,62375,2079646.31,2081281.28,2079.646,2081.281,1.635,write,3,0.89,0,is fine i
+559,62376,62442,2081281.28,2083516.85,2081.281,2083.517,2.236,explain,9,0.933,0,know this guy lies in the span what else
+560,62443,62506,2083516.85,2085652.32,2083.517,2085.652,2.135,out,11,0.961,0,lies in the span can you give me a whole description
+561,62507,62511,2085652.32,2085819.15,2085.652,2085.819,0.167,explain,0,,1,[silence]
+562,62512,62516,2085819.15,2085985.99,2085.819,2085.986,0.167,out,1,0.919,0,of
+563,62517,62574,2085985.99,2087921.25,2085.986,2087.921,1.935,explain,3,0.947,0,the span so
+564,62575,62846,2087921.25,2096997.00,2087.921,2096.997,9.076,write,11,0.955,0,that is a more generic question what is the span this
+565,62847,62876,2096997.00,2097998.00,2096.997,2097.998,1.001,explain,1,0.999,0,is
+566,62877,62994,2097998.00,2101935.27,2097.998,2101.935,3.937,out,11,0.976,0,my second question for the same problem given these two vectors
+567,62995,63090,2101935.27,2105138.47,2101.935,2105.138,3.203,explain,13,0.765,0,i know i can reach this point but what else can i reach
+568,63091,63166,2105138.47,2107674.34,2105.138,2107.674,2.536,out,2,0.546,0,so let
+569,63167,63202,2107674.34,2108875.54,2107.674,2108.876,1.201,explain,2,0.998,0,me show
+570,63203,63346,2108875.54,2113680.35,2108.876,2113.680,4.805,out,19,0.91,0,you what i meant when i said those these two questions will be worked out exactly the same way
+571,63347,63388,2113680.35,2115081.75,2113.680,2115.082,1.401,explain,7,0.983,0,we don't have to do any extra
+572,63389,63439,2115081.75,2116783.45,2115.082,2116.783,1.702,out,2,0.916,0,work one
+573,63440,63576,2116783.45,2121354.69,2116.783,2121.355,4.571,explain,13,0.974,0,thing is for sure these two vectors live in r2 so whenever they
+574,63577,63748,2121354.69,2127093.76,2121.355,2127.094,5.739,out,12,0.956,0,combine whatever they produce must be a vector in r2 so at
+575,63749,63902,2127093.76,2132232.23,2127.094,2132.232,5.138,explain,15,0.908,0,least we know that we are not going to jump the space so only thing
+576,63903,63946,2132232.23,2133700.37,2132.232,2133.700,1.468,pickerase,7,0.969,0,is we are going to change is
+577,63947,63994,2133700.37,2135301.97,2133.700,2135.302,1.602,explain,8,0.916,0,i will change one sentence at a time
+578,63995,64055,2135301.97,2137337.34,2135.302,2137.337,2.035,out,6,0.632,0,so this entire thing i will
+579,64056,64132,2137337.34,2139906.57,2137.337,2139.907,2.569,pickerase,7,0.946,0,change and make it suitable for our
+580,64133,64364,2139906.57,2147647.65,2139.907,2147.648,7.741,erase,21,0.895,0,question so instead of saying can we find c1 c2 such that if i change this question appropriately you will see
+581,64365,64383,2147647.65,2148281.61,2147.648,2148.282,0.634,droperase,1,0.868,0,we
+582,64384,64431,2148281.61,2149883.22,2148.282,2149.883,1.602,explain,5,0.83,0,can now answer the problem
+583,64432,64473,2149883.22,2151284.62,2149.883,2151.285,1.401,out,2,0.887,0,what all
+584,64474,64652,2151284.62,2157257.26,2151.285,2157.257,5.973,explain,10,0.919,0,lies in the span so suppose we want to know
+585,64653,65565,2157257.26,2187721.05,2157.257,2187.721,30.464,write,10,0.843,0,which vectors the linear combination of my vectors 1 3
+586,65566,65721,2187721.05,2192926.26,2187.721,2192.926,5.205,out,18,0.797,0,isn't this the question we are to answer what is the span and what vectors can i write
+587,65722,65801,2192926.26,2195595.60,2192.926,2195.596,2.669,explain,9,0.779,0,okay so let's see how will i change this
+588,65802,65827,2195595.60,2196463.13,2195.596,2196.463,0.868,pickerase,0,,1,[silence]
+589,65828,65838,2196463.13,2196830.16,2196.463,2196.830,0.367,erase,0,,1,[silence]
+590,65839,65862,2196830.16,2197630.96,2196.830,2197.631,0.801,droperase,1,0.942,0,well
+591,65863,65888,2197630.96,2198498.50,2197.631,2198.498,0.868,explain,3,0.976,0,i have my
+592,65889,65953,2198498.50,2200667.33,2198.498,2200.667,2.169,fingererase,3,0.913,0,b1 b2 i
+593,65954,66025,2200667.33,2203069.74,2200.667,2203.070,2.402,explain,2,0.999,0,want to
+594,66026,66174,2203069.74,2208041.37,2203.070,2208.041,4.972,write,8,0.888,0,see what kind of creatures can be written
+595,66175,66209,2208041.37,2209209.21,2208.041,2209.209,1.168,explain,3,0.993,0,as a combination
+596,66210,66354,2209209.21,2214047.38,2209.209,2214.047,4.838,out,8,0.88,0,of these two guys if you observe only
+597,66355,66553,2214047.38,2220687.35,2214.047,2220.687,6.640,explain,26,0.863,0,thing that has changed from the last time is this vector writing the right hand side vector instead of putting a particular vector i put a
+598,66554,66586,2220687.35,2221788.46,2220.687,2221.788,1.101,out,2,0.986,0,general vector
+599,66587,66627,2221788.46,2223156.49,2221.788,2223.156,1.368,explain,0,,1,[silence]
+600,66628,66664,2223156.49,2224391.06,2223.156,2224.391,1.235,pickerase,2,0.594,0,now let's
+601,66665,66742,2224391.06,2226993.66,2224.391,2226.994,2.603,erase,4,0.934,0,see we can pose
+602,66743,66762,2226993.66,2227660.99,2226.994,2227.661,0.667,droperase,1,0.99,0,it
+603,66763,66846,2227660.99,2230463.80,2227.661,2230.464,2.803,explain,11,0.907,0,exactly the way we did last time so if i set
+604,66847,66908,2230463.80,2232532.53,2230.464,2232.533,2.069,write,3,0.997,0,it up correctly
+605,66909,66943,2232532.53,2233700.37,2232.533,2233.700,1.168,explain,1,0.95,0,this
+606,66944,67017,2233700.37,2236169.50,2233.700,2236.170,2.469,out,7,0.982,0,is the system we will get and
+607,67018,67029,2236169.50,2236569.90,2236.170,2236.570,0.400,explain,0,,1,[silence]
+608,67030,67079,2236569.90,2238238.24,2236.570,2238.238,1.668,fingererase,4,0.956,0,the only change i
+609,67080,67169,2238238.24,2241241.24,2238.238,2241.241,3.003,write,4,0.993,0,will be making is
+610,67170,67312,2241241.24,2246012.68,2241.241,2246.013,4.771,out,17,0.981,0,so the setup is not going to be different it's just the question that we are asking
+611,67313,67317,2246012.68,2246179.51,2246.013,2246.180,0.167,explain,1,0.975,0,which
+612,67318,67380,2246179.51,2248281.61,2246.180,2248.282,2.102,out,9,0.978,0,vectors can be written as a combination that means
+613,67381,67430,2248281.61,2249949.95,2248.282,2249.950,1.668,explain,4,0.996,0,i want those vectors
+614,67431,67443,2249949.95,2250383.72,2249.950,2250.384,0.434,out,1,0.999,0,for
+615,67444,67488,2250383.72,2251885.22,2250.384,2251.885,1.502,explain,3,0.999,0,which this system
+616,67489,67540,2251885.22,2253620.29,2251.885,2253.620,1.735,out,3,0.963,0,is consistent last
+617,67541,67632,2253620.29,2256690.02,2253.620,2256.690,3.070,explain,15,0.955,0,time i was given a vector and i was trying to see whether the system
+618,67633,67647,2256690.02,2257190.52,2256.690,2257.191,0.501,out,2,0.984,0,is consistent
+619,67648,67750,2257190.52,2260627.29,2257.191,2260.627,3.437,explain,13,0.844,0,or not this time i'm asking what are those right hand sides for
+620,67751,67846,2260627.29,2263830.50,2260.627,2263.830,3.203,out,5,0.996,0,which my system is consistent
+621,67847,67905,2263830.50,2265799.13,2263.830,2265.799,1.969,explain,2,0.339,0,okay so
+622,67906,67962,2265799.13,2267701.03,2265.799,2267.701,1.902,fingererase,8,0.99,0,the only change we are going to make
+623,67963,68536,2267701.03,2286853.52,2267.701,2286.854,19.152,write,26,0.94,0,here is this guy will become b1 and this guy will become b2 so question we are asking is what are those b1 and b2 and
+624,68537,68572,2286853.52,2288054.72,2286.854,2288.055,1.201,explain,0,,1,[silence]
+625,68573,68816,2288054.72,2296196.20,2288.055,2296.196,8.141,out,15,0.97,0,if you remember our solution the way we used to solve the system of equation
+626,68817,68895,2296196.20,2298832.17,2296.196,2298.832,2.636,explain,7,0.849,0,as long as my coefficient matrix does
+627,68896,68933,2298832.17,2300100.10,2298.832,2300.100,1.268,out,2,0.998,0,not change
+628,68934,68971,2300100.10,2301368.03,2300.100,2301.368,1.268,explain,2,0.482,0,i will
+629,68972,69165,2301368.03,2307841.17,2301.368,2307.841,6.473,out,20,0.942,0,still have the same row operations nothing is going to change except the right hand side will have to the
+630,69166,69203,2307841.17,2309109.11,2307.841,2309.109,1.268,pickerase,1,0.935,0,brunt
+631,69204,69255,2309109.11,2310844.18,2309.109,2310.844,1.735,erase,2,0.984,0,each time
+632,69256,69271,2310844.18,2311378.04,2310.844,2311.378,0.534,droperase,1,0.45,0,so
+633,69272,69281,2311378.04,2311711.71,2311.378,2311.712,0.334,explain,1,0.982,0,the
+634,69282,69591,2311711.71,2322055.39,2311.712,2322.055,10.344,out,33,0.97,0,reason i'm doing it on the same problem is to convince you that those two questions are related and they have the same setup it's just that the way we are asking the
+635,69592,69637,2322055.39,2323590.26,2322.055,2323.590,1.535,explain,1,0.993,0,questions
+636,69638,69678,2323590.26,2324958.29,2323.590,2324.958,1.368,write,1,0.167,0,changes
+637,69679,69748,2324958.29,2327293.96,2324.958,2327.294,2.336,explain,8,0.777,0,slightly so this will be still b1 and
+638,69749,69841,2327293.96,2330397.06,2327.294,2330.397,3.103,write,7,0.814,0,this would be b2 minus 3 b1
+639,69842,69859,2330397.06,2330997.66,2330.397,2330.998,0.601,explain,0,,1,[silence]
+640,69860,69987,2330997.66,2335268.60,2330.998,2335.269,4.271,out,5,0.69,0,so can i conclude this
+641,69988,70117,2335268.60,2339606.27,2335.269,2339.606,4.338,explain,18,0.899,0,is an echelon form yes i can can i still say the rank is 2 yes i can
+642,70118,70149,2339606.27,2340674.01,2339.606,2340.674,1.068,out,4,0.944,0,i still have two
+643,70150,70201,2340674.01,2342409.08,2340.674,2342.409,1.735,explain,6,0.936,0,pivots can i still claim no
+644,70202,70221,2342409.08,2343076.41,2342.409,2343.076,0.667,out,4,0.955,0,pivot in the rightmost
+645,70222,70346,2343076.41,2347247.25,2343.076,2347.247,4.171,explain,14,0.956,0,column well since this guy is already a pivot there is no chance of
+646,70347,70466,2347247.25,2351251.25,2347.247,2351.251,4.004,out,12,0.95,0,the right hand column containing any pivot so can i say the
+647,70467,70531,2351251.25,2353420.09,2351.251,2353.420,2.169,explain,5,0.59,0,system must be consistent so
+648,70532,70924,2353420.09,2366533.20,2353.420,2366.533,13.113,write,10,0.855,0,my conclusion is it is consistent for any value what
+649,70925,70936,2366533.20,2366933.60,2366.533,2366.934,0.400,explain,0,,1,[silence]
+650,70937,71114,2366933.60,2372872.87,2366.934,2372.873,5.939,out,15,0.91,0,does that mean for me it says no matter what b1 b2 you have thrown
+651,71115,71374,2372872.87,2381548.21,2372.873,2381.548,8.675,explain,24,0.928,0,in i will always be able to find c1 and c2 such that these two guys can combine to give you the vector so
+652,71375,71495,2381548.21,2385585.59,2381.548,2385.586,4.037,out,10,0.939,0,that means i dream up of any vector in r2
+653,71496,71504,2385585.59,2385885.89,2385.586,2385.886,0.300,explain,1,0.985,0,and
+654,71505,71526,2385885.89,2386619.95,2385.886,2386.620,0.734,out,4,0.995,0,those two guys are
+655,71527,71542,2386619.95,2387153.82,2386.620,2387.154,0.534,explain,2,0.998,0,capable of
+656,71543,71617,2387153.82,2389656.32,2387.154,2389.656,2.503,out,6,0.952,0,giving me that vector in r2
+657,71618,71632,2389656.32,2390156.82,2389.656,2390.157,0.501,explain,1,0.542,0,so
+658,71633,71790,2390156.82,2395428.76,2390.157,2395.429,5.272,write,14,0.823,0,this means that the linear span of that set of vectors is actually r2
+659,71791,71802,2395428.76,2395829.16,2395.429,2395.829,0.400,explain,0,,1,[silence]
+660,71803,72156,2395829.16,2407640.97,2395.829,2407.641,11.812,out,18,0.883,0,so this is how we set up the problem and this is how we answer the problem only
+661,72157,72615,2407640.97,2422956.29,2407.641,2422.956,15.315,explain,44,0.91,0,changes you will see is the space could change it can become r3 i could give you different set of vectors but if you ask these questions the way i have converted these questions into this matrix form if you can ask these questions
+662,72616,72685,2422956.29,2425291.96,2422.956,2425.292,2.336,out,7,0.874,0,yourself when you are solving these problems
+663,72686,72785,2425291.96,2428628.63,2425.292,2428.629,3.337,explain,6,0.748,0,i can absolutely guarantee you will
+664,72786,72873,2428628.63,2431564.90,2428.629,2431.565,2.936,out,12,0.971,0,never have any problems and you will be able to build up
+665,72874,72875,2431564.90,2431631.63,2431.565,2431.632,0.067,explain,0,,1,[silence]
+666,72876,72897,2431631.63,2432365.70,2431.632,2432.366,0.734,out,2,0.99,0,the answer
+667,72898,73196,2432365.70,2442342.34,2432.366,2442.342,9.977,explain,23,0.866,0,by converting it to the appropriate system of equations okay what i'll do is i'll do another example where i will change the
+668,73197,73219,2442342.34,2443109.78,2442.342,2443.110,0.767,out,4,0.996,0,system a little bit
+669,73220,73229,2443109.78,2443443.44,2443.110,2443.443,0.334,explain,1,0.998,0,and
+670,73230,73305,2443443.44,2445979.31,2443.443,2445.979,2.536,out,5,0.999,0,you will see how things
+671,73306,73381,2445979.31,2448515.18,2445.979,2448.515,2.536,explain,8,0.952,0,change based on the vectors we're dealing with
+672,73382,73432,2448515.18,2450216.88,2448.515,2450.217,1.702,pickerase,1,0.572,0,so
+673,73433,73481,2450216.88,2451851.85,2450.217,2451.852,1.635,explain,6,0.993,0,let me play with this example
+674,73482,73571,2451851.85,2454854.85,2451.852,2454.855,3.003,out,6,0.975,0,i strongly believe that linear algebra
+675,73572,73575,2454854.85,2454988.32,2454.855,2454.988,0.133,explain,1,0.96,0,if
+676,73576,73632,2454988.32,2456890.22,2454.988,2456.890,1.902,pickerase,6,0.637,0,you example you can manipulate it
+677,73633,73680,2456890.22,2458491.83,2456.890,2458.492,1.602,erase,7,0.974,0,in so many ways that you can
+678,73681,73707,2458491.83,2459392.73,2458.492,2459.393,0.901,droperase,4,0.997,0,understand most of the
+679,73708,73747,2459392.73,2460727.39,2459.393,2460.727,1.335,explain,4,0.982,0,concept just using that
+680,73748,73885,2460727.39,2465332.00,2460.727,2465.332,4.605,out,12,0.867,0,single example so this we can call it as example number two
+681,73886,73964,2465332.00,2467967.97,2465.332,2467.968,2.636,explain,9,0.871,0,but i will base it on the same thing
+682,73965,74253,2467967.97,2477610.94,2467.968,2477.611,9.643,write,25,0.931,0,imagine if i had given you a third vector pick your favorite vector doesn't matter what it is let us say they pick three and
+683,74254,74297,2477610.94,2479079.08,2477.611,2479.079,1.468,explain,5,0.895,0,ten it's my third vector
+684,74298,74380,2479079.08,2481848.52,2479.079,2481.849,2.769,out,5,0.975,0,suppose i want to now
+685,74381,74566,2481848.52,2488054.72,2481.849,2488.055,6.206,explain,15,0.799,0,answer this question can this vector be in the near span of these three guys
+686,74567,74657,2488054.72,2491091.09,2488.055,2491.091,3.036,out,9,0.855,0,so if you think a little bit the only
+687,74658,75077,2491091.09,2505105.11,2491.091,2505.105,14.014,explain,40,0.926,0,change is we are asking can these guys we combine to produce this well didn't we already say these two guys can combine themselves to produce this so i really don't care about this guy but what if we have
+688,75078,75114,2505105.11,2506339.67,2505.105,2506.340,1.235,pickerase,3,0.999,0,to write it
+689,75115,75370,2506339.67,2514881.55,2506.340,2514.882,8.542,erase,6,0.781,0,nicely what i by that is
+690,75371,75389,2514881.55,2515515.52,2514.882,2515.516,0.634,explain,0,,1,[silence]
+691,75390,75443,2515515.52,2517317.32,2515.516,2517.317,1.802,explain,0,,1,[silence]
+692,75444,76033,2517317.32,2537003.67,2517.317,2537.004,19.686,write,23,0.827,0,if i can write pi and e as some number put a box here for the number one three minus two zero if
+693,76034,76063,2537003.67,2538004.67,2537.004,2538.005,1.001,explain,0,,1,[silence]
+694,76064,76201,2538004.67,2542609.28,2538.005,2542.609,4.605,out,15,0.946,0,i have to express pi e as a linear combination of these three vectors what
+695,76202,76256,2542609.28,2544444.44,2542.609,2544.444,1.835,explain,6,0.914,0,numbers should i be putting in
+696,76257,76332,2544444.44,2546980.31,2544.444,2546.980,2.536,write,2,0.728,0,here here
+697,76333,76711,2546980.31,2559626.29,2546.980,2559.626,12.646,explain,47,0.873,0,and here well if you look i already have found the number for this was e over three so if i put in e over three and for this i put e minus three pi over six these two vectors can combine to give me pi over
+698,76712,76749,2559626.29,2560894.23,2559.626,2560.894,1.268,out,4,0.71,0,pi and e so
+699,76750,76779,2560894.23,2561895.23,2560.894,2561.895,1.001,explain,5,0.895,0,what number should i put
+700,76780,76817,2561895.23,2563163.16,2561.895,2563.163,1.268,write,2,0.863,0,here for
+701,76818,76835,2563163.16,2563763.76,2563.163,2563.764,0.601,explain,2,0.943,0,example if
+702,76836,77165,2563763.76,2574774.77,2563.764,2574.775,11.011,out,29,0.887,0,i put zero would you be still i have expressed that guy's linear combination of these three vectors and hence i'm still capable of getting what i want likewise
+703,77166,77416,2574774.77,2583149.82,2574.775,2583.150,8.375,explain,19,0.965,0,we can convince ourselves even if this third vector is placed then the answer to the second question remain
+704,77417,77696,2583149.82,2592492.49,2583.150,2592.492,9.343,write,22,0.792,0,unchanged because now the system will be one one three minus two zero three ten and your right hand side would be
+705,77697,77950,2592492.49,2600967.63,2592.492,2600.968,8.475,explain,21,0.864,0,now see the coefficient matrix has changed the coefficient matrix is of size two by three two rows and three columns
+706,77951,78055,2600967.63,2604471.14,2600.968,2604.471,3.504,out,11,0.948,0,but as we learned in the one of the previous classes
+707,78056,78104,2604471.14,2606106.11,2604.471,2606.106,1.635,explain,4,0.967,0,the rank of this
+708,78105,78205,2606106.11,2609476.14,2606.106,2609.476,3.370,write,13,0.884,0,guy the maximum rank of this guy could be no more than two
+709,78206,78267,2609476.14,2611544.88,2609.476,2611.545,2.069,explain,7,0.988,0,and in fact if you use the
+710,78268,78297,2611544.88,2612545.88,2611.545,2612.546,1.001,out,5,0.84,0,same row reduction that we
+711,78298,78424,2612545.88,2616783.45,2612.546,2616.783,4.238,explain,8,0.851,0,did last time for the previous problem you
+712,78425,79038,2616783.45,2637270.60,2616.783,2637.271,20.487,write,46,0.838,0,can say that the rank is actually still exactly two so if we do the row operations this is zero this will be six one this will still be two minus three b one so the rank is actually exactly two as long as rank is
+713,79039,79047,2637270.60,2637570.90,2637.271,2637.571,0.300,explain,1,0.977,0,two
+714,79048,79206,2637570.90,2642876.21,2637.571,2642.876,5.305,out,11,0.996,0,we know for sure that the system is going to be
+715,79207,79231,2642876.21,2643710.38,2642.876,2643.710,0.834,explain,5,0.997,0,consistent because there is no
+716,79232,79483,2643710.38,2652118.79,2643.710,2652.119,8.408,out,18,0.985,0,pivot in the right column but there is one thing that we have now achieved out of it
+717,79484,79630,2652118.79,2657023.69,2652.119,2657.024,4.905,explain,21,0.931,0,if we want to say the span the span will still be r2 because it is consistent for any b1 and
+718,79631,79696,2657023.69,2659225.89,2657.024,2659.226,2.202,out,4,0.948,0,b2 but if you
+719,79697,79791,2659225.89,2662395.73,2659.226,2662.396,3.170,explain,9,0.84,0,observe what is the status of this third column
+720,79792,79858,2662395.73,2664631.30,2662.396,2664.631,2.236,write,0,,1,[silence]
+721,79859,79871,2664631.30,2665065.07,2664.631,2665.065,0.434,explain,0,,1,[silence]
+722,79872,79990,2665065.07,2669035.70,2665.065,2669.036,3.971,out,7,0.791,0,remember pivots and free columns so this
+723,79991,80029,2669035.70,2670337.00,2669.036,2670.337,1.301,explain,5,0.931,0,is a pivot column this
+724,80030,80046,2670337.00,2670904.24,2670.337,2670.904,0.567,out,4,0.904,0,is a free column
+725,80047,80090,2670904.24,2672372.37,2670.904,2672.372,1.468,explain,6,0.887,0,this is a pivot column this
+726,80091,80296,2672372.37,2679245.91,2672.372,2679.246,6.874,out,17,0.91,0,is a free column what does this mean it means that now i have a free variable
+727,80297,80350,2679245.91,2681047.71,2679.246,2681.048,1.802,explain,5,0.971,0,and so not only the
+728,80351,80374,2681047.71,2681848.52,2681.048,2681.849,0.801,out,3,0.999,0,system is consistent
+729,80375,80418,2681848.52,2683316.65,2681.849,2683.317,1.468,explain,0,,1,[silence]
+730,80419,80768,2683316.65,2694994.99,2683.317,2694.995,11.678,write,13,0.986,0,so consistency is not a problem but it will have infinitely many solutions
+731,80769,80895,2694994.99,2699232.57,2694.995,2699.233,4.238,out,13,0.798,0,because of the presence of the free variable so remember anytime we have
+732,80896,80931,2699232.57,2700433.77,2699.233,2700.434,1.201,explain,2,0.93,0,consistency along
+733,80932,81061,2700433.77,2704771.44,2700.434,2704.771,4.338,out,13,0.81,0,with a free column we will have infinitely many solutions so that means
+734,81062,81137,2704771.44,2707307.31,2704.771,2707.307,2.536,explain,8,0.96,0,this guy can be written as a combination
+735,81138,81355,2707307.31,2714581.25,2707.307,2714.581,7.274,out,14,0.959,0,of these three in infinitely many ways as opposed to what we had earlier
+736,81356,81696,2714581.25,2725959.29,2714.581,2725.959,11.378,explain,37,0.806,0,only two only one way of writing this when you're multiplying by c1 and c2 appropriately sort of infinitely many ways i just showed you one way c1 and c2 i took it from here and zero
+737,81697,81893,2725959.29,2732532.53,2725.959,2732.533,6.573,out,10,0.643,0,so that i don't really care about that okay so
+738,81894,81924,2732532.53,2733566.90,2732.533,2733.567,1.034,explain,1,0.973,0,let's
+739,81925,82027,2733566.90,2737003.67,2733.567,2737.004,3.437,pickerase,6,0.915,0,see let me manipulate this example
+740,82028,82342,2737003.67,2747514.18,2737.004,2747.514,10.511,erase,7,0.927,0,again further understand what would happen by
+741,82343,82358,2747514.18,2748048.05,2747.514,2748.048,0.534,droperase,1,0.542,0,slight
+742,82359,82390,2748048.05,2749115.78,2748.048,2749.116,1.068,explain,1,0.997,0,change
+743,82391,82424,2749115.78,2750250.25,2749.116,2750.250,1.134,out,5,0.95,0,so i'm going to use
+744,82425,82449,2750250.25,2751084.42,2750.250,2751.084,0.834,explain,3,0.898,0,the same example
+745,82450,82472,2751084.42,2751851.85,2751.084,2751.852,0.767,fingererase,1,0.554,0,same
+746,82473,82766,2751851.85,2761661.66,2751.852,2761.662,9.810,write,15,0.899,0,example with a small modification s is one three i will just change the second
+747,82767,82782,2761661.66,2762195.53,2761.662,2762.196,0.534,explain,0,,1,[silence]
+748,82783,82823,2762195.53,2763563.56,2762.196,2763.564,1.368,out,1,0.064,0,instead
+749,82824,82880,2763563.56,2765465.47,2763.564,2765.465,1.902,explain,5,0.613,0,of minus two zero let's
+750,82881,82931,2765465.47,2767167.17,2765.465,2767.167,1.702,write,5,0.826,0,fix a minus three nine
+751,82932,82950,2767167.17,2767801.13,2767.167,2767.801,0.634,explain,0,,1,[silence]
+752,82951,83104,2767801.13,2772939.61,2767.801,2772.940,5.138,out,9,0.878,0,what would be the span of these guys can
+753,83105,83154,2772939.61,2774607.94,2772.940,2774.608,1.668,explain,6,0.724,0,pi still belong in here so
+754,83155,83190,2774607.94,2775809.14,2774.608,2775.809,1.201,fingererase,4,0.99,0,let's try to see
+755,83191,83292,2775809.14,2779212.55,2775.809,2779.213,3.403,write,12,0.876,0,what would be the answer to all of the questions that we've
+756,83293,83304,2779212.55,2779612.95,2779.213,2779.613,0.400,explain,1,0.86,0,posed
+757,83305,83380,2779612.95,2782148.82,2779.613,2782.149,2.536,out,6,0.893,0,previously what lies in this span
+758,83381,83401,2782148.82,2782849.52,2782.149,2782.850,0.701,explain,1,0.842,0,so
+759,83402,83561,2782849.52,2788188.19,2782.850,2788.188,5.339,write,13,0.91,0,let's go for the setup we want to know what right hand sides
+760,83562,83574,2788188.19,2788621.96,2788.188,2788.622,0.434,explain,1,0.969,0,will
+761,83575,83643,2788621.96,2790924.26,2788.622,2790.924,2.302,out,1,0.998,0,make
+762,83644,83661,2790924.26,2791524.86,2790.924,2791.525,0.601,explain,2,0.759,0,the system
+763,83662,83744,2791524.86,2794294.29,2791.525,2794.294,2.769,write,2,0.832,0,consistent so
+764,83745,83758,2794294.29,2794761.43,2794.294,2794.761,0.467,explain,0,,1,[silence]
+765,83759,83873,2794761.43,2798598.60,2794.761,2798.599,3.837,out,2,0.983,0,let me
+766,83874,83915,2798598.60,2800000.00,2798.599,2800.000,1.401,explain,5,0.778,0,actually write this question because
+767,83916,84725,2800000.00,2827027.03,2800.000,2827.027,27.027,write,9,0.684,0,this is the important question which right hand sides
+768,84726,84759,2827027.03,2828161.49,2827.027,2828.161,1.134,explain,0,,1,[silence]
+769,84760,84849,2828161.49,2831164.50,2828.161,2831.164,3.003,out,4,0.773,0,make the system consistent
+770,84850,84860,2831164.50,2831531.53,2831.164,2831.532,0.367,explain,0,,1,[silence]
+771,84861,85130,2831531.53,2840540.54,2831.532,2840.541,9.009,write,19,0.788,0,we do the row operation minus three row one plus row two we will get something out of it
+772,85131,85208,2840540.54,2843143.14,2840.541,2843.143,2.603,explain,1,0.611,0,zero
+773,85209,85228,2843143.14,2843810.48,2843.143,2843.810,0.667,out,0,,1,[silence]
+774,85229,85356,2843810.48,2848081.41,2843.810,2848.081,4.271,explain,0,,1,[silence]
+775,85357,85424,2848081.41,2850350.35,2848.081,2850.350,2.269,out,5,0.695,0,sorry i would like to
+776,85425,85460,2850350.35,2851551.55,2850.350,2851.552,1.201,explain,5,0.775,0,change the better little bit
+777,85461,85464,2851551.55,2851685.02,2851.552,2851.685,0.133,write,0,,1,[silence]
+778,85465,85486,2851685.02,2852419.09,2851.685,2852.419,0.734,explain,2,0.769,0,i wanted
+779,85487,85492,2852419.09,2852619.29,2852.419,2852.619,0.200,write,0,,1,[silence]
+780,85493,85506,2852619.29,2853086.42,2852.619,2853.086,0.467,explain,3,0.906,0,to have a
+781,85507,85579,2853086.42,2855522.19,2853.086,2855.522,2.436,out,2,0.676,0,minus nine
+782,85580,85598,2855522.19,2856156.16,2855.522,2856.156,0.634,explain,0,,1,[silence]
+783,85599,85735,2856156.16,2860727.39,2856.156,2860.727,4.571,write,11,0.819,0,this is zero and this would be p2 minus three p1
+784,85736,85745,2860727.39,2861061.06,2860.727,2861.061,0.334,explain,0,,1,[silence]
+785,85746,85896,2861061.06,2866099.43,2861.061,2866.099,5.038,out,12,0.637,0,okay now you see i have got an echidon form but the
+786,85897,85926,2866099.43,2867100.43,2866.099,2867.100,1.001,explain,3,0.988,0,rank of this
+787,85927,86063,2867100.43,2871671.67,2867.100,2871.672,4.571,write,7,0.987,0,matrix is a bit of a question
+788,86064,86073,2871671.67,2872005.34,2871.672,2872.005,0.334,explain,0,,1,[silence]
+789,86074,86141,2872005.34,2874274.27,2872.005,2874.274,2.269,out,1,0.587,0,why
+790,86142,86163,2874274.27,2875008.34,2874.274,2875.008,0.734,explain,2,0.922,0,for sure
+791,86164,86194,2875008.34,2876042.71,2875.008,2876.043,1.034,write,5,0.947,0,this guy is a pivot
+792,86195,86260,2876042.71,2878244.91,2876.043,2878.245,2.202,explain,9,0.922,0,but would you agree this guy may or may
+793,86261,86411,2878244.91,2883283.28,2878.245,2883.283,5.038,out,13,0.85,0,not become pivot depending on p1 and p2 so if i want consistency
+794,86412,86433,2883283.28,2884017.35,2883.283,2884.017,0.734,explain,0,,1,[silence]
+795,86434,86481,2884017.35,2885618.95,2884.017,2885.619,1.602,fingererase,0,,1,[silence]
+796,86482,86748,2885618.95,2894527.86,2885.619,2894.528,8.909,write,11,0.95,0,for consistency i cannot afford for this guy to become a
+797,86749,86755,2894527.86,2894761.43,2894.528,2894.761,0.234,out,1,0.999,0,pivot
+798,86756,86781,2894761.43,2895628.96,2894.761,2895.629,0.868,explain,1,0.959,0,so
+799,86782,87001,2895628.96,2902969.64,2895.629,2902.970,7.341,write,18,0.922,0,that means i for sure want this guy to become zero in which b1 is basically b2 over
+800,87002,87020,2902969.64,2903603.60,2902.970,2903.604,0.634,explain,0,,1,[silence]
+801,87021,87184,2903603.60,2909075.74,2903.604,2909.076,5.472,out,13,0.844,0,so that means now we have a condition on b1 and b2 not
+802,87185,87242,2909075.74,2911011.01,2909.076,2911.011,1.935,explain,5,0.98,0,just any b1 and b2
+803,87243,87345,2911011.01,2914447.78,2911.011,2914.448,3.437,out,10,0.876,0,can make the system consistent i have to make sure
+804,87346,87364,2914447.78,2915081.75,2914.448,2915.082,0.634,explain,3,0.962,0,that my b1
+805,87365,87412,2915081.75,2916683.35,2915.082,2916.683,1.602,write,4,0.868,0,and b2 satisfy this
+806,87413,87430,2916683.35,2917283.95,2916.683,2917.284,0.601,explain,1,0.163,0,relation
+807,87431,87490,2917283.95,2919285.95,2917.284,2919.286,2.002,out,3,0.892,0,so the question
+808,87491,87588,2919285.95,2922555.89,2919.286,2922.556,3.270,explain,9,0.914,0,is does pi and e belong to this guy's
+809,87589,87636,2922555.89,2924157.49,2922.556,2924.157,1.602,out,6,0.805,0,span the answer would be no
+810,87637,87702,2924157.49,2926359.69,2924.157,2926.360,2.202,explain,6,0.979,0,because for sure pi is not
+811,87703,87792,2926359.69,2929362.70,2926.360,2929.363,3.003,out,8,0.865,0,e over three so if i have to
+812,87793,87804,2929362.70,2929763.10,2929.363,2929.763,0.400,explain,2,0.994,0,describe the
+813,87805,88030,2929763.10,2937303.97,2929.763,2937.304,7.541,write,15,0.746,0,linear span this time i will say the linear span would be basically all those
+814,88031,88042,2937303.97,2937704.37,2937.304,2937.704,0.400,explain,1,0.985,0,vectors
+815,88043,88056,2937704.37,2938171.50,2937.704,2938.172,0.467,out,1,0.833,0,b1
+816,88057,88071,2938171.50,2938672.01,2938.172,2938.672,0.501,explain,1,0.737,0,b2
+817,88072,88288,2938672.01,2945912.58,2938.672,2945.913,7.241,write,5,0.666,0,such that minus three b1
+818,88289,88296,2945912.58,2946179.51,2945.913,2946.180,0.267,explain,0,,1,[silence]
+819,88297,88500,2946179.51,2952986.32,2946.180,2952.986,6.807,out,14,0.957,0,and if you think geometrically it is basically a line passing through the origin
+820,88501,88527,2952986.32,2953887.22,2952.986,2953.887,0.901,explain,0,,1,[silence]
+821,88528,88869,2953887.22,2965298.63,2953.887,2965.299,11.411,write,0,,1,[silence]
+822,88870,88891,2965298.63,2966032.70,2965.299,2966.033,0.734,explain,0,,1,[silence]
+823,88892,89147,2966032.70,2974574.57,2966.033,2974.575,8.542,out,13,0.89,0,so in the next class we'll take up from here and try to
+824,89148,89151,2974574.57,2974708.04,2974.575,2974.708,0.133,explain,0,,1,[silence]
+825,89152,89159,2974708.04,2974974.97,2974.708,2974.975,0.267,out,0,,1,[silence]
+826,89160,89165,2974974.97,2975175.18,2974.975,2975.175,0.200,explain,0,,1,[silence]
+827,89166,89592,2975175.18,2989422.76,2975.175,2989.423,14.248,out,37,0.957,0,go through a little more complicated systems in the sense of going to a little higher dimension and then trying to sense out of it and then we will introduce a new topic something we like to
+828,89593,89647,2989422.76,2991257.92,2989.423,2991.258,1.835,explain,5,0.971,0,call the linear independence of
+829,89648,89711,2991257.92,2993393.39,2991.258,2993.393,2.135,out,1,0.982,0,vectors

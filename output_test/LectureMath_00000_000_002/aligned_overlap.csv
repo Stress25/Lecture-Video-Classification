@@ -1,0 +1,394 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,42,0.00,1434.77,0.000,1.435,1.435,explain,0,,1,[silence]
+1,43,239,1434.77,8008.01,1.435,8.008,6.573,write,4,0.625,0,This is lecture two
+2,240,283,8008.01,9476.14,8.008,9.476,1.468,explain,1,0.847,0,of
+3,284,535,9476.14,17884.55,9.476,17.885,8.408,out,26,0.905,0,of our linear algebra course. So what we are going to do today is we are going to learn how to solve the system of equations
+4,536,581,17884.55,19419.42,17.885,19.419,1.535,explain,4,0.838,0,equations using algebraic methods.
+5,582,604,19419.42,20186.85,19.419,20.187,0.767,out,1,0.974,0,methods.
+6,605,637,20186.85,21287.95,20.187,21.288,1.101,explain,4,0.892,0,But let's first recall
+7,638,753,21287.95,25158.49,21.288,25.158,3.871,write,8,0.917,0,recall the things that we had done in
+8,754,788,25158.49,26326.33,25.158,26.326,1.168,explain,4,0.978,0,in the previous class.
+9,789,805,26326.33,26893.56,26.326,26.894,0.567,out,1,0.999,0,class.
+10,806,821,26893.56,27427.43,26.894,27.427,0.534,explain,0,,1,[silence]
+11,822,1168,27427.43,39005.67,27.427,39.006,11.578,write,19,0.935,0,"So we talked about something called the system of equations. So whenever I say equations, mean linear equations. Then"
+12,1169,1175,39005.67,39239.24,39.006,39.239,0.234,explain,2,0.518,0,Then we
+13,1176,1244,39239.24,41541.54,39.239,41.542,2.302,out,5,0.844,0,we talked about a number
+14,1245,1270,41541.54,42409.08,41.542,42.409,0.868,write,3,0.993,0,"number of solutions,"
+15,1271,1470,42409.08,49082.42,42.409,49.082,6.673,write,1,0.983,0,"solutions,"
+16,1471,1487,49082.42,49649.65,49.082,49.650,0.567,explain,0,,1,[silence]
+17,1488,1640,49649.65,54754.75,49.650,54.755,5.105,out,12,0.902,0,"such as system of equations. And the third thing we talked about,"
+18,1641,1658,54754.75,55355.36,54.755,55.355,0.601,explain,1,0.998,0,"about,"
+19,1659,1688,55355.36,56356.36,55.355,56.356,1.001,write,1,0.998,0,"about,"
+20,1689,1693,56356.36,56523.19,56.356,56.523,0.167,explain,0,,1,[silence]
+21,1694,1705,56523.19,56923.59,56.523,56.924,0.400,out,1,0.394,0,given
+22,1706,1725,56923.59,57590.92,56.924,57.591,0.667,explain,4,0.824,0,given the system of
+23,1726,2056,57590.92,68635.30,57.591,68.635,11.044,write,7,0.733,0,"of equations, the so -called row picture,"
+24,2057,2070,68635.30,69102.44,68.635,69.102,0.467,explain,0,,1,[silence]
+25,2071,2198,69102.44,73373.37,69.102,73.373,4.271,out,4,0.921,0,we will build upon
+26,2199,2222,73373.37,74174.17,73.373,74.174,0.801,explain,3,0.914,0,upon these things
+27,2223,2288,74174.17,76376.38,74.174,76.376,2.202,write,7,0.878,0,things and we'll see how these things
+28,2289,2313,76376.38,77210.54,76.376,77.211,0.834,explain,3,0.993,0,things help us
+29,2314,2489,77210.54,83083.08,77.211,83.083,5.873,out,17,0.928,0,"us solve the system of equations. Now before we do that, I'd like to introduce two terms."
+30,2490,2515,83083.08,83950.62,83.083,83.951,0.868,explain,1,0.994,0,terms.
+31,2516,3519,83950.62,117450.78,83.951,117.451,33.500,write,22,0.905,0,"One of them is the consistent system. What it means is systems having at least one solution. Other categories, the inconsistent systems."
+32,3520,3524,117450.78,117617.62,117.451,117.618,0.167,explain,0,,1,[silence]
+33,3525,3542,117617.62,118218.22,117.618,118.218,0.601,out,0,,1,[silence]
+34,3543,3587,118218.22,119719.72,118.218,119.720,1.502,explain,5,0.968,0,This means systems having no
+35,3588,3729,119719.72,124457.79,119.720,124.458,4.738,write,8,0.864,0,"no solutions. So given a system of equations,"
+36,3730,3749,124457.79,125125.13,124.458,125.125,0.667,explain,4,0.911,0,"equations, we will always"
+37,3750,3903,125125.13,130263.60,125.125,130.264,5.138,out,11,0.966,0,always be able to categorize in these two things. And when
+38,3904,4088,130263.60,136436.44,130.264,136.436,6.173,explain,24,0.928,0,"when we say consistent system, it covers both the cases that the system has exactly one solution and when the system has more than"
+39,4089,4253,136436.44,141941.94,136.436,141.942,5.506,out,8,0.941,0,"than one solution, that is infinitely many solutions."
+40,4254,4331,141941.94,144544.54,141.942,144.545,2.603,explain,1,0.257,0,"Now,"
+41,4332,4421,144544.54,147547.55,144.545,147.548,3.003,write,1,0.257,0,"Now,"
+42,4422,4439,147547.55,148148.15,147.548,148.148,0.601,explain,0,,1,[silence]
+43,4440,4621,148148.15,154220.89,148.148,154.221,6.073,out,10,0.924,0,"given the system of equations, we had talked about the"
+44,4622,4701,154220.89,156890.22,154.221,156.890,2.669,explain,8,0.807,0,the augmented matrix. So let us see if
+45,4702,4759,156890.22,158825.49,156.890,158.825,1.935,out,6,0.907,0,if I take up an example
+46,4760,4827,158825.49,161094.43,158.825,161.094,2.269,explain,1,0.915,0,of
+47,4828,5093,161094.43,169969.97,161.094,169.970,8.876,write,17,0.712,0,X plus three Y is equal to four and five X minus four Y to minus seven.
+48,5094,5179,169969.97,172839.51,169.970,172.840,2.870,explain,7,0.846,0,"seven. So given this system of equations,"
+49,5180,5215,172839.51,174040.71,172.840,174.041,1.201,out,0,,1,[silence]
+50,5216,5272,174040.71,175942.61,174.041,175.943,1.902,explain,0,,1,[silence]
+51,5273,5611,175942.61,187253.92,175.943,187.254,11.311,write,14,0.823,0,"we had talked about an augmented matrix, the matrix we have referred to. This"
+52,5612,5684,187253.92,189689.69,187.254,189.690,2.436,handerase,1,0.155,0,This
+53,5685,5708,189689.69,190490.49,189.690,190.490,0.801,write,0,,1,[silence]
+54,5709,5815,190490.49,194060.73,190.490,194.061,3.570,explain,4,0.966,0,is what we call
+55,5816,5950,194060.73,198565.23,194.061,198.565,4.505,write,13,0.8,0,call as the coefficient matrix and this was our writing sign vector D.
+56,5951,5994,198565.23,200033.37,198.565,200.033,1.468,explain,2,0.261,0,D. Okay.
+57,5995,6076,200033.37,202769.44,200.033,202.769,2.736,out,2,0.988,0,What we
+58,6077,6192,202769.44,206639.97,202.769,206.640,3.871,explain,15,0.97,0,"we want to do is, given the system of equation, we want to reduce it"
+59,6193,6549,206639.97,218551.89,206.640,218.552,11.912,write,12,0.88,0,it just to a nicer form. And what I mean by a
+60,6550,6616,218551.89,220787.45,218.552,220.787,2.236,explain,10,0.889,0,"a nice form is, we'll be clear in a moment,"
+61,6617,6652,220787.45,221988.66,220.787,221.989,1.201,out,8,0.961,0,we want to reduce it to a nice
+62,6653,6722,221988.66,224324.32,221.989,224.324,2.336,explain,6,0.969,0,"nice form, say something like this."
+63,6723,6970,224324.32,232599.27,224.324,232.599,8.275,write,0,,1,[silence]
+64,6971,7056,232599.27,235468.80,232.599,235.469,2.870,explain,5,0.874,0,We shall see the advantage
+65,7057,7093,235468.80,236703.37,235.469,236.703,1.235,out,7,0.955,0,advantage of reducing it to that nice
+66,7094,7280,236703.37,242942.94,236.703,242.943,6.240,explain,21,0.915,0,"nice form, that once we have this form, we will be able to read out the solutions fairly quickly and hence"
+67,7281,7296,242942.94,243476.81,242.943,243.477,0.534,out,3,0.654,0,hence we will
+68,7297,7418,243476.81,247547.55,243.477,247.548,4.071,explain,11,0.893,0,will know whether the system is consistent or it is inconsistent.
+69,7419,7561,247547.55,252318.99,247.548,252.319,4.771,out,8,0.992,0,"Now, the question is, is it always possible"
+70,7562,7639,252318.99,254921.59,252.319,254.922,2.603,explain,3,0.995,0,possible for us
+71,7640,8145,254921.59,271805.14,254.922,271.805,16.884,write,5,0.913,0,"in this form? That means,"
+72,8146,8265,271805.14,275809.14,271.805,275.809,4.004,explain,12,0.953,0,"means, whatever we are doing, the so -called reduction, is it always"
+73,8266,8305,275809.14,277143.81,275.809,277.144,1.335,out,5,0.988,0,always possible to start with
+74,8306,8530,277143.81,284651.32,277.144,284.651,7.508,explain,23,0.94,0,with a matrix and reduce it to this nice form? We shall answer that question once we learn how to do this reduction.
+75,8531,8566,284651.32,285852.52,284.651,285.853,1.201,write,2,0.879,0,"reduction. So,"
+76,8567,8631,285852.52,288021.35,285.853,288.021,2.169,explain,7,0.975,0,we want to talk about what exactly
+77,8632,8734,288021.35,291458.12,288.021,291.458,3.437,out,14,0.876,0,exactly it does mean to reduce a matrix. What are the kind of operations
+78,8735,8827,291458.12,294561.23,291.458,294.561,3.103,explain,9,0.986,0,"operations involved? So, in order to reduce a matrix,"
+79,8828,9161,294561.23,305705.71,294.561,305.706,11.144,write,15,0.918,0,"matrix, we will use a bunch of things we call as the row operations. The"
+80,9162,9217,305705.71,307574.24,305.706,307.574,1.869,explain,9,0.943,0,"The technical term for it is elementary row operations,"
+81,9218,9557,307574.24,318918.92,307.574,318.919,11.345,out,27,0.91,0,"operations, but do need to emphasize on elementary for now, but later on we shall see why we call them as elementary row operations. So, the things"
+82,9558,9612,318918.92,320754.09,318.919,320.754,1.835,explain,4,0.991,0,things that we do
+83,9613,10411,320754.09,347414.08,320.754,347.414,26.660,write,15,0.822,0,"under row operations are these swap rows, multiply one row by a non -zero scalar."
+84,10412,10468,347414.08,349315.98,347.414,349.316,1.902,explain,4,0.741,0,There's another row operation
+85,10469,10550,349315.98,352052.05,349.316,352.052,2.736,out,10,0.991,0,"operation that we can perform, which is perhaps the most"
+86,10551,10679,352052.05,356356.36,352.052,356.356,4.304,explain,8,0.975,0,"most widely used row operation, is basically adding"
+87,10680,11199,356356.36,373707.04,356.356,373.707,17.351,write,6,0.954,0,adding a multiple of one row.
+88,11200,11254,373707.04,375542.21,373.707,375.542,1.835,explain,0,,1,[silence]
+89,11255,11383,375542.21,379846.51,375.542,379.847,4.304,out,12,0.939,0,"One may question, why are we performing these row operations? What do"
+90,11384,11785,379846.51,393259.93,379.847,393.260,13.413,explain,37,0.947,0,do we think we will be able to achieve out of these row operations? And why have we only selected these three operations to achieve that kind of a nice form of a matrix? To better understand
+91,11786,11824,393259.93,394561.23,393.260,394.561,1.301,out,2,0.997,0,"understand this,"
+92,11825,11826,394561.23,394627.96,394.561,394.628,0.067,pickerase,0,,1,[silence]
+93,11827,12138,394627.96,405038.37,394.628,405.038,10.410,erase,30,0.956,0,"why we have confined ourselves to these operations or what are they really helping us achieve, let us go back to the system that we have started the whole thing,"
+94,12139,12151,405038.37,405472.14,405.038,405.472,0.434,droperase,0,,1,[silence]
+95,12152,12171,405472.14,406139.47,405.472,406.139,0.667,explain,0,,1,[silence]
+96,12172,12196,406139.47,406973.64,406.139,406.974,0.834,out,3,0.981,0,the system of
+97,12197,12297,406973.64,410343.68,406.974,410.344,3.370,explain,8,0.903,0,of equations that we were dealing with. But
+98,12298,12355,410343.68,412278.95,410.344,412.279,1.935,out,3,0.8,0,"But remember, if"
+99,12356,12973,412278.95,432899.57,412.279,432.900,20.621,explain,63,0.926,0,"if I'm given the system of equations, I'm interested in finding its solutions. So, what we are claiming is, if we perform any of these operations on the system of equation, it will not change the solution. So, for example, if I swap rows, what if I treat this as my first equation, that as my second equation? Will it make any difference?"
+100,12974,13095,432899.57,436970.30,432.900,436.970,4.071,out,9,0.862,0,"And it's quite kind of intuitive, very obvious that"
+101,13096,13632,436970.30,454888.22,436.970,454.888,17.918,explain,59,0.92,0,"that swapping the order of the equations will not really have any effect on the solution. What about the second row operation? It says multiply one row by a non -zero scalar. What it means is, what if I take one of these equations, whichever one we like, and multiply it by a non -zero scalar? Say, for example,"
+102,13633,13806,454888.22,460694.03,454.888,460.694,5.806,write,9,0.88,0,"if I multiply the first equation by a two,"
+103,13807,13847,460694.03,462062.06,460.694,462.062,1.368,fingererase,4,0.412,0,so we have two
+104,13848,14092,462062.06,470236.90,462.062,470.237,8.175,write,22,0.92,0,"two x plus six y is equal to eight, and five x minus four y is equal to minus seven. Once I"
+105,14093,14168,470236.90,472772.77,470.237,472.773,2.536,explain,11,0.971,0,"I have multiplied it by two, I have got a new"
+106,14169,14219,472772.77,474474.47,472.773,474.474,1.702,out,6,0.926,0,new system of equation where at
+107,14220,14818,474474.47,494461.13,474.474,494.461,19.987,explain,61,0.936,0,"at least the first equation looks a bit different from the first equation in the system. Can I not say that whatever is the solution to this system will still be the solution to this system and vice versa? So, that means performing this kind of a multiplication of one particular equation by a non -zero scalar will not change the"
+108,14819,14939,494461.13,498498.50,494.461,498.498,4.037,out,6,0.941,0,the solution whatsoever. What about the
+109,14940,15083,498498.50,503303.30,498.498,503.303,4.805,explain,18,0.948,0,the third operation? Third operation is the one which is the least obvious. Why is it not effective?
+110,15084,15208,503303.30,507474.14,503.303,507.474,4.171,out,6,0.926,0,effective? Why is it not changing?
+111,15209,15414,507474.14,514347.68,507.474,514.348,6.874,explain,20,0.857,0,"The solutions to the system of equation. So, let's see. If I'm given this, let me call this as equation"
+112,15415,15836,514347.68,528428.43,514.348,528.428,14.081,write,30,0.903,0,"equation one, and let me call this as equation two. What if I took equation one, multiply it by some scalar, let us say minus five, and added it to,"
+113,15837,15859,528428.43,529195.86,528.428,529.196,0.767,fingererase,1,0.766,0,"to,"
+114,15860,15961,529195.86,532599.27,529.196,532.599,3.403,write,2,0.99,0,as you
+115,15962,15979,532599.27,533199.87,532.599,533.200,0.601,explain,3,0.996,0,"you can see,"
+116,15980,16045,533199.87,535402.07,533.200,535.402,2.202,out,7,0.78,0,we are performing the kind of operations
+117,16046,16106,535402.07,537437.44,535.402,537.437,2.035,explain,8,0.781,0,"operations as listed here, adding a multiple of"
+118,16107,16257,537437.44,542475.81,537.437,542.476,5.038,out,20,0.912,0,"of one row to one of the row. So, that means adding a multiple of one equation to another equation."
+119,16258,16285,542475.81,543410.08,542.476,543.410,0.934,explain,5,0.972,0,"So, what do we get?"
+120,16286,16393,543410.08,547013.68,543.410,547.014,3.604,write,11,0.726,0,get? X plus three y is equal to four remains as
+121,16394,16626,547013.68,554788.12,547.014,554.788,7.774,explain,26,0.948,0,"as is, and I'm using that equation to do something to the second equation. If we do that, what we are going to get is minus"
+122,16627,16769,554788.12,559559.56,554.788,559.560,4.771,write,8,0.937,0,minus 19 y is equal to minus 27.
+123,16770,16782,559559.56,559993.33,559.560,559.993,0.434,explain,2,0.996,0,"So, I"
+124,16783,16952,559993.33,565665.67,559.993,565.666,5.672,out,19,0.96,0,"I have achieved a new system of equation from the old one. So, the question we are asking is,"
+125,16953,16969,565665.67,566232.90,565.666,566.233,0.567,explain,1,0.995,0,"is,"
+126,16970,16993,566232.90,567033.70,566.233,567.034,0.801,out,0,,1,[silence]
+127,16994,17007,567033.70,567500.83,567.034,567.501,0.467,explain,0,,1,[silence]
+128,17008,18062,567500.83,602702.70,567.501,602.703,35.202,write,11,0.778,0,solution set the new system in as of the old system.
+129,18063,18080,602702.70,603303.30,602.703,603.303,0.601,explain,0,,1,[silence]
+130,18081,18640,603303.30,621988.66,603.303,621.989,18.685,out,45,0.907,0,"Because if it does, then that means this row operation will also help us preserve solution. Hence, we can keep on doing this until we find the right form. So, of course, there's an algebraic way to understand this, but let me share with you"
+131,18641,18673,621988.66,623089.76,621.989,623.090,1.101,explain,2,0.983,0,you the
+132,18674,18795,623089.76,627160.49,623.090,627.160,4.071,write,9,0.879,0,the geometry we are doing this. Imagine we are
+133,18796,18810,627160.49,627660.99,627.160,627.661,0.501,explain,3,0.899,0,are trying to
+134,18811,18892,627660.99,630397.06,627.661,630.397,2.736,out,9,0.956,0,"to plot these lines. So, let's look at this"
+135,18893,18958,630397.06,632599.27,630.397,632.599,2.202,explain,10,0.761,0,this line. X plus three y is equal to four.
+136,18959,18992,632599.27,633733.73,632.599,633.734,1.134,out,1,0.991,0,Perhaps
+137,18993,19012,633733.73,634401.07,633.734,634.401,0.667,explain,4,0.901,0,Perhaps it is something
+138,19013,19250,634401.07,642342.34,634.401,642.342,7.941,write,21,0.839,0,something like this. X plus three y is equal to four. And let me give this line a name and one.
+139,19251,19266,642342.34,642876.21,642.342,642.876,0.534,explain,0,,1,[silence]
+140,19267,19356,642876.21,645879.21,642.876,645.879,3.003,out,9,0.8,0,"Then we have another line, five x minus four"
+141,19357,19438,645879.21,648615.28,645.879,648.615,2.736,explain,7,0.983,0,four y is equal to minus seven.
+142,19439,19529,648615.28,651651.65,648.615,651.652,3.036,out,11,0.975,0,"And if we draw this line, maybe this line looks something"
+143,19530,19573,651651.65,653119.79,651.652,653.120,1.468,explain,3,0.997,0,something like this.
+144,19574,19610,653119.79,654354.35,653.120,654.354,1.235,write,0,,1,[silence]
+145,19611,19634,654354.35,655155.16,654.354,655.155,0.801,explain,0,,1,[silence]
+146,19635,19732,655155.16,658425.09,655.155,658.425,3.270,out,5,0.994,0,If it looks something like
+147,19733,19812,658425.09,661094.43,658.425,661.094,2.669,explain,2,0.998,0,"like this,"
+148,19813,19996,661094.43,667233.90,661.094,667.234,6.139,write,20,0.932,0,a five x minus four y is equal to minus seven. Let me call this as the line and two.
+149,19997,20011,667233.90,667734.40,667.234,667.734,0.501,explain,0,,1,[silence]
+150,20012,20172,667734.40,673106.44,667.734,673.106,5.372,out,5,0.97,0,"Now, let us ask ourselves,"
+151,20173,20194,673106.44,673840.51,673.106,673.841,0.734,explain,5,0.985,0,how did we get this
+152,20195,20243,673840.51,675475.48,673.841,675.475,1.635,out,4,0.994,0,"this new line, which"
+153,20244,20268,675475.48,676309.64,675.475,676.310,0.834,explain,5,0.992,0,which we are calling as
+154,20269,20320,676309.64,678044.71,676.310,678.045,1.735,write,2,0.763,0,as minus
+155,20321,20334,678044.71,678511.85,678.045,678.512,0.467,explain,2,0.597,0,minus 19
+156,20335,20528,678511.85,684984.98,678.512,684.985,6.473,out,18,0.865,0,"19 y is equal to minus 27. If I plot this line, this line turns out to be"
+157,20529,20568,684984.98,686319.65,684.985,686.320,1.335,explain,0,,1,[silence]
+158,20569,20711,686319.65,691091.09,686.320,691.091,4.771,write,9,0.979,0,"a horizontal line, which exactly passes through this point."
+159,20712,20725,691091.09,691558.22,691.091,691.558,0.467,explain,1,0.998,0,point.
+160,20726,20792,691558.22,693793.79,691.558,693.794,2.236,out,4,0.898,0,This I claim is
+161,20793,20824,693793.79,694861.53,693.794,694.862,1.068,explain,3,0.945,0,is the line.
+162,20825,21001,694861.53,700767.43,694.862,700.767,5.906,write,15,0.811,0,Minus 19 y is minus 27. And let me give this guy the name and
+163,21002,21017,700767.43,701301.30,700.767,701.301,0.534,explain,2,0.238,0,and three.
+164,21018,21172,701301.30,706473.14,701.301,706.473,5.172,out,14,0.938,0,"Now, one may say, well, how am I so sure that my line will"
+165,21173,21192,706473.14,707140.47,706.473,707.140,0.667,explain,4,0.887,0,will pass through this
+166,21193,21423,707140.47,714848.18,707.140,714.848,7.708,out,21,0.927,0,"point, unless I already knew the solution. But the reason I plotted this way is, I'll show you in a moment,"
+167,21424,21445,714848.18,715582.25,714.848,715.582,0.734,explain,2,0.984,0,"moment, why"
+168,21446,21463,715582.25,716182.85,715.582,716.183,0.601,pickerase,4,0.935,0,why this must be
+169,21464,21566,716182.85,719619.62,716.183,719.620,3.437,erase,8,0.983,0,be true. Let us try to think slightly
+170,21567,21581,719619.62,720120.12,719.620,720.120,0.501,droperase,2,0.776,0,slightly differently.
+171,21582,21610,720120.12,721087.75,720.120,721.088,0.968,explain,1,0.619,0,differently.
+172,21611,21694,721087.75,723890.56,721.088,723.891,2.803,out,1,0.99,0,Imagine
+173,21695,21821,723890.56,728128.13,723.891,728.128,4.238,explain,4,0.499,0,your line and three.
+174,21822,21891,728128.13,730463.80,728.128,730.464,2.336,write,2,0.96,0,The way
+175,21892,22062,730463.80,736169.50,730.464,736.170,5.706,explain,17,0.844,0,way we have obtained line and three is using line and one and line and two. So
+176,22063,22202,736169.50,740840.84,736.170,740.841,4.671,write,17,0.861,0,So what we did was we did say minus five times line and one plus line and
+177,22203,22242,740840.84,742175.51,740.841,742.176,1.335,explain,5,0.922,0,and two has produced us
+178,22243,22395,742175.51,747280.61,742.176,747.281,5.105,out,9,0.963,0,"us the line and three. Now, what if we"
+179,22396,22445,747280.61,748948.95,747.281,748.949,1.668,explain,6,0.8,0,we try to write this in
+180,22446,22500,748948.95,750784.12,748.949,750.784,1.835,out,4,0.685,0,in a different format?
+181,22501,22539,750784.12,752085.42,750.784,752.085,1.301,explain,1,0.859,0,Can
+182,22540,22616,752085.42,754654.65,752.085,754.655,2.569,write,7,0.722,0,Can we say minus five times L1?
+183,22617,22655,754654.65,755955.96,754.655,755.956,1.301,explain,7,0.778,0,"L1? So for L1, let us consider"
+184,22656,22696,755955.96,757323.99,755.956,757.324,1.368,out,3,0.982,0,"consider the expression,"
+185,22697,22730,757323.99,758458.46,757.324,758.458,1.134,explain,3,0.785,0,x plus three
+186,22731,22826,758458.46,761661.66,758.458,761.662,3.203,write,2,0.728,0,three y.
+187,22827,22871,761661.66,763163.16,761.662,763.163,1.502,explain,6,0.955,0,"If you look at this expression,"
+188,22872,22881,763163.16,763496.83,763.163,763.497,0.334,out,1,0.998,0,"expression,"
+189,22882,23172,763496.83,773206.54,763.497,773.207,9.710,explain,26,0.964,0,"this is the expression which will help us represent the line L1. And whenever this expression is zero, that means we are on line L1. Likewise,"
+190,23173,23413,773206.54,781247.91,773.207,781.248,8.041,write,13,0.948,0,"if we talk about this expression, five x minus four y plus seven."
+191,23414,23516,781247.91,784684.68,781.248,784.685,3.437,explain,14,0.796,0,"If you look at this expression, whenever this is zero, it will represent line"
+192,23517,23762,784684.68,792892.89,784.685,792.893,8.208,out,22,0.891,0,"line L2. And whenever it is not zero, it is not representing the points on line L2. But if you combine these"
+193,23763,23869,792892.89,796463.13,792.893,796.463,3.570,explain,10,0.96,0,"these guys, can we say that we are going to"
+194,23870,24044,796463.13,802302.30,796.463,802.302,5.839,write,7,0.857,0,to get minus 19 y plus 27.
+195,24045,24082,802302.30,803570.24,802.302,803.570,1.268,explain,0,,1,[silence]
+196,24083,24165,803570.24,806339.67,803.570,806.340,2.769,out,10,0.964,0,"Now, if you look at the final expression we have"
+197,24166,24201,806339.67,807540.87,806.340,807.541,1.201,explain,3,0.997,0,"have got, this"
+198,24202,24253,807540.87,809275.94,807.541,809.276,1.735,write,6,0.817,0,this expression will be zero only
+199,24254,24296,809275.94,810710.71,809.276,810.711,1.435,explain,3,0.875,0,only when the
+200,24297,24323,810710.71,811611.61,810.711,811.612,0.901,out,4,0.966,0,the point lies on
+201,24324,24377,811611.61,813413.41,811.612,813.413,1.802,explain,4,0.998,0,on this horizontal line.
+202,24378,24475,813413.41,816683.35,813.413,816.683,3.270,out,1,0.993,0,"Now,"
+203,24476,24575,816683.35,820020.02,816.683,820.020,3.337,explain,7,0.814,0,"can we say, if we mark this"
+204,24576,24602,820020.02,820920.92,820.020,820.921,0.901,write,4,0.802,0,"this point as P,"
+205,24603,24679,820920.92,823490.16,820.921,823.490,2.569,explain,13,0.858,0,"P, can we say when we plug in the coordinates for P in"
+206,24680,24683,823490.16,823623.62,823.490,823.624,0.133,out,1,0.937,0,in
+207,24684,24730,823623.62,825191.86,823.624,825.192,1.568,explain,2,0.968,0,"in here,"
+208,24731,24912,825191.86,831264.60,825.192,831.265,6.073,write,21,0.881,0,"then this will give me a zero. Likewise, if I plug in the coordinates of P in there, then this will"
+209,24913,24955,831264.60,832699.37,831.265,832.699,1.435,explain,6,0.971,0,will also give me a zero.
+210,24956,25139,832699.37,838838.84,832.699,838.839,6.139,out,18,0.895,0,Because the point P lies on both lines L1 and L2. Which means those two expressions are zero
+211,25140,25226,838838.84,841741.74,838.839,841.742,2.903,explain,8,0.827,0,zero at P. So can we say that
+212,25227,25263,841741.74,842976.31,841.742,842.976,1.235,write,3,0.952,0,"that at P,"
+213,25264,25306,842976.31,844411.08,842.976,844.411,1.435,explain,2,0.981,0,"P, the"
+214,25307,25544,844411.08,852352.35,844.411,852.352,7.941,out,20,0.892,0,the value of that expression will also turn out to be zero. Hence the point P lies on line L3.
+215,25545,25593,852352.35,853987.32,852.352,853.987,1.635,explain,0,,1,[silence]
+216,25594,25752,853987.32,859292.63,853.987,859.293,5.305,write,0,,1,[silence]
+217,25753,25786,859292.63,860427.09,859.293,860.427,1.134,explain,0,,1,[silence]
+218,25787,25936,860427.09,865432.10,860.427,865.432,5.005,out,21,0.918,0,"So that way, at least by this example, we can convince ourselves that as long as we are taking the linear"
+219,25937,26046,865432.10,869102.44,865.432,869.102,3.670,explain,11,0.931,0,linear combinations of two lines and producing a third line out
+220,26047,26524,869102.44,885051.72,869.102,885.052,15.949,out,44,0.929,0,"out of it, that third line will always pass through the intersection of the first two lines we started with. So that kind of gives us a heuristic idea that by that third row operation would also preserve the solution. It's just that instead"
+221,26525,26726,885051.72,891791.79,885.052,891.792,6.740,explain,17,0.86,0,"instead of these two lines, now we are working with these two lines and getting the answer"
+222,26727,26882,891791.79,896997.00,891.792,896.997,5.205,out,7,0.788,0,"answer maybe in an easier manner. Okay,"
+223,26883,26910,896997.00,897931.26,896.997,897.931,0.934,explain,0,,1,[silence]
+224,26911,26988,897931.26,900533.87,897.931,900.534,2.603,pickerase,0,,1,[silence]
+225,26989,27040,900533.87,902268.94,900.534,902.269,1.735,out,3,0.825,0,so let's see
+226,27041,27192,902268.94,907340.67,902.269,907.341,5.072,explain,12,0.908,0,"see how we're going to now achieve this form. By the way,"
+227,27193,27758,907340.67,926226.23,907.341,926.226,18.886,erase,22,0.951,0,"way, this form has a name. So let's first understand the terminology and then we'll worry about solving the system of equations."
+228,27759,27776,926226.23,926826.83,926.226,926.827,0.601,droperase,0,,1,[silence]
+229,27777,27846,926826.83,929162.50,926.827,929.162,2.336,explain,0,,1,[silence]
+230,27847,27971,929162.50,933333.33,929.162,933.333,4.171,out,0,,1,[silence]
+231,27972,28010,933333.33,934634.63,933.333,934.635,1.301,explain,0,,1,[silence]
+232,28011,28077,934634.63,936870.20,934.635,936.870,2.236,out,5,0.947,0,So let's talk about the
+233,28078,28108,936870.20,937904.57,936.870,937.905,1.034,explain,1,0.965,0,the
+234,28109,28125,937904.57,938471.81,937.905,938.472,0.567,pickerase,0,,1,[silence]
+235,28126,28361,938471.81,946346.35,938.472,946.346,7.875,erase,15,0.953,0,two terms associated with matrix. One of them we will call as the echelon form.
+236,28362,28378,946346.35,946913.58,946.346,946.914,0.567,droperase,0,,1,[silence]
+237,28379,28394,946913.58,947447.45,946.914,947.447,0.534,explain,0,,1,[silence]
+238,28395,28426,947447.45,948515.18,947.447,948.515,1.068,out,4,0.806,0,So now we want
+239,28427,28455,948515.18,949482.82,948.515,949.483,0.968,explain,4,0.968,0,want to refer to
+240,28456,28875,949482.82,963496.83,949.483,963.497,14.014,write,7,0.914,0,to the echelon form of a matrix.
+241,28876,28906,963496.83,964531.20,963.497,964.531,1.034,explain,0,,1,[silence]
+242,28907,29067,964531.20,969903.24,964.531,969.903,5.372,out,11,0.983,0,"Now, when we say echelon form of a matrix, what exactly"
+243,29068,29084,969903.24,970470.47,969.903,970.470,0.567,explain,2,0.788,0,exactly do
+244,29085,29144,970470.47,972472.47,970.470,972.472,2.002,fingererase,1,0.985,0,mean?
+245,29145,29992,972472.47,1000767.43,972.472,1000.767,28.295,write,22,0.894,0,So suppose I have a matrix M. So M is an echelon form. The following conditions are met. All the zero rows
+246,29993,30026,1000767.43,1001901.90,1000.767,1001.902,1.134,explain,0,,1,[silence]
+247,30027,30073,1001901.90,1003470.14,1001.902,1003.470,1.568,out,0,,1,[silence]
+248,30074,30087,1003470.14,1003937.27,1003.470,1003.937,0.467,explain,0,,1,[silence]
+249,30088,30590,1003937.27,1020720.72,1003.937,1020.721,16.783,write,4,0.836,0,leading down zero entry.
+250,30591,30671,1020720.72,1023423.42,1020.721,1023.423,2.703,explain,0,,1,[silence]
+251,30672,31527,1023423.42,1051985.32,1023.423,1051.985,28.562,write,3,0.668,0,Down zero entry.
+252,31528,31546,1051985.32,1052619.29,1051.985,1052.619,0.634,explain,0,,1,[silence]
+253,31547,31924,1052619.29,1065231.90,1052.619,1065.232,12.613,out,26,0.858,0,"So if a matrix satisfies these conditions, then you would say that matrix is in the echelon form. Otherwise it is not in the echelon form,"
+254,31925,31954,1065231.90,1066232.90,1065.232,1066.233,1.001,explain,2,0.67,0,"form, okay."
+255,31955,32074,1066232.90,1070236.90,1066.233,1070.237,4.004,out,13,0.916,0,"So let's try to see some examples and see if we can identify,"
+256,32075,32128,1070236.90,1072038.71,1070.237,1072.039,1.802,explain,6,0.974,0,"identify, we can understand what is"
+257,32129,32291,1072038.71,1077477.48,1072.039,1077.477,5.439,write,18,0.838,0,"is an echelon form or what is not. So for example, let's take a look at this matrix."
+258,32292,32694,1077477.48,1090924.26,1077.477,1090.924,13.447,explain,36,0.893,0,"Is this an echelon form or is it not? Let's see. All the zero rows must be at the bottom. Well, this is a zero row, it is at the bottom. The leading down zero entry."
+259,32695,32767,1090924.26,1093360.03,1090.924,1093.360,2.436,write,10,0.768,0,"Now, what exactly do I mean by leading down zero"
+260,32768,32980,1093360.03,1100467.13,1093.360,1100.467,7.107,explain,16,0.953,0,"zero entry? Well, leading down zero entry would simply mean the very first entry in each"
+261,32981,33078,1100467.13,1103737.07,1100.467,1103.737,3.270,write,13,0.829,0,"each row, which is down zero. So for example, in here, this is"
+262,33079,33181,1103737.07,1107173.84,1103.737,1107.174,3.437,explain,14,0.937,0,is the leading down zero entry. One is the leading down zero entry in
+263,33182,33223,1107173.84,1108575.24,1107.174,1108.575,1.401,out,4,0.976,0,in the first row.
+264,33224,33637,1108575.24,1122389.06,1108.575,1122.389,13.814,explain,49,0.899,0,"So each leading down zero entry of each row should be to the right of the leading down zero entry of the row above it. Well, there's no row above it, so this condition will be met without any problems. So this we will say is an echelon form."
+265,33638,33726,1122389.06,1125358.69,1122.389,1125.359,2.970,write,1,0.977,0,form.
+266,33727,33971,1125358.69,1133533.53,1125.359,1133.534,8.175,explain,15,0.929,0,"Now, how about another example and see whether this is an echelon form or not."
+267,33972,34169,1133533.53,1140140.14,1133.534,1140.140,6.607,write,14,0.937,0,"Let's try this example. One, two, three, zero, one, zero, zero, one, zero. Is"
+268,34170,34382,1140140.14,1147247.25,1140.140,1147.247,7.107,explain,24,0.929,0,"Is this an echelon form? Well, there are no zero rows, so we don't have to worry about them. The leading down zero entry."
+269,34383,34529,1147247.25,1152152.15,1147.247,1152.152,4.905,write,19,0.927,0,"entry. So this is the leading down zero entry in first row, this is the leading down zero entry"
+270,34530,34583,1152152.15,1153953.95,1152.152,1153.954,1.802,explain,8,0.986,0,"entry in the second row, and this is"
+271,34584,34689,1153953.95,1157490.82,1153.954,1157.491,3.537,out,10,0.975,0,is the leading down zero entry in the third row.
+272,34690,35190,1157490.82,1174207.54,1157.491,1174.208,16.717,explain,58,0.877,0,"As you can see, the leading down zero entry out here is to the right of the leading down zero entry above it. So this is okay as far as echelon is concerned. But out here the leading down zero entry is right below the leading down zero entry of the row above it. So this is not"
+273,35191,35344,1174207.54,1179346.01,1174.208,1179.346,5.138,write,11,0.904,0,"not fulfilling the criteria, so this is not the echelon form."
+274,35345,35404,1179346.01,1181348.01,1179.346,1181.348,2.002,explain,0,,1,[silence]
+275,35405,35476,1181348.01,1183750.42,1181.348,1183.750,2.402,out,6,0.917,0,Let's try to see another example
+276,35477,35706,1183750.42,1191424.76,1183.750,1191.425,7.674,explain,16,0.931,0,example and see if that is an echelon form or not. So let's try and see
+277,35707,35981,1191424.76,1200600.60,1191.425,1200.601,9.176,write,4,0.896,0,see something like this.
+278,35982,36025,1200600.60,1202068.74,1200.601,1202.069,1.468,explain,2,0.697,0,Echelon form
+279,36026,36102,1202068.74,1204637.97,1202.069,1204.638,2.569,out,6,0.776,0,form or not. So let's see
+280,36103,36193,1204637.97,1207674.34,1204.638,1207.674,3.036,explain,11,0.817,0,"see the leading down zero entries. There are no zero rows,"
+281,36194,36304,1207674.34,1211378.04,1207.674,1211.378,3.704,write,16,0.887,0,"rows, so we only worry about the leading down zero entries. And these are the leading"
+282,36305,36333,1211378.04,1212345.68,1211.378,1212.346,0.968,explain,5,0.988,0,leading down zero entries of
+283,36334,36424,1212345.68,1215382.05,1212.346,1215.382,3.036,out,5,0.96,0,of their respective rows. And
+284,36425,36596,1215382.05,1221121.12,1215.382,1221.121,5.739,explain,23,0.962,0,And each leading down zero entry is occurring to the right of the leading down zero entry above it. So it's kind of
+285,36597,36680,1221121.12,1223923.92,1221.121,1223.924,2.803,out,10,0.943,0,"of staggered in such a manner, it's like a staircase"
+286,36681,36717,1223923.92,1225158.49,1223.924,1225.158,1.235,explain,2,0.979,0,staircase pattern.
+287,36718,36803,1225158.49,1228028.03,1225.158,1228.028,2.870,write,5,0.671,0,So this thing is indeed
+288,36804,36850,1228028.03,1229596.26,1228.028,1229.596,1.568,explain,2,0.855,0,echelon form.
+289,36851,36953,1229596.26,1233033.03,1229.596,1233.033,3.437,out,8,0.929,0,"Now while we are at it, we might"
+290,36954,37089,1233033.03,1237570.90,1233.033,1237.571,4.538,explain,10,0.933,0,might as well introduce another term which is closely related
+291,37090,37224,1237570.90,1242075.41,1237.571,1242.075,4.505,write,7,0.879,0,related to echelon form. Initially we may
+292,37225,37263,1242075.41,1243376.71,1242.075,1243.377,1.301,explain,4,0.976,0,may not really understand
+293,37264,37315,1243376.71,1245111.78,1243.377,1245.112,1.735,out,7,0.792,0,understand the significance while we going after
+294,37316,37371,1245111.78,1246980.31,1245.112,1246.980,1.869,explain,5,0.904,0,"after it, but soon we"
+295,37372,37380,1246980.31,1247280.61,1246.980,1247.281,0.300,out,3,0.924,0,we will see
+296,37381,37413,1247280.61,1248381.72,1247.281,1248.382,1.101,explain,1,0.998,0,see
+297,37414,37911,1248381.72,1264998.33,1248.382,1264.998,16.617,write,19,0.871,0,this term has its own merit. Row reduced echelon form. I will generally refer it to as the RREF.
+298,37912,37933,1264998.33,1265732.40,1264.998,1265.732,0.734,explain,1,0.871,0,RREF.
+299,37934,38236,1265732.40,1275842.51,1265.732,1275.843,10.110,out,26,0.812,0,"RREF. It's not a standard terminology, but it will at least help me not write this long phrase as row reduced echelon form. So what it"
+300,38237,38299,1275842.51,1277944.61,1275.843,1277.945,2.102,explain,5,0.841,0,it sees and what it
+301,38300,38323,1277944.61,1278745.41,1277.945,1278.745,0.801,erase,2,0.956,0,"includes is,"
+302,38324,38778,1278745.41,1293927.26,1278.745,1293.927,15.182,write,25,0.923,0,"you will say the matrix M is in the row reduced echelon form. If M is in echelon form, at least that takes care of"
+303,38779,38793,1293927.26,1294427.76,1293.927,1294.428,0.501,explain,1,0.996,0,of
+304,38794,38841,1294427.76,1296029.36,1294.428,1296.029,1.602,out,0,,1,[silence]
+305,38842,38861,1296029.36,1296696.70,1296.029,1296.697,0.667,explain,1,0.999,0,echelon
+306,38862,38900,1296696.70,1297998.00,1296.697,1297.998,1.301,out,3,0.996,0,echelon part of
+307,38901,38913,1297998.00,1298431.77,1297.998,1298.432,0.434,explain,3,0.995,0,of this phrase.
+308,38914,38961,1298431.77,1300033.37,1298.432,1300.033,1.602,write,3,0.989,0,phrase. The second
+309,38962,38965,1300033.37,1300166.83,1300.033,1300.167,0.133,explain,1,0.997,0,second
+310,38966,39078,1300166.83,1303937.27,1300.167,1303.937,3.770,out,12,0.809,0,"second thing is, why are we saying it is row reduced? Well,"
+311,39079,39099,1303937.27,1304637.97,1303.937,1304.638,0.701,explain,1,0.166,0,"Well,"
+312,39100,39594,1304637.97,1321154.49,1304.638,1321.154,16.517,write,9,0.887,0,all the leading non -zero entries must be one.
+313,39595,39618,1321154.49,1321955.29,1321.154,1321.955,0.801,explain,0,,1,[silence]
+314,39619,39680,1321955.29,1324024.02,1321.955,1324.024,2.069,out,2,0.875,0,And there's
+315,39681,39694,1324024.02,1324491.16,1324.024,1324.491,0.467,explain,3,0.904,0,there's another criteria
+316,39695,40446,1324491.16,1349582.92,1324.491,1349.583,25.092,write,14,0.918,0,criteria that we want that all the other entries in the column leading one.
+317,40447,40470,1349582.92,1350383.72,1349.583,1350.384,0.801,explain,0,,1,[silence]
+318,40471,40820,1350383.72,1362062.06,1350.384,1362.062,11.678,out,23,0.868,0,"So if a matrix satisfies all these three things, then we will say it is in its row reduced echelon form. So let's"
+319,40821,41066,1362062.06,1370270.27,1362.062,1370.270,8.208,explain,28,0.884,0,"let's try and see what happens. This is an echelon. Is it row reduced echelon form? Well, all the leading non -zero entries must be one. So a"
+320,41067,41107,1370270.27,1371638.30,1370.270,1371.638,1.368,write,6,0.745,0,a leading non -zero entry is
+321,41108,41330,1371638.30,1379079.08,1371.638,1379.079,7.441,explain,26,0.898,0,is one. All the other entries in the column with leading one should be zero. All the entries in the column with leading one is zero.
+322,41331,41393,1379079.08,1381181.18,1379.079,1381.181,2.102,write,8,0.858,0,So this is indeed in the row reduced
+323,41394,41461,1381181.18,1383450.12,1381.181,1383.450,2.269,explain,3,0.893,0,reduced echelon form.
+324,41462,41483,1383450.12,1384184.18,1383.450,1384.184,0.734,out,0,,1,[silence]
+325,41484,41600,1384184.18,1388088.09,1384.184,1388.088,3.904,explain,18,0.924,0,"Let's talk about this one. If it is not echelon, it can't be row reduced echelon form. What"
+326,41601,41658,1388088.09,1390023.36,1388.088,1390.023,1.935,out,7,0.98,0,What about this one? All the leading
+327,41659,41819,1390023.36,1395395.40,1390.023,1395.395,5.372,explain,21,0.982,0,"leading non -zero entries must be one. Well, out here, this is the leading non -zero entry, which is not one."
+328,41820,41922,1395395.40,1398832.17,1395.395,1398.832,3.437,write,10,0.99,0,"Hence, it is not in the row reduced echelon form."
+329,41923,41944,1398832.17,1399566.23,1398.832,1399.566,0.734,explain,0,,1,[silence]
+330,41945,42065,1399566.23,1403603.60,1399.566,1403.604,4.037,out,12,0.876,0,"So the question is, why are we so fond of the echelon"
+331,42066,42205,1403603.60,1408274.94,1403.604,1408.275,4.671,explain,16,0.912,0,"echelon form or the row reduced echelon form? And what is, how are they going to"
+332,42206,42617,1408274.94,1422022.02,1408.275,1422.022,13.747,out,28,0.944,0,"to help us? From theoretical perspective, echelon form and row reduced echelon form are not that much different in the sense whatever I can get out of echelon"
+333,42618,42766,1422022.02,1426993.66,1422.022,1426.994,4.972,explain,17,0.937,0,"echelon form or whatever I can get out of row reduced echelon form, pretty much I can"
+334,42767,43083,1426993.66,1437570.90,1426.994,1437.571,10.577,out,17,0.94,0,"can find those things from echelon form also. However, from a computational perspective, it's a balancing act."
+335,43084,43126,1437570.90,1439005.67,1437.571,1439.006,1.435,explain,5,0.598,0,To get the row reduced
+336,43127,43146,1439005.67,1439673.01,1439.006,1439.673,0.667,out,3,0.596,0,"reduced echelon form,"
+337,43147,43172,1439673.01,1440540.54,1439.673,1440.541,0.868,explain,6,0.965,0,"form, have to do extra computation,"
+338,43173,43216,1440540.54,1442008.68,1440.541,1442.009,1.468,out,3,0.977,0,"computation, but in"
+339,43217,43252,1442008.68,1443209.88,1442.009,1443.210,1.201,explain,8,0.941,0,"in the end, you can read out solutions"
+340,43253,43376,1443209.88,1447347.35,1443.210,1447.347,4.137,out,11,0.936,0,solutions much more effectively and there's no requirement of back substitution.
+341,43377,43547,1447347.35,1453053.05,1447.347,1453.053,5.706,explain,13,0.973,0,"However, out here, you may have to do less computations to get the"
+342,43548,43623,1453053.05,1455588.92,1453.053,1455.589,2.536,out,11,0.98,0,"the echelon form, but then you have to do back substitution"
+343,43624,43628,1455588.92,1455755.76,1455.589,1455.756,0.167,explain,1,0.996,0,substitution
+344,43629,43637,1455755.76,1456056.06,1455.756,1456.056,0.300,out,1,0.996,0,substitution
+345,43638,43641,1456056.06,1456189.52,1456.056,1456.190,0.133,explain,0,,1,[silence]
+346,43642,43837,1456189.52,1462729.40,1456.190,1462.729,6.540,out,19,0.874,0,"to get those solutions. So from a computational point of view, there might be some difference between the two,"
+347,43838,43844,1462729.40,1462962.96,1462.729,1462.963,0.234,pickerase,1,0.151,0,but
+348,43845,43891,1462962.96,1464531.20,1462.963,1464.531,1.568,out,4,0.751,0,but we will see
+349,43892,43918,1464531.20,1465432.10,1464.531,1465.432,0.901,explain,3,0.96,0,what are the
+350,43919,43946,1465432.10,1466366.37,1465.432,1466.366,0.934,pickerase,3,0.972,0,the differences for
+351,43947,43989,1466366.37,1467801.13,1466.366,1467.801,1.435,droperase,5,0.964,0,for us as far as
+352,43990,44030,1467801.13,1469169.17,1467.801,1469.169,1.368,explain,5,0.986,0,as knowing the property of
+353,44031,44044,1469169.17,1469636.30,1469.169,1469.636,0.467,out,4,0.968,0,of the matrix is
+354,44045,44081,1469636.30,1470870.87,1469.636,1470.871,1.235,pickerase,4,0.948,0,is concerned based on
+355,44082,44290,1470870.87,1477844.51,1470.871,1477.845,6.974,erase,17,0.913,0,"on these things. So in a nutshell, what we want to do is, given an augmented matrix,"
+356,44291,44335,1477844.51,1479346.01,1477.845,1479.346,1.502,droperase,1,0.995,0,we
+357,44336,44389,1479346.01,1481147.81,1479.346,1481.148,1.802,pickerase,8,0.976,0,we want to see how to get its
+358,44390,44755,1481147.81,1493360.03,1481.148,1493.360,12.212,erase,26,0.942,0,its echelon form and how to get its row reduced echelon form. So let me start with the same example that we were trying to solve.
+359,44756,44766,1493360.03,1493727.06,1493.360,1493.727,0.367,droperase,0,,1,[silence]
+360,44767,44828,1493727.06,1495795.80,1493.727,1495.796,2.069,explain,8,0.739,0,"And this time, we tried to get its"
+361,44829,45138,1495795.80,1506139.47,1495.796,1506.139,10.344,out,5,0.862,0,its row reduced echelon form.
+362,45139,45160,1506139.47,1506873.54,1506.139,1506.874,0.734,explain,1,0.976,0,So
+363,45161,45256,1506873.54,1510076.74,1506.874,1510.077,3.203,out,7,0.798,0,"So the numbers I had used were,"
+364,45257,45316,1510076.74,1512078.75,1510.077,1512.079,2.002,explain,0,,1,[silence]
+365,45317,45594,1512078.75,1521354.69,1512.079,1521.355,9.276,write,0,,1,[silence]
+366,45595,45717,1521354.69,1525458.79,1521.355,1525.459,4.104,explain,3,0.677,0,and our objective
+367,45718,45759,1525458.79,1526860.19,1525.459,1526.860,1.401,out,7,0.962,0,objective is to get its row reduced
+368,45760,45803,1526860.19,1528328.33,1526.860,1528.328,1.468,explain,3,0.991,0,reduced echelon form.
+369,45804,45819,1528328.33,1528862.20,1528.328,1528.862,0.534,fingererase,0,,1,[silence]
+370,45820,45867,1528862.20,1530463.80,1528.862,1530.464,1.602,explain,0,,1,[silence]
+371,45868,46083,1530463.80,1537671.00,1530.464,1537.671,7.207,write,16,0.847,0,We want to do some row operations and end up with a row reduced echelon form.
+372,46084,46141,1537671.00,1539606.27,1537.671,1539.606,1.935,explain,0,,1,[silence]
+373,46142,46260,1539606.27,1543576.91,1539.606,1543.577,3.971,out,8,0.794,0,"Now, one thing I should point out that"
+374,46261,46373,1543576.91,1547347.35,1543.577,1547.347,3.770,explain,9,0.89,0,"that even though this is an augmented matrix, it"
+375,46374,46595,1547347.35,1554754.75,1547.347,1554.755,7.407,out,21,0.856,0,"it hasn't like, the row operations will work exactly the same way as if they would work on any matrix. So"
+376,46596,46605,1554754.75,1555088.42,1554.755,1555.088,0.334,explain,2,0.478,0,So let's
+377,46606,46744,1555088.42,1559726.39,1555.088,1559.726,4.638,fingererase,19,0.833,0,"let's try and see what are we going to achieve. Remember, we want the row reduced echelon form so"
+378,46745,47440,1559726.39,1582949.62,1559.726,1582.950,23.223,write,54,0.915,0,"so we can perform some row operations as follows. So what I can do is, I see that I have a leading one. So anything below it or above it, and there's no above it, so everything below it should become zero. So in order to achieve that, I can perform this row operation,"
+379,47441,47468,1582949.62,1583883.88,1582.950,1583.884,0.934,explain,4,0.904,0,adding a multiple of
+380,47469,47630,1583883.88,1589289.29,1583.884,1589.289,5.405,out,16,0.972,0,of the first row to the second row. So what I did was add the appropriate
+381,47631,47757,1589289.29,1593526.86,1589.289,1593.527,4.238,explain,13,0.909,0,appropriate multiple so that I can use this entry to eliminate the entry
+382,47758,47780,1593526.86,1594294.29,1593.527,1594.294,0.767,out,3,0.994,0,entry below it.
+383,47781,47812,1594294.29,1595362.03,1594.294,1595.362,1.068,explain,3,0.956,0,And once I
+384,47813,47834,1595362.03,1596096.10,1595.362,1596.096,0.734,write,3,0.749,0,"I knew that,"
+385,47835,47894,1596096.10,1598098.10,1596.096,1598.098,2.002,explain,10,0.93,0,remember I'm using the first row as a tool or
+386,47895,47912,1598098.10,1598698.70,1598.098,1598.699,0.601,out,4,0.969,0,"or as a multiplier,"
+387,47913,47954,1598698.70,1600100.10,1598.699,1600.100,1.401,explain,1,0.996,0,"multiplier,"
+388,47955,48112,1600100.10,1605372.04,1600.100,1605.372,5.272,write,6,0.9,0,so that thing is unchanged. And
+389,48113,48139,1605372.04,1606272.94,1605.372,1606.273,0.901,explain,4,0.967,0,And I'm going to
+390,48140,48226,1606272.94,1609175.84,1606.273,1609.176,2.903,out,8,0.962,0,to get the change in the second row.
+391,48227,48318,1609175.84,1612245.58,1609.176,1612.246,3.070,explain,0,,1,[silence]
+392,48319,48379,1612245.58,1614280.95,1612.246,1614.281,2.035,out,0,,1,[silence]

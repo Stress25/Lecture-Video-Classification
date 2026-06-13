@@ -1,0 +1,168 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,1704,0.00,56890.22,0.000,56.890,56.890,explain,164,0.931,0,"Que tal mis amigos de YouTube, tenemos un gusto extraje con ustedes, donde ahora vamos a resolver el siguiente ejemplo correspondiente de ecuaciones diferenciales. ¿Qué es lo que vamos a hacer? Pues resolver la ecuación diferencial utilizando el método de separación de variables o variables separables. Entonces, ¿cómo vamos a abordar este problema? Bueno, ya saben, para este método lo que tenemos que hacer es dejar de un lado todo lo que tenga que ver con X y del otro lado todo lo que tenga que ver con Y. En este caso, el diferencial de X está en la parte del denominador, lo queremos forzosamente en la parte del numerador, eso quiere decir que éste lo tenemos que despejar. Antes de despejarlo, porque eso sería una grosería en este momento, tenemos que ver qué podemos hacer acá para poder agrupar X y Y y poder despejarlos, dejar X y despejar Y. Entonces vamos a comenzar. Voy a poner un signo de igual por acá"
+1,1705,1727,56890.22,57657.66,56.890,57.658,0.767,write,0,,1,[silence]
+2,1728,2341,57657.66,78144.81,57.658,78.145,20.487,explain,49,0.868,0,"y veamos qué es lo primero que podemos observar que se puede hacer. De forma directa, lo único que podemos meter las manos es en decir, tienes Y aquí y acá. Puedes factorizarlo y además abajo lo puedes hacer también. Eso quiere decir que para esta igualdad tendremos la"
+3,2342,3181,78144.81,106172.84,78.145,106.173,28.028,write,45,0.831,0,"la Y de manera factorizada, X más 3 y luego menos X menos 3 dividido esto entre otra factorización que va a incluir a Y, donde tendremos X menos 2, esto multiplicando a Y para que nos de esto, luego más X y un menos"
+4,3182,4475,106172.84,149349.35,106.173,149.349,43.177,explain,103,0.874,0,"menos 2. Ya que tenemos eso, qué más podemos hacer? Hay algo aquí que no siempre se ve, porque necesitamos antecedentes que vimos hace ya algún tiempo en nuestra formación de bachillerato preparatoria o antes de introducirnos a ecuaciones diferenciales, donde decimos cómo podemos hacer para factorizar esto. Bueno, vamos a ver lo siguiente. Dentro de cada uno de los paréntesis que existen aquí y acá, tenemos X más 3 repetido en la parte de arriba y X menos 2 repetido en la parte de abajo. Es más evidente en la parte del denominador, que es esto de aquí. Equivaldría simplemente a poner"
+5,4476,4512,149349.35,150583.92,149.349,150.584,1.235,write,3,0.992,0,poner unos paréntesis
+6,4513,4731,150583.92,157891.22,150.584,157.891,7.307,explain,12,0.913,0,"paréntesis para identificarlo, acá factorizando el signo menos. Entonces vamos a ponerlo."
+7,4732,5230,157891.22,174541.21,157.891,174.541,16.650,write,39,0.819,0,"Tendremos diferencial de Y sobre diferencial de X igual a cuánto? Si factorizamos obtendremos Y que esto se va a quedar exactamente igual, X más 3 y luego aquí si factorizamos el signo menos. Al factorizar el signo menos,"
+8,5231,5351,174541.21,178578.58,174.541,178.579,4.037,explain,13,0.866,0,"menos, la X dentro del paréntesis se vuelve positiva y el menos 3"
+9,5352,5407,178578.58,180447.11,178.579,180.447,1.869,write,6,0.913,0,3 se convierte en un hermoso
+10,5408,5489,180447.11,183183.18,180.447,183.183,2.736,explain,5,0.885,0,"hermoso más 3, ¿verdad? Ahora,"
+11,5490,5927,183183.18,197797.80,183.183,197.798,14.615,write,30,0.919,0,"esto dividido, mis queridísimos amigos, entre la misma factorización que ya habíamos hecho, que era X menos 2, esto de aquí y luego lo que teníamos acá exactamente igual. Ahora,"
+12,5928,7141,197797.80,238304.97,197.798,238.305,40.507,explain,102,0.888,0,"Ahora, ¿qué es lo que vamos a realizar para este paso? Vamos a realizar lo siguiente, observen muy bien. Esta factorización no siempre es muy evidente, pero si sabemos que tenemos X más 3 y X menos 3 podemos factorizar los términos que multiplican aquí con el que multiplica acá. ¿Qué número está aquí? Ninguno, no puede ser cero, obviamente. Hay un 1, un menos 1 para ser más exactos, porque menos 1 por todo esto, pues da exactamente lo mismo. Acá abajo pues tenemos un más 1, eso quiere decir que la factorización que podemos hacer, observen muy bien, es poner"
+13,7142,7185,238304.97,239773.11,238.305,239.773,1.468,write,3,0.926,0,poner entre paréntesis
+14,7186,7446,239773.11,248481.82,239.773,248.482,8.709,explain,25,0.728,0,"paréntesis Y con el número que tenemos multiplicando. X más 3 multiplica a la Y, pero también X menos 3 multiplica a un menos 1,"
+15,7447,7653,248481.82,255388.72,248.482,255.389,6.907,write,16,0.929,0,"1, un menos 1. Esto lo podemos factorizar con el X más 3, que está multiplicando"
+16,7654,7857,255388.72,262195.53,255.389,262.196,6.807,explain,22,0.919,0,"multiplicando cada uno de estos términos para que desarrollamos de esto. Listo, vamos a hacer lo mismo en la parte del denominador,"
+17,7858,7888,262195.53,263229.90,262.196,263.230,1.034,write,2,0.964,0,poner un
+18,7889,8001,263229.90,267000.33,263.230,267.000,3.770,explain,10,0.915,0,"un Y más 1, ¿verdad? Porque tenemos X menos 2,"
+19,8002,8149,267000.33,271938.61,267.000,271.939,4.938,write,11,0.89,0,entonces ponemos Y más 1 que multiplica a X menos 2.
+20,8150,8597,271938.61,286886.89,271.939,286.887,14.948,explain,34,0.889,0,"2. Listo, ahora sí podemos efectuar la separación de variables, porque ya igualándolo como lo tenemos, pues todo esto es equivalente a diferencial de Y entre X. Digo, para diferenciarlo vamos a ponerlo así,"
+21,8598,8624,286886.89,287787.79,286.887,287.788,0.901,fingererase,3,0.974,0,voy a quitar
+22,8625,8663,287787.79,289089.09,287.788,289.089,1.301,explain,4,0.933,0,quitar la igualdad y
+23,8664,8693,289089.09,290090.09,289.089,290.090,1.001,point,5,0.942,0,y voy a poner una
+24,8694,8786,290090.09,293193.19,290.090,293.193,3.103,explain,7,0.941,0,una flechita. ¿Para qué? Simplemente para igualarlo
+25,8787,8915,293193.19,297497.50,293.193,297.497,4.304,write,6,0.949,0,con diferencial de Y sobre diferencial
+26,8916,9862,297497.50,329095.76,297.497,329.096,31.598,explain,78,0.892,0,"diferencial de X, ¿vale? Es la misma gata pero remolcada, simplemente esto está del lado izquierdo y lo de allá del lado derecho, no hemos modificado nada. Entonces, ¿ahora qué es lo que pasa aquí? Podemos despejar poniendo X acá y Y dejándolo ahí. Este diferencial de X se va pasar al otro lado de la igualdad, quiere decir que estos términos de X se van a quedar ahí, solitos, quietecitos, calientitos, ¿sale? Entonces, vamos a dejarlos y"
+27,9863,10215,329095.76,340874.21,329.096,340.874,11.778,write,21,0.779,0,y tendremos X más 3 entre X menos 2 y este que está dividiendo que es diferencial de X pasa multiplicando
+28,10216,10805,340874.21,360560.56,340.874,360.561,19.686,explain,58,0.89,0,"multiplicando y de este lado ya nada más va a existir diferencial de X. Quiere decir que estos que me están estorbando que involucran allí los paso del lado contrario, como los voy a despejar, este está dividiendo, va a pasar multiplicando, este está multiplicando, pasa dividiendo, entonces simplemente hago un switcheo y los cambio de lugar. Tendremos"
+29,10806,11022,360560.56,367801.13,360.561,367.801,7.241,write,14,0.707,0,"Tendremos Y más 1 entre Y menos 1, listísimo y esto con la diferencial"
+30,11023,11337,367801.13,378311.64,367.801,378.312,10.511,explain,27,0.93,0,"diferencial de Y que ya estaba de este lado, ¿verdad? Entonces, ahora sí, integramos. Para integrar, que sea evidente, el único que tenemos que poner es esa"
+31,11338,11414,378311.64,380880.88,378.312,380.881,2.569,write,5,0.904,0,"esa pequeñita S alargada, ¿verdad?"
+32,11415,12863,380880.88,429229.23,380.881,429.229,48.348,explain,114,0.876,0,"Listo. Ahora vamos a tener que integrar, pero para realizar las integrales de una forma más sencilla, vamos a tener que realizar literal la división que existe aquí. Alguien podría decir, bueno, mira, ¿qué te parece si separamos X entre X menos 2 si lo integramos y 3 entre X menos 2 si lo integramos y lo mismo acá? Sí se puede hacer eso, pero eso no te garantiza que puedas integrarlo. ¿Cómo integras X entre X menos 2 de forma directa? Bueno, como no se ve tan directo, vamos a utilizar otra forma que es literal haciendo una división para poder expresar integrales más sencillas y hacerlas en un solo paso. Entonces voy"
+33,12864,12913,429229.23,430897.56,429.229,430.898,1.668,write,6,0.93,0,voy a abrir un pequeño apartado
+34,12914,13148,430897.56,438738.74,430.898,438.739,7.841,explain,22,0.885,0,apartado por este lado de acá y vamos a escribir en color rojo qué es lo que va a pasar. Tenemos X
+35,13149,13372,438738.74,446212.88,438.739,446.213,7.474,write,9,0.668,0,X más 3 que está dividido entre X menos
+36,13373,14741,446212.88,491891.89,446.213,491.892,45.679,explain,112,0.898,0,"menos 2. Así literal es la misma división simplemente que acá está expresada como un cosiente, una fracción. Vamos a tener que realizar algo parecido a cuando realizábamos una separación de términos como si fuera división sintética, algo más o menos así. Es prácticamente lo mismo pero con más de un término adentro y afuera. Entonces, ¿qué es lo que va a pasar? Recuerden que tenemos que proponer aquí arriba un número para que cuando los multipliquemos acá se cancelen. La diferencia que tiene esta división es que cuando multiplicamos los números que ponemos aquí van a tener el signo contrario. ¿Qué número necesito aquí arriba para poder simplificar la X? Pues"
+37,14742,14749,491891.89,492158.83,491.892,492.159,0.267,write,2,0.433,0,Pues un
+38,14750,15017,492158.83,501101.10,492.159,501.101,8.942,explain,25,0.858,0,"un 1, un 1 positivo. Porque recuerden que cuando yo lo multiplique le tengo que cambiar el signo hasta el último. 1 por X da"
+39,15018,15037,501101.10,501768.44,501.101,501.768,0.667,write,2,0.89,0,da X
+40,15038,15111,501768.44,504237.57,501.768,504.238,2.469,explain,8,0.809,0,X pero una vez puesto acá yo le
+41,15112,15120,504237.57,504537.87,504.238,504.538,0.300,write,3,0.989,0,le tengo que
+42,15121,15619,504537.87,521187.85,504.538,521.188,16.650,explain,40,0.88,0,"que poner un signo inmediatamente. Lo mismo cuando multiplique por 2, 1 por menos 2 da menos 2. Tengo que poner el menos 2 aquí pero como la regla me dice tienes que ponerle un signo antes menos menos 2"
+43,15620,15684,521187.85,523356.69,521.188,523.357,2.169,write,6,0.816,0,2 se convierte en más 2.
+44,15685,15780,523356.69,526559.89,523.357,526.560,3.203,explain,9,0.91,0,2. Al realizar esta pequeña suma podemos observar que
+45,15781,15800,526559.89,527227.23,526.560,527.227,0.667,slash,3,0.968,0,que se cancela
+46,15801,15842,527227.23,528628.63,527.227,528.629,1.401,explain,7,0.839,0,"cancela la X con la X, aquí"
+47,15843,15974,528628.63,533033.03,528.629,533.033,4.404,write,14,0.902,0,"aquí nos da 0 y 3 más 2 es igual a un hermoso 5,"
+48,15975,16677,533033.03,556489.82,533.033,556.490,23.457,explain,61,0.941,0,"5, un grande y gordo 5. Listo, eso quiere decir que podemos reescribir esta integral ahora de la siguiente manera. Lo voy a escribir en color rojo. Estamos hablando de integrales, por lo tanto de aquí van a salir dos integrales. Una del número que utilizamos para hacer la división y el otro que obtuvimos como residuo. Vamos a poner la"
+49,16678,16698,556489.82,557190.52,556.490,557.191,0.701,write,3,0.968,0,la primera integral
+50,16699,17301,557190.52,577310.64,557.191,577.311,20.120,explain,55,0.901,0,"integral que va a involucrar al término que utilizamos para proponer la división. En este caso fue un 1, como se trata de integrales. Entonces un 1 que va a involucrarse en una sola integral, solita, porque fue el que nos ayudó a deshacernos de la X. Un 1 que multiplicado por la respectiva diferencial,"
+51,17302,17341,577310.64,578645.31,577.311,578.645,1.335,write,4,0.847,0,"diferencial, 1 por diferencial"
+52,17342,17905,578645.31,597464.13,578.645,597.464,18.819,explain,58,0.917,0,"diferencial de X y listo, obtuvimos esto. Qué sencillo, ¿no? Ahora va la otra integral. La otra integral va a estar relacionada con el residuo, en este caso fue 5. Como es el residuo, quiere decir que va a existir todavía un número que pueda utilizar para dividir, en dado caso. Entonces como este 5 es positivo, vamos"
+53,17906,17922,597464.13,598031.36,597.464,598.031,0.567,write,3,0.996,0,vamos a poner
+54,17923,17981,598031.36,600000.00,598.031,600.000,1.969,explain,6,0.766,0,poner más Y estamos hablando de
+55,17982,18130,600000.00,604971.64,600.000,604.972,4.972,write,12,0.885,0,"de integrales, la integral de 5 y debido a que tenemos una"
+56,18131,18371,604971.64,613013.01,604.972,613.013,8.041,explain,22,0.845,0,"una división, va a seguir existiendo este X menos 2 porque fue el residuo. El residuo entre lo que no pudimos dividir."
+57,18372,18416,613013.01,614514.51,613.013,614.515,1.502,write,4,0.808,0,"dividir. X menos 2,"
+58,18417,18473,614514.51,616416.42,614.515,616.416,1.902,explain,5,0.871,0,"2, ¿no? Y listo. Esto"
+59,18474,18505,616416.42,617484.15,616.416,617.484,1.068,write,4,0.975,0,Esto con su diferencial
+60,18506,18609,617484.15,620954.29,617.484,620.954,3.470,explain,14,0.951,0,"diferencial de X, mis queridos amigos. Y vamos a hacer lo mismo con Y."
+61,18610,18625,620954.29,621488.15,620.954,621.488,0.534,write,2,0.86,0,"Y. Entonces,"
+62,18626,18853,621488.15,629095.76,621.488,629.096,7.608,explain,21,0.825,0,"Entonces, ¿qué va a pasar con Y? Vamos a ponerlo por acá, en otro color. Vamos a poner Y más 1"
+63,18854,19186,629095.76,640206.87,629.096,640.207,11.111,write,29,0.883,0,"1 dividido entre Y menos 1, lo mismo. ¿Qué número necesito? Pues el 1, ¿verdad? ¿Para qué? Para que 1 por Y me de Y, aquí le cambio el"
+64,19187,19432,640206.87,648415.08,640.207,648.415,8.208,explain,26,0.942,0,"el signo y me da menos. Y luego 1 por menos 1, me da menos 1, pero como me dice, cámbiale el signo. Menos, menos 1"
+65,19433,19473,648415.08,649783.12,648.415,649.783,1.368,write,4,0.86,0,"1 es más 1,"
+66,19474,19568,649783.12,652952.95,649.783,652.953,3.170,explain,9,0.873,0,"1, listo. Hago la resta, mis queridos amigos. Ah,"
+67,19569,19593,652952.95,653787.12,652.953,653.787,0.834,out,5,0.695,0,"Ah, se cayó el plumón."
+68,19594,19662,653787.12,656089.42,653.787,656.089,2.302,explain,5,0.522,0,"plumón. Lo arribo más. Bueno,"
+69,19663,19682,656089.42,656756.76,656.089,656.757,0.667,slash,3,0.941,0,"como hicimos eso,"
+70,19683,19725,656756.76,658191.52,656.757,658.192,1.435,explain,6,0.718,0,"eso, Y con Y se cancela,"
+71,19726,19803,658191.52,660794.13,658.192,660.794,2.603,write,14,0.863,0,"cancela, nos da por acá un 0. 1 más 1 es igual a un"
+72,19804,20220,660794.13,674708.04,660.794,674.708,13.914,explain,43,0.936,0,"un precioso 2 con signo positivo y listo. Entonces ahora, ¿qué pasa por acá? Vamos a ponerlo en rojo para poner toda la ecuación diferencial con rojo. ¿Y qué es lo que va pasar? Tenemos un 1, ese 1 va a estar relacionado"
+73,20221,20243,674708.04,675475.48,674.708,675.475,0.767,write,3,0.996,0,relacionado a la
+74,20244,20445,675475.48,682215.55,675.475,682.216,6.740,explain,22,0.96,0,"la primera integral, que es lo que nos ayudó a dividir para quitar la Y. Entonces, simplemente tendremos 1 por la diferencial"
+75,20446,20481,682215.55,683416.75,682.216,683.417,1.201,write,3,0.966,0,"diferencial de Y,"
+76,20482,20667,683416.75,689622.96,683.417,689.623,6.206,explain,13,0.811,0,"Y, listo. Ahora, un 2, este 2 entre lo que no pudimos dividir."
+77,20668,20687,689622.96,690290.29,689.623,690.290,0.667,write,3,0.854,0,Y como es
+78,20688,20767,690290.29,692959.63,690.290,692.960,2.669,explain,9,0.845,0,"es una integral y tenemos signo positivo más 2,"
+79,20768,20836,692959.63,695261.93,692.960,695.262,2.302,write,5,0.955,0,tendremos la integral de 2
+80,20837,20887,695261.93,696963.63,695.262,696.964,1.702,explain,6,0.966,0,2 sobre lo que no pudimos
+81,20888,21046,696963.63,702268.94,696.964,702.269,5.305,write,13,0.829,0,pudimos dividir Y menos 1. Esto con su respectivo diferencial de Y y
+82,21047,21916,702268.94,731297.96,702.269,731.298,29.029,explain,74,0.902,0,"y listo, queridos amigos. Integramos esto y ya habríamos casi, casi terminado. Porque debido a que algunos profesores son un poco especiales en cuanto a la evaluación del resultado, el resultado lo vamos a dejar en términos de exponenciales y no en términos de logaritmos. Porque al integrar aquí vamos a encontrarnos con logaritmos. Integramos en el siguiente paso. Prácticamente aquí se están burlando de nosotros, ¿verdad? La integral de diferencial de X, pues"
+83,21917,21934,731297.96,731898.57,731.298,731.899,0.601,write,3,0.906,0,"pues es X,"
+84,21935,22094,731898.57,737237.24,731.899,737.237,5.339,explain,16,0.945,0,"X, listo. La integral de esto, recuerden, el 5 sale de la integral y queda como"
+85,22095,22158,737237.24,739372.71,737.237,739.373,2.135,write,8,0.97,0,"como una constante, por lo tanto esa constante"
+86,22159,22561,739372.71,752819.49,739.373,752.819,13.447,explain,27,0.797,0,"constante la ponemos. Y tenemos X menos 2 en la parte del denominador. La integral de 1, ojo, 1 sobre X menos 2 es igual a un"
+87,22562,22670,752819.49,756456.46,752.819,756.456,3.637,write,8,0.979,0,"un precioso logaritmo de X menos 2, que"
+88,22671,22750,756456.46,759125.79,756.456,759.126,2.669,explain,6,0.949,0,"que es el argumento, ¿verdad? Listo."
+89,22751,22764,759125.79,759592.93,759.126,759.593,0.467,write,2,0.938,0,Y esto
+90,22765,22923,759592.93,764898.23,759.593,764.898,5.305,explain,17,0.931,0,"esto de este lado vamos a tener, otra vez se están burlando de nosotros, esto es una"
+91,22924,22943,764898.23,765565.57,764.898,765.566,0.667,write,2,0.828,0,"una Y,"
+92,22944,23061,765565.57,769502.84,765.566,769.503,3.937,explain,10,0.704,0,"Y, la integral de diferencial de Y es Y. Y"
+93,23062,23076,769502.84,770003.34,769.503,770.003,0.501,write,3,0.406,0,Y más un
+94,23077,23154,770003.34,772605.94,770.003,772.606,2.603,explain,8,0.888,0,un hermoso 2 que sale porque es una
+95,23155,23175,772605.94,773306.64,772.606,773.307,0.701,write,3,0.907,0,una constante y
+96,23176,23426,773306.64,781681.68,773.307,781.682,8.375,explain,23,0.847,0,"y tenemos la integral de diferencial de Y sobre Y menos 1, o la integral de 1 sobre Y menos 1. Otro precioso"
+97,23427,23561,781681.68,786186.19,781.682,786.186,4.505,write,11,0.935,0,precioso logaritmo natural que nos da como resultado en el argumento
+98,23562,23683,786186.19,790256.92,786.186,790.257,4.071,explain,11,0.9,0,"argumento Y menos 1. Como integramos y son integrales indefinidas, agregamos"
+99,23684,23725,790256.92,791658.32,790.257,791.658,1.401,write,3,0.989,0,agregamos una hermosísima
+100,23726,24079,791658.32,803470.14,791.658,803.470,11.812,explain,29,0.906,0,"hermosísima constante de integración. Listo, ya integramos. Pero tenemos que obtener el resultado en términos de exponenciales y no de logaritmos. Tenemos que utilizar simplemente un poquito de álgebra."
+101,24080,24115,803470.14,804671.34,803.470,804.671,1.201,pickerase,4,0.959,0,¿Qué pasa si despejamos?
+102,24116,24217,804671.34,808074.74,804.671,808.075,3.403,explain,7,0.975,0,"despejamos? Voy a borrar y continuamos, ¿vale?"
+103,24218,24536,808074.74,818718.72,808.075,818.719,10.644,erase,31,0.957,0,"Entonces, borramos por acá y ¿qué es lo que vamos a tener, mis amigos? Bueno, primero vamos a dejar todos los términos que incluyan logaritmo de un lado de la igualdad,"
+104,24537,24543,818718.72,818952.29,818.719,818.952,0.234,droperase,1,0.997,0,"igualdad,"
+105,24544,24577,818952.29,820086.75,818.952,820.087,1.134,explain,4,0.925,0,del lado derecho para
+106,24578,24596,820086.75,820720.72,820.087,820.721,0.634,droperase,4,0.944,0,para que sea más
+107,24597,24887,820720.72,830430.43,820.721,830.430,9.710,explain,31,0.859,0,más sencillo. Eso quiere decir que este y este que no contienen al logaritmo pasémoslo para acá. La constante de momento vamos a dejarla por aquí. Entonces vamos a tener X
+108,24888,24993,830430.43,833967.30,830.430,833.967,3.537,write,4,0.494,0,"X menos Y, ¿sale?"
+109,24994,25139,833967.30,838838.84,833.967,838.839,4.872,explain,12,0.929,0,"Hicimos el despeje, nada más, para allá. Ahora este dispositivo se queda"
+110,25140,25191,838838.84,840573.91,838.839,840.574,1.735,write,5,0.805,0,queda como 2 el logaritmo
+111,25192,25253,840573.91,842642.64,840.574,842.643,2.069,explain,5,0.908,0,"logaritmo de Y menos 1,"
+112,25254,25293,842642.64,843977.31,842.643,843.977,1.335,write,6,0.942,0,"1, ¿verdad? Y menos 1 como"
+113,25294,25510,843977.31,851217.88,843.977,851.218,7.241,explain,23,0.928,0,"como argumento y luego este 5 logaritmo de X menos 2 lo vamos a pasar al otro lado de la igualdad. Es positivo,"
+114,25511,25765,851217.88,859726.39,851.218,859.726,8.509,write,24,0.738,0,"positivo, pues ¿qué creen que se me cambia de sí, no? Y esto da logaritmo de X menos 2, listo. La constante no la"
+115,25766,26525,859726.39,885085.09,859.726,885.085,25.359,explain,54,0.899,0,"la movimos, queda ahí, no me importa. Bueno, ahí está. Bien, entonces ¿qué sigue? Aplicar exponentes, pero antes tenemos que ver cómo podemos juntar esto. Por propiedades de los logaritmos esto sería una división. Sería 2 logaritmo de Y menos 1 dividido entre 5 X menos 2, ¿vale? Entonces, ¿cómo va a quedar esto?"
+116,26526,26588,885085.09,887187.19,885.085,887.187,2.102,write,3,0.253,0,X menos Y
+117,26589,26895,887187.19,897430.76,887.187,897.431,10.244,explain,26,0.848,0,"Y y de acuerdo a nuestros antecedentes de álgebra nos estamos saltando pequeños pasos porque esto es ecuaciones diferenciales, no álgebra. Esto sería igual a ponerlo"
+118,26896,27020,897430.76,901601.60,897.431,901.602,4.171,write,7,0.774,0,"ponerlo como 2 quintos de el logaritmo,"
+119,27021,27142,901601.60,905672.34,901.602,905.672,4.071,explain,9,0.889,0,"logaritmo, este entre este porque este es el negativo,"
+120,27143,27303,905672.34,911044.38,905.672,911.044,5.372,write,12,0.865,0,"Y menos 1 sobre X menos 2, listo. Y esto más la"
+121,27304,27363,911044.38,913046.38,911.044,913.046,2.002,explain,6,0.715,0,"la constante, pero ¿qué creen? Esto"
+122,27364,27380,913046.38,913613.61,913.046,913.614,0.567,point,2,0.397,0,Esto lo
+123,27381,27712,913613.61,924691.36,913.614,924.691,11.078,explain,26,0.871,0,lo podemos describir un poquito diferente porque por propiedades de los logaritmos este 2 entre 5 lo podemos pasar como un exponente. Eso quiere decir que
+124,27713,28007,924691.36,934534.53,924.691,934.535,9.843,write,17,0.858,0,que tendríamos X menos Y igual al logaritmo de Y menos 1 entre X menos 2 y
+125,28008,28122,934534.53,938371.71,934.535,938.372,3.837,explain,9,0.883,0,y esto en el argumento va a estar elevado
+126,28123,28202,938371.71,941041.04,938.372,941.041,2.669,write,7,0.773,0,elevado a la 2 quintos y más
+127,28203,28289,941041.04,943943.94,941.041,943.944,2.903,explain,11,0.757,0,"más la constante que ahí está, ¿verdad? más ahí haciendo ruido."
+128,28290,28300,943943.94,944310.98,943.944,944.311,0.367,pickerase,1,0.73,0,ruido.
+129,28301,28324,944310.98,945111.78,944.311,945.112,0.801,explain,2,0.778,0,"ruido. Bueno,"
+130,28325,28362,945111.78,946379.71,945.112,946.380,1.268,pickerase,7,0.924,0,vamos a borrar eso que tenemos aquí
+131,28363,28475,946379.71,950150.15,946.380,950.150,3.770,erase,11,0.924,0,"aquí y veamos qué es lo que sigue a continuación. Bueno,"
+132,28476,28510,950150.15,951317.98,950.150,951.318,1.168,droperase,0,,1,[silence]
+133,28511,28600,951317.98,954320.99,951.318,954.321,3.003,explain,9,0.949,0,ahora sí vamos a aplicar exponenciales donde tendríamos que
+134,28601,28734,954320.99,958792.13,954.321,958.792,4.471,write,10,0.987,0,que elevar prácticamente todo en ambos lados de la igualdad
+135,28735,28834,958792.13,962128.80,958.792,962.129,3.337,explain,7,0.704,0,"E a la X menos Y, ¿verdad?"
+136,28835,28848,962128.80,962595.93,962.129,962.596,0.467,write,3,0.949,0,¿verdad? Y luego
+137,28849,28905,962595.93,964497.83,962.596,964.498,1.902,explain,3,0.911,0,"luego la exponencial,"
+138,28906,29369,964497.83,979979.98,964.498,979.980,15.482,write,34,0.858,0,"¿de qué, mis amigos? Pues de todo esto, ¿verdad? Del logaritmo de Y menos 1 entre X menos 2 y todo esto a su vez elevado a la 2 quintos. Y todo esto también"
+139,29370,29530,979979.98,985352.02,979.980,985.352,5.372,explain,15,0.784,0,"también está con la constante ahí nada más haciendo ruido, ¿verdad? Pero ¿qué creen? Esto"
+140,29531,29544,985352.02,985819.15,985.352,985.819,0.467,write,3,0.98,0,Esto también lo
+141,29545,29599,985819.15,987654.32,985.819,987.654,1.835,explain,3,0.993,0,lo podemos representar
+142,29600,29732,987654.32,992092.09,987.654,992.092,4.438,write,12,0.843,0,representar como E a la X por E a la menos Y
+143,29733,29933,992092.09,998798.80,992.092,998.799,6.707,explain,14,0.888,0,"por propiedades, por leyes de los exponentes, propiedades de los exponentes igual a qué?"
+144,29934,29948,998798.80,999299.30,998.799,999.299,0.501,write,2,0.884,0,A E
+145,29949,30093,999299.30,1004137.47,999.299,1004.137,4.838,explain,9,0.752,0,"E a, para ya no escribir esta E, el"
+146,30094,30120,1004137.47,1005038.37,1004.137,1005.038,0.901,slash,4,0.693,0,el logaritmo con una
+147,30121,30244,1005038.37,1009175.84,1005.038,1009.176,4.137,explain,10,0.848,0,"una exponencial, pasa? Pues se cancelan porque son operaciones opuestas."
+148,30245,30271,1009175.84,1010076.74,1009.176,1010.077,0.901,pickerase,2,0.931,0,opuestas. Entonces
+149,30272,30289,1010076.74,1010677.34,1010.077,1010.677,0.601,erase,3,0.822,0,Entonces quiere decir
+150,30290,30309,1010677.34,1011344.68,1010.677,1011.345,0.667,droperase,2,0.936,0,decir que
+151,30310,30419,1011344.68,1015015.02,1011.345,1015.015,3.670,explain,6,0.926,0,que para esta parte únicamente tendríamos
+152,30420,30648,1015015.02,1022655.99,1015.015,1022.656,7.641,write,12,0.684,0,Y menos 1 sobre X menos 2 elevado a la 2 quintos.
+153,30649,30977,1022655.99,1033633.63,1022.656,1033.634,10.978,explain,30,0.893,0,"quintos. ¿Y esta constante qué pasa? Esta constante también estaba elevada a la exponencial. La exponencial solamente se canceló para este término, no para este. Quiere decir que aquí tendríamos"
+154,30978,31013,1033633.63,1034834.83,1033.634,1034.835,1.201,write,4,0.711,0,tendríamos E a la
+155,31014,31110,1034834.83,1038071.40,1034.835,1038.071,3.237,explain,5,0.901,0,"la C todavía multiplicando, ojo,"
+156,31111,31135,1038071.40,1038905.57,1038.071,1038.906,0.834,droperase,2,0.855,0,"ojo, antecedente"
+157,31136,31243,1038905.57,1042509.18,1038.906,1042.509,3.604,explain,7,0.896,0,"antecedente de álgebra. Bien, aquí esto por"
+158,31244,31488,1042509.18,1050684.02,1042.509,1050.684,8.175,write,20,0.897,0,"por propiedades, leyes de los exponentes sería igual a tener E a la X entre E a la Y y"
+159,31489,31684,1050684.02,1057223.89,1050.684,1057.224,6.540,explain,22,0.886,0,y esto igual a qué? E a la C sigue siendo una constante porque estamos elevando a una constante. Entonces vamos a
+160,31685,31851,1057223.89,1062796.13,1057.224,1062.796,5.572,write,12,0.874,0,"a poner la constante al principio, la constante grandota, y multiplicando a"
+161,31852,31877,1062796.13,1063663.66,1062.796,1063.664,0.868,explain,4,0.311,0,a Y menos 1
+162,31878,31907,1063663.66,1064664.66,1063.664,1064.665,1.001,fingererase,1,0.506,0,1
+163,31908,32072,1064664.66,1070170.17,1064.665,1070.170,5.506,write,9,0.808,0,sobre X menos 2 elevado a la 2 quintos.
+164,32073,32432,1070170.17,1082182.18,1070.170,1082.182,12.012,explain,35,0.845,0,"quintos. Y bueno, después de tanto estar hable y hable, yo escribe y escribe y ustedes nada más escuchando. Bueno, pues entonces aquí hemos llegado al resultado, mis queridísimos amigos de Salvador Fil. Esto que"
+165,32433,32470,1082182.18,1083450.12,1082.182,1083.450,1.268,emphasize,6,0.963,0,que acabamos de obtener aquí es
+166,32471,33131,1083450.12,1105505.51,1083.450,1105.506,22.055,explain,64,0.912,0,"es el resultado correspondiente a la solución de la ecuación diferencial utilizando el método de separación de variables o variables separables. No olvides suscribirte, compartir, darle like, recoméndalo con todos tus amigos para que todos pasen ecuaciones diferenciales con 10, porque si no lo compartes vas a reprobar la materia, ¿vale? Bueno, nos vemos en el siguiente video, saludos, estén súper bien y adiós."

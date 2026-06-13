@@ -1,0 +1,12 @@
+.vscode/
+annotations/
+*.npy
+*.wav
+*.mp3
+*.mp4
+*.mkv
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.env/

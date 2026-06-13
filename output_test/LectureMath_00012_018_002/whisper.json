@@ -1,0 +1,1404 @@
+{
+  "audio_path": "/Users/kritikabhat/Documents/MastersResearch/Code/output_test/LectureMath_00012_018_002/LectureMath_00012_018_002.wav",
+  "model": "medium",
+  "language": "en",
+  "duration_sec": 144.128,
+  "segments": [
+    {
+      "id": 1,
+      "start_sec": 0.43,
+      "end_sec": 8.27,
+      "text": "Okay, in this problem, we have a spring that's vertically hung, and there's a mass attached",
+      "words": [
+        {
+          "word": "Okay,",
+          "start_sec": 0.43,
+          "end_sec": 0.97,
+          "prob": 0.49
+        },
+        {
+          "word": "in",
+          "start_sec": 0.97,
+          "end_sec": 1.11,
+          "prob": 0.867
+        },
+        {
+          "word": "this",
+          "start_sec": 1.11,
+          "end_sec": 1.31,
+          "prob": 0.999
+        },
+        {
+          "word": "problem,",
+          "start_sec": 1.31,
+          "end_sec": 1.79,
+          "prob": 0.998
+        },
+        {
+          "word": "we",
+          "start_sec": 2.11,
+          "end_sec": 2.29,
+          "prob": 0.773
+        },
+        {
+          "word": "have",
+          "start_sec": 2.29,
+          "end_sec": 2.99,
+          "prob": 0.556
+        },
+        {
+          "word": "a",
+          "start_sec": 2.99,
+          "end_sec": 4.23,
+          "prob": 0.996
+        },
+        {
+          "word": "spring",
+          "start_sec": 4.23,
+          "end_sec": 4.47,
+          "prob": 0.968
+        },
+        {
+          "word": "that's",
+          "start_sec": 4.47,
+          "end_sec": 4.91,
+          "prob": 0.981
+        },
+        {
+          "word": "vertically",
+          "start_sec": 4.91,
+          "end_sec": 5.25,
+          "prob": 0.996
+        },
+        {
+          "word": "hung,",
+          "start_sec": 5.25,
+          "end_sec": 5.75,
+          "prob": 0.995
+        },
+        {
+          "word": "and",
+          "start_sec": 6.13,
+          "end_sec": 6.79,
+          "prob": 0.991
+        },
+        {
+          "word": "there's",
+          "start_sec": 6.79,
+          "end_sec": 7.27,
+          "prob": 0.982
+        },
+        {
+          "word": "a",
+          "start_sec": 7.27,
+          "end_sec": 7.49,
+          "prob": 0.999
+        },
+        {
+          "word": "mass",
+          "start_sec": 7.49,
+          "end_sec": 7.75,
+          "prob": 0.998
+        },
+        {
+          "word": "attached",
+          "start_sec": 7.75,
+          "end_sec": 8.27,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_sec": 8.27,
+      "end_sec": 14.19,
+      "text": "to the spring, and it's 10 kilograms, and it's stretching the spring 0.5 meters.",
+      "words": [
+        {
+          "word": "to",
+          "start_sec": 8.27,
+          "end_sec": 8.45,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 8.45,
+          "end_sec": 8.67,
+          "prob": 0.983
+        },
+        {
+          "word": "spring,",
+          "start_sec": 8.67,
+          "end_sec": 9.03,
+          "prob": 0.999
+        },
+        {
+          "word": "and",
+          "start_sec": 9.37,
+          "end_sec": 9.49,
+          "prob": 0.89
+        },
+        {
+          "word": "it's",
+          "start_sec": 9.49,
+          "end_sec": 9.75,
+          "prob": 0.977
+        },
+        {
+          "word": "10",
+          "start_sec": 9.75,
+          "end_sec": 10.03,
+          "prob": 0.84
+        },
+        {
+          "word": "kilograms,",
+          "start_sec": 10.03,
+          "end_sec": 10.67,
+          "prob": 0.779
+        },
+        {
+          "word": "and",
+          "start_sec": 11.21,
+          "end_sec": 11.41,
+          "prob": 0.993
+        },
+        {
+          "word": "it's",
+          "start_sec": 11.41,
+          "end_sec": 11.75,
+          "prob": 0.995
+        },
+        {
+          "word": "stretching",
+          "start_sec": 11.75,
+          "end_sec": 11.97,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 11.97,
+          "end_sec": 12.25,
+          "prob": 0.994
+        },
+        {
+          "word": "spring",
+          "start_sec": 12.25,
+          "end_sec": 12.89,
+          "prob": 0.999
+        },
+        {
+          "word": "0",
+          "start_sec": 12.89,
+          "end_sec": 13.35,
+          "prob": 0.717
+        },
+        {
+          "word": ".5",
+          "start_sec": 13.35,
+          "end_sec": 13.73,
+          "prob": 0.996
+        },
+        {
+          "word": "meters.",
+          "start_sec": 13.73,
+          "end_sec": 14.19,
+          "prob": 0.933
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_sec": 15.05,
+      "end_sec": 26.36,
+      "text": "So there are two forces acting in this situation, there's the force of the spring, which is",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 15.05,
+          "end_sec": 15.35,
+          "prob": 0.934
+        },
+        {
+          "word": "there",
+          "start_sec": 15.35,
+          "end_sec": 15.51,
+          "prob": 0.844
+        },
+        {
+          "word": "are",
+          "start_sec": 15.51,
+          "end_sec": 15.63,
+          "prob": 0.999
+        },
+        {
+          "word": "two",
+          "start_sec": 15.63,
+          "end_sec": 15.87,
+          "prob": 0.982
+        },
+        {
+          "word": "forces",
+          "start_sec": 15.87,
+          "end_sec": 16.25,
+          "prob": 0.999
+        },
+        {
+          "word": "acting",
+          "start_sec": 16.25,
+          "end_sec": 16.57,
+          "prob": 0.996
+        },
+        {
+          "word": "in",
+          "start_sec": 16.57,
+          "end_sec": 16.75,
+          "prob": 0.997
+        },
+        {
+          "word": "this",
+          "start_sec": 16.75,
+          "end_sec": 16.87,
+          "prob": 0.979
+        },
+        {
+          "word": "situation,",
+          "start_sec": 16.87,
+          "end_sec": 17.43,
+          "prob": 1.0
+        },
+        {
+          "word": "there's",
+          "start_sec": 17.53,
+          "end_sec": 17.85,
+          "prob": 0.971
+        },
+        {
+          "word": "the",
+          "start_sec": 17.85,
+          "end_sec": 18.23,
+          "prob": 0.824
+        },
+        {
+          "word": "force",
+          "start_sec": 18.23,
+          "end_sec": 18.51,
+          "prob": 0.998
+        },
+        {
+          "word": "of",
+          "start_sec": 18.51,
+          "end_sec": 18.69,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 18.69,
+          "end_sec": 18.93,
+          "prob": 0.959
+        },
+        {
+          "word": "spring,",
+          "start_sec": 18.93,
+          "end_sec": 19.37,
+          "prob": 0.999
+        },
+        {
+          "word": "which",
+          "start_sec": 25.36,
+          "end_sec": 25.56,
+          "prob": 0.992
+        },
+        {
+          "word": "is",
+          "start_sec": 25.56,
+          "end_sec": 26.36,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_sec": 26.36,
+      "end_sec": 32.24,
+      "text": "negative k, where k is the spring constant, times y, the distance that the spring is",
+      "words": [
+        {
+          "word": "negative",
+          "start_sec": 26.36,
+          "end_sec": 26.78,
+          "prob": 0.818
+        },
+        {
+          "word": "k,",
+          "start_sec": 26.78,
+          "end_sec": 27.3,
+          "prob": 0.63
+        },
+        {
+          "word": "where",
+          "start_sec": 27.34,
+          "end_sec": 27.56,
+          "prob": 0.994
+        },
+        {
+          "word": "k",
+          "start_sec": 27.56,
+          "end_sec": 27.78,
+          "prob": 0.971
+        },
+        {
+          "word": "is",
+          "start_sec": 27.78,
+          "end_sec": 28.0,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 28.0,
+          "end_sec": 28.16,
+          "prob": 0.995
+        },
+        {
+          "word": "spring",
+          "start_sec": 28.16,
+          "end_sec": 28.42,
+          "prob": 0.997
+        },
+        {
+          "word": "constant,",
+          "start_sec": 28.42,
+          "end_sec": 29.0,
+          "prob": 0.999
+        },
+        {
+          "word": "times",
+          "start_sec": 29.56,
+          "end_sec": 30.0,
+          "prob": 0.996
+        },
+        {
+          "word": "y,",
+          "start_sec": 30.0,
+          "end_sec": 30.52,
+          "prob": 0.822
+        },
+        {
+          "word": "the",
+          "start_sec": 30.52,
+          "end_sec": 30.74,
+          "prob": 0.996
+        },
+        {
+          "word": "distance",
+          "start_sec": 30.74,
+          "end_sec": 31.26,
+          "prob": 0.999
+        },
+        {
+          "word": "that",
+          "start_sec": 31.26,
+          "end_sec": 31.46,
+          "prob": 0.985
+        },
+        {
+          "word": "the",
+          "start_sec": 31.46,
+          "end_sec": 31.7,
+          "prob": 0.998
+        },
+        {
+          "word": "spring",
+          "start_sec": 31.7,
+          "end_sec": 31.9,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 31.9,
+          "end_sec": 32.24,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_sec": 32.24,
+      "end_sec": 44.38,
+      "text": "being stretched, and then there's the force of gravity on the mass, which is the mass times",
+      "words": [
+        {
+          "word": "being",
+          "start_sec": 32.24,
+          "end_sec": 32.64,
+          "prob": 0.477
+        },
+        {
+          "word": "stretched,",
+          "start_sec": 32.64,
+          "end_sec": 33.08,
+          "prob": 0.995
+        },
+        {
+          "word": "and",
+          "start_sec": 37.48,
+          "end_sec": 37.66,
+          "prob": 0.992
+        },
+        {
+          "word": "then",
+          "start_sec": 37.66,
+          "end_sec": 37.86,
+          "prob": 0.971
+        },
+        {
+          "word": "there's",
+          "start_sec": 37.86,
+          "end_sec": 38.04,
+          "prob": 0.961
+        },
+        {
+          "word": "the",
+          "start_sec": 38.04,
+          "end_sec": 38.24,
+          "prob": 0.993
+        },
+        {
+          "word": "force",
+          "start_sec": 38.24,
+          "end_sec": 38.4,
+          "prob": 0.999
+        },
+        {
+          "word": "of",
+          "start_sec": 38.4,
+          "end_sec": 38.68,
+          "prob": 0.996
+        },
+        {
+          "word": "gravity",
+          "start_sec": 38.68,
+          "end_sec": 39.02,
+          "prob": 0.997
+        },
+        {
+          "word": "on",
+          "start_sec": 39.02,
+          "end_sec": 39.34,
+          "prob": 0.997
+        },
+        {
+          "word": "the",
+          "start_sec": 39.34,
+          "end_sec": 39.54,
+          "prob": 0.998
+        },
+        {
+          "word": "mass,",
+          "start_sec": 39.54,
+          "end_sec": 39.96,
+          "prob": 0.997
+        },
+        {
+          "word": "which",
+          "start_sec": 40.28,
+          "end_sec": 40.5,
+          "prob": 0.998
+        },
+        {
+          "word": "is",
+          "start_sec": 40.5,
+          "end_sec": 41.56,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 43.28,
+          "end_sec": 43.76,
+          "prob": 0.978
+        },
+        {
+          "word": "mass",
+          "start_sec": 43.76,
+          "end_sec": 44.06,
+          "prob": 0.999
+        },
+        {
+          "word": "times",
+          "start_sec": 44.06,
+          "end_sec": 44.38,
+          "prob": 0.991
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start_sec": 44.38,
+      "end_sec": 44.92,
+      "text": "gravity.",
+      "words": [
+        {
+          "word": "gravity.",
+          "start_sec": 44.38,
+          "end_sec": 44.92,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start_sec": 45.5,
+      "end_sec": 49.04,
+      "text": "And we're asked to find the spring constant for this problem.",
+      "words": [
+        {
+          "word": "And",
+          "start_sec": 45.5,
+          "end_sec": 45.88,
+          "prob": 0.862
+        },
+        {
+          "word": "we're",
+          "start_sec": 45.88,
+          "end_sec": 46.08,
+          "prob": 0.987
+        },
+        {
+          "word": "asked",
+          "start_sec": 46.08,
+          "end_sec": 46.3,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 46.3,
+          "end_sec": 46.58,
+          "prob": 0.999
+        },
+        {
+          "word": "find",
+          "start_sec": 46.58,
+          "end_sec": 46.86,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 46.86,
+          "end_sec": 47.44,
+          "prob": 0.991
+        },
+        {
+          "word": "spring",
+          "start_sec": 47.44,
+          "end_sec": 47.72,
+          "prob": 0.993
+        },
+        {
+          "word": "constant",
+          "start_sec": 47.72,
+          "end_sec": 48.24,
+          "prob": 0.999
+        },
+        {
+          "word": "for",
+          "start_sec": 48.24,
+          "end_sec": 48.48,
+          "prob": 0.992
+        },
+        {
+          "word": "this",
+          "start_sec": 48.48,
+          "end_sec": 48.7,
+          "prob": 0.999
+        },
+        {
+          "word": "problem.",
+          "start_sec": 48.7,
+          "end_sec": 49.04,
+          "prob": 1.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start_sec": 49.7,
+      "end_sec": 56.14,
+      "text": "So we know that nothing's moving, so the sum of the two forces should equal 0.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 49.7,
+          "end_sec": 49.84,
+          "prob": 0.971
+        },
+        {
+          "word": "we",
+          "start_sec": 49.84,
+          "end_sec": 49.94,
+          "prob": 0.894
+        },
+        {
+          "word": "know",
+          "start_sec": 49.94,
+          "end_sec": 50.26,
+          "prob": 0.999
+        },
+        {
+          "word": "that",
+          "start_sec": 50.26,
+          "end_sec": 50.96,
+          "prob": 0.997
+        },
+        {
+          "word": "nothing's",
+          "start_sec": 50.96,
+          "end_sec": 52.22,
+          "prob": 0.839
+        },
+        {
+          "word": "moving,",
+          "start_sec": 52.22,
+          "end_sec": 52.52,
+          "prob": 1.0
+        },
+        {
+          "word": "so",
+          "start_sec": 53.0,
+          "end_sec": 53.32,
+          "prob": 0.997
+        },
+        {
+          "word": "the",
+          "start_sec": 53.32,
+          "end_sec": 53.66,
+          "prob": 0.989
+        },
+        {
+          "word": "sum",
+          "start_sec": 53.66,
+          "end_sec": 53.9,
+          "prob": 0.999
+        },
+        {
+          "word": "of",
+          "start_sec": 53.9,
+          "end_sec": 54.1,
+          "prob": 1.0
+        },
+        {
+          "word": "the",
+          "start_sec": 54.1,
+          "end_sec": 54.24,
+          "prob": 0.993
+        },
+        {
+          "word": "two",
+          "start_sec": 54.24,
+          "end_sec": 54.46,
+          "prob": 0.995
+        },
+        {
+          "word": "forces",
+          "start_sec": 54.46,
+          "end_sec": 54.96,
+          "prob": 0.999
+        },
+        {
+          "word": "should",
+          "start_sec": 54.96,
+          "end_sec": 55.44,
+          "prob": 0.992
+        },
+        {
+          "word": "equal",
+          "start_sec": 55.44,
+          "end_sec": 55.74,
+          "prob": 0.992
+        },
+        {
+          "word": "0.",
+          "start_sec": 55.74,
+          "end_sec": 56.14,
+          "prob": 0.098
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start_sec": 68.01,
+      "end_sec": 73.66,
+      "text": "So we have the following equation, which we can simplify, or bring this ky to the",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 68.01,
+          "end_sec": 68.21,
+          "prob": 0.992
+        },
+        {
+          "word": "we",
+          "start_sec": 68.21,
+          "end_sec": 68.31,
+          "prob": 0.992
+        },
+        {
+          "word": "have",
+          "start_sec": 68.31,
+          "end_sec": 68.43,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 68.43,
+          "end_sec": 68.63,
+          "prob": 0.99
+        },
+        {
+          "word": "following",
+          "start_sec": 68.63,
+          "end_sec": 68.89,
+          "prob": 0.998
+        },
+        {
+          "word": "equation,",
+          "start_sec": 68.89,
+          "end_sec": 69.45,
+          "prob": 0.998
+        },
+        {
+          "word": "which",
+          "start_sec": 69.67,
+          "end_sec": 69.87,
+          "prob": 0.995
+        },
+        {
+          "word": "we",
+          "start_sec": 69.87,
+          "end_sec": 70.07,
+          "prob": 0.996
+        },
+        {
+          "word": "can",
+          "start_sec": 70.07,
+          "end_sec": 70.35,
+          "prob": 0.998
+        },
+        {
+          "word": "simplify,",
+          "start_sec": 70.35,
+          "end_sec": 70.89,
+          "prob": 0.959
+        },
+        {
+          "word": "or",
+          "start_sec": 71.21,
+          "end_sec": 71.83,
+          "prob": 0.938
+        },
+        {
+          "word": "bring",
+          "start_sec": 72.18,
+          "end_sec": 72.7,
+          "prob": 0.984
+        },
+        {
+          "word": "this",
+          "start_sec": 72.7,
+          "end_sec": 73.0,
+          "prob": 0.986
+        },
+        {
+          "word": "ky",
+          "start_sec": 73.0,
+          "end_sec": 73.28,
+          "prob": 0.583
+        },
+        {
+          "word": "to",
+          "start_sec": 73.28,
+          "end_sec": 73.58,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 73.58,
+          "end_sec": 73.66,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start_sec": 73.66,
+      "end_sec": 85.91,
+      "text": "side, and we see that the two forces should equal each other with negative ky on the opposite",
+      "words": [
+        {
+          "word": "side,",
+          "start_sec": 73.66,
+          "end_sec": 74.24,
+          "prob": 0.427
+        },
+        {
+          "word": "and",
+          "start_sec": 79.17,
+          "end_sec": 79.73,
+          "prob": 0.988
+        },
+        {
+          "word": "we",
+          "start_sec": 79.73,
+          "end_sec": 79.91,
+          "prob": 0.997
+        },
+        {
+          "word": "see",
+          "start_sec": 79.91,
+          "end_sec": 80.13,
+          "prob": 0.998
+        },
+        {
+          "word": "that",
+          "start_sec": 80.13,
+          "end_sec": 80.59,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 80.59,
+          "end_sec": 80.93,
+          "prob": 0.996
+        },
+        {
+          "word": "two",
+          "start_sec": 80.93,
+          "end_sec": 81.13,
+          "prob": 0.987
+        },
+        {
+          "word": "forces",
+          "start_sec": 81.13,
+          "end_sec": 81.45,
+          "prob": 0.999
+        },
+        {
+          "word": "should",
+          "start_sec": 81.45,
+          "end_sec": 81.73,
+          "prob": 0.997
+        },
+        {
+          "word": "equal",
+          "start_sec": 81.73,
+          "end_sec": 81.99,
+          "prob": 0.989
+        },
+        {
+          "word": "each",
+          "start_sec": 81.99,
+          "end_sec": 82.21,
+          "prob": 0.992
+        },
+        {
+          "word": "other",
+          "start_sec": 82.21,
+          "end_sec": 82.87,
+          "prob": 0.997
+        },
+        {
+          "word": "with",
+          "start_sec": 82.87,
+          "end_sec": 83.39,
+          "prob": 0.793
+        },
+        {
+          "word": "negative",
+          "start_sec": 83.39,
+          "end_sec": 84.09,
+          "prob": 0.718
+        },
+        {
+          "word": "ky",
+          "start_sec": 84.09,
+          "end_sec": 84.51,
+          "prob": 0.479
+        },
+        {
+          "word": "on",
+          "start_sec": 84.51,
+          "end_sec": 85.53,
+          "prob": 0.981
+        },
+        {
+          "word": "the",
+          "start_sec": 85.53,
+          "end_sec": 85.71,
+          "prob": 0.985
+        },
+        {
+          "word": "opposite",
+          "start_sec": 85.71,
+          "end_sec": 85.91,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start_sec": 85.91,
+      "end_sec": 86.31,
+      "text": "side.",
+      "words": [
+        {
+          "word": "side.",
+          "start_sec": 85.91,
+          "end_sec": 86.31,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start_sec": 86.49,
+      "end_sec": 91.54,
+      "text": "So we can plug in our values from the problem.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 86.49,
+          "end_sec": 86.93,
+          "prob": 0.935
+        },
+        {
+          "word": "we",
+          "start_sec": 86.93,
+          "end_sec": 87.11,
+          "prob": 0.789
+        },
+        {
+          "word": "can",
+          "start_sec": 87.11,
+          "end_sec": 87.39,
+          "prob": 0.999
+        },
+        {
+          "word": "plug",
+          "start_sec": 87.39,
+          "end_sec": 87.55,
+          "prob": 0.994
+        },
+        {
+          "word": "in",
+          "start_sec": 87.55,
+          "end_sec": 87.71,
+          "prob": 0.979
+        },
+        {
+          "word": "our",
+          "start_sec": 87.71,
+          "end_sec": 87.89,
+          "prob": 0.999
+        },
+        {
+          "word": "values",
+          "start_sec": 87.89,
+          "end_sec": 88.45,
+          "prob": 0.999
+        },
+        {
+          "word": "from",
+          "start_sec": 88.7,
+          "end_sec": 90.76,
+          "prob": 0.869
+        },
+        {
+          "word": "the",
+          "start_sec": 90.76,
+          "end_sec": 91.1,
+          "prob": 0.999
+        },
+        {
+          "word": "problem.",
+          "start_sec": 91.1,
+          "end_sec": 91.54,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start_sec": 91.82,
+      "end_sec": 112.73,
+      "text": "We're given that y is 0.5 meters, and we're given that the mass is 10 kilograms, and",
+      "words": [
+        {
+          "word": "We're",
+          "start_sec": 91.82,
+          "end_sec": 92.04,
+          "prob": 0.982
+        },
+        {
+          "word": "given",
+          "start_sec": 92.04,
+          "end_sec": 92.2,
+          "prob": 0.994
+        },
+        {
+          "word": "that",
+          "start_sec": 92.2,
+          "end_sec": 92.48,
+          "prob": 0.997
+        },
+        {
+          "word": "y",
+          "start_sec": 92.48,
+          "end_sec": 92.8,
+          "prob": 0.975
+        },
+        {
+          "word": "is",
+          "start_sec": 92.8,
+          "end_sec": 93.22,
+          "prob": 0.998
+        },
+        {
+          "word": "0",
+          "start_sec": 93.22,
+          "end_sec": 93.46,
+          "prob": 0.812
+        },
+        {
+          "word": ".5",
+          "start_sec": 93.46,
+          "end_sec": 93.96,
+          "prob": 0.996
+        },
+        {
+          "word": "meters,",
+          "start_sec": 93.96,
+          "end_sec": 94.44,
+          "prob": 0.81
+        },
+        {
+          "word": "and",
+          "start_sec": 102.62,
+          "end_sec": 103.2,
+          "prob": 0.996
+        },
+        {
+          "word": "we're",
+          "start_sec": 103.2,
+          "end_sec": 103.5,
+          "prob": 0.996
+        },
+        {
+          "word": "given",
+          "start_sec": 103.5,
+          "end_sec": 103.76,
+          "prob": 0.999
+        },
+        {
+          "word": "that",
+          "start_sec": 103.76,
+          "end_sec": 104.0,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 104.0,
+          "end_sec": 104.22,
+          "prob": 0.999
+        },
+        {
+          "word": "mass",
+          "start_sec": 104.22,
+          "end_sec": 104.56,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 104.56,
+          "end_sec": 104.9,
+          "prob": 0.999
+        },
+        {
+          "word": "10",
+          "start_sec": 104.9,
+          "end_sec": 105.3,
+          "prob": 0.952
+        },
+        {
+          "word": "kilograms,",
+          "start_sec": 105.3,
+          "end_sec": 105.84,
+          "prob": 0.894
+        },
+        {
+          "word": "and",
+          "start_sec": 112.19,
+          "end_sec": 112.73,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start_sec": 112.73,
+      "end_sec": 115.69,
+      "text": "we know that gravity is 9.8 meters per second squared.",
+      "words": [
+        {
+          "word": "we",
+          "start_sec": 112.73,
+          "end_sec": 112.85,
+          "prob": 0.999
+        },
+        {
+          "word": "know",
+          "start_sec": 112.85,
+          "end_sec": 112.95,
+          "prob": 0.999
+        },
+        {
+          "word": "that",
+          "start_sec": 112.95,
+          "end_sec": 113.13,
+          "prob": 0.994
+        },
+        {
+          "word": "gravity",
+          "start_sec": 113.13,
+          "end_sec": 113.45,
+          "prob": 0.994
+        },
+        {
+          "word": "is",
+          "start_sec": 113.45,
+          "end_sec": 113.69,
+          "prob": 0.998
+        },
+        {
+          "word": "9",
+          "start_sec": 113.69,
+          "end_sec": 113.97,
+          "prob": 0.989
+        },
+        {
+          "word": ".8",
+          "start_sec": 113.97,
+          "end_sec": 114.49,
+          "prob": 0.998
+        },
+        {
+          "word": "meters",
+          "start_sec": 114.49,
+          "end_sec": 114.77,
+          "prob": 0.97
+        },
+        {
+          "word": "per",
+          "start_sec": 114.77,
+          "end_sec": 114.97,
+          "prob": 0.994
+        },
+        {
+          "word": "second",
+          "start_sec": 114.97,
+          "end_sec": 115.27,
+          "prob": 0.988
+        },
+        {
+          "word": "squared.",
+          "start_sec": 115.27,
+          "end_sec": 115.69,
+          "prob": 0.975
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start_sec": 117.06,
+      "end_sec": 118.94,
+      "text": "So we can solve for k.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 117.06,
+          "end_sec": 117.56,
+          "prob": 0.979
+        },
+        {
+          "word": "we",
+          "start_sec": 117.56,
+          "end_sec": 117.72,
+          "prob": 0.973
+        },
+        {
+          "word": "can",
+          "start_sec": 117.72,
+          "end_sec": 117.94,
+          "prob": 1.0
+        },
+        {
+          "word": "solve",
+          "start_sec": 117.94,
+          "end_sec": 118.18,
+          "prob": 0.999
+        },
+        {
+          "word": "for",
+          "start_sec": 118.18,
+          "end_sec": 118.44,
+          "prob": 0.999
+        },
+        {
+          "word": "k.",
+          "start_sec": 118.44,
+          "end_sec": 118.94,
+          "prob": 0.887
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start_sec": 119.47,
+      "end_sec": 143.11,
+      "text": "This is, so k is equal to 98 times 2, which is 196, and our final answer is 196 newton",
+      "words": [
+        {
+          "word": "This",
+          "start_sec": 119.47,
+          "end_sec": 119.76,
+          "prob": 0.423
+        },
+        {
+          "word": "is,",
+          "start_sec": 119.76,
+          "end_sec": 121.02,
+          "prob": 0.994
+        },
+        {
+          "word": "so",
+          "start_sec": 127.52,
+          "end_sec": 127.82,
+          "prob": 0.743
+        },
+        {
+          "word": "k",
+          "start_sec": 127.82,
+          "end_sec": 128.02,
+          "prob": 0.704
+        },
+        {
+          "word": "is",
+          "start_sec": 128.02,
+          "end_sec": 128.2,
+          "prob": 0.876
+        },
+        {
+          "word": "equal",
+          "start_sec": 128.2,
+          "end_sec": 128.42,
+          "prob": 0.995
+        },
+        {
+          "word": "to",
+          "start_sec": 128.42,
+          "end_sec": 128.58,
+          "prob": 0.995
+        },
+        {
+          "word": "98",
+          "start_sec": 128.58,
+          "end_sec": 128.86,
+          "prob": 0.977
+        },
+        {
+          "word": "times",
+          "start_sec": 128.86,
+          "end_sec": 129.32,
+          "prob": 0.896
+        },
+        {
+          "word": "2,",
+          "start_sec": 129.32,
+          "end_sec": 129.58,
+          "prob": 0.808
+        },
+        {
+          "word": "which",
+          "start_sec": 129.6,
+          "end_sec": 129.8,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 129.8,
+          "end_sec": 130.06,
+          "prob": 0.999
+        },
+        {
+          "word": "196,",
+          "start_sec": 130.06,
+          "end_sec": 130.9,
+          "prob": 0.986
+        },
+        {
+          "word": "and",
+          "start_sec": 137.59,
+          "end_sec": 137.83,
+          "prob": 0.993
+        },
+        {
+          "word": "our",
+          "start_sec": 137.83,
+          "end_sec": 138.01,
+          "prob": 0.983
+        },
+        {
+          "word": "final",
+          "start_sec": 138.01,
+          "end_sec": 138.23,
+          "prob": 0.999
+        },
+        {
+          "word": "answer",
+          "start_sec": 138.23,
+          "end_sec": 138.69,
+          "prob": 1.0
+        },
+        {
+          "word": "is",
+          "start_sec": 140.39,
+          "end_sec": 141.41,
+          "prob": 0.986
+        },
+        {
+          "word": "196",
+          "start_sec": 141.41,
+          "end_sec": 142.53,
+          "prob": 0.983
+        },
+        {
+          "word": "newton",
+          "start_sec": 142.53,
+          "end_sec": 143.11,
+          "prob": 0.763
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start_sec": 143.11,
+      "end_sec": 143.41,
+      "text": "meters.",
+      "words": [
+        {
+          "word": "meters.",
+          "start_sec": 143.11,
+          "end_sec": 143.41,
+          "prob": 0.776
+        }
+      ]
+    }
+  ]
+}

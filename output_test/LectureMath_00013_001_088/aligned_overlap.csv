@@ -1,0 +1,248 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,90,124,3003.00,4170.84,3.003,4.171,1.168,out,4,0.725,0,Tenemos en este caso
+1,125,494,4170.84,16516.52,4.171,16.517,12.346,explain,25,0.961,0,caso un ejercicio de multiplicación de dos fracciones con potencias y expresiones algebraicas en sus componentes. Vamos a desarrollarlo manualmente paso a paso hasta simplificarlo
+2,495,564,16516.52,18852.19,16.517,18.852,2.336,out,4,0.98,0,simplificarlo al máximo. Comenzamos
+3,565,899,18852.19,30030.03,18.852,30.030,11.178,explain,32,0.977,0,Comenzamos resolviendo esto que tenemos en el numerador de la primera fracción. Allí se observa una potencia elevada a un exponente y a su vez todo eso elevado a otro exponente. Entonces
+4,900,1186,30030.03,39606.27,30.030,39.606,9.576,write,28,0.867,0,Entonces veamos esa situación. Aquí tenemos una potencia A a la B elevada a un exponente C y a su vez todo esto elevado a un exponente D.
+5,1187,1404,39606.27,46880.21,39.606,46.880,7.274,explain,20,0.939,0,D. Entonces acá dentro de los corchetes aplicamos la propiedad de la potenciación llamada potencia de una potencia que nos
+6,1405,1423,46880.21,47514.18,46.880,47.514,0.634,write,3,0.994,0,nos dice que
+7,1424,1498,47514.18,50016.68,47.514,50.017,2.503,explain,8,0.992,0,que se conserva la base y se multiplican
+8,1499,1708,50016.68,57023.69,50.017,57.024,7.007,write,18,0.928,0,multiplican los exponentes. Nos queda B por C. Ahora todo esto está elevado al exponente D. Entonces volvemos
+9,1709,1745,57023.69,58258.26,57.024,58.258,1.235,explain,4,0.964,0,volvemos a aplicar la
+10,1746,1752,58258.26,58491.83,58.258,58.492,0.234,out,2,0.986,0,la propiedad.
+11,1753,1783,58491.83,59526.19,58.492,59.526,1.034,explain,3,0.975,0,propiedad. Se conserva
+12,1784,1802,59526.19,60160.16,59.526,60.160,0.634,write,2,0.99,0,conserva la
+13,1803,1854,60160.16,61895.23,60.160,61.895,1.735,explain,6,0.974,0,la base y se multiplican los
+14,1855,1924,61895.23,64230.90,61.895,64.231,2.336,write,7,0.849,0,los exponentes. Aquí nos queda B por
+15,1925,1941,64230.90,64798.13,64.231,64.798,0.567,explain,3,0.884,0,por C por
+16,1942,1971,64798.13,65799.13,64.798,65.799,1.001,out,4,0.98,0,"por D. En resumen,"
+17,1972,1998,65799.13,66700.03,65.799,66.700,0.901,explain,3,0.991,0,"resumen, si tenemos"
+18,1999,2275,66700.03,75942.61,66.700,75.943,9.243,write,22,0.973,0,"tenemos entonces una potencia elevada a un exponente y a su vez todo esto elevado a otro exponente, entonces conservamos la base"
+19,2276,2316,75942.61,77310.64,75.943,77.311,1.368,explain,3,0.992,0,base y multiplicamos
+20,2317,2382,77310.64,79512.85,77.311,79.513,2.202,write,6,0.995,0,multiplicamos los exponentes. Aquí nos queda
+21,2383,2419,79512.85,80747.41,79.513,80.747,1.235,explain,5,0.99,0,queda B por C por
+22,2420,2478,80747.41,82716.05,80.747,82.716,1.969,out,5,0.951,0,por D. Entonces vamos a
+23,2479,2643,82716.05,88221.55,82.716,88.222,5.506,explain,14,0.856,0,a aplicar esto aquí en el numerador de la primera fracción. Conservamos la base
+24,2644,2665,88221.55,88955.62,88.222,88.956,0.734,write,3,0.793,0,base que es
+25,2666,2874,88955.62,95929.26,88.956,95.929,6.974,explain,18,0.918,0,es X y aquí vamos a escribir el resultado de multiplicar los exponentes. Vamos a efectuar esa operación
+26,2875,2968,95929.26,99065.73,95.929,99.066,3.136,write,7,0.713,0,"operación por acá. Sería N menos 1,"
+27,2969,3007,99065.73,100367.03,99.066,100.367,1.301,explain,3,0.983,0,esto multiplicado por
+28,3008,3091,100367.03,103169.84,100.367,103.170,2.803,write,6,0.918,0,por N y multiplicado por 2.
+29,3092,3332,103169.84,111211.21,103.170,111.211,8.041,explain,17,0.92,0,Aquí podemos aplicar la propiedad asociativa de la multiplicación. Tenemos tres factores. Podríamos asociar estos dos. Entonces
+30,3333,3415,111211.21,113980.65,111.211,113.981,2.769,write,7,0.464,0,"Entonces nos queda N menos 1, multiplicado"
+31,3416,3469,113980.65,115782.45,113.981,115.782,1.802,explain,5,0.952,0,"multiplicado por N por 2,"
+32,3470,3509,115782.45,117117.12,115.782,117.117,1.335,write,3,0.861,0,que sería 2N.
+33,3510,3572,117117.12,119219.22,117.117,119.219,2.102,explain,8,0.927,0,2N. Si queremos se puede proteger con paréntesis.
+34,3573,3592,119219.22,119886.55,119.219,119.887,0.667,write,1,0.984,0,paréntesis.
+35,3593,3699,119886.55,123456.79,119.887,123.457,3.570,explain,10,0.966,0,Entonces ahora lo que aplicamos allí es la propiedad distributiva.
+36,3700,3739,123456.79,124791.46,123.457,124.791,1.335,write,2,0.988,0,"distributiva. 2N,"
+37,3740,3776,124791.46,126026.03,124.791,126.026,1.235,explain,5,0.981,0,"2N, que es un monomio,"
+38,3777,3817,126026.03,127394.06,126.026,127.394,1.368,write,4,0.986,0,"monomio, va a multiplicar"
+39,3818,3939,127394.06,131464.80,127.394,131.465,4.071,explain,11,0.975,0,multiplicar a los términos de este binomio. 2N por N nos
+40,3940,4003,131464.80,133600.27,131.465,133.600,2.135,write,6,0.883,0,nos da 2N al cuadrado y
+41,4004,4074,133600.27,135969.30,133.600,135.969,2.369,explain,7,0.878,0,y luego 2N por menos 1 es
+42,4075,4119,135969.30,137470.80,135.969,137.471,1.502,write,3,0.962,0,es menos 2N.
+43,4120,4241,137470.80,141541.54,137.471,141.542,4.071,explain,10,0.87,0,2N. Entonces esto es lo que escribimos acá en el
+44,4242,4303,141541.54,143610.28,141.542,143.610,2.069,write,5,0.757,0,el exponente. 2N al cuadrado
+45,4304,4359,143610.28,145478.81,143.610,145.479,1.869,explain,4,0.792,0,cuadrado y luego menos
+46,4360,4408,145478.81,147113.78,145.479,147.114,1.635,write,2,0.71,0,menos 2N.
+47,4409,4439,147113.78,148148.15,147.114,148.148,1.034,explain,1,0.92,0,2N.
+48,4440,4474,148148.15,149315.98,148.148,149.316,1.168,out,4,0.977,0,Ahora vamos con lo
+49,4475,4703,149315.98,156956.96,149.316,156.957,7.641,explain,21,0.99,0,lo que tenemos en el denominador de la primera fracción. Allí se observa el producto de potencias de la misma base.
+50,4704,5060,156956.96,168868.87,156.957,168.869,11.912,write,26,0.945,0,Entonces recordemos la propiedad. Aquí tenemos multiplicación o producto de dos potencias con la misma base. Entonces se conserva la base y se suman los exponentes.
+51,5061,5064,168868.87,169002.34,168.869,169.002,0.133,explain,0,,1,[silence]
+52,5065,5092,169002.34,169936.60,169.002,169.937,0.934,out,2,0.82,0,Entonces conservamos
+53,5093,5133,169936.60,171304.64,169.937,171.305,1.368,explain,4,0.938,0,"conservamos la base, que"
+54,5134,5156,171304.64,172072.07,171.305,172.072,0.767,write,3,0.731,0,"que es X,"
+55,5157,5288,172072.07,176476.48,172.072,176.476,4.404,explain,12,0.924,0,"X, y en el exponente va el resultado de efectuar la suma"
+56,5289,5428,176476.48,181147.81,176.476,181.148,4.671,write,11,0.81,0,suma de N menos 2 con 3. Allí conservamos la N
+57,5429,5495,181147.81,183383.38,181.148,183.383,2.236,explain,7,0.903,0,"N y efectuamos menos 2 más 3,"
+58,5496,5533,183383.38,184651.32,183.383,184.651,1.268,write,4,0.97,0,"3, que sería más"
+59,5534,5617,184651.32,187454.12,184.651,187.454,2.803,explain,7,0.94,0,más 1. Entonces aquí en el exponente
+60,5618,5683,187454.12,189656.32,187.454,189.656,2.202,write,4,0.947,0,exponente tendremos N más
+61,5684,5716,189656.32,190757.42,189.656,190.757,1.101,explain,2,0.94,0,más 1.
+62,5717,5752,190757.42,191958.63,190.757,191.959,1.201,out,3,0.962,0,Pasamos al numerador
+63,5753,6000,191958.63,200233.57,191.959,200.234,8.275,explain,18,0.936,0,"numerador de la segunda fracción. Comenzamos con este componente donde tenemos esta situación. Entonces se conserva la base,"
+64,6001,6028,200233.57,201167.83,200.234,201.168,0.934,write,4,0.81,0,"base, que es X,"
+65,6029,6240,201167.83,208241.57,201.168,208.242,7.074,explain,17,0.94,0,"X, y acá tendremos el resultado de multiplicar los exponentes. Vamos a efectuar esa operación por acá."
+66,6241,6317,208241.57,210810.81,208.242,210.811,2.569,write,7,0.681,0,acá. Sería menos N por 4 y
+67,6318,6373,210810.81,212679.35,210.811,212.679,1.869,explain,5,0.861,0,y eso multiplicado por N
+68,6374,6455,212679.35,215415.42,212.679,215.415,2.736,write,7,0.964,0,"N menos 2, que debemos proteger con"
+69,6456,6535,215415.42,218084.75,215.415,218.085,2.669,explain,8,0.956,0,con paréntesis porque se trata de un binomio.
+70,6536,6551,218084.75,218618.62,218.085,218.619,0.534,write,1,0.992,0,binomio.
+71,6552,6672,218618.62,222655.99,218.619,222.656,4.037,explain,9,0.877,0,Otra vez se observan tres factores. Aplicamos la propiedad
+72,6673,6718,222655.99,224190.86,222.656,224.191,1.535,write,4,0.749,0,propiedad asociativa de la
+73,6719,6784,224190.86,226393.06,224.191,226.393,2.202,explain,6,0.667,0,la multiplicación. Menos N por 4
+74,6785,6862,226393.06,228995.66,226.393,228.996,2.603,write,8,0.802,0,"4 sería menos 4N, y esto va a"
+75,6863,6908,228995.66,230530.53,228.996,230.531,1.535,explain,5,0.99,0,a multiplicar con el binomio
+76,6909,7079,230530.53,236236.24,230.531,236.236,5.706,write,10,0.926,0,binomio N menos 2. Entonces aplicamos la propiedad distributiva. Tenemos
+77,7080,7142,236236.24,238338.34,236.236,238.338,2.102,explain,6,0.969,0,"Tenemos menos 4N por N, que"
+78,7143,7216,238338.34,240807.47,238.338,240.807,2.469,write,6,0.971,0,"que sería menos 4N al cuadrado,"
+79,7217,7296,240807.47,243476.81,240.807,243.477,2.669,explain,9,0.973,0,"y luego menos 4N por menos 2, que sería"
+80,7297,7352,243476.81,245345.35,243.477,245.345,1.869,write,3,0.967,0,sería más 8N.
+81,7353,7369,245345.35,245912.58,245.345,245.913,0.567,explain,1,0.982,0,8N.
+82,7370,7399,245912.58,246913.58,245.913,246.914,1.001,out,2,0.744,0,Entonces aquí
+83,7400,7480,246913.58,249616.28,246.914,249.616,2.703,explain,4,0.614,0,aquí escribimos este resultado.
+84,7481,7558,249616.28,252218.89,249.616,252.219,2.603,write,4,0.666,0,"Menos 4N al cuadrado,"
+85,7559,7605,252218.89,253787.12,252.219,253.787,1.568,explain,4,0.898,0,"cuadrado, y luego más"
+86,7606,7657,253787.12,255522.19,253.787,255.522,1.735,write,2,0.8,0,más 8N.
+87,7658,7681,255522.19,256322.99,255.522,256.323,0.801,explain,1,0.912,0,8N.
+88,7682,7720,256322.99,257624.29,256.323,257.624,1.301,out,3,0.965,0,Luego tenemos esto
+89,7721,7769,257624.29,259259.26,257.624,259.259,1.635,explain,2,0.978,0,esto multiplicando
+90,7770,7781,259259.26,259659.66,259.259,259.660,0.400,write,2,0.962,0,multiplicando por
+91,7782,7876,259659.66,262829.50,259.660,262.829,3.170,explain,10,0.972,0,"por esto de acá, donde aplicamos de nuevo la propiedad"
+92,7877,7924,262829.50,264431.10,262.829,264.431,1.602,out,3,0.988,0,propiedad que mencionamos.
+93,7925,7960,264431.10,265632.30,264.431,265.632,1.201,explain,4,0.992,0,"Se conserva la base,"
+94,7961,7989,265632.30,266599.93,265.632,266.600,0.968,write,4,0.903,0,"base, que es X,"
+95,7990,8116,266599.93,270837.50,266.600,270.838,4.238,explain,9,0.983,0,y acá tendremos el resultado de multiplicar los exponentes.
+96,8117,8134,270837.50,271438.10,270.838,271.438,0.601,out,1,0.956,0,Entonces
+97,8135,8190,271438.10,273306.64,271.438,273.307,1.869,explain,6,0.851,0,Entonces por acá hacemos la operación
+98,8191,8254,273306.64,275442.11,273.307,275.442,2.135,write,4,0.926,0,"operación N por 5,"
+99,8255,8327,275442.11,277877.88,275.442,277.878,2.436,explain,8,0.628,0,y esto multiplicado por el binomio N menos
+100,8328,8497,277877.88,283550.22,277.878,283.550,5.672,write,12,0.841,0,"menos 1, que protegemos con paréntesis. Otra vez aplicamos propiedad asociativa de"
+101,8498,8561,283550.22,285685.69,283.550,285.686,2.135,explain,6,0.952,0,de la multiplicación. N por 5
+102,8562,8621,285685.69,287687.69,285.686,287.688,2.002,write,6,0.872,0,"5 sería 5N, y esto va"
+103,8622,8654,287687.69,288788.79,287.688,288.789,1.101,explain,4,0.994,0,va a multiplicar con
+104,8655,8818,288788.79,294260.93,288.789,294.261,5.472,write,9,0.974,0,con N menos 1. Aplicamos la propiedad distributiva. Entonces
+105,8819,8865,294260.93,295829.16,294.261,295.829,1.568,explain,5,0.902,0,Entonces 5N por N sería
+106,8866,8930,295829.16,297998.00,295.829,297.998,2.169,write,4,0.955,0,"sería 5N al cuadrado,"
+107,8931,8982,297998.00,299733.07,297.998,299.733,1.735,explain,6,0.951,0,"cuadrado, y 5N por menos 1"
+108,8983,9038,299733.07,301601.60,299.733,301.602,1.869,write,4,0.555,0,1 sería menos 5N.
+109,9039,9066,301601.60,302535.87,301.602,302.536,0.934,explain,1,0.362,0,5N.
+110,9067,9085,302535.87,303169.84,302.536,303.170,0.634,out,2,0.791,0,Entonces esto
+111,9086,9149,303169.84,305305.31,303.170,305.305,2.135,explain,5,0.928,0,esto lo anotamos por acá.
+112,9150,9310,305305.31,310677.34,305.305,310.677,5.372,write,7,0.932,0,"5N al cuadrado, y después menos 5N."
+113,9311,9331,310677.34,311378.04,310.677,311.378,0.701,explain,1,0.968,0,5N.
+114,9332,9376,311378.04,312879.55,311.378,312.880,1.502,out,4,0.975,0,Vamos ahora con el
+115,9377,9509,312879.55,317317.32,312.880,317.317,4.438,explain,11,0.993,0,el denominador de la segunda fracción. Otra vez aplicamos esta propiedad.
+116,9510,9551,317317.32,318718.72,317.317,318.719,1.401,out,4,0.959,0,propiedad. Entonces se conserva
+117,9552,9606,318718.72,320553.89,318.719,320.554,1.835,explain,6,0.907,0,"conserva la base, que es X,"
+118,9607,9631,320553.89,321388.05,320.554,321.388,0.834,write,3,0.817,0,"X, y vamos"
+119,9632,9864,321388.05,329162.50,321.388,329.162,7.774,explain,16,0.953,0,"vamos a multiplicar los exponentes para anotar el resultado aquí, en este lugar. Entonces tendremos 3"
+120,9865,9905,329162.50,330530.53,329.162,330.531,1.368,write,4,0.632,0,3 por entre paréntesis
+121,9906,9959,330530.53,332332.33,330.531,332.332,1.802,explain,4,0.704,0,paréntesis el binomio N
+122,9960,10042,332332.33,335101.77,332.332,335.102,2.769,write,7,0.708,0,"N más 1, y eso multiplicado por"
+123,10043,10102,335101.77,337103.77,335.102,337.104,2.002,explain,6,0.994,0,"por el otro binomio, que es"
+124,10103,10210,337103.77,340707.37,337.104,340.707,3.604,write,7,0.944,0,es N menos 1. Aquí podemos aplicar
+125,10211,10295,340707.37,343543.54,340.707,343.544,2.836,explain,7,0.994,0,aplicar la propiedad asociativa de la multiplicación
+126,10296,10408,343543.54,347313.98,343.544,347.314,3.770,write,8,0.963,0,multiplicación de esta manera. Asociamos lo que es
+127,10409,10616,347313.98,354254.25,347.314,354.254,6.940,explain,19,0.981,0,"es el segundo y el tercer factor, y allí se observa un producto notable, llamado suma por diferencia. Entonces"
+128,10617,10633,354254.25,354821.49,354.254,354.821,0.567,write,2,0.895,0,Entonces dejamos
+129,10634,10673,354821.49,356156.16,354.821,356.156,1.335,explain,5,0.828,0,"dejamos el 3 allá quieto,"
+130,10674,10719,356156.16,357691.02,356.156,357.691,1.535,write,4,0.972,0,"quieto, abrimos el corchete,"
+131,10720,10901,357691.02,363763.76,357.691,363.764,6.073,explain,15,0.881,0,"y el resultado de esta operación, aplicando este producto notable, sería el primer componente al"
+132,10902,10996,363763.76,366933.60,363.764,366.934,3.170,write,8,0.875,0,"al cuadrado, es decir, N al cuadrado, menos"
+133,10997,11096,366933.60,370270.27,366.934,370.270,3.337,explain,12,0.923,0,"menos el segundo componente elevado al cuadrado, o sea 1 al cuadrado,"
+134,11097,11193,370270.27,373506.84,370.270,373.507,3.237,write,7,0.982,0,"cuadrado, que es 1. Cerramos el corchete,"
+135,11194,11233,373506.84,374841.51,373.507,374.842,1.335,explain,5,0.909,0,y ahora sí podemos aplicar
+136,11234,11254,374841.51,375542.21,374.842,375.542,0.701,out,2,0.997,0,aplicar la
+137,11255,11291,375542.21,376776.78,375.542,376.777,1.235,explain,3,0.997,0,la propiedad distributiva.
+138,11292,11374,376776.78,379546.21,376.777,379.546,2.769,write,7,0.941,0,distributiva. Entonces 3 multiplica a cada uno
+139,11375,11478,379546.21,383016.35,379.546,383.016,3.470,explain,12,0.934,0,uno de los componentes de este binomio. 3 por N al cuadrado
+140,11479,11543,383016.35,385185.19,383.016,385.185,2.169,write,6,0.579,0,"cuadrado sería 3 N al cuadrado,"
+141,11544,11600,385185.19,387087.09,385.185,387.087,1.902,explain,6,0.84,0,y 3 por menos 1 es
+142,11601,11633,387087.09,388188.19,387.087,388.188,1.101,write,3,0.935,0,es menos 3.
+143,11634,11744,388188.19,391891.89,388.188,391.892,3.704,explain,8,0.938,0,3. Entonces esto lo anotamos aquí. Sería 3
+144,11745,11878,391891.89,396363.03,391.892,396.363,4.471,write,8,0.913,0,3 N al cuadrado y luego menos 3.
+145,11879,11900,396363.03,397097.10,396.363,397.097,0.734,explain,1,0.951,0,3.
+146,11901,11947,397097.10,398665.33,397.097,398.665,1.568,out,5,0.98,0,Vamos ahora con la primera
+147,11948,12081,398665.33,403136.47,398.665,403.136,4.471,explain,11,0.969,0,"primera fracción, donde se observa cociente o división de potencias con"
+148,12082,12127,403136.47,404671.34,403.136,404.671,1.535,out,4,0.983,0,con la misma base.
+149,12128,12150,404671.34,405438.77,404.671,405.439,0.767,explain,3,0.986,0,Vamos a recordar
+150,12151,12358,405438.77,412379.05,405.439,412.379,6.940,write,23,0.96,0,"recordar la propiedad. Si tenemos A a la B, todo esto dividido entre A a la C, allí está la división o cociente"
+151,12359,12431,412379.05,414814.81,412.379,414.815,2.436,explain,7,0.826,0,"cociente de potencias con la misma base,"
+152,12432,12451,414814.81,415482.15,414.815,415.482,0.667,write,1,0.901,0,entonces
+153,12452,12537,415482.15,418351.69,415.482,418.352,2.870,explain,9,0.966,0,"entonces conservamos la base, y se restan los exponentes."
+154,12538,12589,418351.69,420086.75,418.352,420.087,1.735,write,3,0.928,0,exponentes. Sería entonces
+155,12590,12604,420086.75,420587.25,420.087,420.587,0.501,explain,2,0.616,0,entonces B
+156,12605,12655,420587.25,422288.96,420.587,422.289,1.702,out,5,0.767,0,"B menos C, el exponente"
+157,12656,12846,422288.96,428662.00,422.289,428.662,6.373,explain,15,0.946,0,"exponente del numerador o del dividendo, menos el exponente del denominador, o sea del divisor."
+158,12847,12898,428662.00,430397.06,428.662,430.397,1.735,out,4,0.907,0,divisor. Entonces aplicando esa
+159,12899,12977,430397.06,433033.03,430.397,433.033,2.636,explain,6,0.99,0,"esa propiedad aquí, conservamos la base,"
+160,12978,13006,433033.03,434000.67,433.033,434.001,0.968,write,3,0.924,0,"que es X,"
+161,13007,13093,434000.67,436903.57,434.001,436.904,2.903,explain,8,0.995,0,y vamos a efectuar la resta de los
+162,13094,13185,436903.57,439973.31,436.904,439.973,3.070,out,5,0.856,0,los exponentes. Sería entonces 2
+163,13186,13229,439973.31,441441.44,439.973,441.441,1.468,explain,7,0.409,0,"2 N al cuadrado menos 2 N,"
+164,13230,13383,441441.44,446579.91,441.441,446.580,5.138,write,12,0.858,0,"N, eso lo protegemos con paréntesis, será el minuendo, y esto menos"
+165,13384,13454,446579.91,448948.95,446.580,448.949,2.369,explain,6,0.756,0,"menos el exponente N más 1,"
+166,13455,13549,448948.95,452118.79,448.949,452.119,3.170,write,6,0.962,0,"1, que también protegemos con paréntesis,"
+167,13550,13600,452118.79,453820.49,452.119,453.820,1.702,explain,3,0.986,0,minuendo y sustraendo.
+168,13601,13618,453820.49,454421.09,453.820,454.421,0.601,write,1,0.957,0,Entonces
+169,13619,13860,454421.09,462495.83,454.421,462.496,8.075,explain,22,0.928,0,"Entonces vamos a quitar los paréntesis. Acá a la izquierda del primero tenemos signo positivo invisible, por lo tanto deshacemos el paréntesis"
+170,13861,13917,462495.83,464397.73,462.496,464.398,1.902,write,4,0.915,0,paréntesis sin ninguna novedad.
+171,13918,13968,464397.73,466099.43,464.398,466.099,1.702,explain,8,0.926,0,novedad. Nos queda 2 N al cuadrado menos
+172,13969,14011,466099.43,467534.20,466.099,467.534,1.435,write,4,0.984,0,"menos 2 N, y"
+173,14012,14241,467534.20,475208.54,467.534,475.209,7.674,explain,10,0.68,0,"y para poder quitar el paréntesis. Nos quedaría menos N,"
+174,14242,14269,475208.54,476142.81,475.209,476.143,0.934,write,2,0.506,0,"N, y"
+175,14270,14321,476142.81,477877.88,476.143,477.878,1.735,explain,5,0.865,0,y después acá menos 1.
+176,14322,14351,477877.88,478878.88,477.878,478.879,1.001,write,3,0.648,0,1. Ahora aquí
+177,14352,14398,478878.88,480447.11,478.879,480.447,1.568,explain,6,0.875,0,aquí vamos a efectuar la reducción
+178,14399,14448,480447.11,482115.45,480.447,482.115,1.668,out,4,0.991,0,"reducción de términos semejantes,"
+179,14449,14480,482115.45,483183.18,482.115,483.183,1.068,explain,6,0.982,0,"semejantes, que en este caso serían"
+180,14481,14518,483183.18,484451.12,483.183,484.451,1.268,write,3,0.954,0,serían solamente estos
+181,14519,14599,484451.12,487153.82,484.451,487.154,2.703,explain,9,0.97,0,"estos de aquí, los que contienen la N. Entonces"
+182,14600,14693,487153.82,490290.29,487.154,490.290,3.136,write,10,0.86,0,"Entonces nos va a quedar 2 N al cuadrado, menos"
+183,14694,14748,490290.29,492125.46,490.290,492.125,1.835,explain,7,0.949,0,"menos 2 N, menos N, sería menos"
+184,14749,14800,492125.46,493860.53,492.125,493.861,1.735,write,4,0.953,0,"menos 3 N, y"
+185,14801,14826,493860.53,494728.06,493.861,494.728,0.868,explain,3,0.984,0,y luego menos
+186,14827,14858,494728.06,495795.80,494.728,495.796,1.068,write,2,0.964,0,menos 1.
+187,14859,14899,495795.80,497163.83,495.796,497.164,1.368,explain,3,0.856,0,Entonces esto es
+188,14900,14950,497163.83,498865.53,497.164,498.866,1.702,out,5,0.983,0,es lo que anotamos aquí
+189,14951,15072,498865.53,502936.27,498.866,502.936,4.071,explain,10,0.678,0,"aquí en el exponente de la X, sería 2 N"
+190,15073,15127,502936.27,504771.44,502.936,504.771,1.835,write,4,0.747,0,"N al cuadrado, después"
+191,15128,15186,504771.44,506740.07,504.771,506.740,1.969,explain,4,0.827,0,después tenemos menos 3
+192,15187,15277,506740.07,509776.44,506.740,509.776,3.036,write,6,0.901,0,"3 N, y luego menos 1."
+193,15278,15304,509776.44,510677.34,509.776,510.677,0.901,explain,2,0.818,0,1. Ahora
+194,15305,15340,510677.34,511878.55,510.677,511.879,1.201,out,4,0.833,0,Ahora eso queda multiplicando
+195,15341,15845,511878.55,528728.73,511.879,528.729,16.850,explain,36,0.958,0,"multiplicando por la segunda fracción, donde el denominador permanece intacto sin ningún cambio, y acá en el numerador vamos a aplicar esta propiedad, la del producto o multiplicación de potencias con la misma base. Entonces conservamos"
+196,15846,15868,528728.73,529496.16,528.729,529.496,0.767,write,5,0.575,0,conservamos la base que es
+197,15869,16281,529496.16,543276.61,529.496,543.277,13.780,explain,37,0.893,0,"es X, y acá vamos a escribir el resultado de sumar los exponentes. Esta suma la podemos hacer en forma directa. Tenemos entonces menos 4 N al cuadrado, más 5 N al cuadrado, eso nos daría N"
+198,16282,16330,543276.61,544911.58,543.277,544.912,1.635,write,5,0.915,0,N al cuadrado con coeficiente
+199,16331,16578,544911.58,553186.52,544.912,553.187,8.275,explain,23,0.959,0,"coeficiente 1 positivo, y luego más 8 N sumado con menos 5 N. Eso finalmente es 8 N menos 5 N, que daría"
+200,16579,16648,553186.52,555522.19,553.187,555.522,2.336,write,4,0.981,0,daría más 3 N.
+201,16649,16671,555522.19,556289.62,555.522,556.290,0.767,explain,2,0.988,0,Vamos a
+202,16672,16708,556289.62,557524.19,556.290,557.524,1.235,out,5,0.915,0,a continuar por aquí el
+203,16709,16779,557524.19,559893.23,557.524,559.893,2.369,explain,5,0.694,0,"el primer componente permanece intacto,"
+204,16780,17055,559893.23,569102.44,559.893,569.102,9.209,write,23,0.841,0,"intacto, es decir, X elevada a lo que es 2 N al cuadrado menos 3 N menos 1. Y eso nos queda multiplicando"
+205,17056,17338,569102.44,578545.21,569.102,578.545,9.443,explain,27,0.971,0,"multiplicando por esto de acá, donde vamos a aplicar la propiedad de la potenciación para el cociente o división de potencias con la misma base. Entonces conservamos"
+206,17339,17368,578545.21,579546.21,578.545,579.546,1.001,write,3,0.966,0,conservamos la base
+207,17369,17420,579546.21,581281.28,579.546,581.281,1.735,explain,6,0.905,0,"base que es X, y vamos"
+208,17421,17449,581281.28,582248.92,581.281,582.249,0.968,out,4,0.996,0,vamos a efectuar la
+209,17450,17605,582248.92,587454.12,582.249,587.454,5.205,explain,15,0.824,0,la resta de exponentes. Vamos a realizar esa operación por acá. El minuendo sería N
+210,17606,17777,587454.12,593193.19,587.454,593.193,5.739,write,13,0.801,0,"N al cuadrado más 3 N, lo protegemos con paréntesis, y el sustraendo"
+211,17778,17817,593193.19,594527.86,593.193,594.528,1.335,explain,3,0.964,0,sustraendo sería 3
+212,17818,18007,594527.86,600867.53,594.528,600.868,6.340,write,14,0.963,0,"3 N al cuadrado menos 3, también protegido con paréntesis. Vamos a quitar esos"
+213,18008,18152,600867.53,605705.71,600.868,605.706,4.838,explain,13,0.986,0,"esos signos de agrupación, es decir, los paréntesis. El primero se quita normalmente"
+214,18153,18196,605705.71,607173.84,605.706,607.174,1.468,write,5,0.969,0,normalmente porque a su izquierda
+215,18197,18306,607173.84,610844.18,607.174,610.844,3.670,explain,9,0.952,0,"izquierda tenemos signo positivo invisible, sale entonces N al"
+216,18307,18373,610844.18,613079.75,610.844,613.080,2.236,write,8,0.86,0,"al cuadrado más 3 N, y en segundo"
+217,18374,18530,613079.75,618318.32,613.080,618.318,5.239,explain,14,0.818,0,segundo afecta el signo negativo a cada uno de los términos. Nos queda menos
+218,18531,18601,618318.32,620687.35,618.318,620.687,2.369,write,8,0.719,0,"menos 3 N al cuadrado, y luego acá"
+219,18602,18643,620687.35,622088.76,620.687,622.089,1.401,explain,4,0.803,0,acá tendremos más 3.
+220,18644,18712,622088.76,624391.06,622.089,624.391,2.302,write,4,0.718,0,3. Entonces revisamos si
+221,18713,18738,624391.06,625258.59,624.391,625.259,0.868,explain,3,0.951,0,si hay términos
+222,18739,18799,625258.59,627293.96,625.259,627.294,2.035,out,4,0.99,0,"términos semejantes, vemos que"
+223,18800,18855,627293.96,629162.50,627.294,629.162,1.869,explain,7,0.966,0,"que estos dos contienen N al cuadrado,"
+224,18856,18883,629162.50,630096.76,629.162,630.097,0.934,out,2,0.988,0,"cuadrado, entonces"
+225,18884,18968,630096.76,632932.93,630.097,632.933,2.836,explain,11,0.948,0,entonces N al cuadrado menos 3 N al cuadrado sería menos
+226,18969,19210,632932.93,641007.67,632.933,641.008,8.075,write,19,0.813,0,"menos 2 N al cuadrado, luego tenemos más 3 N, y finalmente más 3. Eso es lo que vamos"
+227,19211,19219,641007.67,641307.97,641.008,641.308,0.300,explain,2,0.979,0,vamos a
+228,19220,19289,641307.97,643643.64,641.308,643.644,2.336,out,5,0.942,0,a anotar acá en el
+229,19290,19336,643643.64,645211.88,643.644,645.212,1.568,explain,5,0.894,0,"el exponente de la X,"
+230,19337,19372,645211.88,646413.08,645.212,646.413,1.201,out,3,0.833,0,entonces menos 2
+231,19373,19402,646413.08,647414.08,646.413,647.414,1.001,explain,3,0.901,0,2 N al
+232,19403,19474,647414.08,649816.48,647.414,649.816,2.402,write,4,0.983,0,"al cuadrado, luego tenemos"
+233,19475,19533,649816.48,651785.12,649.816,651.785,1.969,explain,4,0.984,0,"tenemos más 3 N,"
+234,19534,19630,651785.12,655021.69,651.785,655.022,3.237,write,4,0.979,0,y finalmente más 3.
+235,19631,19648,655021.69,655622.29,655.022,655.622,0.601,explain,1,0.968,0,Finalmente
+236,19649,19692,655622.29,657090.42,655.622,657.090,1.468,out,4,0.916,0,Finalmente tenemos el producto
+237,19693,19879,657090.42,663330.00,657.090,663.330,6.240,explain,15,0.972,0,"producto o la multiplicación de dos potencias con la misma base, entonces aplicamos esta propiedad,"
+238,19880,19889,663330.00,663663.66,663.330,663.664,0.334,out,1,0.999,0,"propiedad,"
+239,19890,19940,663663.66,665365.37,663.664,665.365,1.702,explain,3,0.651,0,"conservamos la base,"
+240,19941,19964,665365.37,666166.17,665.365,666.166,0.801,write,4,0.928,0,y vamos a sumar
+241,19965,20936,666166.17,698598.60,666.166,698.599,32.432,explain,85,0.896,0,"sumar los exponentes. Aquí tenemos la suma de dos trinomios, entonces podemos realizarla en forma directa. Vamos a ir operando cada uno de los términos semejantes. Comenzamos con 2 N al cuadrado, que sumado con menos 2 N al cuadrado nos da cero. Son dos términos opuestos que se cancelan. Luego tenemos menos 3 N, sumado con más 3 N también pasa lo mismo, esa suma nos da cero porque son términos opuestos. Finalmente tendremos menos 1 más 3, que sería 2, y eso es"
+242,20937,20965,698598.60,699566.23,698.599,699.566,0.968,write,6,0.991,0,es lo que nos queda como
+243,20966,21174,699566.23,706539.87,699.566,706.540,6.974,explain,16,0.92,0,"como resultado de esa suma de los dos trinomios. Al final, X al cuadrado será entonces"
+244,21175,21236,706539.87,708608.61,706.540,708.609,2.069,write,6,0.98,0,"entonces el resultado, la respuesta final"
+245,21237,21319,708608.61,711378.04,708.609,711.378,2.769,explain,4,0.984,0,final para este ejercicio.
+246,21320,22064,711378.04,736236.24,711.378,736.236,24.858,out,0,,1,[silence]

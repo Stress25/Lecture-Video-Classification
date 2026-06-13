@@ -1,0 +1,705 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,224,0.00,7507.51,0.000,7.508,7.508,write,0,,1,[silence]
+1,225,444,7507.51,14848.18,7.508,14.848,7.341,explain,17,0.854,0,"So, today we are going to have lecture eight. So, let me first recall those things that"
+2,445,788,14848.18,26326.33,14.848,26.326,11.478,write,25,0.968,0,"we have already done. We had learned about how to do algebra matrices, adding matrices, subtracting matrices, but the main thing that we had focused"
+3,789,806,26326.33,26926.93,26.326,26.927,0.601,explain,2,0.983,0,last time
+4,807,844,26926.93,28194.86,26.927,28.195,1.268,out,6,0.963,0,was to take the product of
+5,845,873,28194.86,29162.50,28.195,29.162,0.968,explain,2,0.966,0,two matrices.
+6,874,1335,29162.50,44577.91,29.162,44.578,15.415,write,33,0.918,0,And we had learned a bunch of ways of doing it. One of them was taking the i -th row of matrix A and taking its dot product with the j -th column
+7,1336,1432,44577.91,47814.48,44.578,47.814,3.237,explain,8,0.943,0,of matrix B. Then we had also said
+8,1433,1450,47814.48,48415.08,47.814,48.415,0.601,write,2,0.988,0,that this
+9,1451,1604,48415.08,53553.55,48.415,53.554,5.138,explain,13,0.954,0,thing could also be thought of as linear combination of columns of A.
+10,1605,2112,53553.55,70503.84,53.554,70.504,16.950,write,22,0.944,0,"So, linear combination of columns of A. The matrix product can also be thought of as linear combination of rows of B."
+11,2113,2154,70503.84,71905.24,70.504,71.905,1.401,explain,4,0.889,0,"So, we had seen"
+12,2155,2188,71905.24,73039.71,71.905,73.040,1.134,out,4,0.991,0,examples of all these
+13,2189,2228,73039.71,74374.37,73.040,74.374,1.335,explain,5,0.856,0,things and as we go
+14,2229,2255,74374.37,75275.28,74.374,75.275,0.901,out,4,0.653,0,along we will see
+15,2256,2335,75275.28,77944.61,75.275,77.945,2.669,explain,4,0.927,0,how to keep on
+16,2336,2384,77944.61,79579.58,77.945,79.580,1.635,write,2,0.998,0,using this
+17,2385,2482,79579.58,82849.52,79.580,82.850,3.270,explain,8,0.871,0,and which form is more advantageous in certain
+18,2483,2613,82849.52,87220.55,82.850,87.221,4.371,out,14,0.982,0,"regards compared to the others. Now, one thing I would like to remind you"
+19,2614,2677,87220.55,89356.02,87.221,89.356,2.135,explain,5,0.985,0,about the matrix multiplication is
+20,2678,3009,89356.02,100433.77,89.356,100.434,11.078,write,24,0.957,0,matrix multiplication is a very special thing. And we have to keep in mind that there are certain restrictions under which this matrix can
+21,3010,3029,100433.77,101101.10,100.434,101.101,0.667,explain,2,0.762,0,be two
+22,3030,3126,101101.10,104337.67,101.101,104.338,3.237,out,7,0.932,0,"matrices can be multiplied. So, first restriction"
+23,3127,3179,104337.67,106106.11,104.338,106.106,1.768,explain,5,0.767,0,laws that if I have
+24,3180,3199,106106.11,106773.44,106.106,106.773,0.667,out,1,0.972,0,a
+25,3200,3414,106773.44,113947.28,106.773,113.947,7.174,explain,23,0.902,0,"matrix A of size m by n and a matrix B of size n by B, the number of rows of sorry number"
+26,3415,3793,113947.28,126593.26,113.947,126.593,12.646,write,14,0.965,0,of columns of A must match the number of rows of B for the
+27,3794,3924,126593.26,130964.30,126.593,130.964,4.371,explain,8,0.938,0,matrix multiplication A times B to be defined.
+28,3925,4185,130964.30,139673.01,130.964,139.673,8.709,write,0,,1,[silence]
+29,4186,4280,139673.01,142842.84,139.673,142.843,3.170,explain,1,0.993,0,"So,"
+30,4281,4304,142842.84,143643.64,142.843,143.644,0.801,out,0,,1,[silence]
+31,4305,4349,143643.64,145145.15,143.644,145.145,1.502,explain,4,0.835,0,if this condition holds
+32,4350,4595,145145.15,153353.35,145.145,153.353,8.208,write,14,0.896,0,true then the resulting matrix would be of size m by p m rows
+33,4596,4953,153353.35,165298.63,153.353,165.299,11.945,explain,16,0.953,0,and p columns and in which case we can talk about the product of the two
+34,4954,4969,165298.63,165832.50,165.299,165.832,0.534,out,1,0.996,0,matrices.
+35,4970,5026,165832.50,167734.40,165.832,167.734,1.902,explain,5,0.964,0,"Now, the moment we see"
+36,5027,5058,167734.40,168802.14,167.734,168.802,1.068,out,1,0.997,0,"this,"
+37,5059,5210,168802.14,173873.87,168.802,173.874,5.072,explain,6,0.985,0,this thing comes to us immediately
+38,5211,5733,173873.87,191324.66,173.874,191.325,17.451,write,9,0.912,0,that B times A need not be even defined.
+39,5734,5829,191324.66,194527.86,191.325,194.528,3.203,explain,0,,1,[silence]
+40,5830,5901,194527.86,196930.26,194.528,196.930,2.402,pickerase,0,,1,[silence]
+41,5902,5940,196930.26,198231.56,196.930,198.232,1.301,erase,0,,1,[silence]
+42,5941,6002,198231.56,200300.30,198.232,200.300,2.069,droperase,0,,1,[silence]
+43,6003,6061,200300.30,202268.94,200.300,202.269,1.969,explain,0,,1,[silence]
+44,6062,6070,202268.94,202569.24,202.269,202.569,0.300,write,0,,1,[silence]
+45,6071,6168,202569.24,205839.17,202.569,205.839,3.270,explain,7,0.772,0,"So, the thing is this is first"
+46,6169,6184,205839.17,206373.04,205.839,206.373,0.534,out,1,0.996,0,kind
+47,6185,6213,206373.04,207340.67,206.373,207.341,0.968,explain,3,0.933,0,of non -intuitive
+48,6214,6226,207340.67,207774.44,207.341,207.774,0.434,out,1,0.992,0,thing
+49,6227,6236,207774.44,208108.11,207.774,208.108,0.334,explain,1,0.972,0,that
+50,6237,6251,208108.11,208608.61,208.108,208.609,0.501,out,1,0.979,0,we
+51,6252,6350,208608.61,211911.91,208.609,211.912,3.303,explain,10,0.923,0,see for the first time that A times B need
+52,6351,6756,211911.91,225458.79,211.912,225.459,13.547,write,14,0.985,0,"not be equal to B times A. So, the matrix multiplication is not commutative."
+53,6757,6856,225458.79,228795.46,225.459,228.795,3.337,explain,9,0.969,0,"Now, this is the first time perhaps many people"
+54,6857,6880,228795.46,229596.26,228.795,229.596,0.801,out,1,0.996,0,see
+55,6881,6953,229596.26,232032.03,229.596,232.032,2.436,explain,9,0.891,0,things with an operation where things are not commutative
+56,6954,6972,232032.03,232666.00,232.032,232.666,0.634,out,2,0.79,0,even though
+57,6973,7245,232666.00,241775.11,232.666,241.775,9.109,explain,25,0.92,0,"you would have seen division which is also not a commutative operation, but this is another instance where you see matrix multiplication is not commutative."
+58,7246,7261,241775.11,242308.98,241.775,242.309,0.534,out,0,,1,[silence]
+59,7262,7787,242308.98,259859.86,242.309,259.860,17.551,explain,53,0.924,0,"And in fact, one can ask a question well under what circumstances A B will not be equal to B A. For example, in this case we are saying A times B is defined because of the sizes of the A's and B and B times A need not be even defined. For"
+60,7788,8408,259859.86,280580.58,259.860,280.581,20.721,write,38,0.901,0,"example, when we have A as a 3 by 4 matrix and B as a 4 by 5 matrix, we know that A B would be of size 3 by 5, but B times A is not defined."
+61,8409,8743,280580.58,291758.43,280.581,291.758,11.178,explain,37,0.903,0,"So, one can ask a question could it be possible that when both A B and B A are defined at least in terms of sizes in that scenario can A B be equal to B A."
+62,8744,9279,291758.43,309642.98,291.758,309.643,17.885,write,51,0.905,0,"So, let see what if A was of size 3 by 2 and B is of size 2 by 3. In this case both A B and B A are defined, A B will be of size 3 by 3 and B times A would be of size 2 by 2."
+63,9280,9388,309642.98,313279.95,309.643,313.280,3.637,explain,14,0.989,0,"So, both of them are defined, but as you can see because of the"
+64,9389,9430,313279.95,314681.35,313.280,314.681,1.401,write,5,0.912,0,difference in the size A
+65,9431,9486,314681.35,316549.88,314.681,316.550,1.869,explain,9,0.97,0,B will not be equal to B times A.
+66,9487,9753,316549.88,325458.79,316.550,325.459,8.909,out,27,0.875,0,"So, in some sense commutativity is not lost just because B times A is not defined even if A A times A is defined it could still"
+67,9754,9864,325458.79,329162.50,325.459,329.162,3.704,explain,9,0.95,0,happen that the two matrices are not the same.
+68,9865,9930,329162.50,331364.70,329.162,331.365,2.202,write,9,0.893,0,"So, then one may ask the question what if"
+69,9931,10042,331364.70,335101.77,331.365,335.102,3.737,explain,11,0.895,0,both matrices A B and B A are of the same
+70,10043,10106,335101.77,337237.24,335.102,337.237,2.135,out,5,0.991,0,"size, can it be true"
+71,10107,10193,337237.24,340140.14,337.237,340.140,2.903,explain,12,0.981,0,that A times B will always be equal to B times A.
+72,10194,10861,340140.14,362429.10,340.140,362.429,22.289,write,33,0.884,0,"So, let us try a scenario say A is of size 2 by 2 B is also size 2 by 2 then both A B and B A are of size 2 by"
+73,10862,10967,362429.10,365965.97,362.429,365.966,3.537,explain,14,0.899,0,"2. So, at least this time there is no disparity in the sizes can"
+74,10968,11001,365965.97,367100.43,365.966,367.100,1.134,out,4,0.843,0,it still happen that
+75,11002,11038,367100.43,368335.00,367.100,368.335,1.235,explain,4,0.835,0,A times B need
+76,11039,11057,368335.00,368968.97,368.335,368.969,0.634,out,5,0.99,0,not be the same as
+77,11058,11147,368968.97,371971.97,368.969,371.972,3.003,explain,6,0.925,0,B times A. You will see
+78,11148,11501,371971.97,383783.78,371.972,383.784,11.812,write,15,0.948,0,pretty much if you pick any random matrix unless you just happen to be picking
+79,11502,11609,383783.78,387387.39,383.784,387.387,3.604,explain,8,0.833,0,a diagonal matrix and stuff like that you
+80,11610,11667,387387.39,389322.66,387.387,389.323,1.935,out,4,0.98,0,can check A times
+81,11668,11752,389322.66,392158.83,389.323,392.159,2.836,explain,8,0.957,0,B will not be equal to B times
+82,11753,12007,392158.83,400667.33,392.159,400.667,8.509,write,13,0.79,0,"A. So, the chances of you picking two matrices which commute will be"
+83,12008,12485,400667.33,416616.62,400.667,416.617,15.949,explain,49,0.934,0,"fairly low and the best way to come see that this thing is not equal to that other product is if you just perform the matrix multiplication out here the first entry would be 2 and in here the first entry would be 21. So, definitely these two matrices"
+84,12486,12591,416616.62,420153.49,416.617,420.153,3.537,out,13,0.976,0,"are not equal to each other. So, it not because of the sizing"
+85,12592,12636,420153.49,421654.99,420.153,421.655,1.502,explain,3,0.751,0,compatibility it is
+86,12637,12683,421654.99,423223.22,421.655,423.223,1.568,out,7,0.99,0,not because of the lack of being
+87,12684,12944,423223.22,431931.93,423.223,431.932,8.709,explain,18,0.896,0,defined it is just that matrix multiplication will lose on commutativity because of the way things are defined.
+88,12945,12966,431931.93,432666.00,431.932,432.666,0.734,out,2,0.995,0,"In fact,"
+89,12967,13133,432666.00,438238.24,432.666,438.238,5.572,explain,7,0.979,0,the inspiration behind matrix multiplication is that
+90,13134,13312,438238.24,444210.88,438.238,444.211,5.973,out,12,0.886,0,of function composition and as you very well know function composition is
+91,13313,13485,444210.88,449983.32,444.211,449.983,5.772,explain,13,0.945,0,not commutative and pretty much the same thing is happening in matrices also.
+92,13486,13545,449983.32,451985.32,449.983,451.985,2.002,pickerase,4,0.767,0,"Now, let us look"
+93,13546,14833,451985.32,494961.63,451.985,494.962,42.976,erase,53,0.89,0,"into other kind of surprising scenarios which happen in matrix multiplication things which you are kind of used to, but may no longer be true in matrix multiplication. So, let us see what those things are these are some results which we kind of take for granted when you are dealing with numbers,"
+94,14834,14975,494961.63,499699.70,494.962,499.700,4.738,droperase,17,0.949,0,but they may no longer be true in matrices and you have to be careful about them.
+95,14976,15099,499699.70,503837.17,499.700,503.837,4.137,explain,7,0.866,0,let us try what are the things
+96,15100,15334,503837.17,511678.35,503.837,511.678,7.841,write,19,0.8,0,which we kind of take for granted is things like this what would be a plus b whole square.
+97,15335,15378,511678.35,513146.48,511.678,513.146,1.468,explain,5,0.899,0,We kind of have a
+98,15379,15407,513146.48,514114.11,513.146,514.114,0.968,out,5,0.984,0,habit of writing it as
+99,15408,15497,514114.11,517117.12,514.114,517.117,3.003,explain,12,0.924,0,"a square plus 2 a b plus b square, but let us"
+100,15498,15821,517117.12,527927.93,517.117,527.928,10.811,write,27,0.957,0,"see how it will look like in terms of matrix multiplication. a plus b times a plus b. So, we perform the matrix multiplication we are assuming"
+101,15822,15865,527927.93,529396.06,527.928,529.396,1.468,explain,6,0.987,0,that a and b are of
+102,15866,15945,529396.06,532065.40,529.396,532.065,2.669,out,7,0.989,0,"nice size. So, that all these multiplications"
+103,15946,16056,532065.40,535769.10,532.065,535.769,3.704,explain,5,0.856,0,"can be performed. So, loss"
+104,16057,16259,535769.10,542542.54,535.769,542.543,6.773,write,17,0.88,0,"of generality let us assume that a and b are both square matrices. So, that we do"
+105,16260,16283,542542.54,543343.34,542.543,543.343,0.801,explain,4,0.997,0,have to worry about
+106,16284,16319,543343.34,544544.54,543.343,544.545,1.201,out,3,0.957,0,whether some multiplication
+107,16320,16357,544544.54,545812.48,544.545,545.812,1.268,explain,4,0.984,0,is defined or not.
+108,16358,16595,545812.48,553753.75,545.812,553.754,7.941,write,8,0.929,0,"So, something like this plus b times b."
+109,16596,16638,553753.75,555188.52,553.754,555.189,1.435,explain,3,0.995,0,"Now, matrix multiplication"
+110,16639,16737,555188.52,558491.83,555.189,558.492,3.303,out,8,0.989,0,is distributive. using that idea we can get
+111,16738,16766,558491.83,559459.46,558.492,559.459,0.968,explain,2,0.999,0,something like
+112,16767,16895,559459.46,563763.76,559.459,563.764,4.304,write,14,0.83,0,"this. This is what we call as a square, but out here we have"
+113,16896,16945,563763.76,565432.10,563.764,565.432,1.668,explain,5,0.876,0,to be careful we simply
+114,16946,16970,565432.10,566266.27,565.432,566.266,0.834,out,2,0.994,0,cannot say
+115,16971,17056,566266.27,569135.80,566.266,569.136,2.870,explain,3,0.945,0,that this is
+116,17057,17449,569135.80,582248.92,569.136,582.249,13.113,write,22,0.92,0,this thing is 2 times b a this need not be 2 times a times b or 2 times b times a
+117,17450,17491,582248.92,583650.32,582.249,583.650,1.401,explain,2,0.883,0,because a
+118,17492,17544,583650.32,585418.75,583.650,585.419,1.768,out,10,0.982,0,times b need not be equal to b times a.
+119,17545,17583,585418.75,586720.05,585.419,586.720,1.301,explain,1,0.993,0,in
+120,17584,17635,586720.05,588455.12,586.720,588.455,1.735,write,5,0.985,0,general you cannot say anything
+121,17636,17680,588455.12,589956.62,588.455,589.957,1.502,explain,6,0.868,0,except that over it will be
+122,17681,17869,589956.62,596262.93,589.957,596.263,6.306,out,22,0.857,0,"a b this one of the things which we kind of love to do, but you have to be careful you cannot"
+123,17870,17932,596262.93,598365.03,596.263,598.365,2.102,explain,7,0.881,0,simply write this as twice a b.
+124,17933,17960,598365.03,599299.30,598.365,599.299,0.934,out,0,,1,[silence]
+125,17961,18002,599299.30,600700.70,599.299,600.701,1.401,explain,1,0.975,0,Likewise
+126,18003,18736,600700.70,625191.86,600.701,625.192,24.491,write,26,0.951,0,we have seen that we have a habit of writing things like this a minus b times a plus b these kind of things need not
+127,18737,18799,625191.86,627293.96,625.192,627.294,2.102,explain,3,0.957,0,hold for matrices.
+128,18800,19259,627293.96,642642.64,627.294,642.643,15.349,out,34,0.911,0,"So, we have to be careful about these kind of identities we will be tempted to use them many times, but we have to be we have to make sure whether they will hold"
+129,19260,19402,642642.64,647414.08,642.643,647.414,4.771,explain,6,0.952,0,true or not. The another thing
+130,19403,19445,647414.08,648848.85,647.414,648.849,1.435,write,1,0.911,0,that
+131,19446,19508,648848.85,650950.95,648.849,650.951,2.102,explain,5,0.963,0,is in my opinion even
+132,19509,19591,650950.95,653720.39,650.951,653.720,2.769,write,2,0.994,0,more surprising
+133,19592,19728,653720.39,658291.62,653.720,658.292,4.571,explain,13,0.887,0,at least when you see for the first time or at least it
+134,19729,19829,658291.62,661661.66,658.292,661.662,3.370,write,11,0.971,0,kind of tells you that you have to be even more
+135,19830,19930,661661.66,665031.70,661.662,665.032,3.370,explain,10,0.8,0,careful what if the product of 2 matrices is 0
+136,19931,19941,665031.70,665398.73,665.032,665.399,0.367,out,0,,1,[silence]
+137,19942,20017,665398.73,667934.60,665.399,667.935,2.536,explain,6,0.731,0,does a v equal to 0
+138,20018,20257,667934.60,675942.61,667.935,675.943,8.008,write,11,0.82,0,imply that a is 0. This is the property that we
+139,20258,20366,675942.61,679579.58,675.943,679.580,3.637,explain,6,0.978,0,use in real numbers or integers
+140,20367,20393,679579.58,680480.48,679.580,680.480,0.901,out,3,0.699,0,that product of
+141,20394,20491,680480.48,683750.42,680.480,683.750,3.270,explain,15,0.857,0,2 things is 0 implies one of them is 0. is a very fundamental property
+142,20492,20535,683750.42,685218.55,683.750,685.219,1.468,out,2,0.994,0,of things
+143,20536,20903,685218.55,697497.50,685.219,697.497,12.279,explain,25,0.906,0,"like real numbers complex numbers integers because they are all what we call as an integral domain, but is it true for matrices. So, let"
+144,20904,21423,697497.50,714848.18,697.497,714.848,17.351,write,41,0.861,0,"us take a simple example. So, here is my matrix a this is 1 0 0 0 and here is my matrix b let us say 0 2 0 0. If you take the product of these 2 matrices using any"
+145,21424,21591,714848.18,720453.79,714.848,720.454,5.606,explain,9,0.911,0,method that we have seen then you will get
+146,21592,21606,720453.79,720954.29,720.454,720.954,0.501,write,0,,1,[silence]
+147,21607,21767,720954.29,726326.33,720.954,726.326,5.372,explain,1,0.108,0,if
+148,21768,21844,726326.33,728895.56,726.326,728.896,2.569,pickerase,0,,1,[silence]
+149,21845,21911,728895.56,731131.13,728.896,731.131,2.236,erase,0,,1,[silence]
+150,21912,22003,731131.13,734200.87,731.131,734.201,3.070,droperase,0,,1,[silence]
+151,22004,22046,734200.87,735635.64,734.201,735.636,1.435,pickerase,0,,1,[silence]
+152,22047,22116,735635.64,737971.30,735.636,737.971,2.336,erase,0,,1,[silence]
+153,22117,22179,737971.30,740073.41,737.971,740.073,2.102,droperase,0,,1,[silence]
+154,22180,22235,740073.41,741941.94,740.073,741.942,1.869,pickerase,0,,1,[silence]
+155,22236,22302,741941.94,744177.51,741.942,744.178,2.236,erase,0,,1,[silence]
+156,22303,22346,744177.51,745645.65,744.178,745.646,1.468,droperase,0,,1,[silence]
+157,22347,22440,745645.65,748782.12,745.646,748.782,3.136,explain,0,,1,[silence]
+158,22441,22822,748782.12,761528.19,748.782,761.528,12.746,write,24,0.893,0,you multiply these 2 matrices 1 0 times 0 0 gives you 0 1 0 times 0 2 gives you 0 and you have
+159,22823,22914,761528.19,764597.93,761.528,764.598,3.070,explain,5,0.58,0,so a times b is
+160,22915,22966,764597.93,766333.00,764.598,766.333,1.735,out,4,0.808,0,"0 whereas, neither a"
+161,22967,23015,766333.00,767967.97,766.333,767.968,1.635,explain,5,0.962,0,"nor b is 0. So,"
+162,23016,23041,767967.97,768835.50,767.968,768.836,0.868,out,3,0.673,0,2 non -zero
+163,23042,23089,768835.50,770437.10,768.836,770.437,1.602,explain,2,0.987,0,matrices can
+164,23090,23124,770437.10,771604.94,770.437,771.605,1.168,out,6,0.89,0,combine to give you a 0
+165,23125,23138,771604.94,772072.07,771.605,772.072,0.467,explain,1,0.996,0,matrix.
+166,23139,23184,772072.07,773606.94,772.072,773.607,1.535,out,2,0.995,0,we cannot
+167,23185,23264,773606.94,776276.28,773.607,776.276,2.669,explain,3,0.986,0,say for sure
+168,23265,23466,776276.28,783016.35,776.276,783.016,6.740,write,16,0.88,0,that this is true this is not a 0 matrix this is not a 0 matrix
+169,23467,23580,783016.35,786820.15,783.016,786.820,3.804,explain,8,0.827,0,and yet we have a product of 0
+170,23581,23676,786820.15,790023.36,786.820,790.023,3.203,out,4,0.833,0,"matrix 0 matrix. So,"
+171,23677,23851,790023.36,795862.53,790.023,795.863,5.839,explain,7,0.78,0,keep in mind these kind of anomalies
+172,23852,23901,795862.53,797530.86,795.863,797.531,1.668,pickerase,4,0.904,0,that are there and
+173,23902,24941,797530.86,832232.23,797.531,832.232,34.701,erase,59,0.953,0,"that should prevent you from just taking this for granted. So, let us see how this matrix multiplication helps us in doing what we want to do. See one of the reasons we are interested in matrix multiplication is that not only it gives me way to do algebra on matrices it also helps use matrices for many purposes."
+174,24942,25010,832232.23,834534.53,832.232,834.535,2.302,droperase,0,,1,[silence]
+175,25011,25017,834534.53,834768.10,834.535,834.768,0.234,explain,0,,1,[silence]
+176,25018,25060,834768.10,836202.87,834.768,836.203,1.435,out,0,,1,[silence]
+177,25061,25090,836202.87,837203.87,836.203,837.204,1.001,explain,3,0.756,0,"So, one the"
+178,25091,25100,837203.87,837537.54,837.204,837.538,0.334,out,1,0.978,0,things
+179,25101,25198,837537.54,840807.47,837.538,840.807,3.270,explain,7,0.956,0,we want to take care of is
+180,25199,25508,840807.47,851151.15,840.807,851.151,10.344,write,10,0.854,0,let me get this out of our way so that.
+181,25509,25532,851151.15,851951.95,851.151,851.952,0.801,explain,1,0.968,0,"So,"
+182,25533,25592,851951.95,853953.95,851.952,853.954,2.002,out,4,0.981,0,imagine up until now
+183,25593,25634,853953.95,855355.36,853.954,855.355,1.401,explain,7,0.907,0,we have been looking at these system
+184,25635,25678,855355.36,856823.49,855.355,856.823,1.468,out,3,0.825,0,of equations we
+185,25679,25728,856823.49,858491.83,856.823,858.492,1.668,explain,6,0.92,0,used to create an augmented matrix
+186,25729,25943,858491.83,865665.67,858.492,865.666,7.174,write,10,0.938,0,out of it which was something like this. We used
+187,25944,25974,865665.67,866700.03,865.666,866.700,1.034,explain,4,0.95,0,to do row operations
+188,25975,26006,866700.03,867767.77,866.700,867.768,1.068,out,1,0.994,0,to
+189,26007,26031,867767.77,868601.94,867.768,868.602,0.834,explain,4,0.992,0,talk about the solutions
+190,26032,26150,868601.94,872572.57,868.602,872.573,3.971,out,5,0.978,0,"of this system, but with"
+191,26151,26206,872572.57,874441.11,872.573,874.441,1.869,explain,6,0.825,0,this new found knowledge of matrix
+192,26207,26328,874441.11,878511.85,874.441,878.512,4.071,write,7,0.885,0,multiplication we can also write this as
+193,26329,26435,878511.85,882082.08,878.512,882.082,3.570,explain,8,0.967,0,look at the coefficient matrix that we have
+194,26436,26804,882082.08,894394.39,882.082,894.394,12.312,write,22,0.931,0,"here. This is my coefficient matrix. So, this is 1 3 2 minus 3. I can rewrite the system of equation as"
+195,26805,26874,894394.39,896730.06,894.394,896.730,2.336,explain,6,0.987,0,my coefficient matrix times the vector
+196,26875,26890,896730.06,897263.93,896.730,897.264,0.534,out,1,0.951,0,x
+197,26891,26932,897263.93,898665.33,897.264,898.665,1.401,explain,2,0.893,0,y is
+198,26933,27063,898665.33,903036.37,898.665,903.036,4.371,write,9,0.974,0,equal to the right hand side vector 5 7.
+199,27064,27110,903036.37,904604.60,903.036,904.605,1.568,explain,4,0.994,0,"So, from now on"
+200,27111,27138,904604.60,905538.87,904.605,905.539,0.934,out,3,0.975,0,we can have
+201,27139,27250,905538.87,909275.94,905.539,909.276,3.737,explain,8,0.991,0,the luxury of converting a system of equation
+202,27251,27390,909275.94,913947.28,909.276,913.947,4.671,write,11,0.749,0,using matrix multiplication we can convert it into this form a
+203,27391,27435,913947.28,915448.78,913.947,915.449,1.502,explain,4,0.876,0,x equal to b.
+204,27436,27457,915448.78,916182.85,915.449,916.183,0.734,out,0,,1,[silence]
+205,27458,27493,916182.85,917384.05,916.183,917.384,1.201,explain,5,0.972,0,The reason this form is
+206,27494,27925,917384.05,931798.47,917.384,931.798,14.414,write,26,0.911,0,"so convenient for us is because it reminds us of the way we deal with the equation. So, for example we all grew up with looking"
+207,27926,27982,931798.47,933700.37,931.798,933.700,1.902,explain,10,0.934,0,at equations like this 3 x is equal to 2
+208,27983,28010,933700.37,934634.63,933.700,934.635,0.934,out,4,0.852,0,kind of reminds us
+209,28011,28039,934634.63,935602.27,934.635,935.602,0.968,explain,3,0.728,0,you of that.
+210,28040,28060,935602.27,936302.97,935.602,936.303,0.701,out,2,0.843,0,How do
+211,28061,28107,936302.97,937871.20,936.303,937.871,1.568,explain,5,0.895,0,you solve this? Well you
+212,28108,28343,937871.20,945745.75,937.871,945.746,7.875,write,29,0.91,0,"say oh I am going to multiply by the inverse of 3 on both the sides which is one third and this is how you solve. So, we hoping"
+213,28344,28375,945745.75,946813.48,945.746,946.813,1.068,out,1,0.975,0,that
+214,28376,28642,946813.48,955722.39,946.813,955.722,8.909,explain,24,0.939,0,maybe something like this can be done for matrices somehow we can talk about inverse of a matrix and try to get the vector
+215,28643,28805,955722.39,961161.16,955.722,961.161,5.439,out,11,0.921,0,x using the idea of inverses. Can it be done or
+216,28806,28865,961161.16,963163.16,961.161,963.163,2.002,explain,7,0.978,0,how will it be done? These are
+217,28866,28896,963163.16,964197.53,963.163,964.198,1.034,out,6,0.912,0,questions we are going to answer
+218,28897,29294,964197.53,977477.48,964.198,977.477,13.280,explain,33,0.906,0,"in future, but this is the reason why we are so fond of matrix multiplication because it kind of us think of system of equations exactly like the way we are used to."
+219,29295,29392,977477.48,980747.41,977.477,980.747,3.270,out,4,0.703,0,Now before we exploit
+220,29393,29579,980747.41,986986.99,980.747,986.987,6.240,explain,14,0.938,0,matrix multiplication there are few things which I want to make sure we understand.
+221,29580,29658,986986.99,989622.96,986.987,989.623,2.636,pickerase,3,0.922,0,It is about
+222,29659,30270,989622.96,1010043.38,989.623,1010.043,20.420,erase,32,0.927,0,"some special kind of matrices since we are going to use those kind of matrices every now and then. So, it a good idea to at least be aware of their definitions."
+223,30271,30318,1010043.38,1011644.98,1010.043,1011.645,1.602,droperase,0,,1,[silence]
+224,30319,30324,1011644.98,1011845.18,1011.645,1011.845,0.200,out,0,,1,[silence]
+225,30325,30365,1011845.18,1013213.21,1011.845,1013.213,1.368,droperase,0,,1,[silence]
+226,30366,30542,1013213.21,1019119.12,1013.213,1019.119,5.906,explain,9,0.923,0,Now all the definitions that I am going to
+227,30543,30952,1019119.12,1032799.47,1019.119,1032.799,13.680,write,19,0.931,0,"discuss now would be for square matrices. So, all these special things that we have or special matrices are"
+228,30953,31005,1032799.47,1034567.90,1032.799,1034.568,1.768,explain,3,0.964,0,all square matrices.
+229,31006,31021,1034567.90,1035101.77,1034.568,1035.102,0.534,out,0,,1,[silence]
+230,31022,31054,1035101.77,1036202.87,1035.102,1036.203,1.101,explain,6,0.998,0,"So, we can think of them"
+231,31055,31128,1036202.87,1038672.01,1036.203,1038.672,2.469,write,4,0.893,0,as n by n
+232,31129,31170,1038672.01,1040073.41,1038.672,1040.073,1.401,explain,1,0.969,0,matrices.
+233,31171,31179,1040073.41,1040373.71,1040.073,1040.374,0.300,out,1,0.995,0,"So,"
+234,31180,31214,1040373.71,1041541.54,1040.374,1041.542,1.168,explain,3,0.996,0,the first matrix
+235,31215,31517,1041541.54,1051651.65,1041.542,1051.652,10.110,write,12,0.945,0,that we want to talk about is the so called diagonal matrix.
+236,31518,31554,1051651.65,1052886.22,1051.652,1052.886,1.235,explain,2,0.988,0,"So, what"
+237,31555,31589,1052886.22,1054054.05,1052.886,1054.054,1.168,out,4,0.939,0,is a diagonal matrix?
+238,31590,31623,1054054.05,1055188.52,1054.054,1055.189,1.134,explain,5,0.854,0,Well as the name suggests
+239,31624,32028,1055188.52,1068702.04,1055.189,1068.702,13.514,write,31,0.88,0,"it is a square matrix which has entries only on the diagonal. So, that means we will have things like some bunch of entries on the diagonals everything of the diagonal"
+240,32029,32061,1068702.04,1069803.14,1068.702,1069.803,1.101,explain,3,0.986,0,is just a
+241,32062,32125,1069803.14,1071938.61,1069.803,1071.939,2.135,out,2,0.835,0,0 matrix.
+242,32126,32247,1071938.61,1076009.34,1071.939,1076.009,4.071,explain,6,0.979,0,"So, what we are saying is"
+243,32248,32453,1076009.34,1082882.88,1076.009,1082.883,6.874,write,13,0.906,0,all the entries a i j are 0 if i is not equal
+244,32454,32555,1082882.88,1086286.29,1082.883,1086.286,3.403,explain,10,0.894,0,to j. Notice we are saying anything about the entries
+245,32556,32605,1086286.29,1087954.62,1086.286,1087.955,1.668,out,7,0.924,0,when i is equal to j. That
+246,32606,32677,1087954.62,1090357.02,1087.955,1090.357,2.402,explain,8,0.907,0,"means those entries could be 0, they could"
+247,32678,32717,1090357.02,1091691.69,1090.357,1091.692,1.335,out,5,0.986,0,"not be 0, but all"
+248,32718,32796,1091691.69,1094327.66,1091.692,1094.328,2.636,explain,11,0.974,0,we care about is things above the diagonal and things below
+249,32797,32823,1094327.66,1095228.56,1094.328,1095.229,0.901,out,4,0.993,0,the diagonal should be
+250,32824,32840,1095228.56,1095795.80,1095.229,1095.796,0.567,explain,2,0.988,0,0. Any
+251,32841,32965,1095795.80,1099966.63,1095.796,1099.967,4.171,out,10,0.955,0,such matrix we will call it as a diagonal matrix.
+252,32966,33023,1099966.63,1101901.90,1099.967,1101.902,1.935,explain,0,,1,[silence]
+253,33024,33761,1101901.90,1126526.53,1101.902,1126.527,24.625,write,33,0.932,0,"Then there is an upper triangular matrix as the name suggests the shape of this matrix would be. So, imagine if you have a square matrix you can split it into two halves"
+254,33762,33802,1126526.53,1127894.56,1126.527,1127.895,1.368,explain,3,0.661,0,along the diagonal.
+255,33803,33846,1127894.56,1129362.70,1127.895,1129.363,1.468,out,0,,1,[silence]
+256,33847,33969,1129362.70,1133466.80,1129.363,1133.467,4.104,explain,7,0.959,0,"So, if we have a matrix where"
+257,33970,34015,1133466.80,1135001.67,1133.467,1135.002,1.535,write,3,0.995,0,the lower half
+258,34016,34054,1135001.67,1136302.97,1135.002,1136.303,1.301,explain,2,0.877,0,is all
+259,34055,34232,1136302.97,1142242.24,1136.303,1142.242,5.939,out,13,0.884,0,0 and the upper half could have 0 or non -zero entries then
+260,34233,34240,1142242.24,1142509.18,1142.242,1142.509,0.267,explain,2,0.891,0,we will
+261,34241,34295,1142509.18,1144344.34,1142.509,1144.344,1.835,out,4,0.896,0,say we have a
+262,34296,34412,1144344.34,1148248.25,1144.344,1148.248,3.904,explain,8,0.879,0,"upper triangular matrix. So, in terms of this"
+263,34413,34494,1148248.25,1150984.32,1148.248,1150.984,2.736,write,5,0.945,0,we can say all the
+264,34495,34735,1150984.32,1159025.69,1150.984,1159.026,8.041,explain,21,0.896,0,"entries which are in the lower half of the matrix are 0. So, you want to describe the lower half you"
+265,34736,34843,1159025.69,1162629.30,1159.026,1162.629,3.604,write,10,0.828,0,will say a i j is 0 wherever i is
+266,34844,35039,1162629.30,1169169.17,1162.629,1169.169,6.540,explain,11,0.926,0,bigger than j. If that is true then we say that
+267,35040,35075,1169169.17,1170370.37,1169.169,1170.370,1.201,out,4,0.96,0,we have a sorry
+268,35076,35110,1170370.37,1171538.20,1170.370,1171.538,1.168,explain,3,0.982,0,upper triangular matrix.
+269,35111,35862,1171538.20,1196629.96,1171.538,1196.630,25.092,write,25,0.911,0,"Likewise we have the lower triangular matrix where as you can guess we are saying that the lower end of the matrix could be anything,"
+270,35863,35902,1196629.96,1197964.63,1196.630,1197.965,1.335,explain,3,0.938,0,but the upper
+271,35903,35917,1197964.63,1198465.13,1197.965,1198.465,0.501,out,2,0.974,0,end of
+272,35918,35922,1198465.13,1198631.97,1198.465,1198.632,0.167,explain,1,0.992,0,the
+273,35923,35954,1198631.97,1199699.70,1198.632,1199.700,1.068,out,3,0.946,0,matrix above the
+274,35955,35957,1199699.70,1199799.80,1199.700,1199.800,0.100,explain,0,,1,[silence]
+275,35958,35980,1199799.80,1200567.23,1199.800,1200.567,0.767,out,3,0.955,0,diagonal should all
+276,35981,36017,1200567.23,1201801.80,1200.567,1201.802,1.235,explain,4,0.965,0,"be 0. So, in"
+277,36018,36149,1201801.80,1206206.21,1201.802,1206.206,4.404,write,13,0.859,0,this case we will say that a i j is 0 wherever i
+278,36150,36201,1206206.21,1207941.27,1206.206,1207.941,1.735,explain,4,0.983,0,is less than j.
+279,36202,36229,1207941.27,1208875.54,1207.941,1208.876,0.934,out,0,,1,[silence]
+280,36230,36256,1208875.54,1209776.44,1208.876,1209.776,0.901,explain,0,,1,[silence]
+281,36257,36309,1209776.44,1211544.88,1209.776,1211.545,1.768,out,5,0.971,0,"So, these are some special"
+282,36310,36324,1211544.88,1212045.38,1211.545,1212.045,0.501,explain,1,0.992,0,matrices
+283,36325,36433,1212045.38,1215682.35,1212.045,1215.682,3.637,out,10,0.905,0,they will have their own usefulness as we go along.
+284,36434,36504,1215682.35,1218051.38,1215.682,1218.051,2.369,explain,5,0.983,0,There is one more matrix
+285,36505,37209,1218051.38,1241574.91,1218.051,1241.575,23.524,write,37,0.868,0,that we would like to talk about this is the so called identity matrix. This matrix has very nice property we generally refer it to as i sub n and it has ones along the main diagonal
+286,37210,37454,1241574.91,1249749.75,1241.575,1249.750,8.175,explain,18,0.921,0,"and 0 everywhere else. So, it a diagonal matrix with ones as the diagonal entries and the beauty"
+287,37455,37748,1249749.75,1259559.56,1249.750,1259.560,9.810,write,23,0.866,0,of this matrix is if I have any n by n matrix and I multiply it by this identity matrix it will give
+288,37749,37864,1259559.56,1263430.10,1259.560,1263.430,3.871,explain,9,0.866,0,"back my matrix A. So, in manner of speaking"
+289,37865,38249,1263430.10,1276276.28,1263.430,1276.276,12.846,write,11,0.694,0,the matrix i n or the identity matrix acts like one.
+290,38250,38552,1276276.28,1286386.39,1276.276,1286.386,10.110,explain,29,0.909,0,"It the same kind of thing that one does in real numbers you multiply one by any number you will get back the same number. So, in general in"
+291,38553,38566,1286386.39,1286853.52,1286.386,1286.854,0.467,out,2,0.964,0,mathematics whenever
+292,38567,38708,1286853.52,1291591.59,1286.854,1291.592,4.738,explain,13,0.868,0,we see such a notion if you multiply by this special object any
+293,38709,38740,1291591.59,1292659.33,1291.592,1292.659,1.068,out,3,0.98,0,object of your
+294,38741,38789,1292659.33,1294294.29,1292.659,1294.294,1.635,explain,8,0.95,0,set and if you get back your object
+295,38790,38824,1294294.29,1295462.13,1294.294,1295.462,1.168,out,1,0.688,0,then
+296,38825,38983,1295462.13,1300767.43,1295.462,1300.767,5.305,explain,9,0.983,0,that special object is acting like the multiplicative identity.
+297,38984,39007,1300767.43,1301568.23,1300.767,1301.568,0.801,out,0,,1,[silence]
+298,39008,39025,1301568.23,1302168.84,1301.568,1302.169,0.601,explain,0,,1,[silence]
+299,39026,39225,1302168.84,1308842.18,1302.169,1308.842,6.673,out,0,,1,[silence]
+300,39226,39320,1308842.18,1312012.01,1308.842,1312.012,3.170,explain,0,,1,[silence]
+301,39321,39368,1312012.01,1313613.61,1312.012,1313.614,1.602,pickerase,0,,1,[silence]
+302,39369,39497,1313613.61,1317917.92,1313.614,1317.918,4.304,erase,0,,1,[silence]
+303,39498,39571,1317917.92,1320387.05,1317.918,1320.387,2.469,droperase,0,,1,[silence]
+304,39572,39648,1320387.05,1322956.29,1320.387,1322.956,2.569,explain,0,,1,[silence]
+305,39649,39961,1322956.29,1333400.07,1322.956,1333.400,10.444,write,0,,1,[silence]
+306,39962,40455,1333400.07,1349883.22,1333.400,1349.883,16.483,explain,0,,1,[silence]
+307,40456,40471,1349883.22,1350417.08,1349.883,1350.417,0.534,out,0,,1,[silence]
+308,40472,40575,1350417.08,1353887.22,1350.417,1353.887,3.470,explain,0,,1,[silence]
+309,40576,40649,1353887.22,1356356.36,1353.887,1356.356,2.469,pickerase,0,,1,[silence]
+310,40650,40737,1356356.36,1359292.63,1356.356,1359.293,2.936,erase,0,,1,[silence]
+311,40738,40802,1359292.63,1361461.46,1359.293,1361.461,2.169,droperase,1,0.283,0,Let
+312,40803,40882,1361461.46,1364130.80,1361.461,1364.131,2.669,explain,0,,1,[silence]
+313,40883,41320,1364130.80,1378745.41,1364.131,1378.745,14.615,write,0,,1,[silence]
+314,41321,41534,1378745.41,1385885.89,1378.745,1385.886,7.140,explain,0,,1,[silence]
+315,41535,41553,1385885.89,1386519.85,1385.886,1386.520,0.634,write,0,,1,[silence]
+316,41554,41639,1386519.85,1389389.39,1386.520,1389.389,2.870,explain,0,,1,[silence]
+317,41640,41718,1389389.39,1392025.36,1389.389,1392.025,2.636,out,0,,1,[silence]
+318,41719,42030,1392025.36,1402435.77,1392.025,1402.436,10.410,explain,0,,1,[silence]
+319,42031,42072,1402435.77,1403837.17,1402.436,1403.837,1.401,pickerase,0,,1,[silence]
+320,42073,42792,1403837.17,1427861.19,1403.837,1427.861,24.024,erase,35,0.699,0,"us see what else do we want oh yeah there is one more special matrix useful guy remember all these are definitions called square matrices. So, the concept of diagonal upper triangular lower triangular we"
+321,42793,42861,1427861.19,1430163.50,1427.861,1430.163,2.302,droperase,6,0.953,0,are confining them to square matrices.
+322,42862,42870,1430163.50,1430463.80,1430.163,1430.464,0.300,explain,0,,1,[silence]
+323,42871,42911,1430463.80,1431831.83,1430.464,1431.832,1.368,out,0,,1,[silence]
+324,42912,42969,1431831.83,1433767.10,1431.832,1433.767,1.935,explain,3,0.959,0,"So, another one"
+325,42970,43428,1433767.10,1449082.42,1433.767,1449.082,15.315,write,11,0.913,0,which we are interested in is the so called permutation matrix.
+326,43429,43473,1449082.42,1450583.92,1449.082,1450.584,1.502,explain,0,,1,[silence]
+327,43474,43509,1450583.92,1451785.12,1450.584,1451.785,1.201,out,0,,1,[silence]
+328,43510,43555,1451785.12,1453319.99,1451.785,1453.320,1.535,explain,3,0.989,0,"So, the permutation"
+329,43556,43640,1453319.99,1456156.16,1453.320,1456.156,2.836,out,3,0.997,0,matrix is basically
+330,43641,43768,1456156.16,1460427.09,1456.156,1460.427,4.271,explain,11,0.983,0,a matrix obtained by permuting the rows of the identity matrix.
+331,43769,44623,1460427.09,1488955.62,1460.427,1488.956,28.529,write,0,,1,[silence]
+332,44624,44671,1488955.62,1490557.22,1488.956,1490.557,1.602,explain,0,,1,[silence]
+333,44672,44701,1490557.22,1491558.22,1490.557,1491.558,1.001,out,0,,1,[silence]
+334,44702,44779,1491558.22,1494160.83,1491.558,1494.161,2.603,explain,0,,1,[silence]
+335,44780,44884,1494160.83,1497664.33,1494.161,1497.664,3.504,write,0,,1,[silence]
+336,44885,44921,1497664.33,1498898.90,1497.664,1498.899,1.235,explain,0,,1,[silence]
+337,44922,44958,1498898.90,1500133.47,1498.899,1500.133,1.235,out,0,,1,[silence]
+338,44959,44993,1500133.47,1501301.30,1500.133,1501.301,1.168,explain,0,,1,[silence]
+339,44994,45065,1501301.30,1503703.70,1501.301,1503.704,2.402,write,7,0.86,0,"So, for example if you look at"
+340,45066,45088,1503703.70,1504471.14,1503.704,1504.471,0.767,explain,5,0.954,0,a 3 by 3 identity
+341,45089,45116,1504471.14,1505405.41,1504.471,1505.405,0.934,out,1,0.999,0,matrix
+342,45117,45139,1505405.41,1506172.84,1505.405,1506.173,0.767,explain,2,0.924,0,and suppose
+343,45140,45283,1506172.84,1510977.64,1506.173,1510.978,4.805,write,8,0.741,0,I permute its rows say something like this.
+344,45284,45312,1510977.64,1511945.28,1510.978,1511.945,0.968,explain,1,0.986,0,This
+345,45313,45386,1511945.28,1514414.41,1511.945,1514.414,2.469,out,8,0.911,0,is our example of a permutation matrix because
+346,45387,45479,1514414.41,1517517.52,1514.414,1517.518,3.103,explain,5,0.653,0,this has been known this
+347,45480,45503,1517517.52,1518318.32,1517.518,1518.318,0.801,pickerase,0,,1,[silence]
+348,45504,45540,1518318.32,1519552.89,1518.318,1519.553,1.235,erase,0,,1,[silence]
+349,45541,45572,1519552.89,1520620.62,1519.553,1520.621,1.068,droperase,0,,1,[silence]
+350,45573,45613,1520620.62,1521988.66,1520.621,1521.989,1.368,explain,0,,1,[silence]
+351,45614,45626,1521988.66,1522422.42,1521.989,1522.422,0.434,write,0,,1,[silence]
+352,45627,45656,1522422.42,1523423.42,1522.422,1523.423,1.001,explain,2,0.84,0,is our
+353,45657,45934,1523423.42,1532699.37,1523.423,1532.699,9.276,out,30,0.968,0,"example of a permutation matrix because we have obtained this matrix by permuting the rows of identity matrix. Now, why are we so fond of this matrix? You will see"
+354,45935,46156,1532699.37,1540106.77,1532.699,1540.107,7.407,explain,16,0.907,0,"permutation matrix exactly does what the name suggests it permutes things. So, for example look at"
+355,46157,46593,1540106.77,1554688.02,1540.107,1554.688,14.581,write,33,0.898,0,what will happen if I take x y z and multiply it using a permutation matrix. I will my upon matrix multiplication this is what I am going to get z x y.
+356,46594,46804,1554688.02,1561728.40,1554.688,1561.728,7.040,explain,20,0.964,0,"So, the effect of a permutation matrix on a vector is basically permuting that vector according to what the permutation"
+357,46805,46818,1561728.40,1562195.53,1561.728,1562.196,0.467,out,1,0.952,0,was
+358,46819,46892,1562195.53,1564664.66,1562.196,1564.665,2.469,explain,4,0.96,0,for your permutation matrix.
+359,46893,46975,1564664.66,1567434.10,1564.665,1567.434,2.769,out,8,0.992,0,This is the thing which will help us
+360,46976,47020,1567434.10,1568935.60,1567.434,1568.936,1.502,explain,3,0.98,0,in row swapping.
+361,47021,47301,1568935.60,1578311.64,1568.936,1578.312,9.376,write,11,0.887,0,"So, this is the matrix which is helpful for row swaps."
+362,47302,47347,1578311.64,1579846.51,1578.312,1579.847,1.535,explain,0,,1,[silence]
+363,47348,47553,1579846.51,1586720.05,1579.847,1586.720,6.874,out,12,0.933,0,"Now, that we that we have seen a few of the special"
+364,47554,47711,1586720.05,1591991.99,1586.720,1591.992,5.272,explain,9,0.977,0,matrices. Let us try to see what else is
+365,47712,47741,1591991.99,1592992.99,1591.992,1592.993,1.001,pickerase,2,0.873,0,there which
+366,47742,47880,1592992.99,1597630.96,1592.993,1597.631,4.638,explain,7,0.941,0,can be kind of useful for us.
+367,47881,47924,1597630.96,1599099.10,1597.631,1599.099,1.468,pickerase,1,0.121,0,Ok.
+368,47925,48273,1599099.10,1610744.08,1599.099,1610.744,11.645,erase,0,,1,[silence]
+369,48274,48368,1610744.08,1613913.91,1610.744,1613.914,3.170,droperase,2,0.959,0,"In fact,"
+370,48369,48455,1613913.91,1616816.82,1613.914,1616.817,2.903,explain,5,0.966,0,if you look at all
+371,48456,48471,1616816.82,1617350.68,1616.817,1617.351,0.534,out,1,0.997,0,possible
+372,48472,48586,1617350.68,1621187.85,1617.351,1621.188,3.837,explain,6,0.85,0,permutation matrices of size 3 suppose
+373,48587,49212,1621187.85,1642075.41,1621.188,1642.075,20.888,write,17,0.887,0,I create a set of all matrices of size 3 such that A is a permutation matrix.
+374,49213,49257,1642075.41,1643576.91,1642.075,1643.577,1.502,explain,0,,1,[silence]
+375,49258,49295,1643576.91,1644844.84,1643.577,1644.845,1.268,out,1,0.98,0,You
+376,49296,49324,1644844.84,1645812.48,1644.845,1645.812,0.968,explain,2,0.998,0,can see
+377,49325,49336,1645812.48,1646212.88,1645.812,1646.213,0.400,out,1,0.996,0,that
+378,49337,49400,1646212.88,1648348.35,1646.213,1648.348,2.135,explain,5,0.988,0,this set is closed under
+379,49401,49444,1648348.35,1649816.48,1648.348,1649.816,1.468,out,6,0.946,0,multiplication. What it means is if
+380,49445,49837,1649816.48,1662929.60,1649.816,1662.930,13.113,explain,39,0.921,0,"I take a matrix A and I take a matrix B both of them are permutation matrices then the product of those two permutation matrices will still be a permutation matrix. So, in fact, if any of you knows"
+381,49838,49967,1662929.60,1667267.27,1662.930,1667.267,4.338,write,4,0.988,0,things in group theory
+382,49968,50064,1667267.27,1670503.84,1667.267,1670.504,3.237,explain,10,0.876,0,this is basically saying that the set of permutation matrices
+383,50065,50108,1670503.84,1671971.97,1670.504,1671.972,1.468,out,4,0.986,0,is forming a group
+384,50109,50146,1671971.97,1673239.91,1671.972,1673.240,1.268,explain,2,0.695,0,under matrix
+385,50147,50180,1673239.91,1674374.37,1673.240,1674.374,1.134,out,1,0.987,0,multiplication.
+386,50181,50200,1674374.37,1675041.71,1674.374,1675.042,0.667,explain,0,,1,[silence]
+387,50201,50294,1675041.71,1678178.18,1675.042,1678.178,3.136,out,4,0.864,0,By the way in
+388,50295,50310,1678178.18,1678712.05,1678.178,1678.712,0.534,explain,1,0.998,0,this
+389,50311,50344,1678712.05,1679846.51,1678.712,1679.847,1.134,out,2,1.0,0,particular case
+390,50345,50417,1679846.51,1682282.28,1679.847,1682.282,2.436,explain,4,0.904,0,let me call this
+391,50418,50441,1682282.28,1683083.08,1682.282,1683.083,0.801,write,1,0.928,0,as
+392,50442,50557,1683083.08,1686953.62,1683.083,1686.954,3.871,explain,13,0.888,0,S3. that I am reminded that it is a 3 by 3 matrix.
+393,50558,50614,1686953.62,1688855.52,1686.954,1688.856,1.902,out,0,,1,[silence]
+394,50615,50674,1688855.52,1690857.52,1688.856,1690.858,2.002,explain,5,0.991,0,If you think about it
+395,50675,50870,1690857.52,1697397.40,1690.858,1697.397,6.540,write,15,0.897,0,the number of elements in this matrix oh sorry this set would be 3 factorial
+396,50871,50930,1697397.40,1699399.40,1697.397,1699.399,2.002,explain,6,0.864,0,because you have 3 rows to
+397,50931,50944,1699399.40,1699866.53,1699.399,1699.867,0.467,out,1,0.993,0,permute
+398,50945,50979,1699866.53,1701034.37,1699.867,1701.034,1.168,explain,6,0.705,0,you can do them in 3
+399,50980,51005,1701034.37,1701901.90,1701.034,1701.902,0.868,out,2,0.893,0,factorial ways.
+400,51006,51298,1701901.90,1711678.35,1701.902,1711.678,9.776,explain,25,0.926,0,"So, this set will have size 6. So, those of us who may know group theory you can think of it as group of size"
+401,51299,51337,1711678.35,1712979.65,1711.678,1712.980,1.301,out,1,0.989,0,6.
+402,51338,51374,1712979.65,1714214.21,1712.980,1714.214,1.235,explain,0,,1,[silence]
+403,51375,51436,1714214.21,1716282.95,1714.214,1716.283,2.069,out,0,,1,[silence]
+404,51437,51467,1716282.95,1717317.32,1716.283,1717.317,1.034,explain,0,,1,[silence]
+405,51468,51503,1717317.32,1718518.52,1717.317,1718.519,1.201,out,0,,1,[silence]
+406,51504,51765,1718518.52,1727260.59,1718.519,1727.261,8.742,explain,18,0.797,0,Anyway this is a little bit of a digression but let us see what else we are after
+407,51766,53070,1727260.59,1770804.14,1727.261,1770.804,43.544,out,6,0.696,0,any problems the marker in here.
+408,53071,53489,1770804.14,1784784.78,1770.804,1784.785,13.981,explain,7,0.537,0,Ok now let me introduce an operational
+409,53490,53524,1784784.78,1785952.62,1784.785,1785.953,1.168,pickerase,2,0.849,0,matrices which
+410,53525,54437,1785952.62,1816416.42,1785.953,1816.416,30.464,erase,26,0.886,0,is kind of very unique to matrices. We do not see it in other contexts but it kind of a useful thing to know what matrices
+411,54438,54494,1816416.42,1818318.32,1816.416,1818.318,1.902,droperase,0,,1,[silence]
+412,54495,54577,1818318.32,1821087.75,1818.318,1821.088,2.769,explain,5,0.84,0,and this operation is that
+413,54578,54915,1821087.75,1832365.70,1821.088,1832.366,11.278,write,9,0.975,0,of a transpose. The notation we have for this
+414,54916,54959,1832365.70,1833833.83,1832.366,1833.834,1.468,explain,4,0.776,0,is A with us
+415,54960,55001,1833833.83,1835235.24,1833.834,1835.235,1.401,out,0,,1,[silence]
+416,55002,55032,1835235.24,1836269.60,1835.235,1836.270,1.034,explain,2,0.36,0,a kind
+417,55033,55080,1836269.60,1837871.20,1836.270,1837.871,1.602,out,4,0.62,0,of known for of
+418,55081,55229,1837871.20,1842842.84,1837.871,1842.843,4.972,explain,18,0.815,0,t it is not actually an exponent it is just a symbol as a superscript you can say.
+419,55230,55333,1842842.84,1846312.98,1842.843,1846.313,3.470,write,13,0.944,0,"So, suppose I have a matrix A which is of size m by"
+420,55334,55357,1846312.98,1847113.78,1846.313,1847.114,0.801,explain,3,0.811,0,n notice we
+421,55358,55441,1847113.78,1849916.58,1847.114,1849.917,2.803,out,8,0.967,0,are no longer confining ourselves to square matrices.
+422,55442,55572,1849916.58,1854287.62,1849.917,1854.288,4.371,explain,15,0.899,0,"So, if I have A which is of size m by n then we define"
+423,55573,55695,1854287.62,1858391.73,1854.288,1858.392,4.104,write,10,0.98,0,the transpose of A as a matrix of size n
+424,55696,55771,1858391.73,1860927.59,1858.392,1860.928,2.536,explain,2,0.834,0,by m.
+425,55772,56170,1860927.59,1874240.91,1860.928,1874.241,13.313,write,13,0.824,0,"basically the rows of A become the columns of A transpose. So, is"
+426,56171,56203,1874240.91,1875342.01,1874.241,1875.342,1.101,explain,2,0.809,0,how we
+427,56204,56284,1875342.01,1878044.71,1875.342,1878.045,2.703,out,7,0.926,0,"obtain A transpose and vice versa. So,"
+428,56285,56329,1878044.71,1879546.21,1878.045,1879.546,1.502,explain,7,0.873,0,for example if I have a matrix
+429,56330,56674,1879546.21,1891057.72,1879.546,1891.058,11.512,write,21,0.863,0,"A which say looks like 1, 2, 3, 4, 5, 6 then the transpose of A will be the matrix where"
+430,56675,56755,1891057.72,1893760.43,1891.058,1893.760,2.703,explain,9,0.971,0,rows of A will become the column of A
+431,56756,57059,1893760.43,1903903.90,1893.760,1903.904,10.143,write,25,0.864,0,"transpose 1, 2, 3, 4, 5, 6. So, as you can see we started with a 2 by 3 matrix and A transpose happens to"
+432,57060,57096,1903903.90,1905138.47,1903.904,1905.138,1.235,explain,5,0.973,0,be a 3 by 2
+433,57097,57294,1905138.47,1911745.08,1905.138,1911.745,6.607,out,12,0.964,0,"matrix. Now, one may wonder why are we so fond of just"
+434,57295,57345,1911745.08,1913446.78,1911.745,1913.447,1.702,explain,2,0.996,0,flipping it.
+435,57346,57387,1913446.78,1914848.18,1913.447,1914.848,1.401,write,0,,1,[silence]
+436,57388,57428,1914848.18,1916216.22,1914.848,1916.216,1.368,explain,3,0.988,0,The thing is
+437,57429,57632,1916216.22,1923023.02,1916.216,1923.023,6.807,out,15,0.948,0,transpose operation has quite usefulness for us which will not be evident for some time.
+438,57633,57675,1923023.02,1924457.79,1923.023,1924.458,1.435,explain,7,0.97,0,"So, let us at least just play"
+439,57676,57714,1924457.79,1925759.09,1924.458,1925.759,1.301,out,4,0.99,0,with the transpose operation
+440,57715,57861,1925759.09,1930664.00,1925.759,1930.664,4.905,explain,15,0.911,0,"and see what all things it can do for us. So, there are some properties"
+441,57862,58832,1930664.00,1963063.06,1930.664,1963.063,32.399,write,60,0.926,0,"of the transpose which are easy to verify which I leave it for you as an exercise. So, one of the properties of the transpose is if you take the sum of two matrices and its transpose it is basically the sum of the transposes. If you take a scalar multiple of a matrix and its transpose then the scalar"
+442,58833,58960,1963063.06,1967334.00,1963.063,1967.334,4.271,explain,6,0.793,0,multiple as expected will not change
+443,58961,59013,1967334.00,1969102.44,1967.334,1969.102,1.768,out,6,0.856,0,and it will be k times
+444,59014,59076,1969102.44,1971204.54,1969.102,1971.205,2.102,explain,2,0.867,0,A transpose.
+445,59077,59303,1971204.54,1978778.78,1971.205,1978.779,7.574,write,15,0.889,0,Perhaps the most useful of the properties of transposes is this one which will take
+446,59304,59592,1978778.78,1988421.76,1978.779,1988.422,9.643,explain,10,0.788,0,a bit more effort to prove this is AB transpose
+447,59593,59693,1988421.76,1991791.79,1988.422,1991.792,3.370,write,6,0.869,0,is basically B transpose E transpose.
+448,59694,59817,1991791.79,1995929.26,1991.792,1995.929,4.137,explain,7,0.929,0,Notice how the order has changed and
+449,59818,59852,1995929.26,1997097.10,1995.929,1997.097,1.168,out,2,0.997,0,if you
+450,59853,59861,1997097.10,1997397.40,1997.097,1997.397,0.300,explain,2,0.982,0,think a
+451,59862,59877,1997397.40,1997931.26,1997.397,1997.931,0.534,out,2,0.998,0,little bit
+452,59878,59891,1997931.26,1998398.40,1997.931,1998.398,0.467,explain,1,0.86,0,it
+453,59892,59901,1998398.40,1998732.07,1998.398,1998.732,0.334,out,1,0.999,0,will
+454,59902,60035,1998732.07,2003203.20,1998.732,2003.203,4.471,explain,13,0.887,0,"be kind of intuitively clear why this order should change. So, for example,"
+455,60036,60574,2003203.20,2021187.85,2003.203,2021.188,17.985,write,36,0.906,0,"if A was a M by N matrix, B was a N by P matrix, in that case A transpose must be a N by N matrix, B transpose must be a P by N matrix."
+456,60575,60681,2021187.85,2024758.09,2021.188,2024.758,3.570,explain,10,0.988,0,"So, you can pretty much guess from the sizes of"
+457,60682,60752,2024758.09,2027127.13,2024.758,2027.127,2.369,out,7,0.882,0,the A and the B transposes that
+458,60753,60979,2027127.13,2034701.37,2027.127,2034.701,7.574,explain,21,0.872,0,the only multiplication that could possibly be defined in a general scenario would be A transpose times A transpose because then
+459,60980,61051,2034701.37,2037103.77,2034.701,2037.104,2.402,write,6,0.945,0,only these two guys are going
+460,61052,61112,2037103.77,2039139.14,2037.104,2039.139,2.035,explain,4,0.972,0,"to match. So, in"
+461,61113,61126,2039139.14,2039606.27,2039.139,2039.606,0.467,out,3,0.865,0,some sense it
+462,61127,61169,2039606.27,2041041.04,2039.606,2041.041,1.435,explain,5,0.805,0,is an intuitive way to
+463,61170,61297,2041041.04,2045311.98,2041.041,2045.312,4.271,out,6,0.91,0,"guess the validity of the formula,"
+464,61298,61357,2045311.98,2047313.98,2045.312,2047.314,2.002,explain,3,0.972,0,but the last
+465,61358,61434,2047313.98,2049883.22,2047.314,2049.883,2.569,pickerase,5,0.883,0,this property is something which
+466,61435,61607,2049883.22,2055655.66,2049.883,2055.656,5.772,erase,12,0.977,0,I highly recommend you to try to write a proof. It is
+467,61608,61693,2055655.66,2058525.19,2055.656,2058.525,2.870,droperase,9,0.908,0,not a very difficult proof or at the same
+468,61694,61716,2058525.19,2059292.63,2058.525,2059.293,0.767,explain,4,0.982,0,time not a very
+469,61717,61751,2059292.63,2060460.46,2059.293,2060.460,1.168,out,5,0.952,0,easy one also and it
+470,61752,61802,2060460.46,2062162.16,2060.460,2062.162,1.702,explain,4,0.777,0,gives you a good
+471,61803,61836,2062162.16,2063296.63,2062.162,2063.297,1.134,out,0,,1,[silence]
+472,61837,61958,2063296.63,2067367.37,2063.297,2067.367,4.071,explain,9,0.917,0,practice in writing a general proof regarding matrix multiplication.
+473,61959,62010,2067367.37,2069102.44,2067.367,2069.102,1.735,out,0,,1,[silence]
+474,62011,62022,2069102.44,2069502.84,2069.102,2069.503,0.400,explain,0,,1,[silence]
+475,62023,62506,2069502.84,2085652.32,2069.503,2085.652,16.149,pickerase,0,,1,[silence]
+476,62507,62557,2085652.32,2087354.02,2085.652,2087.354,1.702,droperase,0,,1,[silence]
+477,62558,62569,2087354.02,2087754.42,2087.354,2087.754,0.400,explain,0,,1,[silence]
+478,62570,62630,2087754.42,2089789.79,2087.754,2089.790,2.035,out,0,,1,[silence]
+479,62631,62770,2089789.79,2094461.13,2089.790,2094.461,4.671,explain,9,0.984,0,"So, let us see some nice things about transpose"
+480,62771,62800,2094461.13,2095462.13,2094.461,2095.462,1.001,pickerase,3,0.826,0,some of the
+481,62801,63287,2095462.13,2111711.71,2095.462,2111.712,16.250,erase,6,0.868,0,properties it can help us with.
+482,63288,63317,2111711.71,2112712.71,2111.712,2112.713,1.001,droperase,0,,1,[silence]
+483,63318,63425,2112712.71,2116316.32,2112.713,2116.316,3.604,explain,4,0.974,0,"So, one of the"
+484,63426,63439,2116316.32,2116783.45,2116.316,2116.783,0.467,explain,1,0.995,0,things
+485,63440,63491,2116783.45,2118518.52,2116.783,2118.519,1.735,out,1,0.3,0,the
+486,63492,63508,2118518.52,2119085.75,2118.519,2119.086,0.567,explain,0,,1,[silence]
+487,63509,63527,2119085.75,2119719.72,2119.086,2119.720,0.634,out,0,,1,[silence]
+488,63528,63650,2119719.72,2123823.82,2119.720,2123.824,4.104,explain,8,0.883,0,transpose helps us in is defining properties about
+489,63651,64328,2123823.82,2146446.45,2123.824,2146.446,22.623,write,27,0.863,0,"matrices. There are two types of matrices symmetric matrices and skew symmetric. So, we say a matrix is symmetric if that matrix is the same as its"
+490,64329,64507,2146446.45,2152419.09,2146.446,2152.419,5.973,explain,19,0.847,0,transpose that means the operation of transpose does not change the matrix if that happens then it is a
+491,64508,65226,2152419.09,2176409.74,2152.419,2176.410,23.991,write,26,0.913,0,"symmetric matrix and we have another type called the skew symmetric matrix. So, we will say A is skew symmetric A transpose happens to be minus"
+492,65227,65312,2176409.74,2179279.28,2176.410,2179.279,2.870,explain,2,0.611,0,of notice
+493,65313,65354,2179279.28,2180680.68,2179.279,2180.681,1.401,out,4,0.977,0,just by the definition
+494,65355,65377,2180680.68,2181448.11,2180.681,2181.448,0.767,explain,1,0.989,0,itself
+495,65378,65430,2181448.11,2183216.55,2181.448,2183.217,1.768,out,3,0.887,0,it is quite
+496,65431,65433,2183216.55,2183316.65,2183.217,2183.317,0.100,explain,0,,1,[silence]
+497,65434,65625,2183316.65,2189723.06,2183.317,2189.723,6.406,explain,18,0.896,0,evident that the idea of a symmetric or a skew symmetric matrix can only be implemented on a
+498,65626,65907,2189723.06,2199132.47,2189.723,2199.132,9.409,out,26,0.885,0,"square matrix because you want this thing to be a multiple of its transpose. So, the sizes must of that A transpose and A must be"
+499,65908,66097,2199132.47,2205472.14,2199.132,2205.472,6.340,explain,14,0.963,0,"the same which can only happen for a square matrix. So, here is something"
+500,66098,66192,2205472.14,2208641.98,2205.472,2208.642,3.170,explain,2,0.932,0,worth noticing
+501,66193,66433,2208641.98,2216683.35,2208.642,2216.683,8.041,write,9,0.858,0,consider this matrix A time A plus A transpose.
+502,66434,66479,2216683.35,2218218.22,2216.683,2218.218,1.535,explain,0,,1,[silence]
+503,66480,66494,2218218.22,2218718.72,2218.218,2218.719,0.501,out,1,0.344,0,"Suppose,"
+504,66495,66502,2218718.72,2218985.65,2218.719,2218.986,0.267,explain,1,0.959,0,I
+505,66503,66559,2218985.65,2220887.55,2218.986,2220.888,1.902,out,4,0.941,0,have a matrix A
+506,66560,66567,2220887.55,2221154.49,2220.888,2221.154,0.267,explain,1,0.599,0,which
+507,66568,66582,2221154.49,2221654.99,2221.154,2221.655,0.501,out,2,0.887,0,is a
+508,66583,66620,2221654.99,2222922.92,2221.655,2222.923,1.268,explain,2,0.983,0,square matrix.
+509,66621,66741,2222922.92,2226960.29,2222.923,2226.960,4.037,write,7,0.978,0,"So, A transpose must also be a"
+510,66742,66815,2226960.29,2229429.43,2226.960,2229.429,2.469,out,5,0.877,0,square matrix the same size.
+511,66816,66822,2229429.43,2229663.00,2229.429,2229.663,0.234,explain,2,0.996,0,"that means,"
+512,66823,66865,2229663.00,2231097.76,2229.663,2231.098,1.435,out,4,0.874,0,we can talk about
+513,66866,66903,2231097.76,2232365.70,2231.098,2232.366,1.268,explain,4,0.976,0,A plus A transpose
+514,66904,67202,2232365.70,2242342.34,2232.366,2242.342,9.977,write,10,0.825,0,let me call this matrix as B is B symmetric
+515,67203,67226,2242342.34,2243143.14,2242.342,2243.143,0.801,explain,2,0.475,0,suppose I
+516,67227,67241,2243143.14,2243643.64,2243.143,2243.644,0.501,out,2,0.988,0,want to
+517,67242,67248,2243643.64,2243877.21,2243.644,2243.877,0.234,explain,0,,1,[silence]
+518,67249,67329,2243877.21,2246579.91,2243.877,2246.580,2.703,out,8,0.988,0,test whether B will be symmetric or not.
+519,67330,67362,2246579.91,2247681.01,2246.580,2247.681,1.101,explain,2,0.974,0,You see
+520,67363,67473,2247681.01,2251384.72,2247.681,2251.385,3.704,write,10,0.957,0,to test symmetry all I need to do is talk
+521,67474,67489,2251384.72,2251918.59,2251.385,2251.919,0.534,explain,1,0.999,0,about
+522,67490,67523,2251918.59,2253053.05,2251.919,2253.053,1.134,out,3,0.987,0,what is B
+523,67524,67545,2253053.05,2253787.12,2253.053,2253.787,0.734,explain,1,0.996,0,transpose.
+524,67546,67723,2253787.12,2259726.39,2253.787,2259.726,5.939,write,12,0.831,0,"Well since B is A plus A transpose. So, B transpose would"
+525,67724,67745,2259726.39,2260460.46,2259.726,2260.460,0.734,explain,2,0.749,0,be the
+526,67746,67777,2260460.46,2261528.19,2260.460,2261.528,1.068,out,3,0.997,0,transpose of this
+527,67778,67857,2261528.19,2264197.53,2261.528,2264.198,2.669,explain,6,0.76,0,then by using property number one
+528,67858,68022,2264197.53,2269703.04,2264.198,2269.703,5.506,write,12,0.948,0,the transpose of this would be A transpose plus A transpose transpose
+529,68023,68056,2269703.04,2270837.50,2269.703,2270.838,1.134,explain,0,,1,[silence]
+530,68057,68097,2270837.50,2272205.54,2270.838,2272.206,1.368,out,0,,1,[silence]
+531,68098,68149,2272205.54,2273940.61,2272.206,2273.941,1.735,explain,2,0.592,0,question is
+532,68150,68181,2273940.61,2275008.34,2273.941,2275.008,1.068,write,4,0.974,0,what would be A
+533,68182,68237,2275008.34,2276876.88,2275.008,2276.877,1.869,explain,3,0.679,0,transpose transpose you
+534,68238,68263,2276876.88,2277744.41,2276.877,2277.744,0.868,out,3,0.991,0,think about it
+535,68264,68278,2277744.41,2278244.91,2277.744,2278.245,0.501,explain,1,0.937,0,in
+536,68279,68327,2278244.91,2279879.88,2278.245,2279.880,1.635,out,5,0.986,0,the definition of A transpose
+537,68328,68526,2279879.88,2286519.85,2279.880,2286.520,6.640,explain,16,0.902,0,"A transpose will flip the rows to columns, but taking another transpose will flip it back"
+538,68527,68551,2286519.85,2287354.02,2286.520,2287.354,0.834,out,1,0.979,0,to
+539,68552,68625,2287354.02,2289823.16,2287.354,2289.823,2.469,explain,8,0.856,0,"rows. So, rows becomes column then column become"
+540,68626,68668,2289823.16,2291257.92,2289.823,2291.258,1.435,out,4,0.989,0,"back to rows. So,"
+541,68669,68689,2291257.92,2291958.63,2291.258,2291.959,0.701,explain,3,0.956,0,"that means, A"
+542,68690,68803,2291958.63,2295762.43,2291.959,2295.762,3.804,write,6,0.969,0,transpose transpose must be A itself.
+543,68804,68896,2295762.43,2298865.53,2295.762,2298.866,3.103,explain,4,0.998,0,"So, this is another"
+544,68897,69102,2298865.53,2305739.07,2298.866,2305.739,6.874,write,15,0.967,0,property that we could have added to our list that the transpose of a transpose
+545,69103,69191,2305739.07,2308708.71,2305.739,2308.709,2.970,explain,4,0.978,0,give you back A.
+546,69192,69224,2308708.71,2309809.81,2308.709,2309.810,1.101,out,0,,1,[silence]
+547,69225,69246,2309809.81,2310543.88,2309.810,2310.544,0.734,explain,2,0.933,0,"So, in"
+548,69247,69476,2310543.88,2318218.22,2310.544,2318.218,7.674,out,22,0.838,0,some sense transpose is an operation which applied twice brings you back to A these kind of operations have a name they
+549,69477,69506,2318218.22,2319219.22,2318.218,2319.219,1.001,explain,3,0.7,0,usually called the
+550,69507,69526,2319219.22,2319886.55,2319.219,2319.887,0.667,out,2,0.942,0,"idempotent operations,"
+551,69527,69602,2319886.55,2322422.42,2319.887,2322.422,2.536,explain,7,0.883,0,but do not worry about the name
+552,69603,69624,2322422.42,2323156.49,2322.422,2323.156,0.734,write,3,0.825,0,they are not
+553,69625,69645,2323156.49,2323857.19,2323.156,2323.857,0.701,explain,3,0.755,0,going to let
+554,69646,69710,2323857.19,2326026.03,2323.857,2326.026,2.169,out,7,0.934,0,me help you or hurt you here.
+555,69711,69770,2326026.03,2328028.03,2326.026,2328.028,2.002,explain,3,0.929,0,A transpose plus
+556,69771,69781,2328028.03,2328395.06,2328.028,2328.395,0.367,out,1,0.697,0,A
+557,69782,69808,2328395.06,2329295.96,2328.395,2329.296,0.901,explain,1,0.989,0,is
+558,69809,69838,2329295.96,2330296.96,2329.296,2330.297,1.001,write,3,0.963,0,same as B.
+559,69839,69902,2330296.96,2332432.43,2330.297,2332.432,2.135,explain,4,0.953,0,"So, since B transpose"
+560,69903,69912,2332432.43,2332766.10,2332.432,2332.766,0.334,out,2,0.825,0,turns out
+561,69913,69937,2332766.10,2333600.27,2332.766,2333.600,0.834,explain,5,0.984,0,to be equal to B
+562,69938,70159,2333600.27,2341007.67,2333.600,2341.008,7.407,write,7,0.914,0,"therefore, we can say B is symmetric."
+563,70160,70184,2341007.67,2341841.84,2341.008,2341.842,0.834,explain,0,,1,[silence]
+564,70185,70246,2341841.84,2343910.58,2341.842,2343.911,2.069,out,0,,1,[silence]
+565,70247,70271,2343910.58,2344744.74,2343.911,2344.745,0.834,explain,5,0.991,0,"So, if you take any"
+566,70272,70318,2344744.74,2346312.98,2344.745,2346.313,1.568,out,5,0.826,0,matrix A add to its
+567,70319,70333,2346312.98,2346813.48,2346.313,2346.813,0.501,explain,1,0.994,0,transpose
+568,70334,70469,2346813.48,2351351.35,2346.813,2351.351,4.538,out,10,0.899,0,then the sum matrix will always be a symmetric matrix.
+569,70470,70489,2351351.35,2352018.69,2351.351,2352.019,0.667,explain,0,,1,[silence]
+570,70490,70510,2352018.69,2352719.39,2352.019,2352.719,0.701,pickerase,0,,1,[silence]
+571,70511,70531,2352719.39,2353420.09,2352.719,2353.420,0.701,out,0,,1,[silence]
+572,70532,70563,2353420.09,2354487.82,2353.420,2354.488,1.068,explain,6,0.896,0,Let us try with one more
+573,70564,70582,2354487.82,2355121.79,2354.488,2355.122,0.634,pickerase,1,0.974,0,thing
+574,70583,71343,2355121.79,2380513.85,2355.122,2380.514,25.392,erase,0,,1,[silence]
+575,71344,71410,2380513.85,2382749.42,2380.514,2382.749,2.236,droperase,0,,1,[silence]
+576,71411,71538,2382749.42,2387020.35,2382.749,2387.020,4.271,explain,5,0.51,0,let us read another matrix
+577,71539,72217,2387020.35,2409676.34,2387.020,2409.676,22.656,write,16,0.856,0,C which is of the form A minus A transpose is C symmetric or skew symmetric.
+578,72218,72307,2409676.34,2412679.35,2409.676,2412.679,3.003,explain,0,,1,[silence]
+579,72308,72317,2412679.35,2413013.01,2412.679,2413.013,0.334,out,1,0.161,0,"So,"
+580,72318,72368,2413013.01,2414714.71,2413.013,2414.715,1.702,explain,9,0.948,0,let try it again and see what happens to
+581,72369,73253,2414714.71,2444244.24,2414.715,2444.244,29.530,write,55,0.89,0,"C transpose C transpose will be A minus A transpose whole transpose transpose can be distributed in a manner of speaking one of the properties we saw. So, this becomes A transpose minus A. Now, look at this the relationship between A transpose minus A and A minus A transpose would be simply by multiplying"
+582,73254,73409,2444244.24,2449449.45,2444.244,2449.449,5.205,explain,15,0.878,0,"it by the scale and minus 1. So, now, we have C transpose as minus"
+583,73410,73697,2449449.45,2459059.06,2449.449,2459.059,9.610,write,10,0.947,0,"C therefore, we can say that C is skew symmetric."
+584,73698,73812,2459059.06,2462896.23,2459.059,2462.896,3.837,explain,7,0.981,0,"So, at this stage one may wonder"
+585,73813,73934,2462896.23,2466966.97,2462.896,2466.967,4.071,out,9,0.799,0,if I have if I am given a matrix
+586,73935,73968,2466966.97,2468101.43,2466.967,2468.101,1.134,explain,2,0.984,0,in general
+587,73969,74190,2468101.43,2475508.84,2468.101,2475.509,7.407,out,22,0.905,0,is it always the case that either it will be symmetric or skew symmetric or could there be matrices which are neither
+588,74191,74319,2475508.84,2479813.15,2475.509,2479.813,4.304,explain,9,0.976,0,"symmetric nor skew symmetric. So, let us try to"
+589,74320,74332,2479813.15,2480246.91,2479.813,2480.247,0.434,pickerase,2,0.986,0,answer that
+590,74333,74674,2480246.91,2491658.32,2480.247,2491.658,11.411,erase,7,0.946,0,and see where does that take us.
+591,74675,74695,2491658.32,2492359.03,2491.658,2492.359,0.701,droperase,0,,1,[silence]
+592,74696,74713,2492359.03,2492959.63,2492.359,2492.960,0.601,explain,0,,1,[silence]
+593,74714,74761,2492959.63,2494561.23,2492.960,2494.561,1.602,out,0,,1,[silence]
+594,74762,74808,2494561.23,2496129.46,2494.561,2496.129,1.568,explain,2,0.981,0,"For example,"
+595,74809,75219,2496129.46,2509843.18,2496.129,2509.843,13.714,write,29,0.826,0,let us take a look at this matrix 1 2 3 4. Suppose this is A and A transpose would be of the same size 1 2 3 4.
+596,75220,75259,2509843.18,2511177.84,2509.843,2511.178,1.335,explain,3,0.99,0,As you can
+597,75260,75282,2511177.84,2511945.28,2511.178,2511.945,0.767,out,1,0.999,0,see
+598,75283,75306,2511945.28,2512746.08,2511.945,2512.746,0.801,explain,2,0.765,0,A transpose
+599,75307,75481,2512746.08,2518585.25,2512.746,2518.585,5.839,write,10,0.969,0,is neither equal to A nor it is equal to
+600,75482,75520,2518585.25,2519886.55,2518.585,2519.887,1.301,explain,2,0.974,0,minus A.
+601,75521,75579,2519886.55,2521855.19,2519.887,2521.855,1.969,out,6,0.975,0,"Therefore, neither this matrix is symmetric"
+602,75580,75599,2521855.19,2522522.52,2521.855,2522.523,0.667,explain,1,0.843,0,nor
+603,75600,76017,2522522.52,2536469.80,2522.523,2536.470,13.947,out,36,0.905,0,"it is skew symmetric. So, in fact, being a symmetric matrix or being a skew symmetric matrix is kind of a special thing for a matrix and once it has that property then it can help"
+604,76018,76058,2536469.80,2537837.84,2536.470,2537.838,1.368,explain,2,0.994,0,us understand
+605,76059,76108,2537837.84,2539506.17,2537.838,2539.506,1.668,write,5,0.773,0,its behavior of it better.
+606,76109,76156,2539506.17,2541107.77,2539.506,2541.108,1.602,explain,0,,1,[silence]
+607,76157,76216,2541107.77,2543109.78,2541.108,2543.110,2.002,out,7,0.954,0,Let us make one more quick observation.
+608,76217,76292,2543109.78,2545645.65,2543.110,2545.646,2.536,explain,0,,1,[silence]
+609,76293,76517,2545645.65,2553153.15,2545.646,2553.153,7.508,write,16,0.897,0,Suppose I look at a 2 by 2 matrix let me call it as ABCD. I
+610,76518,76524,2553153.15,2553386.72,2553.153,2553.387,0.234,explain,1,0.998,0,want
+611,76525,76579,2553386.72,2555221.89,2553.387,2555.222,1.835,out,2,0.993,0,to know
+612,76580,76613,2555221.89,2556356.36,2555.222,2556.356,1.134,explain,3,0.971,0,do the entries
+613,76614,76673,2556356.36,2558358.36,2556.356,2558.358,2.002,out,6,0.974,0,have to be something special for
+614,76674,76676,2558358.36,2558458.46,2558.358,2558.458,0.100,explain,0,,1,[silence]
+615,76677,76699,2558458.46,2559225.89,2558.458,2559.226,0.767,out,3,0.995,0,this to be
+616,76700,76732,2559225.89,2560326.99,2559.226,2560.327,1.101,explain,4,0.967,0,a skew symmetric matrix.
+617,76733,76979,2560326.99,2568568.57,2560.327,2568.569,8.242,write,13,0.831,0,"So, that means, if I look at A transpose this will be ABCD."
+618,76980,77036,2568568.57,2570470.47,2568.569,2570.470,1.902,explain,4,0.944,0,If I want anti
+619,77037,77900,2570470.47,2599299.30,2570.470,2599.299,28.829,write,45,0.901,0,-symmetry or sorry skew symmetry for skew symmetric I want A transpose to be equal to minus A which means that the matrix that I have written for my A transpose must be equal to the matrix I get by multiplying each of these guys
+620,77901,77922,2599299.30,2600033.37,2599.299,2600.033,0.734,explain,1,0.904,0,by
+621,77923,78006,2600033.37,2602836.17,2600.033,2602.836,2.803,out,3,0.774,0,a minus. Now
+622,78007,78059,2602836.17,2604604.60,2602.836,2604.605,1.768,explain,6,0.836,0,remember these two matrices must be
+623,78060,78062,2604604.60,2604704.70,2604.605,2604.705,0.100,out,1,0.99,0,the
+624,78063,78206,2604704.70,2609509.51,2604.705,2609.510,4.805,explain,17,0.952,0,"same. A must be the same as minus A, D must be the same as minus D"
+625,78207,78216,2609509.51,2609843.18,2609.510,2609.843,0.334,out,0,,1,[silence]
+626,78217,78256,2609843.18,2611177.84,2609.843,2611.178,1.335,explain,2,0.688,0,which can
+627,78257,78338,2611177.84,2613913.91,2611.178,2613.914,2.736,write,7,0.981,0,only happen when A and D are
+628,78339,78370,2613913.91,2614981.65,2613.914,2614.982,1.068,explain,1,0.789,0,0.
+629,78371,78432,2614981.65,2617050.38,2614.982,2617.050,2.069,out,8,0.985,0,"So, what does this tell us? This tells"
+630,78433,78450,2617050.38,2617650.98,2617.050,2617.651,0.601,explain,3,0.99,0,us that for
+631,78451,78497,2617650.98,2619219.22,2617.651,2619.219,1.568,out,3,0.888,0,a skew matrix
+632,78498,78535,2619219.22,2620487.15,2619.219,2620.487,1.268,explain,3,0.858,0,the diagonal entries
+633,78536,78566,2620487.15,2621521.52,2620.487,2621.522,1.034,out,2,0.999,0,must be
+634,78567,78674,2621521.52,2625125.13,2621.522,2625.125,3.604,explain,1,0.973,0,0
+635,78675,78712,2625125.13,2626393.06,2625.125,2626.393,1.268,pickerase,3,0.754,0,even though I
+636,78713,79162,2626393.06,2641408.07,2626.393,2641.408,15.015,erase,33,0.89,0,have shown you only on a 2 by 2 case but for a general case the same idea will work and you can try to generalize it for any n by n matrix.
+637,79163,79227,2641408.07,2643576.91,2641.408,2643.577,2.169,droperase,0,,1,[silence]
+638,79228,79325,2643576.91,2646846.85,2643.577,2646.847,3.270,explain,6,0.917,0,"So, here is a result which"
+639,79326,79531,2646846.85,2653720.39,2646.847,2653.720,6.874,write,5,0.827,0,we can keep for us.
+640,79532,79624,2653720.39,2656823.49,2653.720,2656.823,3.103,explain,11,0.91,0,It is again a result which should help us in future.
+641,79625,80600,2656823.49,2689389.39,2656.823,2689.389,32.566,write,15,0.773,0,If A is a skew symmetric matrix the diagonal entries have to be 0. Okay.
+642,80601,80757,2689389.39,2694627.96,2689.389,2694.628,5.239,explain,0,,1,[silence]
+643,80758,80867,2694627.96,2698298.30,2694.628,2698.298,3.670,out,1,0.622,0,Okay.
+644,80868,80915,2698298.30,2699899.90,2698.298,2699.900,1.602,explain,0,,1,[silence]
+645,80916,80963,2699899.90,2701501.50,2699.900,2701.502,1.602,out,3,0.923,0,I should kind
+646,80964,80996,2701501.50,2702602.60,2701.502,2702.603,1.101,explain,2,0.976,0,of caution
+647,80997,81094,2702602.60,2705872.54,2702.603,2705.873,3.270,out,11,0.886,0,at this stage about one thing not that it will affect
+648,81095,81118,2705872.54,2706673.34,2705.873,2706.673,0.801,explain,2,0.962,0,to most
+649,81119,81123,2706673.34,2706840.17,2706.673,2706.840,0.167,out,1,0.991,0,of
+650,81124,81172,2706840.17,2708475.14,2706.840,2708.475,1.635,explain,8,0.974,0,us at this stage or at this level
+651,81173,81205,2708475.14,2709576.24,2708.475,2709.576,1.101,out,1,0.185,0,but
+652,81206,81237,2709576.24,2710643.98,2709.576,2710.644,1.068,explain,2,0.803,0,this result
+653,81238,81278,2710643.98,2712012.01,2710.644,2712.012,1.368,out,4,0.967,0,that I have written
+654,81279,81460,2712012.01,2718084.75,2712.012,2718.085,6.073,explain,8,0.993,0,is true pretty much for almost every kind
+655,81461,81481,2718084.75,2718785.45,2718.085,2718.785,0.701,out,1,0.999,0,of
+656,81482,81525,2718785.45,2720253.59,2718.785,2720.254,1.468,explain,2,0.967,0,situation except
+657,81526,81584,2720253.59,2722222.22,2720.254,2722.222,1.969,out,5,0.994,0,when you are working in
+658,81585,81662,2722222.22,2724824.82,2722.222,2724.825,2.603,explain,4,0.978,0,very special field. For
+659,81663,81720,2724824.82,2726760.09,2724.825,2726.760,1.935,out,8,0.883,0,"example, if you are working in field mod"
+660,81721,81838,2726760.09,2730697.36,2726.760,2730.697,3.937,explain,12,0.653,0,2 then A could be equal minus A without A being 0.
+661,81839,81884,2730697.36,2732232.23,2730.697,2732.232,1.535,out,3,0.964,0,"So, having said"
+662,81885,81972,2732232.23,2735168.50,2732.232,2735.169,2.936,explain,14,0.899,0,that I know that the statement may not make much sense for many of
+663,81973,82054,2735168.50,2737904.57,2735.169,2737.905,2.736,out,4,0.73,0,us but these kind
+664,82055,82148,2737904.57,2741041.04,2737.905,2741.041,3.136,explain,13,0.973,0,of things you should always keep in mind that they are being done
+665,82149,82259,2741041.04,2744744.74,2741.041,2744.745,3.704,write,9,0.95,0,in very special fields like real numbers and all
+666,82260,82348,2744744.74,2747714.38,2744.745,2747.714,2.970,explain,7,0.921,0,that life is quite comfortable and not
+667,82349,82378,2747714.38,2748715.38,2747.714,2748.715,1.001,out,0,,1,[silence]
+668,82379,82402,2748715.38,2749516.18,2748.715,2749.516,0.801,explain,1,0.889,0,very
+669,82403,82513,2749516.18,2753219.89,2749.516,2753.220,3.704,out,2,0.978,0,"surprising. Anyways,"
+670,82514,82522,2753219.89,2753520.19,2753.220,2753.520,0.300,explain,0,,1,[silence]
+671,82523,82618,2753520.19,2756723.39,2753.520,2756.723,3.203,out,4,0.998,0,this is something that
+672,82619,82628,2756723.39,2757057.06,2756.723,2757.057,0.334,explain,0,,1,[silence]
+673,82629,82640,2757057.06,2757457.46,2757.057,2757.457,0.400,out,1,0.481,0,that
+674,82641,82913,2757457.46,2766566.57,2757.457,2766.567,9.109,explain,18,0.835,0,will have some impact later on. Here is a question for us. If you recall given any function
+675,82914,83129,2766566.57,2773773.77,2766.567,2773.774,7.207,write,18,0.854,0,f of x you can always write it as a sum of an even function plus an odd
+676,83130,83305,2773773.77,2779646.31,2773.774,2779.646,5.873,explain,24,0.844,0,function. Suppose my function is defined over all real nine then I can always write it as an even function plus an odd function.
+677,83306,83332,2779646.31,2780547.21,2779.646,2780.547,0.901,out,2,0.988,0,This is
+678,83333,83449,2780547.21,2784451.12,2780.547,2784.451,3.904,explain,13,0.924,0,something that sometimes you see in calculus. We ask the same question over
+679,83450,83506,2784451.12,2786353.02,2784.451,2786.353,1.902,write,3,0.762,0,here given any
+680,83507,84062,2786353.02,2804904.90,2786.353,2804.905,18.552,write,32,0.879,0,"matrix A. Of course, we are talking about a square matrix A. Is it possible for us to write it as the sum of a symmetric matrix plus a skew symmetric matrix?"
+681,84063,84151,2804904.90,2807874.54,2804.905,2807.875,2.970,explain,8,0.958,0,Can every A be written as a symmetric
+682,84152,84298,2807874.54,2812779.45,2807.875,2812.779,4.905,out,15,0.956,0,matrix and a skew symmetric matrix? The answer turns out to be kind of surprisingly
+683,84299,84391,2812779.45,2815882.55,2812.779,2815.883,3.103,explain,5,0.832,0,simple. The idea these two
+684,84392,84499,2815882.55,2819486.15,2815.883,2819.486,3.604,write,6,0.875,0,things are actually very very similar
+685,84500,84571,2819486.15,2821888.56,2819.486,2821.889,2.402,explain,6,0.843,0,to each other in construction and
+686,84572,84589,2821888.56,2822489.16,2821.889,2822.489,0.601,out,0,,1,[silence]
+687,84590,84689,2822489.16,2825825.83,2822.489,2825.826,3.337,explain,9,0.954,0,that is the beauty of the math behind it.
+688,84690,84957,2825825.83,2834768.10,2825.826,2834.768,8.942,write,32,0.894,0,"So, if I have a matrix A a square matrix I want to write it as the sum of a symmetric matrix let me call that to be B and a skew"
+689,84958,85182,2834768.10,2842275.61,2834.768,2842.276,7.508,explain,24,0.987,0,"symmetric matrix let me call that to be C. So, I want B to be symmetric and I want C to be skew symmetric."
+690,85183,85654,2842275.61,2858024.69,2842.276,2858.025,15.749,write,35,0.886,0,"So, let see what is A transpose. A transpose would be B transpose plus C transpose but didn't we say that B is symmetric. So, B transpose must be B and C transpose would be"
+691,85655,85932,2858024.69,2867300.63,2858.025,2867.301,9.276,explain,22,0.948,0,"minus C because C is anti -symmetric. Now, I can solve for B and C. If I add these two matrix equations"
+692,85933,86357,2867300.63,2881481.48,2867.301,2881.481,14.181,write,28,0.857,0,I will get B must be A plus A transpose over 2 and if I subtract these two I will get C as A minus A transpose over.
+693,86358,86707,2881481.48,2893159.83,2881.481,2893.160,11.678,explain,29,0.909,0,If you remember just a while ago we have already shown that A plus A transpose is a symmetric matrix A minus A transpose is a skew symmetric matrix.
+694,86708,86726,2893159.83,2893793.79,2893.160,2893.794,0.634,out,0,,1,[silence]
+695,86727,86759,2893793.79,2894894.89,2893.794,2894.895,1.101,explain,2,0.984,0,"So, we"
+696,86760,86931,2894894.89,2900633.97,2894.895,2900.634,5.739,out,16,0.961,0,can always write any matrix as a sum of a symmetric plus a skew symmetric matrix.
+697,86932,87081,2900633.97,2905638.97,2900.634,2905.639,5.005,explain,16,0.858,0,"So, one more question what is the advantage of doing it? Well one thing is it"
+698,87082,87115,2905638.97,2906773.44,2905.639,2906.773,1.134,out,0,,1,[silence]
+699,87116,87543,2906773.44,2921054.39,2906.773,2921.054,14.281,explain,23,0.938,0,"is skew symmetric matrix. That means, if we have some idea about how symmetric matrices behave perhaps that can help us understand how"
+700,87544,87695,2921054.39,2926126.13,2921.054,2926.126,5.072,out,8,0.97,0,"my matrix will behave. So, we will take"
+701,87696,87701,2926126.13,2926326.33,2926.126,2926.326,0.200,explain,2,0.837,0,we will
+702,87702,87784,2926326.33,2929095.76,2926.326,2929.096,2.769,out,7,0.995,0,continue from here in the next session.
+703,87785,87911,2929095.76,2933333.33,2929.096,2933.333,4.238,explain,0,,1,[silence]

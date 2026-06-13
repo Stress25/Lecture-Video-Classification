@@ -1,0 +1,36 @@
+{
+  "n_train": 5659,
+  "n_test": 5994,
+  "majority_baseline": {
+    "acc": 0.4646312979646313,
+    "macro_f1": 0.09063837404195076
+  },
+  "results": {
+    "SVM": {
+      "acc": 0.45645645645645644,
+      "f1_macro": 0.13350679881222258,
+      "f1_wtd": 0.3572673765189383
+    },
+    "MLP": {
+      "acc": 0.46346346346346345,
+      "f1_macro": 0.1586100366038228,
+      "f1_wtd": 0.39511393817510854
+    },
+    "Random Forest": {
+      "acc": 0.4551217884551218,
+      "f1_macro": 0.11542845099953218,
+      "f1_wtd": 0.31849590540466405
+    }
+  },
+  "best_classifier": "MLP",
+  "label_order": [
+    "drop_eraser",
+    "erase",
+    "explain",
+    "out",
+    "out_erasing",
+    "out_writing",
+    "pick_eraser",
+    "write"
+  ]
+}

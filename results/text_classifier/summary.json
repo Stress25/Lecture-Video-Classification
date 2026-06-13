@@ -1,0 +1,14 @@
+{
+  "n_segments": 2504,
+  "n_train": 2003,
+  "n_test": 501,
+  "majority_baseline": {
+    "acc": 0.4590818363273453,
+    "macro_f1": 0.08989642368575337
+  },
+  "svm": {
+    "acc": 0.46506986027944114,
+    "macro_f1": 0.11644386318574293
+  },
+  "svm_probs_path": "results/text_classifier/svm_text_probs.npy"
+}

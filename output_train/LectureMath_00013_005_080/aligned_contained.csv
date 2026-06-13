@@ -1,0 +1,216 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,95,125,3169.84,4204.20,3.170,4.204,1.034,out,3,0.74,0,We to derive
+1,126,643,4204.20,21488.15,4.204,21.488,17.284,explain,40,0.856,0,"this function using two different the first will be considering it as it is, that is, applying the rule of the chain for powers and the other alternative will be transforming first all this expression to then proceed to derive"
+2,644,687,21488.15,22956.29,21.488,22.956,1.468,out,3,0.782,0,it. Then we
+3,688,883,22956.29,29496.16,22.956,29.496,6.540,explain,15,0.832,0,"start with the first option, we have here an expression raised to a exponent where"
+4,884,1105,29496.16,36903.57,29.496,36.904,7.407,write,19,0.835,0,"we are to the rule of the chain for powers, we are to remember the model, if we have"
+5,1106,1347,36903.57,44978.31,36.904,44.978,8.075,explain,19,0.83,0,"apple to the n, the apple is all this expression, n is number 2, then the derivative of that"
+6,1348,1702,44978.31,56823.49,44.978,56.823,11.845,write,21,0.83,0,"expression will be n by apple to the n minus 1 and all this multiplied by the derivative of the apple,"
+7,1703,2002,56823.49,66833.50,56.823,66.834,10.010,explain,26,0.834,0,this is what is called the rule of the chain for powers and this is the internal the derivative of what we have in the base.
+8,2003,2035,66833.50,67934.60,66.834,67.935,1.101,out,1,0.44,0,"Then,"
+9,2036,2095,67934.60,69936.60,67.935,69.937,2.002,explain,3,0.971,0,"following this instruction,"
+10,2096,2275,69936.60,75942.61,69.937,75.943,6.006,write,16,0.855,0,"the derivative of that function, which is denoted as g prime of x, will be equal"
+11,2276,2378,75942.61,79379.38,75.943,79.379,3.437,explain,8,0.719,0,"to the following, lower the exponent n, that"
+12,2379,2449,79379.38,81748.42,79.379,81.748,2.369,write,5,0.61,0,"is, the 2, this multiplied"
+13,2450,2545,81748.42,84951.62,81.748,84.952,3.203,explain,7,0.679,0,"by the apple without deriving, that is,"
+14,2546,2711,84951.62,90490.49,84.952,90.490,5.539,write,12,0.902,0,"that expression e to the minus x plus e to the x,"
+15,2712,2803,90490.49,93560.23,90.490,93.560,3.070,explain,9,0.927,0,"all this raised to the exponent n minus 1,"
+16,2804,2935,93560.23,97964.63,93.560,97.965,4.404,write,9,0.895,0,"that is, 2 minus 1 and all this multiplied"
+17,2936,3086,97964.63,103003.00,97.965,103.003,5.038,explain,11,0.912,0,"in turn by the internal or the derivative of the apple,"
+18,3087,3291,103003.00,109843.18,103.003,109.843,6.840,write,9,0.628,0,then are to write it down as the internal
+19,3292,3376,109843.18,112679.35,109.843,112.679,2.836,explain,7,0.871,0,the derivative of what we have in
+20,3377,3433,112679.35,114581.25,112.679,114.581,1.902,out,3,0.713,0,the base. Then
+21,3434,3565,114581.25,118985.65,114.581,118.986,4.404,explain,11,0.735,0,"we perform this operation and derive this that we have here,"
+22,3566,3723,118985.65,124257.59,118.986,124.258,5.272,write,11,0.72,0,"then g prime of x will be equal to 2 times,"
+23,3724,3830,124257.59,127827.83,124.258,127.828,3.570,explain,10,0.764,0,this gives us as a result 1 and that exponent
+24,3831,4026,127827.83,134367.70,127.828,134.368,6.540,write,17,0.847,0,"can be made invisible, we simply have e to the minus x plus e to the x"
+25,4027,4248,134367.70,141775.11,134.368,141.775,7.407,explain,18,0.798,0,"and all this multiplied by the derivative of this expression, as we have a sum, we each of"
+26,4249,4283,141775.11,142942.94,141.775,142.943,1.168,change,2,0.899,0,its components.
+27,4284,4383,142942.94,146279.61,142.943,146.280,3.337,explain,8,0.762,0,"So, to derive e to the minus x,"
+28,4384,4893,146279.61,163296.63,146.280,163.297,17.017,write,40,0.88,0,"we apply this formula, if we have e to the apple, in that case the apple is the exponent minus x, the derivative of that is itself, that e to the apple by the derivative of the apple, this is"
+29,4894,5079,163296.63,169502.84,163.297,169.503,6.206,explain,11,0.736,0,the rule of the chain for the exponential that the Euler's
+30,5080,5085,169502.84,169703.04,169.503,169.703,0.200,out,0,,1,[silence]
+31,5086,5128,169703.04,171137.80,169.703,171.138,1.435,explain,1,0.511,0,"So,"
+32,5129,5145,171137.80,171705.04,171.138,171.705,0.567,write,2,0.864,0,"let's see,"
+33,5146,5279,171705.04,176176.18,171.705,176.176,4.471,explain,13,0.819,0,in this case the derivative of e to the minus x following this
+34,5280,5349,176176.18,178511.85,176.176,178.512,2.336,write,8,0.945,0,"instruction will be e to the minus x,"
+35,5350,5501,178511.85,183583.58,178.512,183.584,5.072,explain,16,0.899,0,"that is, e to the apple by the derivative of the apple, the derivative of minus"
+36,5502,5605,183583.58,187053.72,183.584,187.054,3.470,write,5,0.836,0,"x, is minus 1 plus"
+37,5606,5655,187053.72,188722.06,187.054,188.722,1.668,explain,8,0.927,0,the derivative of e to the x that
+38,5656,5723,188722.06,190990.99,188.722,190.991,2.269,write,4,0.808,0,we remember is itself
+39,5724,5748,190990.99,191825.16,190.991,191.825,0.834,explain,3,0.489,0,and we close
+40,5749,5807,191825.16,193793.79,191.825,193.794,1.969,out,4,0.859,0,the parenthesis. Now we
+41,5808,5866,193793.79,195762.43,193.794,195.762,1.969,explain,6,0.696,0,"are to polish this whole expression,"
+42,5867,6582,195762.43,219652.99,195.762,219.653,23.891,write,61,0.876,0,"we have already finished the derivation now what follows is to organize it a little using the algebra, all this remains equal to e the minus x plus e to the x and here we have the following, e to the minus x by minus 1 will be minus e to the minus x and all this plus e to the"
+43,6583,6601,219652.99,220286.95,219.653,220.287,0.634,explain,1,0.993,0,x.
+44,6602,6638,220286.95,221521.52,220.287,221.522,1.235,out,1,0.086,0,In
+45,6639,6686,221521.52,223123.12,221.522,223.123,1.602,explain,4,0.879,0,we can rewrite this
+46,6687,6848,223123.12,228528.53,223.123,228.529,5.405,write,12,0.657,0,"in the following way, e to the x is equal to 2"
+47,6849,6916,228528.53,230797.46,228.529,230.797,2.269,explain,10,0.825,0,"times, we are going change the order of these two"
+48,6917,7075,230797.46,236102.77,230.797,236.103,5.305,write,13,0.948,0,"terms, we have e to the x plus e to the minus x"
+49,7076,7195,236102.77,240106.77,236.103,240.107,4.004,explain,9,0.823,0,"and we do here, we have first e to"
+50,7196,7220,240106.77,240940.94,240.107,240.941,0.834,explain,2,0.972,0,the x
+51,7221,7313,240940.94,244044.04,240.941,244.044,3.103,write,7,0.963,0,and then the term minus e to
+52,7314,7332,244044.04,244678.01,244.044,244.678,0.634,explain,2,0.991,0,the minus
+53,7333,7385,244678.01,246446.45,244.678,246.446,1.768,out,3,0.791,0,x. Here we
+54,7386,7509,246446.45,250583.92,246.446,250.584,4.137,explain,8,0.627,0,"observe a situation called sum by difference, we"
+55,7510,7921,250583.92,264331.00,250.584,264.331,13.747,write,32,0.796,0,"are to remember that notable product that is very important in algebra, a plus b times a minus b and that is equal to the first quantity squared minus the second quantity"
+56,7922,8071,264331.00,269336.00,264.331,269.336,5.005,explain,11,0.841,0,"squared, it produces as a result a difference of perfect squares,"
+57,8072,8091,269336.00,270003.34,269.336,270.003,0.667,out,1,0.032,0,so
+58,8092,8178,270003.34,272906.24,270.003,272.906,2.903,explain,6,0.591,0,"we can apply here, we then"
+59,8179,8345,272906.24,278478.48,272.906,278.478,5.572,write,15,0.666,0,"have g prime of x equal to 2 by, we are to open a corchette,"
+60,8346,8485,278478.48,283149.82,278.478,283.150,4.671,explain,14,0.801,0,"so here we have, this does the role of a, then we a squared,"
+61,8486,8582,283149.82,286386.39,283.150,286.386,3.237,write,10,0.945,0,"which would be e to the x, all this squared"
+62,8583,8597,286386.39,286886.89,286.386,286.887,0.501,explain,0,,1,[silence]
+63,8598,8605,286886.89,287153.82,286.887,287.154,0.267,write,0,,1,[silence]
+64,8606,8766,287153.82,292525.86,287.154,292.526,5.372,explain,17,0.77,0,"minus this quantity that does the role of b and that we have here as b squared,"
+65,8767,8936,292525.86,298198.20,292.526,298.198,5.672,write,12,0.775,0,"that e to the minus x, all this squared and we close"
+66,8937,8965,298198.20,299165.83,298.198,299.166,0.968,explain,1,0.957,0,the
+67,8966,9005,299165.83,300500.50,299.166,300.501,1.335,out,3,0.549,0,corchette. Now here
+68,9006,9177,300500.50,306239.57,300.501,306.240,5.739,explain,15,0.783,0,"we can apply the of the power, that which is called power of a power,"
+69,9178,9464,306239.57,315815.82,306.240,315.816,9.576,write,21,0.843,0,"if we have a power to the n, this raised to the exponent m, then we keep the base and multiply"
+70,9465,9595,315815.82,320186.85,315.816,320.187,4.371,explain,10,0.856,0,"the exponents, is the situation that we have here, then"
+71,9596,9777,320186.85,326259.59,320.187,326.260,6.073,write,11,0.711,0,the derivative that prime of x will be equal to 2
+72,9778,9853,326259.59,328795.46,326.260,328.795,2.536,explain,7,0.629,0,"by, we can already change those brackets"
+73,9854,9935,328795.46,331531.53,328.795,331.532,2.736,write,5,0.686,0,"by parentheses, since we have"
+74,9936,10085,331531.53,336536.54,331.532,336.537,5.005,explain,11,0.8,0,"e, we keep the base and multiply the exponents, x times"
+75,10086,10225,336536.54,341207.87,336.537,341.208,4.671,write,12,0.936,0,"2 gives us 2x, in the other term we have the same"
+76,10226,10370,341207.87,346046.05,341.208,346.046,4.838,explain,12,0.883,0,"base that is e and we multiply the exponents, minus x times"
+77,10371,10449,346046.05,348682.02,346.046,348.682,2.636,write,5,0.935,0,"2 gives us minus 2x,"
+78,10450,10469,348682.02,349349.35,348.682,349.349,0.667,explain,0,,1,[silence]
+79,10470,10509,349349.35,350684.02,349.349,350.684,1.335,out,2,0.124,0,then we
+80,10510,10681,350684.02,356423.09,350.684,356.423,5.739,explain,10,0.799,0,expression here and it is the derivative of the original
+81,10682,10741,356423.09,358425.09,356.423,358.425,2.002,out,4,0.862,0,Now let's the other
+82,10742,11163,358425.09,372505.84,358.425,372.506,14.081,explain,32,0.799,0,"way we can take to derive this function and obtain this expression, it consists of transforming first all this that we have here, which is a binomial, we are going to remember"
+83,11164,11644,372505.84,388555.22,372.506,388.555,16.049,write,37,0.788,0,"that notable if we have a sum of two quantities a plus b, all that squared, this is equal to the first quantity squared plus two times the first by the second, plus the second quantity squared,"
+84,11645,11682,388555.22,389823.16,388.555,389.823,1.268,change,0,,1,[silence]
+85,11683,11854,389823.16,395562.23,389.823,395.562,5.739,explain,11,0.869,0,"following this instruction, this notable we are going to develop the"
+86,11855,12538,395562.23,418385.05,395.562,418.385,22.823,write,57,0.836,0,"original function, we have g of x equal to the first quantity e to the minus x squared, then we have plus two times the first quantity by the second, that is, 2 times e to the minus x times e to the x, and this plus the second quantity, is e to the x, this squared."
+87,12539,12566,418385.05,419319.32,418.385,419.319,0.934,explain,0,,1,[silence]
+88,12567,12619,419319.32,421087.75,419.319,421.088,1.768,out,2,0.675,0,We now
+89,12620,12698,421087.75,423723.72,421.088,423.724,2.636,explain,6,0.972,0,"what we have in each term,"
+90,12699,12797,423723.72,427027.03,423.724,427.027,3.303,write,9,0.901,0,the function g of x is equal to the
+91,12798,12891,427027.03,430163.50,427.027,430.163,3.136,explain,9,0.893,0,"following, here we have the power of a power,"
+92,12892,12905,430163.50,430630.63,430.163,430.631,0.467,write,0,,1,[silence]
+93,12906,13051,430630.63,435502.17,430.631,435.502,4.872,explain,8,0.556,0,the base and the exponents minus x times
+94,13052,13197,435502.17,440373.71,435.502,440.374,4.872,write,10,0.846,0,"2 is minus 2x, then we have plus 2 times,"
+95,13198,13341,440373.71,445178.51,440.374,445.179,4.805,explain,11,0.931,0,here we have the product of two powers with the same
+96,13342,13421,445178.51,447847.85,445.179,447.848,2.669,change,7,0.867,0,"base, we are to remember that property"
+97,13422,13690,447847.85,456823.49,447.848,456.823,8.976,write,21,0.879,0,"of the power, if we have a to the n times a to the m, then the base and the exponents"
+98,13691,13701,456823.49,457190.52,456.823,457.191,0.367,explain,0,,1,[silence]
+99,13702,13756,457190.52,459025.69,457.191,459.026,1.835,change,4,0.621,0,then here we have
+100,13757,13773,459025.69,459592.93,459.026,459.593,0.567,write,2,0.968,0,the same
+101,13774,13836,459592.93,461695.03,459.593,461.695,2.102,explain,5,0.76,0,"base, is the number e,"
+102,13837,13954,461695.03,465632.30,461.695,465.632,3.937,write,8,0.881,0,"and we do the sum of the exponents,"
+103,13955,14041,465632.30,468535.20,465.632,468.535,2.903,explain,8,0.753,0,and here we have again power of a
+104,14042,14057,468535.20,469069.07,468.535,469.069,0.534,write,1,0.981,0,"power,"
+105,14058,14200,469069.07,473840.51,469.069,473.841,4.771,explain,7,0.828,0,the base and the exponents x times
+106,14201,14245,473840.51,475342.01,473.841,475.342,1.502,write,3,0.874,0,2 gives us
+107,14246,14263,475342.01,475942.61,475.342,475.943,0.601,explain,1,0.926,0,"2x,"
+108,14264,14301,475942.61,477210.54,475.943,477.211,1.268,out,3,0.959,0,in the second
+109,14302,14345,477210.54,478678.68,477.211,478.679,1.468,explain,3,0.925,0,term we will
+110,14346,14439,478678.68,481815.15,478.679,481.815,3.136,write,7,0.848,0,have that this is equal to e
+111,14440,14579,481815.15,486486.49,481.815,486.486,4.671,explain,15,0.76,0,"raised to the exponent 0, minus x plus x gives us 0, and e to"
+112,14580,14639,486486.49,488488.49,486.486,488.488,2.002,write,5,0.692,0,the 0 is equal to
+113,14640,14675,488488.49,489689.69,488.488,489.690,1.201,explain,2,0.734,0,"1, therefore"
+114,14676,14705,489689.69,490690.69,489.690,490.691,1.001,change,4,0.749,0,there we have 2
+115,14706,14758,490690.69,492459.13,490.691,492.459,1.768,explain,5,0.735,0,times 1 which is simply
+116,14759,15126,492459.13,504738.07,492.459,504.738,12.279,write,26,0.855,0,"2, therefore the function is like this, g of x is to e to the minus 2x plus 2, and all this plus e to the"
+117,15127,15153,504738.07,505638.97,504.738,505.639,0.901,explain,1,0.973,0,"2x,"
+118,15154,15222,505638.97,507941.27,505.639,507.941,2.302,out,4,0.907,0,now we can derive
+119,15223,15305,507941.27,510710.71,507.941,510.711,2.769,explain,3,0.782,0,"this expression, then"
+120,15306,15429,510710.71,514848.18,510.711,514.848,4.137,write,11,0.75,0,"it appears for first time g prime of x, as you"
+121,15430,15788,514848.18,526826.83,514.848,526.827,11.979,explain,34,0.807,0,"can see here we have a sum of terms, then we each one them, to derive this we apply the rule of e to the apple, which we saw now, the derivative of this"
+122,15789,15897,526826.83,530463.80,526.827,530.464,3.637,write,11,0.877,0,"will be e to the apple, e to the minus 2x,"
+123,15898,16058,530463.80,535835.84,530.464,535.836,5.372,explain,15,0.927,0,"by the derivative of the apple, the derivative of the exponent, that the derivative of"
+124,16059,16159,535835.84,539205.87,535.836,539.206,3.370,write,6,0.93,0,"minus 2x, which is minus 2,"
+125,16160,16339,539205.87,545211.88,539.206,545.212,6.006,explain,18,0.849,0,"we go to next term where we have a constant, and the derivative of a constant, the derivative"
+126,16340,16396,545211.88,547113.78,545.212,547.114,1.902,write,4,0.701,0,"of 2 gives 0,"
+127,16397,16554,547113.78,552385.72,547.114,552.386,5.272,explain,13,0.8,0,we go to the other term where the derivative of e to the
+128,16555,16644,552385.72,555388.72,552.386,555.389,3.003,write,8,0.839,0,"apple again, is itself, e to the apple"
+129,16645,16778,555388.72,559859.86,555.389,559.860,4.471,explain,11,0.933,0,"by the derivative of the apple, the derivative of the exponent,"
+130,16779,16798,559859.86,560527.19,559.860,560.527,0.667,write,2,0.939,0,which will
+131,16799,16823,560527.19,561361.36,560.527,561.361,0.834,explain,2,0.99,0,"be 2,"
+132,16824,16859,561361.36,562562.56,561.361,562.563,1.201,out,1,0.957,0,organizing
+133,16860,16902,562562.56,563997.33,562.563,563.997,1.435,explain,4,0.837,0,all this that we
+134,16903,17017,563997.33,567834.50,563.997,567.835,3.837,write,7,0.767,0,"obtained, have g prime of x equal,"
+135,17018,17084,567834.50,570070.07,567.835,570.070,2.236,explain,8,0.808,0,here e to the minus 2x by minus
+136,17085,17385,570070.07,580113.45,570.070,580.113,10.043,write,20,0.715,0,"2, will minus 2e to the minus 2x, and here the last term we have 2, by e to the"
+137,17386,17410,580113.45,580947.61,580.113,580.948,0.834,explain,1,0.942,0,"2x,"
+138,17411,17456,580947.61,582482.48,580.948,582.482,1.535,out,3,0.843,0,there we can
+139,17457,17501,582482.48,583983.98,582.482,583.984,1.502,explain,5,0.952,0,change the order of the
+140,17502,17603,583983.98,587387.39,583.984,587.387,3.403,write,8,0.813,0,"terms, then g prime of x is equal"
+141,17604,17637,587387.39,588521.86,587.387,588.522,1.134,explain,1,0.982,0,to
+142,17638,17824,588521.86,594761.43,588.522,594.761,6.240,write,13,0.91,0,"2e to the 2x, and then this minus 2e to the minus 2x,"
+143,17825,17895,594761.43,597130.46,594.761,597.130,2.369,explain,6,0.415,0,and in turn there we can
+144,17896,17915,597130.46,597797.80,597.130,597.798,0.667,write,1,0.798,0,extract
+145,17916,17993,597797.80,600400.40,597.798,600.400,2.603,explain,6,0.71,0,"as common factor the number 2,"
+146,17994,18264,600400.40,609442.78,600.400,609.443,9.042,write,19,0.793,0,"if the 2 out we have factor d, e to the 2x minus e to the minus 2x, and"
+147,18265,18384,609442.78,613446.78,609.443,613.447,4.004,explain,13,0.882,0,"as you can see, it is the same expression that we have here,"
+148,18385,18438,613446.78,615248.58,613.447,615.249,1.802,out,4,0.795,0,then we have seen
+149,18439,18844,615248.58,628795.46,615.249,628.795,13.547,explain,31,0.87,0,"two different to obtain the expression that constitutes the derivative of this function, now what we can do to finish is to this to its simplest form, without having negative exponents,"
+150,18845,18900,628795.46,630664.00,628.795,630.664,1.869,out,2,0.398,0,then will
+151,18901,18967,630664.00,632899.57,630.664,632.900,2.236,explain,8,0.713,0,"have g prime of x equal to 2,"
+152,18968,18999,632899.57,633967.30,632.900,633.967,1.068,write,1,0.212,0,we
+153,19000,19071,633967.30,636369.70,633.967,636.370,2.402,explain,5,0.799,0,open parenthesis e to the
+154,19072,19106,636369.70,637537.54,636.370,637.538,1.168,write,1,0.847,0,"2x,"
+155,19107,19157,637537.54,639239.24,637.538,639.239,1.702,explain,2,0.895,0,minus this
+156,19158,19217,639239.24,641241.24,639.239,641.241,2.002,change,6,0.862,0,expression where we are to apply
+157,19218,19241,641241.24,642042.04,641.241,642.042,0.801,explain,1,0.959,0,the
+158,19242,19481,642042.04,650050.05,642.042,650.050,8.008,write,22,0.889,0,"property of the power for the negative if we have a to the minus n, this is equal to 1 over a"
+159,19482,19491,650050.05,650383.72,650.050,650.384,0.334,explain,1,0.971,0,to
+160,19492,19515,650383.72,651184.52,650.384,651.185,0.801,change,2,0.961,0,"the n,"
+161,19516,19593,651184.52,653787.12,651.185,653.787,2.603,explain,7,0.807,0,"therefore e to the minus 2x, we"
+162,19594,19748,653787.12,658958.96,653.787,658.959,5.172,write,9,0.703,0,"will have 1 over e to the 2x, and"
+163,19749,19775,658958.96,659859.86,658.959,659.860,0.901,explain,3,0.862,0,we close the
+164,19776,19834,659859.86,661828.50,659.860,661.828,1.969,out,3,0.719,0,"parenthesis, now this"
+165,19835,19882,661828.50,663430.10,661.828,663.430,1.602,explain,4,0.965,0,expression e to the
+166,19883,19945,663430.10,665532.20,663.430,665.532,2.102,write,4,0.867,0,"2x has denominator 1,"
+167,19946,20059,665532.20,669336.00,665.532,669.336,3.804,explain,8,0.951,0,and we can solve this subtraction of fractions
+168,20060,20119,669336.00,671338.00,669.336,671.338,2.002,change,3,0.845,0,"with different denominator,"
+169,20120,20187,671338.00,673606.94,671.338,673.607,2.269,explain,4,0.916,0,applying the technique or
+170,20188,20690,673606.94,690390.39,673.607,690.390,16.783,write,43,0.798,0,"of the happy let's remember it, if we have a over b more or less c over d, this is equal to the following, a over d more or less b over c, and here we have b over d, it is the"
+171,20691,20837,690390.39,695295.30,690.390,695.295,4.905,explain,11,0.828,0,quick way to perform a sum or subtraction of two heterogeneous
+172,20838,20878,695295.30,696663.33,695.295,696.663,1.368,change,4,0.874,0,or fractions with different
+173,20879,20904,696663.33,697530.86,696.663,697.531,0.868,explain,1,0.757,0,"denominator,"
+174,20905,20917,697530.86,697964.63,697.531,697.965,0.434,write,0,,1,[silence]
+175,20918,20946,697964.63,698932.27,697.965,698.932,0.968,explain,3,0.937,0,"a over d,"
+176,20947,20959,698932.27,699366.03,698.932,699.366,0.434,write,0,,1,[silence]
+177,20960,20990,699366.03,700400.40,699.366,700.400,1.034,explain,3,0.984,0,"b over c,"
+178,20991,21007,700400.40,700967.63,700.400,700.968,0.567,write,3,0.926,0,and in the
+179,21008,21037,700967.63,701968.64,700.968,701.969,1.001,explain,3,0.941,0,denominator b over
+180,21038,21109,701968.64,704371.04,701.969,704.371,2.402,write,7,0.9,0,"d, that is, what is known as"
+181,21110,21140,704371.04,705405.41,704.371,705.405,1.034,explain,1,0.789,0,the
+182,21141,21154,705405.41,705872.54,705.405,705.873,0.467,out,1,0.905,0,happy
+183,21155,21218,705872.54,708008.01,705.873,708.008,2.135,explain,6,0.589,0,then g prime of x we
+184,21219,21396,708008.01,713947.28,708.008,713.947,5.939,write,12,0.765,0,"have 2, we open the parenthesis, draw the line of the fraction,"
+185,21397,21569,713947.28,719719.72,713.947,719.720,5.772,explain,18,0.743,0,"and we this for this, that a over d, e to the 2x by e to the 2x,"
+186,21570,21592,719719.72,720487.15,719.720,720.487,0.767,write,3,0.773,0,it is a
+187,21593,21807,720487.15,727660.99,720.487,727.661,7.174,explain,15,0.896,0,"product of powers with the same base, the base and the exponents 2x plus 2x"
+188,21808,21901,727660.99,730797.46,727.661,730.797,3.136,write,6,0.906,0,"gives us 4x, then we have"
+189,21902,22021,730797.46,734801.47,730.797,734.801,4.004,explain,13,0.756,0,"minus 1 over 1, there we are doing the product b over c,"
+190,22022,22057,734801.47,736002.67,734.801,736.003,1.201,write,3,0.943,0,that gives us
+191,22058,22115,736002.67,737937.94,736.003,737.938,1.935,explain,7,0.536,0,"1, and below 1 times e to"
+192,22116,22195,737937.94,740607.27,737.938,740.607,2.669,write,8,0.903,0,"the 2x, which gives us e to the"
+193,22196,22271,740607.27,743143.14,740.607,743.143,2.536,explain,7,0.646,0,"2x, there we have done b over"
+194,22272,22311,743143.14,744477.81,743.143,744.478,1.335,out,2,0.895,0,"d. Finally,"
+195,22312,22529,744477.81,751751.75,744.478,751.752,7.274,explain,17,0.819,0,"and for us to better present the expression of the derivative, we this operation, that 2 has"
+196,22530,22586,751751.75,753653.65,751.752,753.654,1.902,write,2,0.948,0,"denominator 1,"
+197,22587,22805,753653.65,760960.96,753.654,760.961,7.307,explain,15,0.848,0,"and then we have there a multiplication of fractions, remember that numerators multiply each and"
+198,22806,22832,760960.96,761861.86,760.961,761.862,0.901,change,1,0.987,0,denominators
+199,22833,22861,761861.86,762829.50,761.862,762.829,0.968,explain,2,0.658,0,"each other,"
+200,22862,23008,762829.50,767734.40,762.829,767.734,4.905,write,9,0.777,0,"then we have g prime of x, equal to"
+201,23009,23061,767734.40,769502.84,767.734,769.503,1.768,explain,5,0.839,0,"the following, we draw the"
+202,23062,23125,769502.84,771638.30,769.503,771.638,2.135,out,8,0.944,0,"line of the fraction, and in the numerator"
+203,23126,23152,771638.30,772539.21,771.638,772.539,0.901,explain,3,0.803,0,we will have
+204,23153,23189,772539.21,773773.77,772.539,773.774,1.235,write,2,0.609,0,"2, by"
+205,23190,23224,773773.77,774941.61,773.774,774.942,1.168,explain,2,0.973,0,this expression
+206,23225,23350,774941.61,779145.81,774.942,779.146,4.204,write,6,0.78,0,"e to the 4x minus 1,"
+207,23351,23449,779145.81,782449.12,779.146,782.449,3.303,explain,11,0.933,0,while in the denominator we have 1 by e to the
+208,23450,23523,782449.12,784918.25,782.449,784.918,2.469,write,6,0.965,0,"2x, which is e to the"
+209,23524,23551,784918.25,785852.52,784.918,785.853,0.934,explain,1,0.986,0,"2x,"
+210,23552,23577,785852.52,786720.05,785.853,786.720,0.868,out,2,0.835,0,and so
+211,23578,23602,786720.05,787554.22,786.720,787.554,0.834,explain,1,0.945,0,we
+212,23603,23653,787554.22,789255.92,787.554,789.256,1.702,write,2,0.99,0,"this exercise,"
+213,23654,23825,789255.92,794994.99,789.256,794.995,5.739,explain,13,0.899,0,this expression constitutes the first derivative of this function that they gave us.
+214,23826,24571,794994.99,819886.55,794.995,819.887,24.892,out,0,,1,[silence]

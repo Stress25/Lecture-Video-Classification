@@ -1,0 +1,386 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,226,0.00,7574.24,0.000,7.574,7.574,explain,14,0.87,0,"So, is lecture 1 on December 7th. This is about system of linear equations."
+1,227,694,7574.24,23189.86,7.574,23.190,15.616,write,1,0.994,0,equations.
+2,695,738,23189.86,24657.99,23.190,24.658,1.468,explain,6,0.945,0,"So, when we say system of"
+3,739,791,24657.99,26426.43,24.658,26.426,1.768,out,5,0.989,0,"of linear equations, it is"
+4,792,892,26426.43,29796.46,26.426,29.796,3.370,explain,11,0.972,0,"is basically like one equation or more than one equation. So,"
+5,893,1150,29796.46,38405.07,29.796,38.405,8.609,write,23,0.922,0,"So, for example, if somebody gives us 3 x is equal to 1 or say x plus 2 y is equal to 3."
+6,1151,1168,38405.07,39005.67,38.405,39.006,0.601,explain,1,0.986,0,These
+7,1169,1255,39005.67,41908.58,39.006,41.909,2.903,out,8,0.993,0,"These are examples of linear equations, linear because"
+8,1256,1316,41908.58,43943.94,41.909,43.944,2.035,explain,6,0.988,0,because the powers of x and
+9,1317,1419,43943.94,47380.71,43.944,47.381,3.437,out,7,0.739,0,and y are no more than one
+10,1420,1455,47380.71,48581.92,47.381,48.582,1.201,explain,1,0.173,0,and
+11,1456,1488,48581.92,49683.02,48.582,49.683,1.101,write,4,0.688,0,and we consider this
+12,1489,1500,49683.02,50083.42,49.683,50.083,0.400,explain,1,0.983,0,this
+13,1501,1556,50083.42,51951.95,50.083,51.952,1.869,out,7,0.972,0,this as a system. we are looking
+14,1557,1640,51951.95,54754.75,51.952,54.755,2.803,explain,7,0.981,0,looking for common solutions of these equations.
+15,1641,1680,54754.75,56089.42,54.755,56.089,1.335,out,3,0.954,0,"equations. So, there"
+16,1681,1720,56089.42,57424.09,56.089,57.424,1.335,explain,7,0.951,0,there are two ways in which we
+17,1721,2149,57424.09,71738.41,57.424,71.738,14.314,write,33,0.883,0,we can think of the system of linear equation linear equations. One is the geometric way and the other is just one which we are going to explore more in detail the algebraic
+18,2150,2167,71738.41,72339.01,71.738,72.339,0.601,explain,2,0.945,0,algebraic way.
+19,2168,2376,72339.01,79312.65,72.339,79.313,6.974,out,18,0.976,0,"way. Both have their advantages as well as disadvantages. In geometric way, we can apply some geometric intuition"
+20,2377,2547,79312.65,85018.35,79.313,85.018,5.706,explain,16,0.834,0,intuition to understand what we mean by the solution of these equations and algebraic way will
+21,2548,2607,85018.35,87020.35,85.018,87.020,2.002,out,4,0.933,0,will help us generalize
+22,2608,2653,87020.35,88555.22,87.020,88.555,1.535,explain,5,0.918,0,generalize these things to a
+23,2654,2696,88555.22,89989.99,88.555,89.990,1.435,write,3,0.938,0,a higher dimension.
+24,2697,2717,89989.99,90690.69,89.990,90.691,0.701,explain,0,,1,[silence]
+25,2718,2787,90690.69,93026.36,90.691,93.026,2.336,out,4,0.99,0,"So, for example, let"
+26,2788,2847,93026.36,95028.36,93.026,95.028,2.002,explain,8,0.962,0,let us start with a very basic thing.
+27,2848,3278,95028.36,109409.41,95.028,109.409,14.381,write,13,0.956,0,"thing. When somebody says x is equal to 1, what does this represent?"
+28,3279,3344,109409.41,111611.61,109.409,111.612,2.202,explain,0,,1,[silence]
+29,3345,3416,111611.61,114014.01,111.612,114.014,2.402,change,9,0.84,0,"Most of them when we look at this, we"
+30,3417,3790,114014.01,126493.16,114.014,126.493,12.479,explain,40,0.896,0,"we will think x is equal to 1 is basically a point. Some people might say well this is a line, but when we say when what does this represent, we have to be careful about the ambient space in"
+31,3791,4004,126493.16,133633.63,126.493,133.634,7.140,write,20,0.941,0,"in which we are working. So, the first question which we should ask is what is the ambient space in"
+32,4005,4099,133633.63,136803.47,133.634,136.803,3.170,explain,10,0.974,0,"in which we are considering this equation. So, for example,"
+33,4100,4606,136803.47,153720.39,136.803,153.720,16.917,write,35,0.877,0,"if my ambient space is R 1, then x is equal to 1 is simply a point. If my ambient space happens to be R 2, then x is equal to 1 would be aligned."
+34,4607,4823,153720.39,160960.96,153.720,160.961,7.241,explain,15,0.916,0,"So, the same equation x is equal to 1 represents a totally different object depending"
+35,4824,4875,160960.96,162696.03,160.961,162.696,1.735,write,6,0.93,0,depending on the ambient space we
+36,4876,4991,162696.03,166566.57,162.696,166.567,3.871,explain,9,0.895,0,"we are in. And when we say R 3,"
+37,4992,5460,166566.57,182215.55,166.567,182.216,15.649,write,12,0.941,0,the same x is equal to 1 will now represent a plane.
+38,5461,5956,182215.55,198765.43,182.216,198.765,16.550,explain,30,0.911,0,"So, it depends on the context in which the equation has been written. will try to answer or we will try to attempt the solution to that particular equation. So,"
+39,5957,5992,198765.43,199966.63,198.765,199.967,1.201,out,7,0.896,0,"So, let us see if we were"
+40,5993,6376,199966.63,212779.45,199.967,212.779,12.813,explain,47,0.896,0,"were given these two equations, since there are two variables we know that we are at least in a two dimensional world maybe more, but suppose we restrict our attention to R 2 which is the two dimensional world and then we want to know what is"
+41,6377,6511,212779.45,217283.95,212.779,217.284,4.505,out,10,0.896,0,"is the solution to this system of equation. So, we"
+42,6512,6535,217283.95,218084.75,217.284,218.085,0.801,pick_eraser,5,0.973,0,we want to solve it
+43,6536,6574,218084.75,219386.05,218.085,219.386,1.301,erase,6,0.79,0,it in a geometric way first.
+44,6575,6588,219386.05,219853.19,219.386,219.853,0.467,drop_eraser,1,0.981,0,first.
+45,6589,6598,219853.19,220186.85,219.853,220.187,0.334,out,0,,1,[silence]
+46,6599,6626,220186.85,221121.12,220.187,221.121,0.934,explain,2,0.786,0,3 x
+47,6627,6688,221121.12,223189.86,221.121,223.190,2.069,out,8,0.577,0,x is equal to 1 in R 2
+48,6689,6727,223189.86,224491.16,223.190,224.491,1.301,explain,3,0.647,0,2 will represent
+49,6728,6945,224491.16,231765.10,224.491,231.765,7.274,write,15,0.851,0,represent a line for us something like this x is equal to one third this
+50,6946,7052,231765.10,235335.34,231.765,235.335,3.570,explain,16,0.877,0,this is our line and x plus 2 y is equal to 3 is also going
+51,7053,7092,235335.34,236670.00,235.335,236.670,1.335,write,7,0.992,0,going to represent a line for us
+52,7093,7179,236670.00,239572.91,236.670,239.573,2.903,explain,5,0.95,0,us perhaps something like this.
+53,7180,7263,239572.91,242375.71,239.573,242.376,2.803,write,0,,1,[silence]
+54,7264,7288,242375.71,243209.88,242.376,243.210,0.834,explain,0,,1,[silence]
+55,7289,7463,243209.88,249049.05,243.210,249.049,5.839,out,11,0.949,0,And once we have these two lines we are looking for
+56,7464,7516,249049.05,250817.48,249.049,250.817,1.768,explain,3,0.994,0,for a point
+57,7517,7739,250817.48,258258.26,250.817,258.258,7.441,write,18,0.925,0,point which is common to both of them and this point will be called a solution for us.
+58,7740,7764,258258.26,259092.43,258.258,259.092,0.834,explain,0,,1,[silence]
+59,7765,7961,259092.43,265665.67,259.092,265.666,6.573,out,13,0.942,0,"Now, this is a geometric picture what if we really want to know"
+60,7962,8041,265665.67,268335.00,265.666,268.335,2.669,explain,10,0.879,0,"know what exactly is the solution that means, what we"
+61,8042,8145,268335.00,271805.14,268.335,271.805,3.470,write,14,0.974,0,we want to know is what are the values of x and y that
+62,8146,8264,271805.14,275775.78,271.805,275.776,3.971,out,13,0.93,0,"that can help that lie on both these lines. So, we need some"
+63,8265,8308,275775.78,277243.91,275.776,277.244,1.468,explain,6,0.936,0,some algebraic way to find our
+64,8309,8381,277243.91,279679.68,277.244,279.680,2.436,out,8,0.927,0,our solutions. In this particular case the answer
+65,8382,8421,279679.68,281014.35,279.680,281.014,1.335,explain,5,0.872,0,answer is fairly easy because
+66,8422,8429,281014.35,281281.28,281.014,281.281,0.267,write,1,0.654,0,because
+67,8430,8478,281281.28,282916.25,281.281,282.916,1.635,explain,6,0.904,0,because we already have x as
+68,8479,8523,282916.25,284417.75,282.916,284.418,1.502,write,4,0.827,0,as one third and
+69,8524,8552,284417.75,285385.39,284.418,285.385,0.968,explain,5,0.962,0,and when we plug in
+70,8553,8664,285385.39,289122.46,285.385,289.122,3.737,out,8,0.745,0,in for y we will be able to
+71,8665,8735,289122.46,291491.49,289.122,291.491,2.369,explain,8,0.941,0,to find what is the value of y.
+72,8736,9332,291491.49,311411.41,291.491,311.411,19.920,write,28,0.884,0,"So, for x is equal to one third y would be 3 minus x over 2 and this will give us 8 over 6 which is four thirds."
+73,9333,9457,311411.41,315582.25,311.411,315.582,4.171,explain,12,0.891,0,"So, y would be four third in which case we can claim"
+74,9458,9525,315582.25,317851.18,315.582,317.851,2.269,erase,8,0.848,0,claim that we have found our point we
+75,9526,9543,317851.18,318451.79,317.851,318.452,0.601,explain,5,0.795,0,we have found our solution
+76,9544,9632,318451.79,321421.42,318.452,321.421,2.970,write,9,0.955,0,solution which is namely one third and four thirds.
+77,9633,9653,321421.42,322122.12,321.421,322.122,0.701,explain,0,,1,[silence]
+78,9654,9780,322122.12,326359.69,322.122,326.360,4.238,out,16,0.819,0,"So, this is what we would mean by a solution of this system of equation that"
+79,9781,9828,326359.69,327961.29,326.360,327.961,1.602,explain,6,0.799,0,that this system was considered in
+80,9829,9950,327961.29,332032.03,327.961,332.032,4.071,out,8,0.878,0,"in R 2. Now, the question is this"
+81,9951,9995,332032.03,333533.53,332.032,333.534,1.502,explain,5,0.961,0,this is the only solution.
+82,9996,10057,333533.53,335602.27,333.534,335.602,2.069,out,4,0.974,0,"So, we may ask"
+83,10058,10280,335602.27,343043.04,335.602,343.043,7.441,explain,27,0.938,0,"ask ourselves given any system of equations is it always the case that we will have only one solution, but it possibly have more than one solution,"
+84,10281,10349,343043.04,345345.35,343.043,345.345,2.302,out,9,0.96,0,"solution, is it possible that it has no solution"
+85,10350,10386,345345.35,346579.91,345.345,346.580,1.235,explain,2,0.692,0,solution and
+86,10387,10469,346579.91,349349.35,346.580,349.349,2.769,out,10,0.814,0,and what turns out to be that looking through geometry
+87,10470,10485,349349.35,349883.22,349.349,349.883,0.534,explain,2,0.744,0,geometry it
+88,10486,10503,349883.22,350483.82,349.883,350.484,0.601,pick_eraser,3,0.84,0,it helps us
+89,10504,10748,350483.82,358658.66,350.484,358.659,8.175,erase,19,0.942,0,us understand many situations fairly easily and that will lay the groundwork for how things are going to be
+90,10749,10770,358658.66,359392.73,358.659,359.393,0.734,drop_eraser,3,0.918,0,be later on.
+91,10771,10803,359392.73,360493.83,359.393,360.494,1.101,explain,1,0.984,0,on.
+92,10804,10871,360493.83,362762.76,360.494,362.763,2.269,out,3,0.992,0,"So, for example,"
+93,10872,10952,362762.76,365465.47,362.763,365.465,2.703,explain,1,0.999,0,"example,"
+94,10953,11048,365465.47,368668.67,365.465,368.669,3.203,write,7,0.797,0,if we are in R 2 we
+95,11049,11119,368668.67,371037.70,368.669,371.038,2.369,explain,8,0.922,0,we understand that linear equations are going to
+96,11120,11128,371037.70,371338.00,371.038,371.338,0.300,out,2,0.996,0,to represent
+97,11129,11169,371338.00,372706.04,371.338,372.706,1.368,explain,4,0.988,0,"represent a line. So,"
+98,11170,11899,372706.04,397063.73,372.706,397.064,24.358,write,52,0.905,0,"So, we may have a situation like this where we have been given equations in present two lines and they turn out to have unique solution or we may have a situation where we are given two lines which turn out to be parallel to each other and they have no solution"
+99,11900,11980,397063.73,399766.43,397.064,399.766,2.703,explain,6,0.94,0,or we may have a situation
+100,11981,12102,399766.43,403837.17,399.766,403.837,4.071,write,5,0.973,0,where we have two lines
+101,12103,12152,403837.17,405505.51,403.837,405.506,1.668,explain,2,0.86,0,lines rather
+102,12153,12212,405505.51,407507.51,405.506,407.508,2.002,change,9,0.949,0,rather I should say we have two equations which
+103,12213,12278,407507.51,409709.71,407.508,409.710,2.202,explain,2,0.88,0,which represent
+104,12279,12718,409709.71,424391.06,409.710,424.391,14.681,write,14,0.89,0,"represent the same straight line in which case we have infinitely many solutions. So,"
+105,12719,13224,424391.06,441274.61,424.391,441.275,16.884,explain,44,0.895,0,"question is can there be a situation which is different from these three that means can we have a situation where we have more than one solution, but finitely many solutions in the sense can it happen that I have two straight lines which"
+106,13225,13288,441274.61,443410.08,441.275,443.410,2.135,write,4,0.893,0,which can meet at
+107,13289,13502,443410.08,450550.55,443.410,450.551,7.140,explain,24,0.893,0,"at more than one point, but not all of them and a simple thought at least geometrically one can intuitively say that if a"
+108,13503,13709,450550.55,457457.46,450.551,457.457,6.907,write,22,0.864,0,"a straight line passes through two points then it is a unique straight line. So, if I have another straight line through"
+109,13710,14202,457457.46,473907.24,457.457,473.907,16.450,explain,42,0.89,0,"through the same two points then it must be the straight line I started with. So, the situation here is that given a system of equations I will either have only one solution, no solution or infinitely many solutions. So, question is"
+110,14203,14281,473907.24,476543.21,473.907,476.543,2.636,out,6,0.942,0,is can this be generalized to
+111,14282,14342,476543.21,478578.58,476.543,478.579,2.035,explain,6,0.736,0,to higher dimensions for example if
+112,14343,14361,478578.58,479212.55,478.579,479.213,0.634,pick_eraser,2,0.642,0,if we
+113,14362,14443,479212.55,481948.62,479.213,481.949,2.736,explain,7,0.802,0,we were in R 3 what would
+114,14444,14604,481948.62,487320.65,481.949,487.321,5.372,erase,7,0.838,0,would happen to the number of solutions.
+115,14605,14659,487320.65,489155.82,487.321,489.156,1.835,out,0,,1,[silence]
+116,14660,14699,489155.82,490490.49,489.156,490.490,1.335,drop_eraser,0,,1,[silence]
+117,14700,14781,490490.49,493226.56,490.490,493.227,2.736,out,1,0.9,0,"So,"
+118,14782,14803,493226.56,493960.63,493.227,493.961,0.734,explain,5,0.911,0,"So, let us try our"
+119,14804,14874,493960.63,496329.66,493.961,496.330,2.369,write,5,0.829,0,our luck in R 3.
+120,14875,14891,496329.66,496896.90,496.330,496.897,0.567,explain,0,,1,[silence]
+121,14892,14954,496896.90,498999.00,496.897,498.999,2.102,out,4,0.946,0,"So, in R 3"
+122,14955,15012,498999.00,500934.27,498.999,500.934,1.935,explain,6,0.897,0,3 or in third dimension suppose
+123,15013,15359,500934.27,512512.51,500.934,512.513,11.578,write,32,0.839,0,suppose I give suppose we have bunch of equations say x plus x minus y plus z is 1 2 x minus 3 y plus 7 z is 2 suppose I have
+124,15360,15379,512512.51,513179.85,512.513,513.180,0.667,explain,2,0.884,0,have two
+125,15380,15472,513179.85,516282.95,513.180,516.283,3.103,out,5,0.934,0,two equations in R 3
+126,15473,15481,516282.95,516583.25,516.283,516.583,0.300,explain,1,0.218,0,you
+127,15482,15498,516583.25,517150.48,516.583,517.150,0.567,erase,2,0.608,0,you can
+128,15499,15562,517150.48,519285.95,517.150,519.286,2.135,explain,8,0.993,0,can see that each of these equations will
+129,15563,15757,519285.95,525792.46,519.286,525.792,6.507,write,14,0.984,0,"will represent a linear plane. So, these are basically two planes in R 3."
+130,15758,15771,525792.46,526259.59,525.792,526.260,0.467,explain,1,0.98,0,3.
+131,15772,15854,526259.59,529029.03,526.260,529.029,2.769,out,10,0.909,0,"3. Now, the question is if I am given two"
+132,15855,17008,529029.03,567534.20,529.029,567.534,38.505,explain,72,0.877,0,"two planes in R 3. So, this is one plane. So, imagine this is one plane let us talk about the floor or the table it is one plane and if we have another plane imagine this is one plane and here is another plane. If we are given two planes then they might intersect and once they intersect they are going to intersect along a line. So, think of two pages"
+133,17009,17068,567534.20,569536.20,567.534,569.536,2.002,out,5,0.88,0,pages in a book they
+134,17069,17095,569536.20,570437.10,569.536,570.437,0.901,explain,2,0.707,0,they meet
+135,17096,17127,570437.10,571504.84,570.437,571.505,1.068,out,4,0.981,0,meet at the binding
+136,17128,17145,571504.84,572105.44,571.505,572.105,0.601,explain,2,0.712,0,binding or
+137,17146,17170,572105.44,572939.61,572.105,572.940,0.834,out,4,0.831,0,or the spine of
+138,17171,17232,572939.61,575008.34,572.940,575.008,2.069,explain,7,0.987,0,"of the book. So, a situation like"
+139,17233,17459,575008.34,582582.58,575.008,582.583,7.574,write,19,0.95,0,like this may happen and you have a plane and you have another plane and both of them are
+140,17460,17479,582582.58,583249.92,582.583,583.250,0.667,explain,5,0.979,0,are meeting in a line.
+141,17480,17630,583249.92,588288.29,583.250,588.288,5.038,out,16,0.882,0,"line. So, they both meet in a line and that means we are in the situation"
+142,17631,17670,588288.29,589622.96,588.288,589.623,1.335,explain,5,0.948,0,situation of infinitely many solutions.
+143,17671,17700,589622.96,590623.96,589.623,590.624,1.001,out,1,0.993,0,solutions.
+144,17701,17722,590623.96,591358.02,590.624,591.358,0.734,explain,3,0.965,0,What if we
+145,17723,17842,591358.02,595362.03,591.358,595.362,4.004,write,11,0.856,0,we are given two planes which do not meet something like
+146,17843,17847,595362.03,595528.86,595.362,595.529,0.167,explain,2,0.996,0,like this
+147,17848,17912,595528.86,597697.70,595.529,597.698,2.169,out,8,0.821,0,this parallel planes just think of the roof
+148,17913,17929,597697.70,598264.93,597.698,598.265,0.567,explain,2,0.992,0,roof and
+149,17930,17947,598264.93,598865.53,598.265,598.866,0.601,out,3,0.785,0,and the floor
+150,17948,17987,598865.53,600200.20,598.866,600.200,1.335,explain,4,0.864,0,floor they do not
+151,17988,18002,600200.20,600700.70,600.200,600.701,0.501,out,2,0.987,0,not meet.
+152,18003,18132,600700.70,605038.37,600.701,605.038,4.338,explain,12,0.959,0,this corresponds to the situation when we have no solution and of
+153,18133,18175,605038.37,606473.14,605.038,606.473,1.435,out,4,0.987,0,"of course, two planes"
+154,18176,18203,606473.14,607407.41,606.473,607.407,0.934,explain,6,0.994,0,planes can be on top of
+155,18204,18336,607407.41,611845.18,607.407,611.845,4.438,write,8,0.99,0,of each other representing the same plane like
+156,18337,18356,611845.18,612512.51,611.845,612.513,0.667,explain,2,0.988,0,like this
+157,18357,18472,612512.51,616383.05,612.513,616.383,3.871,out,9,0.835,0,this in which case we have infinitely many solutions.
+158,18473,18611,616383.05,621021.02,616.383,621.021,4.638,explain,14,0.927,0,"Now, the question is is it possible that planes can have a unique solution."
+159,18612,18637,621021.02,621888.56,621.021,621.889,0.868,out,2,0.98,0,If you
+160,18638,18763,621888.56,626092.76,621.889,626.093,4.204,explain,13,0.894,0,you think two planes wherever they intersect they will intersect at more than
+161,18764,18785,626092.76,626826.83,626.093,626.827,0.734,out,5,0.855,0,than one point just think
+162,18786,18841,626826.83,628695.36,626.827,628.695,1.869,explain,7,0.954,0,think of like cutting the butter with
+163,18842,18889,628695.36,630296.96,628.695,630.297,1.602,out,3,0.948,0,with a knife.
+164,18890,19009,630296.96,634300.97,630.297,634.301,4.004,explain,16,0.949,0,But if I give you a third plane to work with let us say another plane
+165,19010,19138,634300.97,638605.27,634.301,638.605,4.304,write,9,0.827,0,plane I will just make up some numbers hopefully
+166,19139,19153,638605.27,639105.77,638.605,639.106,0.501,explain,3,0.745,0,hopefully they will
+167,19154,19279,639105.77,643309.98,639.106,643.310,4.204,out,15,0.949,0,will work. But if I give you three planes then is it possible for us
+168,19280,19311,643309.98,644377.71,643.310,644.378,1.068,explain,4,0.978,0,us to see if
+169,19312,19378,644377.71,646613.28,644.378,646.613,2.236,out,10,0.736,0,"if they all meet at a point. Now, imagine the"
+170,19379,19720,646613.28,658024.69,646.613,658.025,11.411,explain,32,0.902,0,"the corner of a room you have the wall that front the opposite wall and the roof they all are meeting in one point. So, it is possible that when we are"
+171,19721,19792,658024.69,660427.09,658.025,660.427,2.402,out,8,0.889,0,are given three planes if they all intersect
+172,19793,19887,660427.09,663596.93,660.427,663.597,3.170,explain,14,0.917,0,intersect it is possible that we may end up having a solution with a
+173,19888,20042,663596.93,668768.77,663.597,668.769,5.172,out,11,0.933,0,"a which is unique. So, this tells us that whether we"
+174,20043,20201,668768.77,674074.07,668.769,674.074,5.305,explain,15,0.831,0,we go from R2 to R3 or R3 to R4 the number of solutions seem
+175,20202,20235,674074.07,675208.54,674.074,675.209,1.134,out,3,0.926,0,seem to be
+176,20236,20441,675208.54,682082.08,675.209,682.082,6.874,explain,12,0.81,0,be either one infinitely many or zero. Will this situation carry on
+177,20442,20473,682082.08,683149.82,682.082,683.150,1.068,out,4,0.986,0,on later on for
+178,20474,20498,683149.82,683983.98,683.150,683.984,0.834,explain,4,0.951,0,for higher dimensions also
+179,20499,20541,683983.98,685418.75,683.984,685.419,1.435,out,4,0.972,0,"also like R4, R5"
+180,20542,20555,685418.75,685885.89,685.419,685.886,0.467,explain,2,0.821,0,R5 and
+181,20556,20644,685885.89,688855.52,685.886,688.856,2.970,out,6,0.845,0,and we shall explore that but
+182,20645,20688,688855.52,690323.66,688.856,690.324,1.468,explain,3,0.962,0,if I may
+183,20689,20739,690323.66,692025.36,690.324,692.025,1.702,pick_eraser,6,0.97,0,may jump the gun a bit.
+184,20740,20865,692025.36,696229.56,692.025,696.230,4.204,erase,11,0.899,0,"In fact, we will see that we can prove that even"
+185,20866,20881,696229.56,696763.43,696.230,696.763,0.534,drop_eraser,3,0.513,0,"even in R3,"
+186,20882,20970,696763.43,699733.07,696.763,699.733,2.970,out,7,0.775,0,"R3, R4, R5 any Rn the number"
+187,20971,21001,699733.07,700767.43,699.733,700.767,1.034,explain,3,0.99,0,number of solutions
+188,21002,22124,700767.43,738238.24,700.767,738.238,37.471,write,15,0.804,0,"solutions the number of solutions of linear system of linear equations 1, 0 infinitely many."
+189,22125,22137,738238.24,738672.01,738.238,738.672,0.434,explain,0,,1,[silence]
+190,22138,22360,738672.01,746112.78,738.672,746.113,7.441,out,23,0.917,0,"Now, this is something which we are guessing right now but later on we shall prove that this would be the case and"
+191,22361,22491,746112.78,750483.82,746.113,750.484,4.371,pick_eraser,8,0.946,0,and the reasoning comes from basically understanding these
+192,22492,22716,750483.82,757991.32,750.484,757.991,7.508,erase,8,0.878,0,"these things in a more algebraic manner. Now,"
+193,22717,22764,757991.32,759592.93,757.991,759.593,1.602,explain,0,,1,[silence]
+194,22765,22910,759592.93,764464.46,759.593,764.464,4.872,erase,0,,1,[silence]
+195,22911,22919,764464.46,764764.76,764.464,764.765,0.300,drop_eraser,0,,1,[silence]
+196,22920,23024,764764.76,768268.27,764.765,768.268,3.504,explain,0,,1,[silence]
+197,23025,23059,768268.27,769436.10,768.268,769.436,1.168,video_switch,0,,1,[silence]
+198,23060,23135,769436.10,771971.97,769.436,771.972,2.536,explain,0,,1,[silence]
+199,23136,23147,771971.97,772372.37,771.972,772.372,0.400,out,0,,1,[silence]
+200,23148,23251,772372.37,775842.51,772.372,775.843,3.470,explain,4,0.95,0,our aim is to
+201,23252,23763,775842.51,792926.26,775.843,792.926,17.084,write,9,0.968,0,to try to solve the system of linear equations.
+202,23764,23794,792926.26,793960.63,792.926,793.961,1.034,explain,0,,1,[silence]
+203,23795,23897,793960.63,797397.40,793.961,797.397,3.437,out,9,0.971,0,"So, we will try to find a way of"
+204,23898,23944,797397.40,798965.63,797.397,798.966,1.568,explain,4,0.992,0,of solving these things
+205,23945,24005,798965.63,801001.00,798.966,801.001,2.035,change,4,0.968,0,in a purely algebraic
+206,24006,24196,801001.00,807374.04,801.001,807.374,6.373,out,16,0.941,0,algebraic manner and then we will try to understand how to write the solutions to these
+207,24197,24310,807374.04,811177.84,807.374,811.178,3.804,explain,7,0.885,0,these things. First of all let us
+208,24311,24635,811177.84,822022.02,811.178,822.022,10.844,write,23,0.878,0,us get one thing cleared up right away. Suppose we are given this equation or system of equation I say something like this.
+209,24636,24647,822022.02,822422.42,822.022,822.422,0.400,explain,0,,1,[silence]
+210,24648,24816,822422.42,828061.39,822.422,828.061,5.639,out,16,0.944,0,"Now, x and y are variables out here. whether I say x minus 2 y equal"
+211,24817,24857,828061.39,829429.43,828.061,829.429,1.368,explain,5,0.948,0,equal to 3 or suppose
+212,24858,25110,829429.43,837871.20,829.429,837.871,8.442,write,25,0.925,0,suppose I write a minus 2 v is equal to 3 and 2 a plus 3 v is equal to 7. If you look at
+213,25111,25135,837871.20,838705.37,837.871,838.705,0.834,explain,4,0.941,0,at these two systems
+214,25136,25252,838705.37,842609.28,838.705,842.609,3.904,out,13,0.906,0,systems of equation they are identical except for the fact that in one
+215,25253,25359,842609.28,846179.51,842.609,846.180,3.570,explain,18,0.898,0,one case I have used x and y as variables in another case a and b are my
+216,25360,25419,846179.51,848181.51,846.180,848.182,2.002,out,5,0.664,0,my variables but nonetheless whatever
+217,25420,25570,848181.51,853219.89,848.182,853.220,5.038,explain,21,0.779,0,whatever the solution out here whatever we call x equal to same we will hold here for a is equal to.
+218,25571,25644,853219.89,855689.02,853.220,855.689,2.469,out,9,0.919,0,"to. So, part of the matter is it does"
+219,25645,25851,855689.02,862595.93,855.689,862.596,6.907,explain,22,0.921,0,"does not matter what variables are used the things which are really playing the role are these numbers 2, 3, 7 these"
+220,25852,25884,862595.93,863697.03,862.596,863.697,1.101,out,2,0.955,0,these coefficients.
+221,25885,25998,863697.03,867500.83,863.697,867.501,3.804,explain,10,0.983,0,"So, what we do is instead of worrying about this"
+222,25999,26256,867500.83,876109.44,867.501,876.109,8.609,write,21,0.937,0,"this we will put this information in a matrix. So, we will say something like 1 minus 2 2 3. So,"
+223,26257,26405,876109.44,881081.08,876.109,881.081,4.972,explain,15,0.891,0,"So, I have isolated the coefficients of all the variables and then I also incorporate"
+224,26406,26582,881081.08,886986.99,881.081,886.987,5.906,write,16,0.87,0,"incorporate the right hand side 3, 7 and then we just put a vertical bar here."
+225,26583,26597,886986.99,887487.49,886.987,887.487,0.501,explain,2,0.996,0,"here. So,"
+226,26598,26670,887487.49,889923.26,887.487,889.923,2.436,out,5,0.939,0,"So, that it represents that"
+227,26671,26736,889923.26,892125.46,889.923,892.125,2.202,explain,9,0.891,0,that the column of the right hand side represents
+228,26737,26916,892125.46,898131.46,892.125,898.131,6.006,out,9,0.969,0,represents the right right hand side of the equation.
+229,26917,26957,898131.46,899499.50,898.131,899.499,1.368,explain,6,0.993,0,This is what we call as
+230,26958,27208,899499.50,907874.54,899.499,907.875,8.375,write,4,0.909,0,as an augmented matrix.
+231,27209,27232,907874.54,908675.34,907.875,908.675,0.801,explain,4,0.998,0,"So, we can think"
+232,27233,27286,908675.34,910477.14,908.675,910.477,1.802,out,5,0.993,0,think of augmented matrix consisting
+233,27287,27314,910477.14,911411.41,910.477,911.411,0.934,explain,4,0.983,0,consisting of two things.
+234,27315,27922,911411.41,931698.37,911.411,931.698,20.287,write,19,0.885,0,things. This is what the coefficients are and this is what we call as the right hand side vector.
+235,27923,27948,931698.37,932565.90,931.698,932.566,0.868,explain,2,0.709,0,"So, once"
+236,27949,28077,932565.90,936870.20,932.566,936.870,4.304,out,11,0.911,0,once we have this let us give these guys some names.
+237,28078,28116,936870.20,938171.50,936.870,938.172,1.301,explain,6,0.85,0,"So, anytime I see augmented matrix"
+238,28117,28190,938171.50,940640.64,938.172,940.641,2.469,write,3,0.839,0,matrix the left
+239,28191,28196,940640.64,940840.84,940.641,940.841,0.200,explain,2,0.978,0,left part
+240,28197,28248,940840.84,942575.91,940.841,942.576,1.735,out,8,0.852,0,part of it is a matrix a which
+241,28249,28275,942575.91,943476.81,942.576,943.477,0.901,explain,5,0.871,0,which I will call the
+242,28276,28345,943476.81,945812.48,943.477,945.812,2.336,write,8,0.931,0,the coefficient matrix and the right hand side
+243,28346,28353,945812.48,946079.41,945.812,946.079,0.267,explain,2,0.986,0,side is
+244,28354,28443,946079.41,949082.42,946.079,949.082,3.003,out,9,0.902,0,is the vector b which we will call as
+245,28444,28464,949082.42,949783.12,949.082,949.783,0.701,explain,2,0.922,0,as our
+246,28465,28478,949783.12,950250.25,949.783,950.250,0.467,write,4,0.952,0,our right hand side
+247,28479,28488,950250.25,950583.92,950.250,950.584,0.334,explain,2,0.978,0,side vector
+248,28489,28677,950583.92,956890.22,950.584,956.890,6.306,out,18,0.828,0,"vector or sometimes we call it as a constant vector. So, any augmented any system of equation can"
+249,28678,28853,956890.22,962762.76,956.890,962.763,5.873,explain,20,0.927,0,can be written in terms of its augmented matrix and given any augmented matrix we can convert it back to
+250,28854,29008,962762.76,967934.60,962.763,967.935,5.172,out,22,0.956,0,"to a system of equations. So, this is just a notation we are going to use for some time and then we"
+251,29009,29038,967934.60,968935.60,967.935,968.936,1.001,explain,4,0.989,0,we will see how
+252,29039,29088,968935.60,970603.94,968.936,970.604,1.668,out,6,0.978,0,how things work out for us.
+253,29089,29139,970603.94,972305.64,970.604,972.306,1.702,explain,1,0.999,0,us.
+254,29140,29281,972305.64,977043.71,972.306,977.044,4.738,write,5,0.869,0,Still the problem is we
+255,29282,29309,977043.71,977977.98,977.044,977.978,0.934,explain,4,0.879,0,we have not seen
+256,29310,29688,977977.98,990623.96,977.978,990.624,12.646,out,21,0.898,0,"seen a way to solve the equation, but before we venture into solving the equation let us explore something slightly different"
+257,29689,29821,990623.96,995061.73,990.624,995.062,4.438,explain,9,0.917,0,which we will eventually tie up with this idea.
+258,29822,30323,995061.73,1011811.81,995.062,1011.812,16.750,write,13,0.914,0,"So, let me call something about a row picture and a column picture."
+259,30324,30481,1011811.81,1017083.75,1011.812,1017.084,5.272,explain,24,0.849,0,"These things are we do not have to be important later on in the course may be not right now, but at least we"
+260,30482,30608,1017083.75,1021321.32,1017.084,1021.321,4.238,out,14,0.926,0,we should start thinking in these terms and it will be beneficial for us.
+261,30609,30688,1021321.32,1023990.66,1021.321,1023.991,2.669,explain,9,0.786,0,"So, for example, given the system of equation x"
+262,30689,30962,1023990.66,1033133.13,1023.991,1033.133,9.142,write,17,0.917,0,x minus 2 y equal to 3 and 2 x plus 3 y is equal to 7.
+263,30963,31027,1033133.13,1035301.97,1033.133,1035.302,2.169,explain,0,,1,[silence]
+264,31028,31073,1035301.97,1036836.84,1035.302,1036.837,1.535,out,5,0.875,0,If I look it from
+265,31074,31145,1036836.84,1039239.24,1036.837,1039.239,2.402,explain,6,0.834,0,from the perspective of rows this
+266,31146,31210,1039239.24,1041408.07,1039.239,1041.408,2.169,write,6,0.761,0,this is one row this is
+267,31211,31283,1041408.07,1043843.84,1041.408,1043.844,2.436,explain,10,0.969,0,is another row. If I look it from this perspective
+268,31284,31358,1043843.84,1046346.35,1043.844,1046.346,2.503,out,7,0.891,0,perspective solving the system of equation means
+269,31359,31433,1046346.35,1048848.85,1046.346,1048.849,2.503,explain,5,0.943,0,means I am trying to
+270,31434,32094,1048848.85,1070904.24,1048.849,1070.904,22.055,write,24,0.805,0,to find the intersection of two lines this is what would be the row picture for this system of equation. One may say well
+271,32095,32156,1070904.24,1072972.97,1070.904,1072.973,2.069,explain,7,0.775,0,well what is new in that suddenly
+272,32157,32234,1072972.97,1075575.58,1072.973,1075.576,2.603,out,15,0.843,0,suddenly there is nothing new in this it is just the way of looking at
+273,32235,32381,1075575.58,1080480.48,1075.576,1080.480,4.905,explain,11,0.963,0,"at thing, but we can also think of this in a"
+274,32382,32409,1080480.48,1081414.75,1080.480,1081.415,0.934,write,3,0.956,0,a different way.
+275,32410,32547,1081414.75,1086019.35,1081.415,1086.019,4.605,explain,11,0.945,0,"For example, if we concentrate on this system of equation and"
+276,32548,32724,1086019.35,1091925.26,1086.019,1091.925,5.906,write,15,0.895,0,and think in terms of vectors I can write this system as x times 1
+277,32725,32807,1091925.26,1094694.69,1091.925,1094.695,2.769,explain,8,0.832,0,"1 2 look at this column representing y,"
+278,32808,32940,1094694.69,1099132.47,1094.695,1099.132,4.438,write,6,0.833,0,"y, y times minus 2 3"
+279,32941,33000,1099132.47,1101134.47,1099.132,1101.134,2.002,explain,7,0.903,0,and on the right hand side we
+280,33001,33087,1101134.47,1104037.37,1101.134,1104.037,2.903,write,4,0.845,0,we have 3 7.
+281,33088,33153,1104037.37,1106239.57,1104.037,1106.240,2.202,explain,8,0.986,0,"Now, can we say that this is the"
+282,33154,33223,1106239.57,1108575.24,1106.240,1108.575,2.336,out,5,0.991,0,"the same system of equations,"
+283,33224,33745,1108575.24,1125992.66,1108.575,1125.993,17.417,explain,48,0.917,0,"but we are now viewing it in a slightly different manner which I like to call as a column picture. What this is asking us is it possible for me to represent this vector this column vector as a linear combination of these two vectors. So, the column"
+284,33746,34610,1125992.66,1154854.85,1125.993,1154.855,28.862,write,22,0.91,0,column picture for this is can the vector 3 7 be written as a linear combination 1 2 and minus 2 3.
+285,34611,34639,1154854.85,1155822.49,1154.855,1155.822,0.968,explain,0,,1,[silence]
+286,34640,34665,1155822.49,1156690.02,1155.822,1156.690,0.868,out,0,,1,[silence]
+287,34666,34682,1156690.02,1157257.26,1156.690,1157.257,0.567,explain,0,,1,[silence]
+288,34683,34699,1157257.26,1157824.49,1157.257,1157.824,0.567,write,0,,1,[silence]
+289,34700,34714,1157824.49,1158324.99,1157.824,1158.325,0.501,explain,0,,1,[silence]
+290,34715,34920,1158324.99,1165198.53,1158.325,1165.199,6.874,out,19,0.881,0,"Now, one may wonder what is the use of looking in terms of a column picture and as I"
+291,34921,35018,1165198.53,1168468.47,1165.199,1168.468,3.270,explain,11,0.888,0,I mentioned earlier right now we may not see a big
+292,35019,35318,1168468.47,1178478.48,1168.468,1178.478,10.010,out,22,0.909,0,"big use, but we are just trying to get used to a language of linear combination which we manage to us. One"
+293,35319,35563,1178478.48,1186653.32,1178.478,1186.653,8.175,explain,29,0.897,0,One thing I should point out here is this picture was in R 2 and here also we are dealing in R 2 because we have two dimensional vectors
+294,35564,35585,1186653.32,1187387.39,1186.653,1187.387,0.734,out,2,0.659,0,vectors and
+295,35586,35733,1187387.39,1192325.66,1187.387,1192.326,4.938,explain,18,0.882,0,and they are asking can this two dimensional vector be written as a combination of two other vectors
+296,35734,35838,1192325.66,1195829.16,1192.326,1195.829,3.504,out,11,0.958,0,"vectors in two dimensions. However, the row picture and column picture"
+297,35839,35977,1195829.16,1200467.13,1195.829,1200.467,4.638,explain,10,0.975,0,"picture may not be from the same dimension. For example,"
+298,35978,36400,1200467.13,1214581.25,1200.467,1214.581,14.114,write,33,0.808,0,it may happen and suppose we are given these equations say x minus y plus z is equal to 21 3 x plus y minus 3 z is 0 suppose I have been
+299,36401,36513,1214581.25,1218351.69,1214.581,1218.352,3.770,explain,9,0.935,0,been given this system of equations from the if
+300,36514,37191,1218351.69,1240974.31,1218.352,1240.974,22.623,write,31,0.957,0,if I want the row picture of it row picture is basically looking at the system as rows. we are talking about intersection of two planes these two planes live inside
+301,37192,37235,1240974.31,1242442.44,1240.974,1242.442,1.468,explain,3,0.879,0,inside R 3
+302,37236,37321,1242442.44,1245311.98,1242.442,1245.312,2.870,out,9,0.929,0,"whereas, if I want the column picture of this"
+303,37322,37398,1245311.98,1247881.21,1245.312,1247.881,2.569,explain,3,0.671,0,this something different
+304,37399,38199,1247881.21,1274607.94,1247.881,1274.608,26.727,write,30,0.907,0,different happens. The column picture of this would be x times the vector 1 3 y times the vector minus 1 1 and z times the vector 1 minus 3
+305,38200,38229,1274607.94,1275608.94,1274.608,1275.609,1.001,explain,4,0.868,0,is equal to 21
+306,38230,38334,1275608.94,1279112.45,1275.609,1279.112,3.504,out,10,0.808,0,21 0. If you look at the column picture it
+307,38335,38437,1279112.45,1282549.22,1279.112,1282.549,3.437,explain,7,0.86,0,it is asking can this vector can
+308,38438,38488,1282549.22,1284250.92,1282.549,1284.251,1.702,write,6,0.926,0,can this right hand side vector
+309,38489,38500,1284250.92,1284651.32,1284.251,1284.651,0.400,explain,1,0.997,0,vector
+310,38501,38522,1284651.32,1285385.39,1284.651,1285.385,0.734,out,3,0.989,0,vector be written
+311,38523,38681,1285385.39,1290690.69,1285.385,1290.691,5.305,explain,13,0.863,0,"written as a linear combination of these three vectors, but all these vectors"
+312,38682,38945,1290690.69,1299499.50,1290.691,1299.499,8.809,write,5,0.893,0,vectors are in R 2.
+313,38946,39115,1299499.50,1305171.84,1299.499,1305.172,5.672,explain,17,0.923,0,"So, as you can see the row picture and the column picture are from two different worlds"
+314,39116,39145,1305171.84,1306172.84,1305.172,1306.173,1.001,out,4,0.737,0,worlds even though they
+315,39146,39235,1306172.84,1309175.84,1306.173,1309.176,3.003,explain,9,0.914,0,they are referring to the same system of equations.
+316,39236,39357,1309175.84,1313246.58,1309.176,1313.247,4.071,out,13,0.875,0,Will this be advantageous for us at times it will be advantageous for
+317,39358,39980,1313246.58,1334034.03,1313.247,1334.034,20.787,explain,48,0.886,0,"for us to change our perspective and we might be able to answer some things in here and that will shed light on how the will look like in the case of the row picture. So, we will keep these ideas in mind we will keep this particular"
+318,39981,40038,1334034.03,1335969.30,1334.034,1335.969,1.935,write,0,,1,[silence]
+319,40039,40135,1335969.30,1339205.87,1335.969,1339.206,3.237,explain,10,0.911,0,phrase in mind linear combination as it will keep on
+320,40136,40226,1339205.87,1342242.24,1339.206,1342.242,3.036,out,11,0.922,0,on popping up quite a few times in this course and
+321,40227,40369,1342242.24,1347013.68,1342.242,1347.014,4.771,explain,11,0.892,0,and we will try to see if this can help us
+322,40370,40403,1347013.68,1348148.15,1347.014,1348.148,1.134,pick_eraser,3,0.894,0,us understand solving
+323,40404,40461,1348148.15,1350083.42,1348.148,1350.083,1.935,explain,5,0.888,0,solving system of equations in
+324,40462,40507,1350083.42,1351618.28,1350.083,1351.618,1.535,out,4,0.953,0,in a nice manner.
+325,40508,40531,1351618.28,1352419.09,1351.618,1352.419,0.801,pick_eraser,0,,1,[silence]
+326,40532,40594,1352419.09,1354521.19,1352.419,1354.521,2.102,erase,7,0.805,0,"So, we have learnt bunch of things"
+327,40595,40611,1354521.19,1355088.42,1354.521,1355.088,0.567,drop_eraser,3,0.855,0,things we know
+328,40612,40641,1355088.42,1356089.42,1355.088,1356.089,1.001,explain,6,0.793,0,know that even a system of
+329,40642,40665,1356089.42,1356890.22,1356.089,1356.890,0.801,out,6,0.899,0,of equation I can view it
+330,40666,40759,1356890.22,1360026.69,1356.890,1360.027,3.136,explain,14,0.894,0,it as a row picture I can view as in terms of columns and
+331,40760,40781,1360026.69,1360760.76,1360.027,1360.761,0.734,out,1,0.606,0,and
+332,40782,40893,1360760.76,1364497.83,1360.761,1364.498,3.737,explain,9,0.776,0,algebraically I can represent it as represented as augmented
+333,40894,40964,1364497.83,1366866.87,1364.498,1366.867,2.369,out,2,0.721,0,augmented matrix.
+334,40965,41032,1366866.87,1369135.80,1366.867,1369.136,2.269,pick_eraser,2,0.678,0,"So, now"
+335,41033,41228,1369135.80,1375675.68,1369.136,1375.676,6.540,erase,14,0.939,0,now let us try to see if we can solve a system of equation.
+336,41229,41246,1375675.68,1376276.28,1375.676,1376.276,0.601,drop_eraser,0,,1,[silence]
+337,41247,41272,1376276.28,1377143.81,1376.276,1377.144,0.868,out,0,,1,[silence]
+338,41273,41341,1377143.81,1379446.11,1377.144,1379.446,2.302,explain,2,0.982,0,"So, let"
+339,41342,41427,1379446.11,1382315.65,1379.446,1382.316,2.870,write,10,0.796,0,let us try our luck with something very very simple
+340,41428,41492,1382315.65,1384484.48,1382.316,1384.484,2.169,erase,5,0.783,0,simple let me change it
+341,41493,41526,1384484.48,1385618.95,1384.484,1385.619,1.134,explain,1,0.57,0,let
+342,41527,41651,1385618.95,1389789.79,1385.619,1389.790,4.171,write,7,0.798,0,let me just put it like this
+343,41652,41668,1389789.79,1390357.02,1389.790,1390.357,0.567,explain,0,,1,[silence]
+344,41669,41857,1390357.02,1396663.33,1390.357,1396.663,6.306,out,15,0.7,0,"let me call it x equal to 1 y equal to 3. Now, have deliberately"
+345,41858,41906,1396663.33,1398298.30,1396.663,1398.298,1.635,explain,4,0.797,0,deliberately written things in
+346,41907,42124,1398298.30,1405572.24,1398.298,1405.572,7.274,write,21,0.824,0,in a weird manner so that we can understand this is like 0 times y and this is 0 times x.
+347,42125,42137,1405572.24,1406006.01,1405.572,1406.006,0.434,explain,1,0.713,0,x.
+348,42138,42310,1406006.01,1411778.45,1406.006,1411.778,5.772,out,17,0.812,0,If you look at this system of equation again let us assume we are working in R
+349,42311,42331,1411778.45,1412479.15,1411.778,1412.479,0.701,explain,2,0.784,0,R 2
+350,42332,42388,1412479.15,1414381.05,1412.479,1414.381,1.902,write,1,0.17,0,can
+351,42389,42401,1414381.05,1414814.81,1414.381,1414.815,0.434,explain,3,0.705,0,can we say
+352,42402,42431,1414814.81,1415815.82,1414.815,1415.816,1.001,out,3,0.985,0,say that this
+353,42432,42519,1415815.82,1418752.09,1415.816,1418.752,2.936,explain,14,0.958,0,this system has a solution x is equal to 1 y is equal to
+354,42520,42765,1418752.09,1426960.29,1418.752,1426.960,8.208,out,27,0.911,0,"to 3. So, in sense we have nothing to do we do not really need to do any thing and we can still get the answer. So,"
+355,42766,42843,1426960.29,1429562.90,1426.960,1429.563,2.603,explain,10,0.887,0,this would be in some sense our ideal situation when
+356,42844,43051,1429562.90,1436503.17,1429.563,1436.503,6.940,write,20,0.857,0,when we would when we can have a matrix when we can have an augmented matrix which looks like this.
+357,43052,43071,1436503.17,1437170.50,1436.503,1437.171,0.667,explain,4,0.88,0,"So, if our augmented"
+358,43072,43124,1437170.50,1438938.94,1437.171,1438.939,1.768,out,8,0.941,0,augmented matrix looks like this we can easily
+359,43125,43168,1438938.94,1440407.07,1438.939,1440.407,1.468,explain,6,0.962,0,easily read out the solution because
+360,43169,43184,1440407.07,1440940.94,1440.407,1440.941,0.534,out,2,0.885,0,because I
+361,43185,43200,1440940.94,1441474.81,1440.941,1441.475,0.534,explain,3,0.962,0,I can convert
+362,43201,43271,1441474.81,1443843.84,1441.475,1443.844,2.369,write,5,0.985,0,convert it back to this
+363,43272,43285,1443843.84,1444310.98,1443.844,1444.311,0.467,explain,2,0.993,0,this and
+364,43286,43386,1444310.98,1447681.01,1444.311,1447.681,3.370,out,15,0.991,0,"and read out the solution. So, in some sense this is what we call as"
+365,43387,43461,1447681.01,1450183.52,1447.681,1450.184,2.503,explain,2,0.994,0,as our
+366,43462,43796,1450183.52,1461361.36,1450.184,1461.361,11.178,write,20,0.88,0,"dream augmented matrix when this is not a technical term something which I have just made In fact, there is"
+367,43797,43809,1461361.36,1461795.13,1461.361,1461.795,0.434,explain,4,0.97,0,is a name for
+368,43810,43852,1461795.13,1463229.90,1461.795,1463.230,1.435,out,2,0.992,0,for it
+369,43853,43880,1463229.90,1464164.16,1463.230,1464.164,0.934,explain,0,,1,[silence]
+370,43881,43890,1464164.16,1464497.83,1464.164,1464.498,0.334,write,0,,1,[silence]
+371,43891,43896,1464497.83,1464698.03,1464.498,1464.698,0.200,explain,0,,1,[silence]
+372,43897,43966,1464698.03,1467033.70,1464.698,1467.034,2.336,out,5,0.762,0,the name is basically we
+373,43967,43991,1467033.70,1467867.87,1467.034,1467.868,0.834,explain,4,0.924,0,we will call this
+374,43992,44351,1467867.87,1479879.88,1467.868,1479.880,12.012,write,10,0.904,0,this kind of a matrix as row reduced echelon form.
+375,44352,44362,1479879.88,1480246.91,1479.880,1480.247,0.367,explain,0,,1,[silence]
+376,44363,44551,1480246.91,1486553.22,1480.247,1486.553,6.306,out,17,0.84,0,"So, in some sense we have want to target row reduced echelon form but the question is"
+377,44552,44576,1486553.22,1487387.39,1486.553,1487.387,0.834,explain,3,0.969,0,is given a
+378,44577,44601,1487387.39,1488221.55,1487.387,1488.222,0.834,out,4,0.944,0,a general matrix how
+379,44602,44639,1488221.55,1489489.49,1488.222,1489.489,1.268,explain,5,0.919,0,how can I achieve this
+380,44640,44699,1489489.49,1491491.49,1489.489,1491.491,2.002,out,3,0.89,0,this and in
+381,44700,44740,1491491.49,1492859.53,1491.491,1492.860,1.368,explain,6,0.982,0,in order to do that we
+382,44741,45037,1492859.53,1502769.44,1492.860,1502.769,9.910,write,7,0.938,0,we will learn something called row operations.
+383,45038,45073,1502769.44,1503970.64,1502.769,1503.971,1.201,explain,0,,1,[silence]
+384,45074,45195,1503970.64,1508041.37,1503.971,1508.041,4.071,out,0,,1,[silence]

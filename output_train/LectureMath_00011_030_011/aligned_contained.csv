@@ -1,0 +1,135 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,514,0.00,17183.85,0.000,17.184,17.184,explain,46,0.82,0,"Hello everyone, I'm Xuxi, welcome to my channel. In this video we are to an exercise of factorization of polynomials. Remember that in the information you have available all the links that you may need if you want to do this exercise So let's do it."
+1,515,1114,17183.85,37203.87,17.184,37.204,20.020,transit,31,0.905,0,"These are the exercises that we are to solve. You can pause the video, copy the exercises and solve them. Then you can continue watching the video to see how they"
+2,1115,2209,37203.87,73740.41,37.204,73.740,36.537,explain,106,0.799,0,"Whenever we have to factorize any polynomial, first thing we have to do is try to a common If you it, of Well, let's see if these three terms We see from part of the numbers that the common factor is 1. Why? Because 1, 12 and 36, its maximum common divisor is 1. Therefore, when we 1, 1, we do extract anything. And from the letters, from the literal part, what can we What do in common? Well, the maximum common divisor of the letters is x squared. The maximum I can extract from all of them is x squared. Well, that is going to"
+3,2210,2262,73740.41,75508.84,73.740,75.509,1.768,write,3,0.99,0,be our common
+4,2263,2662,75508.84,88855.52,75.509,88.856,13.347,explain,31,0.836,0,"Well, if I extract x squared from this first term, when I extract it, I divide x squared by x squared, what do get? Let's if you like this. x squared"
+5,2663,2739,88855.52,91424.76,88.856,91.425,2.569,write,7,0.781,0,is x times x times x x.
+6,2740,2818,91424.76,94060.73,91.425,94.061,2.636,explain,6,0.683,0,x four times x. If I
+7,2819,2855,94060.73,95295.30,94.061,95.295,1.235,emphasize,1,0.639,0,"2x,"
+8,2856,2970,95295.30,99132.47,95.295,99.132,3.837,explain,9,0.686,0,how many do have left? Two I have x
+9,2971,2997,99132.47,100033.37,99.132,100.033,0.901,write,1,0.861,0,squared
+10,2998,3455,100033.37,115315.32,100.033,115.315,15.282,explain,47,0.798,0,"This is the same as if we x fourths between the common that is x squared, it gives me x squared, Here I have done it visually, the dividing so that you in the background what we doing. If I have x cubed, I have three x"
+11,3456,3491,115315.32,116516.52,115.315,116.517,1.201,write,3,0.669,0,in this one.
+12,3492,3636,116516.52,121354.69,116.517,121.355,4.838,explain,15,0.769,0,"And if I 2, that if I divide x cubed by x squared, will have"
+13,3637,3704,121354.69,123623.62,121.355,123.624,2.269,write,2,0.758,0,one x
+14,3705,3865,123623.62,128995.66,123.624,128.996,5.372,explain,21,0.892,0,"And here I have x squared. If I remove the x squared, if I x squared by x squared, I do"
+15,3866,3877,128995.66,129396.06,128.996,129.396,0.400,write,1,0.97,0,have
+16,3878,5036,129396.06,168068.07,129.396,168.068,38.672,explain,92,0.843,0,"any x That's it like this. Well, once I have extracted the common let's see what I left in the parenthesis. Let's if we can continue to factorize this polynomial. I have a second degree that three terms. It can be a notable identity. I already that is a notable identity. I'm sure many of have already seen it. If it is or you are not able to see that this comes from a notable identity, do worry. You can do it as a second degree okay? For those of have seen"
+17,5037,5543,168068.07,184984.98,168.068,184.985,16.917,write,20,0.674,0,"it, great, put it now. I am going solve it as a second degree okay? For that, equal to zero"
+18,5544,5803,184984.98,193660.33,184.985,193.660,8.675,explain,15,0.83,0,"and I find the value of x. I am to do with the formula, okay?"
+19,5804,5835,193660.33,194728.06,193.660,194.728,1.068,write,0,,1,[silence]
+20,5836,5955,194728.06,198732.07,194.728,198.732,4.004,explain,12,0.808,0,"Minus b, you already know that it the term that accompanies x."
+21,5956,5962,198732.07,198965.63,198.732,198.966,0.234,write,2,0.862,0,And if
+22,5963,6011,198965.63,200600.60,198.966,200.601,1.635,explain,5,0.551,0,"it is less, minus minus"
+23,6012,6485,200600.60,216416.42,200.601,216.416,15.816,write,25,0.875,0,"12 plus 12 plus minus root of b squared minus 12 squared minus 4 times a, which 1, times c, which 36, divided by 2."
+24,6486,6537,216416.42,218151.48,216.416,218.151,1.735,explain,1,0.824,0,solve
+25,6538,6935,218151.48,231431.43,218.151,231.431,13.280,write,15,0.741,0,"12 plus minus 144 minus 144 divided by 2, if I down here, 12 plus"
+26,6936,7032,231431.43,234668.00,231.431,234.668,3.237,explain,5,0.654,0,"minus root of zero, because"
+27,7033,7050,234668.00,235268.60,234.668,235.269,0.601,point,4,0.81,0,this is going to
+28,7051,7062,235268.60,235669.00,235.269,235.669,0.400,write,2,0.903,0,give me
+29,7063,7092,235669.00,236670.00,235.669,236.670,1.001,explain,3,0.627,0,"zero, because I"
+30,7093,7144,236670.00,238405.07,236.670,238.405,1.735,fingererase,7,0.838,0,"don't put anything here, because plus minus"
+31,7145,7158,238405.07,238872.21,238.405,238.872,0.467,explain,1,0.958,0,"zero,"
+32,7159,7165,238872.21,239105.77,238.872,239.106,0.234,write,0,,1,[silence]
+33,7166,7194,239105.77,240073.41,239.106,240.073,0.968,explain,1,0.729,0,12
+34,7195,7204,240073.41,240407.07,240.073,240.407,0.334,write,2,0.545,0,is already
+35,7205,7231,240407.07,241307.97,240.407,241.308,0.901,explain,1,0.3,0,12
+36,7232,7246,241307.97,241808.48,241.308,241.808,0.501,write,0,,1,[silence]
+37,7247,7714,241808.48,257424.09,241.808,257.424,15.616,explain,49,0.766,0,"divided by 2. And be here, when zero here, as I am going to have two possibilities, the positive and the negative, I am going to have only one possibility. The possibility that I have left, I am going to put what is double, that is, 12 divided 2"
+38,7715,7729,257424.09,257924.59,257.424,257.925,0.501,write,2,0.809,0,is 6.
+39,7730,7773,257924.59,259392.73,257.925,259.393,1.468,explain,4,0.888,0,this value of x
+40,7774,7920,259392.73,264297.63,259.393,264.298,4.905,write,7,0.9,0,is to a double What does mean?
+41,7921,8663,264297.63,289089.09,264.298,289.089,24.791,explain,46,0.809,0,"Now we will see. Once I have this, I am going to pass the solutions to factors. I this factor outside. What are the solutions of this polynomial, of this second degree? What two solutions have come out to me? 6, 6 two times. That means,"
+42,8664,9191,289089.09,306706.71,289.089,306.707,17.618,write,29,0.759,0,"how do pass from solution to factor? If I have 6 two times, you already know x and the number changed by sign. The factor is x minus 6."
+43,9192,9318,306706.71,310944.28,306.707,310.944,4.238,explain,8,0.842,0,"Therefore, these two factors. This is the same,"
+44,9319,9383,310944.28,313113.11,310.944,313.113,2.169,write,0,,1,[silence]
+45,9384,9708,313113.11,323957.29,313.113,323.957,10.844,explain,21,0.719,0,"factorized, these these two solutions, which are these two factors. This one, which is the parenthesis, is the same as writing,"
+46,9709,9761,323957.29,325725.73,323.957,325.726,1.768,write,3,0.752,0,x minus 6
+47,9762,9819,325725.73,327660.99,325.726,327.661,1.935,explain,5,0.664,0,two times by x minus
+48,9820,9833,327660.99,328128.13,327.661,328.128,0.467,write,4,0.962,0,"6, which is the"
+49,9834,11334,328128.13,378211.54,328.128,378.212,50.083,explain,118,0.795,0,"same as x minus 6 squared. Those of you have done directly as a notable you have passed directly to write. It comes from a binomial that is subtracted, which is x minus 6 squared. Why? Because this squared is squared of the first, which is x squared, minus 4 by x by 6, sorry, 2 by x by 6, is 12x plus squared of the second, which is 36. You have saved all this process if you know the notable That is I encourage you to practice them. If you know it and you know how find equations in second degree, do it like this and the solutions are converted into factors. And you put this polynomial"
+50,11335,11392,378211.54,380146.81,378.212,380.147,1.935,emphasize,4,0.889,0,"factorized to the maximum,"
+51,11393,11890,380146.81,396763.43,380.147,396.763,16.617,explain,32,0.831,0,"which together with the common that we have extracted, all this polynomial is the same as this polynomial, sorry, these factors, these terms factorized. This polynomial factorized to the maximum is that."
+52,11891,11902,396763.43,397163.83,396.763,397.164,0.400,transit,0,,1,[silence]
+53,11903,13150,397163.83,438805.47,397.164,438.805,41.642,explain,118,0.806,0,"In this polynomial we are to see if we can extract a common You already know that it the first thing that done and I notice that all the terms can have both number and letter in common. In this case, as you can see, 2, 5, 4 and 3 have nothing in common and they also do have all the letters in common because having an independent they no have any letter in common. So first step done because we cannot extract a Second step, what kind of polynomial do we have? A polynomial of a degree greater than 2. Therefore, you know that to factorize it we have to apply Ruffini, okay? We remember how Ruffini"
+54,13151,13222,438805.47,441207.87,438.805,441.208,2.402,write,3,0.94,0,We put our
+55,13223,13563,441207.87,452585.92,441.208,452.586,11.378,explain,28,0.83,0,"table, our box and here we are putting the terms in the order of the x. I have the term of x cubed and I only put the"
+56,13564,13579,452585.92,453119.79,452.586,453.120,0.534,write,1,0.987,0,number
+57,13580,13651,453119.79,455522.19,453.120,455.522,2.402,explain,6,0.787,0,"2. The term of x squared,"
+58,13652,14056,455522.19,469035.70,455.522,469.036,13.514,write,28,0.766,0,"5. The term of x minus 4 and the independent term minus 3. Well, and now I'm to start dividing. What numbers can I start dividing? By the"
+59,14057,14119,469035.70,471137.80,469.036,471.138,2.102,emphasize,4,0.898,0,divisors of the independent
+60,14120,14147,471137.80,472072.07,471.138,472.072,0.934,point,1,0.986,0,"term,"
+61,14148,14243,472072.07,475275.28,472.072,475.275,3.203,explain,9,0.879,0,positive and negative. What are the divisors of 3?
+62,14244,14349,475275.28,478812.15,475.275,478.812,3.537,write,8,0.783,0,"1 and positive and negative and 3, positive"
+63,14350,14472,478812.15,482916.25,478.812,482.916,4.104,explain,11,0.837,0,"and negative. Well, let's try it okay? If I start with"
+64,14473,14490,482916.25,483516.85,482.916,483.517,0.601,write,1,0.772,0,"1,"
+65,14491,14681,483516.85,489889.89,483.517,489.890,6.373,explain,22,0.719,0,"you know, I put it here, I'm going to try with positive 1. I put here and start. I lower the 2"
+66,14682,14695,489889.89,490357.02,489.890,490.357,0.467,write,0,,1,[silence]
+67,14696,14799,490357.02,493827.16,490.357,493.827,3.470,explain,10,0.733,0,and multiply 2 by 1 and what I get I
+68,14800,14816,493827.16,494394.39,493.827,494.394,0.567,write,1,0.928,0,put
+69,14817,15096,494394.39,503737.07,494.394,503.737,9.343,explain,20,0.827,0,it 2. I operate this plus 5 plus 2. Why more? Because they are positive. Plus 5 plus 2 plus
+70,15097,15117,503737.07,504437.77,503.737,504.438,0.701,write,1,0.995,0,7.
+71,15118,15262,504437.77,509275.94,504.438,509.276,4.838,explain,17,0.764,0,7 I multiply it by the corners. 7 times 1 7 and I put it below the
+72,15263,15281,509275.94,509909.91,509.276,509.910,0.634,write,1,0.921,0,next
+73,15282,15339,509909.91,511845.18,509.910,511.845,1.935,explain,5,0.566,0,one. 7 minus 4 is
+74,15340,15355,511845.18,512379.05,511.845,512.379,0.534,write,1,0.448,0,3
+75,15356,15488,512379.05,516816.82,512.379,516.817,4.438,explain,22,0.713,0,and what it gives me here I multiply it by the corner. 3 times 1 3 and I put it in the
+76,15489,15504,516816.82,517350.68,516.817,517.351,0.534,write,1,0.933,0,next
+77,15505,15549,517350.68,518852.19,517.351,518.852,1.502,explain,4,0.742,0,one. And 3 minus
+78,15550,15595,518852.19,520387.05,518.852,520.387,1.535,write,3,0.754,0,3 is 0.
+79,15596,15704,520387.05,524024.02,520.387,524.024,3.637,explain,9,0.677,0,"Well, this one has given me. We continue then."
+80,15705,15804,524024.02,527360.69,524.024,527.361,3.337,write,11,0.752,0,"You know, when it 0, that means that that is a"
+81,15805,16592,527360.69,553653.65,527.361,553.654,26.293,explain,74,0.83,0,"root, that is a solution. All the processes that I am doing here without stopping to explain them a lot, such Ruffini and the roots and all that, you have below the links to see it more okay? I'm going to continue. I'm going to try now, for example, with minus 1. By the you repeat with 1, okay? Even if you have already once, you can repeat, which is a doubt that arises"
+82,16593,16611,553653.65,554287.62,553.654,554.288,0.634,write,2,0.965,0,a lot.
+83,16612,16663,554287.62,556022.69,554.288,556.023,1.735,explain,2,0.384,0,I the
+84,16664,16676,556022.69,556456.46,556.023,556.456,0.434,write,1,0.879,0,"2,"
+85,16677,16743,556456.46,558692.03,556.456,558.692,2.236,explain,7,0.873,0,multiply 2 by minus 1 and put
+86,16744,16908,558692.03,564197.53,558.692,564.198,5.506,write,11,0.802,0,"here minus 2 or but 7 minus 2, 5. I see"
+87,16909,17050,564197.53,568935.60,564.198,568.936,4.738,fingererase,16,0.846,0,that it is going to me. I'm going try with it because it has to give
+88,17051,17197,568935.60,573840.51,568.936,573.841,4.905,explain,21,0.618,0,"0, you know, and I've seen in advance that it was going give 0. We are to try with 1 again."
+89,17198,17282,573840.51,576676.68,573.841,576.677,2.836,write,8,0.704,0,"I the 2, 2 times 1, 2, it"
+90,17283,17385,576676.68,580113.45,576.677,580.113,3.437,fingererase,4,0.768,0,will give me either.
+91,17386,17435,580113.45,581781.78,580.113,581.782,1.668,explain,3,0.969,0,I try with
+92,17436,17453,581781.78,582382.38,581.782,582.382,0.601,write,1,0.912,0,"3,"
+93,17454,17492,582382.38,583683.68,582.382,583.684,1.301,explain,1,0.987,0,lower
+94,17493,17508,583683.68,584217.55,583.684,584.218,0.534,write,2,0.855,0,"the 2,"
+95,17509,17672,584217.55,589689.69,584.218,589.690,5.472,explain,10,0.77,0,"2 times 3, 6 neither, and with the minus 3,"
+96,17673,17709,589689.69,590924.26,589.690,590.924,1.235,fingererase,0,,1,[silence]
+97,17710,17779,590924.26,593259.93,590.924,593.260,2.336,explain,0,,1,[silence]
+98,17780,17927,593259.93,598198.20,593.260,598.198,4.938,write,6,0.893,0,"2 times minus 3 minus 6,"
+99,17928,17998,598198.20,600567.23,598.198,600.567,2.369,explain,4,0.982,0,"minus 6 plus 7,"
+100,17999,18018,600567.23,601234.57,600.567,601.235,0.667,write,1,0.956,0,"1,"
+101,18019,18075,601234.57,603136.47,601.235,603.136,1.902,explain,4,0.981,0,"1 times minus 3,"
+102,18076,18184,603136.47,606773.44,603.136,606.773,3.637,write,4,0.635,0,"minus 3, now yes,"
+103,18185,18420,606773.44,614647.98,606.773,614.648,7.875,explain,4,0.608,0,0. And if you
+104,18421,18442,614647.98,615382.05,614.648,615.382,0.734,write,1,0.935,0,"here,"
+105,18443,19619,615382.05,654654.65,615.382,654.655,39.273,explain,102,0.784,0,"you try with more numbers, you that it is no to us any, okay? But we are going to miss one, because being a third degree, I need one more. Well, here I have solutions. Ruffini serves me this case for the whole How do the that are not whole? Well, once I get here, I have tried and I see that I have not reached the end, because having two numbers here, I have reached the end, I have added the literal I have added the x. You already know that starts from right to left, the independent term, which in"
+106,19620,19636,654654.65,655221.89,654.655,655.222,0.567,write,3,0.989,0,this case is
+107,19637,19688,655221.89,656956.96,655.222,656.957,1.735,explain,5,0.909,0,"positive, I am adding x,"
+108,19689,19706,656956.96,657557.56,656.957,657.558,0.601,write,0,,1,[silence]
+109,19707,19948,657557.56,665632.30,657.558,665.632,8.075,explain,21,0.688,0,"x, if I to the other term, x squared, x cubed, I adding in order, and this equals 0. So I"
+110,19949,20032,665632.30,668435.10,665.632,668.435,2.803,write,5,0.726,0,have 2x plus 1 equals
+111,20033,20138,668435.10,671971.97,668.435,671.972,3.537,explain,5,0.733,0,"0 and clear the x,"
+112,20139,20276,671971.97,676576.58,671.972,676.577,4.605,write,9,0.769,0,"2x, the 1 goes to other side negative, I"
+113,20277,20355,676576.58,679212.55,676.577,679.213,2.636,explain,7,0.852,0,"the x alone, the 2 goes dividing,"
+114,20356,20413,679212.55,681147.81,679.213,681.148,1.935,write,3,0.916,0,because they are
+115,20414,21043,681147.81,702168.84,681.148,702.169,21.021,explain,43,0.758,0,"multiplying, and then I get x minus a half, you see? This is the other solution, which is not an option. do have? I x1, x minus 3, and x minus a half, because those solutions I pass them to factors. I am"
+116,21044,21319,702168.84,711378.04,702.169,711.378,9.209,write,17,0.932,0,"going to put solutions and factors. The solution 1, solution minus 3, and solution minus a half."
+117,21320,21398,711378.04,714014.01,711.378,714.014,2.636,explain,10,0.735,0,You already know that to pass the factors you put
+118,21399,21677,714014.01,723323.32,714.014,723.323,9.309,write,31,0.849,0,"x and the number changed of sign. The 1 as a factor is x minus 1, the minus 3 x plus 3, and the minus a half is x plus half."
+119,21678,21806,723323.32,727627.63,723.323,727.628,4.304,explain,4,0.857,0,This means that this
+120,21807,21871,727627.63,729796.46,727.628,729.796,2.169,pickerase,0,,1,[silence]
+121,21872,21992,729796.46,733833.83,729.796,733.834,4.037,erase,1,0.52,0,factorized
+122,21993,22020,733833.83,734768.10,733.834,734.768,0.934,droperase,0,,1,[silence]
+123,22021,22063,734768.10,736202.87,734.768,736.203,1.435,explain,1,0.917,0,the
+124,22064,22215,736202.87,741274.61,736.203,741.275,5.072,write,2,0.933,0,"final factorization,"
+125,22216,22328,741274.61,745045.05,741.275,745.045,3.770,explain,2,0.683,0,is to
+126,22329,22486,745045.05,750316.98,745.045,750.317,5.272,write,7,0.751,0,x minus 1 by x plus 3
+127,22487,22548,750316.98,752385.72,750.317,752.386,2.069,explain,4,0.853,0,by the next factor
+128,22549,22655,752385.72,755955.96,752.386,755.956,3.570,write,4,0.852,0,"x plus a half,"
+129,22656,22728,755955.96,758391.73,755.956,758.392,2.436,emphasize,6,0.966,0,and this is the final factorization
+130,22729,24037,758391.73,802068.74,758.392,802.069,43.677,explain,116,0.8,0,"of this polynomial, okay? You We have used Ruffini, but Ruffini, if it a number it is not complete. That we have found all the solutions. That means that some solution is not a real as it has happened to now. See? Sorry, is not a whole Why? Because one of its values was going to be a fraction. Well, have found the two roots, whole by Ruffini, and the that was left, we have found it as doing a first -degree that had come out here, and we have added that solution that was not whole, okay? Once we have the solutions, we go to factors and we put the final factorization of our polynomial."
+131,24038,24049,802068.74,802469.14,802.069,802.469,0.400,transit,0,,1,[silence]
+132,24050,24478,802469.14,816783.45,802.469,816.783,14.314,explain,46,0.912,0,"And so far today's video. If you liked the video, give it a like and share it, subscribe to this channel and follow me Instagram if you want to aware of new videos and exercises. Have a good day and see you in the next video."
+133,24479,24783,816783.45,826960.29,816.783,826.960,10.177,transit,0,,1,[silence]

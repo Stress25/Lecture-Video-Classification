@@ -1,0 +1,572 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,221,0.00,7407.41,0.000,7.407,7.407,write,9,0.768,0,"So, today we are going to do seventh lecture."
+1,222,391,7407.41,13079.75,7.407,13.080,5.672,explain,10,0.981,0,"So, let see last time we did something about independence."
+2,392,2483,13079.75,82882.88,13.080,82.883,69.803,write,31,0.904,0,let me quickly recall what we did about independence. We set up a set of vectors in a space R n is independent or we call it linearly independent with the
+3,2484,2505,82882.88,83616.95,82.883,83.617,0.734,explain,0,,1,[silence]
+4,2506,2586,83616.95,86319.65,83.617,86.320,2.703,out,0,,1,[silence]
+5,2587,2675,86319.65,89289.29,86.320,89.289,2.970,explain,1,0.0,0,set
+6,2676,2803,89289.29,93560.23,89.289,93.560,4.271,write,9,0.509,0,"set was So, we set up set of n."
+7,2804,2835,93560.23,94627.96,93.560,94.628,1.068,explain,0,,1,[silence]
+8,2836,2875,94627.96,95962.63,94.628,95.963,1.335,out,0,,1,[silence]
+9,2876,2912,95962.63,97197.20,95.963,97.197,1.235,explain,0,,1,[silence]
+10,2913,3757,97197.20,125392.06,97.197,125.392,28.195,write,22,0.821,0,"So, we set up a set space n. So, is something which we need to be reminded of over and over again."
+11,3758,3835,125392.06,127994.66,125.392,127.995,2.603,explain,10,0.848,0,"So, namely the zero solution is always there because once"
+12,3836,3988,127994.66,133099.77,127.995,133.100,5.105,out,16,0.845,0,"once we have the all c i's are 0, then for sure this equation is satisfied."
+13,3989,4077,133099.77,136069.40,133.100,136.069,2.970,explain,6,0.997,0,"So, we are more interested in"
+14,4078,4690,136069.40,156523.19,136.069,156.523,20.454,write,10,0.861,0,in basically is this the only solution or there are
+15,4691,4768,156523.19,159125.79,156.523,159.126,2.603,explain,5,0.976,0,"So, based on that we"
+16,4769,4917,159125.79,164097.43,159.126,164.097,4.972,out,12,0.906,0,we can decide whether the things are independent or they are dependent
+17,4918,4963,164097.43,165632.30,164.097,165.632,1.535,explain,1,0.215,0,ok.
+18,4964,5027,165632.30,167767.77,165.632,167.768,2.135,out,6,0.84,0,"ok. So, I cannot emphasize enough"
+19,5028,5405,167767.77,180380.38,167.768,180.380,12.613,explain,41,0.891,0,"enough on the common mistake which most often occurs. Mostly when you are dealing with this for the first time, you write this equation and you ask yourself is there a solution and then you say well c 1, c 2,"
+20,5406,5503,180380.38,183650.32,180.380,183.650,3.270,out,11,0.851,0,c k is a zero solution hence it is independent. The
+21,5504,5589,183650.32,186519.85,183.650,186.520,2.870,explain,7,0.952,0,The emphasis is on this word only
+22,5590,5623,186519.85,187654.32,186.520,187.654,1.134,write,2,0.596,0,only is
+23,5624,5692,187654.32,189956.62,187.654,189.957,2.302,explain,7,0.897,0,is it the only solution or do
+24,5693,5809,189956.62,193860.53,189.957,193.861,3.904,out,7,0.875,0,"do I have something else ok. So,"
+25,5810,5922,193860.53,197630.96,193.861,197.631,3.770,explain,7,0.961,0,"So, one thing we found was if"
+26,5923,6864,197630.96,229062.40,197.631,229.062,31.431,write,43,0.882,0,"we have the number of vectors, if number of vectors in the my set S is bigger than the dimension of the space we will say S is then we found that S is dependent. So, you can have only so many independent"
+27,6865,6934,229062.40,231398.06,229.062,231.398,2.336,explain,7,0.902,0,independent vectors in a given space and
+28,6935,6996,231398.06,233466.80,231.398,233.467,2.069,out,10,0.773,0,and that is the moment you exceed the dimension of
+29,6997,7521,233466.80,250984.32,233.467,250.984,17.518,explain,41,0.944,0,"of the space you are losing independence. That means that any extra vector that is given in the set is now can be written as a linear combination of the others. So, here is one more observation that you can make."
+30,7522,8311,250984.32,277344.01,250.984,277.344,26.360,write,12,0.798,0,Suppose we have a set which we know is dependent. Suppose this
+31,8312,8466,277344.01,282515.85,277.344,282.516,5.172,explain,8,0.803,0,this is a dependent set that means there
+32,8467,8556,282515.85,285518.85,282.516,285.519,3.003,write,6,0.836,0,is at least one c i
+33,8557,8662,285518.85,289055.72,285.519,289.056,3.537,explain,0,,1,[silence]
+34,8663,8699,289055.72,290290.29,289.056,290.290,1.235,pickerase,0,,1,[silence]
+35,8700,8735,290290.29,291491.49,290.290,291.491,1.201,erase,0,,1,[silence]
+36,8736,8792,291491.49,293393.39,291.491,293.393,1.902,droperase,0,,1,[silence]
+37,8793,8851,293393.39,295362.03,293.393,295.362,1.969,explain,0,,1,[silence]
+38,8852,9148,295362.03,305271.94,295.362,305.272,9.910,write,3,0.851,0,is non -zero
+39,9149,9224,305271.94,307807.81,305.272,307.808,2.536,explain,8,0.872,0,-zero because then we are claiming that it
+40,9225,9267,307807.81,309242.58,307.808,309.243,1.435,out,8,0.976,0,it has at least one non -zero solution
+41,9268,9388,309242.58,313279.95,309.243,313.280,4.037,explain,11,0.954,0,"solution something must be non -zero. So, without loss of generality"
+42,9389,10341,313279.95,345078.41,313.280,345.078,31.798,write,50,0.847,0,generality say c 1 was not zero. In that case we know that c 1 b 1 can be written as minus c 2 v 2 minus c k. Now since c 1 is not zero that means I can divide by c 1 and I can write it as
+43,10342,10383,345078.41,346479.81,345.078,346.480,1.401,explain,0,,1,[silence]
+44,10384,10452,346479.81,348782.12,346.480,348.782,2.302,pickerase,0,,1,[silence]
+45,10453,10498,348782.12,350316.98,348.782,350.317,1.535,droperase,0,,1,[silence]
+46,10499,10569,350316.98,352686.02,350.317,352.686,2.369,explain,0,,1,[silence]
+47,10570,10841,352686.02,361761.76,352.686,361.762,9.076,write,3,0.829,0,the question is
+48,10842,11069,361761.76,369369.37,361.762,369.369,7.608,explain,16,0.976,0,is what exactly does this mean for us. This means if we remember our definition of
+49,11070,11098,369369.37,370337.00,369.369,370.337,0.968,out,4,0.838,0,of linear span this
+50,11099,11202,370337.00,373807.14,370.337,373.807,3.470,explain,4,0.82,0,this means that this
+51,11203,11600,373807.14,387087.09,373.807,387.087,13.280,write,12,0.647,0,this the right hand is nothing but a span of v 2.
+52,11601,11682,387087.09,389823.16,387.087,389.823,2.736,explain,11,0.949,0,"So, what we are saying is if the set of vectors"
+53,11683,11729,389823.16,391391.39,389.823,391.391,1.568,out,4,0.834,0,vectors is dependent then
+54,11730,12252,391391.39,408842.18,391.391,408.842,17.451,explain,52,0.897,0,"then for example in this case we are expressing v 1 then one of the vectors can be written as the linear combination of the remaining vectors. So, in some sense we are trying to now find a link between the idea of the span and idea of linear independence or dependence."
+55,12253,12288,408842.18,410043.38,408.842,410.043,1.201,out,3,0.705,0,"dependence. So, we"
+56,12289,12431,410043.38,414814.81,410.043,414.815,4.771,explain,15,0.847,0,we see some glimpses of it but soon we shall see more of it as
+57,12432,12479,414814.81,416416.42,414.815,416.416,1.602,pickerase,4,0.967,0,as we progress along.
+58,12480,14381,416416.42,479879.88,416.416,479.880,63.463,erase,79,0.893,0,"And in fact that also tells us one thing that solving a equation a system of equation with a non -zero right hand side and solving a system of equation with zero on the right hand side somehow seem to be linked with each other and that linkages what we are going to be searching through. Now, let me do some special things about linear independence that can help us kind of solidify the ideas behind independence and dependence."
+59,14382,14439,479879.88,481815.15,479.880,481.815,1.935,droperase,0,,1,[silence]
+60,14440,14516,481815.15,484384.38,481.815,484.384,2.569,explain,9,0.946,0,"So, let see what is the idea we are"
+61,14517,14622,484384.38,487921.25,484.384,487.921,3.537,out,10,0.828,0,are after or what kind of problems we are after.
+62,14623,14783,487921.25,493293.29,487.921,493.293,5.372,explain,12,0.915,0,"So, suppose somebody gave us a set of vectors. So, here is"
+63,14784,15164,493293.29,506006.01,493.293,506.006,12.713,write,22,0.75,0,is my first question suppose I am with a zero vector and then there is another bunch of vectors here in this.
+64,15165,15191,506006.01,506906.91,506.006,506.907,0.901,explain,0,,1,[silence]
+65,15192,15217,506906.91,507774.44,506.907,507.774,0.868,out,3,0.817,0,"So, is S"
+66,15218,15242,507774.44,508608.61,507.774,508.609,0.834,explain,1,0.591,0,S
+67,15243,15606,508608.61,520754.09,508.609,520.754,12.145,write,9,0.829,0,S independent or dependent the question we are trying
+68,15607,15641,520754.09,521921.92,520.754,521.922,1.168,explain,4,0.935,0,trying to answer is
+69,15642,15717,521921.92,524457.79,521.922,524.458,2.536,out,5,0.85,0,is it independent or dependent.
+70,15718,15782,524457.79,526626.63,524.458,526.627,2.169,explain,1,0.99,0,"Now,"
+71,15783,15863,526626.63,529329.33,526.627,529.329,2.703,out,10,0.84,0,"Now, we have with a zero vector let us try"
+72,15864,15922,529329.33,531297.96,529.329,531.298,1.969,explain,6,0.942,0,try to start with the definition.
+73,15923,16141,531297.96,538605.27,531.298,538.605,7.307,write,16,0.887,0,"So, here is my c 1 times zero vector c 2 times v 2 vector c"
+74,16142,16236,538605.27,541775.11,538.605,541.775,3.170,explain,0,,1,[silence]
+75,16237,16278,541775.11,543176.51,541.775,543.177,1.401,pickerase,0,,1,[silence]
+76,16279,16339,543176.51,545211.88,543.177,545.212,2.035,erase,0,,1,[silence]
+77,16340,16395,545211.88,547080.41,545.212,547.080,1.869,droperase,0,,1,[silence]
+78,16396,16477,547080.41,549816.48,547.080,549.816,2.736,explain,0,,1,[silence]
+79,16478,16689,549816.48,556890.22,549.816,556.890,7.074,write,12,0.853,0,k times the v k vector and we want to see whether
+80,16690,16729,556890.22,558224.89,556.890,558.225,1.335,explain,3,0.603,0,whether this homogeneous
+81,16730,16830,558224.89,561594.93,558.225,561.595,3.370,out,9,0.921,0,homogeneous equation can have a non -zero solution or
+82,16831,16957,561594.93,565832.50,561.595,565.832,4.238,explain,12,0.76,0,"or not. Now, just if we look at it we can gives"
+83,16958,17444,565832.50,582082.08,565.832,582.082,16.250,write,42,0.877,0,"gives we can choose c 1 to be let us say 3 and we can have c 2 c 4 sorry c 2 c 3 all of them equal to 0. So, can we say 3 0 0 0 is a solution"
+84,17445,17473,582082.08,583049.72,582.082,583.050,0.968,explain,4,0.944,0,solution to this system
+85,17474,17518,583049.72,584551.22,583.050,584.551,1.502,out,3,0.993,0,system of equation
+86,17519,17533,584551.22,585051.72,584.551,585.052,0.501,explain,0,,1,[silence]
+87,17534,17658,585051.72,589222.56,585.052,589.223,4.171,write,1,0.689,0,and
+88,17659,17670,589222.56,589622.96,589.223,589.623,0.400,explain,1,0.689,0,and
+89,17671,17810,589622.96,594294.29,589.623,594.294,4.671,out,21,0.903,0,"and the moment we see this we know that there is a non -zero solution and that means, the set must"
+90,17811,17858,594294.29,595895.90,594.294,595.896,1.602,explain,3,0.989,0,must be dependent.
+91,17859,18118,595895.90,604571.24,595.896,604.571,8.675,write,0,,1,[silence]
+92,18119,18143,604571.24,605405.41,604.571,605.405,0.834,explain,2,0.99,0,"So, what"
+93,18144,18264,605405.41,609442.78,605.405,609.443,4.037,out,17,0.859,0,what does this tell us is any time we have a zero vector included in the set
+94,18265,18380,609442.78,613313.31,609.443,613.313,3.871,explain,8,0.842,0,"set then that means, the set is dependent."
+95,18381,18402,613313.31,614047.38,613.313,614.047,0.734,pickerase,0,,1,[silence]
+96,18403,18964,614047.38,632799.47,614.047,632.799,18.752,erase,0,,1,[silence]
+97,18965,18985,632799.47,633500.17,632.799,633.500,0.701,droperase,0,,1,[silence]
+98,18986,19046,633500.17,635535.54,633.500,635.536,2.035,out,0,,1,[silence]
+99,19047,19088,635535.54,636936.94,635.536,636.937,1.401,explain,4,0.915,0,This is a noteworthy
+100,19089,19126,636936.94,638204.87,636.937,638.205,1.268,write,7,0.957,0,noteworthy point to keep in mind because
+101,19127,19185,638204.87,640173.51,638.205,640.174,1.969,explain,8,0.864,0,because zero can always be expressed as a
+102,19186,19211,640173.51,641041.04,640.174,641.041,0.868,out,1,0.892,0,a
+103,19212,19295,641041.04,643843.84,641.041,643.844,2.803,explain,9,0.83,0,a can be expressed as the non -zero coefficient.
+104,19296,20370,643843.84,679713.05,643.844,679.713,35.869,write,63,0.851,0,coefficient. Let us try another thing let us see if we even a set of vectors let us start with bunch of vectors only say I had 3 vectors and suppose I am given that none of these vectors are the zero vector also we are given that any two vectors given in here are perpendicular to each other or let me orthogonal.
+105,20371,20466,679713.05,682916.25,679.713,682.916,3.203,explain,0,,1,[silence]
+106,20467,20519,682916.25,684684.68,682.916,684.685,1.768,out,0,,1,[silence]
+107,20520,20849,684684.68,695695.70,684.685,695.696,11.011,explain,20,0.816,0,"So, they are at right angles to each other or they are perpendicular. However, orthogonal should also remind you of"
+108,20850,21106,695695.70,704270.94,695.696,704.271,8.575,write,24,0.913,0,of one of the concepts that you might have seen in multivariable calculus two vectors are called orthogonal if their dot product is 0.
+109,21107,21206,704270.94,707607.61,704.271,707.608,3.337,explain,9,0.971,0,"Now, one may wonder why is this different from"
+110,21207,21265,707607.61,709576.24,707.608,709.576,1.969,out,3,0.696,0,from perpendicularity there
+111,21266,21675,709576.24,723256.59,709.576,723.257,13.680,explain,37,0.864,0,"there is a technical difference over here two vectors are called orthogonal if the dot product is 0 which means even if one of the vectors is 0 then we will say that vectors are orthogonal. However,"
+112,21676,21707,723256.59,724324.32,723.257,724.324,1.068,out,5,0.986,0,"However, when you talk about"
+113,21708,21918,724324.32,731364.70,724.324,731.365,7.040,explain,22,0.9,0,about perpendicularity you are talking about an angle between the two vectors and with a zero vector the angle is not defined.
+114,21919,21959,731364.70,732732.73,731.365,732.733,1.368,out,10,0.991,0,"So, that is why there is a technical difference between"
+115,21960,22248,732732.73,742375.71,732.733,742.376,9.643,explain,15,0.914,0,"between perpendicularity and orthogonality. So, suppose we are given vectors which are orthogonal is S"
+116,22249,22679,742375.71,756756.76,742.376,756.757,14.381,write,12,0.929,0,"S independent or dependent. So, we are asking the same question for"
+117,22680,22765,756756.76,759626.29,756.757,759.626,2.870,explain,2,0.658,0,for this
+118,22766,22806,759626.29,760994.33,759.626,760.994,1.368,out,3,0.506,0,this question suppose
+119,22807,23184,760994.33,773606.94,760.994,773.607,12.613,explain,38,0.857,0,suppose I can say that this geometrical property of orthogonality helps us claim one or the other let us say helps us claim independence and that means next time you are in a space and we are looking
+120,23185,23218,773606.94,774741.41,773.607,774.741,1.134,out,5,0.999,0,looking for a bunch of
+121,23219,23814,774741.41,794627.96,774.741,794.628,19.887,explain,69,0.923,0,of independent vectors we have a geometrical way of finding them we will start with one vector then we try to create another vector which is orthogonal to the previous one then we try to create another vector which is orthogonal to the previous two and so on so forth and in some sense this also helps us understand the dimensionality aspect because if we are in the space
+122,23815,24030,794627.96,801835.17,794.628,801.835,7.207,write,14,0.898,0,space R1 then every vector in R1 is going to be just sitting on
+123,24031,24135,801835.17,805338.67,801.835,805.339,3.504,explain,8,0.866,0,on the line and that means there is
+124,24136,24184,805338.67,806973.64,805.339,806.974,1.635,out,8,0.865,0,is no way we can create an non
+125,24185,24503,806973.64,817617.62,806.974,817.618,10.644,explain,32,0.876,0,"non -zero orthogonal vector in here. So, that means if we have one vector we cannot have a second vector which is orthogonal. at most we will have one independent however we"
+126,24504,24795,817617.62,827360.69,817.618,827.361,9.743,write,33,0.92,0,we are in R2 then things might be more easy for us to deal with if I have a vector in R2 then I can definitely go for an orthogonal vector in R2.
+127,24796,24856,827360.69,829396.06,827.361,829.396,2.035,explain,7,0.97,0,"R2. So, there is some room that"
+128,24857,24936,829396.06,832065.40,829.396,832.065,2.669,out,7,0.939,0,that we can grow into and hence
+129,24937,25098,832065.40,837470.80,832.065,837.471,5.405,explain,13,0.934,0,hence it suggests that maybe we can have two independent vectors in R2
+130,25099,25173,837470.80,839973.31,837.471,839.973,2.503,pickerase,6,0.716,0,so on so forth later on
+131,25174,25255,839973.31,842709.38,839.973,842.709,2.736,erase,10,0.879,0,on there is something called the Gram -Schmidt process which
+132,25256,25344,842709.38,845679.01,842.709,845.679,2.970,droperase,12,0.837,0,which is kind of tied up with the idea that I am
+133,25345,25387,845679.01,847113.78,845.679,847.114,1.435,erase,5,0.824,0,am telling you right now
+134,25388,25426,847113.78,848415.08,847.114,848.415,1.301,droperase,3,0.61,0,now but let
+135,25427,25440,848415.08,848882.22,848.415,848.882,0.467,pickerase,5,0.909,0,let us try to just
+136,25441,26354,848882.22,879379.38,848.882,879.379,30.497,erase,24,0.885,0,just see how this thing works is it going to be independent is it going to be dependent what is it going to be
+137,26355,26394,879379.38,880714.05,879.379,880.714,1.335,droperase,0,,1,[silence]
+138,26395,26456,880714.05,882782.78,880.714,882.783,2.069,out,3,0.716,0,the question is
+139,26457,26629,882782.78,888555.22,882.783,888.555,5.772,explain,17,0.864,0,is this independent or is this dependent. let us start with our usual setup to the definition
+140,26630,26923,888555.22,898365.03,888.555,898.365,9.810,write,10,0.92,0,we want to find the solutions to this homogeneous equation
+141,26924,27443,898365.03,915715.72,898.365,915.716,17.351,explain,52,0.886,0,"now we are interested in whether it has only the zero solution or not the question is how am going to bring the orthogonality into this mix well there is one way I want to know c1 c2 and c3. So, what I can do is I can take this vector and"
+142,27444,27982,915715.72,933700.37,915.716,933.700,17.985,write,45,0.879,0,and I can take its dot product with let us say the vector v1 this is a vector combination of vector and suppose I take the dot product of this with v1 since this vector is zero vector so the dot product must be zero
+143,27983,28080,933700.37,936970.30,933.700,936.970,3.270,explain,6,0.742,0,zero and using the properties of
+144,28081,28548,936970.30,952585.92,936.970,952.586,15.616,write,18,0.859,0,of the dot product we can write this guy as so I am pretty much using the distributive
+145,28549,28787,952585.92,960560.56,952.586,960.561,7.975,explain,21,0.921,0,distributive property of the dot product which you guys might have seen in previous course now if you look at this
+146,28788,29032,960560.56,968735.40,960.561,968.735,8.175,write,17,0.911,0,c1 times v1 dot v1 v1 dot v1 is nothing but the norm of norm square of
+147,29033,29209,968735.40,974641.31,968.735,974.641,5.906,explain,19,0.905,0,of v1 or the length square of v1 what about v2 dot v1 well this guy must be zero
+148,29210,29264,974641.31,976476.48,974.641,976.476,1.835,write,3,0.466,0,zero because remember
+149,29265,29396,976476.48,980880.88,976.476,980.881,4.404,explain,13,0.831,0,remember we said vi is orthogonal to vj so all these dot products
+150,29397,29570,980880.88,986686.69,980.881,986.687,5.806,write,13,0.832,0,products of a vector with two different separate indices will be zero so
+151,29571,29675,986686.69,990190.19,986.687,990.190,3.504,explain,14,0.902,0,so in some sense what we have got for ourselves is a simple looking
+152,29676,29877,990190.19,996930.26,990.190,996.930,6.740,write,10,0.96,0,looking equation which tells us that c1 times the length
+153,29878,29945,996930.26,999199.20,996.930,999.199,2.269,explain,9,0.897,0,length square of this vector v1 is zero now
+154,29946,29983,999199.20,1000467.13,999.199,1000.467,1.268,out,2,0.752,0,now we
+155,29984,30145,1000467.13,1005872.54,1000.467,1005.873,5.405,explain,19,0.805,0,we know that we have non zero vectors so the length of the vector cannot be zero so since
+156,30146,30472,1005872.54,1016783.45,1005.873,1016.783,10.911,write,18,0.804,0,since v1 is a non zero vector thus we have norm of v1 square as non zero so
+157,30473,30560,1016783.45,1019719.72,1016.783,1019.720,2.936,explain,7,0.897,0,so for the only way to have
+158,30561,30663,1019719.72,1023156.49,1019.720,1023.156,3.437,write,9,0.923,0,c1 times the norm of v1 square to be
+159,30664,30688,1023156.49,1023990.66,1023.156,1023.991,0.834,explain,5,0.897,0,be zero is that c1
+160,30689,30761,1023990.66,1026426.43,1023.991,1026.426,2.436,out,8,0.918,0,c1 is zero so at least we have
+161,30762,30921,1026426.43,1031765.10,1026.426,1031.765,5.339,explain,15,0.95,0,have shown that one of the coefficients namely c1 will be zero and likewise if
+162,30922,31662,1031765.10,1056489.82,1031.765,1056.490,24.725,write,17,0.783,0,if I doubt if I that it only has the zero solution this implies s must be
+163,31663,31696,1056489.82,1057624.29,1056.490,1057.624,1.134,explain,0,,1,[silence]
+164,31697,31822,1057624.29,1061828.50,1057.624,1061.828,4.204,out,17,0.904,0,so in a nutshell what we are saying is if we are given a bunch of non
+165,31823,31911,1061828.50,1064798.13,1061.828,1064.798,2.970,explain,11,0.913,0,non zero vectors which are all mutually orthogonal to each other
+166,31912,32012,1064798.13,1068168.17,1064.798,1068.168,3.370,out,8,0.973,0,other then that set will always be an
+167,32013,32110,1068168.17,1071438.10,1068.168,1071.438,3.270,explain,6,0.89,0,an independent set if you think
+168,32111,32214,1071438.10,1074908.24,1071.438,1074.908,3.470,out,6,0.992,0,think about tying this up with
+169,32215,32317,1074908.24,1078345.01,1074.908,1078.345,3.437,explain,16,0.957,0,with the result that we already saw we said if you have more than k n
+170,32318,32409,1078345.01,1081414.75,1078.345,1081.415,3.070,out,10,0.779,0,n vectors in a n -dimensional space they cannot be
+171,32410,32548,1081414.75,1086052.72,1081.415,1086.053,4.638,explain,16,0.798,0,be independent so you know if we combine this with that statement we are saying in
+172,32549,32593,1086052.72,1087554.22,1086.053,1087.554,1.502,out,5,0.752,0,in a n dimensional space
+173,32594,33707,1087554.22,1124724.72,1087.554,1124.725,37.171,write,11,0.849,0,space n dimensional space we cannot have more than non zero
+174,33708,33727,1124724.72,1125392.06,1124.725,1125.392,0.667,explain,1,0.191,0,so
+175,33728,33859,1125392.06,1129796.46,1125.392,1129.796,4.404,out,12,0.883,0,so in some sense there is a limit about how much orthogonality
+176,33860,33957,1129796.46,1133066.40,1129.796,1133.066,3.270,explain,10,0.885,0,orthogonality you can have in given space how much wiggle
+177,33958,34178,1133066.40,1140440.44,1133.066,1140.440,7.374,out,25,0.812,0,wiggle room do you have in a given space so anyways we are trying to tie up orthogonality which is also one of a geometrical
+178,34179,34215,1140440.44,1141675.01,1140.440,1141.675,1.235,explain,3,0.972,0,geometrical aspect of
+179,34216,34270,1141675.01,1143510.18,1141.675,1143.510,1.835,out,5,0.877,0,of multi -dimensional spaces with
+180,34271,34344,1143510.18,1145979.31,1143.510,1145.979,2.469,explain,4,0.705,0,with this one okay
+181,34345,34364,1145979.31,1146646.65,1145.979,1146.647,0.667,pickerase,1,0.029,0,okay
+182,34365,34664,1146646.65,1156656.66,1146.647,1156.657,10.010,erase,24,0.872,0,okay so our next topic will be sort of switching the course a little bit we will first deal with matrices the language of
+183,34665,34697,1156656.66,1157757.76,1156.657,1157.758,1.101,droperase,1,0.996,0,of
+184,34698,34746,1157757.76,1159392.73,1157.758,1159.393,1.635,explain,1,0.781,0,how
+185,34747,34807,1159392.73,1161428.09,1159.393,1161.428,2.035,pickerase,6,0.926,0,how to deal with matrices and
+186,34808,35729,1161428.09,1192192.19,1161.428,1192.192,30.764,erase,31,0.917,0,and that can help us understand some of the things that we have seen and it will help us in writing the system of equations in a much better way okay
+187,35730,35759,1192192.19,1193193.19,1192.192,1193.193,1.001,droperase,0,,1,[silence]
+188,35760,36590,1193193.19,1220920.92,1193.193,1220.921,27.728,erase,0,,1,[silence]
+189,36591,36650,1220920.92,1222922.92,1220.921,1222.923,2.002,droperase,0,,1,[silence]
+190,36651,36792,1222922.92,1227660.99,1222.923,1227.661,4.738,out,0,,1,[silence]
+191,36793,36981,1227660.99,1233967.30,1227.661,1233.967,6.306,explain,7,0.801,0,so let's try to learn something about
+192,36982,37202,1233967.30,1241341.34,1233.967,1241.341,7.374,write,2,0.777,0,matrices now
+193,37203,37226,1241341.34,1242142.14,1241.341,1242.142,0.801,explain,2,0.771,0,now the
+194,37227,37305,1242142.14,1244778.11,1242.142,1244.778,2.636,out,8,0.914,0,the way we understand matrices is basically an
+195,37306,37497,1244778.11,1251184.52,1244.778,1251.185,6.406,explain,17,0.931,0,an array a list of numbers with some way of reading it in a proper manner so
+196,37498,37937,1251184.52,1265865.87,1251.185,1265.866,14.681,write,28,0.872,0,so I won't make an attempt to try to define any special definition of a matrix it's basically an of numbers where the position of each entry can
+197,37938,37951,1265865.87,1266333.00,1265.866,1266.333,0.467,explain,2,0.988,0,can be
+198,37952,38047,1266333.00,1269536.20,1266.333,1269.536,3.203,out,4,0.727,0,be given address so
+199,38048,38181,1269536.20,1274007.34,1269.536,1274.007,4.471,explain,15,0.817,0,so you already have seen the concept of a column in a row vector so
+200,38182,38610,1274007.34,1288321.65,1274.007,1288.322,14.314,write,16,0.93,0,so we will say the ijth entry the one which is in row i column j
+201,38611,38635,1288321.65,1289155.82,1288.322,1289.156,0.834,explain,0,,1,[silence]
+202,38636,38704,1289155.82,1291458.12,1289.156,1291.458,2.302,out,2,0.866,0,so for
+203,38705,38732,1291458.12,1292392.39,1291.458,1292.392,0.934,explain,4,0.986,0,for example the entry
+204,38733,38757,1292392.39,1293226.56,1292.392,1293.227,0.834,write,2,0.997,0,entry over
+205,38758,38831,1293226.56,1295695.70,1293.227,1295.696,2.469,explain,8,0.995,0,over here we will give this guy a
+206,38832,38956,1295695.70,1299866.53,1295.696,1299.867,4.171,write,16,0.859,0,a name you can say this is the entry in the second row and second column
+207,38957,38972,1299866.53,1300400.40,1299.867,1300.400,0.534,explain,4,0.76,0,column so we can
+208,38973,39048,1300400.40,1302936.27,1300.400,1302.936,2.536,out,7,0.763,0,can call this entry as a22 likewise
+209,39049,39075,1302936.27,1303837.17,1302.936,1303.837,0.901,explain,4,0.65,0,likewise we can call
+210,39076,39128,1303837.17,1305605.61,1303.837,1305.606,1.768,write,6,0.919,0,call this entry as a12 first
+211,39129,39203,1305605.61,1308108.11,1305.606,1308.108,2.503,explain,3,0.839,0,first sorry a21
+212,39204,39233,1308108.11,1309109.11,1308.108,1309.109,1.001,pickerase,0,,1,[silence]
+213,39234,39274,1309109.11,1310477.14,1309.109,1310.477,1.368,erase,1,0.872,0,because
+214,39275,39313,1310477.14,1311778.45,1310.477,1311.778,1.301,droperase,7,0.966,0,because it is in the second row
+215,39314,39317,1311778.45,1311911.91,1311.778,1311.912,0.133,explain,1,0.997,0,row
+216,39318,39328,1311911.91,1312278.95,1311.912,1312.279,0.367,out,4,0.855,0,row and the first
+217,39329,39348,1312278.95,1312946.28,1312.279,1312.946,0.667,explain,3,0.931,0,first column so
+218,39349,39371,1312946.28,1313713.71,1312.946,1313.714,0.767,write,4,0.812,0,so we will always
+219,39372,39406,1313713.71,1314881.55,1313.714,1314.882,1.168,explain,6,0.972,0,always write the row first and
+220,39407,39438,1314881.55,1315949.28,1314.882,1315.949,1.068,out,5,0.877,0,and then the column so
+221,39439,39485,1315949.28,1317517.52,1315.949,1317.518,1.568,explain,6,0.79,0,so for example this guy will
+222,39486,39532,1317517.52,1319085.75,1317.518,1319.086,1.568,write,4,0.85,0,will be a13 because
+223,39533,39552,1319085.75,1319753.09,1319.086,1319.753,0.667,explain,2,0.988,0,because it
+224,39553,39676,1319753.09,1323890.56,1319.753,1323.891,4.137,out,14,0.933,0,it is in the first row and third column so bottom line is every
+225,39677,39689,1323890.56,1324324.32,1323.891,1324.324,0.434,explain,2,0.988,0,every matrix
+226,39690,39828,1324324.32,1328962.30,1324.324,1328.962,4.638,write,6,0.823,0,matrix is completely described by the
+227,39829,39842,1328962.30,1329429.43,1328.962,1329.429,0.467,explain,2,0.983,0,the entry
+228,39843,40127,1329429.43,1338938.94,1329.429,1338.939,9.510,out,21,0.721,0,entry aij where aij is the ijth entry row column row of row i row and column j okay now we
+229,40128,40189,1338938.94,1341007.67,1338.939,1341.008,2.069,explain,6,0.977,0,we can put any object for
+230,40190,40314,1341007.67,1345178.51,1341.008,1345.179,4.171,out,10,0.964,0,for the entries but since we will be mostly dealing
+231,40315,40428,1345178.51,1348982.32,1345.179,1348.982,3.804,explain,11,0.989,0,dealing with numbers so we will just assume that our entries
+232,40429,40608,1348982.32,1354988.32,1348.982,1354.988,6.006,write,13,0.838,0,entries aij they are always either real numbers or they are complex numbers
+233,40609,40642,1354988.32,1356122.79,1354.988,1356.123,1.134,explain,3,0.708,0,numbers but keep
+234,40643,40839,1356122.79,1362696.03,1356.123,1362.696,6.573,out,21,0.893,0,keep in mind there could be any object that we want and we can put it in a matrix form okay
+235,40840,41281,1362696.03,1377444.11,1362.696,1377.444,14.748,explain,23,0.852,0,okay so we want to develop some kind of an arithmetic on matrices or you can call it the algebra of matrices and
+236,41282,41286,1377444.11,1377610.94,1377.444,1377.611,0.167,explain,0,,1,[silence]
+237,41287,41341,1377610.94,1379446.11,1377.611,1379.446,1.835,out,0,,1,[silence]
+238,41342,41673,1379446.11,1390523.86,1379.446,1390.524,11.078,explain,26,0.908,0,the algebra of matrices means we have two objects we want to learn how to add them how to subtract them how to deal with them
+239,41674,41843,1390523.86,1396196.20,1390.524,1396.196,5.672,pickerase,0,,1,[silence]
+240,41844,41865,1396196.20,1396930.26,1396.196,1396.930,0.734,droperase,0,,1,[silence]
+241,41866,41939,1396930.26,1399399.40,1396.930,1399.399,2.469,explain,0,,1,[silence]
+242,41940,42157,1399399.40,1406673.34,1399.399,1406.673,7.274,write,15,0.783,0,so the question is how do we add to matrices if you look at the
+243,42158,42211,1406673.34,1408475.14,1406.673,1408.475,1.802,explain,7,0.934,0,the way we have defined matrices we
+244,42212,42332,1408475.14,1412512.51,1408.475,1412.513,4.037,out,11,0.855,0,we have said matrices are things generated about row vectors or
+245,42333,42578,1412512.51,1420720.72,1412.513,1420.721,8.208,explain,27,0.95,0,or column vectors and we know how to add to vectors so we are going to pretty much take our clue from there and we will define
+246,42579,42790,1420720.72,1427794.46,1420.721,1427.794,7.074,write,19,0.824,0,define how to add matrices as we will take the ijth entry of a the ijth entry of b
+247,42791,42854,1427794.46,1429929.93,1427.794,1429.930,2.135,explain,4,0.884,0,b and the matrix
+248,42855,42945,1429929.93,1432966.30,1429.930,1432.966,3.036,out,6,0.942,0,matrix will be created would be
+249,42946,43163,1432966.30,1440240.24,1432.966,1440.240,7.274,explain,22,0.893,0,be having those entries as the sum of the two entries one thing I should mention before we start doing all these
+250,43164,43227,1440240.24,1442375.71,1440.240,1442.376,2.135,out,2,0.73,0,is with
+251,43228,43269,1442375.71,1443777.11,1442.376,1443.777,1.401,explain,4,0.804,0,with a matrix we
+252,43270,43654,1443777.11,1456623.29,1443.777,1456.623,12.846,write,38,0.905,0,we always try to give it size so for example in this particular case I will say my matrix a is of size 2 by 3 2 will denote the number of rows and 3 denotes the number
+253,43655,43688,1456623.29,1457757.76,1456.623,1457.758,1.134,explain,4,0.75,0,number of columns so
+254,43689,43856,1457757.76,1463363.36,1457.758,1463.363,5.606,out,19,0.849,0,so it's always row first and column second whenever you try to describe a matrix so if I have
+255,43857,43985,1463363.36,1467667.67,1463.363,1467.668,4.304,explain,17,0.966,0,have two matrices which I want to add then they both should be of the same size
+256,43986,44251,1467667.67,1476543.21,1467.668,1476.543,8.876,write,29,0.925,0,size otherwise this addition will not make any sense so if I have a m by n matrix and if I have a another m by n matrix then
+257,44252,44317,1476543.21,1478745.41,1476.543,1478.745,2.202,explain,8,0.846,0,then I can add the two matrices and
+258,44318,44390,1478745.41,1481181.18,1478.745,1481.181,2.436,out,5,0.716,0,and try to create the
+259,44391,44486,1481181.18,1484384.38,1481.181,1484.384,3.203,explain,8,0.753,0,the sum of two matrices note the size
+260,44487,45692,1484384.38,1524624.62,1484.384,1524.625,40.240,write,84,0.875,0,size of this matrix is still going to be m by n likewise we can define the difference of two matrices by going entry wise and the size of this matrix will also be m by n what about c times a where c is a scale well this is how we multiply each entry of the matrix by c so c is some kind of a scalar could be a real number a complex number and the size of this matrix is also
+261,45693,45772,1524624.62,1527293.96,1524.625,1527.294,2.669,explain,8,0.917,0,so we have figured out how to add
+262,45773,45948,1527293.96,1533166.50,1527.294,1533.166,5.873,out,21,0.932,0,add two matrices how to subtract and how to multiply a matrix by a scalar so let's take a simple example
+263,45949,46010,1533166.50,1535235.24,1533.166,1535.235,2.069,explain,5,0.845,0,example before we proceed so
+264,46011,47343,1535235.24,1579713.05,1535.235,1579.713,44.478,write,81,0.9,0,let us say I was given a matrix of the form 1 2 3 0 1 minus 5 b is of the form 5 6 minus 6 0 0 3 c is of the form let's say we have a matrix c 1 2 3 0 and if we are asked how to add a plus 5b then we have the matrix a which is 1 2 3 0 1 minus 5 and we want the matrix 5b 5b means according
+265,47344,47473,1579713.05,1584050.72,1579.713,1584.051,4.338,explain,16,0.829,0,according to what we have defined every entry of b will be multiplied by 5 so
+266,47474,47678,1584050.72,1590890.89,1584.051,1590.891,6.840,write,8,0.711,0,so this will be 25 30 minus 30
+267,47679,47800,1590890.89,1594961.63,1590.891,1594.962,4.071,explain,13,0.898,0,and they both are of same size so addition is possible and we
+268,47801,48202,1594961.63,1608375.04,1594.962,1608.375,13.413,write,23,0.895,0,we will say that the sum of these two matrices will turn out to be 26 32 27 1 so this is how
+269,48203,48281,1608375.04,1611011.01,1608.375,1611.011,2.636,explain,7,0.874,0,how we perform simple algebra on matrices
+270,48282,48338,1611011.01,1612912.91,1611.011,1612.913,1.902,out,7,0.904,0,you can go for the difference also
+271,48339,48434,1612912.91,1616116.12,1612.913,1616.116,3.203,explain,14,0.904,0,also and we can do stuff like that but what if we want to
+272,48435,48504,1616116.12,1618451.79,1616.116,1618.452,2.336,write,6,0.805,0,to say a and add c
+273,48505,48624,1618451.79,1622455.79,1618.452,1622.456,4.004,explain,11,0.721,0,c to it a is of size 2 by 3 2
+274,48625,48985,1622455.79,1634501.17,1622.456,1634.501,12.045,write,28,0.809,0,2 rows and 3 columns c is of size 2 by 2 2 rows and 2 columns so this addition is not defined you can't add two matrices
+275,48986,49031,1634501.17,1636036.04,1634.501,1636.036,1.535,explain,4,0.981,0,matrices of different size
+276,49032,49134,1636036.04,1639472.81,1636.036,1639.473,3.437,out,10,0.93,0,size now some of us may have a question why
+277,49135,49345,1639472.81,1646513.18,1639.473,1646.513,7.040,explain,26,0.888,0,why can't I just add to a one more column to c and then be done with it of course we can add a column to
+278,49346,49407,1646513.18,1648581.92,1646.513,1648.582,2.069,out,10,0.752,0,to c but then we chase the matrix c it
+279,49408,49991,1648581.92,1668068.07,1648.582,1668.068,19.486,explain,34,0.857,0,it will no longer be the matrix we started with so just it's not like simply adding a zero to an addition it is going to completely change everything that we have seen so
+280,49992,50015,1668068.07,1668868.87,1668.068,1668.869,0.801,out,1,0.578,0,so
+281,50016,50109,1668868.87,1672005.34,1668.869,1672.005,3.136,pickerase,4,0.898,0,let's see we have
+282,50110,50972,1672005.34,1700800.80,1672.005,1700.801,28.795,erase,68,0.843,0,have defined addition subtraction what other operations do we know in elementary mathematics division multiplication those are the two remaining ones which we have to deal with of course but if I've got other operations also square root taking log exponential those things will come later in fact those things also we can define for matrices under appropriate circumstances but for now let's focus on the next important
+283,50973,50999,1700800.80,1701701.70,1700.801,1701.702,0.901,droperase,4,0.9,0,important thing which is
+284,51000,51137,1701701.70,1706306.31,1701.702,1706.306,4.605,out,4,0.775,0,is matrix multiplication now
+285,51138,51257,1706306.31,1710310.31,1706.306,1710.310,4.004,explain,7,0.97,0,matrix multiplication is a very very curious
+286,51258,51709,1710310.31,1725392.06,1710.310,1725.392,15.082,write,23,0.919,0,curious thing because the definition that is given is not the most obvious one let me say it seems a bit unnatural when
+287,51710,51732,1725392.06,1726159.49,1725.392,1726.159,0.767,explain,2,0.806,0,when you
+288,51733,51873,1726159.49,1730864.20,1726.159,1730.864,4.705,out,16,0.867,0,you see it for the first time you just don't understand why somebody would have tried
+289,51874,51982,1730864.20,1734501.17,1730.864,1734.501,3.637,explain,9,0.867,0,tried to define a matrix multiplication like this so
+290,51983,52059,1734501.17,1737070.40,1734.501,1737.070,2.569,write,9,0.864,0,so first let us understand what the procedure was
+291,52060,52077,1737070.40,1737671.00,1737.070,1737.671,0.601,explain,3,0.922,0,was and then
+292,52078,52210,1737671.00,1742108.78,1737.671,1742.109,4.438,out,15,0.946,0,then perhaps I can motivate later on that why this definition was the most sensible
+293,52211,52301,1742108.78,1745145.15,1742.109,1745.145,3.036,explain,7,0.9,0,sensible definition so first thing is if
+294,52302,52473,1745145.15,1750884.22,1745.145,1750.884,5.739,write,16,0.896,0,if I have a matrix of size m by n our natural gut feeling would be
+295,52474,52496,1750884.22,1751651.65,1750.884,1751.652,0.767,explain,1,0.965,0,especially
+296,52497,52646,1751651.65,1756656.66,1751.652,1756.657,5.005,out,17,0.911,0,especially looking after the pattern so far that the matrix multiplication can be only done between matrices
+297,52647,52715,1756656.66,1758958.96,1756.657,1758.959,2.302,explain,7,0.931,0,matrices of same size and that is
+298,52716,52827,1758958.96,1762696.03,1758.959,1762.696,3.737,out,11,0.872,0,is where things become a little troublesome especially the way we
+299,52828,53182,1762696.03,1774541.21,1762.696,1774.541,11.845,explain,18,0.878,0,we have defined matrix multiplication so matrix multiplication is only defined between matrices which have some specialty with
+300,53183,53237,1774541.21,1776376.38,1774.541,1776.376,1.835,write,4,0.829,0,with their sizes so
+301,53238,53276,1776376.38,1777677.68,1776.376,1777.678,1.301,explain,6,0.753,0,so before I spill out any
+302,53277,53379,1777677.68,1781114.45,1777.678,1781.114,3.437,out,9,0.765,0,any details about what matrix b would be let
+303,53380,53476,1781114.45,1784351.02,1781.114,1784.351,3.237,explain,13,0.777,0,let us see a bit of inspiration where did it come from so
+304,53477,54190,1784351.02,1808174.84,1784.351,1808.175,23.824,write,60,0.907,0,so imagine I have a vector say one two three and I ask you what is the dot product of this vector with another vector now if you remember the definition of a dot product the size of the vector size meaning the dimensionality of the vector should be the same so when you say a b c this has
+305,54191,54198,1808174.84,1808441.78,1808.175,1808.442,0.267,out,2,0.983,0,has three
+306,54199,54235,1808441.78,1809676.34,1808.442,1809.676,1.235,explain,3,0.929,0,three components this
+307,54236,54261,1809676.34,1810543.88,1809.676,1810.544,0.868,out,1,0.894,0,this
+308,54262,54292,1810543.88,1811578.24,1810.544,1811.578,1.034,explain,1,0.894,0,this
+309,54293,54440,1811578.24,1816516.52,1811.578,1816.517,4.938,write,9,0.701,0,this has a plus two b plus three c
+310,54441,54466,1816516.52,1817384.05,1816.517,1817.384,0.868,explain,0,,1,[silence]
+311,54467,54565,1817384.05,1820687.35,1817.384,1820.687,3.303,out,4,0.65,0,this had four components
+312,54566,54657,1820687.35,1823757.09,1820.687,1823.757,3.070,explain,12,0.912,0,components and that had three components then the dot product is not
+313,54658,54804,1823757.09,1828662.00,1823.757,1828.662,4.905,out,11,0.9,0,not possible and if you look in terms of matrices this
+314,54805,54945,1828662.00,1833366.70,1828.662,1833.367,4.705,explain,17,0.967,0,this matrix what is the size of this matrix it has only one row and three columns
+315,54946,55019,1833366.70,1835835.84,1833.367,1835.836,2.469,write,9,0.944,0,columns so it is a one by three matrix
+316,55020,55095,1835835.84,1838371.71,1835.836,1838.372,2.536,explain,6,0.988,0,matrix this guy it has three
+317,55096,55168,1838371.71,1840807.47,1838.372,1840.807,2.436,write,6,0.974,0,three rows and one column so
+318,55169,55186,1840807.47,1841408.07,1840.807,1841.408,0.601,explain,3,0.97,0,so it's a
+319,55187,55273,1841408.07,1844310.98,1841.408,1844.311,2.903,out,10,0.985,0,a size three by one matrix and look what has
+320,55274,55337,1844310.98,1846446.45,1844.311,1846.446,2.135,explain,6,0.642,0,has happened if you treat this
+321,55338,55395,1846446.45,1848381.72,1846.446,1848.382,1.935,write,10,0.85,0,this guy as a matrix I have got a matrix
+322,55396,55455,1848381.72,1850383.72,1848.382,1850.384,2.002,explain,10,0.858,0,matrix which has only one number so it's a one
+323,55456,55513,1850383.72,1852318.99,1850.384,1852.319,1.935,write,4,0.9,0,one by one matrix
+324,55514,55539,1852318.99,1853186.52,1852.319,1853.187,0.868,explain,1,0.466,0,sort
+325,55540,55693,1853186.52,1858324.99,1853.187,1858.325,5.138,out,21,0.922,0,sort of one by three and three by one we have produced a one by one matrix as you can see
+326,55694,55720,1858324.99,1859225.89,1858.325,1859.226,0.901,explain,2,0.973,0,see the
+327,55721,55832,1859225.89,1862962.96,1859.226,1862.963,3.737,write,12,0.986,0,the number of columns over here are matching the number of rows
+328,55833,55862,1862962.96,1863963.96,1862.963,1863.964,1.001,explain,4,0.938,0,rows because otherwise the
+329,55863,55986,1863963.96,1868101.43,1863.964,1868.101,4.137,out,9,0.888,0,the product will not be even defined and once
+330,55987,56025,1868101.43,1869402.74,1868.101,1869.403,1.301,explain,4,0.949,0,once that is matched
+331,56026,56120,1869402.74,1872572.57,1869.403,1872.573,3.170,write,9,0.839,0,matched whatever is here and whatever is over there
+332,56121,56162,1872572.57,1873973.97,1872.573,1873.974,1.401,explain,2,0.738,0,these guys
+333,56163,56586,1873973.97,1888121.45,1873.974,1888.121,14.147,out,30,0.875,0,guys have given us the size of the new matrix so this is sort of the motivation behind matrix multiplication although the reason why we define it in this way
+334,56587,56708,1888121.45,1892192.19,1888.121,1892.192,4.071,explain,6,0.826,0,way is completely different it has
+335,56709,56750,1892192.19,1893593.59,1892.192,1893.594,1.401,pickerase,4,0.966,0,it was after much
+336,56751,57960,1893593.59,1933967.30,1893.594,1933.967,40.374,erase,56,0.909,0,much effort people wanted to do something with functions and after much effort they figured out that this is what they need to do to sort of compose two functions so maybe when I have a chance someday I will show you why the matrix multiplication idea came to into existence the way we know it
+337,57961,58101,1933967.30,1938672.01,1933.967,1938.672,4.705,droperase,0,,1,[silence]
+338,58102,58163,1938672.01,1940740.74,1938.672,1940.741,2.069,out,3,0.509,0,okay so with
+339,58164,58308,1940740.74,1945578.91,1940.741,1945.579,4.838,explain,8,0.979,0,with this as kind of our guiding principle
+340,58309,58377,1945578.91,1947881.21,1945.579,1947.881,2.302,out,7,0.958,0,principle we attempt to define matrix multiplication
+341,58378,58565,1947881.21,1954154.15,1947.881,1954.154,6.273,explain,17,0.895,0,multiplication I have a matrix A with size m by n and from here we kind of
+342,58566,58702,1954154.15,1958725.39,1954.154,1958.725,4.571,write,15,0.748,0,of get inspired that maybe the size of n oh sorry the size of b
+343,58703,58722,1958725.39,1959392.73,1958.725,1959.393,0.667,explain,3,0.847,0,b would be
+344,58723,58805,1959392.73,1962162.16,1959.393,1962.162,2.769,out,8,0.861,0,be of the form n by p and
+345,58806,58835,1962162.16,1963163.16,1962.162,1963.163,1.001,explain,4,0.767,0,and whatever is the
+346,58836,59032,1963163.16,1969736.40,1963.163,1969.736,6.573,write,18,0.936,0,the answer to this matrix let me call that as c would be of size m by p
+347,59033,59064,1969736.40,1970804.14,1969.736,1970.804,1.068,explain,0,,1,[silence]
+348,59065,59224,1970804.14,1976142.81,1970.804,1976.143,5.339,out,17,0.861,0,okay so I do understand if you think everything is being done very artificially out here that
+349,59225,59258,1976142.81,1977277.28,1976.143,1977.277,1.134,explain,3,0.967,0,that is unfortunately
+350,59259,59562,1977277.28,1987420.75,1977.277,1987.421,10.143,out,35,0.962,0,unfortunately the reason when we introduce matrix multiplication we don't tell you the real story behind it but we just give you the final product so bear with me for some time let's enjoy the
+351,59563,59684,1987420.75,1991491.49,1987.421,1991.491,4.071,explain,11,0.761,0,the product and then someday we will figure out the actual
+352,59685,59789,1991491.49,1994994.99,1991.491,1994.995,3.504,out,5,0.815,0,actual reason behind it okay
+353,59790,60095,1994994.99,2005205.21,1994.995,2005.205,10.210,explain,24,0.898,0,so if I define it this way let's see what exactly am I after so let's take a simple attempt first let's say I
+354,60096,61151,2005205.21,2040440.44,2005.205,2040.440,35.235,write,51,0.785,0,I have a matrix A which is of size say 2 by 3 so let me give the so A is of size 2 by rows let me take B to be a 3 by 1 matrix that means it has 3 rows but one column so like a column vector
+355,61152,61248,2040440.44,2043677.01,2040.440,2043.677,3.237,explain,2,0.572,0,now we
+356,61249,61346,2043677.01,2046946.95,2043.677,2046.947,3.270,write,9,0.918,0,we will try to multiply A and B A
+357,61347,61396,2046946.95,2048615.28,2046.947,2048.615,1.668,explain,9,0.88,0,A being on the left B being on the
+358,61397,61461,2048615.28,2050784.12,2048.615,2050.784,2.169,out,3,0.823,0,the right and
+359,61462,61508,2050784.12,2052352.35,2050.784,2052.352,1.568,explain,4,0.866,0,we'll see how this
+360,61509,61860,2052352.35,2064097.43,2052.352,2064.097,11.745,write,6,0.936,0,this matrix multiplication will be performed
+361,61861,61918,2064097.43,2066032.70,2064.097,2066.033,1.935,explain,5,0.918,0,this should remind us of
+362,61919,62070,2066032.70,2071104.44,2066.033,2071.104,5.072,out,7,0.795,0,a matrix being multiplied by a vector
+363,62071,62214,2071104.44,2075909.24,2071.104,2075.909,4.805,explain,0,,1,[silence]
+364,62215,62233,2075909.24,2076543.21,2075.909,2076.543,0.634,write,0,,1,[silence]
+365,62234,62893,2076543.21,2098565.23,2076.543,2098.565,22.022,explain,0,,1,[silence]
+366,62894,63123,2098565.23,2106239.57,2098.565,2106.240,7.674,write,0,,1,[silence]
+367,63124,63329,2106239.57,2113113.11,2106.240,2113.113,6.874,explain,0,,1,[silence]
+368,63330,63565,2113113.11,2120987.65,2113.113,2120.988,7.875,write,0,,1,[silence]
+369,63566,63640,2120987.65,2123490.16,2120.988,2123.490,2.503,explain,0,,1,[silence]
+370,63641,63693,2123490.16,2125258.59,2123.490,2125.259,1.768,out,0,,1,[silence]
+371,63694,63825,2125258.59,2129663.00,2125.259,2129.663,4.404,explain,0,,1,[silence]
+372,63826,63874,2129663.00,2131297.96,2129.663,2131.298,1.635,write,0,,1,[silence]
+373,63875,63943,2131297.96,2133600.27,2131.298,2133.600,2.302,explain,0,,1,[silence]
+374,63944,64083,2133600.27,2138271.60,2133.600,2138.272,4.671,out,0,,1,[silence]
+375,64084,64370,2138271.60,2147847.85,2138.272,2147.848,9.576,explain,0,,1,[silence]
+376,64371,64470,2147847.85,2151184.52,2147.848,2151.185,3.337,out,0,,1,[silence]
+377,64471,64594,2151184.52,2155321.99,2151.185,2155.322,4.137,explain,0,,1,[silence]
+378,64595,64721,2155321.99,2159559.56,2155.322,2159.560,4.238,write,0,,1,[silence]
+379,64722,64774,2159559.56,2161327.99,2159.560,2161.328,1.768,explain,0,,1,[silence]
+380,64775,64818,2161327.99,2162796.13,2161.328,2162.796,1.468,out,0,,1,[silence]
+381,64819,64869,2162796.13,2164497.83,2162.796,2164.498,1.702,explain,0,,1,[silence]
+382,64870,65125,2164497.83,2173039.71,2164.498,2173.040,8.542,write,0,,1,[silence]
+383,65126,65219,2173039.71,2176176.18,2173.040,2176.176,3.136,explain,0,,1,[silence]
+384,65220,65400,2176176.18,2182215.55,2176.176,2182.216,6.039,write,0,,1,[silence]
+385,65401,65446,2182215.55,2183750.42,2182.216,2183.750,1.535,explain,0,,1,[silence]
+386,65447,65555,2183750.42,2187387.39,2183.750,2187.387,3.637,out,0,,1,[silence]
+387,65556,65731,2187387.39,2193259.93,2187.387,2193.260,5.873,explain,0,,1,[silence]
+388,65732,65761,2193259.93,2194260.93,2193.260,2194.261,1.001,out,0,,1,[silence]
+389,65762,65984,2194260.93,2201701.70,2194.261,2201.702,7.441,explain,0,,1,[silence]
+390,65985,66031,2201701.70,2203269.94,2201.702,2203.270,1.568,out,0,,1,[silence]
+391,66032,66104,2203269.94,2205705.71,2203.270,2205.706,2.436,explain,0,,1,[silence]
+392,66105,67014,2205705.71,2236069.40,2205.706,2236.069,30.364,write,0,,1,[silence]
+393,67015,67093,2236069.40,2238705.37,2236.069,2238.705,2.636,explain,0,,1,[silence]
+394,67094,67186,2238705.37,2241808.48,2238.705,2241.808,3.103,out,0,,1,[silence]
+395,67187,67388,2241808.48,2248548.55,2241.808,2248.549,6.740,explain,0,,1,[silence]
+396,67389,67461,2248548.55,2250984.32,2248.549,2250.984,2.436,out,0,,1,[silence]
+397,67462,67675,2250984.32,2258124.79,2250.984,2258.125,7.140,explain,0,,1,[silence]
+398,67676,67856,2258124.79,2264164.16,2258.125,2264.164,6.039,pickerase,0,,1,[silence]
+399,67857,67940,2264164.16,2266966.97,2264.164,2266.967,2.803,erase,0,,1,[silence]
+400,67941,68051,2266966.97,2270670.67,2266.967,2270.671,3.704,droperase,0,,1,[silence]
+401,68052,68142,2270670.67,2273707.04,2270.671,2273.707,3.036,pickerase,0,,1,[silence]
+402,68143,68502,2273707.04,2285719.05,2273.707,2285.719,12.012,erase,0,,1,[silence]
+403,68503,68551,2285719.05,2287354.02,2285.719,2287.354,1.635,droperase,0,,1,[silence]
+404,68552,68778,2287354.02,2294928.26,2287.354,2294.928,7.574,explain,0,,1,[silence]
+405,68779,68838,2294928.26,2296930.26,2294.928,2296.930,2.002,pickerase,0,,1,[silence]
+406,68839,69055,2296930.26,2304170.84,2296.930,2304.171,7.241,erase,0,,1,[silence]
+407,69056,69134,2304170.84,2306806.81,2304.171,2306.807,2.636,droperase,0,,1,[silence]
+408,69135,69164,2306806.81,2307807.81,2306.807,2307.808,1.001,out,0,,1,[silence]
+409,69165,69549,2307807.81,2320653.99,2307.808,2320.654,12.846,explain,0,,1,[silence]
+410,69550,70089,2320653.99,2338672.01,2320.654,2338.672,18.018,write,0,,1,[silence]
+411,70090,70557,2338672.01,2354287.62,2338.672,2354.288,15.616,explain,0,,1,[silence]
+412,70558,70892,2354287.62,2365465.47,2354.288,2365.465,11.178,write,0,,1,[silence]
+413,70893,72004,2365465.47,2402569.24,2365.465,2402.569,37.104,explain,0,,1,[silence]
+414,72005,72470,2402569.24,2418118.12,2402.569,2418.118,15.549,write,0,,1,[silence]
+415,72471,72721,2418118.12,2426493.16,2418.118,2426.493,8.375,explain,0,,1,[silence]
+416,72722,72755,2426493.16,2427627.63,2426.493,2427.628,1.134,pickerase,0,,1,[silence]
+417,72756,72820,2427627.63,2429796.46,2427.628,2429.796,2.169,erase,0,,1,[silence]
+418,72821,72894,2429796.46,2432265.60,2429.796,2432.266,2.469,droperase,0,,1,[silence]
+419,72895,73216,2432265.60,2443009.68,2432.266,2443.010,10.744,explain,0,,1,[silence]
+420,73217,73292,2443009.68,2445545.55,2443.010,2445.546,2.536,out,0,,1,[silence]
+421,73293,73681,2445545.55,2458525.19,2445.546,2458.525,12.980,explain,0,,1,[silence]
+422,73682,74395,2458525.19,2482349.02,2458.525,2482.349,23.824,write,0,,1,[silence]
+423,74396,74477,2482349.02,2485085.09,2482.349,2485.085,2.736,explain,0,,1,[silence]
+424,74478,74498,2485085.09,2485785.79,2485.085,2485.786,0.701,out,0,,1,[silence]
+425,74499,74976,2485785.79,2501735.07,2485.786,2501.735,15.949,explain,0,,1,[silence]
+426,74977,75060,2501735.07,2504537.87,2501.735,2504.538,2.803,out,0,,1,[silence]
+427,75061,75297,2504537.87,2512445.78,2504.538,2512.446,7.908,explain,0,,1,[silence]
+428,75298,75382,2512445.78,2515281.95,2512.446,2515.282,2.836,out,0,,1,[silence]
+429,75383,75612,2515281.95,2522956.29,2515.282,2522.956,7.674,explain,0,,1,[silence]
+430,75613,75697,2522956.29,2525792.46,2522.956,2525.792,2.836,out,0,,1,[silence]
+431,75698,76124,2525792.46,2540040.04,2525.792,2540.040,14.248,explain,0,,1,[silence]
+432,76125,76853,2540040.04,2564364.36,2540.040,2564.364,24.324,write,0,,1,[silence]
+433,76854,76883,2564364.36,2565365.37,2564.364,2565.365,1.001,explain,0,,1,[silence]
+434,76884,77053,2565365.37,2571037.70,2565.365,2571.038,5.672,out,0,,1,[silence]
+435,77054,77075,2571037.70,2571771.77,2571.038,2571.772,0.734,explain,0,,1,[silence]
+436,77076,77147,2571771.77,2574174.17,2571.772,2574.174,2.402,out,0,,1,[silence]
+437,77148,77215,2574174.17,2576443.11,2574.174,2576.443,2.269,explain,0,,1,[silence]
+438,77216,77247,2576443.11,2577510.84,2576.443,2577.511,1.068,write,0,,1,[silence]
+439,77248,77257,2577510.84,2577844.51,2577.511,2577.845,0.334,explain,0,,1,[silence]
+440,77258,77324,2577844.51,2580080.08,2577.845,2580.080,2.236,out,0,,1,[silence]
+441,77325,77343,2580080.08,2580714.05,2580.080,2580.714,0.634,explain,0,,1,[silence]
+442,77344,77386,2580714.05,2582148.82,2580.714,2582.149,1.435,write,0,,1,[silence]
+443,77387,77568,2582148.82,2588221.55,2582.149,2588.222,6.073,explain,0,,1,[silence]
+444,77569,77792,2588221.55,2595695.70,2588.222,2595.696,7.474,explain,0,,1,[silence]
+445,77793,78216,2595695.70,2609843.18,2595.696,2609.843,14.147,write,0,,1,[silence]
+446,78217,78380,2609843.18,2615315.32,2609.843,2615.315,5.472,explain,0,,1,[silence]
+447,78381,78436,2615315.32,2617183.85,2615.315,2617.184,1.869,out,0,,1,[silence]
+448,78437,78531,2617183.85,2620353.69,2617.184,2620.354,3.170,explain,0,,1,[silence]
+449,78532,78830,2620353.69,2630330.33,2620.354,2630.330,9.977,write,0,,1,[silence]
+450,78831,79197,2630330.33,2642575.91,2630.330,2642.576,12.246,explain,0,,1,[silence]
+451,79198,79224,2642575.91,2643476.81,2642.576,2643.477,0.901,pickerase,0,,1,[silence]
+452,79225,79279,2643476.81,2645311.98,2643.477,2645.312,1.835,erase,0,,1,[silence]
+453,79280,79315,2645311.98,2646513.18,2645.312,2646.513,1.201,droperase,0,,1,[silence]
+454,79316,79400,2646513.18,2649349.35,2646.513,2649.349,2.836,pickerase,0,,1,[silence]
+455,79401,79635,2649349.35,2657190.52,2649.349,2657.191,7.841,erase,0,,1,[silence]
+456,79636,79657,2657190.52,2657924.59,2657.191,2657.925,0.734,droperase,0,,1,[silence]
+457,79658,79788,2657924.59,2662295.63,2657.925,2662.296,4.371,explain,0,,1,[silence]
+458,79789,79894,2662295.63,2665832.50,2662.296,2665.832,3.537,write,0,,1,[silence]
+459,79895,79931,2665832.50,2667067.07,2665.832,2667.067,1.235,explain,0,,1,[silence]
+460,79932,80036,2667067.07,2670570.57,2667.067,2670.571,3.504,out,0,,1,[silence]
+461,80037,80477,2670570.57,2685285.29,2670.571,2685.285,14.715,explain,0,,1,[silence]
+462,80478,80561,2685285.29,2688088.09,2685.285,2688.088,2.803,out,0,,1,[silence]
+463,80562,80575,2688088.09,2688555.22,2688.088,2688.555,0.467,explain,0,,1,[silence]
+464,80576,81492,2688555.22,2719152.49,2688.555,2719.152,30.597,write,0,,1,[silence]
+465,81493,81514,2719152.49,2719886.55,2719.152,2719.887,0.734,explain,0,,1,[silence]
+466,81515,81661,2719886.55,2724791.46,2719.887,2724.791,4.905,out,0,,1,[silence]
+467,81662,81724,2724791.46,2726893.56,2724.791,2726.894,2.102,explain,0,,1,[silence]
+468,81725,81844,2726893.56,2730897.56,2726.894,2730.898,4.004,out,0,,1,[silence]
+469,81845,81941,2730897.56,2734134.13,2730.898,2734.134,3.237,explain,0,,1,[silence]
+470,81942,81996,2734134.13,2735969.30,2734.134,2735.969,1.835,pickerase,0,,1,[silence]
+471,81997,82962,2735969.30,2768201.53,2735.969,2768.202,32.232,erase,0,,1,[silence]
+472,82963,83047,2768201.53,2771037.70,2768.202,2771.038,2.836,droperase,0,,1,[silence]
+473,83048,83183,2771037.70,2775575.58,2771.038,2775.576,4.538,out,0,,1,[silence]
+474,83184,83441,2775575.58,2784184.18,2775.576,2784.184,8.609,explain,0,,1,[silence]
+475,83442,84144,2784184.18,2807640.97,2784.184,2807.641,23.457,write,0,,1,[silence]
+476,84145,84294,2807640.97,2812645.98,2807.641,2812.646,5.005,explain,0,,1,[silence]
+477,84295,84429,2812645.98,2817150.48,2812.646,2817.150,4.505,write,0,,1,[silence]
+478,84430,84616,2817150.48,2823390.06,2817.150,2823.390,6.240,explain,0,,1,[silence]
+479,84617,84724,2823390.06,2826993.66,2823.390,2826.994,3.604,write,0,,1,[silence]
+480,84725,84787,2826993.66,2829095.76,2826.994,2829.096,2.102,explain,0,,1,[silence]
+481,84788,84835,2829095.76,2830697.36,2829.096,2830.697,1.602,out,0,,1,[silence]
+482,84836,84970,2830697.36,2835201.87,2830.697,2835.202,4.505,explain,0,,1,[silence]
+483,84971,85250,2835201.87,2844544.54,2835.202,2844.545,9.343,write,0,,1,[silence]
+484,85251,85374,2844544.54,2848682.02,2844.545,2848.682,4.137,explain,0,,1,[silence]
+485,85375,85631,2848682.02,2857257.26,2848.682,2857.257,8.575,write,0,,1,[silence]
+486,85632,85774,2857257.26,2862028.70,2857.257,2862.029,4.771,explain,0,,1,[silence]
+487,85775,85821,2862028.70,2863596.93,2862.029,2863.597,1.568,write,0,,1,[silence]
+488,85822,85881,2863596.93,2865598.93,2863.597,2865.599,2.002,explain,0,,1,[silence]
+489,85882,85993,2865598.93,2869336.00,2865.599,2869.336,3.737,out,0,,1,[silence]
+490,85994,86074,2869336.00,2872038.71,2869.336,2872.039,2.703,explain,0,,1,[silence]
+491,86075,86459,2872038.71,2884884.88,2872.039,2884.885,12.846,write,0,,1,[silence]
+492,86460,86517,2884884.88,2886820.15,2884.885,2886.820,1.935,explain,0,,1,[silence]
+493,86518,86616,2886820.15,2890123.46,2886.820,2890.123,3.303,out,0,,1,[silence]
+494,86617,86742,2890123.46,2894327.66,2890.123,2894.328,4.204,explain,0,,1,[silence]
+495,86743,86774,2894327.66,2895395.40,2894.328,2895.395,1.068,out,0,,1,[silence]
+496,86775,86851,2895395.40,2897964.63,2895.395,2897.965,2.569,explain,0,,1,[silence]
+497,86852,86978,2897964.63,2902202.20,2897.965,2902.202,4.238,write,0,,1,[silence]
+498,86979,87101,2902202.20,2906306.31,2902.202,2906.306,4.104,explain,0,,1,[silence]
+499,87102,87246,2906306.31,2911144.48,2906.306,2911.144,4.838,write,0,,1,[silence]
+500,87247,87445,2911144.48,2917784.45,2911.144,2917.784,6.640,explain,0,,1,[silence]
+501,87446,87657,2917784.45,2924858.19,2917.784,2924.858,7.074,write,0,,1,[silence]
+502,87658,87826,2924858.19,2930497.16,2924.858,2930.497,5.639,explain,0,,1,[silence]
+503,87827,88123,2930497.16,2940407.07,2930.497,2940.407,9.910,write,0,,1,[silence]
+504,88124,88138,2940407.07,2940907.57,2940.407,2940.908,0.501,pickerase,0,,1,[silence]
+505,88139,88228,2940907.57,2943910.58,2940.908,2943.911,3.003,erase,0,,1,[silence]
+506,88229,88251,2943910.58,2944678.01,2943.911,2944.678,0.767,droperase,0,,1,[silence]
+507,88252,88338,2944678.01,2947580.91,2944.678,2947.581,2.903,explain,0,,1,[silence]
+508,88339,88465,2947580.91,2951818.49,2947.581,2951.818,4.238,write,0,,1,[silence]
+509,88466,88614,2951818.49,2956790.12,2951.818,2956.790,4.972,explain,0,,1,[silence]
+510,88615,89120,2956790.12,2973673.67,2956.790,2973.674,16.884,write,0,,1,[silence]
+511,89121,89200,2973673.67,2976343.01,2973.674,2976.343,2.669,explain,0,,1,[silence]
+512,89201,89235,2976343.01,2977510.84,2976.343,2977.511,1.168,out,0,,1,[silence]
+513,89236,89470,2977510.84,2985352.02,2977.511,2985.352,7.841,explain,0,,1,[silence]
+514,89471,89588,2985352.02,2989289.29,2985.352,2989.289,3.937,out,0,,1,[silence]
+515,89589,89715,2989289.29,2993526.86,2989.289,2993.527,4.238,explain,0,,1,[silence]
+516,89716,89743,2993526.86,2994461.13,2993.527,2994.461,0.934,pickerase,0,,1,[silence]
+517,89744,90061,2994461.13,3005071.74,2994.461,3005.072,10.611,erase,0,,1,[silence]
+518,90062,90128,3005071.74,3007307.31,3005.072,3007.307,2.236,droperase,0,,1,[silence]
+519,90129,90234,3007307.31,3010844.18,3007.307,3010.844,3.537,explain,0,,1,[silence]
+520,90235,90333,3010844.18,3014147.48,3010.844,3014.147,3.303,out,0,,1,[silence]
+521,90334,90506,3014147.48,3019919.92,3014.147,3019.920,5.772,explain,0,,1,[silence]
+522,90507,90917,3019919.92,3033633.63,3019.920,3033.634,13.714,write,0,,1,[silence]
+523,90918,90975,3033633.63,3035568.90,3033.634,3035.569,1.935,explain,0,,1,[silence]
+524,90976,91085,3035568.90,3039239.24,3035.569,3039.239,3.670,out,0,,1,[silence]
+525,91086,91222,3039239.24,3043810.48,3039.239,3043.810,4.571,explain,0,,1,[silence]
+526,91223,91696,3043810.48,3059626.29,3043.810,3059.626,15.816,write,0,,1,[silence]
+527,91697,91750,3059626.29,3061428.09,3059.626,3061.428,1.802,explain,0,,1,[silence]
+528,91751,91831,3061428.09,3064130.80,3061.428,3064.131,2.703,out,0,,1,[silence]
+529,91832,92429,3064130.80,3084084.08,3064.131,3084.084,19.953,explain,0,,1,[silence]
+530,92430,92616,3084084.08,3090323.66,3084.084,3090.324,6.240,write,0,,1,[silence]
+531,92617,92727,3090323.66,3094027.36,3090.324,3094.027,3.704,explain,0,,1,[silence]
+532,92728,93084,3094027.36,3105939.27,3094.027,3105.939,11.912,write,0,,1,[silence]
+533,93085,93189,3105939.27,3109442.78,3105.939,3109.443,3.504,explain,0,,1,[silence]
+534,93190,93211,3109442.78,3110176.84,3109.443,3110.177,0.734,out,0,,1,[silence]
+535,93212,93378,3110176.84,3115749.08,3110.177,3115.749,5.572,explain,0,,1,[silence]
+536,93379,93412,3115749.08,3116883.55,3115.749,3116.884,1.134,write,0,,1,[silence]
+537,93413,93493,3116883.55,3119586.25,3116.884,3119.586,2.703,explain,0,,1,[silence]
+538,93494,93564,3119586.25,3121955.29,3119.586,3121.955,2.369,out,0,,1,[silence]
+539,93565,94075,3121955.29,3139005.67,3121.955,3139.006,17.050,explain,0,,1,[silence]
+540,94076,94107,3139005.67,3140073.41,3139.006,3140.073,1.068,pickerase,0,,1,[silence]
+541,94108,94663,3140073.41,3158625.29,3140.073,3158.625,18.552,erase,0,,1,[silence]
+542,94664,94694,3158625.29,3159659.66,3158.625,3159.660,1.034,droperase,0,,1,[silence]
+543,94695,94786,3159659.66,3162729.40,3159.660,3162.729,3.070,out,0,,1,[silence]
+544,94787,94812,3162729.40,3163596.93,3162.729,3163.597,0.868,explain,0,,1,[silence]
+545,94813,95162,3163596.93,3175275.28,3163.597,3175.275,11.678,write,0,,1,[silence]
+546,95163,95275,3175275.28,3179045.71,3175.275,3179.046,3.770,explain,0,,1,[silence]
+547,95276,95306,3179045.71,3180080.08,3179.046,3180.080,1.034,write,0,,1,[silence]
+548,95307,95340,3180080.08,3181214.55,3180.080,3181.215,1.134,explain,0,,1,[silence]
+549,95341,95476,3181214.55,3185752.42,3181.215,3185.752,4.538,out,0,,1,[silence]
+550,95477,95915,3185752.42,3200400.40,3185.752,3200.400,14.648,explain,0,,1,[silence]
+551,95916,96029,3200400.40,3204204.20,3200.400,3204.204,3.804,out,0,,1,[silence]
+552,96030,96121,3204204.20,3207273.94,3204.204,3207.274,3.070,explain,0,,1,[silence]
+553,96122,96765,3207273.94,3228762.10,3207.274,3228.762,21.488,write,0,,1,[silence]
+554,96766,96785,3228762.10,3229429.43,3228.762,3229.429,0.667,explain,0,,1,[silence]
+555,96786,96915,3229429.43,3233767.10,3229.429,3233.767,4.338,out,0,,1,[silence]
+556,96916,97226,3233767.10,3244144.14,3233.767,3244.144,10.377,explain,0,,1,[silence]
+557,97227,97857,3244144.14,3265198.53,3244.144,3265.199,21.054,write,0,,1,[silence]
+558,97858,97871,3265198.53,3265665.67,3265.199,3265.666,0.467,explain,0,,1,[silence]
+559,97872,97962,3265665.67,3268702.04,3265.666,3268.702,3.036,out,0,,1,[silence]
+560,97963,98064,3268702.04,3272105.44,3268.702,3272.105,3.403,explain,0,,1,[silence]
+561,98065,98084,3272105.44,3272772.77,3272.105,3272.773,0.667,write,0,,1,[silence]
+562,98085,98158,3272772.77,3275241.91,3272.773,3275.242,2.469,explain,0,,1,[silence]
+563,98159,98332,3275241.91,3281047.71,3275.242,3281.048,5.806,out,0,,1,[silence]
+564,98333,98355,3281047.71,3281815.15,3281.048,3281.815,0.767,explain,0,,1,[silence]
+565,98356,98595,3281815.15,3289823.16,3281.815,3289.823,8.008,out,0,,1,[silence]
+566,98596,98859,3289823.16,3298631.97,3289.823,3298.632,8.809,explain,0,,1,[silence]
+567,98860,98919,3298631.97,3300633.97,3298.632,3300.634,2.002,out,0,,1,[silence]
+568,98920,99066,3300633.97,3305538.87,3300.634,3305.539,4.905,explain,0,,1,[silence]
+569,99067,99132,3305538.87,3307741.07,3305.539,3307.741,2.202,out,0,,1,[silence]
+570,99133,99239,3307741.07,3311311.31,3307.741,3311.311,3.570,explain,0,,1,[silence]

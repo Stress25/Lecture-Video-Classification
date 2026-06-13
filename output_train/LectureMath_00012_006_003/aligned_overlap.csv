@@ -1,0 +1,71 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,301,0.00,10076.74,0.000,10.077,10.077,transit,0,,1,[silence]
+1,302,1323,10076.74,44177.51,10.077,44.178,34.101,explain,89,0.941,0,"Welcome to the Worldwide Center of Matt. Today we've been taking a look at some of the rules for calculating derivatives. Today we're going to take a look at the chain rule. Now the chain rule is really important for calculating the derivatives of functions composed with one another. Basically f of g of x sometimes written in this notation, sometimes written in this notation here. This is what we're going to work with. Now we have the derivative of f of g of x is going to equal"
+2,1324,1561,44177.51,52118.79,44.178,52.119,7.941,write,0,,1,[silence]
+3,1562,2411,52118.79,80480.48,52.119,80.480,28.362,explain,68,0.934,0,f prime g of x times g prime of x. So it's basically the derivative of the entire function times the derivative of what's inside. That's kind how I like to think of it. So say we have two functions u equals g of x and y equals f of u and we want dy over dx. Well we simply have dy over du times du over dx.
+4,2412,2625,80480.48,87620.95,80.480,87.621,7.140,write,0,,1,[silence]
+5,2626,3976,87620.95,132699.37,87.621,132.699,45.078,explain,124,0.943,0,"So in this case the u would be the inside function and we have dy over dx, dy being here, x there. Now this really tripped me up when I was learning about it but we're going to go ahead and take a look at some examples and that should really be able to clear the air when we split things up into their two functions really when it's only one function. So the first example we're going to take a look at, we want the derivative of x cubed plus 4x all squared minus 3 times 3 minus x to the 8th to the 4th minus 8x. So let's break this down and go ahead and only look at the first piece here."
+6,3977,4011,132699.37,133867.20,132.699,133.867,1.168,point,0,,1,[silence]
+7,4012,4260,133867.20,142175.51,133.867,142.176,8.308,explain,25,0.917,0,"And let's say that f of x, let's say that this is f of g of x and f of x is just x squared"
+8,4261,4449,142175.51,148481.82,142.176,148.482,6.306,write,0,,1,[silence]
+9,4450,4557,148481.82,152085.42,148.482,152.085,3.604,explain,9,0.916,0,and g of x is x cubed plus 4x
+10,4558,4650,152085.42,155188.52,152.085,155.189,3.103,write,0,,1,[silence]
+11,4651,4696,155188.52,156723.39,155.189,156.723,1.535,fingererase,0,,1,[silence]
+12,4697,4727,156723.39,157757.76,156.723,157.758,1.034,write,0,,1,[silence]
+13,4728,5046,157757.76,168401.74,157.758,168.402,10.644,explain,26,0.939,0,"and then f of g of x would be x cubed plus 4x all squared. So we have g, let's take g prime of x first"
+14,5047,5217,168401.74,174107.44,168.402,174.107,5.706,write,0,,1,[silence]
+15,5218,6025,174107.44,201067.73,174.107,201.068,26.960,explain,58,0.906,0,"by the power and rules of linearity. We're going to get 3x squared plus 4. Now f of g of x, the derivative of this higher function, we want to have the derivative of f of g of x. So it's kind of confusing but what that means is simply taking the derivative of this entire term here."
+16,6026,6163,201067.73,205672.34,201.068,205.672,4.605,write,0,,1,[silence]
+17,6164,6281,205672.34,209609.61,205.672,209.610,3.937,explain,9,0.97,0,So we have f prime of g of x.
+18,6282,6455,209609.61,215415.42,209.610,215.415,5.806,write,0,,1,[silence]
+19,6456,7051,215415.42,235301.97,215.415,235.302,19.887,explain,55,0.945,0,"Now the derivative of this by itself without taking the derivative of anything in the middle is just 2 times x cubed plus 4x to the first. So we leave out the power and then we go ahead and multiply by that g x, by that g prime of x. So the result is this."
+20,7052,7335,235301.97,244778.11,235.302,244.778,9.476,write,0,,1,[silence]
+21,7336,7673,244778.11,256056.06,244.778,256.056,11.278,explain,37,0.96,0,So this is the result of what we get for the first term. So that's the derivative of that and using linearity we're just going to handle each of these terms separately. So I'm going to go
+22,7674,7713,256056.06,257390.72,256.056,257.391,1.335,pickerase,5,0.979,0,go ahead and erase this
+23,7714,7929,257390.72,264597.93,257.391,264.598,7.207,explain,28,0.982,0,"this here, erase all the work here. This is the derivative of the first term and we're going to go ahead and follow the same process for that"
+24,7930,7945,264597.93,265131.80,264.598,265.132,0.534,pickerase,3,0.998,0,that second term.
+25,7946,8061,265131.80,269002.34,265.132,269.002,3.871,erase,1,0.998,0,term.
+26,8062,8102,269002.34,270370.37,269.002,270.370,1.368,droperase,1,0.768,0,So
+27,8103,8732,270370.37,291391.39,270.370,291.391,21.021,explain,58,0.918,0,So the second term we would have f of x is negative 3x to the fourth and g of x would be 3 minus x to the eighth and then f of g of x would be 3 times 3 minus x to the eighth to the fourth. So let's take the derivative of the entire thing first
+28,8733,9097,291391.39,303570.24,291.391,303.570,12.179,write,0,,1,[silence]
+29,9098,9266,303570.24,309209.21,303.570,309.209,5.639,explain,17,0.95,0,and now we'll look at the derivative of what's on the inside in g of x here.
+30,9267,9349,309209.21,311978.65,309.209,311.979,2.769,write,0,,1,[silence]
+31,9350,9553,311978.65,318785.45,311.979,318.785,6.807,explain,27,0.886,0,Now we have a constant so that's just going to be zero we have a negative x to the eighth which is negative 8x to the seventh.
+32,9554,9615,318785.45,320854.19,318.785,320.854,2.069,write,1,0.821,0,seventh.
+33,9616,9819,320854.19,327660.99,320.854,327.661,6.807,explain,22,0.96,0,So if we put them both together and take the derivative of the whole term it's going to be this times this.
+34,9820,9831,327660.99,328061.39,327.661,328.061,0.400,write,0,,1,[silence]
+35,9832,10099,328061.39,337003.67,328.061,337.004,8.942,explain,25,0.949,0,This is going to be negative 12 but we have also a negative 8 so we're just going to treat that as a positive number.
+36,10100,10376,337003.67,346246.25,337.004,346.246,9.243,write,0,,1,[silence]
+37,10377,10393,346246.25,346813.48,346.246,346.813,0.567,explain,0,,1,[silence]
+38,10394,10452,346813.48,348782.12,346.813,348.782,1.969,fingererase,0,,1,[silence]
+39,10453,10459,348782.12,349015.68,348.782,349.016,0.234,write,0,,1,[silence]
+40,10460,10681,349015.68,356423.09,349.016,356.423,7.407,explain,20,0.932,0,And we have 12 times 8 times x to the seventh times 3 minus x to the eighth all cubed.
+41,10682,10707,356423.09,357290.62,356.423,357.291,0.868,write,0,,1,[silence]
+42,10708,11457,357290.62,382315.65,357.291,382.316,25.025,explain,60,0.927,0,Now the last term we don't need to use chain rule for we just have a minus 8 using that linearity because we're treating that again as a separate term from the other two terms. So putting that all together the derivative we have of the entire function I'm not going to rewrite it but the whole derivative is this
+43,11458,12125,382315.65,404604.60,382.316,404.605,22.289,write,0,,1,[silence]
+44,12126,12801,404604.60,427160.49,404.605,427.160,22.556,explain,62,0.88,0,times x cubed plus 4x times 3x squared plus 4 plus 12 times 8x to the seventh times 3 minus x to the eighth all cubed minus 8. So again we want to use the chain rule and take a look at a different function this one down here. We're going to rewrite this function as a function to the one -half
+45,12802,13234,427160.49,441608.27,427.160,441.608,14.448,write,0,,1,[silence]
+46,13235,13315,441608.27,444310.98,441.608,444.311,2.703,explain,2,0.544,0,excuse me
+47,13316,13352,444310.98,445545.55,444.311,445.546,1.235,fingererase,1,0.995,0,me
+48,13353,13387,445545.55,446713.38,445.546,446.713,1.168,write,0,,1,[silence]
+49,13388,13998,446713.38,467100.43,446.713,467.100,20.387,explain,63,0.938,0,that's one -half not one. So we have the derivative of this entire function to the one -half so we're going to have in this case f of x is just going to be x to the one -half or the square root of x and g of x is going be this entire inside. So let's take the derivative of g first
+50,13999,14403,467100.43,480613.95,467.100,480.614,13.514,write,0,,1,[silence]
+51,14404,14413,480613.95,480947.61,480.614,480.948,0.334,explain,0,,1,[silence]
+52,14414,14443,480947.61,481948.62,480.948,481.949,1.001,handerase,2,0.507,0,so that's
+53,14444,14687,481948.62,490090.09,481.949,490.090,8.141,explain,25,0.91,0,that's the derivative of g and then the derivative of f of g is just going to be or f prime of g of x
+54,14688,14825,490090.09,494694.69,490.090,494.695,4.605,write,0,,1,[silence]
+55,14826,15068,494694.69,502802.80,494.695,502.803,8.108,explain,20,0.898,0,is going to be one -half of this function times or to the negative one -half using the power rule.
+56,15069,15473,502802.80,516316.32,502.803,516.316,13.514,write,0,,1,[silence]
+57,15474,15725,516316.32,524724.72,516.316,524.725,8.408,explain,23,0.933,0,Now if we go ahead and multiply these all out as we're supposed to using the chain rule we're going to get derivative
+58,15726,15780,524724.72,526559.89,524.725,526.560,1.835,point,0,,1,[silence]
+59,15781,16301,526559.89,543943.94,526.560,543.944,17.384,explain,36,0.952,0,just go ahead and multiply them through and that's all we have to do. I'm going to go ahead and switch this term here back to a square root in the denominator of the final function.
+60,16302,16780,543943.94,559926.59,543.944,559.927,15.983,write,0,,1,[silence]
+61,16781,16820,559926.59,561261.26,559.927,561.261,1.335,handerase,0,,1,[silence]
+62,16821,16849,561261.26,562228.90,561.261,562.229,0.968,explain,0,,1,[silence]
+63,16850,16868,562228.90,562862.86,562.229,562.863,0.634,write,0,,1,[silence]
+64,16869,16946,562862.86,565465.47,562.863,565.465,2.603,explain,0,,1,[silence]
+65,16947,17383,565465.47,580046.71,565.465,580.047,14.581,write,0,,1,[silence]
+66,17384,18313,580046.71,611077.74,580.047,611.078,31.031,explain,84,0.907,0,And using the chain rule our final derivative here is going to be 45x to the eighth minus 24x to the fifth plus 6x squared minus one all over two times our original square root. That's how you use the train rule. Make sure that you're treating the outside outside and inside functions as separate functions so you're finding the derivative of that inside function and multiplying it by what you might think is the derivative of the f prime of g of x.
+67,18314,18327,611077.74,611544.88,611.078,611.545,0.467,transit,0,,1,[silence]
+68,18328,18701,611544.88,624024.02,611.545,624.024,12.479,explain,27,0.926,0,Thank you for watching. For more math videos please subscribe to our YouTube channel here or for additional resources including affordable digital textbooks please visit centerofmath .org
+69,18702,18911,624024.02,631031.03,624.024,631.031,7.007,transit,0,,1,[silence]

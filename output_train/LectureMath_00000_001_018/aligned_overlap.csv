@@ -1,0 +1,508 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,27,0.00,934.27,0.000,0.934,0.934,out,0,,1,[silence]
+1,28,96,934.27,3236.57,0.934,3.237,2.302,explain,0,,1,[silence]
+2,97,426,3236.57,14247.58,3.237,14.248,11.011,write,15,0.924,0,"So, we are going to continue with our lecture series, this would be lecture 18."
+3,427,448,14247.58,14981.65,14.248,14.982,0.734,explain,0,,1,[silence]
+4,449,567,14981.65,18952.29,14.982,18.952,3.971,out,1,0.976,0,Now
+5,568,645,18952.29,21554.89,18.952,21.555,2.603,change,5,0.821,0,I would like to first
+6,646,788,21554.89,26326.33,21.555,26.326,4.771,out,12,0.975,0,first rectify one of the mistakes that I did in lecture 17.
+7,789,841,26326.33,28094.76,26.326,28.095,1.768,explain,2,0.985,0,17. This
+8,842,1055,28094.76,35235.24,28.095,35.235,7.140,write,17,0.928,0,This was about an example that I did and I show you what the mistake was which
+9,1056,1150,35235.24,38405.07,35.235,38.405,3.170,explain,8,0.858,0,"which was leading to the wrong solution. So,"
+10,1151,1621,38405.07,54120.79,38.405,54.121,15.716,write,0,,1,[silence]
+11,1622,1649,54120.79,55055.06,54.121,55.055,0.934,explain,0,,1,[silence]
+12,1650,1704,55055.06,56890.22,55.055,56.890,1.835,out,2,0.972,0,this example
+13,1705,1722,56890.22,57490.82,56.890,57.491,0.601,explain,2,0.938,0,example was
+14,1723,1752,57490.82,58491.83,57.491,58.492,1.001,write,3,0.931,0,was about finding
+15,1753,1762,58491.83,58825.49,58.492,58.825,0.334,explain,1,0.954,0,finding
+16,1763,1848,58825.49,61695.03,58.825,61.695,2.870,out,8,0.874,0,finding the null space of a matrix and
+17,1849,1881,61695.03,62796.13,61.695,62.796,1.101,explain,4,0.898,0,I had given the
+18,1882,3472,62796.13,115882.55,62.796,115.883,53.086,write,20,0.911,0,"the following matrix. So, this was my matrix A and it was reduced to an echelon form, something like this."
+19,3473,3530,115882.55,117817.82,115.883,117.818,1.935,explain,2,0.839,0,"Okay, so"
+20,3531,3608,117817.82,120420.42,117.818,120.420,2.603,out,8,0.944,0,so I you what my mistake was. This
+21,3609,3640,120420.42,121488.15,120.420,121.488,1.068,explain,5,0.944,0,This is the so -called
+22,3641,3687,121488.15,123056.39,121.488,123.056,1.568,write,3,0.93,0,"-called echelon form,"
+23,3688,3719,123056.39,124124.12,123.056,124.124,1.068,explain,7,0.929,0,so let me denote it by U.
+24,3720,3905,124124.12,130330.33,124.124,130.330,6.206,out,18,0.862,0,U. I used the word R because I somehow thought in my mind that it is a reduced
+25,3906,3934,130330.33,131297.96,130.330,131.298,0.968,explain,4,0.95,0,"reduced row echelon form,"
+26,3935,3976,131297.96,132699.37,131.298,132.699,1.401,out,2,0.995,0,but it
+27,3977,4048,132699.37,135101.77,132.699,135.102,2.402,explain,14,0.97,0,"it is not, it is just an echelon form because as you can see"
+28,4049,4083,135101.77,136269.60,135.102,136.270,1.168,write,5,0.908,0,see this entry out here
+29,4084,4137,136269.60,138071.40,136.270,138.071,1.802,explain,6,0.891,0,here too is a pivot entry.
+30,4138,4255,138071.40,142008.68,138.071,142.009,3.937,out,8,0.94,0,"So, it's technically not a row reduced echelon"
+31,4256,4285,142008.68,143009.68,142.009,143.010,1.001,explain,2,0.998,0,echelon form.
+32,4286,4339,143009.68,144811.48,143.010,144.811,1.802,out,2,0.94,0,"So, the"
+33,4340,5347,144811.48,178445.11,144.811,178.445,33.634,write,72,0.909,0,"the pivot columns are as follows. If you see there is a pivot over here, so first column is a pivot. As you can see there's a pivot over here, so the second column is a pivot and as you can see there's one more pivot over here, so the fourth column is a pivot. So, what are the free columns? So, the free columns are the number third and number fifth."
+34,5348,5364,178445.11,179012.35,178.445,179.012,0.567,explain,0,,1,[silence]
+35,5365,5484,179012.35,183016.35,179.012,183.016,4.004,out,16,0.925,0,"So, two free columns and two pivot columns. That changes a lot of things that I"
+36,5485,5527,183016.35,184451.12,183.016,184.451,1.435,explain,2,0.994,0,I said
+37,5528,5866,184451.12,195762.43,184.451,195.762,11.311,write,16,0.97,0,"said last time. So, let me redo everything. So, what should be the basis for the"
+38,5867,5903,195762.43,196997.00,195.762,196.997,1.235,explain,2,0.242,0,Remember we
+39,5904,5953,196997.00,198665.33,196.997,198.665,1.668,out,6,0.845,0,we can get information from the
+40,5954,6024,198665.33,201034.37,198.665,201.034,2.369,explain,4,0.957,0,the echelon form itself.
+41,6025,6661,201034.37,222288.96,201.034,222.289,21.255,write,37,0.939,0,"last time I said it will be two -dimensional because mistakenly I forgot about this as my pivot column. However, with this fix we can now claim that it is going to be a three -dimensional space."
+42,6662,6738,222288.96,224858.19,222.289,224.858,2.569,explain,0,,1,[silence]
+43,6739,6829,224858.19,227894.56,224.858,227.895,3.036,out,8,0.946,0,"Again, let me repeat one thing that there"
+44,6830,7038,227894.56,234868.20,227.895,234.868,6.974,explain,24,0.935,0,"there are three pivot rows. If I know what are the corresponding pivot rows over here, then I could have used this also as"
+45,7039,7112,234868.20,237337.34,234.868,237.337,2.469,out,7,0.958,0,as a possible basis. Since I do
+46,7113,7252,237337.34,242008.68,237.337,242.009,4.671,explain,20,0.962,0,"do not know what operations I have done, so right now can't be sure that I did not make a"
+47,7253,7329,242008.68,244577.91,242.009,244.578,2.569,out,11,0.9,0,"a swap because of which I can't just simply say first,"
+48,7330,7447,244577.91,248515.18,244.578,248.515,3.937,explain,20,0.942,0,"first, second, third rows are going to be the basis. It might be first, second and fourth row if there"
+49,7448,7508,248515.18,250550.55,248.515,250.551,2.035,out,5,0.974,0,there was a swap involved.
+50,7509,7586,250550.55,253153.15,250.551,253.153,2.603,explain,9,0.99,0,"Now, what about the basis for the column space"
+51,7587,7841,253153.15,261661.66,253.153,261.662,8.509,write,12,0.895,0,space of A? This is for the column space of A. This
+52,7842,8004,261661.66,267100.43,261.662,267.100,5.439,explain,18,0.925,0,"This will also be -dimensional because there are three pivot rows. But remember, I can't use this matrix."
+53,8005,8144,267100.43,271771.77,267.100,271.772,4.671,out,15,0.885,0,I have to come back with the original matrix because the column space of this
+54,8145,8189,271771.77,273273.27,271.772,273.273,1.502,explain,5,0.878,0,this guy and it's reduced
+55,8190,8298,273273.27,276910.24,273.273,276.910,3.637,out,9,0.878,0,reduced form are not the same. What is same
+56,8299,8415,276910.24,280814.15,276.910,280.814,3.904,explain,15,0.877,0,"same in both the situations is the pivot columns. The first, second and fourth. So,"
+57,8416,8434,280814.15,281448.11,280.814,281.448,0.634,out,5,0.995,0,"So, I can use the"
+58,8435,8474,281448.11,282782.78,281.448,282.783,1.335,explain,4,0.992,0,the first column of
+59,8475,9114,282782.78,304137.47,282.783,304.137,21.355,write,23,0.835,0,"of my original matrix 1, minus 1, minus 2, 3. The second column which is this and the fourth column which is this."
+60,9115,9179,304137.47,306306.31,304.137,306.306,2.169,explain,7,0.949,0,"So, as you can very well see,"
+61,9180,9577,306306.31,319586.25,306.306,319.586,13.280,out,39,0.902,0,"the basis for the column space of A is also consisting of three vectors. Rank is 3. So, the dimension of both the row space and the column space is 3. And these will also be the basis for"
+62,9578,9706,319586.25,323890.56,319.586,323.891,4.304,explain,13,0.985,0,for the column space of A transpose and the row space of A
+63,9707,9796,323890.56,326893.56,323.891,326.894,3.003,out,2,0.205,0,"transpose. Now,"
+64,9797,9856,326893.56,328895.56,326.894,328.896,2.002,pick_eraser,9,0.844,0,"Now, the question was what about the null space?"
+65,9857,10059,328895.56,335669.00,328.896,335.669,6.773,erase,18,0.969,0,"space? Remember, null space is determined by the number of free variables. The dimension of the null space"
+66,10060,10089,335669.00,336670.00,335.669,336.670,1.001,drop_eraser,6,0.969,0,space is the number of free
+67,10090,10139,336670.00,338338.34,336.670,338.338,1.668,out,7,0.857,0,free variables which in this case is
+68,10140,10194,338338.34,340173.51,338.338,340.174,1.835,explain,6,0.898,0,"is 2. So, my null space"
+69,10195,10460,340173.51,349049.05,340.174,349.049,8.876,out,16,0.888,0,"space has to be two -dimensional. And basically, it is the third and the fifth column"
+70,10461,10540,349049.05,351718.39,349.049,351.718,2.669,explain,7,0.964,0,column which are going to help me
+71,10541,10632,351718.39,354788.12,351.718,354.788,3.070,out,4,0.982,0,me figure things out.
+72,10633,11257,354788.12,375642.31,354.788,375.642,20.854,write,16,0.763,0,"So, for A x is equal to 0 is the same as solution system for u"
+73,11258,11268,375642.31,376009.34,375.642,376.009,0.367,explain,2,0.787,0,u x
+74,11269,11397,376009.34,380313.65,376.009,380.314,4.304,out,18,0.927,0,"x is equal to 0. Both have the same solution set. So, I will use the echelon form"
+75,11398,11407,380313.65,380647.31,380.314,380.647,0.334,explain,1,0.988,0,form
+76,11408,12121,380647.31,404471.14,380.647,404.471,23.824,write,2,0.974,0,as follows.
+77,12122,12133,404471.14,404871.54,404.471,404.872,0.400,explain,0,,1,[silence]
+78,12134,12296,404871.54,410310.31,404.872,410.310,5.439,out,7,0.914,0,"Remember the first, second and fourth columns"
+79,12297,12359,410310.31,412412.41,410.310,412.412,2.102,change,5,0.96,0,columns are the pivot columns.
+80,12360,12437,412412.41,415015.02,412.412,415.015,2.603,out,4,0.951,0,"columns. So, basically x"
+81,12438,12662,415015.02,422522.52,415.015,422.523,7.508,write,6,0.924,0,"x 1, x 2, x 4"
+82,12663,12675,422522.52,422956.29,422.523,422.956,0.434,explain,2,0.981,0,4 are
+83,12676,12797,422956.29,427027.03,422.956,427.027,4.071,out,3,0.974,0,are my pivot
+84,12798,12954,427027.03,432265.60,427.027,432.266,5.239,change,16,0.827,0,"pivot variables. So, I will express every pivot variable in terms of the free variables in"
+85,12955,12987,432265.60,433366.70,432.266,433.367,1.101,out,4,0.94,0,in order to get
+86,12988,13038,433366.70,435068.40,433.367,435.068,1.702,pick_eraser,5,0.902,0,"get to the null space,"
+87,13039,13356,435068.40,445679.01,435.068,445.679,10.611,erase,7,0.871,0,"space, the basis of the null space."
+88,13357,13421,445679.01,447847.85,445.679,447.848,2.169,drop_eraser,0,,1,[silence]
+89,13422,13465,447847.85,449315.98,447.848,449.316,1.468,out,0,,1,[silence]
+90,13466,13506,449315.98,450684.02,449.316,450.684,1.368,explain,3,0.677,0,"So, x 1"
+91,13507,14342,450684.02,478578.58,450.684,478.579,27.895,write,40,0.951,0,1 can be written as minus 4 x 2 minus 8 x 3 minus 5 x 5. x 2 can be written as minus 5 x 3 plus x 5. x 4 can be written as minus 4 x 5.
+92,14343,14422,478578.58,481247.91,478.579,481.248,2.669,explain,4,0.708,0,"So, remember x 1,"
+93,14423,14519,481247.91,484484.48,481.248,484.484,3.237,out,18,0.932,0,"1, x 2, x 4 has to be expressed in only x 3 and x 5. So, I"
+94,14520,14584,484484.48,486653.32,484.484,486.653,2.169,explain,9,0.99,0,I have to make one more substitution over here
+95,14585,15421,486653.32,514581.25,486.653,514.581,27.928,write,37,0.906,0,which is basically minus 4 times whatever is x 2 and see what does it give me. It gives me 12 x 3 and minus 4 x 5 minus 5 x 5 gives me minus 9 x
+96,15422,15567,514581.25,519452.79,514.581,519.453,4.872,explain,7,0.971,0,x 5 and rest of it is
+97,15568,15591,519452.79,520253.59,519.453,520.254,0.801,out,3,0.681,0,"fine. So, now"
+98,15592,15700,520253.59,523890.56,520.254,523.891,3.637,explain,7,0.673,0,now we can come with the solution.
+99,15701,15715,523890.56,524391.06,523.891,524.391,0.501,write,3,0.829,0,"We can say,"
+100,15716,15951,524391.06,532265.60,524.391,532.266,7.875,explain,1,0.948,0,"say,"
+101,15952,16020,532265.60,534567.90,532.266,534.568,2.302,out,1,0.476,0,"alright,"
+102,16021,16120,534567.90,537904.57,534.568,537.905,3.337,explain,7,0.81,0,"alright, multiple of 2. So, this should"
+103,16121,16368,537904.57,546179.51,537.905,546.180,8.275,write,15,0.897,0,"should be 5 halves, this should be 1 half and that changes quite a bit."
+104,16369,16468,546179.51,549516.18,546.180,549.516,3.337,explain,0,,1,[silence]
+105,16469,16492,549516.18,550316.98,549.516,550.317,0.801,pick_eraser,0,,1,[silence]
+106,16493,16544,550316.98,552052.05,550.317,552.052,1.735,out,0,,1,[silence]
+107,16545,16778,552052.05,559859.86,552.052,559.860,7.808,erase,0,,1,[silence]
+108,16779,16795,559859.86,560427.09,559.860,560.427,0.567,explain,0,,1,[silence]
+109,16796,16834,560427.09,561728.40,560.427,561.728,1.301,out,0,,1,[silence]
+110,16835,16851,561728.40,562295.63,561.728,562.296,0.567,explain,0,,1,[silence]
+111,16852,16889,562295.63,563563.56,562.296,563.564,1.268,erase,0,,1,[silence]
+112,16890,16911,563563.56,564297.63,563.564,564.298,0.734,explain,0,,1,[silence]
+113,16912,16951,564297.63,565632.30,564.298,565.632,1.335,out,0,,1,[silence]
+114,16952,16982,565632.30,566666.67,565.632,566.667,1.034,explain,0,,1,[silence]
+115,16983,17001,566666.67,567300.63,566.667,567.301,0.634,erase,0,,1,[silence]
+116,17002,17033,567300.63,568368.37,567.301,568.368,1.068,explain,0,,1,[silence]
+117,17034,17063,568368.37,569369.37,568.368,569.369,1.001,out,0,,1,[silence]
+118,17064,17096,569369.37,570470.47,569.369,570.470,1.101,drop_eraser,0,,1,[silence]
+119,17097,17144,570470.47,572072.07,570.470,572.072,1.602,out,0,,1,[silence]
+120,17145,17229,572072.07,574908.24,572.072,574.908,2.836,explain,1,0.628,0,"So,"
+121,17230,17305,574908.24,577444.11,574.908,577.444,2.536,pick_eraser,4,0.652,0,"So, make some changes."
+122,17306,17371,577444.11,579646.31,577.444,579.646,2.202,erase,0,,1,[silence]
+123,17372,17455,579646.31,582449.12,579.646,582.449,2.803,drop_eraser,0,,1,[silence]
+124,17456,17544,582449.12,585418.75,582.449,585.419,2.970,explain,4,0.958,0,This will give me
+125,17545,17760,585418.75,592625.96,585.419,592.626,7.207,write,13,0.859,0,me 2 x 3 and this will give me minus 7 x 5.
+126,17761,17842,592625.96,595362.03,592.626,595.362,2.736,explain,0,,1,[silence]
+127,17843,18038,595362.03,601901.90,595.362,601.902,6.540,out,4,0.994,0,"Now, we can go"
+128,18039,18090,601901.90,603636.97,601.902,603.637,1.735,explain,6,0.821,0,"go with the solution, how the"
+129,18091,19935,603636.97,665198.53,603.637,665.199,61.562,write,88,0.85,0,"the solution set look like. So, let us see. Any solution of the system something like this, x 1 is 2 x 3 minus 7 x 5, x 2 is minus 5 half x 3 plus 1 half x 5 and x 3 is a free variable, x 4 is minus 4 x 5 and x 5 is a free variable. So, I can write this whole thing as 2 minus 5 half 1 0 0. I can write this as minus 7 1 half 0 minus 4."
+130,19936,20018,665198.53,667967.97,665.199,667.968,2.769,explain,0,,1,[silence]
+131,20019,20523,667967.97,684818.15,667.968,684.818,16.850,out,13,0.922,0,"So, once we are able to write this, then we can say any"
+132,20524,20713,684818.15,691157.82,684.818,691.158,6.340,explain,20,0.904,0,any solution would be just a linear combination of these two vectors. As you can they are both linearly independent.
+133,20714,21550,691157.82,719085.75,691.158,719.086,27.928,write,17,0.871,0,we have a basis for null space of A and that basis consists of these two vectors.
+134,21551,21634,719085.75,721888.56,719.086,721.889,2.803,explain,1,0.992,0,"So,"
+135,21635,21773,721888.56,726526.53,721.889,726.527,4.638,out,17,0.878,0,the basis is 2 dimensional as one would expect because the column space is 3 dimensional and
+136,21774,21802,726526.53,727494.16,726.527,727.494,0.968,explain,6,0.981,0,and the total number of columns
+137,21803,22085,727494.16,736936.94,727.494,736.937,9.443,out,26,0.906,0,"columns is 5. So, this is the basically the correction from the previous lecture. So, now this is the because last time we had made that"
+138,22086,22181,736936.94,740140.14,736.937,740.140,3.203,explain,8,0.968,0,that error by not identifying this as my
+139,22182,22313,740140.14,744544.54,740.140,744.545,4.404,out,3,0.763,0,my pivot column.
+140,22314,22409,744544.54,747747.75,744.545,747.748,3.203,pick_eraser,0,,1,[silence]
+141,22410,22461,747747.75,749482.82,747.748,749.483,1.735,erase,0,,1,[silence]
+142,22462,22560,749482.82,752786.12,749.483,752.786,3.303,drop_eraser,0,,1,[silence]
+143,22561,22638,752786.12,755388.72,752.786,755.389,2.603,explain,0,,1,[silence]
+144,22639,22697,755388.72,757357.36,755.389,757.357,1.969,write,0,,1,[silence]
+145,22698,22777,757357.36,760026.69,757.357,760.027,2.669,explain,0,,1,[silence]
+146,22778,23068,760026.69,769736.40,760.027,769.736,9.710,out,13,0.892,0,"So, now we proceed from here to the next topic which is basically"
+147,23069,23094,769736.40,770603.94,769.736,770.604,0.868,pick_eraser,1,0.995,0,basically
+148,23095,23144,770603.94,772272.27,770.604,772.272,1.668,change,2,0.964,0,basically about
+149,23145,23193,772272.27,773907.24,772.272,773.907,1.635,out,2,0.954,0,about determinants.
+150,23194,24901,773907.24,830897.56,773.907,830.898,56.990,erase,30,0.923,0,"determinants. So, we will try to find out what determinants are, how do they behave and what all things can we do about them, how are they helpful to us."
+151,24902,25026,830897.56,835068.40,830.898,835.068,4.171,out,0,,1,[silence]
+152,25027,25097,835068.40,837437.44,835.068,837.437,2.369,erase,0,,1,[silence]
+153,25098,25128,837437.44,838471.81,837.437,838.472,1.034,out,0,,1,[silence]
+154,25129,25158,838471.81,839472.81,838.472,839.473,1.001,drop_eraser,0,,1,[silence]
+155,25159,25162,839472.81,839606.27,839.473,839.606,0.133,out,0,,1,[silence]
+156,25163,25258,839606.27,842809.48,839.606,842.809,3.203,change,0,,1,[silence]
+157,25259,25306,842809.48,844411.08,842.809,844.411,1.602,out,0,,1,[silence]
+158,25307,25343,844411.08,845645.65,844.411,845.646,1.235,explain,1,0.19,0,"So,"
+159,25344,25630,845645.65,855221.89,845.646,855.222,9.576,write,8,0.834,0,"So, the next topic is that of determinants"
+160,25631,25651,855221.89,855922.59,855.222,855.923,0.701,explain,0,,1,[silence]
+161,25652,26272,855922.59,876643.31,855.923,876.643,20.721,out,41,0.951,0,"and what determinants do for us is something very very counterintuitive. Determinant is actually just a number associated with a matrix and that number can tell you quite a few things about the matrix that it is associated with. However, determinant"
+162,26273,26328,876643.31,878511.85,876.643,878.512,1.869,explain,5,0.976,0,determinant is only defined for
+163,26329,26681,878511.85,890290.29,878.512,890.290,11.778,write,3,0.87,0,for square matrices.
+164,26682,26721,890290.29,891624.96,890.290,891.625,1.335,explain,0,,1,[silence]
+165,26722,26985,891624.96,900433.77,891.625,900.434,8.809,out,20,0.916,0,"So, this thing is a bit of a restriction, but still it is not that bad, it can give us"
+166,26986,27039,900433.77,902235.57,900.434,902.236,1.802,change,2,0.96,0,us what
+167,27040,27283,902235.57,910377.04,902.236,910.377,8.141,out,6,0.967,0,what we are exactly looking for.
+168,27284,27338,910377.04,912212.21,910.377,912.212,1.835,change,3,0.984,0,"So, what exactly"
+169,27339,27706,912212.21,924491.16,912.212,924.491,12.279,out,38,0.907,0,"exactly is determinant? You might have seen determinants in different context or maybe in multivariable calculus. We just tell you this is how you compute a determinant, that is not actually the real story. Determinant is in fact"
+170,27707,27746,924491.16,925825.83,924.491,925.826,1.335,explain,3,0.926,0,fact a function.
+171,27747,28407,925825.83,947881.21,925.826,947.881,22.055,write,38,0.931,0,"So, determinant is a function from the set of square matrices. So, matrices of size n by n and let us say all these matrices were given on the set of real numbers, that means all the entries"
+172,28408,28442,947881.21,949049.05,947.881,949.049,1.168,explain,4,0.985,0,entries are real entries.
+173,28443,28651,949049.05,956022.69,949.049,956.023,6.974,out,19,0.943,0,"So, determinant is a function from the set of square matrices to the set of real numbers. If your"
+174,28652,28798,956022.69,960927.59,956.023,960.928,4.905,explain,19,0.92,0,your matrix has complex entries that the determinant would be a function from matrices to complex numbers and so
+175,28799,29139,960927.59,972305.64,960.928,972.306,11.378,out,30,0.879,0,"so on so forth. Depending on which your field ring you are on, determinant would map to that particular field or ring, but what kind of a function is it?"
+176,29140,29177,972305.64,973573.57,972.306,973.574,1.268,explain,4,0.789,0,It is not just
+177,29178,29222,973573.57,975075.08,973.574,975.075,1.502,write,6,0.96,0,just an ordinary function. It is
+178,29223,29234,975075.08,975475.48,975.075,975.475,0.400,explain,4,0.883,0,is a function which
+179,29235,29294,975475.48,977477.48,975.475,977.477,2.002,out,5,0.935,0,which should have these properties.
+180,29295,29329,977477.48,978645.31,977.477,978.645,1.168,explain,0,,1,[silence]
+181,29330,29716,978645.31,991558.22,978.645,991.558,12.913,write,3,0.98,0,It is linear.
+182,29717,29761,991558.22,993059.73,991.558,993.060,1.502,explain,0,,1,[silence]
+183,29762,29781,993059.73,993727.06,993.060,993.727,0.667,out,0,,1,[silence]
+184,29782,29866,993727.06,996563.23,993.727,996.563,2.836,explain,11,0.857,0,"So, suppose we are trying to find the determinant of A,"
+185,29867,30014,996563.23,1001501.50,996.563,1001.502,4.938,write,11,0.933,0,"where A is a square matrix of size n by n,"
+186,30015,30060,1001501.50,1003036.37,1001.502,1003.036,1.535,explain,2,0.97,0,then it
+187,30061,30285,1003036.37,1010543.88,1003.036,1010.544,7.508,out,20,0.882,0,it should be linear in each and all. A what does that mean? I will tell you in a moment.
+188,30286,30307,1010543.88,1011277.94,1010.544,1011.278,0.734,explain,0,,1,[silence]
+189,30308,30548,1011277.94,1019319.32,1011.278,1019.319,8.041,write,12,0.883,0,The second thing is determinant of an identity matrix should be 1
+190,30549,30564,1019319.32,1019853.19,1019.319,1019.853,0.534,explain,1,0.662,0,1
+191,30565,30753,1019853.19,1026159.49,1019.853,1026.159,6.306,out,1,0.237,0,and
+192,30754,30775,1026159.49,1026893.56,1026.159,1026.894,0.734,explain,3,0.722,0,and the third
+193,30776,31339,1026893.56,1045712.38,1026.894,1045.712,18.819,write,20,0.922,0,"third property it satisfies is the determinant of my matrix is 0, if two rows are the same. So, I"
+194,31340,31377,1045712.38,1046980.31,1045.712,1046.980,1.268,explain,6,0.93,0,I want a function from my
+195,31378,31584,1046980.31,1053887.22,1046.980,1053.887,6.907,out,21,0.928,0,my set of matrices to the set of real numbers which is all these three properties. There is a fourth property
+196,31585,31607,1053887.22,1054654.65,1053.887,1054.655,0.767,explain,2,0.972,0,property which
+197,31608,31654,1054654.65,1056222.89,1054.655,1056.223,1.568,write,3,0.918,0,actually is just
+198,31655,31668,1056222.89,1056690.02,1056.223,1056.690,0.467,explain,3,0.992,0,just for convenience
+199,31669,31743,1056690.02,1059192.53,1056.690,1059.193,2.503,out,9,0.924,0,"convenience although it follows from the first three. So,"
+200,31744,31791,1059192.53,1060794.13,1059.193,1060.794,1.602,explain,1,0.989,0,"So,"
+201,31792,31912,1060794.13,1064831.50,1060.794,1064.831,4.037,write,9,0.769,0,the fourth property is that the determinant of A
+202,31913,31975,1064831.50,1066933.60,1064.831,1066.934,2.102,explain,4,0.976,0,is the same as
+203,31976,32056,1066933.60,1069636.30,1066.934,1069.636,2.703,out,2,0.843,0,as rephrase
+204,32057,32077,1069636.30,1070337.00,1069.636,1070.337,0.701,pick_eraser,2,0.835,0,rephrase it.
+205,32078,32116,1070337.00,1071638.30,1070.337,1071.638,1.301,erase,1,0.968,0,it.
+206,32117,32149,1071638.30,1072739.41,1071.638,1072.739,1.101,drop_eraser,0,,1,[silence]
+207,32150,32237,1072739.41,1075675.68,1072.739,1075.676,2.936,out,0,,1,[silence]
+208,32238,32257,1075675.68,1076343.01,1075.676,1076.343,0.667,explain,0,,1,[silence]
+209,32258,32860,1076343.01,1096463.13,1076.343,1096.463,20.120,write,37,0.914,0,"Suppose I start with a matrix A and I make a row swap and I get a matrix B just by one row swap, then the determinant of B must be the negative of the determinant of"
+210,32861,32902,1096463.13,1097864.53,1096.463,1097.865,1.401,explain,3,0.938,0,"of A. So,"
+211,32903,33182,1097864.53,1107207.21,1097.865,1107.207,9.343,out,15,0.93,0,"So, whatever determinant of A is, it is minus of that. As I said, these"
+212,33183,33209,1107207.21,1108108.11,1107.207,1108.108,0.901,explain,3,0.962,0,these three properties
+213,33210,33265,1108108.11,1109976.64,1108.108,1109.977,1.869,write,4,0.994,0,properties are capable enough
+214,33266,33275,1109976.64,1110310.31,1109.977,1110.310,0.334,explain,1,0.997,0,enough
+215,33276,33704,1110310.31,1124624.62,1110.310,1124.625,14.314,out,43,0.88,0,"to give you determinant. The fourth is an outcome of these three properties, we will just for the sake of argument, we will keep the fourth one. It is a nice property to know. The question is fine, I have this function. I"
+216,33705,33799,1124624.62,1127794.46,1124.625,1127.794,3.170,explain,12,0.957,0,"I am trying to create a function which has all these properties,"
+217,33800,34178,1127794.46,1140440.44,1127.794,1140.440,12.646,out,43,0.95,0,"properties, but what does that function look like and will there be more than one function? First, I will convince you that there are such functions and then I will convince you that the function that I using is the only function which"
+218,34179,34214,1140440.44,1141641.64,1140.440,1141.642,1.201,explain,4,0.999,0,can have these properties.
+219,34215,34319,1141641.64,1145145.15,1141.642,1145.145,3.504,out,7,0.748,0,"properties. So, determinant becomes a unique function"
+220,34320,34387,1145145.15,1147414.08,1145.145,1147.414,2.269,explain,8,0.952,0,function if I force it to have these
+221,34388,34481,1147414.08,1150550.55,1147.414,1150.551,3.136,out,8,0.915,0,"these properties. They cannot be any other function,"
+222,34482,34702,1150550.55,1157924.59,1150.551,1157.925,7.374,explain,19,0.982,0,"but before I proceed, should try to explain to you what I mean by linearity in each row. So,"
+223,34703,34744,1157924.59,1159325.99,1157.925,1159.326,1.401,write,5,0.967,0,"So, let me first deal"
+224,34745,34799,1159325.99,1161161.16,1159.326,1161.161,1.835,explain,7,0.81,0,deal with a two -by -two case
+225,34800,36425,1161161.16,1215415.42,1161.161,1215.415,54.254,write,77,0.892,0,"where we have matrices of size two -by -two. When we say linearity in each row, so imagine I have a matrix A, C, C and D and you want to talk about the determinant of this thing. By linearity, I mean as follows. Suppose you give me A plus U, B plus B, C, D, then linearity means the determinant of this matrix would be the determinant of A, B, C, D plus the determinant of."
+226,36426,36835,1215415.42,1229095.76,1215.415,1229.096,13.680,explain,29,0.82,0,"So, linearity in each row means it would act as if like it is a linear transformation on each of its row provided the other rows remain constant or"
+227,36836,37419,1229095.76,1248581.92,1229.096,1248.582,19.486,write,29,0.917,0,"it also means the following thing. Remember, we are talking about linearity. Suppose I have A alpha, B alpha. This would mean it is alpha times the determinant of."
+228,37420,37502,1248581.92,1251351.35,1248.582,1251.351,2.769,explain,0,,1,[silence]
+229,37503,37736,1251351.35,1259159.16,1251.351,1259.159,7.808,out,18,0.869,0,"So, this is what we mean by linearity in each row. Okay, now that we have understood this,"
+230,37737,37792,1259159.16,1261027.69,1259.159,1261.028,1.869,change,0,,1,[silence]
+231,37793,37883,1261027.69,1264064.06,1261.028,1264.064,3.036,pick_eraser,8,0.93,0,I will first give you a candidate function
+232,37884,38302,1264064.06,1278044.71,1264.064,1278.045,13.981,erase,6,0.957,0,that you might be familiar with.
+233,38303,38367,1278044.71,1280213.55,1278.045,1280.214,2.169,explain,0,,1,[silence]
+234,38368,38474,1280213.55,1283783.78,1280.214,1283.784,3.570,out,0,,1,[silence]
+235,38475,38525,1283783.78,1285485.49,1283.784,1285.485,1.702,explain,0,,1,[silence]
+236,38526,38605,1285485.49,1288154.82,1285.485,1288.155,2.669,erase,0,,1,[silence]
+237,38606,38645,1288154.82,1289489.49,1288.155,1289.489,1.335,explain,0,,1,[silence]
+238,38646,38672,1289489.49,1290390.39,1289.489,1290.390,0.901,drop_eraser,0,,1,[silence]
+239,38673,38712,1290390.39,1291725.06,1290.390,1291.725,1.335,change,0,,1,[silence]
+240,38713,38806,1291725.06,1294861.53,1291.725,1294.862,3.136,explain,7,0.9,0,"So, let us try to find out"
+241,38807,39127,1294861.53,1305572.24,1294.862,1305.572,10.711,write,8,0.863,0,"the determinant of, I dropping the square brackets."
+242,39128,40019,1305572.24,1335335.34,1305.572,1335.335,29.763,explain,24,0.939,0,"It kind of inconvenient to write it. Okay, so how do we want to proceed? Let us see. Okay, so first let me give"
+243,40020,40115,1335335.34,1338538.54,1335.335,1338.539,3.203,write,12,0.956,0,give you a candidate function and then I show you that this
+244,40116,40203,1338538.54,1341474.81,1338.539,1341.475,2.936,explain,12,0.838,0,this is the only function which can satisfy all these three properties.
+245,40204,40297,1341474.81,1344611.28,1341.475,1344.611,3.136,out,5,0.963,0,properties. From some class in
+246,40298,40617,1344611.28,1355288.62,1344.611,1355.289,10.677,explain,35,0.84,0,"in high school or maybe in multivariable, you might know the determinant. You say, oh, it is A D minus B C. Does this function satisfy everything that we know we are acquiring of it?"
+247,40618,40627,1355288.62,1355622.29,1355.289,1355.622,0.334,out,1,0.996,0,it?
+248,40628,40757,1355622.29,1359959.96,1355.622,1359.960,4.338,explain,11,0.991,0,Let see. Is it linear? Is this function going to be
+249,40758,42212,1359959.96,1408508.51,1359.960,1408.509,48.549,write,79,0.847,0,"be linear? So, let us try. What would be the determinant of A plus alpha U, B plus alpha V, C D? According to this format would be A plus alpha U times D minus B plus alpha V times C. So, this would be A D minus B C plus alpha times U D minus B C. If you at this, this is nothing but the determinant of A, B, C, D plus alpha times the determinant of,"
+250,42213,42335,1408508.51,1412612.61,1408.509,1412.613,4.104,explain,7,0.987,0,and this is exactly what we had
+251,42336,42608,1412612.61,1421721.72,1412.613,1421.722,9.109,out,31,0.953,0,"had talked about as the linearity in the first row. You can similarly prove the linearity in the second row. So, of course, this function seems to be satisfying the first"
+252,42609,42610,1421721.72,1421788.46,1421.722,1421.788,0.067,explain,1,0.997,0,first
+253,42611,42636,1421788.46,1422655.99,1421.788,1422.656,0.868,out,2,0.986,0,first property.
+254,42637,42750,1422655.99,1426459.79,1422.656,1426.460,3.804,explain,16,0.938,0,It is linear in each row. Even though I have shown it only for the first
+255,42751,43016,1426459.79,1435335.34,1426.460,1435.335,8.876,write,24,0.873,0,"first row, the same idea works for the second row. What about this guy, 1 0 0 1? By this formula given to us,"
+256,43017,43063,1435335.34,1436903.57,1435.335,1436.904,1.568,explain,0,,1,[silence]
+257,43064,43096,1436903.57,1438004.67,1436.904,1438.005,1.101,pick_eraser,5,0.647,0,this would be A D
+258,43097,43126,1438004.67,1439005.67,1438.005,1439.006,1.001,erase,4,0.759,0,D minus B C.
+259,43127,43162,1439005.67,1440206.87,1439.006,1440.207,1.201,drop_eraser,0,,1,[silence]
+260,43163,43246,1440206.87,1443009.68,1440.207,1443.010,2.803,explain,4,0.967,0,"So, it would be"
+261,43247,43336,1443009.68,1446012.68,1443.010,1446.013,3.003,write,8,0.938,0,"1 times 1 minus 0 times 0, and"
+262,43337,43406,1446012.68,1448348.35,1446.013,1448.348,2.336,explain,9,0.945,0,"and this would be equal to 1. So, that"
+263,43407,43439,1448348.35,1449449.45,1448.348,1449.449,1.101,out,3,0.874,0,"that function, that"
+264,43440,43470,1449449.45,1450483.82,1449.449,1450.484,1.034,explain,5,0.8,0,that candidate function does satisfy
+265,43471,43569,1450483.82,1453787.12,1450.484,1453.787,3.303,out,9,0.958,0,satisfy the second property also. What about the third
+266,43570,43637,1453787.12,1456056.06,1453.787,1456.056,2.269,explain,10,0.847,0,"third property, determinant is 0 if two rows are the"
+267,43638,43936,1456056.06,1466032.70,1456.056,1466.033,9.977,write,31,0.787,0,"the same. So, let us say if I was computing determinant of A B, A B, according to this formula, it should be A B minus B B, which is 0."
+268,43937,44012,1466032.70,1468568.57,1466.033,1468.569,2.536,explain,10,0.95,0,"So, whenever two rows are the same, the determinant is"
+269,44013,44218,1468568.57,1475442.11,1468.569,1475.442,6.874,out,16,0.978,0,"is definitely 0. So, our candidate function does satisfy the three properties, and you can check"
+270,44219,44231,1475442.11,1475875.88,1475.442,1475.876,0.434,explain,3,0.946,0,check it satisfies
+271,44232,44749,1475875.88,1493159.83,1475.876,1493.160,17.284,out,54,0.922,0,"satisfies the fourth property also, but let us not worry about it at the moment. question is, that function is one function that I gave you, and I showed you that these three properties are true. Could there be some function, maybe perhaps A plus D minus B times C or something like this,"
+272,44750,44780,1493159.83,1494194.19,1493.160,1494.194,1.034,explain,4,0.91,0,which will satisfy these
+273,44781,44867,1494194.19,1497097.10,1494.194,1497.097,2.903,out,8,0.916,0,these three properties. My claim is that that
+274,44868,44932,1497097.10,1499265.93,1497.097,1499.266,2.169,change,8,0.85,0,that is the only function A D minus
+275,44933,45600,1499265.93,1521554.89,1499.266,1521.555,22.289,out,51,0.938,0,"minus B C, which has all these three properties. Hence, if you want determinant, then that is the only formula for determinant of a 2 by 2 matrix, and there could be none other. So, how do I convince that such is the case? Well, let me see if I can"
+276,45601,45709,1521554.89,1525191.86,1521.555,1525.192,3.637,pick_eraser,7,0.971,0,"can convince you with some ideas, and"
+277,45710,46579,1525191.86,1554220.89,1525.192,1554.221,29.029,erase,5,0.884,0,and then you can proceed.
+278,46580,46647,1554220.89,1556489.82,1554.221,1556.490,2.269,explain,0,,1,[silence]
+279,46648,46705,1556489.82,1558425.09,1556.490,1558.425,1.935,erase,0,,1,[silence]
+280,46706,46762,1558425.09,1560326.99,1558.425,1560.327,1.902,drop_eraser,0,,1,[silence]
+281,46763,46801,1560326.99,1561628.29,1560.327,1561.628,1.301,out,0,,1,[silence]
+282,46802,46837,1561628.29,1562829.50,1561.628,1562.829,1.201,change,0,,1,[silence]
+283,46838,46964,1562829.50,1567067.07,1562.829,1567.067,4.238,out,6,0.988,0,"So, how do I convince you"
+284,46965,47145,1567067.07,1573106.44,1567.067,1573.106,6.039,explain,14,0.947,0,that that is the only way it is going to work? Let me try.
+285,47146,48721,1573106.44,1625692.36,1573.106,1625.692,52.586,write,43,0.867,0,"So, suppose I start with my matrix A B C D. Here is a possible way that we might be able to get some information. This is something that you should definitely try to complete, and it will give you practice in linearity"
+286,48722,48824,1625692.36,1629129.13,1625.692,1629.129,3.437,explain,14,0.857,0,linearity also. I can definitely write my matrix A B C D as some
+287,48825,49174,1629129.13,1640807.47,1629.129,1640.807,11.678,out,10,0.932,0,"some of those four matrices. Now, if I can prove"
+288,49175,49393,1640807.47,1648114.78,1640.807,1648.115,7.307,explain,16,0.953,0,"prove something about these matrices, the ones which I have listed, perhaps they can tell me"
+289,49394,49729,1648114.78,1659325.99,1648.115,1659.326,11.211,out,34,0.94,0,"me a little bit about what I can talk about as the determinant of my matrix A B C D. But the question is, what exactly can I say about the determinant of those"
+290,49730,49747,1659325.99,1659926.59,1659.326,1659.927,0.601,explain,2,0.897,0,"those matrices,"
+291,49748,49845,1659926.59,1663196.53,1659.927,1663.197,3.270,change,7,0.877,0,and how will it help me identify
+292,49846,49856,1663196.53,1663563.56,1663.197,1663.564,0.367,explain,2,0.966,0,identify the
+293,49857,50142,1663563.56,1673106.44,1663.564,1673.106,9.543,out,22,0.911,0,"the determinant of A B C D. So, the real question is how do I deal with the linearity property? For example,"
+294,50143,50371,1673106.44,1680747.41,1673.106,1680.747,7.641,explain,16,0.914,0,"is this splitting linear? Well, if you look at it, it is technically not linear. However,"
+295,50372,50456,1680747.41,1683583.58,1680.747,1683.584,2.836,change,10,0.971,0,if I try to write it in a slightly different
+296,50457,50539,1683583.58,1686353.02,1683.584,1686.353,2.769,explain,6,0.984,0,"different way, then things might be."
+297,50540,50800,1686353.02,1695061.73,1686.353,1695.062,8.709,write,16,0.779,0,"For example, can I write it this A B 0 0 plus 0 0 C D?"
+298,50801,50889,1695061.73,1698031.36,1695.062,1698.031,2.970,explain,2,0.918,0,Can it
+299,50890,51043,1698031.36,1703169.84,1698.031,1703.170,5.138,out,8,0.984,0,"it help me somehow? So, think about these"
+300,51044,51101,1703169.84,1705105.11,1703.170,1705.105,1.935,change,4,0.614,0,"these kind of splitings,"
+301,51102,51118,1705105.11,1705672.34,1705.105,1705.672,0.567,explain,5,0.97,0,and see if you can
+302,51119,51211,1705672.34,1708775.44,1705.672,1708.775,3.103,out,6,0.993,0,can talk about the determinant of
+303,51212,51235,1708775.44,1709576.24,1708.775,1709.576,0.801,explain,1,0.992,0,those
+304,51236,51553,1709576.24,1720186.85,1709.576,1720.187,10.611,out,26,0.946,0,"those kind of matrices. And hopefully, that will help you understand why A D minus B C is the only way out of this thing. Otherwise,"
+305,51554,51694,1720186.85,1724891.56,1720.187,1724.892,4.705,change,11,0.949,0,"if you cannot get it, I will show you how to"
+306,51695,52082,1724891.56,1737837.84,1724.892,1737.838,12.946,out,20,0.898,0,to deal with the linearity property. But it a good just once to try to do it on your own.
+307,52083,52125,1737837.84,1739272.61,1737.838,1739.273,1.435,explain,0,,1,[silence]
+308,52126,52253,1739272.61,1743543.54,1739.273,1743.544,4.271,out,0,,1,[silence]
+309,52254,52306,1743543.54,1745311.98,1743.544,1745.312,1.768,explain,0,,1,[silence]
+310,52307,52391,1745311.98,1748148.15,1745.312,1748.148,2.836,out,0,,1,[silence]
+311,52392,52472,1748148.15,1750850.85,1748.148,1750.851,2.703,pick_eraser,1,0.477,0,"So,"
+312,52473,52762,1750850.85,1760527.19,1750.851,1760.527,9.676,erase,15,0.909,0,there something more about determinants that I want to first talk about. Why is determinants
+313,52763,52870,1760527.19,1764130.80,1760.527,1764.131,3.604,drop_eraser,7,0.958,0,determinants such a useful thing for us?
+314,52871,53239,1764130.80,1776443.11,1764.131,1776.443,12.312,out,0,,1,[silence]
+315,53240,53361,1776443.11,1780513.85,1776.443,1780.514,4.071,explain,10,0.964,0,"So, the first question we have to deal with is"
+316,53362,54511,1780513.85,1818885.55,1780.514,1818.886,38.372,write,21,0.912,0,"is how to compute determinants. Just so you know, if I was given a determinant of a 3 by 3 matrix,"
+317,54512,54616,1818885.55,1822389.06,1818.886,1822.389,3.504,explain,8,0.832,0,"then again, I want my function to call"
+318,54617,54878,1822389.06,1831131.13,1822.389,1831.131,8.742,out,19,0.909,0,"call these three properties. After some lot of manipulation, you can convince yourself that the form would look something"
+319,54879,54945,1831131.13,1833366.70,1831.131,1833.367,2.236,explain,5,0.987,0,something like this. This is
+320,54946,55165,1833366.70,1840707.37,1833.367,1840.707,7.341,write,14,0.655,0,is how it will look like A 11 times A 22 minus A 33
+321,55166,55255,1840707.37,1843710.38,1840.707,1843.710,3.003,explain,0,,1,[silence]
+322,55256,55349,1843710.38,1846846.85,1843.710,1846.847,3.136,pick_eraser,0,,1,[silence]
+323,55350,55445,1846846.85,1850050.05,1846.847,1850.050,3.203,erase,0,,1,[silence]
+324,55446,55556,1850050.05,1853753.75,1850.050,1853.754,3.704,drop_eraser,0,,1,[silence]
+325,55557,55688,1853753.75,1858158.16,1853.754,1858.158,4.404,explain,3,0.781,0,A 11 times
+326,55689,56787,1858158.16,1894828.16,1858.158,1894.828,36.670,write,33,0.795,0,A 22 A 33 minus A 23 A 32 plus A 12 times A 23 A 32 1 A 33 plus A 13 times A 21 A 32 plus A 22 A 31.
+327,56788,56864,1894828.16,1897397.40,1894.828,1897.397,2.569,explain,6,0.88,0,"31. So, if you go through"
+328,56865,57060,1897397.40,1903937.27,1897.397,1903.937,6.540,out,17,0.904,0,"through all these three properties, then I claim that that is the only function which can satisfy"
+329,57061,57080,1903937.27,1904604.60,1903.937,1904.605,0.667,explain,4,0.988,0,satisfy all these three
+330,57081,57278,1904604.60,1911211.21,1904.605,1911.211,6.607,out,13,0.904,0,"three properties. Hence, it is the determinant function. Getting to this is not"
+331,57279,57284,1911211.21,1911411.41,1911.211,1911.411,0.200,explain,1,0.998,0,not
+332,57285,57386,1911411.41,1914814.81,1911.411,1914.815,3.403,out,8,0.964,0,"not much fun. However, you should see there"
+333,57387,57735,1914814.81,1926459.79,1914.815,1926.460,11.645,explain,32,0.933,0,"there is something going on in here. If you focus on these entries, 1, 2, 3, 1, 2, 3, 1, 2, 3. So, it is like all possible permutations of 1, 2,"
+334,57736,58071,1926459.79,1937671.00,1926.460,1937.671,11.211,out,43,0.891,0,"2, 3 that we have written here and some of them are coming with a positive sign, some of them are coming with a negative sign. So, you know, there are six terms which is three factorial. So, if you write determinant of"
+335,58072,58258,1937671.00,1943910.58,1937.671,1943.911,6.240,explain,25,0.937,0,"of a 4 by 4 matrix, if you expand it and write it in this full glory, it will turn out to be having four"
+336,58259,58427,1943910.58,1949549.55,1943.911,1949.550,5.639,out,7,0.843,0,"four factorial terms, all possible permutations So,"
+337,58428,58443,1949549.55,1950083.42,1949.550,1950.083,0.534,explain,2,0.894,0,definitely this
+338,58444,58455,1950083.42,1950483.82,1950.083,1950.484,0.400,out,2,0.928,0,this is
+339,58456,58461,1950483.82,1950684.02,1950.484,1950.684,0.200,explain,2,0.996,0,is not
+340,58462,58540,1950684.02,1953319.99,1950.684,1953.320,2.636,out,11,0.909,0,not the way we would want to compute the determinant because
+341,58541,58594,1953319.99,1955121.79,1953.320,1955.122,1.802,explain,7,0.839,0,"because very soon for 4 by 4,"
+342,58595,58625,1955121.79,1956156.16,1955.122,1956.156,1.034,out,4,0.994,0,"4, 5 by 5,"
+343,58626,58676,1956156.16,1957857.86,1956.156,1957.858,1.702,explain,9,0.958,0,there will be way too many terms to handle.
+344,58677,58900,1957857.86,1965332.00,1957.858,1965.332,7.474,out,21,0.982,0,"handle. So, we want a much better approach than these kind of formulas. So, what are those approaches that can help"
+345,58901,59002,1965332.00,1968735.40,1965.332,1968.735,3.403,pick_eraser,6,0.958,0,help us compute the determinant better?
+346,59003,59668,1968735.40,1990957.62,1968.735,1990.958,22.222,erase,35,0.904,0,"One of them is what we call as the cofactor expansion. It was introduced by Laplace. So, we discuss what is a cofactor, is a minor and how we will use that to compute determinants."
+347,59669,59712,1990957.62,1992425.76,1990.958,1992.426,1.468,explain,0,,1,[silence]
+348,59713,59775,1992425.76,1994527.86,1992.426,1994.528,2.102,out,0,,1,[silence]
+349,59776,59814,1994527.86,1995829.16,1994.528,1995.829,1.301,drop_eraser,0,,1,[silence]
+350,59815,60364,1995829.16,2014180.85,1995.829,2014.181,18.352,out,0,,1,[silence]
+351,60365,60519,2014180.85,2019352.69,2014.181,2019.353,5.172,explain,1,0.786,0,Let
+352,60520,61210,2019352.69,2042409.08,2019.353,2042.409,23.056,write,34,0.857,0,"Let us first talk about the minor of a matrix. We will denote it by M ij. Then, we will talk about the cofactor of a matrix which we will denote it by as"
+353,61211,61239,2042409.08,2043376.71,2042.409,2043.377,0.968,explain,3,0.929,0,as C ij.
+354,61240,61350,2043376.71,2047080.41,2043.377,2047.080,3.704,out,8,0.982,0,"So, minor of a matrix is basically the"
+355,61351,61372,2047080.41,2047814.48,2047.080,2047.814,0.734,explain,1,0.957,0,the
+356,61373,62348,2047814.48,2080380.38,2047.814,2080.380,32.566,write,12,0.908,0,"determinant of the submatrix obtained after deleting the jth row, jth column."
+357,62349,62387,2080380.38,2081681.68,2080.380,2081.682,1.301,explain,0,,1,[silence]
+358,62388,62835,2081681.68,2096629.96,2081.682,2096.630,14.948,out,3,0.79,0,"So, for example,"
+359,62836,62895,2096629.96,2098631.97,2096.630,2098.632,2.002,explain,4,0.986,0,if you look at
+360,62896,63209,2098631.97,2109109.11,2098.632,2109.109,10.477,write,19,0.919,0,"the following matrix, let me have a simple matrix say 1, 2, 3, 4, 5, 6, 7, 0, 0,"
+361,63210,63214,2109109.11,2109275.94,2109.109,2109.276,0.167,explain,0,,1,[silence]
+362,63215,63254,2109275.94,2110610.61,2109.276,2110.611,1.335,out,3,0.991,0,something like this.
+363,63255,63294,2110610.61,2111945.28,2110.611,2111.945,1.335,explain,1,0.986,0,"So,"
+364,63295,63468,2111945.28,2117751.08,2111.945,2117.751,5.806,write,14,0.865,0,"So, the M 1 2 minor would be the determinant of the matrix that"
+365,63469,63486,2117751.08,2118351.69,2117.751,2118.352,0.601,explain,3,0.796,0,that I obtained
+366,63487,63619,2118351.69,2122789.46,2118.352,2122.789,4.438,out,14,0.873,0,"obtained after deleting the first row and the second column. So, if delete the"
+367,63620,63664,2122789.46,2124290.96,2122.789,2124.291,1.502,explain,4,0.837,0,the first row which
+368,63665,63735,2124290.96,2126659.99,2124.291,2126.660,2.369,write,8,0.906,0,"which is this row and the second column,"
+369,63736,63745,2126659.99,2126993.66,2126.660,2126.994,0.334,explain,0,,1,[silence]
+370,63746,63854,2126993.66,2130630.63,2126.994,2130.631,3.637,out,9,0.793,0,"then whatever matrix is submatrix is left, the determinant"
+371,63855,63885,2130630.63,2131665.00,2130.631,2131.665,1.034,explain,4,0.984,0,determinant of that is
+372,63886,64179,2131665.00,2141474.81,2131.665,2141.475,9.810,write,26,0.88,0,"is what I call as my minor 1 2 and using our knowledge of a 2 by 2 matrix, this will turn out to be minus"
+373,64180,64211,2141474.81,2142542.54,2141.475,2142.543,1.068,explain,4,0.829,0,"minus 42. So, M"
+374,64212,64301,2142542.54,2145545.55,2142.543,2145.546,3.003,out,10,0.915,0,M 1 2 turns out to be minus 42. Let
+375,64302,64331,2145545.55,2146546.55,2145.546,2146.547,1.001,explain,8,0.925,0,Let us do one more. What would we
+376,64332,64485,2146546.55,2151685.02,2146.547,2151.685,5.138,write,15,0.868,0,we say M 3 3? It will be the determinant of a matrix obtained by
+377,64486,64504,2151685.02,2152318.99,2151.685,2152.319,0.634,explain,2,0.864,0,by deleting
+378,64505,64605,2152318.99,2155689.02,2152.319,2155.689,3.370,out,9,0.889,0,"deleting the third row and the third column. So,"
+379,64606,64627,2155689.02,2156423.09,2155.689,2156.423,0.734,explain,6,0.859,0,"So, it would be the determinant"
+380,64628,64852,2156423.09,2163930.60,2156.423,2163.931,7.508,write,17,0.905,0,determinant of the matrix 1 2 4 5 and whatever that turns out to be is minus
+381,64853,64887,2163930.60,2165098.43,2163.931,2165.098,1.168,explain,2,0.945,0,minus 3.
+382,64888,65456,2165098.43,2184084.08,2165.098,2184.084,18.986,out,56,0.891,0,"So, for each entry, for each pair ij, we will have a minor of my matrix. So, in all we will have 9 minus for a 3 by 3 matrix and we can compute them one by one at a time. Now, what is the cofactor of a matrix? Well, cofactor is also an interesting thing."
+383,65457,65522,2184084.08,2186286.29,2184.084,2186.286,2.202,pick_eraser,1,0.988,0,thing.
+384,65523,65921,2186286.29,2199599.60,2186.286,2199.600,13.313,erase,12,0.922,0,Cofactor is what I like to call as minor with a sign.
+385,65922,66032,2199599.60,2203303.30,2199.600,2203.303,3.704,drop_eraser,0,,1,[silence]
+386,66033,66112,2203303.30,2205972.64,2203.303,2205.973,2.669,explain,3,0.989,0,"So, cofactor is"
+387,66113,66443,2205972.64,2217017.02,2205.973,2217.017,11.044,write,11,0.912,0,is what I like to call as a signed minor which
+388,66444,66539,2217017.02,2220220.22,2217.017,2220.220,3.203,explain,0,,1,[silence]
+389,66540,67035,2220220.22,2236770.10,2220.220,2236.770,16.550,out,0,,1,[silence]
+390,67036,67102,2236770.10,2239005.67,2236.770,2239.006,2.236,explain,2,0.996,0,is basically
+391,67103,68132,2239005.67,2273373.37,2239.006,2273.373,34.368,write,75,0.822,0,"basically minus 1 to the i plus j times M ij. So, for example, if I wanted the minor c 1 2 for this matrix, it would be minus 1 to this power 1 by 2 which is minus times M 1 2 which would be plus 42. What would be c 3 3? c 3 3 would be minus 1 to the power 3 plus 3 M 3 3 which is same as M"
+392,68133,68213,2273373.37,2276076.08,2273.373,2276.076,2.703,explain,6,0.962,0,"M 3 3. So, cofactor is"
+393,68214,68782,2276076.08,2295061.73,2276.076,2295.062,18.986,out,41,0.814,0,"is nothing but a signed minor. So, what Laplace said was that if you can find these cofactors, that means if you can find these minors with the sign, then you can compute the determinant of a matrix using the signed"
+394,68783,68842,2295061.73,2297063.73,2295.062,2297.064,2.002,change,5,0.746,0,"signed minors. So, his idea"
+395,68843,69344,2297063.73,2313813.81,2297.064,2313.814,16.750,out,51,0.908,0,"idea was bit recursive that if you start with the n by n matrix, you can reduce the problem of computing the determinant of the n by n matrix to that of computing determinant of a n minus 1 by n minus 1 matrix and you keep doing it iteratively until"
+396,69345,69385,2313813.81,2315181.85,2313.814,2315.182,1.368,pick_eraser,5,0.948,0,until you are in a
+397,69386,69416,2315181.85,2316216.22,2315.182,2316.216,1.034,out,5,0.986,0,a place where you can
+398,69417,69446,2316216.22,2317217.22,2316.216,2317.217,1.001,explain,1,0.995,0,can
+399,69447,70025,2317217.22,2336536.54,2317.217,2336.537,19.319,erase,18,0.898,0,"do things nicely. So, is what Laplace's idea is and then show you how to use Laplace's idea."
+400,70026,70058,2336536.54,2337637.64,2336.537,2337.638,1.101,drop_eraser,0,,1,[silence]
+401,70059,70111,2337637.64,2339406.07,2337.638,2339.406,1.768,out,0,,1,[silence]
+402,70112,70131,2339406.07,2340073.41,2339.406,2340.073,0.667,pick_eraser,0,,1,[silence]
+403,70132,70206,2340073.41,2342575.91,2340.073,2342.576,2.503,erase,0,,1,[silence]
+404,70207,70256,2342575.91,2344244.24,2342.576,2344.244,1.668,drop_eraser,5,0.897,0,"So, as we shall see,"
+405,70257,70291,2344244.24,2345412.08,2344.244,2345.412,1.168,out,2,0.976,0,Laplace's idea
+406,70292,70317,2345412.08,2346279.61,2345.412,2346.280,0.868,explain,4,0.987,0,idea is good for
+407,70318,70347,2346279.61,2347280.61,2346.280,2347.281,1.001,out,4,0.814,0,for computational purpose but
+408,70348,70407,2347280.61,2349282.62,2347.281,2349.283,2.002,change,6,0.907,0,but it is still not what
+409,70408,70756,2349282.62,2360927.59,2349.283,2360.928,11.645,out,46,0.909,0,"what we are after. Still, there are things which can be done better and then if you use it in join and combine with Laplace's idea, then things are turned out to be much more simpler and elegant. But first, let us see what is Laplace's"
+410,70757,70798,2360927.59,2362329.00,2360.928,2362.329,1.401,explain,2,0.984,0,Laplace's expansion.
+411,70799,71669,2362329.00,2391391.39,2362.329,2391.391,29.062,write,24,0.922,0,"So, this is what he said, you want to compute the determinant of a matrix, then you choose a row or a column, whichever"
+412,71670,71693,2391391.39,2392192.19,2391.391,2392.192,0.801,explain,5,0.74,0,whichever row and volume you
+413,71694,71822,2392192.19,2396496.50,2392.192,2396.496,4.304,out,11,0.89,0,"you can want, just choose particular row or a particular column,"
+414,71823,71836,2396496.50,2396963.63,2396.496,2396.964,0.467,explain,0,,1,[silence]
+415,71837,72503,2396963.63,2419219.22,2396.964,2419.219,22.256,write,6,0.883,0,then you compute the cofactors and
+416,72504,72610,2419219.22,2422789.46,2419.219,2422.789,3.570,explain,0,,1,[silence]
+417,72611,72778,2422789.46,2428395.06,2422.789,2428.395,5.606,out,22,0.968,0,"using them, we can find the determinant. So, these are the first two things that you have to do. So, what I"
+418,72779,72805,2428395.06,2429295.96,2428.395,2429.296,0.901,explain,8,0.836,0,"I will do is, I will first illustrate"
+419,72806,73368,2429295.96,2448081.41,2429.296,2448.081,18.785,write,29,0.892,0,"illustrate it on an example what he meant so that it is easy for us. So, he said the following thing, suppose you have a 3 by 3 matrix"
+420,73369,73381,2448081.41,2448515.18,2448.081,2448.515,0.434,explain,0,,1,[silence]
+421,73382,73467,2448515.18,2451384.72,2448.515,2451.385,2.870,out,3,0.957,0,"given by this,"
+422,73468,73545,2451384.72,2453987.32,2451.385,2453.987,2.603,explain,2,0.684,0,then if
+423,73546,73642,2453987.32,2457223.89,2453.987,2457.224,3.237,write,10,0.916,0,"if you want to compute the determinant of this matrix,"
+424,73643,73661,2457223.89,2457857.86,2457.224,2457.858,0.634,explain,1,1.0,0,"matrix,"
+425,73662,73769,2457857.86,2461461.46,2457.858,2461.461,3.604,out,0,,1,[silence]
+426,73770,73799,2461461.46,2462462.46,2461.461,2462.462,1.001,pick_eraser,0,,1,[silence]
+427,73800,73819,2462462.46,2463129.80,2462.462,2463.130,0.667,erase,0,,1,[silence]
+428,73820,73850,2463129.80,2464164.16,2463.130,2464.164,1.034,drop_eraser,0,,1,[silence]
+429,73851,73882,2464164.16,2465231.90,2464.164,2465.232,1.068,out,0,,1,[silence]
+430,73883,73899,2465231.90,2465799.13,2465.232,2465.799,0.567,explain,0,,1,[silence]
+431,73900,73937,2465799.13,2467067.07,2465.799,2467.067,1.268,write,0,,1,[silence]
+432,73938,73943,2467067.07,2467267.27,2467.067,2467.267,0.200,explain,0,,1,[silence]
+433,73944,74131,2467267.27,2473540.21,2467.267,2473.540,6.273,out,16,0.969,0,"first choose a row or a column. So, let us say I choose the third row,"
+434,74132,74187,2473540.21,2475408.74,2473.540,2475.409,1.869,explain,3,0.973,0,"row, suppose I"
+435,74188,74367,2475408.74,2481414.75,2475.409,2481.415,6.006,write,5,0.894,0,"I chose the third row,"
+436,74368,74395,2481414.75,2482349.02,2481.415,2482.349,0.934,explain,0,,1,[silence]
+437,74396,74510,2482349.02,2486186.19,2482.349,2486.186,3.837,out,4,0.986,0,then you compute the
+438,74511,74538,2486186.19,2487120.45,2486.186,2487.120,0.934,explain,1,0.989,0,the
+439,74539,74717,2487120.45,2493093.09,2487.120,2493.093,5.973,write,6,0.829,0,"the cofactors C31, C32 and C33"
+440,74718,74742,2493093.09,2493927.26,2493.093,2493.927,0.834,explain,0,,1,[silence]
+441,74743,74928,2493927.26,2500133.47,2493.927,2500.133,6.206,out,14,0.876,0,"and once I have those cofactors, then I can use these to find my"
+442,74929,74979,2500133.47,2501835.17,2500.133,2501.835,1.702,explain,8,0.676,0,"my determinant. So, what would be those cofactors?"
+443,74980,75131,2501835.17,2506906.91,2501.835,2506.907,5.072,write,7,0.967,0,"cofactors? So, say C31 would be basically"
+444,75132,75181,2506906.91,2508575.24,2506.907,2508.575,1.668,explain,0,,1,[silence]
+445,75182,75214,2508575.24,2509676.34,2508.575,2509.676,1.101,pick_eraser,0,,1,[silence]
+446,75215,75232,2509676.34,2510276.94,2509.676,2510.277,0.601,erase,0,,1,[silence]
+447,75233,75271,2510276.94,2511578.24,2510.277,2511.578,1.301,drop_eraser,0,,1,[silence]
+448,75272,75330,2511578.24,2513546.88,2511.578,2513.547,1.969,explain,0,,1,[silence]
+449,75331,75358,2513546.88,2514481.15,2513.547,2514.481,0.934,write,1,0.845,0,minus
+450,75359,75379,2514481.15,2515181.85,2514.481,2515.182,0.701,explain,2,0.887,0,minus 1
+451,75380,75417,2515181.85,2516449.78,2515.182,2516.450,1.268,out,2,0.956,0,1 to
+452,75418,75442,2516449.78,2517283.95,2516.450,2517.284,0.834,explain,4,0.98,0,to the 3 plus
+453,75443,75704,2517283.95,2526026.03,2517.284,2526.026,8.742,write,17,0.951,0,"plus 1 M31, which is the same as M31, which is the determinant of the matrix obtained"
+454,75705,75729,2526026.03,2526860.19,2526.026,2526.860,0.834,explain,3,0.649,0,obtained by deleting
+455,75730,75815,2526860.19,2529729.73,2526.860,2529.730,2.870,out,8,0.797,0,deleting the third row and the first column.
+456,75816,75862,2529729.73,2531297.96,2529.730,2531.298,1.568,explain,4,0.902,0,"So, it would be"
+457,75863,76321,2531297.96,2546613.28,2531.298,2546.613,15.315,write,14,0.874,0,"be A12, A13, A22, which turns out to be A12, A23 minus A22, A13."
+458,76322,76359,2546613.28,2547881.21,2546.613,2547.881,1.268,explain,1,0.971,0,A13.
+459,76360,76656,2547881.21,2557791.12,2547.881,2557.791,9.910,out,22,0.971,0,"So, likewise, you can get your C32 and you can get your C33. Once you have all those things, then Laplace said,"
+460,76657,76675,2557791.12,2558425.09,2557.791,2558.425,0.634,explain,3,0.925,0,the determinant of
+461,76676,77202,2558425.09,2576009.34,2558.425,2576.009,17.584,write,27,0.898,0,"of your matrix would be basically each entry of your row multiplied by its corresponding cofactor. So, the determinant would be A31 times C31, A32 times C32,"
+462,77203,77220,2576009.34,2576609.94,2576.009,2576.610,0.601,explain,1,0.982,0,A33
+463,77221,77345,2576609.94,2580780.78,2576.610,2580.781,4.171,out,13,0.982,0,"A33 times C33. So, this is how you will get the determinant of"
+464,77346,77357,2580780.78,2581181.18,2580.781,2581.181,0.400,explain,2,0.996,0,of your
+465,77358,77456,2581181.18,2584484.48,2581.181,2584.484,3.303,write,8,0.968,0,your matrix. The good part is you choose
+466,77457,77468,2584484.48,2584884.88,2584.484,2584.885,0.400,explain,2,0.984,0,choose any
+467,77469,77930,2584884.88,2600300.30,2584.885,2600.300,15.415,out,37,0.908,0,"any row or any column, just once you make that choice, then you stick to that and find all the relevant cofactors and if you combine them this way, you will get your determinant. The proof of"
+468,77931,78067,2600300.30,2604871.54,2600.300,2604.872,4.571,change,7,0.951,0,of Laplace's expansion is not something very
+469,78068,78099,2604871.54,2605939.27,2604.872,2605.939,1.068,explain,3,0.695,0,very elegant that
+470,78100,78206,2605939.27,2609509.51,2605.939,2609.510,3.570,out,9,0.863,0,that can be given very elegantly here. Elegant proof
+471,78207,78289,2609509.51,2612278.95,2609.510,2612.279,2.769,explain,10,0.973,0,"proof requires something which we don't have at this stage,"
+472,78290,78367,2612278.95,2614881.55,2612.279,2614.882,2.603,pick_eraser,7,0.936,0,"stage, at least not in this course."
+473,78368,78750,2614881.55,2627660.99,2614.882,2627.661,12.779,erase,24,0.946,0,"So, I won't try to prove it here. However, it's a nice thing to look at how the proof runs, even in the non"
+474,78751,78818,2627660.99,2629929.93,2627.661,2629.930,2.269,drop_eraser,7,0.86,0,non -elegant case. There is something nice
+475,78819,78915,2629929.93,2633166.50,2629.930,2633.166,3.237,out,9,0.99,0,nice about this proof that you should be able
+476,78916,79030,2633166.50,2637003.67,2633.166,2637.004,3.837,drop_eraser,1,0.585,0,to...
+477,79031,79458,2637003.67,2651284.62,2637.004,2651.285,14.281,out,0,,1,[silence]
+478,79459,79549,2651284.62,2654320.99,2651.285,2654.321,3.036,explain,16,0.911,0,"So, let's try to do it on an example and see what is the determinant of."
+479,79550,79829,2654320.99,2663663.66,2654.321,2663.664,9.343,write,1,0.97,0,of.
+480,79830,79932,2663663.66,2667100.43,2663.664,2667.100,3.437,explain,9,0.985,0,"So, what is the determinant of something like this?"
+481,79933,83736,2667100.43,2794027.36,2667.100,2794.027,126.927,write,169,0.89,0,"If I want the determinant of this matrix, let me choose some row. Let us say if I choose the second row. So, I will go with the cofactors C21. So, it is minus times the determinant of the matrix obtained by deleting the second row and the first column. So, second row and the first column give me... Likewise, I can now compute C22. C22 would be minus 1 to the 2 plus 2 M22 going to the determinant of the matrix obtained by deleting the second row and the second column. So, be 1, 3, 5, 7, which is minus 8. And then I will get C23 to be minus times the determinant of the matrix obtained by deleting the second row and the third column. So, to Laplace, the determinant of our matrix would be 0 times C21, 1 times C22, and 3 times C22. So, C22 we just found is minus 8. So, it is minus 8 plus 30. So, the determinant must be 22."
+482,83737,83815,2794027.36,2796663.33,2794.027,2796.663,2.636,explain,1,0.904,0,22.
+483,83816,83921,2796663.33,2800200.20,2796.663,2800.200,3.537,out,10,0.892,0,"So, like this thing is something that if you notice"
+484,83922,84439,2800200.20,2817484.15,2800.200,2817.484,17.284,explain,52,0.919,0,"notice in this particular example, this entry being 0 is quite helpful for us in computation. So, the moral of the story should be that we should try to expand it along that row or column which has the maximum number of zeros, so that we can cut down on our computation."
+485,84440,85086,2817484.15,2839072.41,2817.484,2839.072,21.588,out,44,0.914,0,"computation. And this is going to be the key in computing determinants. We will try to produce, do something so that we can produce more zeros in a matrix and thereby reducing our overhead with calculation and cut down on the number of operations."
+486,85087,85135,2839072.41,2840707.37,2839.072,2840.707,1.635,pick_eraser,0,,1,[silence]
+487,85136,85323,2840707.37,2846980.31,2840.707,2846.980,6.273,erase,0,,1,[silence]
+488,85324,85387,2846980.31,2849115.78,2846.980,2849.116,2.135,drop_eraser,0,,1,[silence]
+489,85388,85403,2849115.78,2849649.65,2849.116,2849.650,0.534,out,0,,1,[silence]
+490,85404,85436,2849649.65,2850750.75,2849.650,2850.751,1.101,explain,0,,1,[silence]
+491,85437,85563,2850750.75,2854988.32,2850.751,2854.988,4.238,write,0,,1,[silence]
+492,85564,85582,2854988.32,2855622.29,2854.988,2855.622,0.634,explain,0,,1,[silence]
+493,85583,85672,2855622.29,2858625.29,2855.622,2858.625,3.003,out,0,,1,[silence]
+494,85673,85694,2858625.29,2859359.36,2858.625,2859.359,0.734,explain,0,,1,[silence]
+495,85695,85724,2859359.36,2860360.36,2859.359,2860.360,1.001,write,0,,1,[silence]
+496,85725,85741,2860360.36,2860927.59,2860.360,2860.928,0.567,explain,0,,1,[silence]
+497,85742,85905,2860927.59,2866399.73,2860.928,2866.400,5.472,out,0,,1,[silence]
+498,85906,85921,2866399.73,2866933.60,2866.400,2866.934,0.534,pick_eraser,0,,1,[silence]
+499,85922,86024,2866933.60,2870370.37,2866.934,2870.370,3.437,erase,0,,1,[silence]
+500,86025,86060,2870370.37,2871571.57,2870.370,2871.572,1.201,drop_eraser,0,,1,[silence]
+501,86061,86076,2871571.57,2872105.44,2871.572,2872.105,0.534,out,0,,1,[silence]
+502,86077,86100,2872105.44,2872906.24,2872.105,2872.906,0.801,explain,0,,1,[silence]
+503,86101,86142,2872906.24,2874307.64,2872.906,2874.308,1.401,write,0,,1,[silence]
+504,86143,86161,2874307.64,2874941.61,2874.308,2874.942,0.634,explain,0,,1,[silence]
+505,86162,86632,2874941.61,2890657.32,2874.942,2890.657,15.716,out,1,0.356,0,48.
+506,86633,86651,2890657.32,2891291.29,2890.657,2891.291,0.634,change,0,,1,[silence]

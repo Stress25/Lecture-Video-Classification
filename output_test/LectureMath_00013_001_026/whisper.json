@@ -1,0 +1,5360 @@
+{
+  "audio_path": "/Users/kritikabhat/Documents/MastersResearch/Code/output_test/LectureMath_00013_001_026/LectureMath_00013_001_026.wav",
+  "model": "medium",
+  "language": "en",
+  "duration_sec": 361.674,
+  "segments": [
+    {
+      "id": 1,
+      "start_sec": 2.99,
+      "end_sec": 11.11,
+      "text": "We are going to do the multiplication of these two thousand ohms using a notable product called sum by difference.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 2.99,
+          "end_sec": 3.61,
+          "prob": 0.209
+        },
+        {
+          "word": "are",
+          "start_sec": 3.61,
+          "end_sec": 3.71,
+          "prob": 0.451
+        },
+        {
+          "word": "going",
+          "start_sec": 3.71,
+          "end_sec": 3.71,
+          "prob": 0.983
+        },
+        {
+          "word": "to",
+          "start_sec": 3.71,
+          "end_sec": 3.83,
+          "prob": 0.996
+        },
+        {
+          "word": "do",
+          "start_sec": 3.83,
+          "end_sec": 4.23,
+          "prob": 0.132
+        },
+        {
+          "word": "the",
+          "start_sec": 4.23,
+          "end_sec": 4.33,
+          "prob": 0.886
+        },
+        {
+          "word": "multiplication",
+          "start_sec": 4.33,
+          "end_sec": 5.09,
+          "prob": 0.953
+        },
+        {
+          "word": "of",
+          "start_sec": 5.09,
+          "end_sec": 5.27,
+          "prob": 0.899
+        },
+        {
+          "word": "these",
+          "start_sec": 5.27,
+          "end_sec": 5.65,
+          "prob": 0.752
+        },
+        {
+          "word": "two",
+          "start_sec": 5.65,
+          "end_sec": 5.89,
+          "prob": 0.86
+        },
+        {
+          "word": "thousand",
+          "start_sec": 5.89,
+          "end_sec": 6.05,
+          "prob": 0.086
+        },
+        {
+          "word": "ohms",
+          "start_sec": 6.05,
+          "end_sec": 6.61,
+          "prob": 0.92
+        },
+        {
+          "word": "using",
+          "start_sec": 6.61,
+          "end_sec": 7.37,
+          "prob": 0.61
+        },
+        {
+          "word": "a",
+          "start_sec": 7.37,
+          "end_sec": 7.87,
+          "prob": 0.937
+        },
+        {
+          "word": "notable",
+          "start_sec": 7.87,
+          "end_sec": 8.55,
+          "prob": 0.899
+        },
+        {
+          "word": "product",
+          "start_sec": 8.55,
+          "end_sec": 8.57,
+          "prob": 0.988
+        },
+        {
+          "word": "called",
+          "start_sec": 8.57,
+          "end_sec": 9.45,
+          "prob": 0.723
+        },
+        {
+          "word": "sum",
+          "start_sec": 9.45,
+          "end_sec": 9.83,
+          "prob": 0.372
+        },
+        {
+          "word": "by",
+          "start_sec": 9.83,
+          "end_sec": 10.33,
+          "prob": 0.649
+        },
+        {
+          "word": "difference.",
+          "start_sec": 10.33,
+          "end_sec": 11.11,
+          "prob": 0.825
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_sec": 12.03,
+      "end_sec": 19.51,
+      "text": "We start by changing the position of these two summands, that is, there we are going to apply the commutative property of the sum.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 12.03,
+          "end_sec": 12.03,
+          "prob": 0.843
+        },
+        {
+          "word": "start",
+          "start_sec": 12.03,
+          "end_sec": 12.17,
+          "prob": 0.527
+        },
+        {
+          "word": "by",
+          "start_sec": 12.17,
+          "end_sec": 12.39,
+          "prob": 0.917
+        },
+        {
+          "word": "changing",
+          "start_sec": 12.39,
+          "end_sec": 12.77,
+          "prob": 0.976
+        },
+        {
+          "word": "the",
+          "start_sec": 12.77,
+          "end_sec": 12.89,
+          "prob": 0.993
+        },
+        {
+          "word": "position",
+          "start_sec": 12.89,
+          "end_sec": 13.35,
+          "prob": 0.961
+        },
+        {
+          "word": "of",
+          "start_sec": 13.35,
+          "end_sec": 13.59,
+          "prob": 0.992
+        },
+        {
+          "word": "these",
+          "start_sec": 13.59,
+          "end_sec": 13.87,
+          "prob": 0.956
+        },
+        {
+          "word": "two",
+          "start_sec": 13.87,
+          "end_sec": 14.13,
+          "prob": 0.987
+        },
+        {
+          "word": "summands,",
+          "start_sec": 14.13,
+          "end_sec": 14.57,
+          "prob": 0.514
+        },
+        {
+          "word": "that",
+          "start_sec": 14.95,
+          "end_sec": 15.15,
+          "prob": 0.703
+        },
+        {
+          "word": "is,",
+          "start_sec": 15.15,
+          "end_sec": 15.15,
+          "prob": 0.986
+        },
+        {
+          "word": "there",
+          "start_sec": 15.51,
+          "end_sec": 15.75,
+          "prob": 0.639
+        },
+        {
+          "word": "we",
+          "start_sec": 15.75,
+          "end_sec": 16.05,
+          "prob": 0.982
+        },
+        {
+          "word": "are",
+          "start_sec": 16.05,
+          "end_sec": 16.35,
+          "prob": 0.863
+        },
+        {
+          "word": "going",
+          "start_sec": 16.35,
+          "end_sec": 16.37,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 16.37,
+          "end_sec": 16.47,
+          "prob": 0.997
+        },
+        {
+          "word": "apply",
+          "start_sec": 16.47,
+          "end_sec": 17.17,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 17.17,
+          "end_sec": 17.69,
+          "prob": 0.988
+        },
+        {
+          "word": "commutative",
+          "start_sec": 17.69,
+          "end_sec": 18.71,
+          "prob": 0.892
+        },
+        {
+          "word": "property",
+          "start_sec": 18.71,
+          "end_sec": 18.71,
+          "prob": 0.988
+        },
+        {
+          "word": "of",
+          "start_sec": 18.71,
+          "end_sec": 19.09,
+          "prob": 0.972
+        },
+        {
+          "word": "the",
+          "start_sec": 19.09,
+          "end_sec": 19.33,
+          "prob": 0.988
+        },
+        {
+          "word": "sum.",
+          "start_sec": 19.33,
+          "end_sec": 19.51,
+          "prob": 0.957
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_sec": 19.89,
+      "end_sec": 22.47,
+      "text": "The order of the summands does not alter the result.",
+      "words": [
+        {
+          "word": "The",
+          "start_sec": 19.89,
+          "end_sec": 19.99,
+          "prob": 0.92
+        },
+        {
+          "word": "order",
+          "start_sec": 19.99,
+          "end_sec": 20.29,
+          "prob": 0.879
+        },
+        {
+          "word": "of",
+          "start_sec": 20.29,
+          "end_sec": 20.49,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 20.49,
+          "end_sec": 20.65,
+          "prob": 0.973
+        },
+        {
+          "word": "summands",
+          "start_sec": 20.65,
+          "end_sec": 21.01,
+          "prob": 0.983
+        },
+        {
+          "word": "does",
+          "start_sec": 21.01,
+          "end_sec": 21.21,
+          "prob": 0.948
+        },
+        {
+          "word": "not",
+          "start_sec": 21.21,
+          "end_sec": 21.21,
+          "prob": 1.0
+        },
+        {
+          "word": "alter",
+          "start_sec": 21.21,
+          "end_sec": 21.65,
+          "prob": 0.766
+        },
+        {
+          "word": "the",
+          "start_sec": 21.65,
+          "end_sec": 21.97,
+          "prob": 0.996
+        },
+        {
+          "word": "result.",
+          "start_sec": 21.97,
+          "end_sec": 22.47,
+          "prob": 0.985
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_sec": 22.99,
+      "end_sec": 29.79,
+      "text": "So we are going to start writing this factor over here, as we said, changing the position of these two terms.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 22.99,
+          "end_sec": 23.39,
+          "prob": 0.576
+        },
+        {
+          "word": "we",
+          "start_sec": 23.39,
+          "end_sec": 23.69,
+          "prob": 0.505
+        },
+        {
+          "word": "are",
+          "start_sec": 23.69,
+          "end_sec": 23.73,
+          "prob": 0.844
+        },
+        {
+          "word": "going",
+          "start_sec": 23.73,
+          "end_sec": 23.85,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 23.85,
+          "end_sec": 23.93,
+          "prob": 0.997
+        },
+        {
+          "word": "start",
+          "start_sec": 23.93,
+          "end_sec": 24.29,
+          "prob": 0.958
+        },
+        {
+          "word": "writing",
+          "start_sec": 24.29,
+          "end_sec": 24.69,
+          "prob": 0.703
+        },
+        {
+          "word": "this",
+          "start_sec": 24.69,
+          "end_sec": 24.99,
+          "prob": 0.993
+        },
+        {
+          "word": "factor",
+          "start_sec": 24.99,
+          "end_sec": 25.43,
+          "prob": 0.992
+        },
+        {
+          "word": "over",
+          "start_sec": 25.43,
+          "end_sec": 25.81,
+          "prob": 0.32
+        },
+        {
+          "word": "here,",
+          "start_sec": 25.81,
+          "end_sec": 26.29,
+          "prob": 0.997
+        },
+        {
+          "word": "as",
+          "start_sec": 26.53,
+          "end_sec": 26.57,
+          "prob": 0.964
+        },
+        {
+          "word": "we",
+          "start_sec": 26.57,
+          "end_sec": 26.59,
+          "prob": 0.988
+        },
+        {
+          "word": "said,",
+          "start_sec": 26.59,
+          "end_sec": 27.09,
+          "prob": 0.807
+        },
+        {
+          "word": "changing",
+          "start_sec": 27.53,
+          "end_sec": 27.67,
+          "prob": 0.839
+        },
+        {
+          "word": "the",
+          "start_sec": 27.67,
+          "end_sec": 27.79,
+          "prob": 0.665
+        },
+        {
+          "word": "position",
+          "start_sec": 27.79,
+          "end_sec": 28.39,
+          "prob": 0.975
+        },
+        {
+          "word": "of",
+          "start_sec": 28.39,
+          "end_sec": 28.87,
+          "prob": 0.944
+        },
+        {
+          "word": "these",
+          "start_sec": 28.87,
+          "end_sec": 29.11,
+          "prob": 0.987
+        },
+        {
+          "word": "two",
+          "start_sec": 29.11,
+          "end_sec": 29.35,
+          "prob": 0.994
+        },
+        {
+          "word": "terms.",
+          "start_sec": 29.35,
+          "end_sec": 29.79,
+          "prob": 0.988
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_sec": 29.79,
+      "end_sec": 46.17,
+      "text": "We start with three tenths of G raised to the exponent A plus one, and then we have plus four thirteenths of H, which is raised to the exponent of minus two.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 29.79,
+          "end_sec": 30.73,
+          "prob": 0.059
+        },
+        {
+          "word": "start",
+          "start_sec": 30.73,
+          "end_sec": 30.73,
+          "prob": 0.578
+        },
+        {
+          "word": "with",
+          "start_sec": 30.73,
+          "end_sec": 31.03,
+          "prob": 0.93
+        },
+        {
+          "word": "three",
+          "start_sec": 31.03,
+          "end_sec": 31.41,
+          "prob": 0.143
+        },
+        {
+          "word": "tenths",
+          "start_sec": 31.41,
+          "end_sec": 32.89,
+          "prob": 0.716
+        },
+        {
+          "word": "of",
+          "start_sec": 32.89,
+          "end_sec": 33.07,
+          "prob": 0.949
+        },
+        {
+          "word": "G",
+          "start_sec": 33.07,
+          "end_sec": 33.97,
+          "prob": 0.498
+        },
+        {
+          "word": "raised",
+          "start_sec": 33.97,
+          "end_sec": 34.65,
+          "prob": 0.501
+        },
+        {
+          "word": "to",
+          "start_sec": 34.65,
+          "end_sec": 34.87,
+          "prob": 0.973
+        },
+        {
+          "word": "the",
+          "start_sec": 34.87,
+          "end_sec": 34.89,
+          "prob": 0.895
+        },
+        {
+          "word": "exponent",
+          "start_sec": 34.89,
+          "end_sec": 35.53,
+          "prob": 0.872
+        },
+        {
+          "word": "A",
+          "start_sec": 35.53,
+          "end_sec": 35.87,
+          "prob": 0.432
+        },
+        {
+          "word": "plus",
+          "start_sec": 35.87,
+          "end_sec": 36.09,
+          "prob": 0.69
+        },
+        {
+          "word": "one,",
+          "start_sec": 36.09,
+          "end_sec": 36.69,
+          "prob": 0.678
+        },
+        {
+          "word": "and",
+          "start_sec": 37.29,
+          "end_sec": 37.39,
+          "prob": 0.754
+        },
+        {
+          "word": "then",
+          "start_sec": 37.39,
+          "end_sec": 37.65,
+          "prob": 0.816
+        },
+        {
+          "word": "we",
+          "start_sec": 37.65,
+          "end_sec": 37.95,
+          "prob": 0.955
+        },
+        {
+          "word": "have",
+          "start_sec": 37.95,
+          "end_sec": 38.11,
+          "prob": 0.92
+        },
+        {
+          "word": "plus",
+          "start_sec": 38.11,
+          "end_sec": 38.95,
+          "prob": 0.284
+        },
+        {
+          "word": "four",
+          "start_sec": 38.95,
+          "end_sec": 39.61,
+          "prob": 0.839
+        },
+        {
+          "word": "thirteenths",
+          "start_sec": 39.61,
+          "end_sec": 41.19,
+          "prob": 0.856
+        },
+        {
+          "word": "of",
+          "start_sec": 41.19,
+          "end_sec": 41.31,
+          "prob": 0.978
+        },
+        {
+          "word": "H,",
+          "start_sec": 41.31,
+          "end_sec": 42.33,
+          "prob": 0.903
+        },
+        {
+          "word": "which",
+          "start_sec": 42.71,
+          "end_sec": 42.75,
+          "prob": 0.78
+        },
+        {
+          "word": "is",
+          "start_sec": 42.75,
+          "end_sec": 43.15,
+          "prob": 0.979
+        },
+        {
+          "word": "raised",
+          "start_sec": 43.15,
+          "end_sec": 43.99,
+          "prob": 0.982
+        },
+        {
+          "word": "to",
+          "start_sec": 43.99,
+          "end_sec": 44.23,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 44.23,
+          "end_sec": 44.39,
+          "prob": 0.991
+        },
+        {
+          "word": "exponent",
+          "start_sec": 44.39,
+          "end_sec": 44.97,
+          "prob": 0.988
+        },
+        {
+          "word": "of",
+          "start_sec": 44.97,
+          "end_sec": 45.39,
+          "prob": 0.696
+        },
+        {
+          "word": "minus",
+          "start_sec": 45.39,
+          "end_sec": 45.61,
+          "prob": 0.899
+        },
+        {
+          "word": "two.",
+          "start_sec": 45.61,
+          "end_sec": 46.17,
+          "prob": 0.957
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start_sec": 46.61,
+      "end_sec": 58.2,
+      "text": "We protect this with parentheses, and that is multiplied by all this binomial, which is three tenths of G raised to the exponent A plus one,",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 46.61,
+          "end_sec": 47.09,
+          "prob": 0.916
+        },
+        {
+          "word": "protect",
+          "start_sec": 47.09,
+          "end_sec": 47.09,
+          "prob": 0.602
+        },
+        {
+          "word": "this",
+          "start_sec": 47.09,
+          "end_sec": 47.51,
+          "prob": 0.941
+        },
+        {
+          "word": "with",
+          "start_sec": 47.51,
+          "end_sec": 47.85,
+          "prob": 0.833
+        },
+        {
+          "word": "parentheses,",
+          "start_sec": 47.85,
+          "end_sec": 48.47,
+          "prob": 0.506
+        },
+        {
+          "word": "and",
+          "start_sec": 48.97,
+          "end_sec": 49.01,
+          "prob": 0.95
+        },
+        {
+          "word": "that",
+          "start_sec": 49.01,
+          "end_sec": 49.23,
+          "prob": 0.592
+        },
+        {
+          "word": "is",
+          "start_sec": 49.23,
+          "end_sec": 49.39,
+          "prob": 0.673
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 49.39,
+          "end_sec": 50.07,
+          "prob": 0.968
+        },
+        {
+          "word": "by",
+          "start_sec": 50.07,
+          "end_sec": 50.65,
+          "prob": 0.984
+        },
+        {
+          "word": "all",
+          "start_sec": 50.65,
+          "end_sec": 51.01,
+          "prob": 0.551
+        },
+        {
+          "word": "this",
+          "start_sec": 51.01,
+          "end_sec": 51.49,
+          "prob": 0.845
+        },
+        {
+          "word": "binomial,",
+          "start_sec": 51.49,
+          "end_sec": 52.11,
+          "prob": 0.942
+        },
+        {
+          "word": "which",
+          "start_sec": 52.41,
+          "end_sec": 52.51,
+          "prob": 0.964
+        },
+        {
+          "word": "is",
+          "start_sec": 52.51,
+          "end_sec": 52.73,
+          "prob": 0.993
+        },
+        {
+          "word": "three",
+          "start_sec": 52.73,
+          "end_sec": 53.15,
+          "prob": 0.951
+        },
+        {
+          "word": "tenths",
+          "start_sec": 53.15,
+          "end_sec": 54.67,
+          "prob": 0.958
+        },
+        {
+          "word": "of",
+          "start_sec": 54.74,
+          "end_sec": 54.8,
+          "prob": 0.988
+        },
+        {
+          "word": "G",
+          "start_sec": 54.8,
+          "end_sec": 55.86,
+          "prob": 0.996
+        },
+        {
+          "word": "raised",
+          "start_sec": 55.86,
+          "end_sec": 56.34,
+          "prob": 0.971
+        },
+        {
+          "word": "to",
+          "start_sec": 56.34,
+          "end_sec": 56.44,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 56.44,
+          "end_sec": 56.68,
+          "prob": 0.996
+        },
+        {
+          "word": "exponent",
+          "start_sec": 56.68,
+          "end_sec": 57.18,
+          "prob": 0.995
+        },
+        {
+          "word": "A",
+          "start_sec": 57.18,
+          "end_sec": 57.54,
+          "prob": 0.514
+        },
+        {
+          "word": "plus",
+          "start_sec": 57.54,
+          "end_sec": 57.76,
+          "prob": 0.993
+        },
+        {
+          "word": "one,",
+          "start_sec": 57.76,
+          "end_sec": 58.2,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start_sec": 58.2,
+      "end_sec": 65.92,
+      "text": "and that is minus four thirteenths of H raised to the exponent of minus two.",
+      "words": [
+        {
+          "word": "and",
+          "start_sec": 58.2,
+          "end_sec": 58.78,
+          "prob": 0.06
+        },
+        {
+          "word": "that",
+          "start_sec": 58.78,
+          "end_sec": 59.06,
+          "prob": 0.678
+        },
+        {
+          "word": "is",
+          "start_sec": 59.06,
+          "end_sec": 59.58,
+          "prob": 0.262
+        },
+        {
+          "word": "minus",
+          "start_sec": 59.58,
+          "end_sec": 59.58,
+          "prob": 0.303
+        },
+        {
+          "word": "four",
+          "start_sec": 59.58,
+          "end_sec": 60.26,
+          "prob": 0.463
+        },
+        {
+          "word": "thirteenths",
+          "start_sec": 60.26,
+          "end_sec": 61.8,
+          "prob": 0.602
+        },
+        {
+          "word": "of",
+          "start_sec": 61.96,
+          "end_sec": 62.04,
+          "prob": 0.831
+        },
+        {
+          "word": "H",
+          "start_sec": 62.04,
+          "end_sec": 63.08,
+          "prob": 0.245
+        },
+        {
+          "word": "raised",
+          "start_sec": 63.08,
+          "end_sec": 63.66,
+          "prob": 0.651
+        },
+        {
+          "word": "to",
+          "start_sec": 63.66,
+          "end_sec": 63.9,
+          "prob": 0.987
+        },
+        {
+          "word": "the",
+          "start_sec": 63.9,
+          "end_sec": 63.92,
+          "prob": 0.966
+        },
+        {
+          "word": "exponent",
+          "start_sec": 63.92,
+          "end_sec": 64.58,
+          "prob": 0.968
+        },
+        {
+          "word": "of",
+          "start_sec": 64.58,
+          "end_sec": 65.08,
+          "prob": 0.917
+        },
+        {
+          "word": "minus",
+          "start_sec": 65.08,
+          "end_sec": 65.44,
+          "prob": 0.909
+        },
+        {
+          "word": "two.",
+          "start_sec": 65.44,
+          "end_sec": 65.92,
+          "prob": 0.765
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start_sec": 66.22,
+      "end_sec": 73.68,
+      "text": "There we have also applied the commutative property of multiplication, because we have changed the position of the factors.",
+      "words": [
+        {
+          "word": "There",
+          "start_sec": 66.22,
+          "end_sec": 66.38,
+          "prob": 0.491
+        },
+        {
+          "word": "we",
+          "start_sec": 66.38,
+          "end_sec": 66.96,
+          "prob": 0.801
+        },
+        {
+          "word": "have",
+          "start_sec": 66.96,
+          "end_sec": 67.08,
+          "prob": 0.621
+        },
+        {
+          "word": "also",
+          "start_sec": 67.08,
+          "end_sec": 67.1,
+          "prob": 0.945
+        },
+        {
+          "word": "applied",
+          "start_sec": 67.1,
+          "end_sec": 67.92,
+          "prob": 0.954
+        },
+        {
+          "word": "the",
+          "start_sec": 67.92,
+          "end_sec": 68.52,
+          "prob": 0.979
+        },
+        {
+          "word": "commutative",
+          "start_sec": 68.52,
+          "end_sec": 69.64,
+          "prob": 0.733
+        },
+        {
+          "word": "property",
+          "start_sec": 69.64,
+          "end_sec": 69.64,
+          "prob": 0.991
+        },
+        {
+          "word": "of",
+          "start_sec": 69.64,
+          "end_sec": 69.88,
+          "prob": 0.958
+        },
+        {
+          "word": "multiplication,",
+          "start_sec": 69.88,
+          "end_sec": 70.64,
+          "prob": 0.626
+        },
+        {
+          "word": "because",
+          "start_sec": 71.24,
+          "end_sec": 71.42,
+          "prob": 0.951
+        },
+        {
+          "word": "we",
+          "start_sec": 71.42,
+          "end_sec": 71.68,
+          "prob": 0.976
+        },
+        {
+          "word": "have",
+          "start_sec": 71.68,
+          "end_sec": 71.8,
+          "prob": 0.953
+        },
+        {
+          "word": "changed",
+          "start_sec": 71.8,
+          "end_sec": 72.22,
+          "prob": 0.982
+        },
+        {
+          "word": "the",
+          "start_sec": 72.22,
+          "end_sec": 72.32,
+          "prob": 0.994
+        },
+        {
+          "word": "position",
+          "start_sec": 72.32,
+          "end_sec": 72.8,
+          "prob": 0.972
+        },
+        {
+          "word": "of",
+          "start_sec": 72.8,
+          "end_sec": 73.06,
+          "prob": 0.995
+        },
+        {
+          "word": "the",
+          "start_sec": 73.06,
+          "end_sec": 73.26,
+          "prob": 0.957
+        },
+        {
+          "word": "factors.",
+          "start_sec": 73.26,
+          "end_sec": 73.68,
+          "prob": 0.972
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start_sec": 74.08,
+      "end_sec": 78.16,
+      "text": "Remember that the order of the factors does not alter the product.",
+      "words": [
+        {
+          "word": "Remember",
+          "start_sec": 74.08,
+          "end_sec": 74.48,
+          "prob": 0.378
+        },
+        {
+          "word": "that",
+          "start_sec": 74.48,
+          "end_sec": 74.84,
+          "prob": 0.947
+        },
+        {
+          "word": "the",
+          "start_sec": 74.84,
+          "end_sec": 74.96,
+          "prob": 0.969
+        },
+        {
+          "word": "order",
+          "start_sec": 74.96,
+          "end_sec": 75.18,
+          "prob": 0.986
+        },
+        {
+          "word": "of",
+          "start_sec": 75.18,
+          "end_sec": 75.36,
+          "prob": 0.992
+        },
+        {
+          "word": "the",
+          "start_sec": 75.36,
+          "end_sec": 75.56,
+          "prob": 0.935
+        },
+        {
+          "word": "factors",
+          "start_sec": 75.56,
+          "end_sec": 76.04,
+          "prob": 0.978
+        },
+        {
+          "word": "does",
+          "start_sec": 76.04,
+          "end_sec": 76.6,
+          "prob": 0.936
+        },
+        {
+          "word": "not",
+          "start_sec": 76.6,
+          "end_sec": 76.66,
+          "prob": 0.999
+        },
+        {
+          "word": "alter",
+          "start_sec": 76.66,
+          "end_sec": 77.22,
+          "prob": 0.899
+        },
+        {
+          "word": "the",
+          "start_sec": 77.22,
+          "end_sec": 77.58,
+          "prob": 0.991
+        },
+        {
+          "word": "product.",
+          "start_sec": 77.58,
+          "end_sec": 78.16,
+          "prob": 0.993
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start_sec": 78.82,
+      "end_sec": 87.36,
+      "text": "Now we have everything ready to apply the notable product that we mentioned, and that is called sum by difference.",
+      "words": [
+        {
+          "word": "Now",
+          "start_sec": 78.82,
+          "end_sec": 79.14,
+          "prob": 0.945
+        },
+        {
+          "word": "we",
+          "start_sec": 79.14,
+          "end_sec": 79.68,
+          "prob": 0.603
+        },
+        {
+          "word": "have",
+          "start_sec": 79.68,
+          "end_sec": 79.84,
+          "prob": 0.824
+        },
+        {
+          "word": "everything",
+          "start_sec": 79.84,
+          "end_sec": 80.2,
+          "prob": 0.975
+        },
+        {
+          "word": "ready",
+          "start_sec": 80.2,
+          "end_sec": 80.82,
+          "prob": 0.986
+        },
+        {
+          "word": "to",
+          "start_sec": 80.82,
+          "end_sec": 81.2,
+          "prob": 0.969
+        },
+        {
+          "word": "apply",
+          "start_sec": 81.2,
+          "end_sec": 82.04,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 82.04,
+          "end_sec": 82.46,
+          "prob": 0.978
+        },
+        {
+          "word": "notable",
+          "start_sec": 82.46,
+          "end_sec": 83.16,
+          "prob": 0.864
+        },
+        {
+          "word": "product",
+          "start_sec": 83.16,
+          "end_sec": 83.32,
+          "prob": 0.997
+        },
+        {
+          "word": "that",
+          "start_sec": 83.32,
+          "end_sec": 83.64,
+          "prob": 0.783
+        },
+        {
+          "word": "we",
+          "start_sec": 83.64,
+          "end_sec": 84.28,
+          "prob": 0.991
+        },
+        {
+          "word": "mentioned,",
+          "start_sec": 84.28,
+          "end_sec": 84.28,
+          "prob": 0.764
+        },
+        {
+          "word": "and",
+          "start_sec": 84.76,
+          "end_sec": 84.86,
+          "prob": 0.64
+        },
+        {
+          "word": "that",
+          "start_sec": 84.86,
+          "end_sec": 84.98,
+          "prob": 0.59
+        },
+        {
+          "word": "is",
+          "start_sec": 84.98,
+          "end_sec": 85.28,
+          "prob": 0.935
+        },
+        {
+          "word": "called",
+          "start_sec": 85.28,
+          "end_sec": 85.64,
+          "prob": 0.924
+        },
+        {
+          "word": "sum",
+          "start_sec": 85.64,
+          "end_sec": 85.84,
+          "prob": 0.352
+        },
+        {
+          "word": "by",
+          "start_sec": 85.84,
+          "end_sec": 86.64,
+          "prob": 0.841
+        },
+        {
+          "word": "difference.",
+          "start_sec": 86.64,
+          "end_sec": 87.36,
+          "prob": 0.841
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start_sec": 87.36,
+      "end_sec": 97.24,
+      "text": "The sum of two quantities multiplied by the difference of them is equal to the first quantity squared minus the second quantity squared.",
+      "words": [
+        {
+          "word": "The",
+          "start_sec": 87.36,
+          "end_sec": 88.08,
+          "prob": 0.091
+        },
+        {
+          "word": "sum",
+          "start_sec": 88.08,
+          "end_sec": 88.42,
+          "prob": 0.938
+        },
+        {
+          "word": "of",
+          "start_sec": 88.42,
+          "end_sec": 88.56,
+          "prob": 0.978
+        },
+        {
+          "word": "two",
+          "start_sec": 88.56,
+          "end_sec": 88.84,
+          "prob": 0.809
+        },
+        {
+          "word": "quantities",
+          "start_sec": 88.84,
+          "end_sec": 89.46,
+          "prob": 0.878
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 89.46,
+          "end_sec": 90.12,
+          "prob": 0.866
+        },
+        {
+          "word": "by",
+          "start_sec": 90.12,
+          "end_sec": 90.52,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 90.52,
+          "end_sec": 90.7,
+          "prob": 0.719
+        },
+        {
+          "word": "difference",
+          "start_sec": 90.7,
+          "end_sec": 91.16,
+          "prob": 0.952
+        },
+        {
+          "word": "of",
+          "start_sec": 91.16,
+          "end_sec": 91.3,
+          "prob": 0.402
+        },
+        {
+          "word": "them",
+          "start_sec": 91.3,
+          "end_sec": 91.86,
+          "prob": 0.668
+        },
+        {
+          "word": "is",
+          "start_sec": 91.86,
+          "end_sec": 92.18,
+          "prob": 0.778
+        },
+        {
+          "word": "equal",
+          "start_sec": 92.18,
+          "end_sec": 92.56,
+          "prob": 0.901
+        },
+        {
+          "word": "to",
+          "start_sec": 92.56,
+          "end_sec": 92.82,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 92.82,
+          "end_sec": 92.86,
+          "prob": 0.92
+        },
+        {
+          "word": "first",
+          "start_sec": 92.86,
+          "end_sec": 93.18,
+          "prob": 0.931
+        },
+        {
+          "word": "quantity",
+          "start_sec": 93.18,
+          "end_sec": 93.74,
+          "prob": 0.831
+        },
+        {
+          "word": "squared",
+          "start_sec": 93.74,
+          "end_sec": 94.5,
+          "prob": 0.944
+        },
+        {
+          "word": "minus",
+          "start_sec": 94.5,
+          "end_sec": 95.28,
+          "prob": 0.928
+        },
+        {
+          "word": "the",
+          "start_sec": 95.28,
+          "end_sec": 95.5,
+          "prob": 0.987
+        },
+        {
+          "word": "second",
+          "start_sec": 95.5,
+          "end_sec": 95.86,
+          "prob": 0.994
+        },
+        {
+          "word": "quantity",
+          "start_sec": 95.86,
+          "end_sec": 96.58,
+          "prob": 0.973
+        },
+        {
+          "word": "squared.",
+          "start_sec": 96.58,
+          "end_sec": 97.24,
+          "prob": 0.985
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start_sec": 97.68,
+      "end_sec": 103.94,
+      "text": "It is a notable product of great importance that saves us the process of applying the distributive property.",
+      "words": [
+        {
+          "word": "It",
+          "start_sec": 97.68,
+          "end_sec": 97.7,
+          "prob": 0.821
+        },
+        {
+          "word": "is",
+          "start_sec": 97.7,
+          "end_sec": 97.8,
+          "prob": 0.853
+        },
+        {
+          "word": "a",
+          "start_sec": 97.8,
+          "end_sec": 97.96,
+          "prob": 0.913
+        },
+        {
+          "word": "notable",
+          "start_sec": 97.96,
+          "end_sec": 98.66,
+          "prob": 0.136
+        },
+        {
+          "word": "product",
+          "start_sec": 98.66,
+          "end_sec": 98.72,
+          "prob": 0.838
+        },
+        {
+          "word": "of",
+          "start_sec": 98.72,
+          "end_sec": 98.88,
+          "prob": 0.928
+        },
+        {
+          "word": "great",
+          "start_sec": 98.88,
+          "end_sec": 99.22,
+          "prob": 0.936
+        },
+        {
+          "word": "importance",
+          "start_sec": 99.22,
+          "end_sec": 99.9,
+          "prob": 0.997
+        },
+        {
+          "word": "that",
+          "start_sec": 99.9,
+          "end_sec": 100.3,
+          "prob": 0.802
+        },
+        {
+          "word": "saves",
+          "start_sec": 100.3,
+          "end_sec": 100.9,
+          "prob": 0.675
+        },
+        {
+          "word": "us",
+          "start_sec": 100.9,
+          "end_sec": 101.04,
+          "prob": 0.713
+        },
+        {
+          "word": "the",
+          "start_sec": 101.04,
+          "end_sec": 101.24,
+          "prob": 0.973
+        },
+        {
+          "word": "process",
+          "start_sec": 101.24,
+          "end_sec": 101.7,
+          "prob": 0.985
+        },
+        {
+          "word": "of",
+          "start_sec": 101.7,
+          "end_sec": 101.88,
+          "prob": 0.972
+        },
+        {
+          "word": "applying",
+          "start_sec": 101.88,
+          "end_sec": 102.36,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 102.36,
+          "end_sec": 102.72,
+          "prob": 0.848
+        },
+        {
+          "word": "distributive",
+          "start_sec": 102.72,
+          "end_sec": 103.94,
+          "prob": 0.945
+        },
+        {
+          "word": "property.",
+          "start_sec": 103.94,
+          "end_sec": 103.94,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start_sec": 104.52,
+      "end_sec": 113.0,
+      "text": "The result is quickly obtained by raising each of the two quantities squared and applying the remaining operation between them.",
+      "words": [
+        {
+          "word": "The",
+          "start_sec": 104.52,
+          "end_sec": 104.84,
+          "prob": 0.616
+        },
+        {
+          "word": "result",
+          "start_sec": 104.84,
+          "end_sec": 106.1,
+          "prob": 0.961
+        },
+        {
+          "word": "is",
+          "start_sec": 106.1,
+          "end_sec": 106.18,
+          "prob": 0.937
+        },
+        {
+          "word": "quickly",
+          "start_sec": 106.18,
+          "end_sec": 106.18,
+          "prob": 0.41
+        },
+        {
+          "word": "obtained",
+          "start_sec": 106.18,
+          "end_sec": 106.4,
+          "prob": 0.981
+        },
+        {
+          "word": "by",
+          "start_sec": 106.4,
+          "end_sec": 106.78,
+          "prob": 0.605
+        },
+        {
+          "word": "raising",
+          "start_sec": 106.78,
+          "end_sec": 107.1,
+          "prob": 0.226
+        },
+        {
+          "word": "each",
+          "start_sec": 107.1,
+          "end_sec": 108.04,
+          "prob": 0.69
+        },
+        {
+          "word": "of",
+          "start_sec": 108.04,
+          "end_sec": 108.42,
+          "prob": 0.955
+        },
+        {
+          "word": "the",
+          "start_sec": 108.42,
+          "end_sec": 108.7,
+          "prob": 0.951
+        },
+        {
+          "word": "two",
+          "start_sec": 108.7,
+          "end_sec": 108.98,
+          "prob": 0.98
+        },
+        {
+          "word": "quantities",
+          "start_sec": 108.98,
+          "end_sec": 109.46,
+          "prob": 0.979
+        },
+        {
+          "word": "squared",
+          "start_sec": 109.46,
+          "end_sec": 109.46,
+          "prob": 0.568
+        },
+        {
+          "word": "and",
+          "start_sec": 109.46,
+          "end_sec": 110.3,
+          "prob": 0.893
+        },
+        {
+          "word": "applying",
+          "start_sec": 110.3,
+          "end_sec": 110.84,
+          "prob": 0.967
+        },
+        {
+          "word": "the",
+          "start_sec": 110.84,
+          "end_sec": 111.32,
+          "prob": 0.958
+        },
+        {
+          "word": "remaining",
+          "start_sec": 111.32,
+          "end_sec": 112.02,
+          "prob": 0.33
+        },
+        {
+          "word": "operation",
+          "start_sec": 112.02,
+          "end_sec": 112.02,
+          "prob": 0.965
+        },
+        {
+          "word": "between",
+          "start_sec": 112.02,
+          "end_sec": 112.58,
+          "prob": 0.794
+        },
+        {
+          "word": "them.",
+          "start_sec": 112.58,
+          "end_sec": 113.0,
+          "prob": 0.993
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start_sec": 113.0,
+      "end_sec": 117.04,
+      "text": "So let's apply that in this situation.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 113.0,
+          "end_sec": 113.96,
+          "prob": 0.061
+        },
+        {
+          "word": "let's",
+          "start_sec": 113.96,
+          "end_sec": 114.42,
+          "prob": 0.56
+        },
+        {
+          "word": "apply",
+          "start_sec": 114.42,
+          "end_sec": 115.0,
+          "prob": 0.82
+        },
+        {
+          "word": "that",
+          "start_sec": 115.0,
+          "end_sec": 115.76,
+          "prob": 0.372
+        },
+        {
+          "word": "in",
+          "start_sec": 115.76,
+          "end_sec": 115.94,
+          "prob": 0.634
+        },
+        {
+          "word": "this",
+          "start_sec": 115.94,
+          "end_sec": 116.22,
+          "prob": 0.974
+        },
+        {
+          "word": "situation.",
+          "start_sec": 116.22,
+          "end_sec": 117.04,
+          "prob": 0.913
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start_sec": 117.56,
+      "end_sec": 128.71,
+      "text": "We start with the first term, which is three tenths of G raised to the exponent of A plus one, and all this raised to the square.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 117.56,
+          "end_sec": 117.56,
+          "prob": 0.457
+        },
+        {
+          "word": "start",
+          "start_sec": 117.56,
+          "end_sec": 117.76,
+          "prob": 0.583
+        },
+        {
+          "word": "with",
+          "start_sec": 117.76,
+          "end_sec": 117.98,
+          "prob": 0.953
+        },
+        {
+          "word": "the",
+          "start_sec": 117.98,
+          "end_sec": 117.98,
+          "prob": 0.965
+        },
+        {
+          "word": "first",
+          "start_sec": 117.98,
+          "end_sec": 118.38,
+          "prob": 0.976
+        },
+        {
+          "word": "term,",
+          "start_sec": 118.38,
+          "end_sec": 118.9,
+          "prob": 0.884
+        },
+        {
+          "word": "which",
+          "start_sec": 119.36,
+          "end_sec": 119.36,
+          "prob": 0.846
+        },
+        {
+          "word": "is",
+          "start_sec": 119.36,
+          "end_sec": 119.62,
+          "prob": 0.981
+        },
+        {
+          "word": "three",
+          "start_sec": 119.62,
+          "end_sec": 120.04,
+          "prob": 0.235
+        },
+        {
+          "word": "tenths",
+          "start_sec": 120.04,
+          "end_sec": 121.4,
+          "prob": 0.759
+        },
+        {
+          "word": "of",
+          "start_sec": 121.46,
+          "end_sec": 121.66,
+          "prob": 0.948
+        },
+        {
+          "word": "G",
+          "start_sec": 121.66,
+          "end_sec": 122.48,
+          "prob": 0.501
+        },
+        {
+          "word": "raised",
+          "start_sec": 122.48,
+          "end_sec": 123.18,
+          "prob": 0.253
+        },
+        {
+          "word": "to",
+          "start_sec": 123.18,
+          "end_sec": 123.46,
+          "prob": 0.98
+        },
+        {
+          "word": "the",
+          "start_sec": 123.46,
+          "end_sec": 123.52,
+          "prob": 0.951
+        },
+        {
+          "word": "exponent",
+          "start_sec": 123.52,
+          "end_sec": 124.2,
+          "prob": 0.869
+        },
+        {
+          "word": "of",
+          "start_sec": 124.2,
+          "end_sec": 124.44,
+          "prob": 0.204
+        },
+        {
+          "word": "A",
+          "start_sec": 124.44,
+          "end_sec": 124.44,
+          "prob": 0.792
+        },
+        {
+          "word": "plus",
+          "start_sec": 124.44,
+          "end_sec": 124.68,
+          "prob": 0.863
+        },
+        {
+          "word": "one,",
+          "start_sec": 124.68,
+          "end_sec": 125.04,
+          "prob": 0.692
+        },
+        {
+          "word": "and",
+          "start_sec": 125.87,
+          "end_sec": 125.99,
+          "prob": 0.911
+        },
+        {
+          "word": "all",
+          "start_sec": 125.99,
+          "end_sec": 126.37,
+          "prob": 0.817
+        },
+        {
+          "word": "this",
+          "start_sec": 126.37,
+          "end_sec": 127.17,
+          "prob": 0.593
+        },
+        {
+          "word": "raised",
+          "start_sec": 127.17,
+          "end_sec": 127.91,
+          "prob": 0.669
+        },
+        {
+          "word": "to",
+          "start_sec": 127.91,
+          "end_sec": 128.25,
+          "prob": 0.911
+        },
+        {
+          "word": "the",
+          "start_sec": 128.25,
+          "end_sec": 128.39,
+          "prob": 0.915
+        },
+        {
+          "word": "square.",
+          "start_sec": 128.39,
+          "end_sec": 128.71,
+          "prob": 0.777
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start_sec": 129.09,
+      "end_sec": 141.58,
+      "text": "Then we have minus the second term, which is four thirteenths of H raised to the exponent of minus two, and all this raised to the square.",
+      "words": [
+        {
+          "word": "Then",
+          "start_sec": 129.09,
+          "end_sec": 129.41,
+          "prob": 0.769
+        },
+        {
+          "word": "we",
+          "start_sec": 129.41,
+          "end_sec": 129.73,
+          "prob": 0.949
+        },
+        {
+          "word": "have",
+          "start_sec": 129.73,
+          "end_sec": 129.83,
+          "prob": 0.973
+        },
+        {
+          "word": "minus",
+          "start_sec": 129.83,
+          "end_sec": 130.37,
+          "prob": 0.803
+        },
+        {
+          "word": "the",
+          "start_sec": 130.37,
+          "end_sec": 130.59,
+          "prob": 0.455
+        },
+        {
+          "word": "second",
+          "start_sec": 130.59,
+          "end_sec": 131.01,
+          "prob": 0.99
+        },
+        {
+          "word": "term,",
+          "start_sec": 131.01,
+          "end_sec": 131.47,
+          "prob": 0.992
+        },
+        {
+          "word": "which",
+          "start_sec": 131.67,
+          "end_sec": 131.67,
+          "prob": 0.985
+        },
+        {
+          "word": "is",
+          "start_sec": 131.67,
+          "end_sec": 132.31,
+          "prob": 0.994
+        },
+        {
+          "word": "four",
+          "start_sec": 132.31,
+          "end_sec": 132.83,
+          "prob": 0.859
+        },
+        {
+          "word": "thirteenths",
+          "start_sec": 132.83,
+          "end_sec": 134.47,
+          "prob": 0.878
+        },
+        {
+          "word": "of",
+          "start_sec": 134.6,
+          "end_sec": 134.66,
+          "prob": 0.981
+        },
+        {
+          "word": "H",
+          "start_sec": 134.66,
+          "end_sec": 135.6,
+          "prob": 0.96
+        },
+        {
+          "word": "raised",
+          "start_sec": 135.6,
+          "end_sec": 136.56,
+          "prob": 0.465
+        },
+        {
+          "word": "to",
+          "start_sec": 136.56,
+          "end_sec": 136.76,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 136.76,
+          "end_sec": 136.88,
+          "prob": 0.996
+        },
+        {
+          "word": "exponent",
+          "start_sec": 136.88,
+          "end_sec": 137.42,
+          "prob": 0.977
+        },
+        {
+          "word": "of",
+          "start_sec": 137.42,
+          "end_sec": 137.62,
+          "prob": 0.973
+        },
+        {
+          "word": "minus",
+          "start_sec": 137.62,
+          "end_sec": 137.88,
+          "prob": 0.685
+        },
+        {
+          "word": "two,",
+          "start_sec": 137.88,
+          "end_sec": 138.46,
+          "prob": 0.957
+        },
+        {
+          "word": "and",
+          "start_sec": 138.8,
+          "end_sec": 138.9,
+          "prob": 0.978
+        },
+        {
+          "word": "all",
+          "start_sec": 138.9,
+          "end_sec": 139.24,
+          "prob": 0.945
+        },
+        {
+          "word": "this",
+          "start_sec": 139.24,
+          "end_sec": 139.8,
+          "prob": 0.928
+        },
+        {
+          "word": "raised",
+          "start_sec": 139.8,
+          "end_sec": 140.44,
+          "prob": 0.956
+        },
+        {
+          "word": "to",
+          "start_sec": 140.44,
+          "end_sec": 141.04,
+          "prob": 0.988
+        },
+        {
+          "word": "the",
+          "start_sec": 141.04,
+          "end_sec": 141.08,
+          "prob": 0.939
+        },
+        {
+          "word": "square.",
+          "start_sec": 141.08,
+          "end_sec": 141.58,
+          "prob": 0.986
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start_sec": 141.58,
+      "end_sec": 145.06,
+      "text": "Now we have to develop those powers.",
+      "words": [
+        {
+          "word": "Now",
+          "start_sec": 141.58,
+          "end_sec": 142.54,
+          "prob": 0.582
+        },
+        {
+          "word": "we",
+          "start_sec": 142.54,
+          "end_sec": 142.88,
+          "prob": 0.867
+        },
+        {
+          "word": "have",
+          "start_sec": 142.88,
+          "end_sec": 143.0,
+          "prob": 0.639
+        },
+        {
+          "word": "to",
+          "start_sec": 143.0,
+          "end_sec": 143.32,
+          "prob": 0.988
+        },
+        {
+          "word": "develop",
+          "start_sec": 143.32,
+          "end_sec": 144.0,
+          "prob": 0.884
+        },
+        {
+          "word": "those",
+          "start_sec": 144.0,
+          "end_sec": 144.52,
+          "prob": 0.36
+        },
+        {
+          "word": "powers.",
+          "start_sec": 144.52,
+          "end_sec": 145.06,
+          "prob": 0.457
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start_sec": 145.38,
+      "end_sec": 150.78,
+      "text": "In each case we have the multiplication of two quantities and all that raised to the square.",
+      "words": [
+        {
+          "word": "In",
+          "start_sec": 145.38,
+          "end_sec": 145.42,
+          "prob": 0.867
+        },
+        {
+          "word": "each",
+          "start_sec": 145.42,
+          "end_sec": 145.7,
+          "prob": 0.919
+        },
+        {
+          "word": "case",
+          "start_sec": 145.7,
+          "end_sec": 145.98,
+          "prob": 0.986
+        },
+        {
+          "word": "we",
+          "start_sec": 145.98,
+          "end_sec": 146.38,
+          "prob": 0.709
+        },
+        {
+          "word": "have",
+          "start_sec": 146.38,
+          "end_sec": 146.58,
+          "prob": 0.867
+        },
+        {
+          "word": "the",
+          "start_sec": 146.58,
+          "end_sec": 146.82,
+          "prob": 0.779
+        },
+        {
+          "word": "multiplication",
+          "start_sec": 146.82,
+          "end_sec": 147.36,
+          "prob": 0.957
+        },
+        {
+          "word": "of",
+          "start_sec": 147.36,
+          "end_sec": 147.48,
+          "prob": 0.981
+        },
+        {
+          "word": "two",
+          "start_sec": 147.48,
+          "end_sec": 147.74,
+          "prob": 0.899
+        },
+        {
+          "word": "quantities",
+          "start_sec": 147.74,
+          "end_sec": 148.48,
+          "prob": 0.929
+        },
+        {
+          "word": "and",
+          "start_sec": 148.48,
+          "end_sec": 148.9,
+          "prob": 0.685
+        },
+        {
+          "word": "all",
+          "start_sec": 148.9,
+          "end_sec": 149.24,
+          "prob": 0.838
+        },
+        {
+          "word": "that",
+          "start_sec": 149.24,
+          "end_sec": 149.54,
+          "prob": 0.705
+        },
+        {
+          "word": "raised",
+          "start_sec": 149.54,
+          "end_sec": 149.98,
+          "prob": 0.186
+        },
+        {
+          "word": "to",
+          "start_sec": 149.98,
+          "end_sec": 150.28,
+          "prob": 0.73
+        },
+        {
+          "word": "the",
+          "start_sec": 150.28,
+          "end_sec": 150.4,
+          "prob": 0.864
+        },
+        {
+          "word": "square.",
+          "start_sec": 150.4,
+          "end_sec": 150.78,
+          "prob": 0.785
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start_sec": 151.3,
+      "end_sec": 153.66,
+      "text": "Then we apply this property of the power.",
+      "words": [
+        {
+          "word": "Then",
+          "start_sec": 151.3,
+          "end_sec": 151.64,
+          "prob": 0.484
+        },
+        {
+          "word": "we",
+          "start_sec": 151.64,
+          "end_sec": 152.22,
+          "prob": 0.92
+        },
+        {
+          "word": "apply",
+          "start_sec": 152.22,
+          "end_sec": 152.22,
+          "prob": 0.978
+        },
+        {
+          "word": "this",
+          "start_sec": 152.22,
+          "end_sec": 152.56,
+          "prob": 0.928
+        },
+        {
+          "word": "property",
+          "start_sec": 152.56,
+          "end_sec": 153.0,
+          "prob": 0.873
+        },
+        {
+          "word": "of",
+          "start_sec": 153.0,
+          "end_sec": 153.18,
+          "prob": 0.946
+        },
+        {
+          "word": "the",
+          "start_sec": 153.18,
+          "end_sec": 153.36,
+          "prob": 0.601
+        },
+        {
+          "word": "power.",
+          "start_sec": 153.36,
+          "end_sec": 153.66,
+          "prob": 0.704
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start_sec": 154.32,
+      "end_sec": 160.94,
+      "text": "The product of two quantities raised to an exponent of N is equal to A to the N times B to the N.",
+      "words": [
+        {
+          "word": "The",
+          "start_sec": 154.32,
+          "end_sec": 154.58,
+          "prob": 0.916
+        },
+        {
+          "word": "product",
+          "start_sec": 154.58,
+          "end_sec": 154.98,
+          "prob": 0.976
+        },
+        {
+          "word": "of",
+          "start_sec": 154.98,
+          "end_sec": 155.12,
+          "prob": 0.992
+        },
+        {
+          "word": "two",
+          "start_sec": 155.12,
+          "end_sec": 155.34,
+          "prob": 0.982
+        },
+        {
+          "word": "quantities",
+          "start_sec": 155.34,
+          "end_sec": 156.02,
+          "prob": 0.981
+        },
+        {
+          "word": "raised",
+          "start_sec": 156.02,
+          "end_sec": 156.7,
+          "prob": 0.778
+        },
+        {
+          "word": "to",
+          "start_sec": 156.7,
+          "end_sec": 156.92,
+          "prob": 0.987
+        },
+        {
+          "word": "an",
+          "start_sec": 156.92,
+          "end_sec": 157.02,
+          "prob": 0.777
+        },
+        {
+          "word": "exponent",
+          "start_sec": 157.02,
+          "end_sec": 157.6,
+          "prob": 0.935
+        },
+        {
+          "word": "of",
+          "start_sec": 157.6,
+          "end_sec": 157.8,
+          "prob": 0.12
+        },
+        {
+          "word": "N",
+          "start_sec": 157.8,
+          "end_sec": 158.14,
+          "prob": 0.134
+        },
+        {
+          "word": "is",
+          "start_sec": 158.14,
+          "end_sec": 158.42,
+          "prob": 0.594
+        },
+        {
+          "word": "equal",
+          "start_sec": 158.42,
+          "end_sec": 158.86,
+          "prob": 0.97
+        },
+        {
+          "word": "to",
+          "start_sec": 158.86,
+          "end_sec": 159.1,
+          "prob": 0.986
+        },
+        {
+          "word": "A",
+          "start_sec": 159.1,
+          "end_sec": 159.3,
+          "prob": 0.364
+        },
+        {
+          "word": "to",
+          "start_sec": 159.3,
+          "end_sec": 159.34,
+          "prob": 0.759
+        },
+        {
+          "word": "the",
+          "start_sec": 159.34,
+          "end_sec": 159.46,
+          "prob": 0.877
+        },
+        {
+          "word": "N",
+          "start_sec": 159.46,
+          "end_sec": 159.74,
+          "prob": 0.56
+        },
+        {
+          "word": "times",
+          "start_sec": 159.74,
+          "end_sec": 159.98,
+          "prob": 0.428
+        },
+        {
+          "word": "B",
+          "start_sec": 159.98,
+          "end_sec": 160.36,
+          "prob": 0.851
+        },
+        {
+          "word": "to",
+          "start_sec": 160.36,
+          "end_sec": 160.44,
+          "prob": 0.968
+        },
+        {
+          "word": "the",
+          "start_sec": 160.44,
+          "end_sec": 160.54,
+          "prob": 0.974
+        },
+        {
+          "word": "N.",
+          "start_sec": 160.54,
+          "end_sec": 160.94,
+          "prob": 0.97
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start_sec": 161.24,
+      "end_sec": 165.3,
+      "text": "That is, the exponent is distributed for each of the factors.",
+      "words": [
+        {
+          "word": "That",
+          "start_sec": 161.24,
+          "end_sec": 161.38,
+          "prob": 0.782
+        },
+        {
+          "word": "is,",
+          "start_sec": 161.38,
+          "end_sec": 161.48,
+          "prob": 0.988
+        },
+        {
+          "word": "the",
+          "start_sec": 161.76,
+          "end_sec": 161.96,
+          "prob": 0.991
+        },
+        {
+          "word": "exponent",
+          "start_sec": 161.96,
+          "end_sec": 162.34,
+          "prob": 0.985
+        },
+        {
+          "word": "is",
+          "start_sec": 162.34,
+          "end_sec": 162.6,
+          "prob": 0.969
+        },
+        {
+          "word": "distributed",
+          "start_sec": 162.6,
+          "end_sec": 163.14,
+          "prob": 0.616
+        },
+        {
+          "word": "for",
+          "start_sec": 163.14,
+          "end_sec": 163.68,
+          "prob": 0.789
+        },
+        {
+          "word": "each",
+          "start_sec": 163.68,
+          "end_sec": 164.12,
+          "prob": 0.99
+        },
+        {
+          "word": "of",
+          "start_sec": 164.12,
+          "end_sec": 164.42,
+          "prob": 0.732
+        },
+        {
+          "word": "the",
+          "start_sec": 164.42,
+          "end_sec": 164.86,
+          "prob": 0.978
+        },
+        {
+          "word": "factors.",
+          "start_sec": 164.86,
+          "end_sec": 165.3,
+          "prob": 0.979
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start_sec": 165.3,
+      "end_sec": 179.6,
+      "text": "So here we will have three tenths, all this raised to the square, and that by G raised to the exponent of A plus one, and also all this raised to the square.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 165.3,
+          "end_sec": 166.26,
+          "prob": 0.069
+        },
+        {
+          "word": "here",
+          "start_sec": 166.26,
+          "end_sec": 166.5,
+          "prob": 0.425
+        },
+        {
+          "word": "we",
+          "start_sec": 166.5,
+          "end_sec": 166.94,
+          "prob": 0.903
+        },
+        {
+          "word": "will",
+          "start_sec": 166.94,
+          "end_sec": 167.04,
+          "prob": 0.297
+        },
+        {
+          "word": "have",
+          "start_sec": 167.04,
+          "end_sec": 167.44,
+          "prob": 0.951
+        },
+        {
+          "word": "three",
+          "start_sec": 167.44,
+          "end_sec": 167.88,
+          "prob": 0.218
+        },
+        {
+          "word": "tenths,",
+          "start_sec": 167.88,
+          "end_sec": 169.28,
+          "prob": 0.776
+        },
+        {
+          "word": "all",
+          "start_sec": 169.44,
+          "end_sec": 169.68,
+          "prob": 0.75
+        },
+        {
+          "word": "this",
+          "start_sec": 169.68,
+          "end_sec": 169.96,
+          "prob": 0.691
+        },
+        {
+          "word": "raised",
+          "start_sec": 169.96,
+          "end_sec": 170.38,
+          "prob": 0.133
+        },
+        {
+          "word": "to",
+          "start_sec": 170.38,
+          "end_sec": 170.68,
+          "prob": 0.841
+        },
+        {
+          "word": "the",
+          "start_sec": 170.68,
+          "end_sec": 170.82,
+          "prob": 0.831
+        },
+        {
+          "word": "square,",
+          "start_sec": 170.82,
+          "end_sec": 171.38,
+          "prob": 0.785
+        },
+        {
+          "word": "and",
+          "start_sec": 172.2,
+          "end_sec": 172.26,
+          "prob": 0.724
+        },
+        {
+          "word": "that",
+          "start_sec": 172.26,
+          "end_sec": 172.46,
+          "prob": 0.753
+        },
+        {
+          "word": "by",
+          "start_sec": 172.46,
+          "end_sec": 172.78,
+          "prob": 0.425
+        },
+        {
+          "word": "G",
+          "start_sec": 172.78,
+          "end_sec": 174.06,
+          "prob": 0.457
+        },
+        {
+          "word": "raised",
+          "start_sec": 174.16,
+          "end_sec": 174.6,
+          "prob": 0.655
+        },
+        {
+          "word": "to",
+          "start_sec": 174.6,
+          "end_sec": 174.76,
+          "prob": 0.991
+        },
+        {
+          "word": "the",
+          "start_sec": 174.76,
+          "end_sec": 174.9,
+          "prob": 0.955
+        },
+        {
+          "word": "exponent",
+          "start_sec": 174.9,
+          "end_sec": 175.42,
+          "prob": 0.849
+        },
+        {
+          "word": "of",
+          "start_sec": 175.42,
+          "end_sec": 175.72,
+          "prob": 0.139
+        },
+        {
+          "word": "A",
+          "start_sec": 175.72,
+          "end_sec": 175.72,
+          "prob": 0.659
+        },
+        {
+          "word": "plus",
+          "start_sec": 175.72,
+          "end_sec": 176.0,
+          "prob": 0.805
+        },
+        {
+          "word": "one,",
+          "start_sec": 176.0,
+          "end_sec": 176.5,
+          "prob": 0.587
+        },
+        {
+          "word": "and",
+          "start_sec": 176.84,
+          "end_sec": 177.02,
+          "prob": 0.937
+        },
+        {
+          "word": "also",
+          "start_sec": 177.02,
+          "end_sec": 177.42,
+          "prob": 0.775
+        },
+        {
+          "word": "all",
+          "start_sec": 177.42,
+          "end_sec": 177.7,
+          "prob": 0.891
+        },
+        {
+          "word": "this",
+          "start_sec": 177.7,
+          "end_sec": 178.2,
+          "prob": 0.943
+        },
+        {
+          "word": "raised",
+          "start_sec": 178.2,
+          "end_sec": 178.74,
+          "prob": 0.939
+        },
+        {
+          "word": "to",
+          "start_sec": 178.74,
+          "end_sec": 179.1,
+          "prob": 0.981
+        },
+        {
+          "word": "the",
+          "start_sec": 179.1,
+          "end_sec": 179.18,
+          "prob": 0.976
+        },
+        {
+          "word": "square.",
+          "start_sec": 179.18,
+          "end_sec": 179.6,
+          "prob": 0.953
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start_sec": 179.98,
+      "end_sec": 194.78,
+      "text": "Then we have minus four thirteenths, which is raised to the square, and that multiplied by the other component H raised to the exponent of minus two, and all this raised to the square.",
+      "words": [
+        {
+          "word": "Then",
+          "start_sec": 179.98,
+          "end_sec": 180.18,
+          "prob": 0.804
+        },
+        {
+          "word": "we",
+          "start_sec": 180.18,
+          "end_sec": 180.46,
+          "prob": 0.954
+        },
+        {
+          "word": "have",
+          "start_sec": 180.46,
+          "end_sec": 180.6,
+          "prob": 0.975
+        },
+        {
+          "word": "minus",
+          "start_sec": 180.6,
+          "end_sec": 181.18,
+          "prob": 0.846
+        },
+        {
+          "word": "four",
+          "start_sec": 181.18,
+          "end_sec": 181.88,
+          "prob": 0.785
+        },
+        {
+          "word": "thirteenths,",
+          "start_sec": 181.88,
+          "end_sec": 183.38,
+          "prob": 0.821
+        },
+        {
+          "word": "which",
+          "start_sec": 183.54,
+          "end_sec": 183.74,
+          "prob": 0.728
+        },
+        {
+          "word": "is",
+          "start_sec": 183.74,
+          "end_sec": 184.04,
+          "prob": 0.437
+        },
+        {
+          "word": "raised",
+          "start_sec": 184.04,
+          "end_sec": 184.62,
+          "prob": 0.96
+        },
+        {
+          "word": "to",
+          "start_sec": 184.62,
+          "end_sec": 184.96,
+          "prob": 0.99
+        },
+        {
+          "word": "the",
+          "start_sec": 184.96,
+          "end_sec": 185.1,
+          "prob": 0.969
+        },
+        {
+          "word": "square,",
+          "start_sec": 185.1,
+          "end_sec": 185.6,
+          "prob": 0.974
+        },
+        {
+          "word": "and",
+          "start_sec": 186.12,
+          "end_sec": 186.14,
+          "prob": 0.915
+        },
+        {
+          "word": "that",
+          "start_sec": 186.14,
+          "end_sec": 186.3,
+          "prob": 0.767
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 186.3,
+          "end_sec": 186.94,
+          "prob": 0.94
+        },
+        {
+          "word": "by",
+          "start_sec": 186.94,
+          "end_sec": 187.74,
+          "prob": 0.991
+        },
+        {
+          "word": "the",
+          "start_sec": 187.74,
+          "end_sec": 187.92,
+          "prob": 0.963
+        },
+        {
+          "word": "other",
+          "start_sec": 187.92,
+          "end_sec": 188.12,
+          "prob": 0.981
+        },
+        {
+          "word": "component",
+          "start_sec": 188.12,
+          "end_sec": 188.76,
+          "prob": 0.96
+        },
+        {
+          "word": "H",
+          "start_sec": 188.76,
+          "end_sec": 189.58,
+          "prob": 0.494
+        },
+        {
+          "word": "raised",
+          "start_sec": 189.58,
+          "end_sec": 190.22,
+          "prob": 0.878
+        },
+        {
+          "word": "to",
+          "start_sec": 190.22,
+          "end_sec": 190.36,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 190.36,
+          "end_sec": 190.44,
+          "prob": 0.994
+        },
+        {
+          "word": "exponent",
+          "start_sec": 190.44,
+          "end_sec": 191.02,
+          "prob": 0.988
+        },
+        {
+          "word": "of",
+          "start_sec": 191.02,
+          "end_sec": 191.22,
+          "prob": 0.959
+        },
+        {
+          "word": "minus",
+          "start_sec": 191.22,
+          "end_sec": 191.48,
+          "prob": 0.82
+        },
+        {
+          "word": "two,",
+          "start_sec": 191.48,
+          "end_sec": 191.96,
+          "prob": 0.954
+        },
+        {
+          "word": "and",
+          "start_sec": 192.36,
+          "end_sec": 192.5,
+          "prob": 0.973
+        },
+        {
+          "word": "all",
+          "start_sec": 192.5,
+          "end_sec": 192.72,
+          "prob": 0.959
+        },
+        {
+          "word": "this",
+          "start_sec": 192.72,
+          "end_sec": 193.18,
+          "prob": 0.962
+        },
+        {
+          "word": "raised",
+          "start_sec": 193.18,
+          "end_sec": 193.82,
+          "prob": 0.962
+        },
+        {
+          "word": "to",
+          "start_sec": 193.82,
+          "end_sec": 194.14,
+          "prob": 0.989
+        },
+        {
+          "word": "the",
+          "start_sec": 194.14,
+          "end_sec": 194.4,
+          "prob": 0.97
+        },
+        {
+          "word": "square.",
+          "start_sec": 194.4,
+          "end_sec": 194.78,
+          "prob": 0.981
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start_sec": 194.78,
+      "end_sec": 201.6,
+      "text": "Now, in these fractions that are raised to the square, another property of the power is applied.",
+      "words": [
+        {
+          "word": "Now,",
+          "start_sec": 194.78,
+          "end_sec": 195.72,
+          "prob": 0.201
+        },
+        {
+          "word": "in",
+          "start_sec": 195.82,
+          "end_sec": 195.96,
+          "prob": 0.77
+        },
+        {
+          "word": "these",
+          "start_sec": 195.96,
+          "end_sec": 196.3,
+          "prob": 0.733
+        },
+        {
+          "word": "fractions",
+          "start_sec": 196.3,
+          "end_sec": 196.94,
+          "prob": 0.931
+        },
+        {
+          "word": "that",
+          "start_sec": 196.94,
+          "end_sec": 197.28,
+          "prob": 0.612
+        },
+        {
+          "word": "are",
+          "start_sec": 197.28,
+          "end_sec": 197.62,
+          "prob": 0.974
+        },
+        {
+          "word": "raised",
+          "start_sec": 197.62,
+          "end_sec": 198.1,
+          "prob": 0.247
+        },
+        {
+          "word": "to",
+          "start_sec": 198.1,
+          "end_sec": 198.3,
+          "prob": 0.548
+        },
+        {
+          "word": "the",
+          "start_sec": 198.3,
+          "end_sec": 198.38,
+          "prob": 0.788
+        },
+        {
+          "word": "square,",
+          "start_sec": 198.38,
+          "end_sec": 198.8,
+          "prob": 0.641
+        },
+        {
+          "word": "another",
+          "start_sec": 199.24,
+          "end_sec": 200.18,
+          "prob": 0.581
+        },
+        {
+          "word": "property",
+          "start_sec": 200.18,
+          "end_sec": 200.72,
+          "prob": 0.636
+        },
+        {
+          "word": "of",
+          "start_sec": 200.72,
+          "end_sec": 200.94,
+          "prob": 0.925
+        },
+        {
+          "word": "the",
+          "start_sec": 200.94,
+          "end_sec": 201.18,
+          "prob": 0.806
+        },
+        {
+          "word": "power",
+          "start_sec": 201.18,
+          "end_sec": 201.56,
+          "prob": 0.489
+        },
+        {
+          "word": "is",
+          "start_sec": 201.56,
+          "end_sec": 201.6,
+          "prob": 0.537
+        },
+        {
+          "word": "applied.",
+          "start_sec": 201.6,
+          "end_sec": 201.6,
+          "prob": 0.966
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start_sec": 202.18,
+      "end_sec": 209.9,
+      "text": "If we have A over B and this raised to the exponent of N, then it is equal to A to the N over B to the N.",
+      "words": [
+        {
+          "word": "If",
+          "start_sec": 202.18,
+          "end_sec": 202.28,
+          "prob": 0.845
+        },
+        {
+          "word": "we",
+          "start_sec": 202.28,
+          "end_sec": 202.68,
+          "prob": 0.97
+        },
+        {
+          "word": "have",
+          "start_sec": 202.68,
+          "end_sec": 202.68,
+          "prob": 0.967
+        },
+        {
+          "word": "A",
+          "start_sec": 202.68,
+          "end_sec": 202.86,
+          "prob": 0.533
+        },
+        {
+          "word": "over",
+          "start_sec": 202.86,
+          "end_sec": 203.06,
+          "prob": 0.623
+        },
+        {
+          "word": "B",
+          "start_sec": 203.06,
+          "end_sec": 203.6,
+          "prob": 0.907
+        },
+        {
+          "word": "and",
+          "start_sec": 203.6,
+          "end_sec": 203.8,
+          "prob": 0.57
+        },
+        {
+          "word": "this",
+          "start_sec": 203.8,
+          "end_sec": 204.0,
+          "prob": 0.857
+        },
+        {
+          "word": "raised",
+          "start_sec": 204.0,
+          "end_sec": 204.44,
+          "prob": 0.613
+        },
+        {
+          "word": "to",
+          "start_sec": 204.44,
+          "end_sec": 204.6,
+          "prob": 0.989
+        },
+        {
+          "word": "the",
+          "start_sec": 204.6,
+          "end_sec": 204.68,
+          "prob": 0.912
+        },
+        {
+          "word": "exponent",
+          "start_sec": 204.68,
+          "end_sec": 205.22,
+          "prob": 0.812
+        },
+        {
+          "word": "of",
+          "start_sec": 205.22,
+          "end_sec": 205.78,
+          "prob": 0.078
+        },
+        {
+          "word": "N,",
+          "start_sec": 205.78,
+          "end_sec": 205.78,
+          "prob": 0.572
+        },
+        {
+          "word": "then",
+          "start_sec": 206.22,
+          "end_sec": 206.42,
+          "prob": 0.854
+        },
+        {
+          "word": "it",
+          "start_sec": 206.42,
+          "end_sec": 206.62,
+          "prob": 0.712
+        },
+        {
+          "word": "is",
+          "start_sec": 206.62,
+          "end_sec": 206.7,
+          "prob": 0.738
+        },
+        {
+          "word": "equal",
+          "start_sec": 206.7,
+          "end_sec": 207.06,
+          "prob": 0.927
+        },
+        {
+          "word": "to",
+          "start_sec": 207.06,
+          "end_sec": 207.3,
+          "prob": 0.984
+        },
+        {
+          "word": "A",
+          "start_sec": 207.3,
+          "end_sec": 207.64,
+          "prob": 0.886
+        },
+        {
+          "word": "to",
+          "start_sec": 207.64,
+          "end_sec": 207.7,
+          "prob": 0.438
+        },
+        {
+          "word": "the",
+          "start_sec": 207.7,
+          "end_sec": 207.78,
+          "prob": 0.841
+        },
+        {
+          "word": "N",
+          "start_sec": 207.78,
+          "end_sec": 208.34,
+          "prob": 0.428
+        },
+        {
+          "word": "over",
+          "start_sec": 208.34,
+          "end_sec": 208.88,
+          "prob": 0.614
+        },
+        {
+          "word": "B",
+          "start_sec": 208.88,
+          "end_sec": 209.36,
+          "prob": 0.953
+        },
+        {
+          "word": "to",
+          "start_sec": 209.36,
+          "end_sec": 209.48,
+          "prob": 0.966
+        },
+        {
+          "word": "the",
+          "start_sec": 209.48,
+          "end_sec": 209.54,
+          "prob": 0.984
+        },
+        {
+          "word": "N.",
+          "start_sec": 209.54,
+          "end_sec": 209.9,
+          "prob": 0.966
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start_sec": 210.24,
+      "end_sec": 214.5,
+      "text": "That is, the exponent affects both the numerator and the denominator.",
+      "words": [
+        {
+          "word": "That",
+          "start_sec": 210.24,
+          "end_sec": 210.36,
+          "prob": 0.693
+        },
+        {
+          "word": "is,",
+          "start_sec": 210.36,
+          "end_sec": 210.46,
+          "prob": 0.974
+        },
+        {
+          "word": "the",
+          "start_sec": 210.68,
+          "end_sec": 210.82,
+          "prob": 0.988
+        },
+        {
+          "word": "exponent",
+          "start_sec": 210.82,
+          "end_sec": 211.26,
+          "prob": 0.993
+        },
+        {
+          "word": "affects",
+          "start_sec": 211.26,
+          "end_sec": 211.82,
+          "prob": 0.986
+        },
+        {
+          "word": "both",
+          "start_sec": 211.82,
+          "end_sec": 212.18,
+          "prob": 0.838
+        },
+        {
+          "word": "the",
+          "start_sec": 212.18,
+          "end_sec": 212.42,
+          "prob": 0.993
+        },
+        {
+          "word": "numerator",
+          "start_sec": 212.42,
+          "end_sec": 212.66,
+          "prob": 0.971
+        },
+        {
+          "word": "and",
+          "start_sec": 212.66,
+          "end_sec": 213.56,
+          "prob": 0.905
+        },
+        {
+          "word": "the",
+          "start_sec": 213.56,
+          "end_sec": 213.9,
+          "prob": 0.969
+        },
+        {
+          "word": "denominator.",
+          "start_sec": 213.9,
+          "end_sec": 214.5,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start_sec": 214.96,
+      "end_sec": 222.56,
+      "text": "Then, for the case of three tenths to the square, that will be three to the square over ten to the square.",
+      "words": [
+        {
+          "word": "Then,",
+          "start_sec": 214.96,
+          "end_sec": 215.58,
+          "prob": 0.311
+        },
+        {
+          "word": "for",
+          "start_sec": 215.8,
+          "end_sec": 216.02,
+          "prob": 0.806
+        },
+        {
+          "word": "the",
+          "start_sec": 216.02,
+          "end_sec": 216.12,
+          "prob": 0.934
+        },
+        {
+          "word": "case",
+          "start_sec": 216.12,
+          "end_sec": 216.4,
+          "prob": 0.985
+        },
+        {
+          "word": "of",
+          "start_sec": 216.4,
+          "end_sec": 216.74,
+          "prob": 0.98
+        },
+        {
+          "word": "three",
+          "start_sec": 216.74,
+          "end_sec": 217.0,
+          "prob": 0.364
+        },
+        {
+          "word": "tenths",
+          "start_sec": 217.0,
+          "end_sec": 217.44,
+          "prob": 0.809
+        },
+        {
+          "word": "to",
+          "start_sec": 217.44,
+          "end_sec": 217.52,
+          "prob": 0.376
+        },
+        {
+          "word": "the",
+          "start_sec": 217.52,
+          "end_sec": 217.64,
+          "prob": 0.961
+        },
+        {
+          "word": "square,",
+          "start_sec": 217.64,
+          "end_sec": 218.1,
+          "prob": 0.978
+        },
+        {
+          "word": "that",
+          "start_sec": 218.58,
+          "end_sec": 218.72,
+          "prob": 0.856
+        },
+        {
+          "word": "will",
+          "start_sec": 218.72,
+          "end_sec": 218.98,
+          "prob": 0.821
+        },
+        {
+          "word": "be",
+          "start_sec": 218.98,
+          "end_sec": 219.04,
+          "prob": 0.995
+        },
+        {
+          "word": "three",
+          "start_sec": 219.04,
+          "end_sec": 219.4,
+          "prob": 0.785
+        },
+        {
+          "word": "to",
+          "start_sec": 219.4,
+          "end_sec": 219.56,
+          "prob": 0.791
+        },
+        {
+          "word": "the",
+          "start_sec": 219.56,
+          "end_sec": 219.58,
+          "prob": 0.992
+        },
+        {
+          "word": "square",
+          "start_sec": 219.58,
+          "end_sec": 220.18,
+          "prob": 0.984
+        },
+        {
+          "word": "over",
+          "start_sec": 220.18,
+          "end_sec": 221.14,
+          "prob": 0.813
+        },
+        {
+          "word": "ten",
+          "start_sec": 221.14,
+          "end_sec": 221.78,
+          "prob": 0.736
+        },
+        {
+          "word": "to",
+          "start_sec": 221.78,
+          "end_sec": 222.04,
+          "prob": 0.944
+        },
+        {
+          "word": "the",
+          "start_sec": 222.04,
+          "end_sec": 222.22,
+          "prob": 0.992
+        },
+        {
+          "word": "square.",
+          "start_sec": 222.22,
+          "end_sec": 222.56,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start_sec": 222.56,
+      "end_sec": 227.14,
+      "text": "And here we have another situation that is called the power of a power.",
+      "words": [
+        {
+          "word": "And",
+          "start_sec": 222.56,
+          "end_sec": 223.12,
+          "prob": 0.104
+        },
+        {
+          "word": "here",
+          "start_sec": 223.12,
+          "end_sec": 223.38,
+          "prob": 0.788
+        },
+        {
+          "word": "we",
+          "start_sec": 223.38,
+          "end_sec": 223.74,
+          "prob": 0.855
+        },
+        {
+          "word": "have",
+          "start_sec": 223.74,
+          "end_sec": 223.92,
+          "prob": 0.967
+        },
+        {
+          "word": "another",
+          "start_sec": 223.92,
+          "end_sec": 224.22,
+          "prob": 0.84
+        },
+        {
+          "word": "situation",
+          "start_sec": 224.22,
+          "end_sec": 224.74,
+          "prob": 0.854
+        },
+        {
+          "word": "that",
+          "start_sec": 224.74,
+          "end_sec": 224.94,
+          "prob": 0.245
+        },
+        {
+          "word": "is",
+          "start_sec": 224.94,
+          "end_sec": 225.24,
+          "prob": 0.843
+        },
+        {
+          "word": "called",
+          "start_sec": 225.24,
+          "end_sec": 225.44,
+          "prob": 0.961
+        },
+        {
+          "word": "the",
+          "start_sec": 225.44,
+          "end_sec": 225.56,
+          "prob": 0.288
+        },
+        {
+          "word": "power",
+          "start_sec": 225.56,
+          "end_sec": 225.98,
+          "prob": 0.856
+        },
+        {
+          "word": "of",
+          "start_sec": 225.98,
+          "end_sec": 226.4,
+          "prob": 0.964
+        },
+        {
+          "word": "a",
+          "start_sec": 226.4,
+          "end_sec": 226.64,
+          "prob": 0.707
+        },
+        {
+          "word": "power.",
+          "start_sec": 226.64,
+          "end_sec": 227.14,
+          "prob": 0.962
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start_sec": 227.54,
+      "end_sec": 236.78,
+      "text": "If we have a power A to the N raised to another exponent of M, the base is preserved and the exponents are multiplied.",
+      "words": [
+        {
+          "word": "If",
+          "start_sec": 227.54,
+          "end_sec": 227.74,
+          "prob": 0.875
+        },
+        {
+          "word": "we",
+          "start_sec": 227.74,
+          "end_sec": 228.06,
+          "prob": 0.979
+        },
+        {
+          "word": "have",
+          "start_sec": 228.06,
+          "end_sec": 228.3,
+          "prob": 0.976
+        },
+        {
+          "word": "a",
+          "start_sec": 228.3,
+          "end_sec": 228.66,
+          "prob": 0.803
+        },
+        {
+          "word": "power",
+          "start_sec": 228.66,
+          "end_sec": 229.12,
+          "prob": 0.988
+        },
+        {
+          "word": "A",
+          "start_sec": 229.12,
+          "end_sec": 229.48,
+          "prob": 0.055
+        },
+        {
+          "word": "to",
+          "start_sec": 229.48,
+          "end_sec": 229.58,
+          "prob": 0.786
+        },
+        {
+          "word": "the",
+          "start_sec": 229.58,
+          "end_sec": 229.74,
+          "prob": 0.905
+        },
+        {
+          "word": "N",
+          "start_sec": 229.74,
+          "end_sec": 230.26,
+          "prob": 0.149
+        },
+        {
+          "word": "raised",
+          "start_sec": 230.26,
+          "end_sec": 230.82,
+          "prob": 0.313
+        },
+        {
+          "word": "to",
+          "start_sec": 230.82,
+          "end_sec": 231.04,
+          "prob": 0.981
+        },
+        {
+          "word": "another",
+          "start_sec": 231.04,
+          "end_sec": 231.26,
+          "prob": 0.901
+        },
+        {
+          "word": "exponent",
+          "start_sec": 231.26,
+          "end_sec": 231.82,
+          "prob": 0.628
+        },
+        {
+          "word": "of",
+          "start_sec": 231.82,
+          "end_sec": 232.02,
+          "prob": 0.385
+        },
+        {
+          "word": "M,",
+          "start_sec": 232.02,
+          "end_sec": 232.38,
+          "prob": 0.747
+        },
+        {
+          "word": "the",
+          "start_sec": 233.16,
+          "end_sec": 233.42,
+          "prob": 0.78
+        },
+        {
+          "word": "base",
+          "start_sec": 233.42,
+          "end_sec": 233.82,
+          "prob": 0.765
+        },
+        {
+          "word": "is",
+          "start_sec": 233.82,
+          "end_sec": 233.82,
+          "prob": 0.894
+        },
+        {
+          "word": "preserved",
+          "start_sec": 233.82,
+          "end_sec": 233.82,
+          "prob": 0.367
+        },
+        {
+          "word": "and",
+          "start_sec": 233.82,
+          "end_sec": 234.5,
+          "prob": 0.74
+        },
+        {
+          "word": "the",
+          "start_sec": 234.5,
+          "end_sec": 235.6,
+          "prob": 0.937
+        },
+        {
+          "word": "exponents",
+          "start_sec": 235.6,
+          "end_sec": 236.78,
+          "prob": 0.986
+        },
+        {
+          "word": "are",
+          "start_sec": 236.78,
+          "end_sec": 236.78,
+          "prob": 0.781
+        },
+        {
+          "word": "multiplied.",
+          "start_sec": 236.78,
+          "end_sec": 236.78,
+          "prob": 0.986
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start_sec": 236.96,
+      "end_sec": 238.74,
+      "text": "Another property of the power.",
+      "words": [
+        {
+          "word": "Another",
+          "start_sec": 236.96,
+          "end_sec": 237.3,
+          "prob": 0.892
+        },
+        {
+          "word": "property",
+          "start_sec": 237.3,
+          "end_sec": 237.76,
+          "prob": 0.977
+        },
+        {
+          "word": "of",
+          "start_sec": 237.76,
+          "end_sec": 238.14,
+          "prob": 0.985
+        },
+        {
+          "word": "the",
+          "start_sec": 238.14,
+          "end_sec": 238.34,
+          "prob": 0.661
+        },
+        {
+          "word": "power.",
+          "start_sec": 238.34,
+          "end_sec": 238.74,
+          "prob": 0.701
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start_sec": 239.34,
+      "end_sec": 244.46,
+      "text": "So here we keep the base, which is G, and the exponents are going to be multiplied.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 239.34,
+          "end_sec": 239.88,
+          "prob": 0.647
+        },
+        {
+          "word": "here",
+          "start_sec": 239.88,
+          "end_sec": 240.22,
+          "prob": 0.841
+        },
+        {
+          "word": "we",
+          "start_sec": 240.22,
+          "end_sec": 240.92,
+          "prob": 0.979
+        },
+        {
+          "word": "keep",
+          "start_sec": 240.92,
+          "end_sec": 240.92,
+          "prob": 0.543
+        },
+        {
+          "word": "the",
+          "start_sec": 240.92,
+          "end_sec": 241.18,
+          "prob": 0.988
+        },
+        {
+          "word": "base,",
+          "start_sec": 241.18,
+          "end_sec": 241.52,
+          "prob": 0.976
+        },
+        {
+          "word": "which",
+          "start_sec": 241.7,
+          "end_sec": 241.7,
+          "prob": 0.848
+        },
+        {
+          "word": "is",
+          "start_sec": 241.7,
+          "end_sec": 241.84,
+          "prob": 0.995
+        },
+        {
+          "word": "G,",
+          "start_sec": 241.84,
+          "end_sec": 242.12,
+          "prob": 0.927
+        },
+        {
+          "word": "and",
+          "start_sec": 242.42,
+          "end_sec": 242.7,
+          "prob": 0.979
+        },
+        {
+          "word": "the",
+          "start_sec": 242.7,
+          "end_sec": 243.76,
+          "prob": 0.79
+        },
+        {
+          "word": "exponents",
+          "start_sec": 243.76,
+          "end_sec": 244.46,
+          "prob": 0.998
+        },
+        {
+          "word": "are",
+          "start_sec": 244.46,
+          "end_sec": 244.46,
+          "prob": 0.822
+        },
+        {
+          "word": "going",
+          "start_sec": 244.46,
+          "end_sec": 244.46,
+          "prob": 0.695
+        },
+        {
+          "word": "to",
+          "start_sec": 244.46,
+          "end_sec": 244.46,
+          "prob": 0.998
+        },
+        {
+          "word": "be",
+          "start_sec": 244.46,
+          "end_sec": 244.46,
+          "prob": 0.612
+        },
+        {
+          "word": "multiplied.",
+          "start_sec": 244.46,
+          "end_sec": 244.46,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start_sec": 244.88,
+      "end_sec": 250.7,
+      "text": "In that case, it is protected with parentheses A plus one, because it is going to be multiplied by two.",
+      "words": [
+        {
+          "word": "In",
+          "start_sec": 244.88,
+          "end_sec": 244.96,
+          "prob": 0.983
+        },
+        {
+          "word": "that",
+          "start_sec": 244.96,
+          "end_sec": 245.18,
+          "prob": 0.471
+        },
+        {
+          "word": "case,",
+          "start_sec": 245.18,
+          "end_sec": 245.56,
+          "prob": 0.999
+        },
+        {
+          "word": "it",
+          "start_sec": 245.6,
+          "end_sec": 245.6,
+          "prob": 0.652
+        },
+        {
+          "word": "is",
+          "start_sec": 245.6,
+          "end_sec": 246.12,
+          "prob": 0.928
+        },
+        {
+          "word": "protected",
+          "start_sec": 246.12,
+          "end_sec": 246.16,
+          "prob": 0.961
+        },
+        {
+          "word": "with",
+          "start_sec": 246.16,
+          "end_sec": 246.42,
+          "prob": 0.794
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 246.42,
+          "end_sec": 247.0,
+          "prob": 0.529
+        },
+        {
+          "word": "A",
+          "start_sec": 247.0,
+          "end_sec": 247.34,
+          "prob": 0.461
+        },
+        {
+          "word": "plus",
+          "start_sec": 247.34,
+          "end_sec": 247.52,
+          "prob": 0.6
+        },
+        {
+          "word": "one,",
+          "start_sec": 247.52,
+          "end_sec": 247.88,
+          "prob": 0.437
+        },
+        {
+          "word": "because",
+          "start_sec": 248.22,
+          "end_sec": 248.52,
+          "prob": 0.985
+        },
+        {
+          "word": "it",
+          "start_sec": 248.52,
+          "end_sec": 248.94,
+          "prob": 0.747
+        },
+        {
+          "word": "is",
+          "start_sec": 248.94,
+          "end_sec": 248.96,
+          "prob": 0.486
+        },
+        {
+          "word": "going",
+          "start_sec": 248.96,
+          "end_sec": 248.96,
+          "prob": 0.992
+        },
+        {
+          "word": "to",
+          "start_sec": 248.96,
+          "end_sec": 249.36,
+          "prob": 0.999
+        },
+        {
+          "word": "be",
+          "start_sec": 249.36,
+          "end_sec": 249.4,
+          "prob": 0.758
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 249.4,
+          "end_sec": 250.02,
+          "prob": 0.383
+        },
+        {
+          "word": "by",
+          "start_sec": 250.02,
+          "end_sec": 250.36,
+          "prob": 0.614
+        },
+        {
+          "word": "two.",
+          "start_sec": 250.36,
+          "end_sec": 250.7,
+          "prob": 0.942
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start_sec": 250.7,
+      "end_sec": 252.88,
+      "text": "Let's move on to the other term.",
+      "words": [
+        {
+          "word": "Let's",
+          "start_sec": 250.7,
+          "end_sec": 251.9,
+          "prob": 0.417
+        },
+        {
+          "word": "move",
+          "start_sec": 251.9,
+          "end_sec": 251.9,
+          "prob": 0.252
+        },
+        {
+          "word": "on",
+          "start_sec": 251.9,
+          "end_sec": 252.04,
+          "prob": 0.492
+        },
+        {
+          "word": "to",
+          "start_sec": 252.04,
+          "end_sec": 252.06,
+          "prob": 0.935
+        },
+        {
+          "word": "the",
+          "start_sec": 252.06,
+          "end_sec": 252.08,
+          "prob": 0.878
+        },
+        {
+          "word": "other",
+          "start_sec": 252.08,
+          "end_sec": 252.3,
+          "prob": 0.505
+        },
+        {
+          "word": "term.",
+          "start_sec": 252.3,
+          "end_sec": 252.88,
+          "prob": 0.89
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start_sec": 253.14,
+      "end_sec": 257.04,
+      "text": "Again, the fraction raised to the square, we apply this property.",
+      "words": [
+        {
+          "word": "Again,",
+          "start_sec": 253.14,
+          "end_sec": 253.48,
+          "prob": 0.429
+        },
+        {
+          "word": "the",
+          "start_sec": 253.66,
+          "end_sec": 253.76,
+          "prob": 0.696
+        },
+        {
+          "word": "fraction",
+          "start_sec": 253.76,
+          "end_sec": 254.1,
+          "prob": 0.818
+        },
+        {
+          "word": "raised",
+          "start_sec": 254.1,
+          "end_sec": 254.48,
+          "prob": 0.239
+        },
+        {
+          "word": "to",
+          "start_sec": 254.48,
+          "end_sec": 254.72,
+          "prob": 0.811
+        },
+        {
+          "word": "the",
+          "start_sec": 254.72,
+          "end_sec": 254.98,
+          "prob": 0.8
+        },
+        {
+          "word": "square,",
+          "start_sec": 254.98,
+          "end_sec": 255.22,
+          "prob": 0.63
+        },
+        {
+          "word": "we",
+          "start_sec": 255.7,
+          "end_sec": 256.02,
+          "prob": 0.602
+        },
+        {
+          "word": "apply",
+          "start_sec": 256.02,
+          "end_sec": 256.08,
+          "prob": 0.902
+        },
+        {
+          "word": "this",
+          "start_sec": 256.08,
+          "end_sec": 256.48,
+          "prob": 0.926
+        },
+        {
+          "word": "property.",
+          "start_sec": 256.48,
+          "end_sec": 257.04,
+          "prob": 0.971
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start_sec": 257.44,
+      "end_sec": 261.94,
+      "text": "That is, four to the square over thirteen to the square.",
+      "words": [
+        {
+          "word": "That",
+          "start_sec": 257.44,
+          "end_sec": 257.56,
+          "prob": 0.439
+        },
+        {
+          "word": "is,",
+          "start_sec": 257.56,
+          "end_sec": 257.78,
+          "prob": 0.92
+        },
+        {
+          "word": "four",
+          "start_sec": 258.02,
+          "end_sec": 258.32,
+          "prob": 0.186
+        },
+        {
+          "word": "to",
+          "start_sec": 258.32,
+          "end_sec": 258.46,
+          "prob": 0.246
+        },
+        {
+          "word": "the",
+          "start_sec": 258.46,
+          "end_sec": 258.46,
+          "prob": 0.983
+        },
+        {
+          "word": "square",
+          "start_sec": 258.46,
+          "end_sec": 259.22,
+          "prob": 0.896
+        },
+        {
+          "word": "over",
+          "start_sec": 259.22,
+          "end_sec": 260.44,
+          "prob": 0.418
+        },
+        {
+          "word": "thirteen",
+          "start_sec": 260.44,
+          "end_sec": 261.0,
+          "prob": 0.489
+        },
+        {
+          "word": "to",
+          "start_sec": 261.0,
+          "end_sec": 261.38,
+          "prob": 0.812
+        },
+        {
+          "word": "the",
+          "start_sec": 261.38,
+          "end_sec": 261.42,
+          "prob": 0.984
+        },
+        {
+          "word": "square.",
+          "start_sec": 261.42,
+          "end_sec": 261.94,
+          "prob": 0.985
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start_sec": 262.28,
+      "end_sec": 265.3,
+      "text": "And here we apply again the power of a power.",
+      "words": [
+        {
+          "word": "And",
+          "start_sec": 262.28,
+          "end_sec": 262.36,
+          "prob": 0.672
+        },
+        {
+          "word": "here",
+          "start_sec": 262.36,
+          "end_sec": 262.66,
+          "prob": 0.904
+        },
+        {
+          "word": "we",
+          "start_sec": 262.66,
+          "end_sec": 263.1,
+          "prob": 0.7
+        },
+        {
+          "word": "apply",
+          "start_sec": 263.1,
+          "end_sec": 263.58,
+          "prob": 0.768
+        },
+        {
+          "word": "again",
+          "start_sec": 263.58,
+          "end_sec": 263.8,
+          "prob": 0.321
+        },
+        {
+          "word": "the",
+          "start_sec": 263.8,
+          "end_sec": 263.8,
+          "prob": 0.485
+        },
+        {
+          "word": "power",
+          "start_sec": 263.8,
+          "end_sec": 264.28,
+          "prob": 0.904
+        },
+        {
+          "word": "of",
+          "start_sec": 264.28,
+          "end_sec": 264.56,
+          "prob": 0.954
+        },
+        {
+          "word": "a",
+          "start_sec": 264.56,
+          "end_sec": 264.78,
+          "prob": 0.396
+        },
+        {
+          "word": "power.",
+          "start_sec": 264.78,
+          "end_sec": 265.3,
+          "prob": 0.967
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start_sec": 265.74,
+      "end_sec": 270.84,
+      "text": "We keep the base, which is H, and we have the product of the exponents.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 265.74,
+          "end_sec": 266.32,
+          "prob": 0.924
+        },
+        {
+          "word": "keep",
+          "start_sec": 266.32,
+          "end_sec": 266.46,
+          "prob": 0.512
+        },
+        {
+          "word": "the",
+          "start_sec": 266.46,
+          "end_sec": 266.7,
+          "prob": 0.964
+        },
+        {
+          "word": "base,",
+          "start_sec": 266.7,
+          "end_sec": 267.08,
+          "prob": 0.853
+        },
+        {
+          "word": "which",
+          "start_sec": 267.24,
+          "end_sec": 267.24,
+          "prob": 0.84
+        },
+        {
+          "word": "is",
+          "start_sec": 267.24,
+          "end_sec": 267.52,
+          "prob": 0.99
+        },
+        {
+          "word": "H,",
+          "start_sec": 267.52,
+          "end_sec": 267.98,
+          "prob": 0.273
+        },
+        {
+          "word": "and",
+          "start_sec": 268.3,
+          "end_sec": 268.5,
+          "prob": 0.944
+        },
+        {
+          "word": "we",
+          "start_sec": 268.5,
+          "end_sec": 268.64,
+          "prob": 0.898
+        },
+        {
+          "word": "have",
+          "start_sec": 268.64,
+          "end_sec": 268.86,
+          "prob": 0.788
+        },
+        {
+          "word": "the",
+          "start_sec": 268.86,
+          "end_sec": 268.98,
+          "prob": 0.95
+        },
+        {
+          "word": "product",
+          "start_sec": 268.98,
+          "end_sec": 269.44,
+          "prob": 0.944
+        },
+        {
+          "word": "of",
+          "start_sec": 269.44,
+          "end_sec": 269.78,
+          "prob": 0.987
+        },
+        {
+          "word": "the",
+          "start_sec": 269.78,
+          "end_sec": 269.98,
+          "prob": 0.934
+        },
+        {
+          "word": "exponents.",
+          "start_sec": 269.98,
+          "end_sec": 270.84,
+          "prob": 0.968
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start_sec": 270.98,
+      "end_sec": 275.1,
+      "text": "B minus two between parentheses multiplied by two.",
+      "words": [
+        {
+          "word": "B",
+          "start_sec": 270.98,
+          "end_sec": 271.2,
+          "prob": 0.506
+        },
+        {
+          "word": "minus",
+          "start_sec": 271.2,
+          "end_sec": 271.38,
+          "prob": 0.868
+        },
+        {
+          "word": "two",
+          "start_sec": 271.38,
+          "end_sec": 271.76,
+          "prob": 0.908
+        },
+        {
+          "word": "between",
+          "start_sec": 271.76,
+          "end_sec": 272.1,
+          "prob": 0.182
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 272.1,
+          "end_sec": 272.78,
+          "prob": 0.558
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 272.78,
+          "end_sec": 273.86,
+          "prob": 0.531
+        },
+        {
+          "word": "by",
+          "start_sec": 273.86,
+          "end_sec": 274.44,
+          "prob": 0.994
+        },
+        {
+          "word": "two.",
+          "start_sec": 274.44,
+          "end_sec": 275.1,
+          "prob": 0.973
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start_sec": 275.66,
+      "end_sec": 278.36,
+      "text": "We now solve each of those situations.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 275.66,
+          "end_sec": 276.14,
+          "prob": 0.588
+        },
+        {
+          "word": "now",
+          "start_sec": 276.14,
+          "end_sec": 276.44,
+          "prob": 0.277
+        },
+        {
+          "word": "solve",
+          "start_sec": 276.44,
+          "end_sec": 276.44,
+          "prob": 0.92
+        },
+        {
+          "word": "each",
+          "start_sec": 276.44,
+          "end_sec": 277.04,
+          "prob": 0.941
+        },
+        {
+          "word": "of",
+          "start_sec": 277.04,
+          "end_sec": 277.36,
+          "prob": 0.768
+        },
+        {
+          "word": "those",
+          "start_sec": 277.36,
+          "end_sec": 277.82,
+          "prob": 0.447
+        },
+        {
+          "word": "situations.",
+          "start_sec": 277.82,
+          "end_sec": 278.36,
+          "prob": 0.974
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start_sec": 278.36,
+      "end_sec": 284.4,
+      "text": "Here we have three to the square, which is nine, over ten to the square, which is one hundred.",
+      "words": [
+        {
+          "word": "Here",
+          "start_sec": 278.36,
+          "end_sec": 279.14,
+          "prob": 0.008
+        },
+        {
+          "word": "we",
+          "start_sec": 279.14,
+          "end_sec": 279.48,
+          "prob": 0.782
+        },
+        {
+          "word": "have",
+          "start_sec": 279.48,
+          "end_sec": 279.58,
+          "prob": 0.942
+        },
+        {
+          "word": "three",
+          "start_sec": 279.58,
+          "end_sec": 279.88,
+          "prob": 0.125
+        },
+        {
+          "word": "to",
+          "start_sec": 279.88,
+          "end_sec": 280.04,
+          "prob": 0.064
+        },
+        {
+          "word": "the",
+          "start_sec": 280.04,
+          "end_sec": 280.04,
+          "prob": 0.981
+        },
+        {
+          "word": "square,",
+          "start_sec": 280.04,
+          "end_sec": 280.5,
+          "prob": 0.362
+        },
+        {
+          "word": "which",
+          "start_sec": 280.64,
+          "end_sec": 280.64,
+          "prob": 0.678
+        },
+        {
+          "word": "is",
+          "start_sec": 280.64,
+          "end_sec": 280.82,
+          "prob": 0.942
+        },
+        {
+          "word": "nine,",
+          "start_sec": 280.82,
+          "end_sec": 281.38,
+          "prob": 0.803
+        },
+        {
+          "word": "over",
+          "start_sec": 281.68,
+          "end_sec": 282.06,
+          "prob": 0.554
+        },
+        {
+          "word": "ten",
+          "start_sec": 282.06,
+          "end_sec": 282.54,
+          "prob": 0.698
+        },
+        {
+          "word": "to",
+          "start_sec": 282.54,
+          "end_sec": 282.7,
+          "prob": 0.876
+        },
+        {
+          "word": "the",
+          "start_sec": 282.7,
+          "end_sec": 282.72,
+          "prob": 0.99
+        },
+        {
+          "word": "square,",
+          "start_sec": 282.72,
+          "end_sec": 283.22,
+          "prob": 0.985
+        },
+        {
+          "word": "which",
+          "start_sec": 283.4,
+          "end_sec": 283.4,
+          "prob": 0.982
+        },
+        {
+          "word": "is",
+          "start_sec": 283.4,
+          "end_sec": 283.62,
+          "prob": 0.992
+        },
+        {
+          "word": "one",
+          "start_sec": 283.62,
+          "end_sec": 284.04,
+          "prob": 0.431
+        },
+        {
+          "word": "hundred.",
+          "start_sec": 284.04,
+          "end_sec": 284.4,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start_sec": 284.72,
+      "end_sec": 290.98,
+      "text": "And here we have G raised to the exponent, which results in multiplying those two quantities.",
+      "words": [
+        {
+          "word": "And",
+          "start_sec": 284.72,
+          "end_sec": 284.84,
+          "prob": 0.548
+        },
+        {
+          "word": "here",
+          "start_sec": 284.84,
+          "end_sec": 284.96,
+          "prob": 0.811
+        },
+        {
+          "word": "we",
+          "start_sec": 284.96,
+          "end_sec": 285.16,
+          "prob": 0.868
+        },
+        {
+          "word": "have",
+          "start_sec": 285.16,
+          "end_sec": 285.48,
+          "prob": 0.959
+        },
+        {
+          "word": "G",
+          "start_sec": 285.48,
+          "end_sec": 286.3,
+          "prob": 0.554
+        },
+        {
+          "word": "raised",
+          "start_sec": 286.3,
+          "end_sec": 286.84,
+          "prob": 0.399
+        },
+        {
+          "word": "to",
+          "start_sec": 286.84,
+          "end_sec": 287.14,
+          "prob": 0.979
+        },
+        {
+          "word": "the",
+          "start_sec": 287.14,
+          "end_sec": 287.22,
+          "prob": 0.977
+        },
+        {
+          "word": "exponent,",
+          "start_sec": 287.22,
+          "end_sec": 287.74,
+          "prob": 0.974
+        },
+        {
+          "word": "which",
+          "start_sec": 287.9,
+          "end_sec": 288.02,
+          "prob": 0.908
+        },
+        {
+          "word": "results",
+          "start_sec": 288.02,
+          "end_sec": 288.52,
+          "prob": 0.44
+        },
+        {
+          "word": "in",
+          "start_sec": 288.52,
+          "end_sec": 288.72,
+          "prob": 0.752
+        },
+        {
+          "word": "multiplying",
+          "start_sec": 288.72,
+          "end_sec": 289.58,
+          "prob": 0.839
+        },
+        {
+          "word": "those",
+          "start_sec": 289.58,
+          "end_sec": 290.14,
+          "prob": 0.553
+        },
+        {
+          "word": "two",
+          "start_sec": 290.14,
+          "end_sec": 290.42,
+          "prob": 0.992
+        },
+        {
+          "word": "quantities.",
+          "start_sec": 290.42,
+          "end_sec": 290.98,
+          "prob": 0.935
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start_sec": 291.44,
+      "end_sec": 293.88,
+      "text": "There we apply the distributive property.",
+      "words": [
+        {
+          "word": "There",
+          "start_sec": 291.44,
+          "end_sec": 291.64,
+          "prob": 0.677
+        },
+        {
+          "word": "we",
+          "start_sec": 291.64,
+          "end_sec": 291.66,
+          "prob": 0.936
+        },
+        {
+          "word": "apply",
+          "start_sec": 291.66,
+          "end_sec": 292.24,
+          "prob": 0.966
+        },
+        {
+          "word": "the",
+          "start_sec": 292.24,
+          "end_sec": 292.64,
+          "prob": 0.941
+        },
+        {
+          "word": "distributive",
+          "start_sec": 292.64,
+          "end_sec": 293.88,
+          "prob": 0.948
+        },
+        {
+          "word": "property.",
+          "start_sec": 293.88,
+          "end_sec": 293.88,
+          "prob": 0.99
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start_sec": 294.28,
+      "end_sec": 300.26,
+      "text": "So we have two times A, which is two A plus two times one, which is two.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 294.28,
+          "end_sec": 294.58,
+          "prob": 0.563
+        },
+        {
+          "word": "we",
+          "start_sec": 294.58,
+          "end_sec": 295.0,
+          "prob": 0.777
+        },
+        {
+          "word": "have",
+          "start_sec": 295.0,
+          "end_sec": 295.32,
+          "prob": 0.981
+        },
+        {
+          "word": "two",
+          "start_sec": 295.32,
+          "end_sec": 295.7,
+          "prob": 0.812
+        },
+        {
+          "word": "times",
+          "start_sec": 295.7,
+          "end_sec": 295.86,
+          "prob": 0.644
+        },
+        {
+          "word": "A,",
+          "start_sec": 295.86,
+          "end_sec": 296.24,
+          "prob": 0.792
+        },
+        {
+          "word": "which",
+          "start_sec": 296.44,
+          "end_sec": 296.46,
+          "prob": 0.983
+        },
+        {
+          "word": "is",
+          "start_sec": 296.46,
+          "end_sec": 296.7,
+          "prob": 0.981
+        },
+        {
+          "word": "two",
+          "start_sec": 296.7,
+          "end_sec": 297.26,
+          "prob": 0.826
+        },
+        {
+          "word": "A",
+          "start_sec": 297.26,
+          "end_sec": 297.6,
+          "prob": 0.75
+        },
+        {
+          "word": "plus",
+          "start_sec": 297.6,
+          "end_sec": 298.36,
+          "prob": 0.383
+        },
+        {
+          "word": "two",
+          "start_sec": 298.36,
+          "end_sec": 298.82,
+          "prob": 0.977
+        },
+        {
+          "word": "times",
+          "start_sec": 298.82,
+          "end_sec": 299.02,
+          "prob": 0.981
+        },
+        {
+          "word": "one,",
+          "start_sec": 299.02,
+          "end_sec": 299.32,
+          "prob": 0.994
+        },
+        {
+          "word": "which",
+          "start_sec": 299.32,
+          "end_sec": 299.54,
+          "prob": 0.994
+        },
+        {
+          "word": "is",
+          "start_sec": 299.54,
+          "end_sec": 299.88,
+          "prob": 0.989
+        },
+        {
+          "word": "two.",
+          "start_sec": 299.88,
+          "end_sec": 300.26,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start_sec": 300.64,
+      "end_sec": 301.92,
+      "text": "Let's move on to the other term.",
+      "words": [
+        {
+          "word": "Let's",
+          "start_sec": 300.64,
+          "end_sec": 301.08,
+          "prob": 0.762
+        },
+        {
+          "word": "move",
+          "start_sec": 301.08,
+          "end_sec": 301.1,
+          "prob": 0.772
+        },
+        {
+          "word": "on",
+          "start_sec": 301.1,
+          "end_sec": 301.2,
+          "prob": 0.847
+        },
+        {
+          "word": "to",
+          "start_sec": 301.2,
+          "end_sec": 301.24,
+          "prob": 0.992
+        },
+        {
+          "word": "the",
+          "start_sec": 301.24,
+          "end_sec": 301.24,
+          "prob": 0.971
+        },
+        {
+          "word": "other",
+          "start_sec": 301.24,
+          "end_sec": 301.5,
+          "prob": 0.8
+        },
+        {
+          "word": "term.",
+          "start_sec": 301.5,
+          "end_sec": 301.92,
+          "prob": 0.958
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start_sec": 302.24,
+      "end_sec": 304.64,
+      "text": "We have four to the square, which is sixteen.",
+      "words": [
+        {
+          "word": "We",
+          "start_sec": 302.24,
+          "end_sec": 302.52,
+          "prob": 0.944
+        },
+        {
+          "word": "have",
+          "start_sec": 302.52,
+          "end_sec": 302.64,
+          "prob": 0.996
+        },
+        {
+          "word": "four",
+          "start_sec": 302.64,
+          "end_sec": 303.08,
+          "prob": 0.977
+        },
+        {
+          "word": "to",
+          "start_sec": 303.08,
+          "end_sec": 303.18,
+          "prob": 0.898
+        },
+        {
+          "word": "the",
+          "start_sec": 303.18,
+          "end_sec": 303.22,
+          "prob": 0.989
+        },
+        {
+          "word": "square,",
+          "start_sec": 303.22,
+          "end_sec": 303.62,
+          "prob": 0.99
+        },
+        {
+          "word": "which",
+          "start_sec": 303.78,
+          "end_sec": 303.78,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 303.78,
+          "end_sec": 303.96,
+          "prob": 0.997
+        },
+        {
+          "word": "sixteen.",
+          "start_sec": 303.96,
+          "end_sec": 304.64,
+          "prob": 0.789
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start_sec": 304.64,
+      "end_sec": 309.14,
+      "text": "This over three to the square, which gives us 169.",
+      "words": [
+        {
+          "word": "This",
+          "start_sec": 304.64,
+          "end_sec": 305.3,
+          "prob": 0.132
+        },
+        {
+          "word": "over",
+          "start_sec": 305.3,
+          "end_sec": 305.68,
+          "prob": 0.119
+        },
+        {
+          "word": "three",
+          "start_sec": 305.68,
+          "end_sec": 306.12,
+          "prob": 0.276
+        },
+        {
+          "word": "to",
+          "start_sec": 306.12,
+          "end_sec": 306.3,
+          "prob": 0.068
+        },
+        {
+          "word": "the",
+          "start_sec": 306.3,
+          "end_sec": 306.36,
+          "prob": 0.928
+        },
+        {
+          "word": "square,",
+          "start_sec": 306.36,
+          "end_sec": 306.9,
+          "prob": 0.763
+        },
+        {
+          "word": "which",
+          "start_sec": 307.4,
+          "end_sec": 307.4,
+          "prob": 0.682
+        },
+        {
+          "word": "gives",
+          "start_sec": 307.4,
+          "end_sec": 307.64,
+          "prob": 0.83
+        },
+        {
+          "word": "us",
+          "start_sec": 307.64,
+          "end_sec": 307.92,
+          "prob": 0.921
+        },
+        {
+          "word": "169.",
+          "start_sec": 307.92,
+          "end_sec": 309.14,
+          "prob": 0.964
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start_sec": 309.46,
+      "end_sec": 315.1,
+      "text": "And here we apply again the distributive property to solve this multiplication.",
+      "words": [
+        {
+          "word": "And",
+          "start_sec": 309.46,
+          "end_sec": 309.64,
+          "prob": 0.656
+        },
+        {
+          "word": "here",
+          "start_sec": 309.64,
+          "end_sec": 309.92,
+          "prob": 0.906
+        },
+        {
+          "word": "we",
+          "start_sec": 309.92,
+          "end_sec": 310.48,
+          "prob": 0.828
+        },
+        {
+          "word": "apply",
+          "start_sec": 310.48,
+          "end_sec": 310.6,
+          "prob": 0.886
+        },
+        {
+          "word": "again",
+          "start_sec": 310.6,
+          "end_sec": 311.34,
+          "prob": 0.684
+        },
+        {
+          "word": "the",
+          "start_sec": 311.34,
+          "end_sec": 311.54,
+          "prob": 0.845
+        },
+        {
+          "word": "distributive",
+          "start_sec": 311.54,
+          "end_sec": 312.78,
+          "prob": 0.92
+        },
+        {
+          "word": "property",
+          "start_sec": 312.78,
+          "end_sec": 312.78,
+          "prob": 0.99
+        },
+        {
+          "word": "to",
+          "start_sec": 312.78,
+          "end_sec": 313.44,
+          "prob": 0.772
+        },
+        {
+          "word": "solve",
+          "start_sec": 313.44,
+          "end_sec": 314.0,
+          "prob": 0.957
+        },
+        {
+          "word": "this",
+          "start_sec": 314.0,
+          "end_sec": 314.42,
+          "prob": 0.955
+        },
+        {
+          "word": "multiplication.",
+          "start_sec": 314.42,
+          "end_sec": 315.1,
+          "prob": 0.961
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start_sec": 315.9,
+      "end_sec": 322.42,
+      "text": "So we have two times B, which is two B, minus two times two, which is four.",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 315.9,
+          "end_sec": 316.18,
+          "prob": 0.633
+        },
+        {
+          "word": "we",
+          "start_sec": 316.18,
+          "end_sec": 316.48,
+          "prob": 0.843
+        },
+        {
+          "word": "have",
+          "start_sec": 316.48,
+          "end_sec": 317.0,
+          "prob": 0.911
+        },
+        {
+          "word": "two",
+          "start_sec": 317.0,
+          "end_sec": 317.48,
+          "prob": 0.342
+        },
+        {
+          "word": "times",
+          "start_sec": 317.48,
+          "end_sec": 317.68,
+          "prob": 0.722
+        },
+        {
+          "word": "B,",
+          "start_sec": 317.68,
+          "end_sec": 318.18,
+          "prob": 0.398
+        },
+        {
+          "word": "which",
+          "start_sec": 318.42,
+          "end_sec": 318.42,
+          "prob": 0.949
+        },
+        {
+          "word": "is",
+          "start_sec": 318.42,
+          "end_sec": 318.62,
+          "prob": 0.988
+        },
+        {
+          "word": "two",
+          "start_sec": 318.62,
+          "end_sec": 319.08,
+          "prob": 0.38
+        },
+        {
+          "word": "B,",
+          "start_sec": 319.08,
+          "end_sec": 319.64,
+          "prob": 0.778
+        },
+        {
+          "word": "minus",
+          "start_sec": 319.74,
+          "end_sec": 320.14,
+          "prob": 0.981
+        },
+        {
+          "word": "two",
+          "start_sec": 320.14,
+          "end_sec": 320.5,
+          "prob": 0.964
+        },
+        {
+          "word": "times",
+          "start_sec": 320.5,
+          "end_sec": 320.74,
+          "prob": 0.873
+        },
+        {
+          "word": "two,",
+          "start_sec": 320.74,
+          "end_sec": 321.3,
+          "prob": 0.979
+        },
+        {
+          "word": "which",
+          "start_sec": 321.3,
+          "end_sec": 321.54,
+          "prob": 0.989
+        },
+        {
+          "word": "is",
+          "start_sec": 321.54,
+          "end_sec": 321.98,
+          "prob": 0.994
+        },
+        {
+          "word": "four.",
+          "start_sec": 321.98,
+          "end_sec": 322.42,
+          "prob": 0.964
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start_sec": 323.06,
+      "end_sec": 325.1,
+      "text": "In this way we finish the exercise.",
+      "words": [
+        {
+          "word": "In",
+          "start_sec": 323.06,
+          "end_sec": 323.32,
+          "prob": 0.458
+        },
+        {
+          "word": "this",
+          "start_sec": 323.32,
+          "end_sec": 323.42,
+          "prob": 0.998
+        },
+        {
+          "word": "way",
+          "start_sec": 323.42,
+          "end_sec": 323.78,
+          "prob": 0.988
+        },
+        {
+          "word": "we",
+          "start_sec": 323.78,
+          "end_sec": 323.78,
+          "prob": 0.785
+        },
+        {
+          "word": "finish",
+          "start_sec": 323.78,
+          "end_sec": 324.38,
+          "prob": 0.739
+        },
+        {
+          "word": "the",
+          "start_sec": 324.38,
+          "end_sec": 324.62,
+          "prob": 0.979
+        },
+        {
+          "word": "exercise.",
+          "start_sec": 324.62,
+          "end_sec": 325.1,
+          "prob": 0.988
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start_sec": 325.42,
+      "end_sec": 330.76,
+      "text": "This expression is the answer to this multiplication of binomials.",
+      "words": [
+        {
+          "word": "This",
+          "start_sec": 325.42,
+          "end_sec": 325.74,
+          "prob": 0.986
+        },
+        {
+          "word": "expression",
+          "start_sec": 325.74,
+          "end_sec": 326.46,
+          "prob": 0.996
+        },
+        {
+          "word": "is",
+          "start_sec": 326.46,
+          "end_sec": 327.16,
+          "prob": 0.99
+        },
+        {
+          "word": "the",
+          "start_sec": 327.16,
+          "end_sec": 327.46,
+          "prob": 0.996
+        },
+        {
+          "word": "answer",
+          "start_sec": 327.46,
+          "end_sec": 328.06,
+          "prob": 0.93
+        },
+        {
+          "word": "to",
+          "start_sec": 328.06,
+          "end_sec": 328.76,
+          "prob": 0.53
+        },
+        {
+          "word": "this",
+          "start_sec": 328.76,
+          "end_sec": 329.04,
+          "prob": 0.988
+        },
+        {
+          "word": "multiplication",
+          "start_sec": 329.04,
+          "end_sec": 329.92,
+          "prob": 0.923
+        },
+        {
+          "word": "of",
+          "start_sec": 329.92,
+          "end_sec": 330.26,
+          "prob": 0.991
+        },
+        {
+          "word": "binomials.",
+          "start_sec": 330.26,
+          "end_sec": 330.76,
+          "prob": 0.936
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start_sec": 330.76,
+      "end_sec": 336.64,
+      "text": "That we have solved by applying the notable product called sum by difference.",
+      "words": [
+        {
+          "word": "That",
+          "start_sec": 330.76,
+          "end_sec": 331.14,
+          "prob": 0.022
+        },
+        {
+          "word": "we",
+          "start_sec": 331.14,
+          "end_sec": 331.48,
+          "prob": 0.888
+        },
+        {
+          "word": "have",
+          "start_sec": 331.48,
+          "end_sec": 331.7,
+          "prob": 0.746
+        },
+        {
+          "word": "solved",
+          "start_sec": 331.7,
+          "end_sec": 332.22,
+          "prob": 0.652
+        },
+        {
+          "word": "by",
+          "start_sec": 332.22,
+          "end_sec": 332.48,
+          "prob": 0.596
+        },
+        {
+          "word": "applying",
+          "start_sec": 332.48,
+          "end_sec": 333.12,
+          "prob": 0.934
+        },
+        {
+          "word": "the",
+          "start_sec": 333.12,
+          "end_sec": 333.32,
+          "prob": 0.885
+        },
+        {
+          "word": "notable",
+          "start_sec": 333.32,
+          "end_sec": 334.12,
+          "prob": 0.863
+        },
+        {
+          "word": "product",
+          "start_sec": 334.12,
+          "end_sec": 334.24,
+          "prob": 0.978
+        },
+        {
+          "word": "called",
+          "start_sec": 334.24,
+          "end_sec": 335.18,
+          "prob": 0.729
+        },
+        {
+          "word": "sum",
+          "start_sec": 335.18,
+          "end_sec": 335.52,
+          "prob": 0.027
+        },
+        {
+          "word": "by",
+          "start_sec": 335.52,
+          "end_sec": 336.0,
+          "prob": 0.562
+        },
+        {
+          "word": "difference.",
+          "start_sec": 336.0,
+          "end_sec": 336.64,
+          "prob": 0.756
+        }
+      ]
+    }
+  ]
+}

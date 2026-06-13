@@ -1,0 +1,579 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,114,0.00,3837.17,0.000,3.837,3.837,explain,7,0.865,0,"So, today we are going to do"
+1,115,364,3837.17,12178.85,3.837,12.179,8.342,write,4,0.937,0,"do our lecture 15,"
+2,365,642,12178.85,21454.79,12.179,21.455,9.276,explain,23,0.949,0,"this would be a continuation of things that we were doing earlier, the four fundamentals of the spaces of a matrix. So, we"
+3,643,1851,21454.79,61795.13,21.455,61.795,40.340,write,60,0.899,0,"we had already talked about the so called null space which was denoted by N of A. Then we started discussing the so called column space which we would denote by C of A and there are two more spaces that we want to deal with row space, so called left null space. The idea is once you get to"
+4,1852,1993,61795.13,66533.20,61.795,66.533,4.738,explain,13,0.91,0,"to know all these four spaces, you have lot of information about your"
+5,1994,2075,66533.20,69269.27,66.533,69.269,2.736,out,8,0.939,0,"your matrix A or the linear transformation A,"
+6,2076,2090,69269.27,69769.77,69.269,69.770,0.501,explain,2,0.955,0,"A, how"
+7,2091,2129,69769.77,71071.07,69.770,71.071,1.301,out,7,0.983,0,how it is going to behave and
+8,2130,2296,71071.07,76643.31,71.071,76.643,5.572,explain,13,0.908,0,"and stuff like that. The row space of A also has a notation,"
+9,2297,2673,76643.31,89222.56,76.643,89.223,12.579,write,30,0.886,0,"notation, for now we will just say it is the row space of A and for left null space, well for reasons which is not obvious right now, this would"
+10,2674,2704,89222.56,90256.92,89.223,90.257,1.034,explain,7,0.767,0,would be actually be the null space
+11,2705,2750,90256.92,91791.79,90.257,91.792,1.535,out,5,0.855,0,space of A transpose and
+12,2751,2789,91791.79,93093.09,91.792,93.093,1.301,explain,6,0.87,0,and this is how we are
+13,2790,2819,93093.09,94094.09,93.093,94.094,1.001,out,5,0.985,0,are going to define it.
+14,2820,2844,94094.09,94928.26,94.094,94.928,0.834,explain,1,0.528,0,"Okay,"
+15,2845,2878,94928.26,96062.73,94.928,96.063,1.134,out,2,0.743,0,"Okay, so"
+16,2879,2938,96062.73,98064.73,96.063,98.065,2.002,explain,4,0.909,0,"so first things first,"
+17,2939,4016,98064.73,134034.03,98.065,134.034,35.969,write,46,0.881,0,"when we said A is a m by n matrix, then that means it represents a linear transformation and we use the same name for the linear transformation and it is just easier. From some vector space to another vector space, we have to be very"
+18,4017,4361,134034.03,145545.55,134.034,145.546,11.512,explain,30,0.893,0,"very clear about the dimension of this. A is a m by n matrix, so it has m rows and n columns. So, this would be matrix linear transformation from"
+19,4362,4384,145545.55,146312.98,145.546,146.313,0.767,write,1,0.972,0,from
+20,4385,4527,146312.98,151084.42,146.313,151.084,4.771,explain,16,0.873,0,"question is what should we put here m or n. So, think of it this way,"
+21,4528,5328,151084.42,177811.14,151.084,177.811,26.727,write,75,0.91,0,"way, it is a confusion which students generally have, if I have m rows and n columns, so let me just put m rows and n columns, the vector with which you can multiply possibly, so it is a m by n matrix, so the only vector you can multiply by is a n by 1, so the input it can take is only from Rn and the output it will produce would be in"
+22,5329,5449,177811.14,181848.52,177.811,181.849,4.037,explain,9,0.978,0,"in Rn. So, it represents a linear transformation from"
+23,5450,5547,181848.52,185118.45,181.849,185.118,3.270,out,7,0.891,0,from a n dimensional vector space to
+24,5548,5565,185118.45,185719.05,185.118,185.719,0.601,explain,1,0.96,0,to
+25,5566,5700,185719.05,190223.56,185.719,190.224,4.505,out,4,0.634,0,to a vector there
+26,5701,5739,190223.56,191524.86,190.224,191.525,1.301,explain,8,0.961,0,there are certain things that we should be
+27,5740,5836,191524.86,194761.43,191.525,194.761,3.237,out,10,0.946,0,"be very very careful about, where do these spaces live."
+28,5837,5927,194761.43,197797.80,194.761,197.798,3.036,explain,4,0.985,0,"live. So, for example,"
+29,5928,5991,197797.80,199933.27,197.798,199.933,2.135,out,1,0.994,0,what
+30,5992,6065,199933.27,202402.40,199.933,202.402,2.469,explain,12,0.961,0,"what about the null space, the way we had defined null space,"
+31,6066,7068,202402.40,235869.20,202.402,235.869,33.467,write,48,0.923,0,"space, it was all those vectors x in the domain, so in this case it is in Rn such that A would map this vector to the zero vector of Rn. So, this means this is living inside Rn and we had shown that it is a subspace."
+32,7069,7210,235869.20,240607.27,235.869,240.607,4.738,explain,8,0.991,0,"Now, how did we define the column space,"
+33,7211,7477,240607.27,249516.18,240.607,249.516,8.909,write,15,0.963,0,we said things belong to the column space if it is a linear combination of
+34,7478,7591,249516.18,253319.99,249.516,253.320,3.804,explain,11,0.958,0,of the columns. As you can see the columns they all
+35,7592,7645,253319.99,255121.79,253.320,255.122,1.802,out,4,0.985,0,"all live in Rm,"
+36,7646,7747,255121.79,258525.19,255.122,258.525,3.403,explain,8,0.806,0,so their combination will also live in Rm
+37,7748,8440,258525.19,281648.31,258.525,281.648,23.123,write,20,0.915,0,"and we said all those b's for which this is a consistent system, obvious reasons this will live in Rm."
+38,8441,8608,281648.31,287253.92,281.648,287.254,5.606,explain,20,0.896,0,"So, we should be very clear where these guys are living because that is a source of confusion as well"
+39,8609,8903,287253.92,297097.10,287.254,297.097,9.843,write,30,0.879,0,"well as something that we have to be concerned about. I make a small claim that this is a subspace of Rm, so the column space is also a subspace,"
+40,8904,9049,297097.10,301968.64,297.097,301.969,4.872,explain,11,0.89,0,"subspace, but this time it is a subspace of something or"
+41,9050,9061,301968.64,302369.04,301.969,302.369,0.400,out,1,0.618,0,or
+42,9062,9143,302369.04,305105.11,302.369,305.105,2.736,explain,5,0.86,0,I should say it is
+43,9144,9260,305105.11,309009.01,305.105,309.009,3.904,out,12,0.824,0,"is a subspace of the code domain. Why is it a subspace,"
+44,9261,9336,309009.01,311544.88,309.009,311.545,2.536,explain,3,0.983,0,"subspace, let me"
+45,9337,9354,311544.88,312145.48,311.545,312.145,0.601,out,1,0.997,0,me
+46,9355,9378,312145.48,312946.28,312.145,312.946,0.801,pickerase,5,0.822,0,me get rid of these
+47,9379,10211,312946.28,340740.74,312.946,340.741,27.794,erase,3,0.959,0,these things first.
+48,10212,10225,340740.74,341207.87,340.741,341.208,0.467,droperase,0,,1,[silence]
+49,10226,10239,341207.87,341675.01,341.208,341.675,0.467,out,0,,1,[silence]
+50,10240,10253,341675.01,342142.14,341.675,342.142,0.467,pickerase,0,,1,[silence]
+51,10254,10325,342142.14,344544.54,342.142,344.545,2.402,erase,0,,1,[silence]
+52,10326,10343,344544.54,345145.15,344.545,345.145,0.601,droperase,0,,1,[silence]
+53,10344,10359,345145.15,345679.01,345.145,345.679,0.534,out,0,,1,[silence]
+54,10360,10400,345679.01,347047.05,345.679,347.047,1.368,droperase,0,,1,[silence]
+55,10401,10416,347047.05,347580.91,347.047,347.581,0.534,pickerase,0,,1,[silence]
+56,10417,10471,347580.91,349416.08,347.581,349.416,1.835,erase,0,,1,[silence]
+57,10472,10532,349416.08,351451.45,349.416,351.451,2.035,droperase,0,,1,[silence]
+58,10533,10599,351451.45,353687.02,351.451,353.687,2.236,explain,0,,1,[silence]
+59,10600,10644,353687.02,355188.52,353.687,355.189,1.502,out,3,0.829,0,"So, question is"
+60,10645,10701,355188.52,357090.42,355.189,357.090,1.902,explain,6,0.961,0,"is why is it a subspace,"
+61,10702,11181,357090.42,373106.44,357.090,373.106,16.016,write,0,,1,[silence]
+62,11182,11210,373106.44,374074.07,373.106,374.074,0.968,explain,0,,1,[silence]
+63,11211,11243,374074.07,375175.18,374.074,375.175,1.101,out,0,,1,[silence]
+64,11244,11257,375175.18,375642.31,375.175,375.642,0.467,explain,0,,1,[silence]
+65,11258,11357,375642.31,378978.98,375.642,378.979,3.337,write,13,0.867,0,the answer is fairly straight forward if we recall one of the results
+66,11358,11374,378978.98,379546.21,378.979,379.546,0.567,explain,4,0.909,0,results we had proved
+67,11375,11543,379546.21,385185.19,379.546,385.185,5.639,out,6,0.76,0,proved about subspace. We said anytime
+68,11544,11564,385185.19,385885.89,385.185,385.886,0.701,explain,0,,1,[silence]
+69,11565,12108,385885.89,404037.37,385.886,404.037,18.151,write,18,0.886,0,"we have a linear span of vectors, we have a linear span of a set of vectors it"
+70,12109,12303,404037.37,410543.88,404.037,410.544,6.507,explain,0,,1,[silence]
+71,12304,12322,410543.88,411177.84,410.544,411.178,0.634,pickerase,0,,1,[silence]
+72,12323,12365,411177.84,412612.61,411.178,412.613,1.435,erase,0,,1,[silence]
+73,12366,12414,412612.61,414247.58,412.613,414.248,1.635,droperase,0,,1,[silence]
+74,12415,12453,414247.58,415548.88,414.248,415.549,1.301,explain,0,,1,[silence]
+75,12454,12709,415548.88,424090.76,415.549,424.091,8.542,write,4,0.975,0,is always a subspace.
+76,12710,12738,424090.76,425058.39,424.091,425.058,0.968,explain,0,,1,[silence]
+77,12739,12802,425058.39,427193.86,425.058,427.194,2.135,out,8,0.868,0,This was the result we had proved when
+78,12803,12827,427193.86,428028.03,427.194,428.028,0.834,explain,5,0.933,0,when we were discussing the
+79,12828,12878,428028.03,429729.73,428.028,429.730,1.702,out,3,0.982,0,the linear span
+80,12879,12942,429729.73,431865.20,429.730,431.865,2.135,pickerase,1,0.437,0,and
+81,12943,13077,431865.20,436369.70,431.865,436.370,4.505,erase,0,,1,[silence]
+82,13078,13108,436369.70,437404.07,436.370,437.404,1.034,droperase,1,0.75,0,so
+83,13109,13150,437404.07,438805.47,437.404,438.805,1.401,out,5,0.922,0,so based on that we
+84,13151,13161,438805.47,439172.51,438.805,439.173,0.367,explain,3,0.959,0,we can say
+85,13162,13224,439172.51,441274.61,439.173,441.275,2.102,out,3,0.961,0,say that since
+86,13225,13265,441274.61,442642.64,441.275,442.643,1.368,explain,0,,1,[silence]
+87,13266,13762,442642.64,459225.89,442.643,459.226,16.583,write,13,0.88,0,column space of A is nothing but the linear span columns of A
+88,13763,13969,459225.89,466132.80,459.226,466.133,6.907,explain,7,0.939,0,is definitely going to be a subspace.
+89,13970,14222,466132.80,474574.57,466.133,474.575,8.442,write,6,0.786,0,For reasons which are now clear
+90,14223,14248,474574.57,475442.11,474.575,475.442,0.868,explain,3,0.995,0,clear to us
+91,14249,14493,475442.11,483616.95,475.442,483.617,8.175,out,18,0.862,0,us that it would be a subspace of Rm because the columns of A live inside Rm. the
+92,14494,14518,483616.95,484451.12,483.617,484.451,0.834,pickerase,3,0.986,0,the idea is
+93,14519,14677,484451.12,489756.42,484.451,489.756,5.305,erase,1,0.997,0,is
+94,14678,14706,489756.42,490724.06,489.756,490.724,0.968,droperase,0,,1,[silence]
+95,14707,14723,490724.06,491291.29,490.724,491.291,0.567,out,0,,1,[silence]
+96,14724,14745,491291.29,492025.36,491.291,492.025,0.734,explain,0,,1,[silence]
+97,14746,14784,492025.36,493326.66,492.025,493.327,1.301,write,0,,1,[silence]
+98,14785,14796,493326.66,493727.06,493.327,493.727,0.400,explain,0,,1,[silence]
+99,14797,15232,493727.06,508274.94,493.727,508.275,14.548,out,33,0.899,0,"basically that this is an easy way for us to get if something is a subspace of a space, if we know that something can be spanned by a bunch of vectors or"
+100,15233,15307,508274.94,510777.44,508.275,510.777,2.503,explain,12,0.853,0,or it is actually the linear span of a bunch of vectors.
+101,15308,15377,510777.44,513113.11,510.777,513.113,2.336,out,7,0.818,0,"So, question is where do we go"
+102,15378,15444,513113.11,515348.68,513.113,515.349,2.236,explain,7,0.964,0,go from here? We will first try
+103,15445,15469,515348.68,516182.85,515.349,516.183,0.834,out,5,0.991,0,try to figure out how
+104,15470,15538,516182.85,518485.15,516.183,518.485,2.302,explain,5,0.831,0,how to compute column space
+105,15539,15749,518485.15,525525.53,518.485,525.526,7.040,write,13,0.933,0,space of a matrix and then we will try to deal with other
+106,15750,16235,525525.53,541741.74,525.526,541.742,16.216,explain,42,0.909,0,"other stuff regarding the column space. Now, in order to do that let me first start with a very simple matrix where things might be slightly obvious and then we will go to something where things might not be that obvious. So,"
+107,16236,17289,541741.74,576910.24,541.742,576.910,35.169,write,80,0.903,0,"So, here is my example, a simple example just to see if we can play with things or not. So, here is my matrix A. Let us say I give you 1, 2, 3. So, here is my matrix A. As you can see it is a 3 by 2 matrix. So, you can view A as a 3 by 2 matrix, 3 rows and 2 columns. So, you can view it as a linear transformation from R2 to R3."
+108,17290,17430,576910.24,581614.95,576.910,581.615,4.705,explain,7,0.817,0,"So, we know that whatever is the"
+109,17431,17793,581614.95,593727.06,581.615,593.727,12.112,write,21,0.932,0,"the null space, null space is going to live inside R2 and we know that the column space would live inside."
+110,17794,18288,593727.06,610243.58,593.727,610.244,16.517,explain,43,0.923,0,"So, these are things which we have gathered so far. But question is what else can we say about the column space and the null space in this particular scenario? For example, if I want to compute the null space, here is a"
+111,18289,18586,610243.58,620186.85,610.244,620.187,9.943,write,24,0.824,0,"a small clean that I make and see whether we agree with this. We can say 0, 0 belongs to null space because 0,"
+112,18587,18790,620186.85,626993.66,620.187,626.994,6.807,explain,13,0.904,0,"0, 0 will always map to 0, 0 in the column in R3."
+113,18791,19112,626993.66,637737.74,626.994,637.738,10.744,write,17,0.975,0,What about another thing? How about this? Can we say this vector belongs to the null space?
+114,19113,19514,637737.74,651151.15,637.738,651.151,13.413,explain,40,0.938,0,"Now, one may ask how do I know that this particular vector will work. If you look at the entries, the second column is actually twice the first column. So, if I claim that this belongs to the null space,"
+115,19515,19988,651151.15,666966.97,651.151,666.967,15.816,write,25,0.901,0,then all I am claiming is that 2 times the first column minus 1 times the second column will give me 0 vector in R.
+116,19989,20485,666966.97,683550.22,666.967,683.550,16.583,explain,52,0.966,0,"So, that is why I was able to sort of guess the solution without really going through full blown thing. So, we know that 0, 0 belongs to this, this vector 2 minus 1 belongs to this. So, we ask ourselves what are all the vectors that belong to the null space?"
+117,20486,20515,683550.22,684551.22,683.550,684.551,1.001,pickerase,1,0.406,0,Remember
+118,20516,20964,684551.22,699532.87,684.551,699.533,14.982,erase,29,0.892,0,"Remember your null space is in R2. Since it is a subspace, there are only few possibilities around it. The possibilities are that either it is the zero subspace"
+119,20965,21005,699532.87,700900.90,699.533,700.901,1.368,droperase,2,0.891,0,or it
+120,21006,21200,700900.90,707407.41,700.901,707.407,6.507,out,25,0.912,0,"it will be a space spanned by one single vector, which in which case it will be a line or it be a subspace spanned"
+121,21201,21239,707407.41,708708.71,707.407,708.709,1.301,explain,4,0.979,0,spanned by two vectors.
+122,21240,21263,708708.71,709509.51,708.709,709.510,0.801,out,1,0.991,0,"Now,"
+123,21264,21279,709509.51,710043.38,709.510,710.043,0.534,explain,3,0.978,0,since we are
+124,21280,21326,710043.38,711611.61,710.043,711.612,1.568,out,6,0.991,0,"are living in R2, if there"
+125,21327,21390,711611.61,713747.08,711.612,713.747,2.135,explain,9,0.985,0,there is a subspace spanned by two distinct vectors
+126,21391,21402,713747.08,714147.48,713.747,714.147,0.400,out,2,0.955,0,vectors or
+127,21403,21414,714147.48,714547.88,714.147,714.548,0.400,explain,3,0.878,0,or linearly independent
+128,21415,21462,714547.88,716149.48,714.548,716.149,1.602,out,5,0.751,0,"independent vectors, then it has"
+129,21463,21476,716149.48,716616.62,716.149,716.617,0.467,explain,3,0.982,0,has to be
+130,21477,21558,716616.62,719352.69,716.617,719.353,2.736,out,11,0.924,0,"be entire R2. So, we want to know whether it is"
+131,21559,21568,719352.69,719686.35,719.353,719.686,0.334,explain,3,0.809,0,"is zero subspace,"
+132,21569,21673,719686.35,723189.86,719.686,723.190,3.504,out,12,0.938,0,"subspace, whether it is a line or whether it is entire R2."
+133,21674,22063,723189.86,736202.87,723.190,736.203,13.013,explain,39,0.944,0,"R2. We have some evidence. It cannot be just the zero subspace because we know we have found this vector which belongs to the null space. So, either it is a line or it is entire R2. Could it"
+134,22064,22120,736202.87,738104.77,736.203,738.105,1.902,out,5,0.985,0,"it be entire R2? Well,"
+135,22121,22181,738104.77,740140.14,738.105,740.140,2.035,explain,8,0.98,0,"Well, if it was entire R2, then every"
+136,22182,22210,740140.14,741107.77,740.140,741.108,0.968,out,5,0.993,0,every vector can be sent
+137,22211,22216,741107.77,741307.97,741.108,741.308,0.200,explain,1,0.981,0,sent
+138,22217,22251,741307.97,742475.81,741.308,742.476,1.168,out,5,0.986,0,sent to the zero vector.
+139,22252,22738,742475.81,758725.39,742.476,758.725,16.250,explain,43,0.867,0,"vector. But for example, if you see if I change the linear combination from 2 and minus 1 to let us say 1 and 0, it would not map to the zero vector. So, for sure we know that the null space cannot"
+140,22739,22786,758725.39,760326.99,758.725,760.327,1.602,out,4,0.808,0,cannot be entire R2.
+141,22787,22873,760326.99,763229.90,760.327,763.230,2.903,explain,2,0.986,0,"So, let"
+142,22874,23405,763229.90,780980.98,763.230,780.981,17.751,write,26,0.944,0,"let me make sure that the null space is not entire R2 because for example, the vector 1 0 does not belong to the null space."
+143,23406,23435,780980.98,781981.98,780.981,781.982,1.001,explain,1,0.874,0,"So,"
+144,23436,23518,781981.98,784751.42,781.982,784.751,2.769,out,8,0.935,0,"So, we are now convinced that it is"
+145,23519,23546,784751.42,785685.69,784.751,785.686,0.934,explain,2,0.998,0,is only
+146,23547,23669,785685.69,789789.79,785.686,789.790,4.104,write,8,0.984,0,only a line which passes through the origin
+147,23670,23676,789789.79,790023.36,789.790,790.023,0.234,explain,1,0.762,0,and
+148,23677,23702,790023.36,790890.89,790.023,790.891,0.868,out,2,0.873,0,and it
+149,23703,23712,790890.89,791224.56,790.891,791.225,0.334,explain,2,0.99,0,it is
+150,23713,23746,791224.56,792359.03,791.225,792.359,1.134,out,5,0.94,0,is along the vector 2
+151,23747,23755,792359.03,792659.33,792.359,792.659,0.300,explain,2,0.776,0,2 minus
+152,23756,23777,792659.33,793393.39,792.659,793.393,0.734,out,2,0.845,0,minus 1.
+153,23778,23860,793393.39,796162.83,793.393,796.163,2.769,explain,11,0.977,0,"1. So, when you say along the vector 2 minus 1,"
+154,23861,24139,796162.83,805472.14,796.163,805.472,9.309,write,16,0.932,0,so it would be say something like a line which passes through this point minus 1.
+155,24140,24166,805472.14,806373.04,805.472,806.373,0.901,out,3,0.985,0,"1. So, we"
+156,24167,24195,806373.04,807340.67,806.373,807.341,0.968,explain,5,0.979,0,we claim that this is
+157,24196,24266,807340.67,809709.71,807.341,809.710,2.369,write,8,0.971,0,is the null space of my matrix A.
+158,24267,24277,809709.71,810076.74,809.710,810.077,0.367,explain,0,,1,[silence]
+159,24278,24319,810076.74,811478.14,810.077,811.478,1.401,out,3,0.938,0,"So, anything which"
+160,24320,24327,811478.14,811745.08,811.478,811.745,0.267,explain,2,0.912,0,which lives
+161,24328,24344,811745.08,812312.31,811.745,812.312,0.567,out,2,0.958,0,lives on
+162,24345,24388,812312.31,813780.45,812.312,813.780,1.468,explain,3,0.996,0,"on this line,"
+163,24389,24904,813780.45,830997.66,813.780,830.998,17.217,write,25,0.908,0,"imagine if I had tried to make a three -dimensional space, anything which maps which is lying on this line gets mapped to zero vector."
+164,24905,24920,830997.66,831531.53,830.998,831.532,0.534,explain,0,,1,[silence]
+165,24921,25158,831531.53,839472.81,831.532,839.473,7.941,out,22,0.912,0,"So, everything which lies on this line is a null space. Another question is what about the column space? What all things"
+166,25159,25168,839472.81,839806.47,839.473,839.806,0.334,explain,3,0.993,0,things can I
+167,25169,25253,839806.47,842642.64,839.806,842.643,2.836,out,7,0.843,0,"I hit over there? Now, column space"
+168,25254,25290,842642.64,843877.21,842.643,843.877,1.235,explain,4,0.939,0,space lives in R3.
+169,25291,25446,843877.21,849082.42,843.877,849.082,5.205,out,18,0.891,0,"R3. So, I have to find out things which live in the column space. Let us go over"
+170,25447,25544,849082.42,852352.35,849.082,852.352,3.270,explain,5,0.834,0,over some obvious creatures first.
+171,25545,25630,852352.35,855221.89,852.352,855.222,2.870,pickerase,2,0.788,0,"So, this"
+172,25631,26047,855221.89,869135.80,855.222,869.136,13.914,erase,11,0.924,0,this time we are going to talk about the column space.
+173,26048,26107,869135.80,871137.80,869.136,871.138,2.002,droperase,0,,1,[silence]
+174,26108,26250,871137.80,875909.24,871.138,875.909,4.771,explain,6,0.986,0,"Now, what about the column space?"
+175,26251,26519,875909.24,884884.88,875.909,884.885,8.976,write,8,0.962,0,"Well, let us go with obvious solutions first."
+176,26520,26792,884884.88,893993.99,884.885,893.994,9.109,explain,23,0.911,0,"Look at the definition of column space. Didn't we say column space is basically a space spanned by columns? So, for sure the"
+177,26793,27090,893993.99,903937.27,893.994,903.937,9.943,write,20,0.898,0,"the first column and the second column, for sure these guys will live in the column space because the definition"
+178,27091,28041,903937.27,935669.00,903.937,935.669,31.732,explain,112,0.943,0,"definition says anything that you can make up of these two columns will live. So, of course, you can make each of them individually. Now comes the bigger part. What else can you make out of these two columns? Now, when you say what else can I make out of these two columns, one thing is for sure that this column 2, 4, 6 is a multiple of the first column 1, 2, 3. So, whatever 1, 2, 3 can make, let me put it different, whatever 2, 4, 6 can make, would you agree the vector 1, 2, 3 will be able to do it on its own? So, if I"
+179,28042,28525,935669.00,951818.49,935.669,951.818,16.149,write,31,0.929,0,"I look at the linear combination of A 1, 2, 3 plus B times 2, 4, 6, it's actually nothing but a multiple of the vector 1, 2, 3. So, anything"
+180,28526,29289,951818.49,977310.64,951.818,977.311,25.492,explain,70,0.947,0,"anything which lives in the column space of the matrix A is going to be a multiple of the vector 1, 2, 3. So, if we come here, if we look at what we are able to accomplish here, it would be basically a line which passes through origin and is in the direction of the vector 1, 3. So, I won't make an attempt to draw a perfect line,"
+181,29290,29621,977310.64,988388.39,977.311,988.388,11.078,write,24,0.954,0,"but imagine it's this line which is basically representing the column space of A, which is basically all multiples of the vector 1, 2."
+182,29622,29665,988388.39,989856.52,988.388,989.857,1.468,explain,0,,1,[silence]
+183,29666,29785,989856.52,993860.53,989.857,993.861,4.004,out,11,0.967,0,"So, what this is telling you is, if you pick any"
+184,29786,29789,993860.53,993993.99,993.861,993.994,0.133,explain,1,0.996,0,any
+185,29790,29795,993993.99,994194.19,993.994,994.194,0.200,out,1,0.996,0,any
+186,29796,29817,994194.19,994928.26,994.194,994.928,0.734,explain,3,0.994,0,any point in
+187,29818,29886,994928.26,997230.56,994.928,997.231,2.302,out,5,0.943,0,"in here, if I pick"
+188,29887,29910,997230.56,998031.36,997.231,998.031,0.801,explain,3,0.989,0,pick any point
+189,29911,30201,998031.36,1007741.07,998.031,1007.741,9.710,write,20,0.923,0,"point in here and if I try to take its image under the mapping A, it would be on this"
+190,30202,30220,1007741.07,1008375.04,1007.741,1008.375,0.634,explain,2,0.994,0,this line
+191,30221,30468,1008375.04,1016649.98,1008.375,1016.650,8.275,out,11,0.835,0,"line somewhere. So, here is a question that one may ask."
+192,30469,30506,1016649.98,1017917.92,1016.650,1017.918,1.268,explain,1,0.996,0,ask.
+193,30507,30584,1017917.92,1020520.52,1017.918,1020.521,2.603,out,2,0.915,0,I said
+194,30585,30636,1020520.52,1022255.59,1020.521,1022.256,1.735,explain,6,0.96,0,said that this point maps to
+195,30637,30642,1022255.59,1022455.79,1022.256,1022.456,0.200,out,2,0.851,0,to say
+196,30643,30660,1022455.79,1023056.39,1022.456,1023.056,0.601,explain,3,0.845,0,say some point
+197,30661,30765,1023056.39,1026559.89,1023.056,1026.560,3.504,out,9,0.934,0,point there in the column space. If I focus
+198,30766,30916,1026559.89,1031598.26,1026.560,1031.598,5.038,explain,14,0.938,0,"focus my attention on that point only, I focus my attention on this point,"
+199,30917,30965,1031598.26,1033233.23,1031.598,1033.233,1.635,write,3,0.931,0,"one may ask,"
+200,30966,30998,1033233.23,1034334.33,1033.233,1034.334,1.101,explain,5,0.881,0,"okay, what are the other"
+201,30999,31080,1034334.33,1037070.40,1034.334,1037.070,2.736,out,11,0.98,0,other things which could possibly map to that point? You gave
+202,31081,31095,1037070.40,1037570.90,1037.070,1037.571,0.501,explain,4,0.982,0,"gave me one solution,"
+203,31096,31243,1037570.90,1042509.18,1037.571,1042.509,4.938,out,15,0.955,0,"solution, are there other solutions? So, here is a question, let me first write it"
+204,31244,31314,1042509.18,1044878.21,1042.509,1044.878,2.369,pickerase,10,0.898,0,it down so that we are at least clear about
+205,31315,31556,1044878.21,1052952.95,1044.878,1052.953,8.075,erase,4,0.821,0,about some things. Let
+206,31557,31609,1052952.95,1054721.39,1052.953,1054.721,1.768,droperase,0,,1,[silence]
+207,31610,31746,1054721.39,1059292.63,1054.721,1059.293,4.571,explain,3,0.992,0,me call this
+208,31747,31868,1059292.63,1063363.36,1059.293,1063.363,4.071,write,5,0.861,0,this point as some B0.
+209,31869,31930,1063363.36,1065432.10,1063.363,1065.432,2.069,explain,0,,1,[silence]
+210,31931,32694,1065432.10,1090924.26,1065.432,1090.924,25.492,write,26,0.861,0,"B0 belongs to the column space of A, then we know there must exist a X0 in R2 such that A of X0 will give me,"
+211,32695,32807,1090924.26,1094694.69,1090.924,1094.695,3.770,explain,11,0.972,0,"this is what we have found so far, that there exists"
+212,32808,32851,1094694.69,1096162.83,1094.695,1096.163,1.468,write,3,0.908,0,exists an X0
+213,32852,32858,1096162.83,1096396.40,1096.163,1096.396,0.234,explain,1,0.997,0,X0
+214,32859,33027,1096396.40,1102035.37,1096.396,1102.035,5.639,out,9,0.882,0,"which would map to that B0 overtake. question is,"
+215,33028,33069,1102035.37,1103436.77,1102.035,1103.437,1.401,explain,1,0.996,0,"is,"
+216,33070,33750,1103436.77,1126159.49,1103.437,1126.159,22.723,write,7,0.89,0,are there other inputs in R2 to
+217,33751,33841,1126159.49,1129195.86,1126.159,1129.196,3.036,explain,10,0.858,0,"to B0? The question is, what are those inputs and"
+218,33842,33978,1129195.86,1133767.10,1129.196,1133.767,4.571,out,6,0.807,0,and where would they map? How
+219,33979,34043,1133767.10,1135935.94,1133.767,1135.936,2.169,explain,7,0.895,0,How do we find any of them?
+220,34044,34460,1135935.94,1149849.85,1135.936,1149.850,13.914,out,39,0.949,0,"So, that is where the things become very interesting. How do we find all of those guys which will map to the point B0? Now, if I give you the algebraic solution, it's fairly obvious that we will be"
+221,34461,34514,1149849.85,1151651.65,1149.850,1151.652,1.802,explain,9,0.947,0,"be able to understand what that would be. However,"
+222,34515,34648,1151651.65,1156122.79,1151.652,1156.123,4.471,out,12,0.983,0,"However, let me try to convince you geometrically, how is this possible?"
+223,34649,34733,1156122.79,1158958.96,1156.123,1158.959,2.836,explain,10,0.949,0,"possible? What I will do is, I take this null"
+224,34734,34774,1158958.96,1160326.99,1158.959,1160.327,1.368,out,3,0.957,0,null space and
+225,34775,34844,1160326.99,1162662.66,1160.327,1162.663,2.336,explain,7,0.84,0,and I will shift it parallely so
+226,34845,35059,1162662.66,1169836.50,1162.663,1169.837,7.174,write,8,0.845,0,so that it passes through the point X0.
+227,35060,35075,1169836.50,1170370.37,1169.837,1170.370,0.534,explain,0,,1,[silence]
+228,35076,35171,1170370.37,1173573.57,1170.370,1173.574,3.203,out,4,0.994,0,"So, this is basically"
+229,35172,35211,1173573.57,1174908.24,1173.574,1174.908,1.335,explain,3,0.866,0,basically you can
+230,35212,35363,1174908.24,1179979.98,1174.908,1179.980,5.072,write,12,0.988,0,can think of it as X0 plus the entire null space shifted
+231,35364,35375,1179979.98,1180380.38,1179.980,1180.380,0.400,explain,2,0.996,0,shifted by
+232,35376,35481,1180380.38,1183917.25,1180.380,1183.917,3.537,out,6,0.923,0,"by the vector X0. So, I"
+233,35482,35512,1183917.25,1184951.62,1183.917,1184.952,1.034,explain,5,0.972,0,I took this line and
+234,35513,35625,1184951.62,1188722.06,1184.952,1188.722,3.770,write,8,0.884,0,and now I shifted everything by this vector
+235,35626,35633,1188722.06,1188988.99,1188.722,1188.989,0.267,explain,1,0.992,0,vector
+236,35634,35750,1188988.99,1192892.89,1188.989,1192.893,3.904,out,9,0.908,0,vector X0. I claim that any point which lies
+237,35751,35759,1192892.89,1193193.19,1192.893,1193.193,0.300,explain,2,0.987,0,lies on
+238,35760,35915,1193193.19,1198398.40,1193.193,1198.398,5.205,out,14,0.873,0,"on this line X0 plus NA for the shift of NA by X0, everything"
+239,35916,35921,1198398.40,1198598.60,1198.398,1198.599,0.200,explain,1,0.982,0,everything
+240,35922,35962,1198598.60,1199966.63,1198.599,1199.967,1.368,out,4,0.991,0,everything on this line.
+241,35963,35993,1199966.63,1201001.00,1199.967,1201.001,1.034,explain,1,0.997,0,line.
+242,35994,36133,1201001.00,1205672.34,1201.001,1205.672,4.671,write,0,,1,[silence]
+243,36134,36156,1205672.34,1206439.77,1205.672,1206.440,0.767,explain,0,,1,[silence]
+244,36157,36305,1206439.77,1211411.41,1206.440,1211.411,4.972,out,19,0.927,0,"Now, suppose for a moment assume that was true, then would you agree null space holds the information about"
+245,36306,36362,1211411.41,1213313.31,1211.411,1213.313,1.902,explain,4,0.991,0,about all possible solutions
+246,36363,36593,1213313.31,1221021.02,1213.313,1221.021,7.708,out,24,0.921,0,"solutions of a given system of equation? So, the question is why am I so sure that this will work? Well, let's try it."
+247,36594,36599,1221021.02,1221221.22,1221.021,1221.221,0.200,pickerase,1,0.718,0,it.
+248,36600,36627,1221221.22,1222155.49,1221.221,1222.155,0.934,out,1,0.718,0,it.
+249,36628,36721,1222155.49,1225291.96,1222.155,1225.292,3.136,pickerase,8,0.98,0,If I find anything in the null space
+250,36722,36854,1225291.96,1229729.73,1225.292,1229.730,4.438,explain,12,0.873,0,"space added to X0, I claim that it would give what I'm"
+251,36855,37050,1229729.73,1236269.60,1229.730,1236.270,6.540,pickerase,3,0.734,0,"looking for. Okay,"
+252,37051,37144,1236269.60,1239406.07,1236.270,1239.406,3.136,erase,0,,1,[silence]
+253,37145,37157,1239406.07,1239839.84,1239.406,1239.840,0.434,droperase,0,,1,[silence]
+254,37158,37192,1239839.84,1241007.67,1239.840,1241.008,1.168,explain,0,,1,[silence]
+255,37193,37213,1241007.67,1241708.38,1241.008,1241.708,0.701,pickerase,0,,1,[silence]
+256,37214,37527,1241708.38,1252185.52,1241.708,1252.186,10.477,erase,23,0.822,0,so here is my answer to this question and that tells us the significance of the null space in this entire context and
+257,37528,37584,1252185.52,1254087.42,1252.186,1254.087,1.902,droperase,7,0.622,0,and why we are so under null
+258,37585,37681,1254087.42,1257323.99,1254.087,1257.324,3.237,pickerase,2,0.537,0,null space.
+259,37682,37718,1257323.99,1258558.56,1257.324,1258.559,1.235,droperase,0,,1,[silence]
+260,37719,37903,1258558.56,1264731.40,1258.559,1264.731,6.173,explain,0,,1,[silence]
+261,37904,38300,1264731.40,1277977.98,1264.731,1277.978,13.247,write,8,0.868,0,"So, let us consider a point X0 plus"
+262,38301,38421,1277977.98,1282015.35,1277.978,1282.015,4.037,explain,7,0.92,0,where Xn is coming from null space.
+263,38422,38589,1282015.35,1287620.95,1282.015,1287.621,5.606,write,0,,1,[silence]
+264,38590,38673,1287620.95,1290423.76,1287.621,1290.424,2.803,explain,0,,1,[silence]
+265,38674,38812,1290423.76,1295061.73,1290.424,1295.062,4.638,out,5,0.983,0,"So, for example, if you"
+266,38813,38908,1295061.73,1298264.93,1295.062,1298.265,3.203,explain,14,0.846,0,"you take an Xn here, you do a parallelogram law, you will get a"
+267,38909,38932,1298264.93,1299065.73,1298.265,1299.066,0.801,write,3,0.84,0,a point which
+268,38933,38938,1299065.73,1299265.93,1299.066,1299.266,0.200,explain,1,0.783,0,which
+269,38939,39020,1299265.93,1302002.00,1299.266,1302.002,2.736,out,12,0.931,0,"which lies in here, which would be of the form X0 plus"
+270,39021,39088,1302002.00,1304270.94,1302.002,1304.271,2.269,explain,3,0.835,0,"plus Xn. Then,"
+271,39089,39767,1304270.94,1326926.93,1304.271,1326.927,22.656,write,37,0.883,0,"Then, let us consider what will happen to AX0 plus Xn. By the linearity, this will be AX0 plus AXn. AX0 is B0. AXn would be the 0 vector because Xn belongs to the null space. Hence,"
+272,39768,39851,1326926.93,1329729.73,1326.927,1329.730,2.803,explain,8,0.865,0,"this vector maps to the B0 vector. So,"
+273,39852,39973,1329729.73,1333800.47,1329.730,1333.800,4.071,out,11,0.925,0,"So, anything which lies on this translate of my null space"
+274,39974,40025,1333800.47,1335535.54,1333.800,1335.536,1.735,explain,1,0.854,0,will
+275,40026,40381,1335535.54,1347414.08,1335.536,1347.414,11.879,out,31,0.938,0,"will give me a solution to that equation. So, what it tells me is if you can find me one linear combination which can produce me the vector B0, then depending"
+276,40382,40396,1347414.08,1347914.58,1347.414,1347.915,0.501,explain,3,0.992,0,depending on my
+277,40397,40421,1347914.58,1348748.75,1347.915,1348.749,0.834,out,4,0.989,0,"my null space, I"
+278,40422,40457,1348748.75,1349949.95,1348.749,1349.950,1.201,explain,7,0.959,0,I may be able to find you
+279,40458,40459,1349949.95,1350016.68,1349.950,1350.017,0.067,out,2,0.911,0,you infinitely
+280,40460,40465,1350016.68,1350216.88,1350.017,1350.217,0.200,explain,1,0.916,0,infinitely
+281,40466,40971,1350216.88,1367100.43,1350.217,1367.100,16.884,out,40,0.888,0,"infinitely many such combinations which would give me B0. But there is one point that we should keep in mind out here. Again, we have not proved concrete everything. However, we have enough evidence that the null space can be"
+282,40972,41015,1367100.43,1368568.57,1367.100,1368.569,1.468,explain,4,0.89,0,be only a line
+283,41016,41067,1368568.57,1370303.64,1368.569,1370.304,1.735,out,3,0.742,0,line and regarding
+284,41068,41174,1370303.64,1373873.87,1370.304,1373.874,3.570,explain,15,0.979,0,"regarding the column space also, have enough evidence that it can only be a line."
+285,41175,41613,1373873.87,1388521.86,1373.874,1388.522,14.648,out,40,0.931,0,"Now, whatever notion we associate with the dimension of a vector space, even though we have not described what is a dimension, but whatever notion geometrical idea we have grown up with. On that basis, I can say that the"
+286,41614,41677,1388521.86,1390657.32,1388.522,1390.657,2.135,explain,9,0.9,0,the null space is one -dimensional. is a line.
+287,41678,41717,1390657.32,1391991.99,1390.657,1391.992,1.335,out,3,0.996,0,"line. Likewise, the"
+288,41718,41773,1391991.99,1393860.53,1391.992,1393.861,1.869,explain,6,0.884,0,the column space is one -dimensional.
+289,41774,41891,1393860.53,1397797.80,1393.861,1397.798,3.937,out,14,0.957,0,It is also a line. And what is the sum of these two dimensions?
+290,41892,41927,1397797.80,1398999.00,1397.798,1398.999,1.201,explain,5,0.827,0,1 plus 1 is 2.
+291,41928,42031,1398999.00,1402469.14,1398.999,1402.469,3.470,out,10,0.938,0,"2. So, what is so significant about it? Let us"
+292,42032,42044,1402469.14,1402902.90,1402.469,1402.903,0.434,explain,5,0.788,0,us see what is the
+293,42045,42051,1402902.90,1403136.47,1402.903,1403.136,0.234,out,2,0.998,0,the total
+294,42052,42133,1403136.47,1405872.54,1403.136,1405.873,2.736,explain,9,0.924,0,total dimension of the space where everything is starting.
+295,42134,42157,1405872.54,1406673.34,1405.873,1406.673,0.801,out,1,0.977,0,starting.
+296,42158,42196,1406673.34,1407974.64,1406.673,1407.975,1.301,explain,5,0.938,0,"R2, it has dimension 2."
+297,42197,42261,1407974.64,1410143.48,1407.975,1410.143,2.169,out,6,0.965,0,2. Could it be that the
+298,42262,42298,1410143.48,1411378.04,1410.143,1411.378,1.235,explain,4,0.936,0,the dimension of the
+299,42299,42309,1411378.04,1411745.08,1411.378,1411.745,0.367,out,3,0.983,0,the null space
+300,42310,42346,1411745.08,1412979.65,1411.745,1412.980,1.235,explain,6,0.986,0,space and the dimension of the
+301,42347,42372,1412979.65,1413847.18,1412.980,1413.847,0.868,out,5,0.869,0,the column space will always
+302,42373,42410,1413847.18,1415115.12,1413.847,1415.115,1.268,explain,5,0.972,0,always be equal to the
+303,42411,42943,1415115.12,1432899.57,1415.115,1432.900,17.784,out,61,0.933,0,"the dimension of your domain space? Could that be true? And if yes, why should it be true and what is the significance of it for us? As it turns out to be, we will show that this result will be true. That the dimension of the null space plus the dimension of the column space will be equal to the"
+304,42944,42981,1432899.57,1434167.50,1432.900,1434.168,1.268,explain,7,0.937,0,the total dimension of that space you
+305,42982,43945,1434167.50,1466333.00,1434.168,1466.333,32.165,out,65,0.952,0,"you start with. And as we proceed, we will see it is fairly intuitive, if not obvious. However, proving it requires a little effort. However, from geometrical perspective, it is not a totally surprising result, I should say. Okay. Now, before we proceed further, I want to make some changes and see if things can be made slightly differently. Can I change this matrix so"
+306,43946,44231,1466333.00,1475875.88,1466.333,1475.876,9.543,explain,15,0.963,0,so that my null space changes without changing the column space? Can that be done?
+307,44232,44315,1475875.88,1478678.68,1475.876,1478.679,2.803,out,3,0.991,0,"Right now, the"
+308,44316,44321,1478678.68,1478878.88,1478.679,1478.879,0.200,explain,3,0.992,0,the null space
+309,44322,44325,1478878.88,1479012.35,1478.879,1479.012,0.133,out,1,0.991,0,space
+310,44326,44335,1479012.35,1479346.01,1479.012,1479.346,0.334,explain,3,0.99,0,space is this
+311,44336,44359,1479346.01,1480146.81,1479.346,1480.147,0.801,out,4,0.993,0,this line. Can I
+312,44360,44369,1480146.81,1480480.48,1480.147,1480.480,0.334,explain,2,0.998,0,I change
+313,44370,45078,1480480.48,1504137.47,1480.480,1504.137,23.657,out,64,0.947,0,"change the null space somehow without changing the column space? What if I want to the column space the same? Can I change the null space? Can we manipulate these things with the matrix or not? So, for example, if I add one more row to A, what effect would it have on the null space of A? So, I give you an example"
+314,45079,45130,1504137.47,1505872.54,1504.137,1505.873,1.735,explain,8,0.885,0,example and you will see what happens. I
+315,45131,45162,1505872.54,1506940.27,1505.873,1506.940,1.068,out,2,0.412,0,I will
+316,45163,45193,1506940.27,1507974.64,1506.940,1507.975,1.034,explain,7,0.886,0,will make a small change in this
+317,45194,45285,1507974.64,1511044.38,1507.975,1511.044,3.070,out,7,0.838,0,this A and I would like to
+318,45286,45359,1511044.38,1513513.51,1511.044,1513.514,2.469,pickerase,8,0.978,0,to see if it will have some significant
+319,45360,45451,1513513.51,1516583.25,1513.514,1516.583,3.070,erase,12,0.97,0,"significant effect or not. So, what I am going to do is"
+320,45452,45533,1516583.25,1519319.32,1516.583,1519.319,2.736,droperase,12,0.946,0,is I am going to introduce a small change in my matrix
+321,45534,45564,1519319.32,1520353.69,1519.319,1520.354,1.034,pickerase,2,0.974,0,matrix A.
+322,45565,45600,1520353.69,1521554.89,1520.354,1521.555,1.201,erase,0,,1,[silence]
+323,45601,45670,1521554.89,1523890.56,1521.555,1523.891,2.336,droperase,0,,1,[silence]
+324,45671,45818,1523890.56,1528828.83,1523.891,1528.829,4.938,explain,10,0.947,0,"So, I am going to add another entry. Let me"
+325,45819,45982,1528828.83,1534300.97,1528.829,1534.301,5.472,write,19,0.89,0,"me put a 0 here and let me put a 1 here. Okay. So, now I have changed my"
+326,45983,46525,1534300.97,1552419.09,1534.301,1552.419,18.118,explain,28,0.849,0,"my A from a 3 by 2 matrix to a 4 by 2 matrix. So, of course, things have changed. What is the null space? Can I make"
+327,46526,46593,1552419.09,1554688.02,1552.419,1554.688,2.269,pickerase,3,0.986,0,some changes here
+328,46594,46681,1554688.02,1557624.29,1554.688,1557.624,2.936,erase,8,0.848,0,"here also? So, is a new example you"
+329,46682,46759,1557624.29,1560226.89,1557.624,1560.227,2.603,droperase,9,0.781,0,you can say but built upon the old example.
+330,46760,46829,1560226.89,1562562.56,1560.227,1562.563,2.336,explain,1,0.996,0,example.
+331,46830,46877,1562562.56,1564164.16,1562.563,1564.164,1.602,pickerase,0,,1,[silence]
+332,46878,47053,1564164.16,1570036.70,1564.164,1570.037,5.873,erase,0,,1,[silence]
+333,47054,47137,1570036.70,1572839.51,1570.037,1572.840,2.803,droperase,1,0.441,0,"So,"
+334,47138,47177,1572839.51,1574174.17,1572.840,1574.174,1.335,pickerase,1,0.441,0,"So,"
+335,47178,47418,1574174.17,1582215.55,1574.174,1582.216,8.041,erase,19,0.851,0,let me avoid confusion and then we give this matrix a new name. I am just trying to show
+336,47419,47474,1582215.55,1584084.08,1582.216,1584.084,1.869,droperase,7,0.974,0,show you how you can make examples
+337,47475,47508,1584084.08,1585218.55,1584.084,1585.219,1.134,pickerase,1,0.944,0,examples
+338,47509,47555,1585218.55,1586786.79,1585.219,1586.787,1.568,erase,1,0.774,0,work
+339,47556,47612,1586786.79,1588688.69,1586.787,1588.689,1.902,droperase,7,0.957,0,work in a way that you want.
+340,47613,47623,1588688.69,1589055.72,1588.689,1589.056,0.367,pickerase,1,0.983,0,want.
+341,47624,48162,1589055.72,1607040.37,1589.056,1607.040,17.985,erase,0,,1,[silence]
+342,48163,48232,1607040.37,1609376.04,1607.040,1609.376,2.336,droperase,0,,1,[silence]
+343,48233,48409,1609376.04,1615281.95,1609.376,1615.282,5.906,explain,7,0.951,0,"So, let me call this as matrix."
+344,48410,48445,1615281.95,1616483.15,1615.282,1616.483,1.201,write,0,,1,[silence]
+345,48446,48574,1616483.15,1620787.45,1616.483,1620.787,4.304,explain,1,0.891,0,"So,"
+346,48575,48815,1620787.45,1628828.83,1620.787,1628.829,8.041,write,16,0.921,0,"So, L is a 4 by 2 matrix. So, now this is from R4 to R2."
+347,48816,48925,1628828.83,1632499.17,1628.829,1632.499,3.670,explain,0,,1,[silence]
+348,48926,48973,1632499.17,1634100.77,1632.499,1634.101,1.602,pickerase,0,,1,[silence]
+349,48974,49037,1634100.77,1636236.24,1634.101,1636.236,2.135,erase,0,,1,[silence]
+350,49038,49096,1636236.24,1638204.87,1636.236,1638.205,1.969,droperase,0,,1,[silence]
+351,49097,49170,1638204.87,1640674.01,1638.205,1640.674,2.469,explain,0,,1,[silence]
+352,49171,49267,1640674.01,1643910.58,1640.674,1643.911,3.237,write,4,0.762,0,"Now, you can see"
+353,49268,49472,1643910.58,1650750.75,1643.911,1650.751,6.840,explain,17,0.927,0,see the input space has remained the same as the previous example. The output space has changed.
+354,49473,49512,1650750.75,1652085.42,1650.751,1652.085,1.335,pickerase,5,0.959,0,question is what happens now?
+355,49513,49697,1652085.42,1658258.26,1652.085,1658.258,6.173,erase,1,0.99,0,now?
+356,49698,49760,1658258.26,1660360.36,1658.258,1660.360,2.102,droperase,0,,1,[silence]
+357,49761,50029,1660360.36,1669336.00,1660.360,1669.336,8.976,explain,0,,1,[silence]
+358,50030,50083,1669336.00,1671137.80,1669.336,1671.138,1.802,droperase,0,,1,[silence]
+359,50084,50132,1671137.80,1672772.77,1671.138,1672.773,1.635,out,0,,1,[silence]
+360,50133,50606,1672772.77,1688588.59,1672.773,1688.589,15.816,explain,14,0.873,0,"So, now the question is what are the changes that we will get if"
+361,50607,50679,1688588.59,1691024.36,1688.589,1691.024,2.436,out,12,0.931,0,if I make a small change like this? How will it affect
+362,50680,50748,1691024.36,1693326.66,1691.024,1693.327,2.302,explain,5,0.795,0,"affect the null space? Now,"
+363,50749,51109,1693326.66,1705372.04,1693.327,1705.372,12.045,write,28,0.841,0,"Now, null space this time is the name going to sit inside R2 and the column space this time will sit inside R4. Remember last time what had"
+364,51110,51188,1705372.04,1708008.01,1705.372,1708.008,2.636,explain,7,0.963,0,had happened? Null space was a line.
+365,51189,51305,1708008.01,1711911.91,1708.008,1711.912,3.904,out,11,0.975,0,line. Column space was also a line. This time by adding
+366,51306,51313,1711911.91,1712178.85,1711.912,1712.179,0.267,explain,2,0.982,0,adding this
+367,51314,51329,1712178.85,1712712.71,1712.179,1712.713,0.534,out,3,0.824,0,this vector what
+368,51330,52197,1712712.71,1741675.01,1712.713,1741.675,28.962,explain,60,0.894,0,"what will happen? What will change? Now, as you can see the way I have given this matrix the first column is not. So, the first column will not be basically a multiple of the second column or vice versa. So, things out here are sort of linearly independent. So, if I go for null space this time obvious vector"
+369,52198,52685,1741675.01,1757957.96,1741.675,1757.958,16.283,write,10,0.919,0,"vector for null space is definitely the 0, 0 vector."
+370,52686,53044,1757957.96,1769936.60,1757.958,1769.937,11.979,explain,23,0.868,0,"vector. Question is there something else which could possibly give me a 0, 0 combination? Now, from our ideas of linear independence column"
+371,53045,53784,1769936.60,1794627.96,1769.937,1794.628,24.691,write,0,,1,[silence]
+372,53785,55084,1794627.96,1838004.67,1794.628,1838.005,43.377,explain,118,0.918,0,"1 is linearly independent from column 2 and why is it so obvious? Well, these are two columns. If they were dependent they should be multiples of each other and as we said they are not multiples of each other. Another way to look at it is the first column has a 0 in the last entry and the second column has a non -zero entry in the second column. So, how can they be multiples of each other? So, we know that these are linearly independent columns. So, that means they cannot produce a 0 vector except when we combine them trivially. So, then we know that 0, 0 is the only vector in the null space."
+373,55085,55361,1838004.67,1847247.25,1838.005,1847.247,9.243,write,17,0.968,0,"So, this tells me that the null space of A consists of only the 0, 0 vector."
+374,55362,56073,1847247.25,1871004.34,1847.247,1871.004,23.757,explain,40,0.947,0,"So, this time the dimension that we perceive of the null space is 0. There is nothing except for the 0 vector. What about the column space? Well, again by linear independence it is kind of clear that column space"
+375,56074,56192,1871004.34,1874974.97,1871.004,1874.975,3.971,write,3,0.916,0,space is spanned
+376,56193,56297,1874974.97,1878478.48,1874.975,1878.478,3.504,explain,6,0.857,0,"spanned by two independent vectors. So,"
+377,56298,56427,1878478.48,1882816.15,1878.478,1882.816,4.338,pickerase,0,,1,[silence]
+378,56428,56628,1882816.15,1889522.86,1882.816,1889.523,6.707,erase,0,,1,[silence]
+379,56629,56655,1889522.86,1890423.76,1889.523,1890.424,0.901,pickerase,0,,1,[silence]
+380,56656,56739,1890423.76,1893226.56,1890.424,1893.227,2.803,erase,0,,1,[silence]
+381,56740,56795,1893226.56,1895095.10,1893.227,1895.095,1.869,droperase,0,,1,[silence]
+382,56796,56909,1895095.10,1898898.90,1895.095,1898.899,3.804,explain,3,0.961,0,column space is
+383,56910,57197,1898898.90,1908508.51,1898.899,1908.509,9.610,write,4,0.948,0,"is spanned by, so"
+384,57198,57756,1908508.51,1927160.49,1908.509,1927.160,18.652,explain,54,0.882,0,"so this means that whatever this guy is it would be definitely a plane, a two dimensional plane in R4. So, again the sum of the dimensions of the null space and the column space turns out to be equal to the dimension of the domain space. So, it cannot be a coincidence, but"
+385,57757,57877,1927160.49,1931197.86,1927.160,1931.198,4.037,out,18,0.869,0,but you see by a small change in the matrix we were able to choose the null space
+386,57878,57906,1931197.86,1932165.50,1931.198,1932.165,0.968,explain,3,0.956,0,space quite a
+387,57907,58062,1932165.50,1937370.70,1932.165,1937.371,5.205,out,12,0.946,0,"a bit and it also affected the column space as such. Okay,"
+388,58063,58083,1937370.70,1938071.40,1937.371,1938.071,0.701,explain,3,0.9,0,"Okay, let see"
+389,58084,58105,1938071.40,1938805.47,1938.071,1938.805,0.734,out,2,0.59,0,see could
+390,58106,58152,1938805.47,1940373.71,1938.805,1940.374,1.568,explain,6,0.849,0,could we have made another change
+391,58153,58171,1940373.71,1941007.67,1940.374,1941.008,0.634,out,1,0.998,0,change
+392,58172,58364,1941007.67,1947447.45,1941.008,1947.447,6.440,pickerase,22,0.958,0,"in the matrix and got something different out of it. So, I will do a third example based on our original matrix."
+393,58365,59148,1947447.45,1973606.94,1947.447,1973.607,26.159,erase,25,0.94,0,matrix. This time I am going to make a change in the columns of the matrix and see what happens. This is my third example.
+394,59149,59225,1973606.94,1976176.18,1973.607,1976.176,2.569,droperase,0,,1,[silence]
+395,59226,59305,1976176.18,1978845.51,1976.176,1978.846,2.669,explain,0,,1,[silence]
+396,59306,59474,1978845.51,1984484.48,1978.846,1984.484,5.639,write,0,,1,[silence]
+397,59475,59713,1984484.48,1992459.13,1984.484,1992.459,7.975,explain,16,0.865,0,"So, here is my matrix. Let me see what name should I give it. Let me"
+398,59714,59919,1992459.13,1999332.67,1992.459,1999.333,6.874,write,18,0.919,0,"me call it as S. So, remember this was my original matrix 1, 2, 3, 2, 4, 6."
+399,59920,60274,1999332.67,2011177.84,1999.333,2011.178,11.845,explain,17,0.854,0,I will make one more change and see something happens. Let us see if we can add
+400,60275,60410,2011177.84,2015715.72,2011.178,2015.716,4.538,write,1,0.992,0,another
+401,60411,60512,2015715.72,2019119.12,2015.716,2019.119,3.403,explain,7,0.886,0,another column to it. This time it
+402,60513,60839,2019119.12,2030030.03,2019.119,2030.030,10.911,write,20,0.938,0,would be a linear transformation from R3. Let us see what are the null spaces. What is the null space?
+403,60840,60935,2030030.03,2033233.23,2030.030,2033.233,3.203,explain,1,0.988,0,space?
+404,60936,60983,2033233.23,2034834.83,2033.233,2034.835,1.602,pickerase,0,,1,[silence]
+405,60984,61014,2034834.83,2035869.20,2034.835,2035.869,1.034,erase,3,0.899,0,The null space
+406,61015,61075,2035869.20,2037904.57,2035.869,2037.905,2.035,droperase,9,0.924,0,space of S instead of the space of A.
+407,61076,61134,2037904.57,2039873.21,2037.905,2039.873,1.969,explain,2,0.929,0,A. What
+408,61135,61410,2039873.21,2049082.42,2039.873,2049.082,9.209,write,21,0.906,0,"What about the null space of S? Okay, let me go with the obvious candidates. Can I say 0, 0, 0"
+409,61411,61521,2049082.42,2052786.12,2049.082,2052.786,3.704,explain,8,0.888,0,definitely belongs to the null space. What else
+410,61522,61636,2052786.12,2056623.29,2052.786,2056.623,3.837,write,15,0.955,0,"else can I say? Can I say a vector like 0, 0, 1 will also"
+411,61637,62042,2056623.29,2070170.17,2056.623,2070.170,13.547,explain,46,0.914,0,"also belong to the null space. The significance of this last one is that even though I may make the first two columns 0, but I can put any non -zero element in the third column and have a linear combination which still maps to 0."
+412,62043,62323,2070170.17,2079546.21,2070.170,2079.546,9.376,write,28,0.88,0,"0. Do you remember the original solution that we had 2, minus 1 and here I can put anything I want. For example, I can put 2, minus"
+413,62324,63024,2079546.21,2102936.27,2079.546,2102.936,23.390,explain,44,0.921,0,"minus 1, That will also be a solution to this equation. That vector will also live in the null space. Okay, now imagine I told you that these two vectors live in the null space. Does everything live in the null space? For example,"
+414,63025,63445,2102936.27,2116983.65,2102.936,2116.984,14.047,write,19,0.891,0,"does the vector 1, 0, 0 live in the null space? The answer is of course, no. Because if"
+415,63446,65294,2116983.65,2178678.68,2116.984,2178.679,61.695,explain,186,0.894,0,"you look at 1, 0, 0, 1 times the first column, 0 times the second column, 0 times the third column doesn't produce me the 0 vector. So we know that whatever is the null space it cannot be three dimensional because vectors do not live in the null space. We know it has to be at least one dimensional because at least a non -zero solution is there. We can also say it is two dimensional because we have two linearly dependent vectors both of which belong to the null space. So in a sense we can say that we have a plane in R3 which would be the null space of this matrix. is what about the column space? Now before we proceed, suppose that result was true that the sum of the dimensions of the null space and the column space should be equal to the dimension of the domain. Then we are saying the dimension of the null space is two, the domain is three dimensional so the column space could be only one dimensional. Now is it obvious? If you think"
+416,65295,66076,2178678.68,2204771.44,2178.679,2204.771,26.093,write,50,0.907,0,"think it is fairly obvious because if you look at the column space of S it would be a linear combination of the vector 1, 2, 3, 2, 4, 6 and 0, 0, 0. This is actually nothing but a multiple of the vector 1, 2, So the column space"
+417,66077,66178,2204771.44,2208174.84,2204.771,2208.175,3.403,explain,8,0.916,0,space as you can see has not changed.
+418,66179,66542,2208174.84,2220320.32,2208.175,2220.320,12.145,out,42,0.918,0,It is still giving me the same column space that I started with in my original example. So here is an example where I changed the null space but did not change the column space at all. So if you understand these
+419,66543,66604,2220320.32,2222389.06,2220.320,2222.389,2.069,explain,5,0.852,0,these basic ideas behind this
+420,66605,66684,2222389.06,2225058.39,2222.389,2225.058,2.669,out,5,0.832,0,this then it will be
+421,66685,66730,2225058.39,2226593.26,2225.058,2226.593,1.535,explain,8,0.997,0,be very easy for us to further understand
+422,66731,66817,2226593.26,2229496.16,2226.593,2229.496,2.903,out,7,0.946,0,understand the theorems associated with it. But
+423,66818,66826,2229496.16,2229796.46,2229.496,2229.796,0.300,pickerase,1,0.657,0,But
+424,66827,66910,2229796.46,2232599.27,2229.796,2232.599,2.803,out,11,0.861,0,But now I am going to show you a better example
+425,66911,66924,2232599.27,2233066.40,2232.599,2233.066,0.467,pickerase,3,0.988,0,example of how
+426,66925,67328,2233066.40,2246546.55,2233.066,2246.547,13.480,erase,30,0.877,0,how to get the column space for a general matrix. Up until now we were just guessing the solutions based on simple numbers. So these were very tailor made examples
+427,67329,67463,2246546.55,2251051.05,2246.547,2251.051,4.505,droperase,0,,1,[silence]
+428,67464,67507,2251051.05,2252519.19,2251.051,2252.519,1.468,pickerase,0,,1,[silence]
+429,67508,67669,2252519.19,2257924.59,2252.519,2257.925,5.405,erase,0,,1,[silence]
+430,67670,68051,2257924.59,2270670.67,2257.925,2270.671,12.746,droperase,0,,1,[silence]
+431,68052,68086,2270670.67,2271838.51,2270.671,2271.839,1.168,pickerase,0,,1,[silence]
+432,68087,68159,2271838.51,2274274.27,2271.839,2274.274,2.436,erase,0,,1,[silence]
+433,68160,68224,2274274.27,2276443.11,2274.274,2276.443,2.169,droperase,0,,1,[silence]
+434,68225,68329,2276443.11,2279946.61,2276.443,2279.947,3.504,out,0,,1,[silence]
+435,68330,68382,2279946.61,2281715.05,2279.947,2281.715,1.768,explain,0,,1,[silence]
+436,68383,68416,2281715.05,2282849.52,2281.715,2282.850,1.134,pickerase,0,,1,[silence]
+437,68417,68943,2282849.52,2300433.77,2282.850,2300.434,17.584,erase,0,,1,[silence]
+438,68944,69009,2300433.77,2302635.97,2300.434,2302.636,2.202,droperase,0,,1,[silence]
+439,69010,69023,2302635.97,2303103.10,2302.636,2303.103,0.467,explain,0,,1,[silence]
+440,69024,69105,2303103.10,2305839.17,2303.103,2305.839,2.736,pickerase,0,,1,[silence]
+441,69106,69165,2305839.17,2307841.17,2305.839,2307.841,2.002,erase,0,,1,[silence]
+442,69166,69216,2307841.17,2309542.88,2307.841,2309.543,1.702,droperase,0,,1,[silence]
+443,69217,69260,2309542.88,2311011.01,2309.543,2311.011,1.468,pickerase,0,,1,[silence]
+444,69261,69312,2311011.01,2312746.08,2311.011,2312.746,1.735,erase,0,,1,[silence]
+445,69313,69447,2312746.08,2317250.58,2312.746,2317.251,4.505,droperase,0,,1,[silence]
+446,69448,69475,2317250.58,2318184.85,2317.251,2318.185,0.934,pickerase,0,,1,[silence]
+447,69476,70881,2318184.85,2365098.43,2318.185,2365.098,46.914,erase,0,,1,[silence]
+448,70882,70981,2365098.43,2368435.10,2365.098,2368.435,3.337,droperase,0,,1,[silence]
+449,70982,71090,2368435.10,2372072.07,2368.435,2372.072,3.637,out,0,,1,[silence]
+450,71091,71126,2372072.07,2373273.27,2372.072,2373.273,1.201,explain,0,,1,[silence]
+451,71127,71472,2373273.27,2384818.15,2373.273,2384.818,11.545,out,9,0.724,0,of practical difficulties. Okay so now we proceed with
+452,71473,71554,2384818.15,2387554.22,2384.818,2387.554,2.736,explain,1,0.931,0,with
+453,71555,71727,2387554.22,2393326.66,2387.554,2393.327,5.772,out,10,0.899,0,the non -trivial example where things would be done. So
+454,71728,71770,2393326.66,2394761.43,2393.327,2394.761,1.435,explain,6,0.958,0,So imagine we have this matrix
+455,71771,71895,2394761.43,2398932.27,2394.761,2398.932,4.171,write,3,0.796,0,"matrix 1, 2,"
+456,71896,71913,2398932.27,2399532.87,2398.932,2399.533,0.601,explain,2,0.923,0,"2, 3,"
+457,71914,71967,2399532.87,2401334.67,2399.533,2401.335,1.802,out,1,0.996,0,"3,"
+458,71968,71995,2401334.67,2402268.94,2401.335,2402.269,0.934,explain,1,0.874,0,"5,"
+459,71996,72346,2402268.94,2413980.65,2402.269,2413.981,11.712,write,5,0.913,0,"12, 3, 6, 7, 13."
+460,72347,72389,2413980.65,2415415.42,2413.981,2415.415,1.435,explain,0,,1,[silence]
+461,72390,72642,2415415.42,2423857.19,2415.415,2423.857,8.442,out,17,0.894,0,Suppose you are asked to find the column space of this matrix. We want to see what
+462,72643,72689,2423857.19,2425425.43,2423.857,2425.425,1.568,explain,3,0.8,0,what exactly would
+463,72690,72799,2425425.43,2429095.76,2425.425,2429.096,3.670,write,10,0.889,0,would it be like. So what is the column space
+464,72800,72812,2429095.76,2429529.53,2429.096,2429.530,0.434,explain,2,0.991,0,space of
+465,72813,73058,2429529.53,2437737.74,2429.530,2437.738,8.208,out,18,0.879,0,of J? Of course one can come and say oh well column space of J would be basically
+466,73059,73075,2437737.74,2438304.97,2437.738,2438.305,0.567,pickerase,1,0.888,0,basically
+467,73076,73145,2438304.97,2440640.64,2438.305,2440.641,2.336,erase,7,0.871,0,the linear span of columns of A.
+468,73146,73182,2440640.64,2441875.21,2440.641,2441.875,1.235,droperase,5,0.718,0,A. Even though that is
+469,73183,73231,2441875.21,2443510.18,2441.875,2443.510,1.635,out,10,0.797,0,is a very nice description but it is kind of
+470,73232,73246,2443510.18,2444010.68,2443.510,2444.011,0.501,pickerase,3,0.989,0,of useless for
+471,73247,73504,2444010.68,2452619.29,2444.011,2452.619,8.609,erase,2,0.988,0,for us.
+472,73505,73541,2452619.29,2453853.85,2452.619,2453.854,1.235,droperase,0,,1,[silence]
+473,73542,73566,2453853.85,2454688.02,2453.854,2454.688,0.834,out,1,0.333,0,Because
+474,73567,73608,2454688.02,2456089.42,2454.688,2456.089,1.401,explain,7,0.714,0,Because it does not tell you anything
+475,73609,73680,2456089.42,2458491.83,2456.089,2458.492,2.402,write,8,0.786,0,anything about J. example if I asked you
+476,73681,73692,2458491.83,2458892.23,2458.492,2458.892,0.400,explain,2,0.789,0,you does
+477,73693,74215,2458892.23,2476343.01,2458.892,2476.343,17.451,out,44,0.89,0,"does a vector 2, 7, minus 19 belong to this. There is no way you can tell me just by the description that it is a linear span of the columns of J. So we want better information than this. So remember we said"
+478,74216,74249,2476343.01,2477477.48,2476.343,2477.477,1.134,explain,2,0.949,0,said a
+479,74250,74667,2477477.48,2491424.76,2477.477,2491.425,13.947,write,23,0.929,0,a vector will belong to the column space of J if this system has a solution. So we will use this idea and
+480,74668,74690,2491424.76,2492192.19,2491.425,2492.192,0.767,explain,4,0.865,0,we will see that
+481,74691,74770,2492192.19,2494861.53,2492.192,2494.862,2.669,out,15,0.979,0,that we are doing exactly the same thing that we have been doing all along.
+482,74771,74789,2494861.53,2495495.50,2494.862,2495.495,0.634,explain,1,0.903,0,along.
+483,74790,75349,2495495.50,2514180.85,2495.495,2514.181,18.685,write,31,0.937,0,"We could start with the matrix given to us then we can do a row reduction and hopefully things will go from there. So V1, V2, V3. We want to know"
+484,75350,75368,2514180.85,2514814.81,2514.181,2514.815,0.634,explain,1,0.909,0,under
+485,75369,75558,2514814.81,2521154.49,2514.815,2521.154,6.340,out,18,0.905,0,"under what circumstances of V1, V2, V3 would this system be consistent. So if you remember we have"
+486,75559,75680,2521154.49,2525225.23,2521.154,2525.225,4.071,explain,15,0.949,0,have to worry about pivot. Pivot should not come into the right hand side column.
+487,75681,75813,2525225.23,2529663.00,2525.225,2529.663,4.438,out,15,0.956,0,column. That is all we care about. Apart from that everything else is fine. So
+488,75814,75889,2529663.00,2532198.87,2529.663,2532.199,2.536,explain,13,0.878,0,So let us try to do the row reduction and see what happens.
+489,75890,76218,2532198.87,2543176.51,2532.199,2543.177,10.978,write,26,0.942,0,So if I do the row reduction I will get the following thing. So I not going to write down the row operations. I will just
+490,76219,76349,2543176.51,2547547.55,2543.177,2547.548,4.371,explain,17,0.762,0,just tell you what the row operations are. So minus 2 times row 1 then add it
+491,76350,76643,2547547.55,2557357.36,2547.548,2557.357,9.810,write,30,0.892,0,"it to row 2. So this will be 0, this will be 0, this will be 2, this will be a 2 and this will be a V2 minus 2V1."
+492,76644,76877,2557357.36,2565165.17,2557.357,2565.165,7.808,explain,14,0.907,0,Likewise I can take row 1 and try to get zeros in row 3.
+493,76878,77048,2565165.17,2570870.87,2565.165,2570.871,5.706,write,16,0.71,0,3. So 3 times row 1 add it to row 3 will give me minus 2
+494,77049,77175,2570870.87,2575108.44,2570.871,2575.108,4.238,explain,5,0.874,0,2 and this would be
+495,77176,77410,2575108.44,2582949.62,2575.108,2582.950,7.841,write,9,0.761,0,over here and this would be V3 minus 3V1.
+496,77411,77479,2582949.62,2585251.92,2582.950,2585.252,2.302,explain,7,0.741,0,So I am kind of doing more
+497,77480,77581,2585251.92,2588655.32,2585.252,2588.655,3.403,out,9,0.886,0,more than one row operation in one go. Now
+498,77582,77639,2588655.32,2590590.59,2588.655,2590.591,1.935,explain,9,0.843,0,Now it is fairly obvious that if I add
+499,77640,78406,2590590.59,2616182.85,2590.591,2616.183,25.592,write,50,0.873,0,"add the last two rows or strictly speaking if take row 2 and add it to row 3 I should get something nice. This would be a 0, a 0, all zeros here and see what I going to get over here. I will get V2 plus V3 minus 5V1."
+500,78407,78479,2616182.85,2618618.62,2616.183,2618.619,2.436,explain,0,,1,[silence]
+501,78480,78733,2618618.62,2627093.76,2618.619,2627.094,8.475,out,21,0.856,0,Now the moment I get this let us first view a few things before we start finding answers. This was my
+502,78734,78774,2627093.76,2628461.80,2627.094,2628.462,1.368,explain,4,0.932,0,my original matrix J.
+503,78775,78869,2628461.80,2631631.63,2628.462,2631.632,3.170,write,1,0.779,0,J.
+504,78870,78879,2631631.63,2631965.30,2631.632,2631.965,0.334,explain,0,,1,[silence]
+505,78880,78911,2631965.30,2633033.03,2631.965,2633.033,1.068,out,2,0.738,0,What I
+506,78912,78966,2633033.03,2634868.20,2633.033,2634.868,1.835,explain,6,0.936,0,I have got here is the
+507,78967,79400,2634868.20,2649349.35,2634.868,2649.349,14.481,write,20,0.896,0,the so called an echelon form of J. Let me denote it by U. So U is the echelon form.
+508,79401,79571,2649349.35,2655055.06,2649.349,2655.055,5.706,explain,21,0.93,0,Of course I can go for the reduced row echelon form also. So just for the sake of argument let me
+509,79572,80396,2655055.06,2682582.58,2655.055,2682.583,27.528,write,37,0.831,0,"me go do one more step even though for our competition sake it is not really needed. But suppose I divide by this is what I get. V2 minus 2V1 and we have 0, 0, 0, 0."
+510,80397,80589,2682582.58,2689022.36,2682.583,2689.022,6.440,explain,25,0.881,0,Now we are almost there. are almost with the echelon form except that I have to make this entry 0. So if I do one
+511,80590,82087,2689022.36,2739005.67,2689.022,2739.006,49.983,write,44,0.787,0,one more step I will get my reduced row echelon form. So will be minus 3 times row 2 divided by row 1. This will be a 2. And here I will get something nice or maybe not. It would be minus 2V1 plus
+512,82088,82200,2739005.67,2742776.11,2739.006,2742.776,3.770,explain,2,0.603,0,minus 3V2.
+513,82201,82432,2742776.11,2750517.18,2742.776,2750.517,7.741,pickerase,0,,1,[silence]
+514,82433,82496,2750517.18,2752652.65,2750.517,2752.653,2.135,erase,0,,1,[silence]
+515,82497,82619,2752652.65,2756756.76,2752.653,2756.757,4.104,droperase,0,,1,[silence]
+516,82620,82941,2756756.76,2767500.83,2756.757,2767.501,10.744,explain,6,0.831,0,So it will be minus 3V2.
+517,82942,83264,2767500.83,2778278.28,2767.501,2778.278,10.777,write,2,0.506,0,Even though
+518,83265,83418,2778278.28,2783416.75,2778.278,2783.417,5.138,explain,14,0.857,0,though those entries will not make any difference. But what we have got over
+519,83419,83843,2783416.75,2797597.60,2783.417,2797.598,14.181,write,10,0.854,0,over here is the so called the reduced echelon form.
+520,83844,84039,2797597.60,2804137.47,2797.598,2804.137,6.540,explain,12,0.876,0,And as we remember reduced echelon forms are always unique. So that
+521,84040,84088,2804137.47,2805772.44,2804.137,2805.772,1.635,pickerase,7,0.776,0,that is an advantage we will have.
+522,84089,84107,2805772.44,2806406.41,2805.772,2806.406,0.634,erase,0,,1,[silence]
+523,84108,84147,2806406.41,2807741.07,2806.406,2807.741,1.335,droperase,0,,1,[silence]
+524,84148,84182,2807741.07,2808908.91,2807.741,2808.909,1.168,explain,0,,1,[silence]
+525,84183,84452,2808908.91,2817917.92,2808.909,2817.918,9.009,out,22,0.916,0,Now we will see getting some answers would be fairly easy for us. For example if you look at the pivot entry.
+526,84453,84615,2817917.92,2823356.69,2817.918,2823.357,5.439,explain,10,0.836,0,What are the pivot entries? Here is a pivot out
+527,84616,85072,2823356.69,2838605.27,2823.357,2838.605,15.249,write,29,0.88,0,here and out here we have a pivot. So I mark all the pivots in red. So here is my pivot column and here is my another pivot column.
+528,85073,85184,2838605.27,2842342.34,2838.605,2842.342,3.737,explain,6,0.891,0,column. So there are two pivots
+529,85185,85376,2842342.34,2848748.75,2842.342,2848.749,6.406,out,15,0.895,0,pivots which are occurring there. So if I want this system to be consistent then
+530,85377,85541,2848748.75,2854254.25,2848.749,2854.254,5.506,explain,19,0.837,0,then I don't want any pivot entry here. So that means this entry must be 0. So for consistency
+531,85542,86523,2854254.25,2887020.35,2854.254,2887.020,32.766,write,43,0.901,0,"consistency b2 plus b3 minus 5 b1. So this tells me that the column space of J would consist of all those vectors b1, b2, b3. For which b2 plus b3 minus 5 b1 must be 0. Now this is a much better"
+532,86524,86605,2887020.35,2889756.42,2887.020,2889.756,2.736,explain,5,0.985,0,better description of the column
+533,86606,86817,2889756.42,2896830.16,2889.756,2896.830,7.074,out,21,0.88,0,column space than what we had earlier. Because now we can say that give me a vector and I can tell
+534,86818,86823,2896830.16,2897030.36,2896.830,2897.030,0.200,explain,2,0.992,0,tell you
+535,86824,87017,2897030.36,2903503.50,2897.030,2903.504,6.473,out,27,0.866,0,you whether it belongs to the column space or not. So for example if somebody says does the vector 1 1 1 belong to the column space?
+536,87018,87173,2903503.50,2908708.71,2903.504,2908.709,5.205,explain,24,0.918,0,I just come here and put 1 1 1 and test whether it gives me 0 or not. If it does then it is
+537,87174,87459,2908708.71,2918251.58,2908.709,2918.252,9.543,out,39,0.961,0,is in the column space. If it does not then it is not in the column space. So this is the kind of description we are hoping for. But this is not the end of the story. We want
+538,87460,87541,2918251.58,2920987.65,2918.252,2920.988,2.736,explain,11,0.956,0,want to see if can push our things a bit further.
+539,87542,87813,2920987.65,2930063.40,2920.988,2930.063,9.076,out,13,0.861,0,further. Like can there be more descriptions of column space which could help
+540,87814,87829,2930063.40,2930597.26,2930.063,2930.597,0.534,explain,3,0.994,0,help us out
+541,87830,87981,2930597.26,2935669.00,2930.597,2935.669,5.072,out,20,0.931,0,out a little bit? So here is the first question that one may ask. What is the relationship between the
+542,87982,88026,2935669.00,2937170.50,2935.669,2937.171,1.502,explain,5,0.952,0,"the column space of J,"
+543,88027,88047,2937170.50,2937871.20,2937.171,2937.871,0.701,out,0,,1,[silence]
+544,88048,88229,2937871.20,2943943.94,2937.871,2943.944,6.073,explain,17,0.925,0,the column space of U and the column space of R? Could they be the same or
+545,88230,88378,2943943.94,2948915.58,2943.944,2948.916,4.972,out,10,0.916,0,or there is no relation between them? Any such thing
+546,88379,88439,2948915.58,2950950.95,2948.916,2950.951,2.035,explain,6,0.898,0,thing that we can tell you?
+547,88440,88599,2950950.95,2956289.62,2950.951,2956.290,5.339,out,17,0.872,0,Let us go with an obvious thing. Could they be the same? Can the column space of
+548,88600,88776,2956289.62,2962195.53,2956.290,2962.196,5.906,explain,13,0.943,0,of J be the same as the column space of its reduced forms?
+549,88777,89429,2962195.53,2983983.98,2962.196,2983.984,21.788,write,26,0.912,0,So here is the question we are asking. Should the column space of a matrix J be same as the column space of its reduced forms?
+550,89430,89536,2983983.98,2987554.22,2983.984,2987.554,3.570,explain,7,0.815,0,Echelon forms or row reduced echelon forms?
+551,89537,89662,2987554.22,2991758.43,2987.554,2991.758,4.204,write,7,0.967,0,This is a common myth that one
+552,89663,89764,2991758.43,2995161.83,2991.758,2995.162,3.403,explain,9,0.913,0,one has to suffer with. If we look at
+553,89765,89901,2995161.83,2999733.07,2995.162,2999.733,4.571,out,17,0.971,0,"at it little bit nicely, we should be able to tell whether that is true or not."
+554,89902,89909,2999733.07,3000000.00,2999.733,3000.000,0.267,explain,0,,1,[silence]
+555,89910,89916,3000000.00,3000233.57,3000.000,3000.234,0.234,out,1,0.508,0,Look
+556,89917,90543,3000233.57,3021154.49,3000.234,3021.154,20.921,explain,62,0.934,0,"Look at the column space of R. Look at these columns. They look very nice but they have one thing in common. All the columns, their last entry is zero. So whatever they span, whatever they cook up, whatever vector is in the column space of R has to have a zero in the last entry. And if you look at J,"
+557,90544,90596,3021154.49,3022922.92,3021.154,3022.923,1.768,out,7,0.932,0,"J, would you agree each of these"
+558,90597,90649,3022922.92,3024691.36,3022.923,3024.691,1.768,explain,6,0.881,0,these columns by definition should belong
+559,90650,90690,3024691.36,3026059.39,3024.691,3026.059,1.368,out,5,0.992,0,belong to the column space
+560,90691,90702,3026059.39,3026459.79,3026.059,3026.460,0.400,explain,2,0.996,0,space of
+561,90703,90716,3026459.79,3026926.93,3026.460,3026.927,0.467,out,3,0.915,0,of J? So
+562,90717,90779,3026926.93,3029029.03,3026.927,3029.029,2.102,explain,9,0.833,0,"So for example, 1, 2, 3 belongs to the"
+563,90780,90809,3029029.03,3030030.03,3029.029,3030.030,1.001,out,7,0.95,0,"the column space of J, but 1,"
+564,90810,90844,3030030.03,3031197.86,3030.030,3031.198,1.168,explain,7,0.969,0,"1, 2, 3 cannot belong to the"
+565,90845,90893,3031197.86,3032832.83,3031.198,3032.833,1.635,out,6,0.962,0,the column space of R or
+566,90894,91163,3032832.83,3041841.84,3032.833,3041.842,9.009,explain,29,0.94,0,or column space of U. So that gives you the answer. Then the column space of J need not be the same as column space of U or R.
+567,91164,91871,3041841.84,3065465.47,3041.842,3065.465,23.624,write,24,0.918,0,So here is a concrete reason for this. Belongs to the column space of J does not belong to the column space of U
+568,91872,92049,3065465.47,3071404.74,3065.465,3071.405,5.939,explain,8,0.777,0,"because of the last entry being zero. Okay,"
+569,92050,92279,3071404.74,3079079.08,3071.405,3079.079,7.674,out,13,0.769,0,"Okay, the question is does that mean there is nothing useful about finding"
+570,92280,92344,3079079.08,3081247.91,3079.079,3081.248,2.169,explain,8,0.732,0,finding column space of the reduced rotational form?
+571,92345,92446,3081247.91,3084651.32,3081.248,3084.651,3.403,out,9,0.909,0,"No, that is not quite the thing. What it"
+572,92447,92898,3084651.32,3099733.07,3084.651,3099.733,15.082,explain,56,0.947,0,"it tells us is the number of pivot entries is going to remain the same. So if I come to the reduced rotational form and I find that there are two pivot entries, that means there are only two columns which are linearly independent, then I know that those two linearly independent columns in my matrix"
+573,92899,92989,3099733.07,3102769.44,3099.733,3102.769,3.036,out,10,0.955,0,matrix J will be the ones which can span the
+574,92990,93002,3102769.44,3103203.20,3102.769,3103.203,0.434,explain,3,0.982,0,the column space
+575,93003,93064,3103203.20,3105271.94,3103.203,3105.272,2.069,out,7,0.907,0,space for me. So even though the
+576,93065,93082,3105271.94,3105872.54,3105.272,3105.873,0.601,explain,5,0.899,0,the column space are not
+577,93083,93435,3105872.54,3117650.98,3105.873,3117.651,11.778,out,21,0.972,0,"not the same, but it tells me enough information as to which columns are going to be of help to us."

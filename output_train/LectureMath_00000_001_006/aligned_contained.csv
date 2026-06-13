@@ -1,0 +1,534 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,35,0.00,1201.20,0.000,1.201,1.201,explain,0,,1,[silence]
+1,36,849,1201.20,28361.70,1.201,28.362,27.160,write,19,0.858,0,"So, today we are going to have our sixth lecture. The main topic for today would be linear independence."
+2,850,863,28361.70,28828.83,28.362,28.829,0.467,explain,0,,1,[silence]
+3,864,946,28828.83,31598.26,28.829,31.598,2.769,out,8,0.94,0,"So, linear independence of a set of vectors."
+4,947,1100,31598.26,36736.74,31.598,36.737,5.138,explain,15,0.939,0,"Now, let me quickly recall the stuff that we had seen, so that we would"
+5,1101,1614,36736.74,53887.22,36.737,53.887,17.150,write,34,0.919,0,"have a better shot at relating two things. So, our basic idea was to solve a system of equations. So, when we say a system of equation, it is basically like a matrix A,"
+6,1615,1813,53887.22,60527.19,53.887,60.527,6.640,explain,20,0.897,0,"a vector B and we want to find the vector x, which can help us as a solution for this."
+7,1814,1946,60527.19,64964.96,60.527,64.965,4.438,write,11,0.986,0,"So, what we did was, we basically went for the augmented"
+8,1947,2096,64964.96,69969.97,64.965,69.970,5.005,explain,6,0.96,0,matrix and we talked about things
+9,2097,2681,69969.97,89489.49,69.970,89.489,19.520,write,23,0.865,0,"like the rank of the matrix, the pivots, the row form, free variables. So, these were like various notions that we had used"
+10,2682,2758,89489.49,92058.73,89.489,92.059,2.569,explain,7,0.968,0,in order to understand or talk about
+11,2759,2814,92058.73,93927.26,92.059,93.927,1.869,out,4,0.99,0,the solutions of this
+12,2815,2910,93927.26,97130.46,93.927,97.130,3.203,explain,5,0.994,0,"particular system of equations. So,"
+13,2911,3899,97130.46,130130.13,97.130,130.130,33.000,write,38,0.951,0,"once we did all of these things, then we went on to something we called as the linear span of a set of vectors. Somehow, we were able to tie this thing up with solving a system of,"
+14,3900,3981,130130.13,132866.20,130.130,132.866,2.736,explain,2,0.972,0,the idea
+15,3982,4439,132866.20,148148.15,132.866,148.148,15.282,out,38,0.943,0,is we had this geometrical concept of a linear span of vectors and we related it to an algebraic way of understanding that geometric concept. Same idea goes with the linear independence of set of vectors. Linear independence
+16,4440,4474,148148.15,149315.98,148.148,149.316,1.168,write,3,0.989,0,basically came out
+17,4475,4491,149315.98,149883.22,149.316,149.883,0.567,explain,2,0.98,0,of a
+18,4492,4650,149883.22,155188.52,149.883,155.189,5.305,out,8,0.994,0,geometrical idea of how to interpret parallel vectors.
+19,4651,4904,155188.52,163663.66,155.189,163.664,8.475,write,5,0.991,0,"So, for example, if I"
+20,4905,4922,163663.66,164264.26,163.664,164.264,0.601,explain,1,0.042,0,look
+21,4923,5070,164264.26,169202.54,164.264,169.203,4.938,out,17,0.808,0,so often we can say these are non -parallel vectors and the ones I have non -parallel
+22,5071,5099,169202.54,170170.17,169.203,170.170,0.968,explain,3,0.978,0,"vectors, it will"
+23,5100,5174,170170.17,172672.67,170.170,172.673,2.503,write,5,0.997,0,be easy for me to
+24,5175,5188,172672.67,173139.81,172.673,173.140,0.467,explain,0,,1,[silence]
+25,5189,5298,173139.81,176810.14,173.140,176.810,3.670,out,6,0.908,0,reach any point p using just
+26,5299,5384,176810.14,179679.68,176.810,179.680,2.870,explain,10,0.975,0,these two vectors. I can perhaps go in this direction
+27,5385,5494,179679.68,183350.02,179.680,183.350,3.670,write,10,0.946,0,"further up to here, then try to go in this"
+28,5495,5520,183350.02,184217.55,183.350,184.218,0.868,explain,1,0.999,0,direction
+29,5521,5587,184217.55,186453.12,184.218,186.453,2.236,out,4,0.981,0,"to reach p. However,"
+30,5588,5605,186453.12,187053.72,186.453,187.054,0.601,explain,1,0.997,0,if
+31,5606,5673,187053.72,189322.66,187.054,189.323,2.269,write,6,0.924,0,I was given a v1 vector
+32,5674,5719,189322.66,190857.52,189.323,190.858,1.535,explain,3,0.968,0,like this and
+33,5720,5771,190857.52,192592.59,190.858,192.593,1.735,out,2,0.995,0,another vector
+34,5772,5866,192592.59,195762.43,192.593,195.762,3.170,change,0,,1,[silence]
+35,5867,5893,195762.43,196663.33,195.762,196.663,0.901,out,2,0.654,0,say v2
+36,5894,5961,196663.33,198932.27,196.663,198.932,2.269,explain,3,0.984,0,vector like this
+37,5962,6049,198932.27,201868.54,198.932,201.869,2.936,write,1,0.428,0,which
+38,6050,6063,201868.54,202335.67,201.869,202.336,0.467,explain,0,,1,[silence]
+39,6064,6156,202335.67,205438.77,202.336,205.439,3.103,out,9,0.949,0,"is what we call as the parallel vectors, then"
+40,6157,6269,205438.77,209209.21,205.439,209.209,3.770,explain,6,0.995,0,for us to reach a point
+41,6270,6329,209209.21,211211.21,209.209,211.211,2.002,write,1,0.5,0,q
+42,6330,6358,211211.21,212178.85,211.211,212.179,0.968,explain,1,0.873,0,which
+43,6359,6446,212178.85,215115.12,212.179,215.115,2.936,out,3,0.778,0,is like starting
+44,6447,6474,215115.12,216049.38,215.115,216.049,0.934,explain,4,0.969,0,from let us say
+45,6475,6546,216049.38,218451.79,216.049,218.452,2.402,write,3,0.908,0,"this point s,"
+46,6547,6558,218451.79,218852.19,218.452,218.852,0.400,explain,0,,1,[silence]
+47,6559,6654,218852.19,222055.39,218.852,222.055,3.203,out,12,0.953,0,it will not be possible for us because our movements are only
+48,6655,6682,222055.39,222989.66,222.055,222.990,0.934,explain,3,0.987,0,restricted in one
+49,6683,6767,222989.66,225825.83,222.990,225.826,2.836,out,3,0.997,0,"direction. So, this"
+50,6768,6795,225825.83,226760.09,225.826,226.760,0.934,explain,5,0.995,0,is what we call as
+51,6796,7113,226760.09,237370.70,226.760,237.371,10.611,write,16,0.883,0,"the concept of parallel vectors, we called as the concept of non -parallel vectors. So, understanding"
+52,7114,7135,237370.70,238104.77,237.371,238.105,0.734,explain,1,0.983,0,parallelism
+53,7136,7302,238104.77,243677.01,238.105,243.677,5.572,out,18,0.962,0,"is fine from a geometrical point of view, but what if we want to generalize this to higher"
+54,7303,7330,243677.01,244611.28,243.677,244.611,0.934,explain,1,0.994,0,dimensions
+55,7331,7584,244611.28,253086.42,244.611,253.086,8.475,out,19,0.968,0,"and try to make sense of the idea of a parallel system using algebra. So, that is always our"
+56,7585,7630,253086.42,254621.29,253.086,254.621,1.535,explain,3,0.979,0,focus. What is
+57,7631,7681,254621.29,256322.99,254.621,256.323,1.702,write,1,0.925,0,we
+58,7682,7701,256322.99,256990.32,256.323,256.990,0.667,explain,3,0.999,0,need to show
+59,7702,7861,256990.32,262329.00,256.990,262.329,5.339,out,6,0.973,0,to understand the concept of parallel
+60,7862,7919,262329.00,264264.26,262.329,264.264,1.935,explain,3,0.976,0,to algebraic systems.
+61,7920,7928,264264.26,264564.56,264.264,264.565,0.300,out,0,,1,[silence]
+62,7929,7974,264564.56,266099.43,264.565,266.099,1.535,explain,6,0.701,0,"So, here is first attempt when"
+63,7975,8015,266099.43,267467.47,266.099,267.467,1.368,out,5,0.854,0,we say two vectors are
+64,8016,8135,267467.47,271471.47,267.467,271.471,4.004,explain,10,0.902,0,parallel in two dimensions or for that matter any dimension.
+65,8136,8901,271471.47,297030.36,271.471,297.030,25.559,write,22,0.904,0,"So, if I say v1 is parallel to v2, algebraically we mean the following thing that v1 is some constant times theta."
+66,8902,8985,297030.36,299833.17,297.030,299.833,2.803,explain,4,0.704,0,"So, when we say"
+67,8986,9243,299833.17,308441.78,299.833,308.442,8.609,write,3,0.735,0,"c is some,"
+68,9244,9300,308441.78,310343.68,308.442,310.344,1.902,explain,0,,1,[silence]
+69,9301,9387,310343.68,313246.58,310.344,313.247,2.903,out,5,0.993,0,this is what we mean
+70,9388,9465,313246.58,315849.18,313.247,315.849,2.603,explain,3,0.709,0,algebraically how do
+71,9466,9578,315849.18,319619.62,315.849,319.620,3.770,change,9,0.825,0,"parallel vectors would be related to each other. Okay,"
+72,9579,9620,319619.62,321021.02,319.620,321.021,1.401,out,1,0.959,0,let
+73,9621,9743,321021.02,325125.13,321.021,325.125,4.104,explain,8,0.949,0,us push this a little bit more from
+74,9744,10076,325125.13,336236.24,325.125,336.236,11.111,write,20,0.96,0,"v1 equal to c times v2, we can also write this guy as v1 plus minus c times v2 as"
+75,10077,10125,336236.24,337871.20,336.236,337.871,1.635,explain,3,0.689,0,a zero vector.
+76,10126,10185,337871.20,339873.21,337.871,339.873,2.002,out,9,0.966,0,"So, in some sense what we are saying is"
+77,10186,10241,339873.21,341741.74,339.873,341.742,1.869,explain,4,0.872,0,two vectors are parallel
+78,10242,10864,341741.74,362529.20,341.742,362.529,20.787,write,11,0.752,0,if a linear combination and v2 can produce a zero vector.
+79,10865,10903,362529.20,363830.50,362.529,363.830,1.301,explain,0,,1,[silence]
+80,10904,11063,363830.50,369169.17,363.830,369.169,5.339,out,10,0.774,0,"So, out here c is some scalar the coefficient of"
+81,11064,11103,369169.17,370503.84,369.169,370.504,1.335,explain,3,0.883,0,v1 is 1.
+82,11104,11149,370503.84,372038.71,370.504,372.039,1.535,write,5,0.987,0,"So, we are saying there"
+83,11150,11202,372038.71,373807.14,372.039,373.807,1.768,explain,2,0.974,0,is a
+84,11203,11371,373807.14,379446.11,373.807,379.446,5.639,out,11,0.922,0,non trivial linear combination of v1 v2 which can produce 0.
+85,11372,11426,379446.11,381281.28,379.446,381.281,1.835,explain,6,0.96,0,"Now, parallel means it is lying"
+86,11427,11466,381281.28,382615.95,381.281,382.616,1.335,out,4,0.996,0,along the same line.
+87,11467,11506,382615.95,383950.62,382.616,383.951,1.335,explain,4,0.917,0,"So, we go in"
+88,11507,11630,383950.62,388088.09,383.951,388.088,4.137,write,7,0.753,0,a higher dimension r3 when do we
+89,11631,11670,388088.09,389422.76,388.088,389.423,1.335,explain,3,0.97,0,say that vectors
+90,11671,11735,389422.76,391591.59,389.423,391.592,2.169,out,6,0.984,0,are lying in the same plane.
+91,11736,11790,391591.59,393426.76,391.592,393.427,1.835,explain,6,0.943,0,"So, if I give you two"
+92,11791,12754,393426.76,425592.26,393.427,425.592,32.165,write,12,0.905,0,vectors v1 and v2. how to say algebraically in the same plane.
+93,12755,12800,425592.26,427127.13,425.592,427.127,1.535,explain,0,,1,[silence]
+94,12801,12940,427127.13,431798.47,427.127,431.798,4.671,out,10,0.902,0,"Now, if we think about this question little bit it"
+95,12941,13004,431798.47,433933.93,431.798,433.934,2.135,explain,3,0.997,0,will help us
+96,13005,13069,433933.93,436102.77,433.934,436.103,2.169,pick_eraser,2,0.99,0,understand something.
+97,13070,13415,436102.77,447647.65,436.103,447.648,11.545,erase,8,0.908,0,"So, let see what exactly are we after"
+98,13416,13496,447647.65,450350.35,447.648,450.350,2.703,drop_eraser,0,,1,[silence]
+99,13497,13560,450350.35,452485.82,450.350,452.486,2.135,out,3,0.585,0,where I say
+100,13561,13976,452485.82,466366.37,452.486,466.366,13.881,explain,54,0.876,0,"two vectors are given when will they lie in the same plane algebraically. Well, think of it this way if I give you two vectors in a plane two vectors in r3 they will always lie in a plane they might lie on the same line or they may they will just make a"
+101,13977,14185,466366.37,473340.01,466.366,473.340,6.974,write,17,0.952,0,"plane. So, if I give you two vectors then they will always form a plane. So, in"
+102,14186,14230,473340.01,474841.51,473.340,474.842,1.502,explain,7,0.99,0,some sense this question is kind of
+103,14231,14459,474841.51,482482.48,474.842,482.482,7.641,out,27,0.918,0,"redundant if I give you two vectors what is the condition on so that they both lie on the same plane. However, if I give you a"
+104,14460,14588,482482.48,486786.79,482.482,486.787,4.304,explain,11,0.889,0,third vector in r3 let me add one more to the
+105,14589,14782,486786.79,493259.93,486.787,493.260,6.473,write,8,0.774,0,say v1 v2 v3 then it is not
+106,14783,14854,493259.93,495662.33,493.260,495.662,2.402,explain,6,0.908,0,obvious at all that three vectors
+107,14855,15038,495662.33,501801.80,495.662,501.802,6.139,out,25,0.972,0,"have to lie in the same plane. In fact, they may not even lie in the same plane just think of the three dimensions x"
+108,15039,15257,501801.80,509109.11,501.802,509.109,7.307,explain,20,0.931,0,"y and z axis. So, they lie in the same plane must be something special. let us ask ourselves this"
+109,15258,15819,509109.11,527861.19,509.109,527.861,18.752,write,11,0.95,0,question when will v1 v2 v3 lie in the same plane.
+110,15820,15904,527861.19,530697.36,527.861,530.697,2.836,explain,0,,1,[silence]
+111,15905,15942,530697.36,531965.30,530.697,531.965,1.268,out,4,0.994,0,"So, let us look"
+112,15943,16041,531965.30,535268.60,531.965,535.269,3.303,explain,8,0.846,0,at a sample vector and see what happens.
+113,16042,16279,535268.60,543209.88,535.269,543.210,7.941,write,22,0.882,0,If I am given a vector v1 if I am given a vector v2 you know these guys will always form plane
+114,16280,16407,543209.88,547480.81,543.210,547.481,4.271,explain,9,0.975,0,and I want my third vector to lie in
+115,16408,16516,547480.81,551117.78,547.481,551.118,3.637,write,2,0.74,0,this plane.
+116,16517,16599,551117.78,553887.22,551.118,553.887,2.769,explain,3,0.991,0,"So, what exactly"
+117,16600,16639,553887.22,555221.89,553.887,555.222,1.335,out,2,0.986,0,should happen?
+118,16640,16831,555221.89,561628.29,555.222,561.628,6.406,explain,15,0.904,0,Imagine if I am given v1 and v2 I can move in both directions v1
+119,16832,16850,561628.29,562262.26,561.628,562.262,0.634,out,2,0.774,0,v2 that
+120,16851,17012,562262.26,567667.67,562.262,567.668,5.405,explain,12,0.748,0,means every point in my plane is accessible. that means I can
+121,17013,17402,567667.67,580680.68,567.668,580.681,13.013,write,19,0.886,0,take v1 scale it appropriately then I can take v2 scale that appropriately and we should be able to
+122,17403,17476,580680.68,583149.82,580.681,583.150,2.469,explain,2,0.98,0,get v3.
+123,17477,17539,583149.82,585251.92,583.150,585.252,2.102,out,8,0.941,0,this is what we mean by the algebraic
+124,17540,17663,585251.92,589389.39,585.252,589.389,4.137,explain,11,0.912,0,interpretation of having v1 v2 v3 lie in the same plane.
+125,17664,18002,589389.39,600700.70,589.389,600.701,11.311,write,20,0.967,0,"So, just like before let us try to rewrite this in a different manner and see what happens. So, again"
+126,18003,18077,600700.70,603203.20,600.701,603.203,2.503,explain,6,0.971,0,we have been able to capture
+127,18078,18145,603203.20,605472.14,603.203,605.472,2.269,out,4,0.982,0,the essence of coplanarity.
+128,18146,18234,605472.14,608441.78,605.472,608.442,2.970,explain,5,0.946,0,"So, let me write that"
+129,18235,18402,608441.78,614047.38,608.442,614.047,5.606,out_writing,0,,1,[silence]
+130,18403,18552,614047.38,619052.39,614.047,619.052,5.005,explain,11,0.944,0,coplanarity we have been able to achieve by again having the
+131,18553,18594,619052.39,620453.79,619.052,620.454,1.401,write,2,0.998,0,same concept
+132,18595,18826,620453.79,628194.86,620.454,628.195,7.741,explain,9,0.883,0,of bunch of vectors combining linearly to produce zero
+133,18827,19156,628194.86,639205.87,628.195,639.206,11.011,out_writing,1,0.492,0,vectors.
+134,19157,19282,639205.87,643410.08,639.206,643.410,4.204,out,0,,1,[silence]
+135,19283,19344,643410.08,645478.81,643.410,645.479,2.069,explain,0,,1,[silence]
+136,19345,19365,645478.81,646179.51,645.479,646.180,0.701,pick_eraser,0,,1,[silence]
+137,19366,19837,646179.51,661928.60,646.180,661.929,15.749,erase,0,,1,[silence]
+138,19838,19916,661928.60,664564.56,661.929,664.565,2.636,drop_eraser,0,,1,[silence]
+139,19917,19985,664564.56,666866.87,664.565,666.867,2.302,explain,3,0.69,0,"So, we really"
+140,19986,20973,666866.87,699833.17,666.867,699.833,32.966,write,22,0.892,0,"want to capture the idea of coplanarity and we are saying coplanarity is the same as having linear combination of vectors Now,"
+141,20974,20989,699833.17,700367.03,699.833,700.367,0.534,explain,0,,1,[silence]
+142,20990,21247,700367.03,708975.64,700.367,708.976,8.609,out,21,0.871,0,we have seen two instances in R2 and R3 where we have been able to interpret the idea of this lying
+143,21248,21279,708975.64,710043.38,708.976,710.043,1.068,explain,5,0.883,0,on the same line or
+144,21280,21474,710043.38,716549.88,710.043,716.550,6.507,out,21,0.93,0,"the same plane. So, we want to generalize this concept and that is what we are going to call as our"
+145,21475,21488,716549.88,717017.02,716.550,717.017,0.467,explain,1,0.985,0,linear
+146,21489,21537,717017.02,718651.99,717.017,718.652,1.635,pick_eraser,2,0.638,0,"independence. So,"
+147,21538,22212,718651.99,741174.51,718.652,741.175,22.523,erase,10,0.967,0,let us capture our definition from things we have seen.
+148,22213,22254,741174.51,742575.91,741.175,742.576,1.401,explain,0,,1,[silence]
+149,22255,22376,742575.91,746646.65,742.576,746.647,4.071,out_erasing,0,,1,[silence]
+150,22377,22490,746646.65,750450.45,746.647,750.450,3.804,explain,0,,1,[silence]
+151,22491,22579,750450.45,753420.09,750.450,753.420,2.970,erase,0,,1,[silence]
+152,22580,22634,753420.09,755255.26,753.420,755.255,1.835,drop_eraser,0,,1,[silence]
+153,22635,22958,755255.26,766066.07,755.255,766.066,10.811,out,6,0.932,0,"So, here is our first definition."
+154,22959,22976,766066.07,766666.67,766.066,766.667,0.601,pick_eraser,0,,1,[silence]
+155,22977,23614,766666.67,787954.62,766.667,787.955,21.288,erase,0,,1,[silence]
+156,23615,23681,787954.62,790190.19,787.955,790.190,2.236,drop_eraser,0,,1,[silence]
+157,23682,23809,790190.19,794461.13,790.190,794.461,4.271,out,0,,1,[silence]
+158,23810,23839,794461.13,795462.13,794.461,795.462,1.001,explain,5,0.908,0,"So, suppose we are given"
+159,23840,25707,795462.13,857791.12,795.462,857.791,62.329,write,16,0.847,0,a set of vectors S v1 v2 we will say S is a linearly independent set.
+160,25708,25731,857791.12,858591.93,857.791,858.592,0.801,explain,0,,1,[silence]
+161,25732,25968,858591.93,866499.83,858.592,866.500,7.908,out,19,0.906,0,"So, we are saying that a set would be a linearly dependent set if a non -trivial linear combination"
+162,25969,26095,866499.83,870737.40,866.500,870.737,4.238,change,12,0.861,0,of the vectors in that set can produce me the zero vector.
+163,26096,26128,870737.40,871838.51,870.737,871.839,1.101,out,5,0.844,0,"So, there are couple of"
+164,26129,26169,871838.51,873206.54,871.839,873.207,1.368,explain,5,0.947,0,things we would like to
+165,26170,26227,873206.54,875141.81,873.207,875.142,1.935,write,4,0.779,0,emphasize one is the
+166,26228,26248,875141.81,875842.51,875.142,875.843,0.701,explain,3,0.911,0,non -trivial part
+167,26249,26346,875842.51,879112.45,875.843,879.112,3.270,out,8,0.886,0,what exactly do we mean by the non
+168,26347,26391,879112.45,880613.95,879.112,880.614,1.502,explain,3,0.978,0,-trivial linear combination.
+169,26392,26863,880613.95,896363.03,880.614,896.363,15.749,write,35,0.895,0,"So, first of all let us see what do we mean by linear combination. Well, recall the span there we have talked about linear combination. So, we are saying can I produce a zero vector"
+170,26864,26930,896363.03,898598.60,896.363,898.599,2.236,explain,4,0.984,0,by combining my vectors
+171,26931,27121,898598.60,904971.64,898.599,904.972,6.373,out,8,0.959,0,"and scaling them appropriately. Now, here is a"
+172,27122,27182,904971.64,907007.01,904.972,907.007,2.035,explain,4,0.95,0,very obvious solution which
+173,27183,27536,907007.01,918818.82,907.007,918.819,11.812,write,26,0.919,0,"I would like to call as a trivial solution. So, it is a trivial solution to my problem just take C1 all the way up to."
+174,27537,27589,918818.82,920587.25,918.819,920.587,1.768,explain,4,0.756,0,"So, of course, any"
+175,27590,27817,920587.25,928194.86,920.587,928.195,7.608,out,34,0.908,0,time you want to linearly combine bunch of things you just do not take any of that and you are still going to produce a zero vector that is what we mean by non
+176,27818,27839,928194.86,928928.93,928.195,928.929,0.734,explain,2,0.926,0,-trivial linear
+177,27840,27862,928928.93,929696.36,928.929,929.696,0.767,out,2,0.699,0,"combination. So,"
+178,27863,27911,929696.36,931331.33,929.696,931.331,1.635,explain,7,0.989,0,when I say non -trivial linear combination
+179,27912,28579,931331.33,953620.29,931.331,953.620,22.289,write,1,0.417,0,one.
+180,28580,28620,953620.29,954988.32,953.620,954.988,1.368,explain,0,,1,[silence]
+181,28621,28801,954988.32,961027.69,954.988,961.028,6.039,out,0,,1,[silence]
+182,28802,28867,961027.69,963229.90,961.028,963.230,2.202,out,0,,1,[silence]
+183,28868,28942,963229.90,965732.40,963.230,965.732,2.503,change,0,,1,[silence]
+184,28943,29085,965732.40,970503.84,965.732,970.504,4.771,out,1,0.985,0,"So,"
+185,29086,29184,970503.84,973807.14,970.504,973.807,3.303,explain,16,0.876,0,at least one of the CIs is non -zero then we will say non -trivial solution
+186,29185,29448,973807.14,982615.95,973.807,982.616,8.809,out,14,0.835,0,and in which case the way I have written the definition is wrong I
+187,29449,29512,982615.95,984751.42,982.616,984.751,2.135,pick_eraser,5,0.903,0,wanted to say S is
+188,29513,29547,984751.42,985919.25,984.751,985.919,1.168,erase,2,0.99,0,linearly dependent.
+189,29548,29587,985919.25,987253.92,985.919,987.254,1.335,drop_eraser,1,0.26,0,"So,"
+190,29588,29630,987253.92,988688.69,987.254,988.689,1.435,out,0,,1,[silence]
+191,29631,29657,988688.69,989589.59,988.689,989.590,0.901,explain,0,,1,[silence]
+192,29658,29733,989589.59,992125.46,989.590,992.125,2.536,write,0,,1,[silence]
+193,29734,29748,992125.46,992625.96,992.125,992.626,0.501,explain,0,,1,[silence]
+194,29749,30094,992625.96,1004170.84,992.626,1004.171,11.545,out,0,,1,[silence]
+195,30095,30116,1004170.84,1004904.90,1004.171,1004.905,0.734,pick_eraser,0,,1,[silence]
+196,30117,30197,1004904.90,1007607.61,1004.905,1007.608,2.703,erase,0,,1,[silence]
+197,30198,30223,1007607.61,1008475.14,1007.608,1008.475,0.868,drop_eraser,0,,1,[silence]
+198,30224,30319,1008475.14,1011678.35,1008.475,1011.678,3.203,out,0,,1,[silence]
+199,30320,30344,1011678.35,1012512.51,1011.678,1012.513,0.834,explain,2,0.589,0,S is
+200,30345,30602,1012512.51,1021121.12,1012.513,1021.121,8.609,write,2,0.976,0,linearly dependent.
+201,30603,30622,1021121.12,1021788.46,1021.121,1021.788,0.667,explain,0,,1,[silence]
+202,30623,30738,1021788.46,1025658.99,1021.788,1025.659,3.871,out,3,0.98,0,"So, let me"
+203,30739,30752,1025658.99,1026126.13,1025.659,1026.126,0.467,explain,1,0.99,0,add
+204,30753,31235,1026126.13,1042242.24,1026.126,1042.242,16.116,write,15,0.836,0,to this otherwise we will say S is linearly independent that means the only combination
+205,31236,31258,1042242.24,1043009.68,1042.242,1043.010,0.767,explain,1,0.938,0,which
+206,31259,31429,1043009.68,1048715.38,1043.010,1048.715,5.706,out,11,0.876,0,can produce me the zero vector it happens to be the
+207,31430,31446,1048715.38,1049282.62,1048.715,1049.283,0.567,explain,2,0.993,0,trivial combination
+208,31447,31576,1049282.62,1053620.29,1049.283,1053.620,4.338,out,10,0.79,0,"then we will say that set is clearly independent. So,"
+209,31577,31577,1053620.29,1053653.65,1053.620,1053.654,0.033,explain,0,,1,[silence]
+210,31578,31684,1053653.65,1057223.89,1053.654,1057.224,3.570,change,3,0.935,0,without further delay
+211,31685,31765,1057223.89,1059926.59,1057.224,1059.927,2.703,pick_eraser,3,0.88,0,let us try
+212,31766,32717,1059926.59,1091691.69,1059.927,1091.692,31.765,erase,22,0.877,0,"to see an example whether the vectors are linearly independent or dependent based on the definition we have tried to capture. So,"
+213,32718,32818,1091691.69,1095061.73,1091.692,1095.062,3.370,drop_eraser,0,,1,[silence]
+214,32819,32903,1095061.73,1097897.90,1095.062,1097.898,2.836,change,0,,1,[silence]
+215,32904,33078,1097897.90,1103737.07,1097.898,1103.737,5.839,explain,6,0.904,0,let us say we are given
+216,33079,33988,1103737.07,1134100.77,1103.737,1134.101,30.364,write,34,0.828,0,we are in R2 as usual and we are given a set of vectors S as let us say 1 2 and we want to ask ourselves simple question is S independent or dependent.
+217,33989,34066,1134100.77,1136703.37,1134.101,1136.703,2.603,explain,2,0.909,0,When we
+218,34067,34226,1136703.37,1142042.04,1136.703,1142.042,5.339,out,18,0.807,0,say independent dependent we mean linear independence and dependence but since we are working through linear algebra everything
+219,34227,34255,1142042.04,1143009.68,1142.042,1143.010,0.968,explain,3,0.995,0,will be linear
+220,34256,34289,1143009.68,1144144.14,1143.010,1144.144,1.134,out,1,0.811,0,unless
+221,34290,34304,1144144.14,1144644.64,1144.144,1144.645,0.501,explain,2,0.571,0,and be
+222,34305,34317,1144644.64,1145078.41,1144.645,1145.078,0.434,explain,1,0.989,0,specified
+223,34318,34379,1145078.41,1147147.15,1145.078,1147.147,2.069,out,5,0.886,0,"otherwise. So, am going to"
+224,34380,34540,1147147.15,1152519.19,1147.147,1152.519,5.372,explain,17,0.968,0,"stop using the word linear and assume that is the case. So, what we do is we"
+225,34541,35069,1152519.19,1170170.17,1152.519,1170.170,17.651,write,36,0.87,0,start with our definition we have this vector let us call this vector as P1 we want to see if the linear combinations or linear combination of these two vectors can produce me the zero vector.
+226,35070,35136,1170170.17,1172405.74,1170.170,1172.406,2.236,explain,1,0.495,0,"So,"
+227,35137,35171,1172405.74,1173573.57,1172.406,1173.574,1.168,out,0,,1,[silence]
+228,35172,35314,1173573.57,1178345.01,1173.574,1178.345,4.771,explain,11,0.86,0,when somebody says independence or dependence we are asking the question
+229,35315,35638,1178345.01,1189155.82,1178.345,1189.156,10.811,write,8,0.832,0,can a non -trivial combination equals the zero
+230,35639,35707,1189155.82,1191458.12,1189.156,1191.458,2.302,explain,2,0.519,0,vector if
+231,35708,35934,1191458.12,1199032.37,1191.458,1199.032,7.574,out,22,0.953,0,yes then the set is dependent if only the zero combination will give me the zero vector then the set is independent.
+232,35935,36039,1199032.37,1202535.87,1199.032,1202.536,3.504,explain,8,0.854,0,"So, if you look at this it should"
+233,36040,36380,1202535.87,1213913.91,1202.536,1213.914,11.378,write,12,0.874,0,remind you of what we called as a column picture row picture
+234,36381,36436,1213913.91,1215782.45,1213.914,1215.782,1.869,explain,8,0.684,0,in the column picture of system equation this
+235,36437,36534,1215782.45,1219052.39,1215.782,1219.052,3.270,out,10,0.895,0,is basically a column picture I want to produce two
+236,36535,36701,1219052.39,1224624.62,1219.052,1224.625,5.572,explain,15,0.948,0,I have columns I want to combine them in a way to produce the zero
+237,36702,37467,1224624.62,1250183.52,1224.625,1250.184,25.559,write,24,0.97,0,"solution. So, if I want to interpret everything in terms of matrix then this is what we are after we are looking for solutions."
+238,37468,37505,1250183.52,1251451.45,1250.184,1251.451,1.268,explain,0,,1,[silence]
+239,37506,37624,1251451.45,1255422.09,1251.451,1255.422,3.971,out,13,0.854,0,"So, the question is if I am looking for the solution of this"
+240,37625,37929,1255422.09,1265598.93,1255.422,1265.599,10.177,explain,38,0.914,0,system I know how to solve such a system am I just looking for a solution or am I looking for something more than that or maybe I not even looking for how this actual solutions look like.
+241,37930,37971,1265598.93,1267000.33,1265.599,1267.000,1.401,out,1,0.622,0,"Now,"
+242,37972,37999,1267000.33,1267934.60,1267.000,1267.935,0.934,explain,4,0.977,0,one thing is very
+243,38000,38130,1267934.60,1272305.64,1267.935,1272.306,4.371,change,9,0.892,0,obvious out here about this system and that is
+244,38131,38238,1272305.64,1275909.24,1272.306,1275.909,3.604,explain,8,0.931,0,of utmost importance to us that this system
+245,38239,38638,1275909.24,1289255.92,1275.909,1289.256,13.347,write,3,0.986,0,is always consistent
+246,38639,38838,1289255.92,1295929.26,1289.256,1295.929,6.673,explain,8,0.883,0,and the reason being because if you remember
+247,38839,39026,1295929.26,1302202.20,1295.929,1302.202,6.273,write,11,0.908,0,definitely C1 equal to 0 and C2 equal to 0 is
+248,39027,39093,1302202.20,1304437.77,1302.202,1304.438,2.236,explain,5,0.811,0,a solution to this. Moreover
+249,39094,39167,1304437.77,1306906.91,1304.438,1306.907,2.469,out,9,0.855,0,if we view it from what we had seen
+250,39168,39430,1306906.91,1315682.35,1306.907,1315.682,8.775,explain,21,0.892,0,earlier a system is consistent provided the right hand side in the right hand side column there is no chance of
+251,39431,39457,1315682.35,1316583.25,1315.682,1316.583,0.901,out,3,0.954,0,having a pivot.
+252,39458,39633,1316583.25,1322455.79,1316.583,1322.456,5.873,explain,17,0.884,0,"Now, no matter what row operations I do since both the entries are zero they will remain"
+253,39634,39851,1322455.79,1329729.73,1322.456,1329.730,7.274,out,27,0.919,0,"zero no matter what kind of row operations I do. So, there is no chance that I will ever have a pivot in the right most column."
+254,39852,40044,1329729.73,1336169.50,1329.730,1336.170,6.440,explain,17,0.939,0,"So, all my pivots wherever they are they are going to be only in the coefficient matrix."
+255,40045,40096,1336169.50,1337904.57,1336.170,1337.905,1.735,out,6,0.992,0,"So, that way I know it"
+256,40097,40391,1337904.57,1347747.75,1337.905,1347.748,9.843,explain,34,0.965,0,"is going to be definitely a consistent system. So, actually I not really interested in solutions because I know one of them exists. What am I looking for is does this have a non"
+257,40392,40778,1347747.75,1360660.66,1347.748,1360.661,12.913,write,2,0.83,0,-zero solution.
+258,40779,40842,1360660.66,1362796.13,1360.661,1362.796,2.135,explain,0,,1,[silence]
+259,40843,40930,1362796.13,1365732.40,1362.796,1365.732,2.936,out,7,0.972,0,"So, in some sense we are looking"
+260,40931,41008,1365732.40,1368335.00,1365.732,1368.335,2.603,explain,8,0.988,0,for whether this guy has more than one
+261,41009,41072,1368335.00,1370470.47,1368.335,1370.470,2.135,out,8,0.927,0,solution or not. From what we have done
+262,41073,41098,1370470.47,1371338.00,1370.470,1371.338,0.868,pick_eraser,4,0.86,0,so far we know
+263,41099,42222,1371338.00,1408842.18,1371.338,1408.842,37.504,erase,74,0.942,0,"that a linear system will always have either no solution or it will have exactly one solution or it will have infinitely many solutions. So, in this present case we already have one solution and we are looking for whether it has infinitely many or not. The moment somebody says infinitely many the thing which comes to mind is basically the thing which comes to mind is the rank of a matrix or the"
+264,42223,42265,1408842.18,1410276.94,1408.842,1410.277,1.435,drop_eraser,4,0.919,0,presence of free variables.
+265,42266,42376,1410276.94,1413980.65,1410.277,1413.981,3.704,out,9,0.939,0,If there are free variables then we will have
+266,42377,42397,1413980.65,1414681.35,1413.981,1414.681,0.701,pick_eraser,0,,1,[silence]
+267,42398,42488,1414681.35,1417717.72,1414.681,1417.718,3.036,erase,0,,1,[silence]
+268,42489,42537,1417717.72,1419352.69,1417.718,1419.353,1.635,drop_eraser,0,,1,[silence]
+269,42538,42764,1419352.69,1426926.93,1419.353,1426.927,7.574,out,22,0.885,0,"then we will have infinitely many solutions otherwise we will have only the zero solution the unique solution. Ok. So, let us"
+270,42765,42809,1426926.93,1428428.43,1426.927,1428.428,1.502,explain,5,0.937,0,try to row reduce our
+271,42810,43533,1428428.43,1452585.92,1428.428,1452.586,24.157,write,24,0.884,0,"matrix and see where it takes us. So, we are going to create a echelon form. So, something like this perhaps will help us."
+272,43534,43570,1452585.92,1453820.49,1452.586,1453.820,1.235,explain,0,,1,[silence]
+273,43571,43679,1453820.49,1457457.46,1453.820,1457.457,3.637,out,11,0.969,0,"So, the moment we see that we have got our echelon"
+274,43680,43713,1457457.46,1458591.93,1457.457,1458.592,1.134,explain,1,0.996,0,form
+275,43714,43796,1458591.93,1461361.36,1458.592,1461.361,2.769,write,4,0.731,0,we do really need
+276,43797,43827,1461361.36,1462395.73,1461.361,1462.396,1.034,explain,7,0.979,0,to go all the way to reduce
+277,43828,43878,1462395.73,1464097.43,1462.396,1464.097,1.702,out,2,0.994,0,echelon form.
+278,43879,43911,1464097.43,1465198.53,1464.097,1465.199,1.101,explain,5,0.958,0,We know that 10 is
+279,43912,43971,1465198.53,1467200.53,1465.199,1467.201,2.002,write,5,0.968,0,"a pivot, 1 is a"
+280,43972,43993,1467200.53,1467934.60,1467.201,1467.935,0.734,explain,3,0.993,0,"pivot. So, we"
+281,43994,44048,1467934.60,1469769.77,1467.935,1469.770,1.835,out,5,0.906,0,"have two pivots. So, that"
+282,44049,44071,1469769.77,1470537.20,1469.770,1470.537,0.767,explain,1,0.998,0,means
+283,44072,44796,1470537.20,1494728.06,1470.537,1494.728,24.191,write,36,0.92,0,"the rank of this matrix is 2. So, has a full rank hence no free variables. The moment I have no free variable situation that means it must have a unique solution. Now, let me reiterate"
+284,44797,44823,1494728.06,1495628.96,1494.728,1495.629,0.901,explain,1,0.998,0,something.
+285,44824,44948,1495628.96,1499799.80,1495.629,1499.800,4.171,out,18,0.932,0,How do I know it has a unique solution? Because I already know it has one solution namely
+286,44949,45068,1499799.80,1503803.80,1499.800,1503.804,4.004,explain,13,0.908,0,the zero solution and now we have guaranteed because of the rank that
+287,45069,45176,1503803.80,1507407.41,1503.804,1507.407,3.604,out,9,0.926,0,"it cannot have more than that one solution. So,"
+288,45177,45194,1507407.41,1508008.01,1507.407,1508.008,0.601,explain,1,0.919,0,in
+289,45195,45556,1508008.01,1520086.75,1508.008,1520.087,12.079,write,17,0.863,0,this case we can say it has only the zero or you can say the trivial solution.
+290,45557,45584,1520086.75,1521021.02,1520.087,1521.021,0.934,explain,0,,1,[silence]
+291,45585,45635,1521021.02,1522722.72,1521.021,1522.723,1.702,out,3,0.991,0,"So, the moment"
+292,45636,45652,1522722.72,1523289.96,1522.723,1523.290,0.567,explain,2,0.949,0,I say
+293,45653,46034,1523289.96,1536036.04,1523.290,1536.036,12.746,write,13,0.856,0,it is only zero and trivial solution that means the set is independent.
+294,46035,46058,1536036.04,1536836.84,1536.036,1536.837,0.801,explain,0,,1,[silence]
+295,46059,46208,1536836.84,1541841.84,1536.837,1541.842,5.005,out,10,0.954,0,What I would like to emphasize on this is what
+296,46209,46306,1541841.84,1545111.78,1541.842,1545.112,3.270,change,10,0.975,0,we should take from here is that the question of
+297,46307,46350,1545111.78,1546579.91,1545.112,1546.580,1.468,out,3,0.927,0,dependence or independence
+298,46351,46711,1546579.91,1558625.29,1546.580,1558.625,12.045,explain,26,0.897,0,has been basically converted to that of a system of equation. And from the system of equations we have used our old methods of row reduction
+299,46712,46809,1558625.29,1561895.23,1558.625,1561.895,3.270,out,6,0.75,0,talking about rank free variables to
+300,46810,46847,1561895.23,1563163.16,1561.895,1563.163,1.268,explain,6,0.958,0,figure out whether our set is
+301,46848,46929,1563163.16,1565899.23,1563.163,1565.899,2.736,out,5,0.993,0,"independent or not. Now, there"
+302,46930,46939,1565899.23,1566232.90,1565.899,1566.233,0.334,explain,2,0.919,0,is another
+303,46940,47028,1566232.90,1569202.54,1566.233,1569.203,2.970,change,9,0.954,0,thing that we should keep an eye on that
+304,47029,47205,1569202.54,1575108.44,1569.203,1575.108,5.906,explain,14,0.939,0,"this is not just any system of equation. The right hand side is zero,"
+305,47206,47671,1575108.44,1590657.32,1575.108,1590.657,15.549,write,7,0.965,0,right hand side is a zero vector.
+306,47672,47749,1590657.32,1593259.93,1590.657,1593.260,2.603,explain,2,0.725,0,"So, in"
+307,47750,47857,1593259.93,1596863.53,1593.260,1596.864,3.604,out,12,0.966,0,some sense we are not after just any kind of system of
+308,47858,48025,1596863.53,1602469.14,1596.864,1602.469,5.606,explain,24,0.931,0,equation. We are after that system of equation where the right hand side is a zero vector and we have a name for it.
+309,48026,48083,1602469.14,1604404.40,1602.469,1604.404,1.935,out,6,0.949,0,We call it the homogeneous system
+310,48084,48108,1604404.40,1605238.57,1604.404,1605.239,0.834,explain,2,0.995,0,of equations.
+311,48109,48180,1605238.57,1607640.97,1605.239,1607.641,2.402,change,1,0.468,0,"So,"
+312,48181,48211,1607640.97,1608675.34,1607.641,1608.675,1.034,pick_eraser,0,,1,[silence]
+313,48212,49232,1608675.34,1642742.74,1608.675,1642.743,34.067,erase,0,,1,[silence]
+314,49233,49291,1642742.74,1644711.38,1642.743,1644.711,1.969,drop_eraser,0,,1,[silence]
+315,49292,49297,1644711.38,1644911.58,1644.711,1644.912,0.200,out,0,,1,[silence]
+316,49298,49359,1644911.58,1646980.31,1644.912,1646.980,2.069,change,0,,1,[silence]
+317,49360,49420,1646980.31,1649015.68,1646.980,1649.016,2.035,out,0,,1,[silence]
+318,49421,49468,1649015.68,1650617.28,1649.016,1650.617,1.602,explain,0,,1,[silence]
+319,49469,50048,1650617.28,1669969.97,1650.617,1669.970,19.353,write,15,0.801,0,"when we say Ax equal to zero, this is what we call as the homogeneous."
+320,50049,50083,1669969.97,1671137.80,1669.970,1671.138,1.168,explain,0,,1,[silence]
+321,50084,50204,1671137.80,1675175.18,1671.138,1675.175,4.037,out,2,0.659,0,"So, what"
+322,50205,50240,1675175.18,1676376.38,1675.175,1676.376,1.201,explain,4,0.989,0,we are saying is
+323,50241,50602,1676376.38,1688455.12,1676.376,1688.455,12.079,write,16,0.962,0,"the solution to this homogeneous system is tied up with the concept of linear independence. Likewise,"
+324,50603,50617,1688455.12,1688955.62,1688.455,1688.956,0.501,explain,0,,1,[silence]
+325,50618,50679,1688955.62,1691024.36,1688.956,1691.024,2.069,out,2,0.976,0,we had
+326,50680,50702,1691024.36,1691791.79,1691.024,1691.792,0.767,explain,1,0.995,0,seen
+327,50703,51054,1691791.79,1703536.87,1691.792,1703.537,11.745,write,19,0.889,0,"that the solutions to Ax equal to b was tied up with the concept of the linear span. So,"
+328,51055,51064,1703536.87,1703870.54,1703.537,1703.871,0.334,explain,2,0.941,0,what you
+329,51065,51170,1703870.54,1707407.41,1703.871,1707.407,3.537,out,9,0.955,0,should understand from this is that all the geometrical
+330,51171,51220,1707407.41,1709075.74,1707.407,1709.076,1.668,change,4,0.966,0,concepts we have mentioned
+331,51221,51370,1709075.74,1714080.75,1709.076,1714.081,5.005,out,13,0.988,0,"so far, we have been able to somehow interpret them in terms of"
+332,51371,51380,1714080.75,1714414.41,1714.081,1714.414,0.334,explain,0,,1,[silence]
+333,51381,51426,1714414.41,1715949.28,1714.414,1715.949,1.535,out,5,0.91,0,"system of equations. So, have"
+334,51427,51488,1715949.28,1718018.02,1715.949,1718.018,2.069,explain,5,0.847,0,an algebraic way of checking
+335,51489,51518,1718018.02,1719019.02,1718.018,1719.019,1.001,explain,2,0.889,0,things which
+336,51519,51702,1719019.02,1725158.49,1719.019,1725.158,6.139,out,15,0.894,0,"are which up until now were geometrical in nature. So, let try to further this"
+337,51703,51845,1725158.49,1729929.93,1725.158,1729.930,4.771,change,11,0.952,0,thing and see if we can improve this to another situation
+338,51846,51898,1729929.93,1731698.37,1729.930,1731.698,1.768,explain,5,0.924,0,or can we test it
+339,51899,51941,1731698.37,1733133.13,1731.698,1733.133,1.435,pick_eraser,1,0.969,0,in
+340,51942,53268,1733133.13,1777410.74,1733.133,1777.411,44.278,erase,11,0.885,0,slightly non -trivial example and things might not be that obvious.
+341,53269,53367,1777410.74,1780714.05,1777.411,1780.714,3.303,drop_eraser,0,,1,[silence]
+342,53368,53567,1780714.05,1787387.39,1780.714,1787.387,6.673,explain,12,0.97,0,"So, what if I was given some bunch of vectors in R3."
+343,53568,54493,1787387.39,1818284.95,1787.387,1818.285,30.898,write,43,0.882,0,"Let us try to do this example so that we can better understand. Suppose I was given say 1, 0, 1, 1, 3, 2 and let us say I was given. So, suppose we are given these bunch of vectors over here. Question"
+344,54494,54552,1818284.95,1820253.59,1818.285,1820.254,1.969,explain,5,0.978,0,"is, is this set linearly"
+345,54553,54621,1820253.59,1822555.89,1820.254,1822.556,2.302,out,3,0.99,0,independent or dependent?
+346,54622,54767,1822555.89,1827427.43,1822.556,1827.427,4.872,explain,6,0.841,0,"So, from our way of trying"
+347,54768,55322,1827427.43,1845945.95,1827.427,1845.946,18.519,write,37,0.914,0,"to think, suppose I call this as my vector v1, this as my vector v2 and this as my vector v3. I am basically asking whether this particular expression or this particular linear combination can produce me"
+348,55323,55378,1845945.95,1847814.48,1845.946,1847.814,1.869,explain,3,0.688,0,the 0 vector.
+349,55379,55451,1847814.48,1850250.25,1847.814,1850.250,2.436,out,7,0.968,0,"So, what would be that linear combination?"
+350,55452,55541,1850250.25,1853253.25,1850.250,1853.253,3.003,explain,13,0.922,0,Is it only the 0 combination or is it a non -trivial combination?
+351,55542,55917,1853253.25,1865799.13,1853.253,1865.799,12.546,write,16,0.856,0,"So, based on this we would create our matrix right inside 0. If you observe one"
+352,55918,55965,1865799.13,1867400.73,1865.799,1867.401,1.602,explain,7,0.837,0,"thing, since my right hand side is"
+353,55966,56049,1867400.73,1870203.54,1867.401,1870.204,2.803,out,12,0.925,0,"going to be 0 always, so we might even as well drop"
+354,56050,56103,1870203.54,1872005.34,1870.204,1872.005,1.802,explain,3,0.831,0,it from consideration.
+355,56104,56134,1872005.34,1873039.71,1872.005,1873.040,1.034,write,1,0.961,0,"So,"
+356,56135,56211,1873039.71,1875608.94,1873.040,1875.609,2.569,explain,10,0.763,0,sooner or rather I should say a little later we
+357,56212,56266,1875608.94,1877444.11,1875.609,1877.444,1.835,out,7,0.913,0,will start dropping the right hand side
+358,56267,56559,1877444.11,1887220.55,1877.444,1887.221,9.776,explain,29,0.911,0,"because that is not what is controlling the row operations. Let us try and see. I want to reduce it to our echelon form. So, here is my first"
+359,56560,57135,1887220.55,1906439.77,1887.221,1906.440,19.219,write,18,0.884,0,"row operation. This is what we are going to get. Now, we see there is something peculiar going"
+360,57136,57401,1906439.77,1915315.32,1906.440,1915.315,8.876,explain,21,0.931,0,"on. The second and the third row seems to be just multiples of each other. So, what if I went and"
+361,57402,57812,1915315.32,1929029.03,1915.315,1929.029,13.714,write,14,0.904,0,"divided the second row? We will get 1, 1, 3, 0, 1, 1. The"
+362,57813,57891,1929029.03,1931665.00,1929.029,1931.665,2.636,explain,10,0.875,0,"moment I see this side that two rows are equal,"
+363,57892,57931,1931665.00,1932999.67,1931.665,1933.000,1.335,out,4,0.993,0,it kind of hints
+364,57932,57997,1932999.67,1935201.87,1933.000,1935.202,2.202,explain,8,0.978,0,that we are going to lose out on
+365,57998,58479,1935201.87,1951284.62,1935.202,1951.285,16.083,write,31,0.877,0,"the rank. Our rank is going to be not exactly 3. So, if I do another row operation, finally we get into the echelon form 0, 1, 1, 0, 0, 0,"
+366,58480,58533,1951284.62,1953086.42,1951.285,1953.086,1.802,explain,1,0.984,0,0.
+367,58534,58558,1953086.42,1953920.59,1953.086,1953.921,0.834,out,5,0.935,0,"So, now I see that"
+368,58559,58609,1953920.59,1955622.29,1953.921,1955.622,1.702,explain,6,0.934,0,there are only two pivots. As
+369,58610,58656,1955622.29,1957190.52,1955.622,1957.191,1.568,write,5,0.957,0,"we had already suspected, the"
+370,58657,58701,1957190.52,1958692.03,1957.191,1958.692,1.502,explain,5,0.963,0,rank is not a full
+371,58702,58774,1958692.03,1961127.79,1958.692,1961.128,2.436,out,9,0.986,0,"rank. So, if we say that these are two"
+372,58775,58822,1961127.79,1962729.40,1961.128,1962.729,1.602,explain,4,0.995,0,"pivots, the third column"
+373,58823,59025,1962729.40,1969502.84,1962.729,1969.503,6.773,write,9,0.849,0,is basically the column for the free variable. The
+374,59026,59070,1969502.84,1971004.34,1969.503,1971.004,1.502,explain,5,0.802,0,"moment I see free variable,"
+375,59071,59117,1971004.34,1972572.57,1971.004,1972.573,1.568,out,2,0.987,0,I immediately
+376,59118,59165,1972572.57,1974174.17,1972.573,1974.174,1.602,explain,5,0.978,0,know that there will be
+377,59166,59519,1974174.17,1985985.99,1974.174,1985.986,11.812,write,3,0.955,0,infinitely many solutions.
+378,59520,59581,1985985.99,1988054.72,1985.986,1988.055,2.069,explain,0,,1,[silence]
+379,59582,59733,1988054.72,1993126.46,1988.055,1993.126,5.072,out,23,0.903,0,"And since I know there is already one solution, maybe the zero solution. So, I am very sure that it has infinitely many"
+380,59734,59999,1993126.46,2002002.00,1993.126,2002.002,8.876,explain,23,0.949,0,"solutions. The moment I see infinitely many solutions, we know that there is, there must be a non -zero combination which will produce"
+381,60000,60109,2002002.00,2005672.34,2002.002,2005.672,3.670,out,11,0.964,0,"the zero vector. Of course, we want to find what that"
+382,60110,60203,2005672.34,2008808.81,2005.672,2008.809,3.136,explain,7,0.853,0,combination would be. But at least we
+383,60204,60302,2008808.81,2012112.11,2008.809,2012.112,3.303,out,12,0.971,0,have been able to answer that this set is going to be
+384,60303,60321,2012112.11,2012746.08,2012.112,2012.746,0.634,pick_eraser,2,0.937,0,a dependent
+385,60322,61012,2012746.08,2035802.47,2012.746,2035.802,23.056,erase,22,0.88,0,"set. The question is how is, how are they dependent on each other? Like what combination is producing me the zero vector?"
+386,61013,61026,2035802.47,2036269.60,2035.802,2036.270,0.467,drop_eraser,0,,1,[silence]
+387,61027,61053,2036269.60,2037170.50,2036.270,2037.171,0.901,out,0,,1,[silence]
+388,61054,61084,2037170.50,2038204.87,2037.171,2038.205,1.034,drop_eraser,0,,1,[silence]
+389,61085,61152,2038204.87,2040473.81,2038.205,2040.474,2.269,out,0,,1,[silence]
+390,61153,61186,2040473.81,2041608.27,2040.474,2041.608,1.134,explain,0,,1,[silence]
+391,61187,62037,2041608.27,2070003.34,2041.608,2070.003,28.395,write,27,0.917,0,"We have found that S is a dependent set. So, here is another question now that we have answered. One question, what is the dependency relation? That"
+392,62038,62071,2070003.34,2071137.80,2070.003,2071.138,1.134,explain,1,0.983,0,"means,"
+393,62072,62102,2071137.80,2072172.17,2071.138,2072.172,1.034,out,0,,1,[silence]
+394,62103,62120,2072172.17,2072772.77,2072.172,2072.773,0.601,explain,1,0.95,0,this
+395,62121,62265,2072772.77,2077610.94,2072.773,2077.611,4.838,write,11,0.934,0,"is another way of saying, find me that C1, C2, C3"
+396,62266,62294,2077610.94,2078578.58,2077.611,2078.579,0.968,explain,1,0.586,0,which
+397,62295,62358,2078578.58,2080714.05,2078.579,2080.714,2.135,out,5,0.789,0,will produce me the zero
+398,62359,62462,2080714.05,2084184.18,2080.714,2084.184,3.470,explain,5,0.984,0,vector in this particular equation.
+399,62463,62542,2084184.18,2086853.52,2084.184,2086.854,2.669,out,13,0.935,0,"So, all we have to do is just solve for the system we"
+400,62543,62687,2086853.52,2091691.69,2086.854,2091.692,4.838,explain,11,0.987,0,"have already got everything taken care of. So, from that matrix"
+401,62688,63230,2091691.69,2109809.81,2091.692,2109.810,18.118,write,27,0.886,0,"that we have got, we can say C1 plus C2 plus 3C3 is 0 and C2 plus C3 is also 0. Remember C3 is our free variable."
+402,63231,63267,2109809.81,2111044.38,2109.810,2111.044,1.235,explain,5,0.853,0,We did say the third
+403,63268,63317,2111044.38,2112712.71,2111.044,2112.713,1.668,out,5,0.96,0,column is the free variable.
+404,63318,63334,2112712.71,2113279.95,2112.713,2113.280,0.567,explain,3,0.981,0,"So, we can"
+405,63335,63748,2113279.95,2127093.76,2113.280,2127.094,13.814,write,23,0.937,0,"write down everything in terms of the free variable. So, we can say that C1, C2, C3, this guy remains C3, this guy"
+406,63749,63767,2127093.76,2127727.73,2127.094,2127.728,0.634,explain,2,0.84,0,is minus
+407,63768,63898,2127727.73,2132098.77,2127.728,2132.099,4.371,out,9,0.943,0,"C3. And if I plug in the value of,"
+408,63899,63920,2132098.77,2132832.83,2132.099,2132.833,0.734,pick_eraser,0,,1,[silence]
+409,63921,63973,2132832.83,2134601.27,2132.833,2134.601,1.768,erase,0,,1,[silence]
+410,63974,64008,2134601.27,2135769.10,2134.601,2135.769,1.168,drop_eraser,1,0.429,0,if
+411,64009,64153,2135769.10,2140607.27,2135.769,2140.607,4.838,out,6,0.976,0,I plug in the value of
+412,64154,64174,2140607.27,2141307.97,2140.607,2141.308,0.701,pick_eraser,0,,1,[silence]
+413,64175,64215,2141307.97,2142676.01,2141.308,2142.676,1.368,erase,0,,1,[silence]
+414,64216,64274,2142676.01,2144644.64,2142.676,2144.645,1.969,drop_eraser,0,,1,[silence]
+415,64275,64355,2144644.64,2147347.35,2144.645,2147.347,2.703,out,4,0.86,0,"C1, C2 and C3"
+416,64356,64549,2147347.35,2153820.49,2147.347,2153.820,6.473,explain,22,0.918,0,"in there, in the first equation we will get what we want. So, C2 is minus C3, so this will give me"
+417,64550,64896,2153820.49,2165398.73,2153.820,2165.399,11.578,write,15,0.964,0,"minus 2. What this means is, I can give any value to C3 I want"
+418,64897,64910,2165398.73,2165865.87,2165.399,2165.866,0.467,explain,0,,1,[silence]
+419,64911,65036,2165865.87,2170070.07,2165.866,2170.070,4.204,out,10,0.951,0,"and I can produce dependency relations. For example, one of"
+420,65037,65264,2170070.07,2177677.68,2170.070,2177.678,7.608,explain,22,0.945,0,"the solutions is minus 2, minus 1, 1. That means if I plug in minus 2, minus 1, minus 1 and 1,"
+421,65265,65310,2177677.68,2179212.55,2177.678,2179.213,1.535,out,6,0.926,0,I will get a zero vector.
+422,65311,65370,2179212.55,2181214.55,2179.213,2181.215,2.002,explain,7,0.833,0,Or I can multiply this vector by
+423,65371,65671,2181214.55,2191257.92,2181.215,2191.258,10.043,out,27,0.945,0,"any non -zero scalar I want and produce other solutions to that equation. So, once I have one dependency relation, I can produce infinitely many dependency relations."
+424,65672,65696,2191257.92,2192092.09,2191.258,2192.092,0.834,explain,1,0.339,0,Just
+425,65697,66012,2192092.09,2202635.97,2192.092,2202.636,10.544,write,19,0.933,0,"to be clear, this is what we have so far, minus 2V1 minus V2 plus V3 will give me."
+426,66013,66026,2202635.97,2203103.10,2202.636,2203.103,0.467,explain,0,,1,[silence]
+427,66027,66315,2203103.10,2212746.08,2203.103,2212.746,9.643,out,8,0.993,0,"Now, let us try to increase our scope"
+428,66316,66398,2212746.08,2215515.52,2212.746,2215.516,2.769,pick_eraser,5,0.783,0,to answering more questions. Once
+429,66399,67737,2215515.52,2260193.53,2215.516,2260.194,44.678,erase,55,0.933,0,"we have the machinery to do this, question is if I give you bunch of vectors in a space, can I somehow know by just looking at the number of vectors that have been given, can I somehow tell whether they are going to be dependent or independent? Let me pose the question more precisely."
+430,67738,67834,2260193.53,2263430.10,2260.194,2263.430,3.237,drop_eraser,0,,1,[silence]
+431,67835,67945,2263430.10,2267133.80,2263.430,2267.134,3.704,out,8,0.946,0,"So, let me pose the question more precisely."
+432,67946,68000,2267133.80,2268968.97,2267.134,2268.969,1.835,explain,5,0.83,0,Suppose I am working in
+433,68001,68234,2268968.97,2276776.78,2268.969,2276.777,7.808,write,12,0.767,0,"R2, let us start small. If I give you a vector V1,"
+434,68235,68315,2276776.78,2279479.48,2276.777,2279.479,2.703,explain,5,0.971,0,will it be independent or
+435,68316,68349,2279479.48,2280613.95,2279.479,2280.614,1.134,out,4,0.964,0,dependent? Just one vector.
+436,68350,68419,2280613.95,2282949.62,2280.614,2282.950,2.336,explain,0,,1,[silence]
+437,68420,68457,2282949.62,2284217.55,2282.950,2284.218,1.268,write,6,0.991,0,If I give you more than
+438,68458,68533,2284217.55,2286753.42,2284.218,2286.753,2.536,explain,11,0.913,0,"one vector, we have seen an instance where I gave you"
+439,68534,68617,2286753.42,2289556.22,2286.753,2289.556,2.803,out,9,0.966,0,two vectors and it turned out to be independent.
+440,68618,68679,2289556.22,2291624.96,2289.556,2291.625,2.069,explain,6,0.982,0,What if we want to push
+441,68680,68773,2291624.96,2294761.43,2291.625,2294.761,3.136,write,7,0.884,0,our luck? Can we have three vectors
+442,68774,68837,2294761.43,2296896.90,2294.761,2296.897,2.135,explain,3,0.893,0,in R2 which
+443,68838,69017,2296896.90,2302902.90,2296.897,2302.903,6.006,out,20,0.8,0,"would be linearly independent? Can we have four vectors in R2 which could be linearly independent, on and so forth?"
+444,69018,69140,2302902.90,2307007.01,2302.903,2307.007,4.104,explain,10,0.902,0,"So, basically you want to figure out is there a"
+445,69141,69267,2307007.01,2311244.58,2307.007,2311.245,4.238,out,14,0.957,0,bound on the number of vectors which could be independent or is it like
+446,69268,69677,2311244.58,2324924.92,2311.245,2324.925,13.680,explain,32,0.938,0,"it free for all, any number of vectors you give, I can possibly find some independence. Okay, what if I was given three vectors? So, let me give these vectors some names."
+447,69678,70201,2324924.92,2342409.08,2324.925,2342.409,17.484,write,18,0.769,0,"So, let me say my vector V1 is let us say AB, my vector V2 is some PQ."
+448,70202,70282,2342409.08,2345111.78,2342.409,2345.112,2.703,explain,7,0.94,0,What if I was given three vectors?
+449,70283,70376,2345111.78,2348248.25,2345.112,2348.248,3.136,out,6,0.886,0,Can they form an independent set?
+450,70377,70676,2348248.25,2358258.26,2348.248,2358.258,10.010,write,8,0.957,0,"So, using the definition, I would create this"
+451,70677,70795,2358258.26,2362228.90,2358.258,2362.229,3.971,explain,3,0.912,0,"matrix. Ask ourselves,"
+452,70796,70887,2362228.90,2365298.63,2362.229,2365.299,3.070,out,10,0.944,0,what can we say about the solution to this system
+453,70888,70985,2365298.63,2368568.57,2365.299,2368.569,3.270,explain,9,0.943,0,"of equation? So, first of all let us notice"
+454,70986,71052,2368568.57,2370804.14,2368.569,2370.804,2.236,write,4,0.918,0,there are three columns.
+455,71053,71162,2370804.14,2374474.47,2370.804,2374.474,3.670,explain,1,0.025,0,"Okay,"
+456,71163,71369,2374474.47,2381381.38,2374.474,2381.381,6.907,write,0,,1,[silence]
+457,71370,71474,2381381.38,2384884.88,2381.381,2384.885,3.504,explain,6,0.825,0,so what about the rank? Can
+458,71475,71598,2384884.88,2389022.36,2384.885,2389.022,4.137,write,6,0.928,0,I say no matter what these
+459,71599,71673,2389022.36,2391524.86,2389.022,2391.525,2.503,explain,5,0.578,0,"numbers A, S, V, Q,"
+460,71674,71721,2391524.86,2393126.46,2391.525,2393.126,1.602,write,5,0.945,0,"are, the rank of this"
+461,71722,71783,2393126.46,2395195.20,2393.126,2395.195,2.069,explain,7,0.901,0,thing can never be more than two
+462,71784,71880,2395195.20,2398431.77,2395.195,2398.432,3.237,out,14,0.818,0,"because I have only two rows, so they could be at most two vectors."
+463,71881,71933,2398431.77,2400200.20,2398.432,2400.200,1.768,explain,8,0.971,0,"So, the rank is going to be two,"
+464,71934,72345,2400200.20,2413947.28,2400.200,2413.947,13.747,write,15,0.961,0,"then can we say no matter what these numbers are, there is at least one."
+465,72346,72452,2413947.28,2417517.52,2413.947,2417.518,3.570,explain,9,0.789,0,Let us be clear about how we are achieving
+466,72453,73323,2417517.52,2446579.91,2417.518,2446.580,29.062,write,42,0.864,0,"this after row reduction depending on what these things were. I claim that either you will have a matrix of this form where you have a non -zero entry over here, doesn't matter what these entries are. These are the two possible,"
+467,73324,73339,2446579.91,2447113.78,2446.580,2447.114,0.534,explain,0,,1,[silence]
+468,73340,73461,2447113.78,2451184.52,2447.114,2451.185,4.071,out,12,0.959,0,"this is one possible reduced, one possible echelon form that can happen."
+469,73462,73501,2451184.52,2452519.19,2451.185,2452.519,1.335,explain,1,0.972,0,Or
+470,73502,74120,2452519.19,2473173.17,2452.519,2473.173,20.654,write,5,0.911,0,you may have like this
+471,74121,74469,2473173.17,2484818.15,2473.173,2484.818,11.645,explain,33,0.831,0,"or you may have a situation like this where the entire second line is bunch of zeros or you may have a situation like this where both the lines are zeros. So, either"
+472,74470,74518,2484818.15,2486453.12,2484.818,2486.453,1.635,out,5,0.84,0,way we are guaranteed that
+473,74519,74858,2486453.12,2497797.80,2486.453,2497.798,11.345,explain,46,0.931,0,"there can be no more than two pivots, either I have one pivot or at most two pivots. So, no matter what we do, there is always a free variable. Out here this is the free column, out here the middle column is the free column."
+474,74859,74884,2497797.80,2498665.33,2497.798,2498.665,0.868,out,2,0.993,0,"So, the"
+475,74885,74933,2498665.33,2500300.30,2498.665,2500.300,1.635,explain,5,0.927,0,moment I say it has
+476,74934,75449,2500300.30,2517517.52,2500.300,2517.518,17.217,write,24,0.931,0,"at least one free variable, that means it tells me that it will have infinitely many solutions. So, that means the set must be"
+477,75450,75499,2517517.52,2519185.85,2517.518,2519.186,1.668,explain,4,0.943,0,because I can always
+478,75500,75635,2519185.85,2523723.72,2519.186,2523.724,4.538,out,7,0.945,0,find non -zero solutions to my equation.
+479,75636,76080,2523723.72,2538571.91,2523.724,2538.572,14.848,explain,43,0.938,0,"So, the moment we say the set is going to be dependent, what is the conclusion? The conclusion is if you give me any three vectors in R2, I can always guarantee they will form a dependent set. So, in some sense two"
+480,76081,76126,2538571.91,2540106.77,2538.572,2540.107,1.535,out,4,0.839,0,is that threshold above
+481,76127,76242,2540106.77,2543977.31,2540.107,2543.977,3.871,explain,8,0.99,0,"which things become dependent, below which things may"
+482,76243,76496,2543977.31,2552452.45,2543.977,2552.452,8.475,out,15,0.977,0,"remain independent. So, based on this we will try to further our knowledge and let"
+483,76497,76536,2552452.45,2553787.12,2552.452,2553.787,1.335,explain,5,0.961,0,us try to make a
+484,76537,76557,2553787.12,2554487.82,2553.787,2554.488,0.701,pick_eraser,1,0.992,0,conjecture.
+485,76558,78399,2554487.82,2615949.28,2554.488,2615.949,61.461,erase,46,0.856,0,"And I will leave it for you guys to think why that conjecture is true based on the example we just did in two dimensions. And then we can pick up the next class for that. So, here is a thing we are trying to make."
+486,78400,78443,2615949.28,2617417.42,2615.949,2617.417,1.468,out,0,,1,[silence]
+487,78444,78474,2617417.42,2618451.79,2617.417,2618.452,1.034,drop_eraser,0,,1,[silence]
+488,78475,78637,2618451.79,2623890.56,2618.452,2623.891,5.439,out,0,,1,[silence]
+489,78638,78713,2623890.56,2626426.43,2623.891,2626.426,2.536,explain,3,0.986,0,"So, here is"
+490,78714,79371,2626426.43,2648381.72,2626.426,2648.382,21.955,write,16,0.847,0,"a, let me call it a theorem. So, I have k vectors inside R space let"
+491,79372,79410,2648381.72,2649683.02,2648.382,2649.683,1.301,explain,3,0.887,0,us say Rn.
+492,79411,79422,2649683.02,2650083.42,2649.683,2650.083,0.400,out,0,,1,[silence]
+493,79423,79461,2650083.42,2651384.72,2650.083,2651.385,1.301,explain,0,,1,[silence]
+494,79462,80119,2651384.72,2673340.01,2651.385,2673.340,21.955,write,11,0.767,0,"If k is bigger than n, then S is dependent set."
+495,80120,80145,2673340.01,2674207.54,2673.340,2674.208,0.868,explain,0,,1,[silence]
+496,80146,80512,2674207.54,2686453.12,2674.208,2686.453,12.246,out,32,0.96,0,"So, in other words what you are saying is if I have more vectors than the space I am living in, then that set of vectors will always be a dependent set"
+497,80513,80535,2686453.12,2687220.55,2686.453,2687.221,0.767,explain,3,0.833,0,"of vectors. So,"
+498,80536,80665,2687220.55,2691558.22,2687.221,2691.558,4.338,write,6,0.879,0,is a sketch for our proof.
+499,80666,80677,2691558.22,2691958.63,2691.558,2691.959,0.400,explain,3,0.886,0,As you will
+500,80678,80738,2691958.63,2693993.99,2691.959,2693.994,2.035,out,7,0.884,0,see it is entirely based on the
+501,80739,80762,2693993.99,2694794.79,2693.994,2694.795,0.801,explain,5,0.763,0,idea we have to see.
+502,80763,81312,2694794.79,2713146.48,2694.795,2713.146,18.352,write,30,0.935,0,"So, if I have k vectors, here is my vector v1, here is my vector v2, so here is my vector vk and here I will have the zero vector."
+503,81313,81327,2713146.48,2713646.98,2713.146,2713.647,0.501,explain,0,,1,[silence]
+504,81328,81407,2713646.98,2716316.32,2713.647,2716.316,2.669,out,0,,1,[silence]
+505,81408,81444,2716316.32,2717550.88,2716.316,2717.551,1.235,explain,1,0.527,0,"So,"
+506,81445,81834,2717550.88,2730563.90,2717.551,2730.564,13.013,write,12,0.963,0,"number of columns is k, number of rows that we have is"
+507,81835,81846,2730563.90,2730964.30,2730.564,2730.964,0.400,explain,2,0.667,0,n because
+508,81847,81935,2730964.30,2733933.93,2730.964,2733.934,2.970,out,6,0.866,0,each vector lives in a dimension.
+509,81936,81974,2733933.93,2735235.24,2733.934,2735.235,1.301,explain,4,0.96,0,And we are given
+510,81975,82154,2735235.24,2741241.24,2735.235,2741.241,6.006,write,11,0.983,0,"that n is less than k. So, we can say for"
+511,82155,82208,2741241.24,2743043.04,2741.241,2743.043,1.802,explain,5,0.981,0,sure that the rank of
+512,82209,82321,2743043.04,2746813.48,2743.043,2746.813,3.770,write,7,0.985,0,this matrix would be no more than
+513,82322,82335,2746813.48,2747280.61,2746.813,2747.281,0.467,explain,1,0.588,0,10.
+514,82336,82418,2747280.61,2750050.05,2747.281,2750.050,2.769,out,4,0.842,0,"So, if it is"
+515,82419,82433,2750050.05,2750550.55,2750.050,2750.551,0.501,explain,3,0.978,0,no more than
+516,82434,82838,2750550.55,2764064.06,2750.551,2764.064,13.514,write,12,0.929,0,"n, then you can definitely say that at least k minus n."
+517,82839,82874,2764064.06,2765265.27,2764.064,2765.265,1.201,explain,0,,1,[silence]
+518,82875,83039,2765265.27,2770770.77,2765.265,2770.771,5.506,out,12,0.977,0,"So, even if we have all n pivots, whatever is the difference"
+519,83040,83062,2770770.77,2771538.20,2770.771,2771.538,0.767,explain,3,0.991,0,between k and
+520,83063,83106,2771538.20,2773006.34,2771.538,2773.006,1.468,out,6,0.892,0,"n, we will have that many"
+521,83107,83148,2773006.34,2774407.74,2773.006,2774.408,1.401,explain,2,0.971,0,free variables
+522,83149,83425,2774407.74,2783650.32,2774.408,2783.650,9.243,write,9,0.885,0,and that means I will have infinitely many solutions.
+523,83426,83458,2783650.32,2784751.42,2783.650,2784.751,1.101,explain,2,0.997,0,"So, in"
+524,83459,83527,2784751.42,2787053.72,2784.751,2787.054,2.302,out,8,0.869,0,particular I will have a non -zero solution
+525,83528,83544,2787053.72,2787620.95,2787.054,2787.621,0.567,explain,1,0.951,0,and
+526,83545,83695,2787620.95,2792659.33,2787.621,2792.659,5.038,write,8,0.952,0,hence my set would be a dependent set.
+527,83696,83722,2792659.33,2793560.23,2792.659,2793.560,0.901,explain,4,0.785,0,"So, in fact, I"
+528,83723,84270,2793560.23,2811845.18,2793.560,2811.845,18.285,out,46,0.947,0,have given you pretty much proof except for filling it with appropriate words. This is more than a sketch. But one thing is good about this theorem is this is going to be of much use to us as we move along. This is actually going
+529,84271,84304,2811845.18,2812979.65,2811.845,2812.980,1.134,explain,3,0.999,0,to help us
+530,84305,84708,2812979.65,2826459.79,2812.980,2826.460,13.480,out,33,0.939,0,"define what we call the dimension of a vector space. I did not mean for this theorem the concept of dimensionality would have been not been defined. So, we will be using this"
+531,84709,84785,2826459.79,2829029.03,2826.460,2829.029,2.569,change,7,0.839,0,and the idea of a linear span
+532,84786,84955,2829029.03,2834701.37,2829.029,2834.701,5.672,out,6,0.982,0,to further talk about these things.

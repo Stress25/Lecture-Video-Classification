@@ -1,0 +1,163 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,1362,0.00,45478.81,0.000,45.479,45.479,explain,164,0.953,0,"Welcome to electron line. In this video we're going to apply that general method of finding the inverse of a matrix to a 3 by 3 matrix. So again, the approach is that we have some sort of matrix, here's the 3 by 3, we want to find the inverse of the matrix, and the approach is that we take the matrix and augment it with the identity matrix, then use the Gaussian method of elimination to turn the left side of the matrix into the identity matrix, which will cause the right side of the matrix to turn into the inverse of the original matrix. So, we take the matrix here, put it on the left side, and augment it with the identity matrix, and now we apply the Gaussian method of elimination to turn the left side into the identity matrix, and here we'll end up with the inverse of the matrix. Alright, so the first thing we'll want to do is"
+1,1363,1397,45478.81,46646.65,45.479,46.647,1.168,emphasize,4,0.987,0,turn this into a
+2,1398,1544,46646.65,51551.55,46.647,51.552,4.905,write,17,0.869,0,1. We can do that by taking the first row and replacing it by 1 half times
+3,1545,1659,51551.55,55388.72,51.552,55.389,3.837,explain,11,0.987,0,"the first row, simply multiplying the first row by 1 half,"
+4,1660,2256,55388.72,75308.64,55.389,75.309,19.920,write,40,0.904,0,"and when we do that we get the following matrix. So the top matrix becomes a 1, a 2, a 1 half, 1 half, 0, and 0, the second row stays the same, and the third row stays the same."
+5,2257,2368,75308.64,79045.71,75.309,79.046,3.737,explain,12,0.93,0,"Alright, that's our first step, that was easy. Second step, we're going"
+6,2369,2531,79045.71,84484.48,79.046,84.484,5.439,emphasize,22,0.968,0,"to take the 1 here on the first row, and use it to turn this into a 0, and to turn this"
+7,2532,2563,84484.48,85552.22,84.484,85.552,1.068,explain,4,0.925,0,"into a 0, which"
+8,2564,2618,85552.22,87387.39,85.552,87.387,1.835,write,8,0.987,0,means I'm going to take the second row
+9,2619,2668,87387.39,89055.72,87.387,89.056,1.668,explain,9,0.883,0,"and replace it by the negative of that number,"
+10,2669,2678,89055.72,89389.39,89.056,89.389,0.334,write,1,0.995,0,which
+11,2679,2714,89389.39,90590.59,89.389,90.591,1.201,explain,4,0.919,0,"is 1, times the"
+12,2715,2858,90590.59,95395.40,90.591,95.395,4.805,write,19,0.969,0,"row with the 1 in it, and adding it to the second row. We take the third row and"
+13,2859,2910,95395.40,97130.46,95.395,97.130,1.735,explain,8,0.983,0,"replace it by the negative of this number,"
+14,2911,2926,97130.46,97664.33,97.130,97.664,0.534,write,2,0.998,0,which is
+15,2927,2966,97664.33,98999.00,97.664,98.999,1.335,explain,5,0.899,0,"a minus 1, times the"
+16,2967,3038,98999.00,101401.40,98.999,101.401,2.402,write,11,0.987,0,"row with the 1 in it, and adding it to the"
+17,3039,3242,101401.40,108208.21,101.401,108.208,6.807,explain,27,0.961,0,"third row. That will cause these two to become zeros, of course, we have to calculate what all the other elements will be in those two rows."
+18,3243,3335,108208.21,111311.31,108.208,111.311,3.103,write,9,0.92,0,"So then we end up with the following matrix,"
+19,3336,3383,111311.31,112912.91,111.311,112.913,1.602,explain,3,0.942,0,notice the first
+20,3384,3545,112912.91,118318.32,112.913,118.318,5.405,write,19,0.861,0,"row does not change, we still end up with a 1, a 2, a 1 half, 1 half, 0,"
+21,3546,3723,118318.32,124257.59,118.318,124.258,5.939,explain,18,0.912,0,"and 0. But here this will become a 0, because 1 times 1 is 1, added to negative"
+22,3724,3742,124257.59,124891.56,124.258,124.892,0.634,write,3,0.831,0,1 gives a
+23,3743,3811,124891.56,127193.86,124.892,127.194,2.302,explain,9,0.987,0,"0, 1 times 2 is 2, added to 1"
+24,3812,3828,127193.86,127761.09,127.194,127.761,0.567,write,3,0.971,0,gives me a
+25,3829,3927,127761.09,131064.40,127.761,131.064,3.303,explain,12,0.923,0,"3, 1 times a half is a half, added to negative 1"
+26,3928,3964,131064.40,132298.97,131.064,132.299,1.235,write,5,0.808,0,gives me a minus 1
+27,3965,4056,132298.97,135368.70,132.299,135.369,3.070,explain,10,0.962,0,"half, 1 times 1 half is 1 half, added to"
+28,4057,4083,135368.70,136269.60,135.369,136.270,0.901,write,3,0.968,0,0 is 1
+29,4084,4147,136269.60,138405.07,136.270,138.405,2.135,explain,7,0.8,0,"half, 1 times 0 is 0, added"
+30,4148,4156,138405.07,138705.37,138.405,138.705,0.300,write,2,0.962,0,to 1
+31,4157,4216,138705.37,140707.37,138.705,140.707,2.002,explain,7,0.924,0,"is 1, 1 times 0 added to"
+32,4217,4232,140707.37,141241.24,140.707,141.241,0.534,write,2,0.99,0,0 is
+33,4233,4479,141241.24,149482.82,141.241,149.483,8.242,explain,22,0.904,0,"0. Alright, third row, it's negative 1 times R1 added to row 3, so negative 1 times this added to that gives"
+34,4480,4497,149482.82,150083.42,149.483,150.083,0.601,write,1,0.995,0,me
+35,4498,4591,150083.42,153219.89,150.083,153.220,3.136,explain,11,0.979,0,"0, negative 1 times 2 is negative 2, added to 4"
+36,4592,4607,153219.89,153753.75,153.220,153.754,0.534,write,2,0.972,0,gives me
+37,4608,4707,153753.75,157090.42,153.754,157.090,3.337,explain,12,0.871,0,"a 2, negative 1 times 1 half is negative 1 half, added"
+38,4708,4743,157090.42,158291.62,157.090,158.292,1.201,write,5,0.97,0,to 0 is negative 1
+39,4744,4876,158291.62,162729.40,158.292,162.729,4.438,explain,11,0.623,0,"half, negative 1 times 1 half is negative 1 half, added"
+40,4877,4913,162729.40,163963.96,162.729,163.964,1.235,write,5,0.855,0,to 0 is negative 1
+41,4914,4953,163963.96,165298.63,163.964,165.299,1.335,explain,3,0.964,0,"half, here nothing"
+42,4954,4966,165298.63,165732.40,165.299,165.732,0.434,write,1,0.997,0,changes
+43,4967,4994,165732.40,166666.67,165.732,166.667,0.934,explain,2,0.692,0,and here
+44,4995,5002,166666.67,166933.60,166.667,166.934,0.267,write,1,0.946,0,that
+45,5003,5166,166933.60,172405.74,166.934,172.406,5.472,explain,18,0.907,0,"remains a 1 as well. Alright, so now we have the first column, 1 and all zeros, now"
+46,5167,5205,172405.74,173707.04,172.406,173.707,1.301,emphasize,3,0.989,0,I take this
+47,5206,5346,173707.04,178411.75,173.707,178.412,4.705,explain,15,0.944,0,and I want to turn that into a 1. To do that I take the
+48,5347,5480,178411.75,182882.88,178.412,182.883,4.471,write,10,0.813,0,second row and replace it by 1 third the second
+49,5481,5616,182882.88,187420.75,182.883,187.421,4.538,explain,19,0.923,0,"row. So you see that we end up with some fractions but so far they're not too bad. Okay,"
+50,5617,5767,187420.75,192459.13,187.421,192.459,5.038,write,9,0.918,0,when we do that we get the following matrix.
+51,5768,5855,192459.13,195395.40,192.459,195.395,2.936,explain,10,0.969,0,So we see that the first row does not change
+52,5856,6017,195395.40,200800.80,195.395,200.801,5.405,write,16,0.748,0,"so this is a 1, a 2, a 1 half, a 1 half, a 0 and"
+53,6018,6130,200800.80,204571.24,200.801,204.571,3.770,explain,11,0.943,0,a 0. The third row doesn't change so that remains at
+54,6131,6328,204571.24,211177.84,204.571,211.178,6.607,write,13,0.882,0,"0, 2, a negative 1 half, a negative 1 half, a 0 and"
+55,6329,6490,211177.84,216583.25,211.178,216.583,5.405,explain,20,0.915,0,"a 1. The only thing that does change is the second row, we divide everything by 3 so we get"
+56,6491,6754,216583.25,225392.06,216.583,225.392,8.809,write,23,0.852,0,"a 0, a 1, we get a minus 1 sixth, we get a 1 sixth, we get a 1 third and we get"
+57,6755,6805,225392.06,227093.76,225.392,227.094,1.702,explain,6,0.962,0,a 0. So now we have
+58,6806,6960,227093.76,232265.60,227.094,232.266,5.172,emphasize,18,0.964,0,this as a 1 which will allow us to turn this into a 0 and allow us to
+59,6961,7068,232265.60,235869.20,232.266,235.869,3.604,explain,14,0.954,0,turn that into a 0. So the way we do that is we take
+60,7069,7119,235869.20,237570.90,235.869,237.571,1.702,write,4,0.951,0,the first row and
+61,7120,7166,237570.90,239139.14,237.571,239.139,1.568,explain,7,0.979,0,replace it by the negative of that
+62,7167,7182,239139.14,239673.01,239.139,239.673,0.534,write,2,0.877,0,"number, negative"
+63,7183,7220,239673.01,240940.94,239.673,240.941,1.268,explain,3,0.664,0,2 times the
+64,7221,7297,240940.94,243510.18,240.941,243.510,2.569,write,13,0.955,0,"row with the 1 in it and adding it to the first row,"
+65,7298,7324,243510.18,244411.08,243.510,244.411,0.901,fingererase,1,0.976,0,that's
+66,7325,7336,244411.08,244811.48,244.411,244.811,0.400,write,2,0.979,0,row number
+67,7337,7436,244811.48,248148.15,244.811,248.148,3.337,explain,10,0.95,0,2 because that's where the row with the 1 is.
+68,7437,7489,248148.15,249916.58,248.148,249.917,1.768,write,6,0.979,0,And the third row will be
+69,7490,7533,249916.58,251384.72,249.917,251.385,1.468,explain,6,0.997,0,replaced by the negative of this
+70,7534,7545,251384.72,251785.12,251.385,251.785,0.400,write,1,0.999,0,number
+71,7546,7582,251785.12,253019.69,251.785,253.020,1.235,explain,4,0.944,0,times the row with
+72,7583,7761,253019.69,258992.33,253.020,258.992,5.973,write,20,0.937,0,the 1 in it adding it to the third row. And when we do that we get the following matrix.
+73,7762,7870,258992.33,262629.30,258.992,262.629,3.637,explain,10,0.852,0,Notice in this case the second row doesn't change so
+74,7871,8053,262629.30,268735.40,262.629,268.735,6.106,write,18,0.765,0,"we have a 0, a 1, a minus 1 sixth, a positive 1 sixth, a 1 third and"
+75,8054,8097,268735.40,270203.54,268.735,270.204,1.468,explain,4,0.954,0,a 0. The first
+76,8098,8129,270203.54,271271.27,270.204,271.271,1.068,write,4,0.903,0,column is still 1
+77,8130,8410,271271.27,280647.31,271.271,280.647,9.376,explain,36,0.868,0,"0 0, the second column this will turn into a 0 and that will turn into a 0. So negative 2 times R2, so negative 2 times the 1 is a negative 2 added to 2"
+78,8411,8424,280647.31,281114.45,280.647,281.114,0.467,write,2,0.942,0,is a
+79,8425,8584,281114.45,286453.12,281.114,286.453,5.339,explain,18,0.915,0,0. Negative 2 times this will give us a positive 1 third added to 1 half that gives
+80,8585,8627,286453.12,287887.89,286.453,287.888,1.435,write,3,0.955,0,us a 5
+81,8628,8857,287887.89,295562.23,287.888,295.562,7.674,explain,17,0.676,0,sixth. Negative 2 times a 1 sixth is a negative 3rd added to 1 half gives me
+82,8858,8946,295562.23,298531.87,295.562,298.532,2.970,write,4,0.829,0,a positive 1 sixth.
+83,8947,9120,298531.87,304337.67,298.532,304.338,5.806,explain,24,0.902,0,"Let's see, let me make sure that is true. So what do I do here? So I have a negative 2 times this that"
+84,9121,9385,304337.67,313179.85,304.338,313.180,8.842,write,23,0.887,0,is a minus 1 third added to a 1 half that is equal to minus 2 sixth plus 3 sixth which is 1
+85,9386,9428,313179.85,314614.61,313.180,314.615,1.435,explain,5,0.844,0,"sixth. Yep, yep, I just"
+86,9429,9488,314614.61,316616.62,314.615,316.617,2.002,pickerase,6,0.949,0,want to make sure I got
+87,9489,9539,316616.62,318318.32,316.617,318.318,1.702,erase,3,0.88,0,"that right. Alright,"
+88,9540,9565,318318.32,319185.85,318.318,319.186,0.868,droperase,0,,1,[silence]
+89,9566,9762,319185.85,325759.09,319.186,325.759,6.573,explain,21,0.814,0,"so continuing, so we have a negative 2 times 1 third is a negative 2 thirds added to that gives me"
+90,9763,9802,325759.09,327093.76,325.759,327.094,1.335,write,4,0.943,0,a negative 2 thirds
+91,9803,9835,327093.76,328194.86,327.094,328.195,1.101,explain,2,0.768,0,and of
+92,9836,9838,328194.86,328294.96,328.195,328.295,0.100,explain,1,0.995,0,course
+93,9839,9849,328294.96,328662.00,328.295,328.662,0.367,write,1,0.918,0,that
+94,9850,10030,328662.00,334701.37,328.662,334.701,6.039,explain,21,0.932,0,"stays as a 0. We do the same for the third row, so negative 2 times 1 added to 2 gives"
+95,10031,10048,334701.37,335301.97,334.701,335.302,0.601,write,2,0.977,0,me 0.
+96,10049,10271,335301.97,342742.74,335.302,342.743,7.441,explain,21,0.936,0,Negative 2 times a negative 1 sixth gives me a positive 1 third added to a negative 1 half that gives
+97,10272,10310,342742.74,344044.04,342.743,344.044,1.301,write,5,0.891,0,me a minus 1 sixth.
+98,10311,10501,344044.04,350417.08,344.044,350.417,6.373,explain,15,0.635,0,Negative 2 times a 1 sixth is negative 1 third added to negative 1 fifth
+99,10502,10549,350417.08,352018.69,350.417,352.019,1.602,write,5,0.847,0,is a negative 5 sixth.
+100,10550,10678,352018.69,356322.99,352.019,356.323,4.304,explain,9,0.909,0,Negative 2 times a third is negative 2 thirds
+101,10679,10721,356322.99,357757.76,356.323,357.758,1.435,write,3,0.792,0,added to 0
+102,10722,10770,357757.76,359392.73,357.758,359.393,1.635,explain,3,0.812,0,and here nothing
+103,10771,10776,359392.73,359592.93,359.393,359.593,0.200,write,0,,1,[silence]
+104,10777,11023,359592.93,367834.50,359.593,367.835,8.242,explain,29,0.945,0,"changes. Alright, we're getting closer. Now we have taken care of the first two columns. Now we need to move on to the third column which means we want"
+105,11024,11075,367834.50,369569.57,367.835,369.570,1.735,emphasize,6,0.933,0,to turn this into a 1.
+106,11076,11093,369569.57,370170.17,369.570,370.170,0.601,explain,2,0.725,0,We can
+107,11094,11309,370170.17,377377.38,370.170,377.377,7.207,write,17,0.922,0,do that by taking the third row and replacing it by multiplying negative 6 times the third
+108,11310,11471,377377.38,382782.78,377.377,382.783,5.405,explain,18,0.903,0,"row. So multiply the whole row by negative 6 and they'll turn that into a positive 1. Okay,"
+109,11472,11559,382782.78,385719.05,382.783,385.719,2.936,write,9,0.962,0,when we do that we get the following results.
+110,11560,11630,385719.05,388088.09,385.719,388.088,2.369,explain,5,0.939,0,Notice the first row doesn't
+111,11631,12048,388088.09,402035.37,388.088,402.035,13.947,write,24,0.849,0,"change, so we 1, 0, 5 sixteenths, 1 sixth, negative 2 thirds, and 0. 0, 1, negative 1 sixth, 1 sixth, 1 third, and"
+112,12049,12155,402035.37,405605.61,402.035,405.606,3.570,explain,10,0.933,0,"0. And the third row, multiply everything by minus 1"
+113,12156,12211,405605.61,407474.14,405.606,407.474,1.869,write,5,0.95,0,"sixth, we get 0, 0,"
+114,12212,12280,407474.14,409776.44,407.474,409.776,2.302,explain,3,0.879,0,1. This becomes
+115,12281,12307,409776.44,410677.34,409.776,410.677,0.901,write,2,0.972,0,a positive
+116,12308,12485,410677.34,416616.62,410.677,416.617,5.939,explain,20,0.844,0,"5 and that becomes, this will be a minus 4 sixth, multiply times minus 6. That will give us a"
+117,12486,12506,416616.62,417317.32,416.617,417.317,0.701,write,1,0.999,0,positive
+118,12507,12570,417317.32,419452.79,417.317,419.453,2.135,explain,5,0.94,0,4 and this will be
+119,12571,12597,419452.79,420353.69,419.453,420.354,0.901,write,2,0.974,0,a minus
+120,12598,12769,420353.69,426092.76,420.354,426.093,5.739,explain,16,0.876,0,"6. Alright, hang in there, we're almost there. Now we have 1's across the diagonal, the"
+121,12770,12906,426092.76,430664.00,426.093,430.664,4.571,emphasize,15,0.884,0,only thing left to do is to turn this into a 0 and to turn
+122,12907,13019,430664.00,434434.43,430.664,434.434,3.770,explain,11,0.916,0,that into a 0. We can accomplish that by taking the
+123,13020,13073,434434.43,436236.24,434.434,436.236,1.802,write,3,0.922,0,"first row, R1,"
+124,13074,13410,436236.24,447480.81,436.236,447.481,11.245,explain,30,0.888,0,"replacing it by the negative of that number, and of course this should be 5 sixths, not 5 sixteenths. So taking that first row and taking the negative of that"
+125,13411,13529,447480.81,451451.45,447.481,451.451,3.971,write,15,0.914,0,"number, which is negative 5 sixths, multiplying times the row with the one end, which"
+126,13530,13561,451451.45,452519.19,451.451,452.519,1.068,fingererase,5,0.975,0,in this case is the
+127,13562,13622,452519.19,454554.55,452.519,454.555,2.035,write,7,0.973,0,"third row, and adding it to the"
+128,13623,13662,454554.55,455889.22,454.555,455.889,1.335,explain,5,0.965,0,first row. We do the
+129,13663,13717,455889.22,457724.39,455.889,457.724,1.835,write,6,0.881,0,same with the second row. We
+130,13718,13770,457724.39,459492.83,457.724,459.493,1.768,explain,9,0.962,0,"take the negative of that number, which is a"
+131,13771,13930,459492.83,464831.50,459.493,464.831,5.339,write,19,0.813,0,"positive 1 sixth, times the third row, that's the row with the one end, and adding it to the"
+132,13931,14115,464831.50,471004.34,464.831,471.004,6.173,explain,18,0.93,0,"second row. Alright, now we'll turn these two elements into zeros, so let's see what the final result"
+133,14116,14250,471004.34,475508.84,471.004,475.509,4.505,write,9,0.966,0,is. So now we have a matrix that looks
+134,14251,14328,475508.84,478111.44,475.509,478.111,2.603,explain,9,0.992,0,like this. What doesn't change is the third row.
+135,14329,14469,478111.44,482816.15,478.111,482.816,4.705,write,16,0.883,0,"So we have a 0, a 0, a 1, a 5, a 4, and a negative"
+136,14470,14531,482816.15,484884.88,482.816,484.885,2.069,explain,5,0.988,0,6. The first column doesn't
+137,14532,14555,484884.88,485685.69,484.885,485.686,0.801,write,1,0.999,0,"change,"
+138,14556,14591,485685.69,486886.89,485.686,486.887,1.201,explain,3,0.994,0,the second column
+139,14592,14616,486886.89,487721.05,486.887,487.721,0.834,write,2,0.999,0,doesn't change.
+140,14617,14944,487721.05,498665.33,487.721,498.665,10.944,explain,31,0.873,0,"Alright, so now we're ready to change the elements in the first row. Minus 5 sixths times 1 is a minus 5 sixths, add the 5 sixths, that gives me the"
+141,14945,14957,498665.33,499099.10,498.665,499.099,0.434,write,1,0.348,0,0.
+142,14958,15346,499099.10,512078.75,499.099,512.079,12.980,explain,30,0.964,0,"Minus 5 sixths times this, that would be a minus 25 sixths. Add 1 sixth, that would be minus 24 sixths, minus 24 divided by 6 is a minus 4."
+143,15347,15370,512078.75,512879.55,512.079,512.880,0.801,write,0,,1,[silence]
+144,15371,15823,512879.55,527994.66,512.880,527.995,15.115,explain,36,0.871,0,"Okay, minus 5 sixths times the third row, so minus 5 sixths times this is a minus 26th. Minus 4 sixths is minus 24 sixths, 24 divided by 6 is 4, that would be a minus"
+145,15824,15847,527994.66,528795.46,527.995,528.795,0.801,write,1,0.95,0,4.
+146,15848,16113,528795.46,537671.00,528.795,537.671,8.876,explain,24,0.891,0,"Alright, and finally, minus 5 sixths times this, the 6's cancel out, I get a positive 5, add it to 0, gives me a"
+147,16114,16133,537671.00,538338.34,537.671,538.338,0.667,write,1,0.996,0,positive
+148,16134,16400,538338.34,547247.25,538.338,547.247,8.909,explain,29,0.785,0,"5. Alright, one row left to go. 1 sixth times the third row, so 1 sixth times 1 is 1 sixth, add the minus 1 sixth, that gives me"
+149,16401,16414,547247.25,547714.38,547.247,547.714,0.467,write,1,0.51,0,0.
+150,16415,16593,547714.38,553687.02,547.714,553.687,5.973,explain,18,0.914,0,"1 sixth times 5 is 5 sixth, add the 1 sixth, gives me 6 sixths, that is 1."
+151,16594,16600,553687.02,553920.59,553.687,553.921,0.234,write,0,,1,[silence]
+152,16601,17033,553920.59,568368.37,553.921,568.368,14.448,explain,36,0.926,0,"Oh, let me see if that that right. Yes, okay, it's a positive 1 sixth. Alright, next, 1 sixth times 4 is 4 sixths, adding it to 2 sixths is 6 sixths, so that would also"
+153,17034,17042,568368.37,568668.67,568.368,568.669,0.300,write,2,0.967,0,become a
+154,17043,17234,568668.67,575075.08,568.669,575.075,6.406,explain,17,0.684,0,"1. And finally, 1 sixth times a minus 6 is a minus 1, times 0, add the"
+155,17235,17248,575075.08,575542.21,575.075,575.542,0.467,write,2,0.837,0,0 is
+156,17249,17289,575542.21,576910.24,575.542,576.910,1.368,explain,5,0.969,0,a minus 1. And here
+157,17290,17339,576910.24,578578.58,576.910,578.579,1.668,write,3,0.983,0,we have the
+158,17340,17525,578578.58,584784.78,578.579,584.785,6.206,explain,21,0.961,0,"inverse of our original matrix, so therefore we can say that if A is equal to this, then the inverse of"
+159,17526,17939,584784.78,598598.60,584.785,598.599,13.814,write,32,0.931,0,"the matrix A inverse is equal to a minus 4, minus 4, 5, a 1, 1, negative 1, a 5, a 4, and a minus 6. And that's how we do that."
+160,17940,19665,598598.60,656189.52,598.599,656.190,57.591,explain,190,0.958,0,"Now, yes I agree, it's kind of a lengthy process, and yes I agree, it's really easy to make one single mistake, and it's completely wrong after that. So, when you're done with it, and you can't look at the answer in the back of the book, let's say you work out a problem, and it's an even problem, you don't know the answer in the back of the book, what you can do is you can multiply the A matrix with the inverse A matrix, when you multiply them together, you should get, yes you guessed it, the identity matrix. If you don't, the answer is wrong. Another clue usually is when you make a small little error somewhere, the numbers start getting really bad, really bad fractions, and it just doesn't seem to go anywhere, and then typically you start to realize, maybe I made a mistake, I may want to start over again. But at any rate, that is how we do it, that's how we take a 3 by 3 matrix, and find the inverse using the Gaussian method of elimination. And that's how it's done."
+161,19666,19691,656189.52,657057.06,656.190,657.057,0.868,out,0,,1,[silence]

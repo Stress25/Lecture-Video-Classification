@@ -1,0 +1,314 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,9,10,300.30,367.03,0.300,0.367,0.067,explain,0,,1,[silence]
+1,11,2560,367.03,85452.12,0.367,85.452,85.085,explain,264,0.886,0,"All right, so now it's time to practice we're gonna do a whole lot of practice might be a little bit longer video Nothing really that I want you to learn new just how to deal with negative exponents So we're gonna talk about some operations of negative exponents and here's what we know number one We know that what we do with exponents is one level we see so we see division We should be subtracting when we see negative exponents. It's telling you I don't belong here Tell you that specific factor shouldn't be there So we can subtract negative exponents move from where they are in fraction also We can do it will extrapolate from that we can do a couple cool little rules Which means if we have a fraction both factors have negative exponents reciprocate change the sign of our exponent Same thing inside of a fraction reciprocate change the sign of our exponent the last thing what we talked about last bit of last video was When we're doing these rules Exponent rules only apply to exponents and what's nice is that we can actually separate the fraction We can consider numbers and every pair of variables Independently and multiply the results. So I'm gonna give you two ways for a couple of these to see how to do that So let's look at 16 X squared Y to negative fourth over 18 X to negative fifth Y to the fourth One thing we can do we can always with at least with multiplication Not addition subtraction multiplication"
+2,2561,2865,85452.12,95628.96,85.452,95.629,10.177,write,5,0.803,0,we could seriously view this
+3,2866,3940,95628.96,131498.16,95.629,131.498,35.869,explain,105,0.902,0,"as Four three different fractions being multiplied and simplify each one. We can totally do that What I don't want you to do is accidentally start subtracting the numbers the coefficients. Don't do that So when we think about six over eighteen simplify that fraction That's not three but it is one third because we can simplify fractions like normal Why I like this technique is because it lets your brain see that fraction as separate from your exponent rules That's why I like it. does it's not the quickest technique, but it is one that's kind of nice so we can think about this"
+4,3941,4002,131498.16,133566.90,131.498,133.567,2.069,write,1,0.921,0,as
+5,4003,5847,133566.90,195128.46,133.567,195.128,61.562,explain,212,0.898,0,"one -third Now X squared over X to negative fifth. There are two options here. I'll show you both of them I'll show you the one that I prefer first and then I'll show you the one that you can do second The one I prefer first I like to move negative exponents before I do operations That's what I like to do. Do you have to do it that way? Not at all Okay, you don't have to like the same waste I like that that's okay We can both get the same answer what I like to do is I simplify my fractions that are just numbers No exponents. No problem Then what I do is I look at every pair and I'm gonna think about this that that says I'm in the right Spot X squared looks great, but X to the negative fifth power. That's not so great because that's a negative exponent It's really hard for me to deal with that. So I'm gonna move that factor This factor says I'm supposed to be on a numerator This factor says B2 because I'm not supposed to be on the denominator It's not negative supposed to be where it's at. Let's move it how Let's keep the X"
+6,5848,5896,195128.46,196763.43,195.128,196.763,1.635,write,4,0.995,0,squared where it is
+7,5897,6000,196763.43,200233.57,196.763,200.234,3.470,explain,10,0.867,0,"But furthermore, let's create the Y to the fifth power"
+8,6001,6075,200233.57,202736.07,200.234,202.736,2.503,write,3,0.823,0,change the factor
+9,6076,6378,202736.07,212846.18,202.736,212.846,10.110,explain,24,0.907,0,Change the factor from where it's at. It's gonna change the sign of your exponent There's nothing left besides one of the denominator now
+10,6379,6390,212846.18,213246.58,212.846,213.247,0.400,write,0,,1,[silence]
+11,6391,6582,213246.58,219652.99,213.247,219.653,6.406,explain,20,0.927,0,Do the same thing with the Y's? This Y to the fourth down here says I'm supposed to be here
+12,6583,6619,219652.99,220887.55,219.653,220.888,1.235,write,0,,1,[silence]
+13,6620,6858,220887.55,228862.20,220.888,228.862,7.975,explain,27,0.873,0,This Y to the fourth. Oh what a negative fourth says I'm not supposed to be on the numerator I'm also supposed to be on the denominator
+14,6859,6910,228862.20,230597.26,228.862,230.597,1.735,write,0,,1,[silence]
+15,6911,7749,230597.26,258591.93,230.597,258.592,27.995,explain,77,0.901,0,Leaving only a one on the numerator Can you see why I might like this technique because what's gonna show me it's gonna show me where all of my numbers are Where all my variables are either numerator or denominator and it's already gonna be positive exponents. That's nice So all we have to do is use some basic exponent rules now instead of division. I see multiplication. That's great So I'm gonna add my exponents now
+16,7750,7900,258591.93,263630.30,258.592,263.630,5.038,write,3,0.667,0,Here we get
+17,7901,7965,263630.30,265799.13,263.630,265.799,2.169,explain,6,0.711,0,X to the seventh over one
+18,7966,8037,265799.13,268201.53,265.799,268.202,2.402,write,0,,1,[silence]
+19,8038,9482,268201.53,316416.42,268.202,316.416,48.215,explain,147,0.907,0,"Here we get one over Y to the eighth. I Understand there's lots of steps here, but you got to understand I've been doing this for a while I see a lot of little mistakes that happen. So I'm trying to give you a method that works every time one thing that works every time is Separating into several fractions one for the numbers and one for every single variable factor that you have Move your negative exponents first create all positive exponents and then add your exponents where your answers are Are already given on numerators or denominators. So we just have to put all this stuff together on the numerator Hey, we set separated by multiplication We can also create a new fraction by multiplication on the numerator is 1 times X to the 7th times 1 You're just gonna get X to the 7th"
+20,9483,9504,316416.42,317150.48,316.416,317.150,0.734,point,0,,1,[silence]
+21,9505,9578,317150.48,319619.62,317.150,319.620,2.469,write,0,,1,[silence]
+22,9579,9724,319619.62,324491.16,319.620,324.491,4.872,explain,9,0.845,0,over 3 times 1 times Y to the 8
+23,9725,9792,324491.16,326760.09,324.491,326.760,2.269,write,0,,1,[silence]
+24,9793,10097,326760.09,336936.94,326.760,336.937,10.177,explain,32,0.806,0,Completely done Are there other ways to do it? Of course there are yeah there there are one way that a lot of people do like Is to move your negative exponents
+25,10098,10109,336936.94,337337.34,336.937,337.337,0.400,write,0,,1,[silence]
+26,10110,10297,337337.34,343610.28,337.337,343.610,6.273,explain,19,0.866,0,first so you can move this up as X squared Y to the 5th and Y to the 4th
+27,10298,10303,343610.28,343810.48,343.610,343.810,0.200,write,1,0.021,0,Times
+28,10304,10325,343810.48,344544.54,343.810,344.545,0.734,explain,5,0.909,0,Y to the 4th down
+29,10326,10377,344544.54,346279.61,344.545,346.280,1.735,fingererase,3,0.992,0,here. That's fine
+30,10378,10492,346279.61,350116.78,346.280,350.117,3.837,explain,8,0.883,0,The other way it usually stems from right
+31,10493,10540,350116.78,351718.39,350.117,351.718,1.602,point,8,0.962,0,here the other way that we can do
+32,10541,10694,351718.39,356856.86,351.718,356.857,5.138,explain,11,0.799,0,this Simplify simplify your fraction normally. So you're get one third
+33,10695,10733,356856.86,358158.16,356.857,358.158,1.301,write,0,,1,[silence]
+34,10734,11534,358158.16,384884.88,358.158,384.885,26.727,explain,74,0.879,0,"But if you want to do the subtraction of exponents So this is a difference in order really the first way I use these rules first and then I Put them together through multiplication now. I'll use this rule and then these rules second So if you look at X squared over X to the negative 5th, can you still subtract exponents? Well, yes Yes, you can but notice you'd have X to the"
+35,11535,11647,384884.88,388655.32,384.885,388.655,3.770,write,3,0.546,0,2 minus Negative
+36,11648,11990,388655.32,400100.10,388.655,400.100,11.445,explain,26,0.8,0,5 2 minus negative 5 you're always okay. You're seeing division man You got to subtract you're seeing division subtract 2 minus negative 5. That's 7
+37,11991,12036,400100.10,401634.97,400.100,401.635,1.535,write,0,,1,[silence]
+38,12037,12386,401634.97,413313.31,401.635,413.313,11.678,explain,22,0.919,0,Remember that rule does them that rule always puts whatever whatever you get whatever your result is always goes on the numerator
+39,12387,12391,413313.31,413480.15,413.313,413.480,0.167,write,0,,1,[silence]
+40,12392,12394,413480.15,413580.25,413.480,413.580,0.100,explain,0,,1,[silence]
+41,12395,12535,413580.25,418284.95,413.580,418.285,4.705,explain,16,0.826,0,"So when we do this Y to the negative 4th over Y to the 4th, that"
+42,12536,12584,418284.95,419919.92,418.285,419.920,1.635,write,4,0.983,0,would be negative 4
+43,12585,12616,419919.92,420987.65,419.920,420.988,1.068,explain,2,0.927,0,minus 4
+44,12617,12675,420987.65,422956.29,420.988,422.956,1.969,write,3,0.66,0,That's Y To
+45,12676,13311,422956.29,444177.51,422.956,444.178,21.221,explain,67,0.831,0,the negative 8 so in this technique you do your subtraction of exponents don't subtract these one That's one third with an X to the positive 7th and Y to the negative 8 Then you'd go back and you'd move every negative fat What every expert every factor with a negative exponent this looks great. This looks great. This looks like crap So we fix that one
+46,13312,13492,444177.51,450216.88,444.178,450.217,6.039,write,0,,1,[silence]
+47,13493,13527,450216.88,451384.72,450.217,451.385,1.168,point,1,0.963,0,and
+48,13528,14241,451384.72,475208.54,451.385,475.209,23.824,explain,92,0.906,0,"you can see that we get exactly the same thing as that That's the second technique. Neither one is better than the other It's just what makes sense in your end. So either way you want to go on that cool What I'm do is I'm gonna recommend that you you pause right now and try that one Give that a try something weird happens there. It's kind of cool Let's see if you try that Okay, I'm gonna go for it The first thing I'm gonna do is I'm gonna write"
+49,14242,14249,475208.54,475475.48,475.209,475.475,0.267,write,2,0.955,0,a little
+50,14250,14346,475475.48,478712.05,475.475,478.712,3.237,explain,9,0.982,0,"one there because when I separate my fractions, I"
+51,14347,14362,478712.05,479245.91,478.712,479.246,0.534,point,0,,1,[silence]
+52,14363,14405,479245.91,480680.68,479.246,480.681,1.435,write,0,,1,[silence]
+53,14406,14462,480680.68,482582.58,480.681,482.583,1.902,explain,4,0.714,0,want 7 over 1
+54,14463,14610,482582.58,487520.85,482.583,487.521,4.938,write,0,,1,[silence]
+55,14611,14789,487520.85,493493.49,487.521,493.493,5.973,explain,23,0.754,0,I want X to the X to the negative 3rd over X to the negative 3 that's interesting in that Y to the
+56,14790,14907,493493.49,497430.76,493.493,497.431,3.937,write,3,0.887,0,negative 5th power
+57,14908,16530,497430.76,551584.92,497.431,551.585,54.154,explain,170,0.856,0,"Over Y to the negative 2. I like the separation now Let's start simplifying the fractions. The first thing I can do here a 7 divided by 1 Leave that like it is you can put 7 but I like to show the fraction that way we can multiply our numerators and Denominators in a moment. How about X to the negative 3 over X to negative 3? Could you subtract them subtract the X funds? Sure negative 3 minus negative 3. That's 0 Zero X to the zero power gives you 1 anything to the zero power is 1 also think about this way You're dividing something by itself. You should get 1 or if you switch both the the the factors here like you could do here Okay, well, I'm gonna X to the positive 3rd over X to the positive 3rd no matter what you do You're gonna get 1 right there. That's gonna completely cancel. I give you 1 which is interesting. So we could do"
+58,16531,16677,551584.92,556489.82,551.585,556.490,4.905,write,0,,1,[silence]
+59,16678,16770,556489.82,559592.93,556.490,559.593,3.103,explain,5,0.744,0,switch both factors We could
+60,16771,16839,559592.93,561895.23,559.593,561.895,2.302,write,1,0.989,0,do
+61,16840,16978,561895.23,566533.20,561.895,566.533,4.638,explain,11,0.812,0,X to the negative 3 minus negative 3 gives you 0
+62,16979,17027,566533.20,568168.17,566.533,568.168,1.635,write,7,0.811,0,that'd be X to the zero power
+63,17028,17246,568168.17,575475.48,568.168,575.475,7.307,explain,21,0.835,0,"which is 1 either way You're gonna get a 1 here no matter what the next factor. Well, I like to"
+64,17247,17386,575475.48,580146.81,575.475,580.147,4.671,write,4,0.998,0,switch these guys around
+65,17387,18234,580146.81,608441.78,580.147,608.442,28.295,explain,108,0.886,0,"This Y to negative 5th power says I'm not supposed to be here. I should be on a denominator This Y to the negative second power says I'm not supposed to be here. I should be on a numerator So this is going to go to the denominator This factor is going to go to the numerator there by creating different signed exponents So instead of negatives we get positives. They're easier for us to think of it Well, they're easier for me to think about at least and then we start simplifying. So 7 divided by 1 that is 7 I'm just gonna leave it 7 over"
+66,18235,18273,608441.78,609743.08,608.442,609.743,1.301,write,1,0.974,0,1
+67,18274,18495,609743.08,617150.48,609.743,617.150,7.407,explain,26,0.878,0,No matter how we do this 3 minus 3 is 0 X to the zero power is 1 or you're dividing something by itself No matter
+68,18496,18547,617150.48,618885.55,617.150,618.886,1.735,write,7,0.828,0,what you get. You're gonna get 1
+69,18548,18551,618885.55,619019.02,618.886,619.019,0.133,write,1,0.332,0,where
+70,18552,18660,619019.02,622655.99,619.019,622.656,3.637,explain,13,0.837,0,you put 1 over 1. It doesn't matter You're gonna get 1 after
+71,18661,18671,622655.99,623023.02,622.656,623.023,0.367,write,1,0.995,0,that.
+72,18672,19518,623023.02,651284.62,623.023,651.285,28.262,explain,90,0.858,0,"We'll simplify your exponents there Y squared over Y to the fifth Man, how are we supposed to do that? Well You could subtract you could get Y to the negative 3 or you can simplify like I showed you in the last video Where there more Y's on the numerator or denominator because the answer that question is where your factor is going to be at The end of your problem. There's more Y's in the denominator. How many more Y's? Three more Y's. So if I simplify this"
+73,19519,19532,651284.62,651751.75,651.285,651.752,0.467,slash,1,0.733,0,there's
+74,19533,19607,651751.75,654254.25,651.752,654.254,2.503,explain,6,0.888,0,gonna be two pairs of Y's
+75,19608,19615,654254.25,654521.19,654.254,654.521,0.267,slash,0,,1,[silence]
+76,19616,19636,654521.19,655221.89,654.521,655.222,0.701,write,0,,1,[silence]
+77,19637,19769,655221.89,659659.66,655.222,659.660,4.438,explain,8,0.902,0,and three Y's left over on the denominator
+78,19770,19833,659659.66,661795.13,659.660,661.795,2.135,write,0,,1,[silence]
+79,19834,20013,661795.13,667801.13,661.795,667.801,6.006,explain,12,0.854,0,Let's multiply what's left over 7 times 1 times 1 is 7
+80,20014,20096,667801.13,670570.57,667.801,670.571,2.769,write,6,0.811,0,1 times 1 times Y third
+81,20097,20286,670570.57,676910.24,670.571,676.910,6.340,explain,23,0.93,0,is Y to the third That's all we should end with if you do it the other way. I'll show that to you
+82,20287,20345,676910.24,678878.88,676.910,678.879,1.969,pickerase,2,0.995,0,as well
+83,20346,20399,678878.88,680680.68,678.879,680.681,1.802,erase,0,,1,[silence]
+84,20400,20456,680680.68,682582.58,680.681,682.583,1.902,droperase,0,,1,[silence]
+85,20457,20482,682582.58,683450.12,682.583,683.450,0.868,pickerase,0,,1,[silence]
+86,20483,20509,683450.12,684351.02,683.450,684.351,0.901,erase,0,,1,[silence]
+87,20510,20559,684351.02,686019.35,684.351,686.019,1.668,droperase,7,0.913,0,You could actually do it right from
+88,20560,20663,686019.35,689489.49,686.019,689.489,3.470,explain,6,0.765,0,here Negative 3 minus negative 3
+89,20664,20736,689489.49,691925.26,689.489,691.925,2.436,write,4,0.763,0,is X to the
+90,20737,20940,691925.26,698732.07,691.925,698.732,6.807,explain,10,0.837,0,0 Y to the negative 5th power minus negative 2
+91,20941,21190,698732.07,707073.74,698.732,707.074,8.342,write,4,0.857,0,that's 7 over 1
+92,21191,21291,707073.74,710443.78,707.074,710.444,3.370,explain,9,0.741,0,times 1 anything to 0 powers 1 and then
+93,21292,21348,710443.78,712345.68,710.444,712.346,1.902,write,3,0.928,0,Y to the
+94,21349,21581,712345.68,720120.12,712.346,720.120,7.774,explain,25,0.945,0,negative 3rd power Then we take this and say this is not supposed to be on the numerator. This should be on a denominator We
+95,21582,21732,720120.12,725158.49,720.120,725.158,5.038,write,0,,1,[silence]
+96,21733,21761,725158.49,726126.13,725.158,726.126,0.968,point,0,,1,[silence]
+97,21762,23136,726126.13,772005.34,726.126,772.005,45.879,explain,141,0.92,0,"get exactly the same answer. That's the idea here Unfortunately not unfortunately fortunately there's lots of ways to do this but almost unfortunately because I can't show you one specific way To do this and it'd be right Well, it'd be the same thing you would do all the time There's lots of different ways to do this One way is to use your subtraction every time just keep in mind what you're doing with every pair of factors Is that you're getting something on a numerator and if it's negative then you move it The other way is to make everything positive first That's the way I personally prefer. Make all the exponents positive first and then deal with the operations after that. That makes more sense to my head But find a way that works for you. Now what"
+98,23137,23167,772005.34,773039.71,772.005,773.040,1.034,write,0,,1,[silence]
+99,23168,23730,773039.71,791825.16,773.040,791.825,18.785,explain,47,0.885,0,we do have to do though is be very conscious that Order operations still apply and when we're distributing exponents it distributed across multiplication only but it does have to distribute So we're gonna deal with order operations in the same way we always do in that
+100,23731,23766,791825.16,793026.36,791.825,793.026,1.201,write,1,0.419,0,We
+101,23767,24919,793026.36,831498.16,793.026,831.498,38.472,explain,119,0.901,0,"need to deal with that exponent before we start combining anything else. So firstly, I'm gonna look at this and go You know what forget that forget the denominator. So I'm gonna model this for you. I'm looking at the problem thinking man I'm gonna eventually have some like like bases. That's great, but I have everything wrapped up with an exponent I'm going to look at what is inside there what operation I have an exponent outside and multiplication I know the exponents distribute across multiplication. That's a good thing, but I also know that I got some factors Exponents distributed across multiplication. They're going to every factor So I'm seeing exponents. I'm going to multiply my exponents"
+102,24920,24943,831498.16,832298.97,831.498,832.299,0.801,point,2,0.97,0,of every
+103,24944,25056,832298.97,836069.40,832.299,836.069,3.770,write,1,0.994,0,factor
+104,25057,25219,836069.40,841508.17,836.069,841.508,5.439,explain,15,0.886,0,So 1 times negative 3 is negative 3 5 times. Negative 3 is negative 15
+105,25220,25272,841508.17,843276.61,841.508,843.277,1.768,write,0,,1,[silence]
+106,25273,25337,843276.61,845445.45,843.277,845.445,2.169,explain,3,0.978,0,on my denominator
+107,25338,25453,845445.45,849315.98,845.445,849.316,3.871,write,0,,1,[silence]
+108,25454,25712,849315.98,857957.96,849.316,857.958,8.642,explain,20,0.963,0,Nothing changes Now I keep on going. I like to separate the numbers and I like to separate my variables
+109,25713,25729,857957.96,858525.19,857.958,858.525,0.567,point,1,0.978,0,No
+110,25730,25798,858525.19,860827.49,858.525,860.827,2.302,explain,10,0.965,0,matter what technique I'm doing. I like to do that
+111,25799,26001,860827.49,867600.93,860.827,867.601,6.773,write,0,,1,[silence]
+112,26002,26900,867600.93,897597.60,867.601,897.598,29.997,explain,99,0.899,0,"Sometimes I don't specifically show this step. Sometimes I just think this step So I separated my head the numbers first and then the variable second So now I'm looking at this. I'm thinking well, those are not common bases Don't do any exponent rules with that. Just move your 2 to the negative third So the first thing I'm thinking about is I have some numbers here this for the first power looks great Any factor with a positive exponent stays? That's a good thing any factor with a negative exponent moves So I'm going to create this"
+113,26901,26964,897597.60,899733.07,897.598,899.733,2.135,write,1,0.986,0,as
+114,26965,27109,899733.07,904571.24,899.733,904.571,4.838,explain,16,0.905,0,"4 on the denominator, but then this says I'm supposed to be on the denominator too"
+115,27110,27142,904571.24,905672.34,904.571,905.672,1.101,write,1,0.093,0,and
+116,27143,27423,905672.34,915048.38,905.672,915.048,9.376,explain,32,0.847,0,By moving a factor with a negative exponent it changes the sign of the exponent That thing what's left on the numerator if I move everything away from a numerator or denominator
+117,27424,27430,915048.38,915281.95,915.048,915.282,0.234,write,0,,1,[silence]
+118,27431,28057,915281.95,936202.87,915.282,936.203,20.921,explain,62,0.868,0,One is the only thing remaining then I deal with my B's now There's two options here. Both of them are good. Both of them are great options. You could straight up just subtract them Negative 15 minus negative 6 that's negative 15 plus 6 that's negative 9 So we'd have B to the negative 9th on the numerator. That's fine or
+119,28058,28063,936202.87,936403.07,936.203,936.403,0.200,write,0,,1,[silence]
+120,28064,28495,936403.07,950817.48,936.403,950.817,14.414,explain,47,0.898,0,We switch the term the factors where they are because they both have negative exponents So B the negative 15th says I'm supposed to be B the positive 15th in the bottom B the negative 6 says I'm supposed to be the positive 6 on the top
+121,28496,28588,950817.48,953920.59,950.817,953.921,3.103,write,0,,1,[silence]
+122,28589,28962,953920.59,966399.73,953.921,966.400,12.479,explain,27,0.871,0,like that That right there has changed all of our negative exponents into positive exponents by moving factors from where they are in a fraction perfectly fine
+123,28963,29002,966399.73,967734.40,966.400,967.734,1.335,write,0,,1,[silence]
+124,29003,29027,967734.40,968568.57,967.734,968.569,0.834,explain,0,,1,[silence]
+125,29028,29066,968568.57,969869.87,968.569,969.870,1.301,pickerase,0,,1,[silence]
+126,29067,29091,969869.87,970704.04,969.870,970.704,0.834,erase,0,,1,[silence]
+127,29092,29119,970704.04,971638.30,970.704,971.638,0.934,droperase,0,,1,[silence]
+128,29120,29338,971638.30,978945.61,971.638,978.946,7.307,explain,15,0.783,0,"Here well, let's see 2 to the 3rd is 8 8 times 4 is 32"
+129,29339,29390,978945.61,980680.68,978.946,980.681,1.735,write,0,,1,[silence]
+130,29391,29478,980680.68,983616.95,980.681,983.617,2.936,explain,8,0.873,0,So this fraction gives us 1 over 32
+131,29479,29519,983616.95,984984.98,983.617,984.985,1.368,write,0,,1,[silence]
+132,29520,30355,984984.98,1012879.55,984.985,1012.880,27.895,explain,89,0.899,0,"Next fraction now I think about this now that I have positive exponents It's really easy to see where there's more of that particular variable In this case, there's there's a lot more B's on the denominator how many more nine more So we're going to be able to simplify six pairs. There's six B's on the numerator There's 15 on the denominator think about that We'd be able to pair up B over B, B over B, B over B six times So we'd be able to cross"
+133,30356,30366,1012879.55,1013246.58,1012.880,1013.247,0.367,slash,2,0.976,0,out all
+134,30367,30472,1013246.58,1016783.45,1013.247,1016.783,3.537,explain,12,0.99,0,of these B's How many would it cross out with down here?
+135,30473,30481,1016783.45,1017083.75,1016.783,1017.084,0.300,slash,0,,1,[silence]
+136,30482,30656,1017083.75,1022922.92,1017.084,1022.923,5.839,explain,18,0.874,0,"Well, six of them how many would be left over? Well, there'd be nine of them left over"
+137,30657,30670,1022922.92,1023390.06,1022.923,1023.390,0.467,write,0,,1,[silence]
+138,30671,31031,1023390.06,1035435.44,1023.390,1035.435,12.045,explain,22,0.789,0,That means that we'd have nine B's after all of our simplification This is a simplification method nine B's on the denominator
+139,31032,31088,1035435.44,1037337.34,1035.435,1037.337,1.902,write,0,,1,[silence]
+140,31089,31391,1037337.34,1047447.45,1037.337,1047.447,10.110,explain,34,0.905,0,We have no B's left on the numerator. We'd only have one that's one way to go about it We get 1 over 32 B to the 9th. No problem. Hopefully that makes sense
+141,31392,31449,1047447.45,1049382.72,1047.447,1049.383,1.935,pickerase,6,0.882,0,the other way the other option
+142,31450,31508,1049382.72,1051351.35,1049.383,1051.351,1.969,erase,2,0.912,0,Same exact
+143,31509,31535,1051351.35,1052252.25,1051.351,1052.252,0.901,droperase,1,0.951,0,idea.
+144,31536,31819,1052252.25,1061728.40,1052.252,1061.728,9.476,explain,39,0.897,0,"I would certainly move this no matter what that's what I would do because it's very hard to think But to the negative third power, there's no common basis But the other option would be subtracting like I mentioned"
+145,31820,31856,1061728.40,1062962.96,1061.728,1062.963,1.235,write,1,0.053,0,If
+146,31857,32048,1062962.96,1069369.37,1062.963,1069.369,6.406,explain,17,0.817,0,you subtract we we'd literally have negative 15 minus negative 6 that's B to the negative 9th
+147,32049,32069,1069369.37,1070070.07,1069.369,1070.070,0.701,write,0,,1,[silence]
+148,32070,32163,1070070.07,1073206.54,1070.070,1073.207,3.136,explain,7,0.944,0,But it would be on a numerator
+149,32164,32179,1073206.54,1073740.41,1073.207,1073.740,0.534,write,1,0.4,0,and
+150,32180,32311,1073740.41,1078144.81,1073.740,1078.145,4.404,explain,24,0.897,0,then it kind of glares He says I'm not supposed to be there. I'm supposed to be on a denominator So we move it
+151,32312,32513,1078144.81,1084884.88,1078.145,1084.885,6.740,write,0,,1,[silence]
+152,32514,32688,1084884.88,1090724.06,1084.885,1090.724,5.839,explain,14,0.959,0,and we get identically the same thing either way and both ways are correct
+153,32689,32720,1090724.06,1091791.79,1090.724,1091.792,1.068,write,0,,1,[silence]
+154,32721,32884,1091791.79,1097263.93,1091.792,1097.264,5.472,explain,17,0.872,0,Make one fraction again through multiplication one times one is one 32 times B to the 9th
+155,32885,32952,1097263.93,1099532.87,1097.264,1099.533,2.269,write,0,,1,[silence]
+156,32953,34418,1099532.87,1148448.45,1099.533,1148.448,48.916,explain,145,0.901,0,"Is 32 B to the 9th That's the complete idea. I'm gonna race the board for just a second we're gonna do a couple more problems here to kind of illustrate this a little bit better, but The whole idea is use whatever exponent rules make sense to you As long as you're not making them up and doing some weird stuff with them We can't go wrong if we're gonna subtract our answer goes on a numerator and if it's negative then you move it The other way is Move your negative exponents first and then use your normal exponent rules that you're used to or just simplify Simplify wherever your larger power is that's where your variables remain. That's the idea Don't apply exponent rules to coefficients. Just divide the numbers. That's what I want you to do. Let's try a few more"
+157,34419,34448,1148448.45,1149449.45,1148.448,1149.449,1.001,pickerase,0,,1,[silence]
+158,34449,34816,1149449.45,1161728.40,1149.449,1161.728,12.279,erase,0,,1,[silence]
+159,34817,34848,1161728.40,1162796.13,1161.728,1162.796,1.068,droperase,0,,1,[silence]
+160,34849,35031,1162796.13,1168902.24,1162.796,1168.902,6.106,explain,0,,1,[silence]
+161,35032,35219,1168902.24,1175175.18,1168.902,1175.175,6.273,write,0,,1,[silence]
+162,35220,35284,1175175.18,1177344.01,1175.175,1177.344,2.169,fingererase,0,,1,[silence]
+163,35285,35627,1177344.01,1188788.79,1177.344,1188.789,11.445,write,0,,1,[silence]
+164,35628,35740,1188788.79,1192559.23,1188.789,1192.559,3.770,explain,0,,1,[silence]
+165,35741,36543,1192559.23,1219352.69,1192.559,1219.353,26.793,write,0,,1,[silence]
+166,36544,36645,1219352.69,1222756.09,1219.353,1222.756,3.403,fingererase,0,,1,[silence]
+167,36646,36833,1222756.09,1229029.03,1222.756,1229.029,6.273,write,0,,1,[silence]
+168,36834,36975,1229029.03,1233767.10,1229.029,1233.767,4.738,explain,1,0.114,0,"Okay,"
+169,36976,37024,1233767.10,1235402.07,1233.767,1235.402,1.635,out,0,,1,[silence]
+170,37025,38215,1235402.07,1275141.81,1235.402,1275.142,39.740,explain,130,0.916,0,so let's go back to our expert rules. Let's conquer these three problems I'm not gonna I'm not gonna have you do them on your own really I want you to go through one time with me to make sure everything's making sense So we've already determined there's lots of different ways to do this at least two or three ways that we can think about But what we can't really argue with is the order operations Before we deal with anything we have to follow order operations in some capacity Which means that before we start combining these we have to deal with the exponents. So we're gonna do that first on The we know I'm gonna ignore denominator right now on the numerator. We know that exponents distribute
+171,38216,38280,1275141.81,1277310.64,1275.142,1277.311,2.169,write,2,0.956,0,across multiplication
+172,38281,38651,1277310.64,1289689.69,1277.311,1289.690,12.379,explain,22,0.912,0,we also know that Every factor gets a power 1 now. I showed you something a while back I hope you remember
+173,38652,38707,1289689.69,1291558.22,1289.690,1291.558,1.869,fingererase,9,0.891,0,there's a little technique that if you had that
+174,38708,38714,1291558.22,1291791.79,1291.558,1291.792,0.234,write,0,,1,[silence]
+175,38715,38855,1291791.79,1296496.50,1291.792,1296.496,4.705,explain,15,0.918,0,negative 4 instead of thinking about that as negative 4 you can think about this
+176,38856,39083,1296496.50,1304104.10,1296.496,1304.104,7.608,write,1,0.999,0,as
+177,39084,39165,1304104.10,1306840.17,1304.104,1306.840,2.736,explain,4,0.81,0,negative 1 times 4
+178,39166,39176,1306840.17,1307207.21,1306.840,1307.207,0.367,write,0,,1,[silence]
+179,39177,39269,1307207.21,1310310.31,1307.207,1310.310,3.103,explain,7,0.817,0,Now you can do that or think
+180,39270,39296,1310310.31,1311211.21,1310.310,1311.211,0.901,write,2,0.959,0,about this
+181,39297,39404,1311211.21,1314814.81,1311.211,1314.815,3.604,explain,6,0.708,0,as negative 4 itself Either one's
+182,39405,39432,1314814.81,1315749.08,1314.815,1315.749,0.934,pickerase,2,0.996,0,"fine, but"
+183,39433,39575,1315749.08,1320520.52,1315.749,1320.521,4.771,erase,12,0.957,0,make certain make absolutely sure that you're not doing a little silly
+184,39576,39595,1320520.52,1321187.85,1320.521,1321.188,0.667,explain,1,0.896,0,Mistake
+185,39596,39630,1321187.85,1322355.69,1321.188,1322.356,1.168,explain,7,0.928,0,"here, which it gives a lot of"
+186,39631,39636,1322355.69,1322555.89,1322.356,1322.556,0.200,write,0,,1,[silence]
+187,39637,39998,1322555.89,1334634.63,1322.556,1334.635,12.079,explain,40,0.872,0,"people a lot of people go Oh, that's gonna be negative 16 because the negative is not in parentheses It is it is in parentheses that 2 has to somehow be an exponent on a negative number here So we"
+188,39999,40032,1334634.63,1335769.10,1334.635,1335.769,1.134,write,6,0.97,0,want to do this and just
+189,40033,40096,1335769.10,1337904.57,1335.769,1337.905,2.135,explain,5,0.746,0,show that's negative 4 then
+190,40097,40100,1337904.57,1338038.04,1337.905,1338.038,0.133,write,1,0.986,0,you
+191,40101,40652,1338038.04,1356456.46,1338.038,1356.456,18.418,explain,53,0.929,0,"can give that an exponent of 1 that's fine But what we're looking at is that that exponent does distribute across multiplication. That's awesome But it also has to go to every single factor including negative ones So we have negative 4 to the first power. Oh, I'm seeing exponents. I'm gonna multiply"
+192,40653,40670,1356456.46,1357057.06,1356.456,1357.057,0.601,point,0,,1,[silence]
+193,40671,40744,1357057.06,1359526.19,1357.057,1359.526,2.469,write,6,0.943,0,so that gives me negative 4
+194,40745,40796,1359526.19,1361261.26,1359.526,1361.261,1.735,explain,4,0.946,0,to the 1 times
+195,40797,40804,1361261.26,1361528.19,1361.261,1361.528,0.267,write,1,0.987,0,2
+196,40805,40860,1361528.19,1363396.73,1361.528,1363.397,1.869,explain,5,0.962,0,is 2 4 times 2
+197,40861,40916,1363396.73,1365265.27,1363.397,1365.265,1.869,write,2,0.996,0,is 8
+198,40917,40976,1365265.27,1367267.27,1365.265,1367.267,2.002,explain,4,0.708,0,2 times 2 is
+199,40977,41034,1367267.27,1369202.54,1367.267,1369.203,1.935,write,1,0.978,0,4
+200,41035,41070,1369202.54,1370403.74,1369.203,1370.404,1.201,explain,0,,1,[silence]
+201,41071,41094,1370403.74,1371204.54,1370.404,1371.205,0.801,write,1,0.227,0,all
+202,41095,41269,1371204.54,1377043.71,1371.205,1377.044,5.839,explain,11,0.774,0,over. Oh Wow that exponent. Well that also distributes across multiplication.
+203,41270,41273,1377043.71,1377177.18,1377.044,1377.177,0.133,write,0,,1,[silence]
+204,41274,41559,1377177.18,1386720.05,1377.177,1386.720,9.543,explain,39,0.834,0,I only have two factors in here. I've actually the first that's great It's going to get the negative 3. I have y to the negative 5th. That's great too. It's gonna get the negative 3 So that's gonna
+205,41560,41577,1386720.05,1387320.65,1386.720,1387.321,0.601,write,2,0.976,0,give us
+206,41578,41636,1387320.65,1389289.29,1387.321,1389.289,1.969,explain,7,0.925,0,x to the 1 times negative 3
+207,41637,41666,1389289.29,1390290.29,1389.289,1390.290,1.001,write,2,0.963,0,is negative
+208,41667,41749,1390290.29,1393059.73,1390.290,1393.060,2.769,explain,6,0.919,0,3 negative 5 times negative 3
+209,41750,41814,1393059.73,1395228.56,1393.060,1395.229,2.169,write,1,0.994,0,is
+210,41815,42867,1395228.56,1430363.70,1395.229,1430.364,35.135,explain,101,0.891,0,Positive 15. Now I'm take a little bit of time. I'm going through this I've already made sure that that exponent distributes across multiplication It goes to every single factor my negative my negative coefficient is in parentheses signifying that that number gets raised to that power That's awesome. After that my denominator well that exponent also distributes across multiplication to the two factors I have 1 times negative 3 is negative 3 negative 5 times negative 3 is positive 15 Take just a moment. I'm going to simplify my numbers if possible. So negative 4 squared. I'm thinking that's 16
+211,42868,42890,1430363.70,1431131.13,1430.364,1431.131,0.767,write,0,,1,[silence]
+212,42891,42977,1431131.13,1434034.03,1431.131,1434.034,2.903,explain,7,0.949,0,I'm also going to organize my variables
+213,42978,43288,1434034.03,1444411.08,1434.034,1444.411,10.377,write,11,0.985,0,Makes it a little bit easier to see what's going on
+214,43289,43720,1444411.08,1458825.49,1444.411,1458.825,14.414,explain,42,0.945,0,"Now we've done this several times, but there's two options here You can't either move your negative exponents first or you can do the subtraction of exponents rule. That's fine It does not matter which one what I'm going to recommend to"
+215,43721,44034,1458825.49,1469302.64,1458.825,1469.303,10.477,write,12,0.966,0,you is that you separate your fractions. No matter what you do
+216,44035,45239,1469302.64,1509509.51,1469.303,1509.510,40.207,explain,132,0.865,0,What that does it makes you not do silly things like subtract 16 minus 1 you're just dividing here 16 divided by 1 is 16 You don't have to simplify the fraction Just leave it either way you go no matter what you do. You're going to get X the 11th on the numerator Can you see it at this point? Can you see well? Yeah I'm gonna I'm gonna move my extra negative 3 to the numerator and add or I'm gonna do 8 minus negative 3 Which is addition anyhow no matter what and hopefully you're at this level right now that you can look at that and go Move that to the numerator and add them together or do the subtraction 8 minus negative 3 and get plus anyhow
+217,45240,45261,1509509.51,1510243.58,1509.510,1510.244,0.734,point,0,,1,[silence]
+218,45262,45499,1510243.58,1518184.85,1510.244,1518.185,7.941,write,0,,1,[silence]
+219,45500,45676,1518184.85,1524090.76,1518.185,1524.091,5.906,explain,11,0.922,0,"here both are positive, but I would think about this as"
+220,45677,45767,1524090.76,1527127.13,1524.091,1527.127,3.036,write,0,,1,[silence]
+221,45768,46705,1527127.13,1558425.09,1527.127,1558.425,31.298,explain,105,0.894,0,a Simplification idea there's 15 wise on the denominator refraction. There's only four on the numerator That means that when we start simplifying our denominators gonna definitely outpace you have 11 wise left over on the denominator Could you do subtraction and do 4 minus 15 yes absolutely you get Y to the negative 11th But that's saying you should move it back to the denominator So no matter what whatever technique we do and I would like you to walk through this now that you've seen this on your own To try to get that same answer we would get 16 on the numerator
+222,46706,46763,1558425.09,1560360.36,1558.425,1560.360,1.935,write,0,,1,[silence]
+223,46764,46829,1560360.36,1562562.56,1560.360,1562.563,2.202,explain,7,0.917,0,We would get X to the 11th
+224,46830,46882,1562562.56,1564331.00,1562.563,1564.331,1.768,write,3,0.986,0,on the numerator
+225,46883,46948,1564331.00,1566533.20,1564.331,1566.533,2.202,explain,8,0.846,0,and we would get Y to be 11
+226,46949,46981,1566533.20,1567634.30,1566.533,1567.634,1.101,write,0,,1,[silence]
+227,46982,48274,1567634.30,1610777.44,1567.634,1610.777,43.143,explain,145,0.869,0,"on the denominator 16 over 1 no problem. is actually 11 no matter how you cut it 8 minus negative 3 is 11 Oh, and and then we have Y to the 11th on the denominator simplify or 4 minus 15 is negative 11 You move it back down either way you want to go on that. That's what we should end with now a couple special cases I want to cover and then we're gonna we're gonna be all done with this the first one We do have a couple kind of cool little rules here if both of your X ones are negative You can reciprocate your fraction. That's fine So if you have negative exponent negative exponent no matter what you what you have inside You can actually reciprocate these fractions and it would change the sign of your exponents so we"
+228,48275,48297,1610777.44,1611544.88,1610.777,1611.545,0.767,point,2,0.789,0,couldn't reciprocate
+229,48298,48668,1611544.88,1623923.92,1611.545,1623.924,12.379,write,1,0.998,0,this
+230,48669,48792,1623923.92,1628061.39,1623.924,1628.061,4.137,explain,7,0.845,0,and Change the sign of the three
+231,48793,48834,1628061.39,1629462.80,1628.061,1629.463,1.401,write,0,,1,[silence]
+232,48835,50057,1629462.80,1670270.27,1629.463,1670.270,40.807,explain,129,0.904,0,"and the two it doesn't do anything to the insides because in Reciprocating those fractions your chain of the sign of all of them really aren't you if you reciprocate this fraction move this to the Numerator it changes the sign of the thing you're going to distribute the thing you're going to multiply it changes the sign of everything Right now, which is kind of nice that saves you a lot of multiplying by a negative So it's it's a nice rule to use So that we don't have to multiply by negatives and actually accidentally get sign errors now take a moment I would really love it if you try the rest of that on your own Okay, so here we go. What we know is that"
+233,50058,50073,1670270.27,1670804.14,1670.270,1670.804,0.534,write,0,,1,[silence]
+234,50074,50169,1670804.14,1674007.34,1670.804,1674.007,3.203,explain,7,0.698,0,Exponents distribute across multiplication they distribute to
+235,50170,50175,1674007.34,1674207.54,1674.007,1674.208,0.200,write,0,,1,[silence]
+236,50176,50456,1674207.54,1683583.58,1674.208,1683.584,9.376,explain,20,0.794,0,every factor that we have Including coefficients so these these factors that are constants So on the numerator we're going
+237,50457,50652,1683583.58,1690123.46,1683.584,1690.123,6.540,write,18,0.94,0,to get our 4 to the 1 times 3 is 3 2 times 3 is 6 for the
+238,50653,50725,1690123.46,1692559.23,1690.123,1692.559,2.436,explain,7,0.786,0,M negative 4 times 3 is negative
+239,50726,50806,1692559.23,1695261.93,1692.559,1695.262,2.703,write,4,0.886,0,12 for the N
+240,50807,50920,1695261.93,1699065.73,1695.262,1699.066,3.804,explain,11,0.853,0,"All over hey, there's only two factors on the denominator, but"
+241,50921,50923,1699065.73,1699165.83,1699.066,1699.166,0.100,write,0,,1,[silence]
+242,50924,51098,1699165.83,1705005.01,1699.166,1705.005,5.839,explain,20,0.853,0,both of them are going to get that power 2 So for the first one M to the second squared
+243,51099,51147,1705005.01,1706639.97,1705.005,1706.640,1.635,write,5,0.819,0,2 times 2 is 4
+244,51148,51304,1706639.97,1711878.55,1706.640,1711.879,5.239,explain,12,0.851,0,and then for the N negative 6 times 2 is negative 12.
+245,51305,51352,1711878.55,1713480.15,1711.879,1713.480,1.602,write,0,,1,[silence]
+246,51353,52216,1713480.15,1742308.98,1713.480,1742.309,28.829,explain,91,0.872,0,I love this problem What are you going to do here? Do you have to change exponents? Do you have to move them around? Do you have to subtract them you can? But what are you going to get like all together? What if you made this one go here and this one go here become positive exponents? Same thing what if you subtract negative 12 minus negative 12 that means negative 12 plus 12 zero What if you see the same as something over itself? No matter what you can
+247,52217,52253,1742308.98,1743543.54,1742.309,1743.544,1.235,slash,1,0.994,0,still?
+248,52254,52653,1743543.54,1756890.22,1743.544,1756.890,13.347,explain,29,0.893,0,"Completely simplify factors that are identical. That's fine. You're gonna get one So all we're really left with is these two factors 4 to the third. Well, that's 64"
+249,52654,52675,1756890.22,1757624.29,1756.890,1757.624,0.734,point,0,,1,[silence]
+250,52676,52755,1757624.29,1760293.63,1757.624,1760.294,2.669,write,0,,1,[silence]
+251,52756,53250,1760293.63,1776810.14,1760.294,1776.810,16.517,explain,40,0.864,0,"Times M to the 6th over M to the fourth no matter how you cut it Hey, there's two ways to think about it. Number one. You can subtract top exponent minus bottom exponent is M squared on the numerator"
+252,53251,53308,1776810.14,1778745.41,1776.810,1778.745,1.935,write,0,,1,[silence]
+253,53309,53858,1778745.41,1797097.10,1778.745,1797.097,18.352,explain,53,0.86,0,"Or where there more M's right now because there's no negative exponents. That's fantastic Well, there's more ends on the numerator. How many more well two more So when you simplify out we have two M's remain on the numerator just like subtraction Technique would tell us either way you go We simplify"
+254,53859,53928,1797097.10,1799432.77,1797.097,1799.433,2.336,write,3,0.885,0,and get 64
+255,53929,56608,1799432.77,1888855.52,1799.433,1888.856,89.423,explain,267,0.876,0,"M squared done last one that's that's really this This this rule right here. If you have a fraction that's raised to a negative exponent It will be back to me for a second. Did I have to do? Did I have to reciprocate the answer is no I could have distributed that negative 2 and that negative 3 out of everything and then change all your negative exponents It's just you deal with lot of negatives that way So sometimes it's nice to use these little rules to help us avoid some sign errors that we're just prone to make Same thing here If you really wanted to you could distribute that negative 2 across every single factor that you have here and here and here And here and here all five factors that you have Personally, I don't like that I would rather reciprocate the fraction and have it change the side of my exponent that way I'm not multiplying everything by negative 2 I multiplied everything by positive 2 that's nicer for me now another question comes up I get asked all the time. Well, wait a minute Can't you simplify this first and then distribute the negative 2? Yeah, you can do that too as long as you're following some rule that we've done You can't get it wrong What people do is they they misinterpret the rules? Or they try to make them up themselves and that's not a good thing So one thing we can do is I want to illustrate the rules that I've given you we can reciprocate this"
+256,56609,56628,1888855.52,1889522.86,1888.856,1889.523,0.667,point,0,,1,[silence]
+257,56629,56960,1889522.86,1900600.60,1889.523,1900.601,11.078,write,1,0.86,0,and
+258,56961,58458,1900600.60,1950583.92,1900.601,1950.584,49.983,explain,148,0.91,0,"It will change the sign of your exponent here the sign that affected everything so it says hey And when I multiply that by negative Everything's in the wrong spot Which means that my numerator should be on the denominator and denominator should be on the numerator if I change it now I don't have to move it later. That's the logic here Now we see okay. Could you simplify this? Yes, would some people simplify that? Absolutely, you could totally do it now In fact order operations suggest you might do it do it's inside the parentheses first. Do you have to? You don't have to X forms do distribute across both multiplication and division It's really up to you. So which way you want to go in this particular case I think I'm going to distribute across everything just because I feel like it today so"
+259,58459,58633,1950583.92,1956423.09,1950.584,1956.423,5.839,write,7,0.802,0,exponents distribute across multiplication To every single
+260,58634,58905,1956423.09,1965498.83,1956.423,1965.499,9.076,explain,23,0.861,0,factor that's given to you there are one two three By multiplication and two by division so distribution all five of those factors
+261,58906,58929,1965498.83,1966299.63,1965.499,1966.300,0.801,point,0,,1,[silence]
+262,58930,58953,1966299.63,1967100.43,1966.300,1967.100,0.801,write,0,,1,[silence]
+263,58954,59083,1967100.43,1971438.10,1967.100,1971.438,4.338,explain,12,0.892,0,Two times two gives us sorry one times two gives us two
+264,59084,59104,1971438.10,1972138.81,1971.438,1972.139,0.701,write,0,,1,[silence]
+265,59105,59162,1972138.81,1974074.07,1972.139,1974.074,1.935,explain,5,0.775,0,same thing for the a
+266,59163,59186,1974074.07,1974874.87,1974.074,1974.875,0.801,write,0,,1,[silence]
+267,59187,59274,1974874.87,1977811.14,1974.875,1977.811,2.936,explain,12,0.877,0,Same thing for the B. Negative two times two is negative four
+268,59275,59355,1977811.14,1980513.85,1977.811,1980.514,2.703,write,0,,1,[silence]
+269,59356,59499,1980513.85,1985318.65,1980.514,1985.319,4.805,explain,11,0.695,0,Over on the denominator negative five times two is negative ten
+270,59500,59547,1985318.65,1986920.25,1985.319,1986.920,1.602,write,0,,1,[silence]
+271,59548,59651,1986920.25,1990390.39,1986.920,1990.390,3.470,explain,7,0.911,0,and two times two is positive four
+272,59652,59698,1990390.39,1991958.63,1990.390,1991.959,1.568,write,0,,1,[silence]
+273,59699,60654,1991958.63,2023857.19,1991.959,2023.857,31.899,explain,103,0.889,0,"Now it is really up to you take a moment and try that now It's it doesn't matter how you really want to do it The only thing I'm really encouraging you to do is separate those those fractions So one for each factor that you have Constants and then variable and then variable and then until you run out of variables and then use whatever technique you'd like If you want to move negative exponents first, I like to do cool If you want to just do the subtraction technique and then move negative exponents second, that's cool, too. It doesn't matter"
+274,60655,60690,2023857.19,2025058.39,2023.857,2025.058,1.201,pickerase,0,,1,[silence]
+275,60691,60745,2025058.39,2026893.56,2025.058,2026.894,1.835,erase,0,,1,[silence]
+276,60746,60771,2026893.56,2027761.09,2026.894,2027.761,0.868,droperase,0,,1,[silence]
+277,60772,60830,2027761.09,2029729.73,2027.761,2029.730,1.969,explain,6,0.888,0,So no matter what we get
+278,60831,60864,2029729.73,2030864.20,2029.730,2030.864,1.134,write,0,,1,[silence]
+279,60865,60974,2030864.20,2034534.53,2030.864,2034.535,3.670,explain,13,0.834,0,you should end with the four over one. Can't simplify any more than
+280,60975,60979,2034534.53,2034701.37,2034.535,2034.701,0.167,write,0,,1,[silence]
+281,60980,61077,2034701.37,2037971.30,2034.701,2037.971,3.270,explain,1,0.998,0,that
+282,61078,61308,2037971.30,2045679.01,2037.971,2045.679,7.708,write,0,,1,[silence]
+283,61309,61716,2045679.01,2059292.63,2045.679,2059.293,13.614,explain,38,0.877,0,So the two ways I'm gonna show you both ways here just to make sure that I'm thorough and cover near all my bases The the first way is to move exponents move your negative exponents. So we
+284,61717,61887,2059292.63,2064998.33,2059.293,2064.998,5.706,write,1,0.879,0,get
+285,61888,62198,2064998.33,2075375.38,2064.998,2075.375,10.377,explain,37,0.838,0,a squared looks great Hey that factor says I'm positive supposed to be where I'm at right now The the factor that's negative says I'm not I'm supposed to be on a numerator. So we move it
+286,62199,62223,2075375.38,2076209.54,2075.375,2076.210,0.834,write,0,,1,[silence]
+287,62224,62283,2076209.54,2078211.54,2076.210,2078.212,2.002,explain,2,0.75,0,Factor that's
+288,62284,62314,2078211.54,2079245.91,2078.212,2079.246,1.034,write,1,0.998,0,positive
+289,62315,62490,2079245.91,2085118.45,2079.246,2085.118,5.873,explain,25,0.912,0,States where it is factor that's negative says move me. I'm not supposed to be on this numerator I'm supposed to be on a denominator
+290,62491,62528,2085118.45,2086386.39,2085.118,2086.386,1.268,write,1,0.872,0,and
+291,62529,62659,2086386.39,2090757.42,2086.386,2090.757,4.371,explain,13,0.919,0,in doing so we change the side of the exponent of that factor
+292,62660,62664,2090757.42,2090924.26,2090.757,2090.924,0.167,write,0,,1,[silence]
+293,62665,62855,2090924.26,2097297.30,2090.924,2097.297,6.373,explain,17,0.951,0,After that we can now add all of our positive exponents together. So we would get this
+294,62856,62899,2097297.30,2098765.43,2097.297,2098.765,1.468,write,0,,1,[silence]
+295,62900,63057,2098765.43,2104037.37,2098.765,2104.037,5.272,explain,6,0.614,0,Four and a to the 12th
+296,63058,63196,2104037.37,2108675.34,2104.037,2108.675,4.638,write,5,0.622,0,Over B to the 8th
+297,63197,63501,2108675.34,2118852.19,2108.675,2118.852,10.177,explain,34,0.935,0,and we're done. That's as good as we can get. There's no more simplification If you want the other way the other way would say this so remember that's our that's our final answer
+298,63502,63543,2118852.19,2120253.59,2118.852,2120.254,1.401,pickerase,3,0.974,0,the other way
+299,63544,63573,2120253.59,2121254.59,2120.254,2121.255,1.001,erase,0,,1,[silence]
+300,63574,63601,2121254.59,2122188.86,2121.255,2122.189,0.934,droperase,0,,1,[silence]
+301,63602,63702,2122188.86,2125558.89,2122.189,2125.559,3.370,explain,9,0.921,0,Would just do subtraction of exponents to start with
+302,63703,63755,2125558.89,2127327.33,2125.559,2127.327,1.768,write,0,,1,[silence]
+303,63756,63816,2127327.33,2129362.70,2127.327,2129.363,2.035,explain,6,0.852,0,now four over one wouldn't change
+304,63817,63827,2129362.70,2129729.73,2129.363,2129.730,0.367,write,0,,1,[silence]
+305,63828,64067,2129729.73,2137737.74,2129.730,2137.738,8.008,explain,15,0.771,0,But here we get a to the two Minus negative ten that's two plus ten
+306,64068,64101,2137737.74,2138872.21,2137.738,2138.872,1.134,write,0,,1,[silence]
+307,64102,64170,2138872.21,2141174.51,2138.872,2141.175,2.302,explain,5,0.645,0,That's eight in the 12th
+308,64171,64197,2141174.51,2142075.41,2141.175,2142.075,0.901,write,0,,1,[silence]
+309,64198,64604,2142075.41,2155655.66,2142.075,2155.656,13.580,explain,43,0.837,0,"When doing the subtraction technique everything is on numerators to start with if you get negative exponents Then you move them with your bees what that means is that you'd have B to the negative four minus four Well, that's thinking of a"
+310,64605,64678,2155655.66,2158124.79,2155.656,2158.125,2.469,write,0,,1,[silence]
+311,64679,67763,2158124.79,2261061.06,2158.125,2261.061,102.936,explain,337,0.904,0,"Positive don't move it positive. Don't move it negative would go to a denominator and that's exactly the same thing that we get I Really hope it made sense to you. I hope that you see how some of these nice rules work for us I really hope that you see that man It's it's kind of encouraging you can't screw it up as long as you use one of the rules think about your numbers and your Variables independently move your negative exponents first cool or or use a subtraction rule. No problem The only thing I'm really getting at is that if you use a subtraction rule Whatever you get starts in a numerator if you have negative exponents after that then you move them Use your simplification technique when you can wherever your larger exponent is is where your variable is going to remain We've practiced it many times Maybe go back and try some of these samples on your own now that you've made it through See that you understand the separation of the fractions ideas and multiply what you're getting back See that you understand where your negative exponents really move on your fraction That's important and then after that make sure that you can do both ways you can do the subtraction technique I've shown you you can do the simplification technique I've shown you several times like here and you can do the moving the negative exponents idea They all are very very useful and they all work in different contexts So what we're gonna do now is take a little sidestep for the next video I'm going to talk about scientific notation and then we're pretty much done with this idea for now. That's great we've covered all of our exponent rules, so we know how to Do all of our exponents multiplication division additions attraction combined like terms that work with polynomials, which is excellent I'll see you for the next video when we talk about scientific notation"
+312,67764,68047,2261061.06,2270537.20,2261.061,2270.537,9.476,out,0,,1,[silence]

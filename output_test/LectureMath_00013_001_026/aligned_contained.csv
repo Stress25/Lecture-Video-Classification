@@ -1,0 +1,92 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,95,142,3169.84,4771.44,3.170,4.771,1.602,out,6,0.604,0,We are to do the multiplication
+1,143,684,4771.44,22856.19,4.771,22.856,18.085,explain,43,0.855,0,"of these two thousand ohms using a notable product called sum by difference. start by changing the position of these two summands, that there we are going to apply the commutative of the sum. The order of the summands does alter the result."
+2,685,707,22856.19,23623.62,22.856,23.624,0.767,write,2,0.54,0,So we
+3,708,915,23623.62,30563.90,23.624,30.564,6.940,explain,20,0.851,0,"are going to start writing this factor over here, as we said, changing the position of these two terms. We"
+4,916,1114,30563.90,37203.87,30.564,37.204,6.640,write,12,0.69,0,"with three tenths of G raised to the exponent A plus one,"
+5,1115,1162,37203.87,38805.47,37.204,38.805,1.602,explain,5,0.746,0,and then we have plus
+6,1163,1483,38805.47,49516.18,38.805,49.516,10.711,write,20,0.863,0,"four thirteenths of H, which is raised to the exponent of minus two. We this with parentheses, and that is"
+7,1484,1558,49516.18,52018.69,49.516,52.019,2.503,explain,5,0.858,0,"multiplied by all this binomial,"
+8,1559,1984,52018.69,66232.90,52.019,66.233,14.214,write,27,0.8,0,"which is three tenths of G raised to the exponent A plus one, and that is four thirteenths of H raised to the exponent of minus two."
+9,1985,2014,66232.90,67233.90,66.233,67.234,1.001,explain,4,0.715,0,There we have also
+10,2015,2096,67233.90,69969.97,67.234,69.970,2.736,out,4,0.906,0,applied the commutative of
+11,2097,2308,69969.97,77043.71,69.970,77.044,7.074,explain,20,0.92,0,"multiplication, because we have changed the position of the factors. Remember that the order of the factors does not alter"
+12,2309,2392,77043.71,79846.51,77.044,79.847,2.803,out,5,0.871,0,the product. Now we have
+13,2393,2421,79846.51,80814.15,79.847,80.814,0.968,explain,2,0.98,0,everything ready
+14,2422,2437,80814.15,81348.01,80.814,81.348,0.534,change,1,0.969,0,to
+15,2438,2466,81348.01,82315.65,81.348,82.316,0.968,explain,2,0.987,0,apply the
+16,2467,2645,82315.65,88288.29,82.316,88.288,5.973,write,13,0.753,0,notable product that we and that is called sum by difference. The sum
+17,2646,2716,88288.29,90657.32,88.288,90.657,2.369,explain,6,0.874,0,of two quantities multiplied by the
+18,2717,2867,90657.32,95695.70,90.657,95.696,5.038,write,13,0.864,0,difference of them is equal to the first quantity squared minus the second
+19,2868,2903,95695.70,96896.90,95.696,96.897,1.201,explain,1,0.973,0,quantity
+20,2904,2917,96896.90,97364.03,96.897,97.364,0.467,out,1,0.985,0,squared.
+21,2918,2935,97364.03,97964.63,97.364,97.965,0.601,explain,3,0.862,0,It is a
+22,2936,2944,97964.63,98264.93,97.965,98.265,0.300,out,0,,1,[silence]
+23,2945,3364,98264.93,112278.95,98.265,112.279,14.014,explain,29,0.82,0,notable product of great importance that saves us the process of applying the distributive The result is obtained by raising each of the two quantities and applying the remaining
+24,3365,3418,112278.95,114080.75,112.279,114.081,1.802,out,3,0.616,0,between them. So
+25,3419,3486,114080.75,116349.68,114.081,116.350,2.269,explain,5,0.672,0,let's apply that in this
+26,3487,3503,116349.68,116916.92,116.350,116.917,0.567,write,1,0.913,0,situation.
+27,3504,3575,116916.92,119319.32,116.917,119.319,2.402,explain,4,0.849,0,"start with first term,"
+28,3576,3886,119319.32,129696.36,119.319,129.696,10.377,write,21,0.74,0,"is three tenths of G raised to the exponent of plus one, and all this raised to the square. Then we"
+29,3887,3954,129696.36,131965.30,129.696,131.965,2.269,explain,5,0.843,0,"have minus the second term,"
+30,3955,4210,131965.30,140507.17,131.965,140.507,8.542,write,16,0.908,0,"is four thirteenths of H raised to the exponent of minus two, and all this raised"
+31,4211,4234,140507.17,141307.97,140.507,141.308,0.801,explain,2,0.964,0,to the
+32,4235,4306,141307.97,143710.38,141.308,143.710,2.402,out,6,0.824,0,square. Now we have to develop
+33,4307,4547,143710.38,151751.75,143.710,151.752,8.041,explain,20,0.749,0,those powers. In each case we have the multiplication of two quantities and all that raised to the square. Then
+34,4548,4697,151751.75,156756.76,151.752,156.757,5.005,write,12,0.883,0,we this property of the power. The product of two quantities raised
+35,4698,4735,156756.76,158024.69,156.757,158.025,1.268,explain,5,0.591,0,to an exponent of N
+36,4736,4816,158024.69,160727.39,158.025,160.727,2.703,write,11,0.757,0,is equal to A to the N times B to the
+37,4817,4920,160727.39,164197.53,160.727,164.198,3.470,explain,9,0.898,0,"N. That is, the exponent is distributed for each"
+38,4921,4957,164197.53,165432.10,164.198,165.432,1.235,out,3,0.896,0,of the factors.
+39,4958,4997,165432.10,166766.77,165.432,166.767,1.335,explain,3,0.466,0,So here we
+40,4998,5804,166766.77,193693.69,166.767,193.694,26.927,write,60,0.812,0,"will have three tenths, all this raised to the square, and that by G raised to the exponent of plus one, and also all this raised to the square. Then we have minus four thirteenths, which is raised to the square, and that multiplied by the other component H raised to the exponent of minus two, and all this raised"
+41,5805,5824,193693.69,194361.03,193.694,194.361,0.667,explain,2,0.98,0,to the
+42,5825,5898,194361.03,196830.16,194.361,196.830,2.469,out,5,0.723,0,"square. Now, in these fractions"
+43,5899,5994,196830.16,200033.37,196.830,200.033,3.203,explain,7,0.627,0,"that are raised to the square, another"
+44,5995,6280,200033.37,209576.24,200.033,209.576,9.543,write,30,0.748,0,property of the power is If we A over B and this raised to the exponent of then it is equal to A to the N over B to the
+45,6281,6397,209576.24,213480.15,209.576,213.480,3.904,explain,10,0.931,0,"N. That is, the exponent affects both the numerator and"
+46,6398,6427,213480.15,214481.15,213.480,214.481,1.001,out,2,0.98,0,the denominator.
+47,6428,6470,214481.15,215915.92,214.481,215.916,1.435,explain,2,0.558,0,"Then, for"
+48,6471,6677,215915.92,222822.82,215.916,222.823,6.907,write,20,0.854,0,"the case of three tenths to the square, that will be three to the square over ten to the square."
+49,6678,6732,222822.82,224657.99,222.823,224.658,1.835,explain,6,0.735,0,And here we have another situation
+50,6733,6751,224657.99,225291.96,224.658,225.292,0.634,out,2,0.544,0,that is
+51,6752,6789,225291.96,226559.89,225.292,226.560,1.268,explain,5,0.755,0,called the power of a
+52,6790,7058,226559.89,235535.54,226.560,235.536,8.976,write,20,0.733,0,"power. If we have a power A to the N raised to another exponent of M, the base and the"
+53,7059,7069,235535.54,235902.57,235.536,235.903,0.367,explain,0,,1,[silence]
+54,7070,7096,235902.57,236803.47,235.903,236.803,0.901,out,1,0.986,0,exponents
+55,7097,7105,236803.47,237103.77,236.803,237.104,0.300,explain,0,,1,[silence]
+56,7106,7147,237103.77,238505.17,237.104,238.505,1.401,out,4,0.879,0,Another property of the
+57,7148,7199,238505.17,240240.24,238.505,240.240,1.735,explain,3,0.73,0,power. So here
+58,7200,7234,240240.24,241408.07,240.240,241.408,1.168,write,3,0.981,0,"we the base,"
+59,7235,7318,241408.07,244210.88,241.408,244.211,2.803,explain,5,0.938,0,"is G, and the exponents"
+60,7319,7459,244210.88,248915.58,244.211,248.916,4.705,write,12,0.741,0,"In that case, is protected with parentheses A plus one, because it"
+61,7460,7535,248915.58,251451.45,248.916,251.451,2.536,explain,7,0.657,0,is to be multiplied by two. Let's
+62,7536,7544,251451.45,251751.75,251.451,251.752,0.300,write,0,,1,[silence]
+63,7545,7719,251751.75,257590.92,251.752,257.591,5.839,explain,17,0.704,0,"on to the other term. Again, the fraction raised to the square, we apply this property. That"
+64,7720,7855,257590.92,262128.80,257.591,262.129,4.538,write,9,0.66,0,"is, four to square over thirteen to the square."
+65,7856,7919,262128.80,264264.26,262.129,264.264,2.135,explain,6,0.712,0,And here we apply again power
+66,7920,7951,264264.26,265332.00,264.264,265.332,1.068,out,3,0.772,0,of a power.
+67,7952,7983,265332.00,266399.73,265.332,266.400,1.068,explain,2,0.718,0,We keep
+68,7984,8208,266399.73,273907.24,266.400,273.907,7.508,write,18,0.78,0,"the base, is H, and we have the product of the exponents. B minus two between parentheses multiplied"
+69,8209,8229,273907.24,274607.94,273.907,274.608,0.701,explain,1,0.994,0,by
+70,8230,8295,274607.94,276810.14,274.608,276.810,2.202,out,4,0.695,0,two. We now each
+71,8296,8346,276810.14,278511.85,276.810,278.512,1.702,explain,3,0.73,0,of those situations.
+72,8347,8575,278511.85,286152.82,278.512,286.153,7.641,write,21,0.68,0,"Here we have three to square, is nine, over ten to the square, is one hundred. And here we have G"
+73,8576,8730,286152.82,291324.66,286.153,291.325,5.172,explain,11,0.795,0,"raised to the exponent, which results in multiplying those two quantities."
+74,8731,8800,291324.66,293660.33,291.325,293.660,2.336,write,5,0.894,0,There we apply the distributive
+75,8801,8850,293660.33,295328.66,293.660,295.329,1.668,change,3,0.774,0,So we have
+76,8851,8882,295328.66,296396.40,295.329,296.396,1.068,explain,3,0.749,0,"two times A,"
+77,8883,9328,296396.40,311277.94,296.396,311.278,14.882,write,39,0.808,0,"which is two A plus two times one, which is two. Let's move on to other term. We have four to the square, is sixteen. This over three to the square, gives us 169. And here we apply again"
+78,9329,9373,311277.94,312779.45,311.278,312.779,1.502,change,2,0.883,0,the distributive
+79,9374,9392,312779.45,313413.41,312.779,313.413,0.634,explain,1,0.772,0,to
+80,9393,9455,313413.41,315515.52,313.413,315.516,2.102,write,3,0.958,0,solve this multiplication.
+81,9456,9463,315515.52,315782.45,315.516,315.782,0.267,explain,0,,1,[silence]
+82,9464,9496,315782.45,316883.55,315.782,316.884,1.101,change,3,0.796,0,So we have
+83,9497,9539,316883.55,318318.32,316.884,318.318,1.435,explain,3,0.487,0,"two times B,"
+84,9540,9646,318318.32,321888.56,318.318,321.889,3.570,write,9,0.881,0,"is two B, minus two times two, which is"
+85,9647,9667,321888.56,322589.26,321.889,322.589,0.701,explain,1,0.964,0,four.
+86,9668,9716,322589.26,324224.22,322.589,324.224,1.635,out,4,0.796,0,In this way finish
+87,9717,9749,324224.22,325325.33,324.224,325.325,1.101,explain,2,0.984,0,the exercise.
+88,9750,9793,325325.33,326793.46,325.325,326.793,1.468,write,2,0.991,0,This expression
+89,9794,10075,326793.46,336202.87,326.793,336.203,9.409,explain,20,0.758,0,is the answer to this multiplication of binomials. That we have solved by applying the notable product called sum by
+90,10076,10844,336202.87,361861.86,336.203,361.862,25.659,out,1,0.756,0,difference.

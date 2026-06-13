@@ -1,0 +1,4850 @@
+{
+  "audio_path": "/Users/kritikabhat/Documents/MastersResearch/Code/output_test/LectureMath_00011_031_003/LectureMath_00011_031_003.wav",
+  "model": "medium",
+  "language": "en",
+  "duration_sec": 487.083,
+  "segments": [
+    {
+      "id": 1,
+      "start_sec": 1.33,
+      "end_sec": 4.03,
+      "text": "Hola a todos, soy Xuxi, bienvenidos a mi canal.",
+      "words": [
+        {
+          "word": "Hola",
+          "start_sec": 1.33,
+          "end_sec": 1.93,
+          "prob": 0.208
+        },
+        {
+          "word": "a",
+          "start_sec": 1.93,
+          "end_sec": 2.09,
+          "prob": 0.829
+        },
+        {
+          "word": "todos,",
+          "start_sec": 2.09,
+          "end_sec": 2.35,
+          "prob": 0.995
+        },
+        {
+          "word": "soy",
+          "start_sec": 2.49,
+          "end_sec": 2.67,
+          "prob": 0.991
+        },
+        {
+          "word": "Xuxi,",
+          "start_sec": 2.67,
+          "end_sec": 2.93,
+          "prob": 0.682
+        },
+        {
+          "word": "bienvenidos",
+          "start_sec": 2.97,
+          "end_sec": 3.41,
+          "prob": 0.905
+        },
+        {
+          "word": "a",
+          "start_sec": 3.41,
+          "end_sec": 3.59,
+          "prob": 0.997
+        },
+        {
+          "word": "mi",
+          "start_sec": 3.59,
+          "end_sec": 3.69,
+          "prob": 0.992
+        },
+        {
+          "word": "canal.",
+          "start_sec": 3.69,
+          "end_sec": 4.03,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_sec": 4.61,
+      "end_sec": 9.77,
+      "text": "En este vídeo continuamos con la serie de vídeos dedicados a operaciones con ángulos,",
+      "words": [
+        {
+          "word": "En",
+          "start_sec": 4.61,
+          "end_sec": 4.83,
+          "prob": 0.965
+        },
+        {
+          "word": "este",
+          "start_sec": 4.83,
+          "end_sec": 5.03,
+          "prob": 0.991
+        },
+        {
+          "word": "vídeo",
+          "start_sec": 5.03,
+          "end_sec": 5.57,
+          "prob": 0.678
+        },
+        {
+          "word": "continuamos",
+          "start_sec": 5.57,
+          "end_sec": 6.53,
+          "prob": 0.91
+        },
+        {
+          "word": "con",
+          "start_sec": 6.53,
+          "end_sec": 6.77,
+          "prob": 0.986
+        },
+        {
+          "word": "la",
+          "start_sec": 6.77,
+          "end_sec": 6.93,
+          "prob": 0.844
+        },
+        {
+          "word": "serie",
+          "start_sec": 6.93,
+          "end_sec": 7.13,
+          "prob": 0.997
+        },
+        {
+          "word": "de",
+          "start_sec": 7.13,
+          "end_sec": 7.31,
+          "prob": 0.997
+        },
+        {
+          "word": "vídeos",
+          "start_sec": 7.31,
+          "end_sec": 7.59,
+          "prob": 0.929
+        },
+        {
+          "word": "dedicados",
+          "start_sec": 7.59,
+          "end_sec": 8.53,
+          "prob": 0.992
+        },
+        {
+          "word": "a",
+          "start_sec": 8.53,
+          "end_sec": 8.75,
+          "prob": 0.995
+        },
+        {
+          "word": "operaciones",
+          "start_sec": 8.75,
+          "end_sec": 9.17,
+          "prob": 0.992
+        },
+        {
+          "word": "con",
+          "start_sec": 9.17,
+          "end_sec": 9.39,
+          "prob": 0.999
+        },
+        {
+          "word": "ángulos,",
+          "start_sec": 9.39,
+          "end_sec": 9.77,
+          "prob": 0.974
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_sec": 10.11,
+      "end_sec": 15.77,
+      "text": "y vamos a aprender concretamente a realizar multiplicaciones, así que vamos a ello.",
+      "words": [
+        {
+          "word": "y",
+          "start_sec": 10.11,
+          "end_sec": 10.25,
+          "prob": 0.988
+        },
+        {
+          "word": "vamos",
+          "start_sec": 10.25,
+          "end_sec": 10.55,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 10.55,
+          "end_sec": 10.75,
+          "prob": 0.991
+        },
+        {
+          "word": "aprender",
+          "start_sec": 10.75,
+          "end_sec": 11.07,
+          "prob": 0.994
+        },
+        {
+          "word": "concretamente",
+          "start_sec": 11.07,
+          "end_sec": 11.91,
+          "prob": 0.953
+        },
+        {
+          "word": "a",
+          "start_sec": 11.91,
+          "end_sec": 12.21,
+          "prob": 0.993
+        },
+        {
+          "word": "realizar",
+          "start_sec": 12.21,
+          "end_sec": 12.85,
+          "prob": 0.996
+        },
+        {
+          "word": "multiplicaciones,",
+          "start_sec": 12.85,
+          "end_sec": 13.93,
+          "prob": 0.996
+        },
+        {
+          "word": "así",
+          "start_sec": 14.23,
+          "end_sec": 14.51,
+          "prob": 0.953
+        },
+        {
+          "word": "que",
+          "start_sec": 14.51,
+          "end_sec": 15.03,
+          "prob": 0.998
+        },
+        {
+          "word": "vamos",
+          "start_sec": 15.03,
+          "end_sec": 15.33,
+          "prob": 0.703
+        },
+        {
+          "word": "a",
+          "start_sec": 15.33,
+          "end_sec": 15.55,
+          "prob": 0.998
+        },
+        {
+          "word": "ello.",
+          "start_sec": 15.55,
+          "end_sec": 15.77,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_sec": 22.38,
+      "end_sec": 27.2,
+      "text": "A veces, cuando estamos trabajando con ángulos, nos piden hacer el doble de un ángulo o",
+      "words": [
+        {
+          "word": "A",
+          "start_sec": 22.38,
+          "end_sec": 22.72,
+          "prob": 0.57
+        },
+        {
+          "word": "veces,",
+          "start_sec": 22.72,
+          "end_sec": 23.04,
+          "prob": 0.997
+        },
+        {
+          "word": "cuando",
+          "start_sec": 23.2,
+          "end_sec": 23.34,
+          "prob": 0.998
+        },
+        {
+          "word": "estamos",
+          "start_sec": 23.34,
+          "end_sec": 23.66,
+          "prob": 0.993
+        },
+        {
+          "word": "trabajando",
+          "start_sec": 23.66,
+          "end_sec": 24.1,
+          "prob": 0.996
+        },
+        {
+          "word": "con",
+          "start_sec": 24.1,
+          "end_sec": 24.36,
+          "prob": 0.998
+        },
+        {
+          "word": "ángulos,",
+          "start_sec": 24.36,
+          "end_sec": 24.8,
+          "prob": 0.994
+        },
+        {
+          "word": "nos",
+          "start_sec": 25.22,
+          "end_sec": 25.4,
+          "prob": 0.997
+        },
+        {
+          "word": "piden",
+          "start_sec": 25.4,
+          "end_sec": 25.62,
+          "prob": 0.903
+        },
+        {
+          "word": "hacer",
+          "start_sec": 25.62,
+          "end_sec": 25.98,
+          "prob": 0.965
+        },
+        {
+          "word": "el",
+          "start_sec": 25.98,
+          "end_sec": 26.2,
+          "prob": 0.991
+        },
+        {
+          "word": "doble",
+          "start_sec": 26.2,
+          "end_sec": 26.44,
+          "prob": 0.985
+        },
+        {
+          "word": "de",
+          "start_sec": 26.44,
+          "end_sec": 26.54,
+          "prob": 0.993
+        },
+        {
+          "word": "un",
+          "start_sec": 26.54,
+          "end_sec": 26.74,
+          "prob": 0.98
+        },
+        {
+          "word": "ángulo",
+          "start_sec": 26.74,
+          "end_sec": 26.96,
+          "prob": 0.994
+        },
+        {
+          "word": "o",
+          "start_sec": 26.96,
+          "end_sec": 27.2,
+          "prob": 0.742
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_sec": 27.2,
+      "end_sec": 31.84,
+      "text": "el triple o lo que sea, y tenemos que saber cómo multiplicar ese ángulo.",
+      "words": [
+        {
+          "word": "el",
+          "start_sec": 27.2,
+          "end_sec": 27.38,
+          "prob": 0.991
+        },
+        {
+          "word": "triple",
+          "start_sec": 27.38,
+          "end_sec": 27.64,
+          "prob": 0.922
+        },
+        {
+          "word": "o",
+          "start_sec": 27.64,
+          "end_sec": 28.1,
+          "prob": 0.71
+        },
+        {
+          "word": "lo",
+          "start_sec": 28.1,
+          "end_sec": 28.3,
+          "prob": 0.976
+        },
+        {
+          "word": "que",
+          "start_sec": 28.3,
+          "end_sec": 28.48,
+          "prob": 0.999
+        },
+        {
+          "word": "sea,",
+          "start_sec": 28.48,
+          "end_sec": 28.68,
+          "prob": 0.997
+        },
+        {
+          "word": "y",
+          "start_sec": 29.06,
+          "end_sec": 29.2,
+          "prob": 0.989
+        },
+        {
+          "word": "tenemos",
+          "start_sec": 29.2,
+          "end_sec": 29.4,
+          "prob": 0.996
+        },
+        {
+          "word": "que",
+          "start_sec": 29.4,
+          "end_sec": 29.58,
+          "prob": 0.996
+        },
+        {
+          "word": "saber",
+          "start_sec": 29.58,
+          "end_sec": 29.98,
+          "prob": 0.999
+        },
+        {
+          "word": "cómo",
+          "start_sec": 29.98,
+          "end_sec": 30.36,
+          "prob": 0.963
+        },
+        {
+          "word": "multiplicar",
+          "start_sec": 30.36,
+          "end_sec": 31.1,
+          "prob": 0.999
+        },
+        {
+          "word": "ese",
+          "start_sec": 31.1,
+          "end_sec": 31.38,
+          "prob": 0.955
+        },
+        {
+          "word": "ángulo.",
+          "start_sec": 31.38,
+          "end_sec": 31.84,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start_sec": 32.22,
+      "end_sec": 35.56,
+      "text": "En este caso tenemos este ángulo que lo queremos multiplicar por 7.",
+      "words": [
+        {
+          "word": "En",
+          "start_sec": 32.22,
+          "end_sec": 32.48,
+          "prob": 0.995
+        },
+        {
+          "word": "este",
+          "start_sec": 32.48,
+          "end_sec": 32.62,
+          "prob": 0.984
+        },
+        {
+          "word": "caso",
+          "start_sec": 32.62,
+          "end_sec": 32.86,
+          "prob": 0.997
+        },
+        {
+          "word": "tenemos",
+          "start_sec": 32.86,
+          "end_sec": 33.16,
+          "prob": 0.708
+        },
+        {
+          "word": "este",
+          "start_sec": 33.16,
+          "end_sec": 33.52,
+          "prob": 0.967
+        },
+        {
+          "word": "ángulo",
+          "start_sec": 33.52,
+          "end_sec": 33.84,
+          "prob": 0.993
+        },
+        {
+          "word": "que",
+          "start_sec": 33.84,
+          "end_sec": 34.02,
+          "prob": 0.821
+        },
+        {
+          "word": "lo",
+          "start_sec": 34.02,
+          "end_sec": 34.16,
+          "prob": 0.936
+        },
+        {
+          "word": "queremos",
+          "start_sec": 34.16,
+          "end_sec": 34.42,
+          "prob": 0.999
+        },
+        {
+          "word": "multiplicar",
+          "start_sec": 34.42,
+          "end_sec": 35.0,
+          "prob": 0.999
+        },
+        {
+          "word": "por",
+          "start_sec": 35.0,
+          "end_sec": 35.28,
+          "prob": 0.998
+        },
+        {
+          "word": "7.",
+          "start_sec": 35.28,
+          "end_sec": 35.56,
+          "prob": 0.676
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start_sec": 35.56,
+      "end_sec": 47.93,
+      "text": "¿Cómo se realiza? Vamos a ponerlo y como es por 7, multiplicamos los segundos por 7,",
+      "words": [
+        {
+          "word": "¿Cómo",
+          "start_sec": 35.56,
+          "end_sec": 36.42,
+          "prob": 0.209
+        },
+        {
+          "word": "se",
+          "start_sec": 36.42,
+          "end_sec": 36.68,
+          "prob": 0.955
+        },
+        {
+          "word": "realiza?",
+          "start_sec": 36.68,
+          "end_sec": 37.14,
+          "prob": 0.973
+        },
+        {
+          "word": "Vamos",
+          "start_sec": 37.14,
+          "end_sec": 37.44,
+          "prob": 0.685
+        },
+        {
+          "word": "a",
+          "start_sec": 37.44,
+          "end_sec": 37.66,
+          "prob": 0.995
+        },
+        {
+          "word": "ponerlo",
+          "start_sec": 37.66,
+          "end_sec": 38.72,
+          "prob": 0.98
+        },
+        {
+          "word": "y",
+          "start_sec": 44.61,
+          "end_sec": 44.89,
+          "prob": 0.488
+        },
+        {
+          "word": "como",
+          "start_sec": 44.89,
+          "end_sec": 45.11,
+          "prob": 0.595
+        },
+        {
+          "word": "es",
+          "start_sec": 45.11,
+          "end_sec": 45.27,
+          "prob": 0.978
+        },
+        {
+          "word": "por",
+          "start_sec": 45.27,
+          "end_sec": 45.47,
+          "prob": 0.908
+        },
+        {
+          "word": "7,",
+          "start_sec": 45.47,
+          "end_sec": 45.77,
+          "prob": 0.641
+        },
+        {
+          "word": "multiplicamos",
+          "start_sec": 45.95,
+          "end_sec": 46.85,
+          "prob": 0.99
+        },
+        {
+          "word": "los",
+          "start_sec": 46.85,
+          "end_sec": 47.05,
+          "prob": 0.962
+        },
+        {
+          "word": "segundos",
+          "start_sec": 47.05,
+          "end_sec": 47.39,
+          "prob": 0.992
+        },
+        {
+          "word": "por",
+          "start_sec": 47.39,
+          "end_sec": 47.61,
+          "prob": 0.965
+        },
+        {
+          "word": "7,",
+          "start_sec": 47.61,
+          "end_sec": 47.93,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start_sec": 48.07,
+      "end_sec": 58.43,
+      "text": "los minutos por 7 y los grados por 7, pues hacemos cada uno por 7, y vemos cómo nos",
+      "words": [
+        {
+          "word": "los",
+          "start_sec": 48.07,
+          "end_sec": 48.19,
+          "prob": 0.976
+        },
+        {
+          "word": "minutos",
+          "start_sec": 48.19,
+          "end_sec": 48.53,
+          "prob": 0.993
+        },
+        {
+          "word": "por",
+          "start_sec": 48.53,
+          "end_sec": 48.77,
+          "prob": 0.991
+        },
+        {
+          "word": "7",
+          "start_sec": 48.77,
+          "end_sec": 49.07,
+          "prob": 0.997
+        },
+        {
+          "word": "y",
+          "start_sec": 49.07,
+          "end_sec": 49.19,
+          "prob": 0.584
+        },
+        {
+          "word": "los",
+          "start_sec": 49.19,
+          "end_sec": 49.37,
+          "prob": 0.982
+        },
+        {
+          "word": "grados",
+          "start_sec": 49.37,
+          "end_sec": 49.65,
+          "prob": 0.996
+        },
+        {
+          "word": "por",
+          "start_sec": 49.65,
+          "end_sec": 49.85,
+          "prob": 0.991
+        },
+        {
+          "word": "7,",
+          "start_sec": 49.85,
+          "end_sec": 50.17,
+          "prob": 0.997
+        },
+        {
+          "word": "pues",
+          "start_sec": 50.17,
+          "end_sec": 51.01,
+          "prob": 0.068
+        },
+        {
+          "word": "hacemos",
+          "start_sec": 51.01,
+          "end_sec": 52.13,
+          "prob": 0.958
+        },
+        {
+          "word": "cada",
+          "start_sec": 54.05,
+          "end_sec": 54.55,
+          "prob": 0.975
+        },
+        {
+          "word": "uno",
+          "start_sec": 54.55,
+          "end_sec": 54.81,
+          "prob": 0.94
+        },
+        {
+          "word": "por",
+          "start_sec": 54.81,
+          "end_sec": 55.07,
+          "prob": 0.994
+        },
+        {
+          "word": "7,",
+          "start_sec": 55.07,
+          "end_sec": 55.45,
+          "prob": 0.985
+        },
+        {
+          "word": "y",
+          "start_sec": 57.09,
+          "end_sec": 57.17,
+          "prob": 0.95
+        },
+        {
+          "word": "vemos",
+          "start_sec": 57.17,
+          "end_sec": 57.57,
+          "prob": 0.995
+        },
+        {
+          "word": "cómo",
+          "start_sec": 57.57,
+          "end_sec": 58.23,
+          "prob": 0.526
+        },
+        {
+          "word": "nos",
+          "start_sec": 58.23,
+          "end_sec": 58.43,
+          "prob": 0.969
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start_sec": 58.43,
+      "end_sec": 91.17,
+      "text": "quedamos realizando las operaciones, los segundos por 7, nos ha quedado este ángulo",
+      "words": [
+        {
+          "word": "quedamos",
+          "start_sec": 58.43,
+          "end_sec": 58.79,
+          "prob": 0.981
+        },
+        {
+          "word": "realizando",
+          "start_sec": 58.79,
+          "end_sec": 59.23,
+          "prob": 0.99
+        },
+        {
+          "word": "las",
+          "start_sec": 59.23,
+          "end_sec": 59.49,
+          "prob": 0.969
+        },
+        {
+          "word": "operaciones,",
+          "start_sec": 59.49,
+          "end_sec": 59.99,
+          "prob": 0.999
+        },
+        {
+          "word": "los",
+          "start_sec": 60.17,
+          "end_sec": 60.21,
+          "prob": 0.968
+        },
+        {
+          "word": "segundos",
+          "start_sec": 60.21,
+          "end_sec": 60.63,
+          "prob": 0.993
+        },
+        {
+          "word": "por",
+          "start_sec": 60.63,
+          "end_sec": 60.89,
+          "prob": 0.997
+        },
+        {
+          "word": "7,",
+          "start_sec": 60.89,
+          "end_sec": 61.43,
+          "prob": 0.993
+        },
+        {
+          "word": "nos",
+          "start_sec": 87.67,
+          "end_sec": 87.83,
+          "prob": 0.873
+        },
+        {
+          "word": "ha",
+          "start_sec": 87.83,
+          "end_sec": 88.01,
+          "prob": 0.961
+        },
+        {
+          "word": "quedado",
+          "start_sec": 88.01,
+          "end_sec": 89.03,
+          "prob": 0.994
+        },
+        {
+          "word": "este",
+          "start_sec": 89.03,
+          "end_sec": 90.31,
+          "prob": 0.889
+        },
+        {
+          "word": "ángulo",
+          "start_sec": 90.31,
+          "end_sec": 91.17,
+          "prob": 0.94
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start_sec": 91.17,
+      "end_sec": 99.15,
+      "text": "enorme y vemos aquí que tanto los segundos como los minutos se pasan de 60, entonces",
+      "words": [
+        {
+          "word": "enorme",
+          "start_sec": 91.17,
+          "end_sec": 91.97,
+          "prob": 0.782
+        },
+        {
+          "word": "y",
+          "start_sec": 91.97,
+          "end_sec": 92.87,
+          "prob": 0.277
+        },
+        {
+          "word": "vemos",
+          "start_sec": 92.87,
+          "end_sec": 93.21,
+          "prob": 0.991
+        },
+        {
+          "word": "aquí",
+          "start_sec": 93.21,
+          "end_sec": 93.73,
+          "prob": 0.934
+        },
+        {
+          "word": "que",
+          "start_sec": 93.73,
+          "end_sec": 94.07,
+          "prob": 0.945
+        },
+        {
+          "word": "tanto",
+          "start_sec": 94.07,
+          "end_sec": 94.31,
+          "prob": 0.967
+        },
+        {
+          "word": "los",
+          "start_sec": 94.31,
+          "end_sec": 94.59,
+          "prob": 0.99
+        },
+        {
+          "word": "segundos",
+          "start_sec": 94.59,
+          "end_sec": 95.01,
+          "prob": 0.993
+        },
+        {
+          "word": "como",
+          "start_sec": 95.01,
+          "end_sec": 95.35,
+          "prob": 0.965
+        },
+        {
+          "word": "los",
+          "start_sec": 95.35,
+          "end_sec": 95.67,
+          "prob": 0.996
+        },
+        {
+          "word": "minutos",
+          "start_sec": 95.67,
+          "end_sec": 96.03,
+          "prob": 0.986
+        },
+        {
+          "word": "se",
+          "start_sec": 96.03,
+          "end_sec": 97.09,
+          "prob": 0.895
+        },
+        {
+          "word": "pasan",
+          "start_sec": 97.09,
+          "end_sec": 97.69,
+          "prob": 0.997
+        },
+        {
+          "word": "de",
+          "start_sec": 97.69,
+          "end_sec": 97.97,
+          "prob": 0.993
+        },
+        {
+          "word": "60,",
+          "start_sec": 97.97,
+          "end_sec": 98.55,
+          "prob": 0.984
+        },
+        {
+          "word": "entonces",
+          "start_sec": 98.83,
+          "end_sec": 99.15,
+          "prob": 0.971
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start_sec": 99.15,
+      "end_sec": 105.29,
+      "text": "aquí tenemos que hacer como hacíamos en las sumas, si se nos pasaba, pues había",
+      "words": [
+        {
+          "word": "aquí",
+          "start_sec": 99.15,
+          "end_sec": 99.25,
+          "prob": 0.0
+        },
+        {
+          "word": "tenemos",
+          "start_sec": 99.25,
+          "end_sec": 99.63,
+          "prob": 0.965
+        },
+        {
+          "word": "que",
+          "start_sec": 99.63,
+          "end_sec": 99.85,
+          "prob": 0.982
+        },
+        {
+          "word": "hacer",
+          "start_sec": 99.85,
+          "end_sec": 100.15,
+          "prob": 0.973
+        },
+        {
+          "word": "como",
+          "start_sec": 100.15,
+          "end_sec": 100.63,
+          "prob": 0.735
+        },
+        {
+          "word": "hacíamos",
+          "start_sec": 100.63,
+          "end_sec": 101.07,
+          "prob": 0.946
+        },
+        {
+          "word": "en",
+          "start_sec": 101.07,
+          "end_sec": 102.41,
+          "prob": 0.953
+        },
+        {
+          "word": "las",
+          "start_sec": 102.41,
+          "end_sec": 102.69,
+          "prob": 0.769
+        },
+        {
+          "word": "sumas,",
+          "start_sec": 102.69,
+          "end_sec": 102.95,
+          "prob": 0.969
+        },
+        {
+          "word": "si",
+          "start_sec": 103.01,
+          "end_sec": 103.19,
+          "prob": 0.362
+        },
+        {
+          "word": "se",
+          "start_sec": 103.19,
+          "end_sec": 103.41,
+          "prob": 0.989
+        },
+        {
+          "word": "nos",
+          "start_sec": 103.41,
+          "end_sec": 103.61,
+          "prob": 0.958
+        },
+        {
+          "word": "pasaba,",
+          "start_sec": 103.61,
+          "end_sec": 104.49,
+          "prob": 0.994
+        },
+        {
+          "word": "pues",
+          "start_sec": 105.01,
+          "end_sec": 105.09,
+          "prob": 0.771
+        },
+        {
+          "word": "había",
+          "start_sec": 105.09,
+          "end_sec": 105.29,
+          "prob": 0.865
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start_sec": 105.29,
+      "end_sec": 116.16,
+      "text": "que simplificar. Vamos a ver cómo hacerlo, lo vamos a simplificar primero, los de segundos",
+      "words": [
+        {
+          "word": "que",
+          "start_sec": 105.29,
+          "end_sec": 105.51,
+          "prob": 0.997
+        },
+        {
+          "word": "simplificar.",
+          "start_sec": 105.51,
+          "end_sec": 106.81,
+          "prob": 0.994
+        },
+        {
+          "word": "Vamos",
+          "start_sec": 108.7,
+          "end_sec": 108.78,
+          "prob": 0.796
+        },
+        {
+          "word": "a",
+          "start_sec": 108.78,
+          "end_sec": 108.9,
+          "prob": 0.993
+        },
+        {
+          "word": "ver",
+          "start_sec": 108.9,
+          "end_sec": 109.02,
+          "prob": 0.999
+        },
+        {
+          "word": "cómo",
+          "start_sec": 109.02,
+          "end_sec": 109.26,
+          "prob": 0.884
+        },
+        {
+          "word": "hacerlo,",
+          "start_sec": 109.26,
+          "end_sec": 109.62,
+          "prob": 0.938
+        },
+        {
+          "word": "lo",
+          "start_sec": 109.64,
+          "end_sec": 109.9,
+          "prob": 0.398
+        },
+        {
+          "word": "vamos",
+          "start_sec": 109.9,
+          "end_sec": 109.98,
+          "prob": 0.986
+        },
+        {
+          "word": "a",
+          "start_sec": 109.98,
+          "end_sec": 110.22,
+          "prob": 0.99
+        },
+        {
+          "word": "simplificar",
+          "start_sec": 110.22,
+          "end_sec": 110.66,
+          "prob": 0.997
+        },
+        {
+          "word": "primero,",
+          "start_sec": 110.66,
+          "end_sec": 111.6,
+          "prob": 0.983
+        },
+        {
+          "word": "los",
+          "start_sec": 115.48,
+          "end_sec": 115.62,
+          "prob": 0.66
+        },
+        {
+          "word": "de",
+          "start_sec": 115.62,
+          "end_sec": 115.84,
+          "prob": 0.9
+        },
+        {
+          "word": "segundos",
+          "start_sec": 115.84,
+          "end_sec": 116.16,
+          "prob": 0.981
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start_sec": 116.16,
+      "end_sec": 120.74,
+      "text": "vamos a ir yendo, luego con los minutos, vamos a empezar por la unidad más pequeña",
+      "words": [
+        {
+          "word": "vamos",
+          "start_sec": 116.16,
+          "end_sec": 116.58,
+          "prob": 0.954
+        },
+        {
+          "word": "a",
+          "start_sec": 116.58,
+          "end_sec": 116.7,
+          "prob": 0.468
+        },
+        {
+          "word": "ir",
+          "start_sec": 116.7,
+          "end_sec": 116.92,
+          "prob": 0.998
+        },
+        {
+          "word": "yendo,",
+          "start_sec": 116.92,
+          "end_sec": 117.2,
+          "prob": 0.978
+        },
+        {
+          "word": "luego",
+          "start_sec": 117.54,
+          "end_sec": 117.86,
+          "prob": 0.96
+        },
+        {
+          "word": "con",
+          "start_sec": 117.86,
+          "end_sec": 118.04,
+          "prob": 0.811
+        },
+        {
+          "word": "los",
+          "start_sec": 118.04,
+          "end_sec": 118.26,
+          "prob": 0.997
+        },
+        {
+          "word": "minutos,",
+          "start_sec": 118.26,
+          "end_sec": 118.56,
+          "prob": 0.988
+        },
+        {
+          "word": "vamos",
+          "start_sec": 118.7,
+          "end_sec": 118.98,
+          "prob": 0.539
+        },
+        {
+          "word": "a",
+          "start_sec": 118.98,
+          "end_sec": 119.2,
+          "prob": 0.992
+        },
+        {
+          "word": "empezar",
+          "start_sec": 119.2,
+          "end_sec": 119.46,
+          "prob": 0.998
+        },
+        {
+          "word": "por",
+          "start_sec": 119.46,
+          "end_sec": 119.94,
+          "prob": 0.913
+        },
+        {
+          "word": "la",
+          "start_sec": 119.94,
+          "end_sec": 120.04,
+          "prob": 0.958
+        },
+        {
+          "word": "unidad",
+          "start_sec": 120.04,
+          "end_sec": 120.24,
+          "prob": 0.996
+        },
+        {
+          "word": "más",
+          "start_sec": 120.24,
+          "end_sec": 120.48,
+          "prob": 0.913
+        },
+        {
+          "word": "pequeña",
+          "start_sec": 120.48,
+          "end_sec": 120.74,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start_sec": 120.74,
+      "end_sec": 134.54,
+      "text": "que son los segundos, 119, vamos a ver cuántos minutos son y cuántos segundos",
+      "words": [
+        {
+          "word": "que",
+          "start_sec": 120.74,
+          "end_sec": 120.9,
+          "prob": 0.577
+        },
+        {
+          "word": "son",
+          "start_sec": 120.9,
+          "end_sec": 121.08,
+          "prob": 0.99
+        },
+        {
+          "word": "los",
+          "start_sec": 121.08,
+          "end_sec": 121.32,
+          "prob": 0.995
+        },
+        {
+          "word": "segundos,",
+          "start_sec": 121.32,
+          "end_sec": 121.84,
+          "prob": 0.994
+        },
+        {
+          "word": "119,",
+          "start_sec": 122.46,
+          "end_sec": 124.18,
+          "prob": 0.813
+        },
+        {
+          "word": "vamos",
+          "start_sec": 125.44,
+          "end_sec": 125.7,
+          "prob": 0.983
+        },
+        {
+          "word": "a",
+          "start_sec": 125.7,
+          "end_sec": 125.94,
+          "prob": 0.999
+        },
+        {
+          "word": "ver",
+          "start_sec": 125.94,
+          "end_sec": 126.82,
+          "prob": 0.998
+        },
+        {
+          "word": "cuántos",
+          "start_sec": 126.98,
+          "end_sec": 127.48,
+          "prob": 0.923
+        },
+        {
+          "word": "minutos",
+          "start_sec": 127.48,
+          "end_sec": 127.82,
+          "prob": 0.992
+        },
+        {
+          "word": "son",
+          "start_sec": 127.82,
+          "end_sec": 128.2,
+          "prob": 0.992
+        },
+        {
+          "word": "y",
+          "start_sec": 128.2,
+          "end_sec": 128.62,
+          "prob": 0.746
+        },
+        {
+          "word": "cuántos",
+          "start_sec": 128.62,
+          "end_sec": 134.54,
+          "prob": 0.982
+        },
+        {
+          "word": "segundos",
+          "start_sec": 134.54,
+          "end_sec": 134.54,
+          "prob": 0.989
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start_sec": 135.0,
+      "end_sec": 157.5,
+      "text": "Pues vamos a ver estos segundos cuántos minutos son. Realizamos la división, pues es",
+      "words": [
+        {
+          "word": "Pues",
+          "start_sec": 135.0,
+          "end_sec": 135.46,
+          "prob": 0.0
+        },
+        {
+          "word": "vamos",
+          "start_sec": 135.46,
+          "end_sec": 135.76,
+          "prob": 0.828
+        },
+        {
+          "word": "a",
+          "start_sec": 135.76,
+          "end_sec": 135.94,
+          "prob": 0.987
+        },
+        {
+          "word": "ver",
+          "start_sec": 135.94,
+          "end_sec": 136.08,
+          "prob": 0.997
+        },
+        {
+          "word": "estos",
+          "start_sec": 136.08,
+          "end_sec": 136.4,
+          "prob": 0.839
+        },
+        {
+          "word": "segundos",
+          "start_sec": 136.4,
+          "end_sec": 136.88,
+          "prob": 0.994
+        },
+        {
+          "word": "cuántos",
+          "start_sec": 136.88,
+          "end_sec": 137.38,
+          "prob": 0.663
+        },
+        {
+          "word": "minutos",
+          "start_sec": 137.38,
+          "end_sec": 137.76,
+          "prob": 0.993
+        },
+        {
+          "word": "son.",
+          "start_sec": 137.76,
+          "end_sec": 138.48,
+          "prob": 0.989
+        },
+        {
+          "word": "Realizamos",
+          "start_sec": 139.22,
+          "end_sec": 139.7,
+          "prob": 0.758
+        },
+        {
+          "word": "la",
+          "start_sec": 139.7,
+          "end_sec": 139.94,
+          "prob": 0.993
+        },
+        {
+          "word": "división,",
+          "start_sec": 139.94,
+          "end_sec": 141.06,
+          "prob": 0.993
+        },
+        {
+          "word": "pues",
+          "start_sec": 156.66,
+          "end_sec": 156.96,
+          "prob": 0.965
+        },
+        {
+          "word": "es",
+          "start_sec": 156.96,
+          "end_sec": 157.5,
+          "prob": 0.972
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start_sec": 157.5,
+      "end_sec": 169.36,
+      "text": "un minuto y 59 segundos, pues este minuto se lo tengo que añadir aquí y el 119",
+      "words": [
+        {
+          "word": "un",
+          "start_sec": 157.5,
+          "end_sec": 157.74,
+          "prob": 0.707
+        },
+        {
+          "word": "minuto",
+          "start_sec": 157.74,
+          "end_sec": 158.8,
+          "prob": 0.994
+        },
+        {
+          "word": "y",
+          "start_sec": 158.8,
+          "end_sec": 159.88,
+          "prob": 0.976
+        },
+        {
+          "word": "59",
+          "start_sec": 159.88,
+          "end_sec": 160.42,
+          "prob": 0.41
+        },
+        {
+          "word": "segundos,",
+          "start_sec": 160.42,
+          "end_sec": 160.96,
+          "prob": 0.997
+        },
+        {
+          "word": "pues",
+          "start_sec": 161.04,
+          "end_sec": 161.32,
+          "prob": 0.917
+        },
+        {
+          "word": "este",
+          "start_sec": 161.32,
+          "end_sec": 161.54,
+          "prob": 0.95
+        },
+        {
+          "word": "minuto",
+          "start_sec": 161.54,
+          "end_sec": 162.78,
+          "prob": 0.998
+        },
+        {
+          "word": "se",
+          "start_sec": 162.78,
+          "end_sec": 163.08,
+          "prob": 0.944
+        },
+        {
+          "word": "lo",
+          "start_sec": 163.08,
+          "end_sec": 163.2,
+          "prob": 0.96
+        },
+        {
+          "word": "tengo",
+          "start_sec": 163.2,
+          "end_sec": 163.36,
+          "prob": 0.995
+        },
+        {
+          "word": "que",
+          "start_sec": 163.36,
+          "end_sec": 163.88,
+          "prob": 0.997
+        },
+        {
+          "word": "añadir",
+          "start_sec": 163.88,
+          "end_sec": 164.34,
+          "prob": 0.993
+        },
+        {
+          "word": "aquí",
+          "start_sec": 164.34,
+          "end_sec": 164.88,
+          "prob": 0.988
+        },
+        {
+          "word": "y",
+          "start_sec": 167.5,
+          "end_sec": 168.32,
+          "prob": 0.456
+        },
+        {
+          "word": "el",
+          "start_sec": 168.32,
+          "end_sec": 168.6,
+          "prob": 0.983
+        },
+        {
+          "word": "119",
+          "start_sec": 168.6,
+          "end_sec": 169.36,
+          "prob": 0.874
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start_sec": 169.36,
+      "end_sec": 182.45,
+      "text": "se va a convertir en 59 segundos, y aquí como he añadido uno, 323 minutos y los",
+      "words": [
+        {
+          "word": "se",
+          "start_sec": 169.36,
+          "end_sec": 169.6,
+          "prob": 0.984
+        },
+        {
+          "word": "va",
+          "start_sec": 169.6,
+          "end_sec": 169.84,
+          "prob": 0.996
+        },
+        {
+          "word": "a",
+          "start_sec": 169.84,
+          "end_sec": 170.06,
+          "prob": 0.993
+        },
+        {
+          "word": "convertir",
+          "start_sec": 170.06,
+          "end_sec": 170.4,
+          "prob": 0.998
+        },
+        {
+          "word": "en",
+          "start_sec": 170.4,
+          "end_sec": 171.28,
+          "prob": 0.997
+        },
+        {
+          "word": "59",
+          "start_sec": 171.28,
+          "end_sec": 172.32,
+          "prob": 0.986
+        },
+        {
+          "word": "segundos,",
+          "start_sec": 172.32,
+          "end_sec": 173.32,
+          "prob": 0.998
+        },
+        {
+          "word": "y",
+          "start_sec": 176.48,
+          "end_sec": 176.62,
+          "prob": 0.879
+        },
+        {
+          "word": "aquí",
+          "start_sec": 176.62,
+          "end_sec": 176.74,
+          "prob": 0.982
+        },
+        {
+          "word": "como",
+          "start_sec": 176.74,
+          "end_sec": 176.94,
+          "prob": 0.901
+        },
+        {
+          "word": "he",
+          "start_sec": 176.94,
+          "end_sec": 177.08,
+          "prob": 0.612
+        },
+        {
+          "word": "añadido",
+          "start_sec": 177.08,
+          "end_sec": 177.44,
+          "prob": 0.998
+        },
+        {
+          "word": "uno,",
+          "start_sec": 177.44,
+          "end_sec": 177.9,
+          "prob": 0.746
+        },
+        {
+          "word": "323",
+          "start_sec": 179.29,
+          "end_sec": 180.37,
+          "prob": 0.77
+        },
+        {
+          "word": "minutos",
+          "start_sec": 180.37,
+          "end_sec": 181.39,
+          "prob": 0.99
+        },
+        {
+          "word": "y",
+          "start_sec": 181.39,
+          "end_sec": 181.99,
+          "prob": 0.589
+        },
+        {
+          "word": "los",
+          "start_sec": 181.99,
+          "end_sec": 182.45,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start_sec": 183.18,
+      "end_sec": 188.54,
+      "text": "grados siguen igual. Ahora me voy a centrar en minutos, que es el que se me ha pasado",
+      "words": [
+        {
+          "word": "grados",
+          "start_sec": 183.18,
+          "end_sec": 183.7,
+          "prob": 0.457
+        },
+        {
+          "word": "siguen",
+          "start_sec": 183.7,
+          "end_sec": 184.22,
+          "prob": 0.662
+        },
+        {
+          "word": "igual.",
+          "start_sec": 184.22,
+          "end_sec": 184.58,
+          "prob": 0.975
+        },
+        {
+          "word": "Ahora",
+          "start_sec": 185.5,
+          "end_sec": 186.0,
+          "prob": 0.737
+        },
+        {
+          "word": "me",
+          "start_sec": 186.0,
+          "end_sec": 186.18,
+          "prob": 0.791
+        },
+        {
+          "word": "voy",
+          "start_sec": 186.18,
+          "end_sec": 186.3,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 186.3,
+          "end_sec": 186.44,
+          "prob": 0.991
+        },
+        {
+          "word": "centrar",
+          "start_sec": 186.44,
+          "end_sec": 186.82,
+          "prob": 0.988
+        },
+        {
+          "word": "en",
+          "start_sec": 186.82,
+          "end_sec": 187.06,
+          "prob": 0.971
+        },
+        {
+          "word": "minutos,",
+          "start_sec": 187.06,
+          "end_sec": 187.32,
+          "prob": 0.989
+        },
+        {
+          "word": "que",
+          "start_sec": 187.4,
+          "end_sec": 187.52,
+          "prob": 0.985
+        },
+        {
+          "word": "es",
+          "start_sec": 187.52,
+          "end_sec": 187.62,
+          "prob": 0.964
+        },
+        {
+          "word": "el",
+          "start_sec": 187.62,
+          "end_sec": 187.74,
+          "prob": 0.992
+        },
+        {
+          "word": "que",
+          "start_sec": 187.74,
+          "end_sec": 187.8,
+          "prob": 0.998
+        },
+        {
+          "word": "se",
+          "start_sec": 187.8,
+          "end_sec": 187.92,
+          "prob": 0.991
+        },
+        {
+          "word": "me",
+          "start_sec": 187.92,
+          "end_sec": 188.02,
+          "prob": 0.969
+        },
+        {
+          "word": "ha",
+          "start_sec": 188.02,
+          "end_sec": 188.2,
+          "prob": 0.961
+        },
+        {
+          "word": "pasado",
+          "start_sec": 188.2,
+          "end_sec": 188.54,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start_sec": 188.54,
+      "end_sec": 197.98,
+      "text": "de 60 y lo mismo voy a ver cuántos grados hay en 323 minutos. Realizo la división,",
+      "words": [
+        {
+          "word": "de",
+          "start_sec": 188.54,
+          "end_sec": 189.26,
+          "prob": 0.974
+        },
+        {
+          "word": "60",
+          "start_sec": 189.26,
+          "end_sec": 189.88,
+          "prob": 0.735
+        },
+        {
+          "word": "y",
+          "start_sec": 189.88,
+          "end_sec": 190.76,
+          "prob": 0.17
+        },
+        {
+          "word": "lo",
+          "start_sec": 190.76,
+          "end_sec": 191.0,
+          "prob": 0.986
+        },
+        {
+          "word": "mismo",
+          "start_sec": 191.0,
+          "end_sec": 191.3,
+          "prob": 0.999
+        },
+        {
+          "word": "voy",
+          "start_sec": 191.3,
+          "end_sec": 191.56,
+          "prob": 0.578
+        },
+        {
+          "word": "a",
+          "start_sec": 191.56,
+          "end_sec": 191.78,
+          "prob": 0.997
+        },
+        {
+          "word": "ver",
+          "start_sec": 191.78,
+          "end_sec": 192.56,
+          "prob": 0.996
+        },
+        {
+          "word": "cuántos",
+          "start_sec": 192.56,
+          "end_sec": 193.3,
+          "prob": 0.796
+        },
+        {
+          "word": "grados",
+          "start_sec": 193.3,
+          "end_sec": 193.76,
+          "prob": 0.998
+        },
+        {
+          "word": "hay",
+          "start_sec": 193.76,
+          "end_sec": 194.1,
+          "prob": 0.994
+        },
+        {
+          "word": "en",
+          "start_sec": 194.1,
+          "end_sec": 194.4,
+          "prob": 0.801
+        },
+        {
+          "word": "323",
+          "start_sec": 194.4,
+          "end_sec": 195.4,
+          "prob": 0.861
+        },
+        {
+          "word": "minutos.",
+          "start_sec": 195.4,
+          "end_sec": 196.02,
+          "prob": 0.99
+        },
+        {
+          "word": "Realizo",
+          "start_sec": 196.26,
+          "end_sec": 196.68,
+          "prob": 0.986
+        },
+        {
+          "word": "la",
+          "start_sec": 196.68,
+          "end_sec": 196.86,
+          "prob": 0.996
+        },
+        {
+          "word": "división,",
+          "start_sec": 196.86,
+          "end_sec": 197.98,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start_sec": 211.39,
+      "end_sec": 216.13,
+      "text": "lo que me sobra son minutos y lo que me da son grados. ¿Cuántos grados son?",
+      "words": [
+        {
+          "word": "lo",
+          "start_sec": 211.39,
+          "end_sec": 211.53,
+          "prob": 0.987
+        },
+        {
+          "word": "que",
+          "start_sec": 211.53,
+          "end_sec": 211.65,
+          "prob": 0.999
+        },
+        {
+          "word": "me",
+          "start_sec": 211.65,
+          "end_sec": 211.87,
+          "prob": 0.99
+        },
+        {
+          "word": "sobra",
+          "start_sec": 211.87,
+          "end_sec": 212.13,
+          "prob": 0.991
+        },
+        {
+          "word": "son",
+          "start_sec": 212.13,
+          "end_sec": 212.37,
+          "prob": 0.988
+        },
+        {
+          "word": "minutos",
+          "start_sec": 212.37,
+          "end_sec": 212.79,
+          "prob": 0.988
+        },
+        {
+          "word": "y",
+          "start_sec": 212.79,
+          "end_sec": 212.99,
+          "prob": 0.923
+        },
+        {
+          "word": "lo",
+          "start_sec": 212.99,
+          "end_sec": 213.13,
+          "prob": 0.991
+        },
+        {
+          "word": "que",
+          "start_sec": 213.13,
+          "end_sec": 213.25,
+          "prob": 0.999
+        },
+        {
+          "word": "me",
+          "start_sec": 213.25,
+          "end_sec": 213.43,
+          "prob": 0.995
+        },
+        {
+          "word": "da",
+          "start_sec": 213.43,
+          "end_sec": 213.61,
+          "prob": 0.895
+        },
+        {
+          "word": "son",
+          "start_sec": 213.61,
+          "end_sec": 213.89,
+          "prob": 0.993
+        },
+        {
+          "word": "grados.",
+          "start_sec": 213.89,
+          "end_sec": 214.61,
+          "prob": 0.998
+        },
+        {
+          "word": "¿Cuántos",
+          "start_sec": 214.87,
+          "end_sec": 215.29,
+          "prob": 0.975
+        },
+        {
+          "word": "grados",
+          "start_sec": 215.29,
+          "end_sec": 215.61,
+          "prob": 0.995
+        },
+        {
+          "word": "son?",
+          "start_sec": 215.61,
+          "end_sec": 216.13,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start_sec": 217.39,
+      "end_sec": 222.21,
+      "text": "Cinco grados que se los añado y los minutos me van a quedar en realidad en",
+      "words": [
+        {
+          "word": "Cinco",
+          "start_sec": 217.39,
+          "end_sec": 217.91,
+          "prob": 0.636
+        },
+        {
+          "word": "grados",
+          "start_sec": 217.91,
+          "end_sec": 218.29,
+          "prob": 0.995
+        },
+        {
+          "word": "que",
+          "start_sec": 218.29,
+          "end_sec": 218.49,
+          "prob": 0.389
+        },
+        {
+          "word": "se",
+          "start_sec": 218.49,
+          "end_sec": 218.65,
+          "prob": 0.991
+        },
+        {
+          "word": "los",
+          "start_sec": 218.65,
+          "end_sec": 218.81,
+          "prob": 0.983
+        },
+        {
+          "word": "añado",
+          "start_sec": 218.81,
+          "end_sec": 219.31,
+          "prob": 0.991
+        },
+        {
+          "word": "y",
+          "start_sec": 219.31,
+          "end_sec": 219.83,
+          "prob": 0.504
+        },
+        {
+          "word": "los",
+          "start_sec": 219.83,
+          "end_sec": 220.09,
+          "prob": 0.995
+        },
+        {
+          "word": "minutos",
+          "start_sec": 220.09,
+          "end_sec": 220.49,
+          "prob": 0.99
+        },
+        {
+          "word": "me",
+          "start_sec": 220.49,
+          "end_sec": 220.75,
+          "prob": 0.985
+        },
+        {
+          "word": "van",
+          "start_sec": 220.75,
+          "end_sec": 220.91,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 220.91,
+          "end_sec": 221.05,
+          "prob": 0.998
+        },
+        {
+          "word": "quedar",
+          "start_sec": 221.05,
+          "end_sec": 221.31,
+          "prob": 0.998
+        },
+        {
+          "word": "en",
+          "start_sec": 221.31,
+          "end_sec": 221.59,
+          "prob": 0.965
+        },
+        {
+          "word": "realidad",
+          "start_sec": 221.59,
+          "end_sec": 221.95,
+          "prob": 0.988
+        },
+        {
+          "word": "en",
+          "start_sec": 221.95,
+          "end_sec": 222.21,
+          "prob": 0.977
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start_sec": 223.54,
+      "end_sec": 233.78,
+      "text": "23. Me pongo ahora 59 segundos que me queda tal cual, 323 que se me ha pasado a 23 minutos",
+      "words": [
+        {
+          "word": "23.",
+          "start_sec": 223.54,
+          "end_sec": 224.18,
+          "prob": 0.019
+        },
+        {
+          "word": "Me",
+          "start_sec": 224.52,
+          "end_sec": 224.94,
+          "prob": 0.013
+        },
+        {
+          "word": "pongo",
+          "start_sec": 224.94,
+          "end_sec": 225.1,
+          "prob": 0.989
+        },
+        {
+          "word": "ahora",
+          "start_sec": 225.1,
+          "end_sec": 225.66,
+          "prob": 0.971
+        },
+        {
+          "word": "59",
+          "start_sec": 226.4,
+          "end_sec": 227.58,
+          "prob": 0.762
+        },
+        {
+          "word": "segundos",
+          "start_sec": 227.58,
+          "end_sec": 228.26,
+          "prob": 0.98
+        },
+        {
+          "word": "que",
+          "start_sec": 228.26,
+          "end_sec": 228.44,
+          "prob": 0.733
+        },
+        {
+          "word": "me",
+          "start_sec": 228.44,
+          "end_sec": 228.62,
+          "prob": 0.983
+        },
+        {
+          "word": "queda",
+          "start_sec": 228.62,
+          "end_sec": 228.84,
+          "prob": 0.978
+        },
+        {
+          "word": "tal",
+          "start_sec": 228.84,
+          "end_sec": 229.16,
+          "prob": 0.82
+        },
+        {
+          "word": "cual,",
+          "start_sec": 229.16,
+          "end_sec": 229.82,
+          "prob": 0.985
+        },
+        {
+          "word": "323",
+          "start_sec": 230.22,
+          "end_sec": 230.92,
+          "prob": 0.672
+        },
+        {
+          "word": "que",
+          "start_sec": 230.92,
+          "end_sec": 231.16,
+          "prob": 0.895
+        },
+        {
+          "word": "se",
+          "start_sec": 231.16,
+          "end_sec": 231.36,
+          "prob": 0.21
+        },
+        {
+          "word": "me",
+          "start_sec": 231.36,
+          "end_sec": 231.48,
+          "prob": 0.958
+        },
+        {
+          "word": "ha",
+          "start_sec": 231.48,
+          "end_sec": 231.66,
+          "prob": 0.924
+        },
+        {
+          "word": "pasado",
+          "start_sec": 231.66,
+          "end_sec": 231.92,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 231.92,
+          "end_sec": 232.1,
+          "prob": 0.984
+        },
+        {
+          "word": "23",
+          "start_sec": 232.1,
+          "end_sec": 232.74,
+          "prob": 0.971
+        },
+        {
+          "word": "minutos",
+          "start_sec": 232.74,
+          "end_sec": 233.78,
+          "prob": 0.972
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start_sec": 233.78,
+      "end_sec": 241.88,
+      "text": "porque le he robado los demás y los he convertido en 5 grados, que ahora en mes de ser 245 es",
+      "words": [
+        {
+          "word": "porque",
+          "start_sec": 233.78,
+          "end_sec": 234.5,
+          "prob": 0.748
+        },
+        {
+          "word": "le",
+          "start_sec": 234.5,
+          "end_sec": 234.68,
+          "prob": 0.913
+        },
+        {
+          "word": "he",
+          "start_sec": 234.68,
+          "end_sec": 234.78,
+          "prob": 0.945
+        },
+        {
+          "word": "robado",
+          "start_sec": 234.78,
+          "end_sec": 235.02,
+          "prob": 0.987
+        },
+        {
+          "word": "los",
+          "start_sec": 235.02,
+          "end_sec": 235.18,
+          "prob": 0.886
+        },
+        {
+          "word": "demás",
+          "start_sec": 235.18,
+          "end_sec": 235.48,
+          "prob": 0.972
+        },
+        {
+          "word": "y",
+          "start_sec": 235.48,
+          "end_sec": 235.62,
+          "prob": 0.956
+        },
+        {
+          "word": "los",
+          "start_sec": 235.62,
+          "end_sec": 235.76,
+          "prob": 0.974
+        },
+        {
+          "word": "he",
+          "start_sec": 235.76,
+          "end_sec": 235.98,
+          "prob": 0.976
+        },
+        {
+          "word": "convertido",
+          "start_sec": 235.98,
+          "end_sec": 236.34,
+          "prob": 0.993
+        },
+        {
+          "word": "en",
+          "start_sec": 236.34,
+          "end_sec": 236.58,
+          "prob": 0.612
+        },
+        {
+          "word": "5",
+          "start_sec": 236.58,
+          "end_sec": 236.78,
+          "prob": 0.849
+        },
+        {
+          "word": "grados,",
+          "start_sec": 236.78,
+          "end_sec": 237.28,
+          "prob": 0.91
+        },
+        {
+          "word": "que",
+          "start_sec": 237.32,
+          "end_sec": 237.5,
+          "prob": 0.983
+        },
+        {
+          "word": "ahora",
+          "start_sec": 237.5,
+          "end_sec": 237.72,
+          "prob": 0.997
+        },
+        {
+          "word": "en",
+          "start_sec": 237.72,
+          "end_sec": 237.84,
+          "prob": 0.838
+        },
+        {
+          "word": "mes",
+          "start_sec": 237.84,
+          "end_sec": 237.86,
+          "prob": 0.617
+        },
+        {
+          "word": "de",
+          "start_sec": 237.86,
+          "end_sec": 238.78,
+          "prob": 0.903
+        },
+        {
+          "word": "ser",
+          "start_sec": 238.78,
+          "end_sec": 239.24,
+          "prob": 0.767
+        },
+        {
+          "word": "245",
+          "start_sec": 239.24,
+          "end_sec": 240.72,
+          "prob": 0.99
+        },
+        {
+          "word": "es",
+          "start_sec": 240.72,
+          "end_sec": 241.88,
+          "prob": 0.855
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start_sec": 241.88,
+      "end_sec": 250.93,
+      "text": "250 grados. Y este sería el resultado de esta multiplicación con ángulos. Vamos a realizar",
+      "words": [
+        {
+          "word": "250",
+          "start_sec": 241.88,
+          "end_sec": 243.14,
+          "prob": 0.977
+        },
+        {
+          "word": "grados.",
+          "start_sec": 243.14,
+          "end_sec": 244.28,
+          "prob": 0.987
+        },
+        {
+          "word": "Y",
+          "start_sec": 244.67,
+          "end_sec": 245.07,
+          "prob": 0.956
+        },
+        {
+          "word": "este",
+          "start_sec": 245.07,
+          "end_sec": 245.17,
+          "prob": 0.942
+        },
+        {
+          "word": "sería",
+          "start_sec": 245.17,
+          "end_sec": 245.55,
+          "prob": 0.948
+        },
+        {
+          "word": "el",
+          "start_sec": 245.55,
+          "end_sec": 245.87,
+          "prob": 0.995
+        },
+        {
+          "word": "resultado",
+          "start_sec": 245.87,
+          "end_sec": 246.37,
+          "prob": 0.997
+        },
+        {
+          "word": "de",
+          "start_sec": 246.37,
+          "end_sec": 247.43,
+          "prob": 0.995
+        },
+        {
+          "word": "esta",
+          "start_sec": 247.43,
+          "end_sec": 248.05,
+          "prob": 0.98
+        },
+        {
+          "word": "multiplicación",
+          "start_sec": 248.05,
+          "end_sec": 249.09,
+          "prob": 0.991
+        },
+        {
+          "word": "con",
+          "start_sec": 249.09,
+          "end_sec": 249.33,
+          "prob": 0.995
+        },
+        {
+          "word": "ángulos.",
+          "start_sec": 249.33,
+          "end_sec": 249.81,
+          "prob": 0.934
+        },
+        {
+          "word": "Vamos",
+          "start_sec": 250.13,
+          "end_sec": 250.27,
+          "prob": 0.964
+        },
+        {
+          "word": "a",
+          "start_sec": 250.27,
+          "end_sec": 250.49,
+          "prob": 0.996
+        },
+        {
+          "word": "realizar",
+          "start_sec": 250.49,
+          "end_sec": 250.93,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start_sec": 250.93,
+      "end_sec": 260.17,
+      "text": "otro ejercicio más. Vamos a colocar la operación y vamos a ir realizándola. Tengo 37 minutos,",
+      "words": [
+        {
+          "word": "otro",
+          "start_sec": 250.93,
+          "end_sec": 251.29,
+          "prob": 0.0
+        },
+        {
+          "word": "ejercicio",
+          "start_sec": 251.29,
+          "end_sec": 251.77,
+          "prob": 0.994
+        },
+        {
+          "word": "más.",
+          "start_sec": 251.77,
+          "end_sec": 252.15,
+          "prob": 0.649
+        },
+        {
+          "word": "Vamos",
+          "start_sec": 254.63,
+          "end_sec": 254.91,
+          "prob": 0.913
+        },
+        {
+          "word": "a",
+          "start_sec": 254.91,
+          "end_sec": 255.11,
+          "prob": 0.998
+        },
+        {
+          "word": "colocar",
+          "start_sec": 255.11,
+          "end_sec": 255.39,
+          "prob": 0.991
+        },
+        {
+          "word": "la",
+          "start_sec": 255.39,
+          "end_sec": 255.57,
+          "prob": 0.98
+        },
+        {
+          "word": "operación",
+          "start_sec": 255.57,
+          "end_sec": 256.09,
+          "prob": 0.993
+        },
+        {
+          "word": "y",
+          "start_sec": 256.09,
+          "end_sec": 256.31,
+          "prob": 0.94
+        },
+        {
+          "word": "vamos",
+          "start_sec": 256.31,
+          "end_sec": 256.55,
+          "prob": 0.989
+        },
+        {
+          "word": "a",
+          "start_sec": 256.55,
+          "end_sec": 256.67,
+          "prob": 0.994
+        },
+        {
+          "word": "ir",
+          "start_sec": 256.67,
+          "end_sec": 256.83,
+          "prob": 0.996
+        },
+        {
+          "word": "realizándola.",
+          "start_sec": 256.83,
+          "end_sec": 257.79,
+          "prob": 0.904
+        },
+        {
+          "word": "Tengo",
+          "start_sec": 258.37,
+          "end_sec": 258.87,
+          "prob": 0.97
+        },
+        {
+          "word": "37",
+          "start_sec": 258.87,
+          "end_sec": 259.59,
+          "prob": 0.775
+        },
+        {
+          "word": "minutos,",
+          "start_sec": 259.59,
+          "end_sec": 260.17,
+          "prob": 0.984
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start_sec": 262.16,
+      "end_sec": 270.41,
+      "text": "11 segundos por 13, así que tengo que multiplicar cada uno por 13. Vamos a hacer,",
+      "words": [
+        {
+          "word": "11",
+          "start_sec": 262.16,
+          "end_sec": 262.46,
+          "prob": 0.965
+        },
+        {
+          "word": "segundos",
+          "start_sec": 262.46,
+          "end_sec": 263.02,
+          "prob": 0.993
+        },
+        {
+          "word": "por",
+          "start_sec": 263.02,
+          "end_sec": 263.32,
+          "prob": 0.823
+        },
+        {
+          "word": "13,",
+          "start_sec": 263.32,
+          "end_sec": 263.6,
+          "prob": 0.967
+        },
+        {
+          "word": "así",
+          "start_sec": 263.72,
+          "end_sec": 263.92,
+          "prob": 0.989
+        },
+        {
+          "word": "que",
+          "start_sec": 263.92,
+          "end_sec": 264.08,
+          "prob": 0.999
+        },
+        {
+          "word": "tengo",
+          "start_sec": 264.08,
+          "end_sec": 264.22,
+          "prob": 0.97
+        },
+        {
+          "word": "que",
+          "start_sec": 264.22,
+          "end_sec": 264.54,
+          "prob": 0.998
+        },
+        {
+          "word": "multiplicar",
+          "start_sec": 264.54,
+          "end_sec": 265.28,
+          "prob": 0.998
+        },
+        {
+          "word": "cada",
+          "start_sec": 265.28,
+          "end_sec": 265.64,
+          "prob": 0.996
+        },
+        {
+          "word": "uno",
+          "start_sec": 265.64,
+          "end_sec": 266.24,
+          "prob": 0.981
+        },
+        {
+          "word": "por",
+          "start_sec": 266.46,
+          "end_sec": 267.48,
+          "prob": 0.983
+        },
+        {
+          "word": "13.",
+          "start_sec": 267.48,
+          "end_sec": 267.98,
+          "prob": 0.97
+        },
+        {
+          "word": "Vamos",
+          "start_sec": 269.53,
+          "end_sec": 269.75,
+          "prob": 0.908
+        },
+        {
+          "word": "a",
+          "start_sec": 269.75,
+          "end_sec": 270.07,
+          "prob": 0.99
+        },
+        {
+          "word": "hacer,",
+          "start_sec": 270.07,
+          "end_sec": 270.41,
+          "prob": 0.981
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start_sec": 270.85,
+      "end_sec": 280.05,
+      "text": "si quiere, las operaciones aparte y vamos apuntando. Tengo 7 por 13, 3 por 7, 21,",
+      "words": [
+        {
+          "word": "si",
+          "start_sec": 270.85,
+          "end_sec": 271.03,
+          "prob": 0.928
+        },
+        {
+          "word": "quiere,",
+          "start_sec": 271.03,
+          "end_sec": 271.21,
+          "prob": 0.51
+        },
+        {
+          "word": "las",
+          "start_sec": 271.31,
+          "end_sec": 271.45,
+          "prob": 0.576
+        },
+        {
+          "word": "operaciones",
+          "start_sec": 271.45,
+          "end_sec": 271.91,
+          "prob": 0.997
+        },
+        {
+          "word": "aparte",
+          "start_sec": 271.91,
+          "end_sec": 272.61,
+          "prob": 0.805
+        },
+        {
+          "word": "y",
+          "start_sec": 272.61,
+          "end_sec": 272.87,
+          "prob": 0.846
+        },
+        {
+          "word": "vamos",
+          "start_sec": 272.87,
+          "end_sec": 273.09,
+          "prob": 0.999
+        },
+        {
+          "word": "apuntando.",
+          "start_sec": 273.09,
+          "end_sec": 273.83,
+          "prob": 0.889
+        },
+        {
+          "word": "Tengo",
+          "start_sec": 277.79,
+          "end_sec": 277.91,
+          "prob": 0.503
+        },
+        {
+          "word": "7",
+          "start_sec": 277.91,
+          "end_sec": 278.09,
+          "prob": 0.414
+        },
+        {
+          "word": "por",
+          "start_sec": 278.09,
+          "end_sec": 278.25,
+          "prob": 0.612
+        },
+        {
+          "word": "13,",
+          "start_sec": 278.25,
+          "end_sec": 278.53,
+          "prob": 0.991
+        },
+        {
+          "word": "3",
+          "start_sec": 278.59,
+          "end_sec": 278.87,
+          "prob": 0.947
+        },
+        {
+          "word": "por",
+          "start_sec": 278.87,
+          "end_sec": 279.03,
+          "prob": 0.975
+        },
+        {
+          "word": "7,",
+          "start_sec": 279.03,
+          "end_sec": 279.43,
+          "prob": 0.997
+        },
+        {
+          "word": "21,",
+          "start_sec": 279.45,
+          "end_sec": 280.05,
+          "prob": 0.977
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start_sec": 280.05,
+      "end_sec": 296.41,
+      "text": "me llevo 2, 3 por 3, 9 y 2, 11. 1 por 7, 7 y 1 por 3, 3. Sumo, 1, 7 y 1, 8, 3 y 1, 4. 481,",
+      "words": [
+        {
+          "word": "me",
+          "start_sec": 280.05,
+          "end_sec": 280.05,
+          "prob": 0.001
+        },
+        {
+          "word": "llevo",
+          "start_sec": 280.05,
+          "end_sec": 280.75,
+          "prob": 0.966
+        },
+        {
+          "word": "2,",
+          "start_sec": 280.75,
+          "end_sec": 280.95,
+          "prob": 0.127
+        },
+        {
+          "word": "3",
+          "start_sec": 281.01,
+          "end_sec": 281.25,
+          "prob": 0.902
+        },
+        {
+          "word": "por",
+          "start_sec": 281.25,
+          "end_sec": 281.41,
+          "prob": 0.422
+        },
+        {
+          "word": "3,",
+          "start_sec": 281.41,
+          "end_sec": 281.67,
+          "prob": 0.944
+        },
+        {
+          "word": "9",
+          "start_sec": 281.67,
+          "end_sec": 282.07,
+          "prob": 0.977
+        },
+        {
+          "word": "y",
+          "start_sec": 282.07,
+          "end_sec": 282.75,
+          "prob": 0.53
+        },
+        {
+          "word": "2,",
+          "start_sec": 282.75,
+          "end_sec": 283.25,
+          "prob": 0.918
+        },
+        {
+          "word": "11.",
+          "start_sec": 283.55,
+          "end_sec": 283.95,
+          "prob": 0.961
+        },
+        {
+          "word": "1",
+          "start_sec": 284.9,
+          "end_sec": 285.12,
+          "prob": 0.291
+        },
+        {
+          "word": "por",
+          "start_sec": 285.12,
+          "end_sec": 285.32,
+          "prob": 0.904
+        },
+        {
+          "word": "7,",
+          "start_sec": 285.32,
+          "end_sec": 285.74,
+          "prob": 0.994
+        },
+        {
+          "word": "7",
+          "start_sec": 285.74,
+          "end_sec": 286.24,
+          "prob": 0.99
+        },
+        {
+          "word": "y",
+          "start_sec": 286.24,
+          "end_sec": 286.48,
+          "prob": 0.811
+        },
+        {
+          "word": "1",
+          "start_sec": 286.48,
+          "end_sec": 286.74,
+          "prob": 0.951
+        },
+        {
+          "word": "por",
+          "start_sec": 286.74,
+          "end_sec": 286.96,
+          "prob": 0.995
+        },
+        {
+          "word": "3,",
+          "start_sec": 286.96,
+          "end_sec": 287.54,
+          "prob": 0.996
+        },
+        {
+          "word": "3.",
+          "start_sec": 287.76,
+          "end_sec": 288.68,
+          "prob": 0.977
+        },
+        {
+          "word": "Sumo,",
+          "start_sec": 289.67,
+          "end_sec": 290.27,
+          "prob": 0.975
+        },
+        {
+          "word": "1,",
+          "start_sec": 290.59,
+          "end_sec": 291.03,
+          "prob": 0.839
+        },
+        {
+          "word": "7",
+          "start_sec": 291.03,
+          "end_sec": 291.41,
+          "prob": 0.989
+        },
+        {
+          "word": "y",
+          "start_sec": 291.41,
+          "end_sec": 291.61,
+          "prob": 0.962
+        },
+        {
+          "word": "1,",
+          "start_sec": 291.61,
+          "end_sec": 291.81,
+          "prob": 0.969
+        },
+        {
+          "word": "8,",
+          "start_sec": 291.81,
+          "end_sec": 292.21,
+          "prob": 0.996
+        },
+        {
+          "word": "3",
+          "start_sec": 292.41,
+          "end_sec": 292.71,
+          "prob": 0.997
+        },
+        {
+          "word": "y",
+          "start_sec": 292.71,
+          "end_sec": 292.83,
+          "prob": 0.996
+        },
+        {
+          "word": "1,",
+          "start_sec": 292.83,
+          "end_sec": 293.11,
+          "prob": 0.996
+        },
+        {
+          "word": "4.",
+          "start_sec": 293.19,
+          "end_sec": 293.95,
+          "prob": 0.997
+        },
+        {
+          "word": "481,",
+          "start_sec": 295.81,
+          "end_sec": 296.41,
+          "prob": 0.921
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start_sec": 297.56,
+      "end_sec": 314.92,
+      "text": "grados no, perdón, minutos. Y ahora el 11 por 13, 11 por 13, 3 por 1, 3, 3 por 1, 3,",
+      "words": [
+        {
+          "word": "grados",
+          "start_sec": 297.56,
+          "end_sec": 297.86,
+          "prob": 0.911
+        },
+        {
+          "word": "no,",
+          "start_sec": 297.86,
+          "end_sec": 297.96,
+          "prob": 0.761
+        },
+        {
+          "word": "perdón,",
+          "start_sec": 298.18,
+          "end_sec": 298.46,
+          "prob": 0.962
+        },
+        {
+          "word": "minutos.",
+          "start_sec": 300.92,
+          "end_sec": 301.32,
+          "prob": 0.986
+        },
+        {
+          "word": "Y",
+          "start_sec": 306.5,
+          "end_sec": 306.78,
+          "prob": 0.951
+        },
+        {
+          "word": "ahora",
+          "start_sec": 306.78,
+          "end_sec": 307.02,
+          "prob": 0.997
+        },
+        {
+          "word": "el",
+          "start_sec": 307.02,
+          "end_sec": 307.16,
+          "prob": 0.891
+        },
+        {
+          "word": "11",
+          "start_sec": 307.16,
+          "end_sec": 307.46,
+          "prob": 0.965
+        },
+        {
+          "word": "por",
+          "start_sec": 307.46,
+          "end_sec": 307.74,
+          "prob": 0.975
+        },
+        {
+          "word": "13,",
+          "start_sec": 307.74,
+          "end_sec": 308.3,
+          "prob": 0.994
+        },
+        {
+          "word": "11",
+          "start_sec": 308.98,
+          "end_sec": 309.52,
+          "prob": 0.991
+        },
+        {
+          "word": "por",
+          "start_sec": 309.52,
+          "end_sec": 309.88,
+          "prob": 0.983
+        },
+        {
+          "word": "13,",
+          "start_sec": 309.88,
+          "end_sec": 310.56,
+          "prob": 0.999
+        },
+        {
+          "word": "3",
+          "start_sec": 311.76,
+          "end_sec": 312.06,
+          "prob": 0.978
+        },
+        {
+          "word": "por",
+          "start_sec": 312.06,
+          "end_sec": 312.36,
+          "prob": 0.994
+        },
+        {
+          "word": "1,",
+          "start_sec": 312.36,
+          "end_sec": 312.76,
+          "prob": 0.929
+        },
+        {
+          "word": "3,",
+          "start_sec": 313.06,
+          "end_sec": 313.36,
+          "prob": 0.984
+        },
+        {
+          "word": "3",
+          "start_sec": 313.46,
+          "end_sec": 313.76,
+          "prob": 0.994
+        },
+        {
+          "word": "por",
+          "start_sec": 313.76,
+          "end_sec": 314.0,
+          "prob": 0.996
+        },
+        {
+          "word": "1,",
+          "start_sec": 314.0,
+          "end_sec": 314.36,
+          "prob": 0.971
+        },
+        {
+          "word": "3,",
+          "start_sec": 314.58,
+          "end_sec": 314.92,
+          "prob": 0.973
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start_sec": 314.92,
+      "end_sec": 331.61,
+      "text": "1 por 1, 1, 1 por 1, 1. Sumamos, 3, 1 y 3 son 4, 1 y el 1. 143 segundos. Nos fijamos y como",
+      "words": [
+        {
+          "word": "1",
+          "start_sec": 314.92,
+          "end_sec": 315.36,
+          "prob": 0.033
+        },
+        {
+          "word": "por",
+          "start_sec": 315.36,
+          "end_sec": 315.6,
+          "prob": 0.011
+        },
+        {
+          "word": "1,",
+          "start_sec": 315.6,
+          "end_sec": 316.04,
+          "prob": 0.939
+        },
+        {
+          "word": "1,",
+          "start_sec": 316.14,
+          "end_sec": 316.54,
+          "prob": 0.937
+        },
+        {
+          "word": "1",
+          "start_sec": 316.66,
+          "end_sec": 316.98,
+          "prob": 0.981
+        },
+        {
+          "word": "por",
+          "start_sec": 316.98,
+          "end_sec": 317.24,
+          "prob": 0.854
+        },
+        {
+          "word": "1,",
+          "start_sec": 317.24,
+          "end_sec": 318.04,
+          "prob": 0.996
+        },
+        {
+          "word": "1.",
+          "start_sec": 318.24,
+          "end_sec": 319.02,
+          "prob": 0.936
+        },
+        {
+          "word": "Sumamos,",
+          "start_sec": 319.84,
+          "end_sec": 320.46,
+          "prob": 0.958
+        },
+        {
+          "word": "3,",
+          "start_sec": 320.64,
+          "end_sec": 320.92,
+          "prob": 0.752
+        },
+        {
+          "word": "1",
+          "start_sec": 321.0,
+          "end_sec": 321.24,
+          "prob": 0.917
+        },
+        {
+          "word": "y",
+          "start_sec": 321.24,
+          "end_sec": 321.34,
+          "prob": 0.784
+        },
+        {
+          "word": "3",
+          "start_sec": 321.34,
+          "end_sec": 321.56,
+          "prob": 0.992
+        },
+        {
+          "word": "son",
+          "start_sec": 321.56,
+          "end_sec": 321.84,
+          "prob": 0.936
+        },
+        {
+          "word": "4,",
+          "start_sec": 321.84,
+          "end_sec": 322.52,
+          "prob": 0.96
+        },
+        {
+          "word": "1",
+          "start_sec": 322.9,
+          "end_sec": 323.3,
+          "prob": 0.944
+        },
+        {
+          "word": "y",
+          "start_sec": 323.3,
+          "end_sec": 323.74,
+          "prob": 0.798
+        },
+        {
+          "word": "el",
+          "start_sec": 323.74,
+          "end_sec": 324.04,
+          "prob": 0.749
+        },
+        {
+          "word": "1.",
+          "start_sec": 324.04,
+          "end_sec": 324.76,
+          "prob": 0.259
+        },
+        {
+          "word": "143",
+          "start_sec": 327.2,
+          "end_sec": 327.82,
+          "prob": 0.947
+        },
+        {
+          "word": "segundos.",
+          "start_sec": 329.33,
+          "end_sec": 330.35,
+          "prob": 0.979
+        },
+        {
+          "word": "Nos",
+          "start_sec": 330.61,
+          "end_sec": 330.79,
+          "prob": 0.617
+        },
+        {
+          "word": "fijamos",
+          "start_sec": 330.79,
+          "end_sec": 331.31,
+          "prob": 0.999
+        },
+        {
+          "word": "y",
+          "start_sec": 331.31,
+          "end_sec": 331.43,
+          "prob": 0.695
+        },
+        {
+          "word": "como",
+          "start_sec": 331.43,
+          "end_sec": 331.61,
+          "prob": 0.926
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start_sec": 331.61,
+      "end_sec": 337.55,
+      "text": "tenemos minutos y segundos y ambos se pasan de 60, vamos a intentar ir simplificando para dar",
+      "words": [
+        {
+          "word": "tenemos",
+          "start_sec": 331.61,
+          "end_sec": 332.01,
+          "prob": 0.979
+        },
+        {
+          "word": "minutos",
+          "start_sec": 332.01,
+          "end_sec": 332.41,
+          "prob": 0.994
+        },
+        {
+          "word": "y",
+          "start_sec": 332.41,
+          "end_sec": 332.69,
+          "prob": 0.998
+        },
+        {
+          "word": "segundos",
+          "start_sec": 332.69,
+          "end_sec": 333.05,
+          "prob": 0.995
+        },
+        {
+          "word": "y",
+          "start_sec": 333.05,
+          "end_sec": 333.33,
+          "prob": 0.782
+        },
+        {
+          "word": "ambos",
+          "start_sec": 333.33,
+          "end_sec": 333.53,
+          "prob": 0.996
+        },
+        {
+          "word": "se",
+          "start_sec": 333.53,
+          "end_sec": 333.79,
+          "prob": 0.972
+        },
+        {
+          "word": "pasan",
+          "start_sec": 333.79,
+          "end_sec": 334.01,
+          "prob": 0.997
+        },
+        {
+          "word": "de",
+          "start_sec": 334.01,
+          "end_sec": 334.17,
+          "prob": 0.997
+        },
+        {
+          "word": "60,",
+          "start_sec": 334.17,
+          "end_sec": 334.63,
+          "prob": 0.938
+        },
+        {
+          "word": "vamos",
+          "start_sec": 335.07,
+          "end_sec": 335.27,
+          "prob": 0.991
+        },
+        {
+          "word": "a",
+          "start_sec": 335.27,
+          "end_sec": 335.49,
+          "prob": 0.995
+        },
+        {
+          "word": "intentar",
+          "start_sec": 335.49,
+          "end_sec": 335.89,
+          "prob": 0.996
+        },
+        {
+          "word": "ir",
+          "start_sec": 335.89,
+          "end_sec": 336.35,
+          "prob": 0.991
+        },
+        {
+          "word": "simplificando",
+          "start_sec": 336.35,
+          "end_sec": 337.15,
+          "prob": 0.988
+        },
+        {
+          "word": "para",
+          "start_sec": 337.15,
+          "end_sec": 337.37,
+          "prob": 0.864
+        },
+        {
+          "word": "dar",
+          "start_sec": 337.37,
+          "end_sec": 337.55,
+          "prob": 0.84
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start_sec": 337.55,
+      "end_sec": 347.25,
+      "text": "el resultado lo más simplificado posible. Empezamos por los segundos. 143 segundos. Yo",
+      "words": [
+        {
+          "word": "el",
+          "start_sec": 337.55,
+          "end_sec": 337.71,
+          "prob": 0.881
+        },
+        {
+          "word": "resultado",
+          "start_sec": 337.71,
+          "end_sec": 338.03,
+          "prob": 0.998
+        },
+        {
+          "word": "lo",
+          "start_sec": 338.03,
+          "end_sec": 338.17,
+          "prob": 0.963
+        },
+        {
+          "word": "más",
+          "start_sec": 338.17,
+          "end_sec": 338.35,
+          "prob": 0.956
+        },
+        {
+          "word": "simplificado",
+          "start_sec": 338.35,
+          "end_sec": 338.93,
+          "prob": 0.996
+        },
+        {
+          "word": "posible.",
+          "start_sec": 338.93,
+          "end_sec": 339.53,
+          "prob": 0.996
+        },
+        {
+          "word": "Empezamos",
+          "start_sec": 339.93,
+          "end_sec": 340.39,
+          "prob": 0.992
+        },
+        {
+          "word": "por",
+          "start_sec": 340.39,
+          "end_sec": 340.63,
+          "prob": 0.954
+        },
+        {
+          "word": "los",
+          "start_sec": 340.63,
+          "end_sec": 340.89,
+          "prob": 0.998
+        },
+        {
+          "word": "segundos.",
+          "start_sec": 340.89,
+          "end_sec": 341.29,
+          "prob": 0.998
+        },
+        {
+          "word": "143",
+          "start_sec": 342.17,
+          "end_sec": 342.79,
+          "prob": 0.994
+        },
+        {
+          "word": "segundos.",
+          "start_sec": 342.79,
+          "end_sec": 343.37,
+          "prob": 0.997
+        },
+        {
+          "word": "Yo",
+          "start_sec": 346.63,
+          "end_sec": 347.25,
+          "prob": 0.985
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start_sec": 347.25,
+      "end_sec": 367.58,
+      "text": "tengo 60 porque un minuto son 60 segundos. Realiza aquí la división. Lo que me sobra",
+      "words": [
+        {
+          "word": "tengo",
+          "start_sec": 347.25,
+          "end_sec": 347.75,
+          "prob": 0.0
+        },
+        {
+          "word": "60",
+          "start_sec": 347.75,
+          "end_sec": 347.75,
+          "prob": 0.371
+        },
+        {
+          "word": "porque",
+          "start_sec": 347.75,
+          "end_sec": 348.33,
+          "prob": 0.093
+        },
+        {
+          "word": "un",
+          "start_sec": 348.33,
+          "end_sec": 348.85,
+          "prob": 0.663
+        },
+        {
+          "word": "minuto",
+          "start_sec": 348.85,
+          "end_sec": 349.21,
+          "prob": 0.955
+        },
+        {
+          "word": "son",
+          "start_sec": 349.21,
+          "end_sec": 349.45,
+          "prob": 0.964
+        },
+        {
+          "word": "60",
+          "start_sec": 349.45,
+          "end_sec": 349.97,
+          "prob": 0.96
+        },
+        {
+          "word": "segundos.",
+          "start_sec": 349.97,
+          "end_sec": 350.69,
+          "prob": 0.983
+        },
+        {
+          "word": "Realiza",
+          "start_sec": 352.03,
+          "end_sec": 352.17,
+          "prob": 0.486
+        },
+        {
+          "word": "aquí",
+          "start_sec": 352.17,
+          "end_sec": 352.33,
+          "prob": 0.897
+        },
+        {
+          "word": "la",
+          "start_sec": 352.33,
+          "end_sec": 352.49,
+          "prob": 0.991
+        },
+        {
+          "word": "división.",
+          "start_sec": 352.49,
+          "end_sec": 353.77,
+          "prob": 0.973
+        },
+        {
+          "word": "Lo",
+          "start_sec": 366.88,
+          "end_sec": 366.94,
+          "prob": 0.916
+        },
+        {
+          "word": "que",
+          "start_sec": 366.94,
+          "end_sec": 367.06,
+          "prob": 0.998
+        },
+        {
+          "word": "me",
+          "start_sec": 367.06,
+          "end_sec": 367.3,
+          "prob": 0.98
+        },
+        {
+          "word": "sobra",
+          "start_sec": 367.3,
+          "end_sec": 367.58,
+          "prob": 0.979
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start_sec": 367.58,
+      "end_sec": 375.88,
+      "text": "son segundos y lo que me da son minutos, es decir, en 143 segundos hay 23 segundos",
+      "words": [
+        {
+          "word": "son",
+          "start_sec": 367.58,
+          "end_sec": 367.8,
+          "prob": 0.988
+        },
+        {
+          "word": "segundos",
+          "start_sec": 367.8,
+          "end_sec": 368.3,
+          "prob": 0.994
+        },
+        {
+          "word": "y",
+          "start_sec": 368.3,
+          "end_sec": 368.5,
+          "prob": 0.907
+        },
+        {
+          "word": "lo",
+          "start_sec": 368.5,
+          "end_sec": 368.66,
+          "prob": 0.989
+        },
+        {
+          "word": "que",
+          "start_sec": 368.66,
+          "end_sec": 368.76,
+          "prob": 0.998
+        },
+        {
+          "word": "me",
+          "start_sec": 368.76,
+          "end_sec": 368.96,
+          "prob": 0.989
+        },
+        {
+          "word": "da",
+          "start_sec": 368.96,
+          "end_sec": 369.12,
+          "prob": 0.964
+        },
+        {
+          "word": "son",
+          "start_sec": 369.12,
+          "end_sec": 369.32,
+          "prob": 0.986
+        },
+        {
+          "word": "minutos,",
+          "start_sec": 369.32,
+          "end_sec": 369.7,
+          "prob": 0.994
+        },
+        {
+          "word": "es",
+          "start_sec": 369.86,
+          "end_sec": 370.08,
+          "prob": 0.988
+        },
+        {
+          "word": "decir,",
+          "start_sec": 370.08,
+          "end_sec": 370.4,
+          "prob": 0.998
+        },
+        {
+          "word": "en",
+          "start_sec": 370.72,
+          "end_sec": 370.98,
+          "prob": 0.97
+        },
+        {
+          "word": "143",
+          "start_sec": 370.98,
+          "end_sec": 371.9,
+          "prob": 0.988
+        },
+        {
+          "word": "segundos",
+          "start_sec": 371.9,
+          "end_sec": 372.6,
+          "prob": 0.987
+        },
+        {
+          "word": "hay",
+          "start_sec": 372.6,
+          "end_sec": 374.18,
+          "prob": 0.93
+        },
+        {
+          "word": "23",
+          "start_sec": 374.28,
+          "end_sec": 374.98,
+          "prob": 0.97
+        },
+        {
+          "word": "segundos",
+          "start_sec": 374.98,
+          "end_sec": 375.88,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start_sec": 375.88,
+      "end_sec": 383.16,
+      "text": "y 2 minutos. Pues esos 2 minutos se los añado a los minutos y los segundos ahora",
+      "words": [
+        {
+          "word": "y",
+          "start_sec": 375.88,
+          "end_sec": 376.26,
+          "prob": 0.994
+        },
+        {
+          "word": "2",
+          "start_sec": 376.26,
+          "end_sec": 376.52,
+          "prob": 0.715
+        },
+        {
+          "word": "minutos.",
+          "start_sec": 376.52,
+          "end_sec": 377.12,
+          "prob": 0.997
+        },
+        {
+          "word": "Pues",
+          "start_sec": 378.48,
+          "end_sec": 378.68,
+          "prob": 0.751
+        },
+        {
+          "word": "esos",
+          "start_sec": 378.68,
+          "end_sec": 378.82,
+          "prob": 0.948
+        },
+        {
+          "word": "2",
+          "start_sec": 378.82,
+          "end_sec": 379.02,
+          "prob": 0.677
+        },
+        {
+          "word": "minutos",
+          "start_sec": 379.02,
+          "end_sec": 379.36,
+          "prob": 0.988
+        },
+        {
+          "word": "se",
+          "start_sec": 379.36,
+          "end_sec": 379.54,
+          "prob": 0.92
+        },
+        {
+          "word": "los",
+          "start_sec": 379.54,
+          "end_sec": 379.7,
+          "prob": 0.986
+        },
+        {
+          "word": "añado",
+          "start_sec": 379.7,
+          "end_sec": 380.0,
+          "prob": 0.938
+        },
+        {
+          "word": "a",
+          "start_sec": 380.0,
+          "end_sec": 380.12,
+          "prob": 0.951
+        },
+        {
+          "word": "los",
+          "start_sec": 380.12,
+          "end_sec": 380.24,
+          "prob": 0.994
+        },
+        {
+          "word": "minutos",
+          "start_sec": 380.24,
+          "end_sec": 380.7,
+          "prob": 0.993
+        },
+        {
+          "word": "y",
+          "start_sec": 380.7,
+          "end_sec": 381.54,
+          "prob": 0.6
+        },
+        {
+          "word": "los",
+          "start_sec": 381.54,
+          "end_sec": 381.74,
+          "prob": 0.985
+        },
+        {
+          "word": "segundos",
+          "start_sec": 381.74,
+          "end_sec": 381.98,
+          "prob": 0.987
+        },
+        {
+          "word": "ahora",
+          "start_sec": 381.98,
+          "end_sec": 383.16,
+          "prob": 0.976
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start_sec": 383.45,
+      "end_sec": 394.23,
+      "text": "van a ser 23 y los minutos 483. Ahora este resultado no lo puedo dejar así porque los",
+      "words": [
+        {
+          "word": "van",
+          "start_sec": 383.45,
+          "end_sec": 383.81,
+          "prob": 0.007
+        },
+        {
+          "word": "a",
+          "start_sec": 383.81,
+          "end_sec": 384.03,
+          "prob": 0.974
+        },
+        {
+          "word": "ser",
+          "start_sec": 384.03,
+          "end_sec": 384.17,
+          "prob": 0.92
+        },
+        {
+          "word": "23",
+          "start_sec": 384.17,
+          "end_sec": 384.91,
+          "prob": 0.711
+        },
+        {
+          "word": "y",
+          "start_sec": 384.94,
+          "end_sec": 385.96,
+          "prob": 0.743
+        },
+        {
+          "word": "los",
+          "start_sec": 385.96,
+          "end_sec": 386.16,
+          "prob": 0.945
+        },
+        {
+          "word": "minutos",
+          "start_sec": 386.16,
+          "end_sec": 386.8,
+          "prob": 0.994
+        },
+        {
+          "word": "483.",
+          "start_sec": 387.57,
+          "end_sec": 390.93,
+          "prob": 0.965
+        },
+        {
+          "word": "Ahora",
+          "start_sec": 391.37,
+          "end_sec": 391.51,
+          "prob": 0.759
+        },
+        {
+          "word": "este",
+          "start_sec": 391.51,
+          "end_sec": 391.73,
+          "prob": 0.927
+        },
+        {
+          "word": "resultado",
+          "start_sec": 391.73,
+          "end_sec": 392.31,
+          "prob": 0.993
+        },
+        {
+          "word": "no",
+          "start_sec": 392.31,
+          "end_sec": 392.81,
+          "prob": 0.875
+        },
+        {
+          "word": "lo",
+          "start_sec": 392.81,
+          "end_sec": 393.01,
+          "prob": 0.981
+        },
+        {
+          "word": "puedo",
+          "start_sec": 393.01,
+          "end_sec": 393.11,
+          "prob": 0.992
+        },
+        {
+          "word": "dejar",
+          "start_sec": 393.11,
+          "end_sec": 393.41,
+          "prob": 0.997
+        },
+        {
+          "word": "así",
+          "start_sec": 393.41,
+          "end_sec": 393.71,
+          "prob": 0.976
+        },
+        {
+          "word": "porque",
+          "start_sec": 393.71,
+          "end_sec": 394.01,
+          "prob": 0.669
+        },
+        {
+          "word": "los",
+          "start_sec": 394.01,
+          "end_sec": 394.23,
+          "prob": 0.983
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start_sec": 394.23,
+      "end_sec": 401.01,
+      "text": "minutos aún los puedo pasar a grados. Voy a ver cuántos grados hay en 483 minutos.",
+      "words": [
+        {
+          "word": "minutos",
+          "start_sec": 394.23,
+          "end_sec": 394.59,
+          "prob": 0.993
+        },
+        {
+          "word": "aún",
+          "start_sec": 394.59,
+          "end_sec": 394.93,
+          "prob": 0.936
+        },
+        {
+          "word": "los",
+          "start_sec": 394.93,
+          "end_sec": 395.21,
+          "prob": 0.994
+        },
+        {
+          "word": "puedo",
+          "start_sec": 395.21,
+          "end_sec": 395.39,
+          "prob": 0.997
+        },
+        {
+          "word": "pasar",
+          "start_sec": 395.39,
+          "end_sec": 395.77,
+          "prob": 0.997
+        },
+        {
+          "word": "a",
+          "start_sec": 395.77,
+          "end_sec": 396.01,
+          "prob": 0.993
+        },
+        {
+          "word": "grados.",
+          "start_sec": 396.01,
+          "end_sec": 396.65,
+          "prob": 0.988
+        },
+        {
+          "word": "Voy",
+          "start_sec": 396.83,
+          "end_sec": 396.99,
+          "prob": 0.977
+        },
+        {
+          "word": "a",
+          "start_sec": 396.99,
+          "end_sec": 397.19,
+          "prob": 0.999
+        },
+        {
+          "word": "ver",
+          "start_sec": 397.19,
+          "end_sec": 397.69,
+          "prob": 0.997
+        },
+        {
+          "word": "cuántos",
+          "start_sec": 397.69,
+          "end_sec": 398.13,
+          "prob": 0.95
+        },
+        {
+          "word": "grados",
+          "start_sec": 398.13,
+          "end_sec": 398.47,
+          "prob": 0.997
+        },
+        {
+          "word": "hay",
+          "start_sec": 398.47,
+          "end_sec": 398.77,
+          "prob": 0.996
+        },
+        {
+          "word": "en",
+          "start_sec": 398.77,
+          "end_sec": 399.43,
+          "prob": 0.991
+        },
+        {
+          "word": "483",
+          "start_sec": 399.43,
+          "end_sec": 400.55,
+          "prob": 0.997
+        },
+        {
+          "word": "minutos.",
+          "start_sec": 400.55,
+          "end_sec": 401.01,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start_sec": 401.21,
+      "end_sec": 422.07,
+      "text": "Para ello divido entre 60. Me han sobrado 3 minutos y resulta que hay 8 grados y",
+      "words": [
+        {
+          "word": "Para",
+          "start_sec": 401.21,
+          "end_sec": 401.49,
+          "prob": 0.962
+        },
+        {
+          "word": "ello",
+          "start_sec": 401.49,
+          "end_sec": 401.93,
+          "prob": 0.999
+        },
+        {
+          "word": "divido",
+          "start_sec": 401.93,
+          "end_sec": 402.57,
+          "prob": 0.734
+        },
+        {
+          "word": "entre",
+          "start_sec": 402.57,
+          "end_sec": 402.73,
+          "prob": 0.997
+        },
+        {
+          "word": "60.",
+          "start_sec": 402.73,
+          "end_sec": 403.35,
+          "prob": 0.948
+        },
+        {
+          "word": "Me",
+          "start_sec": 415.83,
+          "end_sec": 416.03,
+          "prob": 0.984
+        },
+        {
+          "word": "han",
+          "start_sec": 416.03,
+          "end_sec": 416.23,
+          "prob": 0.988
+        },
+        {
+          "word": "sobrado",
+          "start_sec": 416.23,
+          "end_sec": 417.19,
+          "prob": 0.992
+        },
+        {
+          "word": "3",
+          "start_sec": 417.19,
+          "end_sec": 417.63,
+          "prob": 0.368
+        },
+        {
+          "word": "minutos",
+          "start_sec": 417.63,
+          "end_sec": 418.31,
+          "prob": 0.998
+        },
+        {
+          "word": "y",
+          "start_sec": 418.41,
+          "end_sec": 419.73,
+          "prob": 0.919
+        },
+        {
+          "word": "resulta",
+          "start_sec": 419.73,
+          "end_sec": 420.29,
+          "prob": 0.99
+        },
+        {
+          "word": "que",
+          "start_sec": 420.29,
+          "end_sec": 420.43,
+          "prob": 0.998
+        },
+        {
+          "word": "hay",
+          "start_sec": 420.43,
+          "end_sec": 420.61,
+          "prob": 0.998
+        },
+        {
+          "word": "8",
+          "start_sec": 420.61,
+          "end_sec": 420.93,
+          "prob": 0.906
+        },
+        {
+          "word": "grados",
+          "start_sec": 420.93,
+          "end_sec": 421.73,
+          "prob": 0.987
+        },
+        {
+          "word": "y",
+          "start_sec": 421.73,
+          "end_sec": 422.07,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start_sec": 422.07,
+      "end_sec": 438.22,
+      "text": "Eso que quiere decir que ahora 483 ya no va a ser 483, sino que va a ser 3 minutos y 8 grados,",
+      "words": [
+        {
+          "word": "Eso",
+          "start_sec": 422.07,
+          "end_sec": 423.01,
+          "prob": 0.0
+        },
+        {
+          "word": "que",
+          "start_sec": 423.01,
+          "end_sec": 423.31,
+          "prob": 0.472
+        },
+        {
+          "word": "quiere",
+          "start_sec": 423.31,
+          "end_sec": 423.43,
+          "prob": 0.984
+        },
+        {
+          "word": "decir",
+          "start_sec": 423.43,
+          "end_sec": 423.89,
+          "prob": 0.992
+        },
+        {
+          "word": "que",
+          "start_sec": 423.89,
+          "end_sec": 424.37,
+          "prob": 0.306
+        },
+        {
+          "word": "ahora",
+          "start_sec": 424.37,
+          "end_sec": 424.73,
+          "prob": 0.905
+        },
+        {
+          "word": "483",
+          "start_sec": 424.73,
+          "end_sec": 426.35,
+          "prob": 0.967
+        },
+        {
+          "word": "ya",
+          "start_sec": 426.35,
+          "end_sec": 426.71,
+          "prob": 0.641
+        },
+        {
+          "word": "no",
+          "start_sec": 426.71,
+          "end_sec": 426.89,
+          "prob": 0.991
+        },
+        {
+          "word": "va",
+          "start_sec": 426.89,
+          "end_sec": 427.19,
+          "prob": 0.99
+        },
+        {
+          "word": "a",
+          "start_sec": 427.19,
+          "end_sec": 427.39,
+          "prob": 0.969
+        },
+        {
+          "word": "ser",
+          "start_sec": 427.39,
+          "end_sec": 428.17,
+          "prob": 0.996
+        },
+        {
+          "word": "483,",
+          "start_sec": 431.18,
+          "end_sec": 433.1,
+          "prob": 0.913
+        },
+        {
+          "word": "sino",
+          "start_sec": 434.26,
+          "end_sec": 434.6,
+          "prob": 0.937
+        },
+        {
+          "word": "que",
+          "start_sec": 434.6,
+          "end_sec": 434.74,
+          "prob": 0.989
+        },
+        {
+          "word": "va",
+          "start_sec": 434.74,
+          "end_sec": 434.94,
+          "prob": 0.992
+        },
+        {
+          "word": "a",
+          "start_sec": 434.94,
+          "end_sec": 435.08,
+          "prob": 0.963
+        },
+        {
+          "word": "ser",
+          "start_sec": 435.08,
+          "end_sec": 435.22,
+          "prob": 0.997
+        },
+        {
+          "word": "3",
+          "start_sec": 435.22,
+          "end_sec": 435.68,
+          "prob": 0.508
+        },
+        {
+          "word": "minutos",
+          "start_sec": 435.68,
+          "end_sec": 436.5,
+          "prob": 0.986
+        },
+        {
+          "word": "y",
+          "start_sec": 436.5,
+          "end_sec": 437.62,
+          "prob": 0.975
+        },
+        {
+          "word": "8",
+          "start_sec": 437.62,
+          "end_sec": 437.9,
+          "prob": 0.947
+        },
+        {
+          "word": "grados,",
+          "start_sec": 437.9,
+          "end_sec": 438.22,
+          "prob": 0.968
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start_sec": 438.24,
+      "end_sec": 447.05,
+      "text": "que como antes no tenía nada de grados, se ha añadido esa unidad nueva. Y este es mi resultado",
+      "words": [
+        {
+          "word": "que",
+          "start_sec": 438.24,
+          "end_sec": 438.36,
+          "prob": 0.968
+        },
+        {
+          "word": "como",
+          "start_sec": 438.36,
+          "end_sec": 438.58,
+          "prob": 0.962
+        },
+        {
+          "word": "antes",
+          "start_sec": 438.58,
+          "end_sec": 438.86,
+          "prob": 0.997
+        },
+        {
+          "word": "no",
+          "start_sec": 438.86,
+          "end_sec": 439.1,
+          "prob": 0.992
+        },
+        {
+          "word": "tenía",
+          "start_sec": 439.1,
+          "end_sec": 439.86,
+          "prob": 0.96
+        },
+        {
+          "word": "nada",
+          "start_sec": 439.86,
+          "end_sec": 440.28,
+          "prob": 0.967
+        },
+        {
+          "word": "de",
+          "start_sec": 440.28,
+          "end_sec": 440.48,
+          "prob": 0.996
+        },
+        {
+          "word": "grados,",
+          "start_sec": 440.48,
+          "end_sec": 441.54,
+          "prob": 0.991
+        },
+        {
+          "word": "se",
+          "start_sec": 442.27,
+          "end_sec": 442.31,
+          "prob": 0.992
+        },
+        {
+          "word": "ha",
+          "start_sec": 442.31,
+          "end_sec": 442.47,
+          "prob": 0.921
+        },
+        {
+          "word": "añadido",
+          "start_sec": 442.47,
+          "end_sec": 443.37,
+          "prob": 0.972
+        },
+        {
+          "word": "esa",
+          "start_sec": 443.37,
+          "end_sec": 443.57,
+          "prob": 0.981
+        },
+        {
+          "word": "unidad",
+          "start_sec": 443.57,
+          "end_sec": 444.11,
+          "prob": 0.997
+        },
+        {
+          "word": "nueva.",
+          "start_sec": 444.11,
+          "end_sec": 444.57,
+          "prob": 0.993
+        },
+        {
+          "word": "Y",
+          "start_sec": 445.15,
+          "end_sec": 445.55,
+          "prob": 0.951
+        },
+        {
+          "word": "este",
+          "start_sec": 445.55,
+          "end_sec": 445.75,
+          "prob": 0.938
+        },
+        {
+          "word": "es",
+          "start_sec": 445.75,
+          "end_sec": 446.29,
+          "prob": 0.994
+        },
+        {
+          "word": "mi",
+          "start_sec": 446.29,
+          "end_sec": 446.49,
+          "prob": 0.983
+        },
+        {
+          "word": "resultado",
+          "start_sec": 446.49,
+          "end_sec": 447.05,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start_sec": 447.05,
+      "end_sec": 454.15,
+      "text": "ya simplificado de esta multiplicación de un ángulo por 13. Si os dais cuenta aquí,",
+      "words": [
+        {
+          "word": "ya",
+          "start_sec": 447.05,
+          "end_sec": 447.89,
+          "prob": 0.96
+        },
+        {
+          "word": "simplificado",
+          "start_sec": 447.89,
+          "end_sec": 448.73,
+          "prob": 0.97
+        },
+        {
+          "word": "de",
+          "start_sec": 448.73,
+          "end_sec": 449.07,
+          "prob": 0.972
+        },
+        {
+          "word": "esta",
+          "start_sec": 449.07,
+          "end_sec": 449.41,
+          "prob": 0.976
+        },
+        {
+          "word": "multiplicación",
+          "start_sec": 449.41,
+          "end_sec": 450.77,
+          "prob": 0.994
+        },
+        {
+          "word": "de",
+          "start_sec": 450.77,
+          "end_sec": 451.39,
+          "prob": 0.981
+        },
+        {
+          "word": "un",
+          "start_sec": 451.39,
+          "end_sec": 451.55,
+          "prob": 0.561
+        },
+        {
+          "word": "ángulo",
+          "start_sec": 451.55,
+          "end_sec": 451.87,
+          "prob": 0.923
+        },
+        {
+          "word": "por",
+          "start_sec": 451.87,
+          "end_sec": 452.19,
+          "prob": 0.962
+        },
+        {
+          "word": "13.",
+          "start_sec": 452.19,
+          "end_sec": 452.53,
+          "prob": 0.893
+        },
+        {
+          "word": "Si",
+          "start_sec": 452.95,
+          "end_sec": 453.17,
+          "prob": 0.979
+        },
+        {
+          "word": "os",
+          "start_sec": 453.17,
+          "end_sec": 453.31,
+          "prob": 0.995
+        },
+        {
+          "word": "dais",
+          "start_sec": 453.31,
+          "end_sec": 453.53,
+          "prob": 0.978
+        },
+        {
+          "word": "cuenta",
+          "start_sec": 453.53,
+          "end_sec": 453.77,
+          "prob": 0.993
+        },
+        {
+          "word": "aquí,",
+          "start_sec": 453.77,
+          "end_sec": 454.15,
+          "prob": 0.632
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start_sec": 454.15,
+      "end_sec": 460.17,
+      "text": "ya ni minutos ni segundos superan 60. Está simplificado al máximo y el resultado está",
+      "words": [
+        {
+          "word": "ya",
+          "start_sec": 454.15,
+          "end_sec": 454.73,
+          "prob": 0.0
+        },
+        {
+          "word": "ni",
+          "start_sec": 454.73,
+          "end_sec": 455.03,
+          "prob": 0.643
+        },
+        {
+          "word": "minutos",
+          "start_sec": 455.03,
+          "end_sec": 455.51,
+          "prob": 0.97
+        },
+        {
+          "word": "ni",
+          "start_sec": 455.51,
+          "end_sec": 455.77,
+          "prob": 0.913
+        },
+        {
+          "word": "segundos",
+          "start_sec": 455.77,
+          "end_sec": 456.35,
+          "prob": 0.987
+        },
+        {
+          "word": "superan",
+          "start_sec": 456.35,
+          "end_sec": 457.51,
+          "prob": 0.887
+        },
+        {
+          "word": "60.",
+          "start_sec": 457.51,
+          "end_sec": 457.87,
+          "prob": 0.868
+        },
+        {
+          "word": "Está",
+          "start_sec": 458.03,
+          "end_sec": 458.15,
+          "prob": 0.814
+        },
+        {
+          "word": "simplificado",
+          "start_sec": 458.15,
+          "end_sec": 458.77,
+          "prob": 0.994
+        },
+        {
+          "word": "al",
+          "start_sec": 458.77,
+          "end_sec": 458.97,
+          "prob": 0.984
+        },
+        {
+          "word": "máximo",
+          "start_sec": 458.97,
+          "end_sec": 459.23,
+          "prob": 0.998
+        },
+        {
+          "word": "y",
+          "start_sec": 459.23,
+          "end_sec": 459.41,
+          "prob": 0.931
+        },
+        {
+          "word": "el",
+          "start_sec": 459.41,
+          "end_sec": 459.49,
+          "prob": 0.991
+        },
+        {
+          "word": "resultado",
+          "start_sec": 459.49,
+          "end_sec": 459.83,
+          "prob": 0.997
+        },
+        {
+          "word": "está",
+          "start_sec": 459.83,
+          "end_sec": 460.17,
+          "prob": 0.991
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start_sec": 460.17,
+      "end_sec": 466.86,
+      "text": "bien dado. Ya hemos aprendido a realizar estas operaciones con ángulos. Si te ha gustado el",
+      "words": [
+        {
+          "word": "bien",
+          "start_sec": 460.17,
+          "end_sec": 460.57,
+          "prob": 0.986
+        },
+        {
+          "word": "dado.",
+          "start_sec": 460.57,
+          "end_sec": 460.93,
+          "prob": 0.978
+        },
+        {
+          "word": "Ya",
+          "start_sec": 462.9,
+          "end_sec": 463.04,
+          "prob": 0.965
+        },
+        {
+          "word": "hemos",
+          "start_sec": 463.04,
+          "end_sec": 463.22,
+          "prob": 0.998
+        },
+        {
+          "word": "aprendido",
+          "start_sec": 463.22,
+          "end_sec": 463.68,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 463.68,
+          "end_sec": 463.82,
+          "prob": 0.998
+        },
+        {
+          "word": "realizar",
+          "start_sec": 463.82,
+          "end_sec": 464.1,
+          "prob": 0.997
+        },
+        {
+          "word": "estas",
+          "start_sec": 464.1,
+          "end_sec": 464.42,
+          "prob": 0.979
+        },
+        {
+          "word": "operaciones",
+          "start_sec": 464.42,
+          "end_sec": 464.94,
+          "prob": 0.999
+        },
+        {
+          "word": "con",
+          "start_sec": 464.94,
+          "end_sec": 465.2,
+          "prob": 0.998
+        },
+        {
+          "word": "ángulos.",
+          "start_sec": 465.2,
+          "end_sec": 465.6,
+          "prob": 0.954
+        },
+        {
+          "word": "Si",
+          "start_sec": 466.0,
+          "end_sec": 466.14,
+          "prob": 0.988
+        },
+        {
+          "word": "te",
+          "start_sec": 466.14,
+          "end_sec": 466.32,
+          "prob": 0.996
+        },
+        {
+          "word": "ha",
+          "start_sec": 466.32,
+          "end_sec": 466.38,
+          "prob": 0.992
+        },
+        {
+          "word": "gustado",
+          "start_sec": 466.38,
+          "end_sec": 466.62,
+          "prob": 0.999
+        },
+        {
+          "word": "el",
+          "start_sec": 466.62,
+          "end_sec": 466.86,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start_sec": 466.86,
+      "end_sec": 472.14,
+      "text": "vídeo dale a me gusta y compártelo. Suscríbete a este canal si quieres estar al tanto de nuevos",
+      "words": [
+        {
+          "word": "vídeo",
+          "start_sec": 466.86,
+          "end_sec": 467.24,
+          "prob": 0.808
+        },
+        {
+          "word": "dale",
+          "start_sec": 467.24,
+          "end_sec": 467.68,
+          "prob": 0.5
+        },
+        {
+          "word": "a",
+          "start_sec": 467.68,
+          "end_sec": 467.84,
+          "prob": 0.984
+        },
+        {
+          "word": "me",
+          "start_sec": 467.84,
+          "end_sec": 467.94,
+          "prob": 0.536
+        },
+        {
+          "word": "gusta",
+          "start_sec": 467.94,
+          "end_sec": 468.14,
+          "prob": 0.999
+        },
+        {
+          "word": "y",
+          "start_sec": 468.14,
+          "end_sec": 468.46,
+          "prob": 0.992
+        },
+        {
+          "word": "compártelo.",
+          "start_sec": 468.46,
+          "end_sec": 469.02,
+          "prob": 0.995
+        },
+        {
+          "word": "Suscríbete",
+          "start_sec": 469.44,
+          "end_sec": 469.76,
+          "prob": 0.984
+        },
+        {
+          "word": "a",
+          "start_sec": 469.76,
+          "end_sec": 469.88,
+          "prob": 0.992
+        },
+        {
+          "word": "este",
+          "start_sec": 469.88,
+          "end_sec": 469.98,
+          "prob": 0.992
+        },
+        {
+          "word": "canal",
+          "start_sec": 469.98,
+          "end_sec": 470.38,
+          "prob": 0.999
+        },
+        {
+          "word": "si",
+          "start_sec": 470.38,
+          "end_sec": 470.72,
+          "prob": 0.917
+        },
+        {
+          "word": "quieres",
+          "start_sec": 470.72,
+          "end_sec": 470.92,
+          "prob": 0.98
+        },
+        {
+          "word": "estar",
+          "start_sec": 470.92,
+          "end_sec": 471.24,
+          "prob": 0.996
+        },
+        {
+          "word": "al",
+          "start_sec": 471.24,
+          "end_sec": 471.42,
+          "prob": 0.988
+        },
+        {
+          "word": "tanto",
+          "start_sec": 471.42,
+          "end_sec": 471.7,
+          "prob": 0.997
+        },
+        {
+          "word": "de",
+          "start_sec": 471.7,
+          "end_sec": 471.92,
+          "prob": 0.998
+        },
+        {
+          "word": "nuevos",
+          "start_sec": 471.92,
+          "end_sec": 472.14,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start_sec": 472.14,
+      "end_sec": 475.8,
+      "text": "vídeos. Que tengas un buen día y nos vemos en el próximo vídeo.",
+      "words": [
+        {
+          "word": "vídeos.",
+          "start_sec": 472.14,
+          "end_sec": 472.52,
+          "prob": 0.978
+        },
+        {
+          "word": "Que",
+          "start_sec": 472.96,
+          "end_sec": 473.12,
+          "prob": 0.884
+        },
+        {
+          "word": "tengas",
+          "start_sec": 473.12,
+          "end_sec": 473.46,
+          "prob": 0.997
+        },
+        {
+          "word": "un",
+          "start_sec": 473.46,
+          "end_sec": 473.6,
+          "prob": 0.998
+        },
+        {
+          "word": "buen",
+          "start_sec": 473.6,
+          "end_sec": 473.72,
+          "prob": 0.999
+        },
+        {
+          "word": "día",
+          "start_sec": 473.72,
+          "end_sec": 474.02,
+          "prob": 0.992
+        },
+        {
+          "word": "y",
+          "start_sec": 474.02,
+          "end_sec": 474.46,
+          "prob": 0.889
+        },
+        {
+          "word": "nos",
+          "start_sec": 474.46,
+          "end_sec": 474.7,
+          "prob": 0.996
+        },
+        {
+          "word": "vemos",
+          "start_sec": 474.7,
+          "end_sec": 474.88,
+          "prob": 1.0
+        },
+        {
+          "word": "en",
+          "start_sec": 474.88,
+          "end_sec": 475.08,
+          "prob": 0.986
+        },
+        {
+          "word": "el",
+          "start_sec": 475.08,
+          "end_sec": 475.2,
+          "prob": 0.999
+        },
+        {
+          "word": "próximo",
+          "start_sec": 475.2,
+          "end_sec": 475.5,
+          "prob": 0.998
+        },
+        {
+          "word": "vídeo.",
+          "start_sec": 475.5,
+          "end_sec": 475.8,
+          "prob": 0.977
+        }
+      ]
+    }
+  ]
+}

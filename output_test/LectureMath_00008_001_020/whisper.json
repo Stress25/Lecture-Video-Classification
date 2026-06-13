@@ -1,0 +1,7172 @@
+{
+  "audio_path": "/Users/kritikabhat/Documents/MastersResearch/Code/output_test/LectureMath_00008_001_020/LectureMath_00008_001_020.wav",
+  "model": "medium",
+  "language": "en",
+  "duration_sec": 416.821,
+  "segments": [
+    {
+      "id": 1,
+      "start_sec": 0.53,
+      "end_sec": 6.07,
+      "text": "Welcome to our lecture online. Here we're being asked to simplify numerical",
+      "words": [
+        {
+          "word": "Welcome",
+          "start_sec": 0.53,
+          "end_sec": 1.45,
+          "prob": 0.885
+        },
+        {
+          "word": "to",
+          "start_sec": 1.45,
+          "end_sec": 1.73,
+          "prob": 0.994
+        },
+        {
+          "word": "our",
+          "start_sec": 1.73,
+          "end_sec": 1.91,
+          "prob": 0.98
+        },
+        {
+          "word": "lecture",
+          "start_sec": 1.91,
+          "end_sec": 2.21,
+          "prob": 0.817
+        },
+        {
+          "word": "online.",
+          "start_sec": 2.21,
+          "end_sec": 2.61,
+          "prob": 0.92
+        },
+        {
+          "word": "Here",
+          "start_sec": 3.27,
+          "end_sec": 3.53,
+          "prob": 0.978
+        },
+        {
+          "word": "we're",
+          "start_sec": 3.53,
+          "end_sec": 3.71,
+          "prob": 0.839
+        },
+        {
+          "word": "being",
+          "start_sec": 3.71,
+          "end_sec": 3.99,
+          "prob": 0.991
+        },
+        {
+          "word": "asked",
+          "start_sec": 3.99,
+          "end_sec": 4.49,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 4.49,
+          "end_sec": 4.85,
+          "prob": 0.997
+        },
+        {
+          "word": "simplify",
+          "start_sec": 4.85,
+          "end_sec": 5.43,
+          "prob": 0.992
+        },
+        {
+          "word": "numerical",
+          "start_sec": 5.43,
+          "end_sec": 6.07,
+          "prob": 0.949
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start_sec": 6.07,
+      "end_sec": 10.75,
+      "text": "expressions. So in the previous video we saw what expressions are. Here they tell",
+      "words": [
+        {
+          "word": "expressions.",
+          "start_sec": 6.07,
+          "end_sec": 6.89,
+          "prob": 0.971
+        },
+        {
+          "word": "So",
+          "start_sec": 7.05,
+          "end_sec": 7.23,
+          "prob": 0.827
+        },
+        {
+          "word": "in",
+          "start_sec": 7.23,
+          "end_sec": 7.37,
+          "prob": 0.736
+        },
+        {
+          "word": "the",
+          "start_sec": 7.37,
+          "end_sec": 7.49,
+          "prob": 0.993
+        },
+        {
+          "word": "previous",
+          "start_sec": 7.49,
+          "end_sec": 7.75,
+          "prob": 0.998
+        },
+        {
+          "word": "video",
+          "start_sec": 7.75,
+          "end_sec": 8.07,
+          "prob": 0.996
+        },
+        {
+          "word": "we",
+          "start_sec": 8.07,
+          "end_sec": 8.31,
+          "prob": 0.722
+        },
+        {
+          "word": "saw",
+          "start_sec": 8.31,
+          "end_sec": 8.49,
+          "prob": 0.96
+        },
+        {
+          "word": "what",
+          "start_sec": 8.49,
+          "end_sec": 8.67,
+          "prob": 0.972
+        },
+        {
+          "word": "expressions",
+          "start_sec": 8.67,
+          "end_sec": 9.23,
+          "prob": 0.965
+        },
+        {
+          "word": "are.",
+          "start_sec": 9.23,
+          "end_sec": 9.71,
+          "prob": 0.998
+        },
+        {
+          "word": "Here",
+          "start_sec": 10.13,
+          "end_sec": 10.39,
+          "prob": 0.984
+        },
+        {
+          "word": "they",
+          "start_sec": 10.39,
+          "end_sec": 10.63,
+          "prob": 0.893
+        },
+        {
+          "word": "tell",
+          "start_sec": 10.63,
+          "end_sec": 10.75,
+          "prob": 0.981
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start_sec": 10.75,
+      "end_sec": 14.19,
+      "text": "us we're dealing with numerical expressions which means there's no",
+      "words": [
+        {
+          "word": "us",
+          "start_sec": 10.75,
+          "end_sec": 10.97,
+          "prob": 0.994
+        },
+        {
+          "word": "we're",
+          "start_sec": 10.97,
+          "end_sec": 11.45,
+          "prob": 0.809
+        },
+        {
+          "word": "dealing",
+          "start_sec": 11.45,
+          "end_sec": 11.67,
+          "prob": 0.992
+        },
+        {
+          "word": "with",
+          "start_sec": 11.67,
+          "end_sec": 11.93,
+          "prob": 0.998
+        },
+        {
+          "word": "numerical",
+          "start_sec": 11.93,
+          "end_sec": 12.47,
+          "prob": 0.991
+        },
+        {
+          "word": "expressions",
+          "start_sec": 12.47,
+          "end_sec": 13.05,
+          "prob": 0.969
+        },
+        {
+          "word": "which",
+          "start_sec": 13.05,
+          "end_sec": 13.31,
+          "prob": 0.475
+        },
+        {
+          "word": "means",
+          "start_sec": 13.31,
+          "end_sec": 13.61,
+          "prob": 0.983
+        },
+        {
+          "word": "there's",
+          "start_sec": 13.61,
+          "end_sec": 13.89,
+          "prob": 0.956
+        },
+        {
+          "word": "no",
+          "start_sec": 13.89,
+          "end_sec": 14.19,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start_sec": 14.19,
+      "end_sec": 19.57,
+      "text": "constants, letters, like a, b, and c, and there's no variables like x, y, or z,",
+      "words": [
+        {
+          "word": "constants,",
+          "start_sec": 14.19,
+          "end_sec": 14.75,
+          "prob": 0.978
+        },
+        {
+          "word": "letters,",
+          "start_sec": 14.99,
+          "end_sec": 15.47,
+          "prob": 0.991
+        },
+        {
+          "word": "like",
+          "start_sec": 16.07,
+          "end_sec": 16.35,
+          "prob": 0.74
+        },
+        {
+          "word": "a,",
+          "start_sec": 16.35,
+          "end_sec": 16.65,
+          "prob": 0.494
+        },
+        {
+          "word": "b,",
+          "start_sec": 16.71,
+          "end_sec": 16.81,
+          "prob": 0.956
+        },
+        {
+          "word": "and",
+          "start_sec": 16.81,
+          "end_sec": 16.99,
+          "prob": 0.991
+        },
+        {
+          "word": "c,",
+          "start_sec": 16.99,
+          "end_sec": 17.17,
+          "prob": 0.991
+        },
+        {
+          "word": "and",
+          "start_sec": 17.17,
+          "end_sec": 17.35,
+          "prob": 0.993
+        },
+        {
+          "word": "there's",
+          "start_sec": 17.35,
+          "end_sec": 17.59,
+          "prob": 0.989
+        },
+        {
+          "word": "no",
+          "start_sec": 17.59,
+          "end_sec": 17.81,
+          "prob": 0.996
+        },
+        {
+          "word": "variables",
+          "start_sec": 17.81,
+          "end_sec": 18.11,
+          "prob": 0.994
+        },
+        {
+          "word": "like",
+          "start_sec": 18.11,
+          "end_sec": 18.45,
+          "prob": 0.884
+        },
+        {
+          "word": "x,",
+          "start_sec": 18.45,
+          "end_sec": 18.99,
+          "prob": 0.829
+        },
+        {
+          "word": "y,",
+          "start_sec": 19.03,
+          "end_sec": 19.21,
+          "prob": 0.978
+        },
+        {
+          "word": "or",
+          "start_sec": 19.21,
+          "end_sec": 19.37,
+          "prob": 0.975
+        },
+        {
+          "word": "z,",
+          "start_sec": 19.37,
+          "end_sec": 19.57,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start_sec": 19.61,
+      "end_sec": 25.03,
+      "text": "just numbers. They want us to simplify it and notice there's no equal signs",
+      "words": [
+        {
+          "word": "just",
+          "start_sec": 19.61,
+          "end_sec": 19.85,
+          "prob": 0.996
+        },
+        {
+          "word": "numbers.",
+          "start_sec": 19.85,
+          "end_sec": 20.25,
+          "prob": 0.998
+        },
+        {
+          "word": "They",
+          "start_sec": 20.95,
+          "end_sec": 21.23,
+          "prob": 0.994
+        },
+        {
+          "word": "want",
+          "start_sec": 21.23,
+          "end_sec": 21.39,
+          "prob": 0.993
+        },
+        {
+          "word": "us",
+          "start_sec": 21.39,
+          "end_sec": 21.61,
+          "prob": 0.989
+        },
+        {
+          "word": "to",
+          "start_sec": 21.61,
+          "end_sec": 21.93,
+          "prob": 0.998
+        },
+        {
+          "word": "simplify",
+          "start_sec": 21.93,
+          "end_sec": 22.33,
+          "prob": 0.998
+        },
+        {
+          "word": "it",
+          "start_sec": 22.33,
+          "end_sec": 22.91,
+          "prob": 0.995
+        },
+        {
+          "word": "and",
+          "start_sec": 22.91,
+          "end_sec": 23.27,
+          "prob": 0.283
+        },
+        {
+          "word": "notice",
+          "start_sec": 23.27,
+          "end_sec": 23.81,
+          "prob": 0.988
+        },
+        {
+          "word": "there's",
+          "start_sec": 23.81,
+          "end_sec": 24.25,
+          "prob": 0.974
+        },
+        {
+          "word": "no",
+          "start_sec": 24.25,
+          "end_sec": 24.53,
+          "prob": 0.997
+        },
+        {
+          "word": "equal",
+          "start_sec": 24.53,
+          "end_sec": 24.77,
+          "prob": 0.892
+        },
+        {
+          "word": "signs",
+          "start_sec": 24.77,
+          "end_sec": 25.03,
+          "prob": 0.979
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start_sec": 25.03,
+      "end_sec": 28.63,
+      "text": "anywhere. So we're not really solving anything, we're simply writing things in",
+      "words": [
+        {
+          "word": "anywhere.",
+          "start_sec": 25.03,
+          "end_sec": 25.35,
+          "prob": 0.99
+        },
+        {
+          "word": "So",
+          "start_sec": 25.39,
+          "end_sec": 25.57,
+          "prob": 0.987
+        },
+        {
+          "word": "we're",
+          "start_sec": 25.57,
+          "end_sec": 25.65,
+          "prob": 0.989
+        },
+        {
+          "word": "not",
+          "start_sec": 25.65,
+          "end_sec": 25.83,
+          "prob": 0.999
+        },
+        {
+          "word": "really",
+          "start_sec": 25.83,
+          "end_sec": 26.31,
+          "prob": 0.998
+        },
+        {
+          "word": "solving",
+          "start_sec": 26.31,
+          "end_sec": 26.73,
+          "prob": 0.997
+        },
+        {
+          "word": "anything,",
+          "start_sec": 26.73,
+          "end_sec": 27.11,
+          "prob": 0.99
+        },
+        {
+          "word": "we're",
+          "start_sec": 27.13,
+          "end_sec": 27.33,
+          "prob": 0.994
+        },
+        {
+          "word": "simply",
+          "start_sec": 27.33,
+          "end_sec": 27.75,
+          "prob": 0.997
+        },
+        {
+          "word": "writing",
+          "start_sec": 27.75,
+          "end_sec": 28.21,
+          "prob": 0.998
+        },
+        {
+          "word": "things",
+          "start_sec": 28.21,
+          "end_sec": 28.47,
+          "prob": 0.999
+        },
+        {
+          "word": "in",
+          "start_sec": 28.47,
+          "end_sec": 28.63,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start_sec": 28.63,
+      "end_sec": 33.79,
+      "text": "a simpler form. That's what simplification means or simplifying means. So here we're",
+      "words": [
+        {
+          "word": "a",
+          "start_sec": 28.63,
+          "end_sec": 29.11,
+          "prob": 0.042
+        },
+        {
+          "word": "simpler",
+          "start_sec": 29.11,
+          "end_sec": 29.23,
+          "prob": 0.859
+        },
+        {
+          "word": "form.",
+          "start_sec": 29.23,
+          "end_sec": 29.55,
+          "prob": 0.976
+        },
+        {
+          "word": "That's",
+          "start_sec": 29.73,
+          "end_sec": 29.83,
+          "prob": 0.879
+        },
+        {
+          "word": "what",
+          "start_sec": 29.83,
+          "end_sec": 30.03,
+          "prob": 0.973
+        },
+        {
+          "word": "simplification",
+          "start_sec": 30.03,
+          "end_sec": 30.75,
+          "prob": 0.985
+        },
+        {
+          "word": "means",
+          "start_sec": 30.75,
+          "end_sec": 30.99,
+          "prob": 0.987
+        },
+        {
+          "word": "or",
+          "start_sec": 30.99,
+          "end_sec": 31.27,
+          "prob": 0.56
+        },
+        {
+          "word": "simplifying",
+          "start_sec": 31.27,
+          "end_sec": 31.79,
+          "prob": 0.988
+        },
+        {
+          "word": "means.",
+          "start_sec": 31.79,
+          "end_sec": 32.21,
+          "prob": 0.995
+        },
+        {
+          "word": "So",
+          "start_sec": 33.09,
+          "end_sec": 33.29,
+          "prob": 0.954
+        },
+        {
+          "word": "here",
+          "start_sec": 33.29,
+          "end_sec": 33.57,
+          "prob": 0.887
+        },
+        {
+          "word": "we're",
+          "start_sec": 33.57,
+          "end_sec": 33.79,
+          "prob": 0.891
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start_sec": 33.79,
+      "end_sec": 37.83,
+      "text": "going to start with the upper right corner and we only have an addition and",
+      "words": [
+        {
+          "word": "going",
+          "start_sec": 33.79,
+          "end_sec": 33.87,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 33.87,
+          "end_sec": 34.07,
+          "prob": 0.999
+        },
+        {
+          "word": "start",
+          "start_sec": 34.07,
+          "end_sec": 34.21,
+          "prob": 0.999
+        },
+        {
+          "word": "with",
+          "start_sec": 34.21,
+          "end_sec": 34.35,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 34.35,
+          "end_sec": 34.53,
+          "prob": 0.998
+        },
+        {
+          "word": "upper",
+          "start_sec": 34.53,
+          "end_sec": 34.67,
+          "prob": 0.996
+        },
+        {
+          "word": "right",
+          "start_sec": 34.67,
+          "end_sec": 34.85,
+          "prob": 0.935
+        },
+        {
+          "word": "corner",
+          "start_sec": 34.85,
+          "end_sec": 35.31,
+          "prob": 0.988
+        },
+        {
+          "word": "and",
+          "start_sec": 35.31,
+          "end_sec": 36.15,
+          "prob": 0.571
+        },
+        {
+          "word": "we",
+          "start_sec": 36.15,
+          "end_sec": 36.43,
+          "prob": 0.997
+        },
+        {
+          "word": "only",
+          "start_sec": 36.43,
+          "end_sec": 36.67,
+          "prob": 0.995
+        },
+        {
+          "word": "have",
+          "start_sec": 36.67,
+          "end_sec": 37.03,
+          "prob": 0.999
+        },
+        {
+          "word": "an",
+          "start_sec": 37.03,
+          "end_sec": 37.35,
+          "prob": 0.99
+        },
+        {
+          "word": "addition",
+          "start_sec": 37.35,
+          "end_sec": 37.61,
+          "prob": 0.997
+        },
+        {
+          "word": "and",
+          "start_sec": 37.61,
+          "end_sec": 37.83,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start_sec": 37.83,
+      "end_sec": 42.79,
+      "text": "a subtraction. The rule says that we must start from the left and work to",
+      "words": [
+        {
+          "word": "a",
+          "start_sec": 37.83,
+          "end_sec": 37.99,
+          "prob": 0.884
+        },
+        {
+          "word": "subtraction.",
+          "start_sec": 37.99,
+          "end_sec": 38.85,
+          "prob": 0.999
+        },
+        {
+          "word": "The",
+          "start_sec": 39.15,
+          "end_sec": 39.39,
+          "prob": 0.993
+        },
+        {
+          "word": "rule",
+          "start_sec": 39.39,
+          "end_sec": 39.57,
+          "prob": 0.943
+        },
+        {
+          "word": "says",
+          "start_sec": 39.57,
+          "end_sec": 40.01,
+          "prob": 0.998
+        },
+        {
+          "word": "that",
+          "start_sec": 40.01,
+          "end_sec": 40.45,
+          "prob": 0.993
+        },
+        {
+          "word": "we",
+          "start_sec": 40.45,
+          "end_sec": 40.77,
+          "prob": 0.993
+        },
+        {
+          "word": "must",
+          "start_sec": 40.77,
+          "end_sec": 41.03,
+          "prob": 0.986
+        },
+        {
+          "word": "start",
+          "start_sec": 41.03,
+          "end_sec": 41.23,
+          "prob": 0.998
+        },
+        {
+          "word": "from",
+          "start_sec": 41.23,
+          "end_sec": 41.45,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 41.45,
+          "end_sec": 41.67,
+          "prob": 0.999
+        },
+        {
+          "word": "left",
+          "start_sec": 41.67,
+          "end_sec": 41.95,
+          "prob": 0.998
+        },
+        {
+          "word": "and",
+          "start_sec": 41.95,
+          "end_sec": 42.39,
+          "prob": 0.986
+        },
+        {
+          "word": "work",
+          "start_sec": 42.39,
+          "end_sec": 42.57,
+          "prob": 0.995
+        },
+        {
+          "word": "to",
+          "start_sec": 42.57,
+          "end_sec": 42.79,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start_sec": 42.79,
+      "end_sec": 48.21,
+      "text": "the right. So we must first subtract 42 from 22 and then add 30 to that. So",
+      "words": [
+        {
+          "word": "the",
+          "start_sec": 42.79,
+          "end_sec": 42.97,
+          "prob": 0.999
+        },
+        {
+          "word": "right.",
+          "start_sec": 42.97,
+          "end_sec": 43.17,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 43.17,
+          "end_sec": 43.37,
+          "prob": 0.984
+        },
+        {
+          "word": "we",
+          "start_sec": 43.37,
+          "end_sec": 43.49,
+          "prob": 0.974
+        },
+        {
+          "word": "must",
+          "start_sec": 43.49,
+          "end_sec": 43.75,
+          "prob": 0.997
+        },
+        {
+          "word": "first",
+          "start_sec": 43.75,
+          "end_sec": 44.13,
+          "prob": 0.996
+        },
+        {
+          "word": "subtract",
+          "start_sec": 44.13,
+          "end_sec": 44.59,
+          "prob": 0.86
+        },
+        {
+          "word": "42",
+          "start_sec": 44.59,
+          "end_sec": 45.01,
+          "prob": 0.981
+        },
+        {
+          "word": "from",
+          "start_sec": 45.01,
+          "end_sec": 45.35,
+          "prob": 0.996
+        },
+        {
+          "word": "22",
+          "start_sec": 45.35,
+          "end_sec": 45.85,
+          "prob": 0.997
+        },
+        {
+          "word": "and",
+          "start_sec": 45.85,
+          "end_sec": 46.39,
+          "prob": 0.888
+        },
+        {
+          "word": "then",
+          "start_sec": 46.39,
+          "end_sec": 46.65,
+          "prob": 0.997
+        },
+        {
+          "word": "add",
+          "start_sec": 46.65,
+          "end_sec": 46.91,
+          "prob": 0.978
+        },
+        {
+          "word": "30",
+          "start_sec": 46.91,
+          "end_sec": 47.21,
+          "prob": 0.987
+        },
+        {
+          "word": "to",
+          "start_sec": 47.21,
+          "end_sec": 47.39,
+          "prob": 0.998
+        },
+        {
+          "word": "that.",
+          "start_sec": 47.39,
+          "end_sec": 47.71,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 47.99,
+          "end_sec": 48.21,
+          "prob": 0.986
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start_sec": 48.21,
+      "end_sec": 54.27,
+      "text": "this will then be equal to 22 minus 42, that's equal to minus 20, then",
+      "words": [
+        {
+          "word": "this",
+          "start_sec": 48.21,
+          "end_sec": 48.45,
+          "prob": 0.988
+        },
+        {
+          "word": "will",
+          "start_sec": 48.45,
+          "end_sec": 48.69,
+          "prob": 0.994
+        },
+        {
+          "word": "then",
+          "start_sec": 48.69,
+          "end_sec": 48.93,
+          "prob": 0.994
+        },
+        {
+          "word": "be",
+          "start_sec": 48.93,
+          "end_sec": 49.29,
+          "prob": 0.999
+        },
+        {
+          "word": "equal",
+          "start_sec": 49.29,
+          "end_sec": 49.51,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 49.51,
+          "end_sec": 50.33,
+          "prob": 0.998
+        },
+        {
+          "word": "22",
+          "start_sec": 50.33,
+          "end_sec": 50.75,
+          "prob": 0.971
+        },
+        {
+          "word": "minus",
+          "start_sec": 50.75,
+          "end_sec": 51.29,
+          "prob": 0.887
+        },
+        {
+          "word": "42,",
+          "start_sec": 51.29,
+          "end_sec": 51.89,
+          "prob": 0.996
+        },
+        {
+          "word": "that's",
+          "start_sec": 52.05,
+          "end_sec": 52.33,
+          "prob": 0.985
+        },
+        {
+          "word": "equal",
+          "start_sec": 52.33,
+          "end_sec": 52.47,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 52.47,
+          "end_sec": 52.69,
+          "prob": 0.998
+        },
+        {
+          "word": "minus",
+          "start_sec": 52.69,
+          "end_sec": 53.01,
+          "prob": 0.968
+        },
+        {
+          "word": "20,",
+          "start_sec": 53.01,
+          "end_sec": 53.83,
+          "prob": 0.984
+        },
+        {
+          "word": "then",
+          "start_sec": 54.11,
+          "end_sec": 54.27,
+          "prob": 0.831
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start_sec": 54.27,
+      "end_sec": 63.96,
+      "text": "which is equal to a positive 10. On the next expression we have exponents, we",
+      "words": [
+        {
+          "word": "which",
+          "start_sec": 54.27,
+          "end_sec": 55.17,
+          "prob": 0.012
+        },
+        {
+          "word": "is",
+          "start_sec": 55.17,
+          "end_sec": 55.85,
+          "prob": 0.99
+        },
+        {
+          "word": "equal",
+          "start_sec": 55.85,
+          "end_sec": 55.97,
+          "prob": 0.963
+        },
+        {
+          "word": "to",
+          "start_sec": 55.97,
+          "end_sec": 56.25,
+          "prob": 0.997
+        },
+        {
+          "word": "a",
+          "start_sec": 56.25,
+          "end_sec": 56.37,
+          "prob": 0.771
+        },
+        {
+          "word": "positive",
+          "start_sec": 56.37,
+          "end_sec": 56.79,
+          "prob": 0.968
+        },
+        {
+          "word": "10.",
+          "start_sec": 56.79,
+          "end_sec": 57.43,
+          "prob": 0.825
+        },
+        {
+          "word": "On",
+          "start_sec": 58.78,
+          "end_sec": 58.96,
+          "prob": 0.945
+        },
+        {
+          "word": "the",
+          "start_sec": 58.96,
+          "end_sec": 59.1,
+          "prob": 0.999
+        },
+        {
+          "word": "next",
+          "start_sec": 59.1,
+          "end_sec": 59.76,
+          "prob": 0.996
+        },
+        {
+          "word": "expression",
+          "start_sec": 59.76,
+          "end_sec": 60.66,
+          "prob": 0.993
+        },
+        {
+          "word": "we",
+          "start_sec": 60.66,
+          "end_sec": 61.78,
+          "prob": 0.618
+        },
+        {
+          "word": "have",
+          "start_sec": 61.78,
+          "end_sec": 62.62,
+          "prob": 0.998
+        },
+        {
+          "word": "exponents,",
+          "start_sec": 62.62,
+          "end_sec": 63.58,
+          "prob": 0.959
+        },
+        {
+          "word": "we",
+          "start_sec": 63.96,
+          "end_sec": 63.96,
+          "prob": 0.939
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start_sec": 63.96,
+      "end_sec": 69.66,
+      "text": "have a subtraction, and an addition. So exponents come before we do",
+      "words": [
+        {
+          "word": "have",
+          "start_sec": 63.96,
+          "end_sec": 64.44,
+          "prob": 0.997
+        },
+        {
+          "word": "a",
+          "start_sec": 64.44,
+          "end_sec": 64.62,
+          "prob": 0.851
+        },
+        {
+          "word": "subtraction,",
+          "start_sec": 64.62,
+          "end_sec": 65.4,
+          "prob": 0.998
+        },
+        {
+          "word": "and",
+          "start_sec": 65.58,
+          "end_sec": 65.88,
+          "prob": 0.957
+        },
+        {
+          "word": "an",
+          "start_sec": 65.88,
+          "end_sec": 66.12,
+          "prob": 0.959
+        },
+        {
+          "word": "addition.",
+          "start_sec": 66.12,
+          "end_sec": 66.44,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 66.8,
+          "end_sec": 67.2,
+          "prob": 0.958
+        },
+        {
+          "word": "exponents",
+          "start_sec": 67.2,
+          "end_sec": 67.8,
+          "prob": 0.976
+        },
+        {
+          "word": "come",
+          "start_sec": 67.8,
+          "end_sec": 68.46,
+          "prob": 0.962
+        },
+        {
+          "word": "before",
+          "start_sec": 68.46,
+          "end_sec": 69.1,
+          "prob": 0.882
+        },
+        {
+          "word": "we",
+          "start_sec": 69.1,
+          "end_sec": 69.34,
+          "prob": 0.985
+        },
+        {
+          "word": "do",
+          "start_sec": 69.34,
+          "end_sec": 69.66,
+          "prob": 0.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start_sec": 69.66,
+      "end_sec": 74.18,
+      "text": "the addition and the subtraction. So let's first apply all the exponents.",
+      "words": [
+        {
+          "word": "the",
+          "start_sec": 69.66,
+          "end_sec": 70.16,
+          "prob": 0.964
+        },
+        {
+          "word": "addition",
+          "start_sec": 70.16,
+          "end_sec": 70.54,
+          "prob": 0.987
+        },
+        {
+          "word": "and",
+          "start_sec": 70.54,
+          "end_sec": 70.74,
+          "prob": 0.983
+        },
+        {
+          "word": "the",
+          "start_sec": 70.74,
+          "end_sec": 70.92,
+          "prob": 0.872
+        },
+        {
+          "word": "subtraction.",
+          "start_sec": 70.92,
+          "end_sec": 71.52,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 71.84,
+          "end_sec": 72.04,
+          "prob": 0.956
+        },
+        {
+          "word": "let's",
+          "start_sec": 72.04,
+          "end_sec": 72.34,
+          "prob": 0.97
+        },
+        {
+          "word": "first",
+          "start_sec": 72.34,
+          "end_sec": 72.78,
+          "prob": 0.995
+        },
+        {
+          "word": "apply",
+          "start_sec": 72.78,
+          "end_sec": 73.24,
+          "prob": 0.993
+        },
+        {
+          "word": "all",
+          "start_sec": 73.24,
+          "end_sec": 73.44,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 73.44,
+          "end_sec": 73.72,
+          "prob": 0.988
+        },
+        {
+          "word": "exponents.",
+          "start_sec": 73.72,
+          "end_sec": 74.18,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start_sec": 74.34,
+      "end_sec": 79.36,
+      "text": "So this is equal to 3 squared, which is 9, minus 2 squared, which is 4,",
+      "words": [
+        {
+          "word": "So",
+          "start_sec": 74.34,
+          "end_sec": 74.36,
+          "prob": 0.923
+        },
+        {
+          "word": "this",
+          "start_sec": 74.36,
+          "end_sec": 74.58,
+          "prob": 0.984
+        },
+        {
+          "word": "is",
+          "start_sec": 74.58,
+          "end_sec": 74.82,
+          "prob": 0.996
+        },
+        {
+          "word": "equal",
+          "start_sec": 74.82,
+          "end_sec": 74.96,
+          "prob": 0.994
+        },
+        {
+          "word": "to",
+          "start_sec": 74.96,
+          "end_sec": 75.28,
+          "prob": 0.995
+        },
+        {
+          "word": "3",
+          "start_sec": 75.28,
+          "end_sec": 75.58,
+          "prob": 0.77
+        },
+        {
+          "word": "squared,",
+          "start_sec": 75.58,
+          "end_sec": 75.94,
+          "prob": 0.926
+        },
+        {
+          "word": "which",
+          "start_sec": 75.96,
+          "end_sec": 76.16,
+          "prob": 0.998
+        },
+        {
+          "word": "is",
+          "start_sec": 76.16,
+          "end_sec": 76.38,
+          "prob": 0.997
+        },
+        {
+          "word": "9,",
+          "start_sec": 76.38,
+          "end_sec": 76.88,
+          "prob": 0.94
+        },
+        {
+          "word": "minus",
+          "start_sec": 77.3,
+          "end_sec": 77.72,
+          "prob": 0.949
+        },
+        {
+          "word": "2",
+          "start_sec": 77.72,
+          "end_sec": 78.02,
+          "prob": 0.987
+        },
+        {
+          "word": "squared,",
+          "start_sec": 78.02,
+          "end_sec": 78.4,
+          "prob": 0.994
+        },
+        {
+          "word": "which",
+          "start_sec": 78.4,
+          "end_sec": 78.62,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 78.62,
+          "end_sec": 78.84,
+          "prob": 0.997
+        },
+        {
+          "word": "4,",
+          "start_sec": 78.84,
+          "end_sec": 79.36,
+          "prob": 0.989
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start_sec": 79.36,
+      "end_sec": 86.66,
+      "text": "plus 5 cubed, which is 125. Now we can apply the rule where we start from left to",
+      "words": [
+        {
+          "word": "plus",
+          "start_sec": 79.36,
+          "end_sec": 79.88,
+          "prob": 0.586
+        },
+        {
+          "word": "5",
+          "start_sec": 79.88,
+          "end_sec": 80.34,
+          "prob": 0.796
+        },
+        {
+          "word": "cubed,",
+          "start_sec": 80.34,
+          "end_sec": 80.58,
+          "prob": 0.848
+        },
+        {
+          "word": "which",
+          "start_sec": 80.9,
+          "end_sec": 80.9,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 80.9,
+          "end_sec": 81.5,
+          "prob": 0.999
+        },
+        {
+          "word": "125.",
+          "start_sec": 81.5,
+          "end_sec": 82.78,
+          "prob": 0.931
+        },
+        {
+          "word": "Now",
+          "start_sec": 83.64,
+          "end_sec": 84.0,
+          "prob": 0.988
+        },
+        {
+          "word": "we",
+          "start_sec": 84.0,
+          "end_sec": 84.18,
+          "prob": 0.856
+        },
+        {
+          "word": "can",
+          "start_sec": 84.18,
+          "end_sec": 84.44,
+          "prob": 0.999
+        },
+        {
+          "word": "apply",
+          "start_sec": 84.44,
+          "end_sec": 84.9,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 84.9,
+          "end_sec": 85.18,
+          "prob": 0.994
+        },
+        {
+          "word": "rule",
+          "start_sec": 85.18,
+          "end_sec": 85.38,
+          "prob": 0.994
+        },
+        {
+          "word": "where",
+          "start_sec": 85.38,
+          "end_sec": 85.58,
+          "prob": 0.887
+        },
+        {
+          "word": "we",
+          "start_sec": 85.58,
+          "end_sec": 85.84,
+          "prob": 0.997
+        },
+        {
+          "word": "start",
+          "start_sec": 85.84,
+          "end_sec": 85.98,
+          "prob": 0.997
+        },
+        {
+          "word": "from",
+          "start_sec": 85.98,
+          "end_sec": 86.22,
+          "prob": 0.995
+        },
+        {
+          "word": "left",
+          "start_sec": 86.22,
+          "end_sec": 86.44,
+          "prob": 0.994
+        },
+        {
+          "word": "to",
+          "start_sec": 86.44,
+          "end_sec": 86.66,
+          "prob": 0.963
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start_sec": 86.66,
+      "end_sec": 91.62,
+      "text": "right because subtraction and addition have the same priority, but we must do",
+      "words": [
+        {
+          "word": "right",
+          "start_sec": 86.66,
+          "end_sec": 86.88,
+          "prob": 0.999
+        },
+        {
+          "word": "because",
+          "start_sec": 86.88,
+          "end_sec": 87.5,
+          "prob": 0.694
+        },
+        {
+          "word": "subtraction",
+          "start_sec": 87.5,
+          "end_sec": 88.36,
+          "prob": 0.996
+        },
+        {
+          "word": "and",
+          "start_sec": 88.36,
+          "end_sec": 88.54,
+          "prob": 0.994
+        },
+        {
+          "word": "addition",
+          "start_sec": 88.54,
+          "end_sec": 88.9,
+          "prob": 0.995
+        },
+        {
+          "word": "have",
+          "start_sec": 88.9,
+          "end_sec": 89.16,
+          "prob": 0.995
+        },
+        {
+          "word": "the",
+          "start_sec": 89.16,
+          "end_sec": 89.44,
+          "prob": 0.997
+        },
+        {
+          "word": "same",
+          "start_sec": 89.44,
+          "end_sec": 89.9,
+          "prob": 1.0
+        },
+        {
+          "word": "priority,",
+          "start_sec": 89.9,
+          "end_sec": 90.56,
+          "prob": 0.997
+        },
+        {
+          "word": "but",
+          "start_sec": 90.9,
+          "end_sec": 91.08,
+          "prob": 0.997
+        },
+        {
+          "word": "we",
+          "start_sec": 91.08,
+          "end_sec": 91.28,
+          "prob": 0.998
+        },
+        {
+          "word": "must",
+          "start_sec": 91.28,
+          "end_sec": 91.44,
+          "prob": 0.999
+        },
+        {
+          "word": "do",
+          "start_sec": 91.44,
+          "end_sec": 91.62,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start_sec": 91.62,
+      "end_sec": 99.18,
+      "text": "it from left to right. So 9 minus 4, that is equal to minus 5, plus 125. So",
+      "words": [
+        {
+          "word": "it",
+          "start_sec": 91.62,
+          "end_sec": 91.78,
+          "prob": 0.998
+        },
+        {
+          "word": "from",
+          "start_sec": 91.78,
+          "end_sec": 92.0,
+          "prob": 0.998
+        },
+        {
+          "word": "left",
+          "start_sec": 92.0,
+          "end_sec": 92.36,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 92.36,
+          "end_sec": 92.66,
+          "prob": 0.998
+        },
+        {
+          "word": "right.",
+          "start_sec": 92.66,
+          "end_sec": 93.02,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 93.3,
+          "end_sec": 93.56,
+          "prob": 0.964
+        },
+        {
+          "word": "9",
+          "start_sec": 93.56,
+          "end_sec": 93.86,
+          "prob": 0.816
+        },
+        {
+          "word": "minus",
+          "start_sec": 93.86,
+          "end_sec": 94.2,
+          "prob": 0.868
+        },
+        {
+          "word": "4,",
+          "start_sec": 94.2,
+          "end_sec": 94.8,
+          "prob": 0.985
+        },
+        {
+          "word": "that",
+          "start_sec": 95.1,
+          "end_sec": 95.22,
+          "prob": 0.986
+        },
+        {
+          "word": "is",
+          "start_sec": 95.22,
+          "end_sec": 95.42,
+          "prob": 0.997
+        },
+        {
+          "word": "equal",
+          "start_sec": 95.42,
+          "end_sec": 95.56,
+          "prob": 0.996
+        },
+        {
+          "word": "to",
+          "start_sec": 95.56,
+          "end_sec": 95.82,
+          "prob": 0.998
+        },
+        {
+          "word": "minus",
+          "start_sec": 95.82,
+          "end_sec": 96.22,
+          "prob": 0.925
+        },
+        {
+          "word": "5,",
+          "start_sec": 96.22,
+          "end_sec": 97.0,
+          "prob": 0.975
+        },
+        {
+          "word": "plus",
+          "start_sec": 97.14,
+          "end_sec": 97.54,
+          "prob": 0.999
+        },
+        {
+          "word": "125.",
+          "start_sec": 97.54,
+          "end_sec": 98.74,
+          "prob": 0.998
+        },
+        {
+          "word": "So",
+          "start_sec": 99.02,
+          "end_sec": 99.18,
+          "prob": 0.966
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start_sec": 99.18,
+      "end_sec": 106.24,
+      "text": "now when we add these together, that's equal to a positive 120. On the next",
+      "words": [
+        {
+          "word": "now",
+          "start_sec": 99.18,
+          "end_sec": 99.28,
+          "prob": 0.965
+        },
+        {
+          "word": "when",
+          "start_sec": 99.28,
+          "end_sec": 99.4,
+          "prob": 0.939
+        },
+        {
+          "word": "we",
+          "start_sec": 99.4,
+          "end_sec": 99.56,
+          "prob": 0.998
+        },
+        {
+          "word": "add",
+          "start_sec": 99.56,
+          "end_sec": 99.76,
+          "prob": 0.996
+        },
+        {
+          "word": "these",
+          "start_sec": 99.76,
+          "end_sec": 99.92,
+          "prob": 0.982
+        },
+        {
+          "word": "together,",
+          "start_sec": 99.92,
+          "end_sec": 100.32,
+          "prob": 0.999
+        },
+        {
+          "word": "that's",
+          "start_sec": 100.48,
+          "end_sec": 100.82,
+          "prob": 0.976
+        },
+        {
+          "word": "equal",
+          "start_sec": 100.82,
+          "end_sec": 100.96,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 100.96,
+          "end_sec": 101.24,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 101.24,
+          "end_sec": 101.32,
+          "prob": 0.83
+        },
+        {
+          "word": "positive",
+          "start_sec": 101.32,
+          "end_sec": 101.84,
+          "prob": 0.995
+        },
+        {
+          "word": "120.",
+          "start_sec": 101.84,
+          "end_sec": 103.14,
+          "prob": 0.993
+        },
+        {
+          "word": "On",
+          "start_sec": 105.58,
+          "end_sec": 105.84,
+          "prob": 0.982
+        },
+        {
+          "word": "the",
+          "start_sec": 105.84,
+          "end_sec": 105.98,
+          "prob": 0.999
+        },
+        {
+          "word": "next",
+          "start_sec": 105.98,
+          "end_sec": 106.24,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start_sec": 106.24,
+      "end_sec": 111.08,
+      "text": "expression again we have exponents, we have a multiplication, we have",
+      "words": [
+        {
+          "word": "expression",
+          "start_sec": 106.24,
+          "end_sec": 106.78,
+          "prob": 0.506
+        },
+        {
+          "word": "again",
+          "start_sec": 106.78,
+          "end_sec": 107.12,
+          "prob": 0.908
+        },
+        {
+          "word": "we",
+          "start_sec": 107.12,
+          "end_sec": 107.44,
+          "prob": 0.39
+        },
+        {
+          "word": "have",
+          "start_sec": 107.44,
+          "end_sec": 107.74,
+          "prob": 0.997
+        },
+        {
+          "word": "exponents,",
+          "start_sec": 107.74,
+          "end_sec": 108.7,
+          "prob": 0.974
+        },
+        {
+          "word": "we",
+          "start_sec": 109.1,
+          "end_sec": 109.1,
+          "prob": 0.985
+        },
+        {
+          "word": "have",
+          "start_sec": 109.1,
+          "end_sec": 109.34,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 109.34,
+          "end_sec": 109.56,
+          "prob": 0.934
+        },
+        {
+          "word": "multiplication,",
+          "start_sec": 109.56,
+          "end_sec": 110.04,
+          "prob": 0.999
+        },
+        {
+          "word": "we",
+          "start_sec": 110.72,
+          "end_sec": 110.84,
+          "prob": 0.991
+        },
+        {
+          "word": "have",
+          "start_sec": 110.84,
+          "end_sec": 111.08,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start_sec": 111.72,
+      "end_sec": 116.32,
+      "text": "subtraction, or let's see here, no this is subtraction, no multiplication, this is",
+      "words": [
+        {
+          "word": "subtraction,",
+          "start_sec": 111.72,
+          "end_sec": 112.26,
+          "prob": 0.992
+        },
+        {
+          "word": "or",
+          "start_sec": 112.78,
+          "end_sec": 112.9,
+          "prob": 0.92
+        },
+        {
+          "word": "let's",
+          "start_sec": 112.9,
+          "end_sec": 113.16,
+          "prob": 0.96
+        },
+        {
+          "word": "see",
+          "start_sec": 113.16,
+          "end_sec": 113.32,
+          "prob": 0.981
+        },
+        {
+          "word": "here,",
+          "start_sec": 113.32,
+          "end_sec": 113.46,
+          "prob": 0.792
+        },
+        {
+          "word": "no",
+          "start_sec": 113.46,
+          "end_sec": 113.64,
+          "prob": 0.94
+        },
+        {
+          "word": "this",
+          "start_sec": 113.64,
+          "end_sec": 113.88,
+          "prob": 0.572
+        },
+        {
+          "word": "is",
+          "start_sec": 113.88,
+          "end_sec": 114.02,
+          "prob": 0.994
+        },
+        {
+          "word": "subtraction,",
+          "start_sec": 114.02,
+          "end_sec": 114.7,
+          "prob": 0.994
+        },
+        {
+          "word": "no",
+          "start_sec": 114.8,
+          "end_sec": 114.96,
+          "prob": 0.986
+        },
+        {
+          "word": "multiplication,",
+          "start_sec": 114.96,
+          "end_sec": 115.42,
+          "prob": 0.999
+        },
+        {
+          "word": "this",
+          "start_sec": 115.56,
+          "end_sec": 115.76,
+          "prob": 0.993
+        },
+        {
+          "word": "is",
+          "start_sec": 115.76,
+          "end_sec": 116.32,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start_sec": 116.32,
+      "end_sec": 120.5,
+      "text": "5 squared minus the quantity minus 10 squared, so this is a subtraction, an",
+      "words": [
+        {
+          "word": "5",
+          "start_sec": 116.32,
+          "end_sec": 116.58,
+          "prob": 0.591
+        },
+        {
+          "word": "squared",
+          "start_sec": 116.58,
+          "end_sec": 116.9,
+          "prob": 0.886
+        },
+        {
+          "word": "minus",
+          "start_sec": 116.9,
+          "end_sec": 117.34,
+          "prob": 0.97
+        },
+        {
+          "word": "the",
+          "start_sec": 117.34,
+          "end_sec": 117.54,
+          "prob": 0.99
+        },
+        {
+          "word": "quantity",
+          "start_sec": 117.54,
+          "end_sec": 117.94,
+          "prob": 0.999
+        },
+        {
+          "word": "minus",
+          "start_sec": 117.94,
+          "end_sec": 118.28,
+          "prob": 0.928
+        },
+        {
+          "word": "10",
+          "start_sec": 118.28,
+          "end_sec": 118.54,
+          "prob": 0.966
+        },
+        {
+          "word": "squared,",
+          "start_sec": 118.54,
+          "end_sec": 118.86,
+          "prob": 0.721
+        },
+        {
+          "word": "so",
+          "start_sec": 118.88,
+          "end_sec": 119.08,
+          "prob": 0.994
+        },
+        {
+          "word": "this",
+          "start_sec": 119.08,
+          "end_sec": 119.32,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 119.32,
+          "end_sec": 119.52,
+          "prob": 0.997
+        },
+        {
+          "word": "a",
+          "start_sec": 119.52,
+          "end_sec": 119.6,
+          "prob": 0.963
+        },
+        {
+          "word": "subtraction,",
+          "start_sec": 119.6,
+          "end_sec": 120.3,
+          "prob": 0.999
+        },
+        {
+          "word": "an",
+          "start_sec": 120.34,
+          "end_sec": 120.5,
+          "prob": 0.954
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start_sec": 120.5,
+      "end_sec": 125.74,
+      "text": "addition, but we should do the exponents first. So we have 5 squared,",
+      "words": [
+        {
+          "word": "addition,",
+          "start_sec": 120.5,
+          "end_sec": 120.84,
+          "prob": 0.999
+        },
+        {
+          "word": "but",
+          "start_sec": 121.18,
+          "end_sec": 121.34,
+          "prob": 0.989
+        },
+        {
+          "word": "we",
+          "start_sec": 121.34,
+          "end_sec": 121.6,
+          "prob": 0.998
+        },
+        {
+          "word": "should",
+          "start_sec": 121.6,
+          "end_sec": 121.72,
+          "prob": 0.999
+        },
+        {
+          "word": "do",
+          "start_sec": 121.72,
+          "end_sec": 122.06,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 122.06,
+          "end_sec": 122.66,
+          "prob": 0.999
+        },
+        {
+          "word": "exponents",
+          "start_sec": 122.66,
+          "end_sec": 123.24,
+          "prob": 0.985
+        },
+        {
+          "word": "first.",
+          "start_sec": 123.24,
+          "end_sec": 123.8,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 124.22,
+          "end_sec": 124.46,
+          "prob": 0.987
+        },
+        {
+          "word": "we",
+          "start_sec": 124.46,
+          "end_sec": 124.62,
+          "prob": 0.938
+        },
+        {
+          "word": "have",
+          "start_sec": 124.62,
+          "end_sec": 124.9,
+          "prob": 0.999
+        },
+        {
+          "word": "5",
+          "start_sec": 124.9,
+          "end_sec": 125.28,
+          "prob": 0.943
+        },
+        {
+          "word": "squared,",
+          "start_sec": 125.28,
+          "end_sec": 125.74,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start_sec": 125.82,
+      "end_sec": 132.2,
+      "text": "which gives us 25, minus a negative 10 squared, negative 10 times negative 10",
+      "words": [
+        {
+          "word": "which",
+          "start_sec": 125.82,
+          "end_sec": 126.04,
+          "prob": 0.998
+        },
+        {
+          "word": "gives",
+          "start_sec": 126.04,
+          "end_sec": 126.26,
+          "prob": 0.997
+        },
+        {
+          "word": "us",
+          "start_sec": 126.26,
+          "end_sec": 126.48,
+          "prob": 0.997
+        },
+        {
+          "word": "25,",
+          "start_sec": 126.48,
+          "end_sec": 127.32,
+          "prob": 0.995
+        },
+        {
+          "word": "minus",
+          "start_sec": 128.5,
+          "end_sec": 129.16,
+          "prob": 0.971
+        },
+        {
+          "word": "a",
+          "start_sec": 129.16,
+          "end_sec": 129.6,
+          "prob": 0.939
+        },
+        {
+          "word": "negative",
+          "start_sec": 129.6,
+          "end_sec": 129.96,
+          "prob": 0.898
+        },
+        {
+          "word": "10",
+          "start_sec": 129.96,
+          "end_sec": 130.3,
+          "prob": 0.981
+        },
+        {
+          "word": "squared,",
+          "start_sec": 130.3,
+          "end_sec": 130.78,
+          "prob": 0.992
+        },
+        {
+          "word": "negative",
+          "start_sec": 130.92,
+          "end_sec": 131.26,
+          "prob": 0.93
+        },
+        {
+          "word": "10",
+          "start_sec": 131.26,
+          "end_sec": 131.44,
+          "prob": 0.982
+        },
+        {
+          "word": "times",
+          "start_sec": 131.44,
+          "end_sec": 131.66,
+          "prob": 0.977
+        },
+        {
+          "word": "negative",
+          "start_sec": 131.66,
+          "end_sec": 131.98,
+          "prob": 0.991
+        },
+        {
+          "word": "10",
+          "start_sec": 131.98,
+          "end_sec": 132.2,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start_sec": 132.2,
+      "end_sec": 139.16,
+      "text": "is a positive 100, but we have to subtract that from 25 and then we have",
+      "words": [
+        {
+          "word": "is",
+          "start_sec": 132.2,
+          "end_sec": 132.34,
+          "prob": 0.389
+        },
+        {
+          "word": "a",
+          "start_sec": 132.34,
+          "end_sec": 132.58,
+          "prob": 0.813
+        },
+        {
+          "word": "positive",
+          "start_sec": 132.58,
+          "end_sec": 133.04,
+          "prob": 0.964
+        },
+        {
+          "word": "100,",
+          "start_sec": 133.04,
+          "end_sec": 133.66,
+          "prob": 0.857
+        },
+        {
+          "word": "but",
+          "start_sec": 135.18,
+          "end_sec": 135.42,
+          "prob": 0.953
+        },
+        {
+          "word": "we",
+          "start_sec": 135.42,
+          "end_sec": 135.54,
+          "prob": 0.994
+        },
+        {
+          "word": "have",
+          "start_sec": 135.54,
+          "end_sec": 135.74,
+          "prob": 0.989
+        },
+        {
+          "word": "to",
+          "start_sec": 135.74,
+          "end_sec": 135.94,
+          "prob": 0.982
+        },
+        {
+          "word": "subtract",
+          "start_sec": 135.94,
+          "end_sec": 136.4,
+          "prob": 0.998
+        },
+        {
+          "word": "that",
+          "start_sec": 136.4,
+          "end_sec": 136.8,
+          "prob": 0.982
+        },
+        {
+          "word": "from",
+          "start_sec": 136.8,
+          "end_sec": 137.34,
+          "prob": 0.992
+        },
+        {
+          "word": "25",
+          "start_sec": 137.34,
+          "end_sec": 138.14,
+          "prob": 0.993
+        },
+        {
+          "word": "and",
+          "start_sec": 138.14,
+          "end_sec": 138.7,
+          "prob": 0.498
+        },
+        {
+          "word": "then",
+          "start_sec": 138.7,
+          "end_sec": 138.86,
+          "prob": 0.959
+        },
+        {
+          "word": "we",
+          "start_sec": 138.86,
+          "end_sec": 138.94,
+          "prob": 0.989
+        },
+        {
+          "word": "have",
+          "start_sec": 138.94,
+          "end_sec": 139.16,
+          "prob": 0.993
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start_sec": 139.16,
+      "end_sec": 143.88,
+      "text": "to add 30 to that. So I went ahead and put parentheses around it because I",
+      "words": [
+        {
+          "word": "to",
+          "start_sec": 139.16,
+          "end_sec": 139.36,
+          "prob": 0.977
+        },
+        {
+          "word": "add",
+          "start_sec": 139.36,
+          "end_sec": 139.56,
+          "prob": 0.995
+        },
+        {
+          "word": "30",
+          "start_sec": 139.56,
+          "end_sec": 139.9,
+          "prob": 0.992
+        },
+        {
+          "word": "to",
+          "start_sec": 139.9,
+          "end_sec": 140.1,
+          "prob": 0.993
+        },
+        {
+          "word": "that.",
+          "start_sec": 140.1,
+          "end_sec": 140.4,
+          "prob": 0.998
+        },
+        {
+          "word": "So",
+          "start_sec": 140.88,
+          "end_sec": 141.22,
+          "prob": 0.929
+        },
+        {
+          "word": "I",
+          "start_sec": 141.22,
+          "end_sec": 141.46,
+          "prob": 0.835
+        },
+        {
+          "word": "went",
+          "start_sec": 141.46,
+          "end_sec": 141.64,
+          "prob": 0.994
+        },
+        {
+          "word": "ahead",
+          "start_sec": 141.64,
+          "end_sec": 141.92,
+          "prob": 0.997
+        },
+        {
+          "word": "and",
+          "start_sec": 141.92,
+          "end_sec": 142.1,
+          "prob": 0.99
+        },
+        {
+          "word": "put",
+          "start_sec": 142.1,
+          "end_sec": 142.38,
+          "prob": 0.997
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 142.38,
+          "end_sec": 142.84,
+          "prob": 0.675
+        },
+        {
+          "word": "around",
+          "start_sec": 142.84,
+          "end_sec": 143.22,
+          "prob": 0.996
+        },
+        {
+          "word": "it",
+          "start_sec": 143.22,
+          "end_sec": 143.42,
+          "prob": 0.897
+        },
+        {
+          "word": "because",
+          "start_sec": 143.42,
+          "end_sec": 143.74,
+          "prob": 0.857
+        },
+        {
+          "word": "I",
+          "start_sec": 143.74,
+          "end_sec": 143.88,
+          "prob": 0.993
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start_sec": 143.88,
+      "end_sec": 149.02,
+      "text": "wanted to say that minus 10 squared is equal to a positive 100, but it's",
+      "words": [
+        {
+          "word": "wanted",
+          "start_sec": 143.88,
+          "end_sec": 144.1,
+          "prob": 0.924
+        },
+        {
+          "word": "to",
+          "start_sec": 144.1,
+          "end_sec": 144.36,
+          "prob": 0.997
+        },
+        {
+          "word": "say",
+          "start_sec": 144.36,
+          "end_sec": 144.54,
+          "prob": 0.994
+        },
+        {
+          "word": "that",
+          "start_sec": 144.54,
+          "end_sec": 144.82,
+          "prob": 0.969
+        },
+        {
+          "word": "minus",
+          "start_sec": 144.82,
+          "end_sec": 145.14,
+          "prob": 0.618
+        },
+        {
+          "word": "10",
+          "start_sec": 145.14,
+          "end_sec": 145.4,
+          "prob": 0.957
+        },
+        {
+          "word": "squared",
+          "start_sec": 145.4,
+          "end_sec": 145.68,
+          "prob": 0.976
+        },
+        {
+          "word": "is",
+          "start_sec": 145.68,
+          "end_sec": 145.92,
+          "prob": 0.995
+        },
+        {
+          "word": "equal",
+          "start_sec": 145.92,
+          "end_sec": 146.14,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 146.14,
+          "end_sec": 146.68,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 146.68,
+          "end_sec": 146.96,
+          "prob": 0.982
+        },
+        {
+          "word": "positive",
+          "start_sec": 146.96,
+          "end_sec": 147.34,
+          "prob": 0.999
+        },
+        {
+          "word": "100,",
+          "start_sec": 147.34,
+          "end_sec": 147.92,
+          "prob": 0.996
+        },
+        {
+          "word": "but",
+          "start_sec": 148.48,
+          "end_sec": 148.72,
+          "prob": 0.996
+        },
+        {
+          "word": "it's",
+          "start_sec": 148.72,
+          "end_sec": 149.02,
+          "prob": 0.925
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start_sec": 149.02,
+      "end_sec": 154.36,
+      "text": "subtracted from 5 squared. So first we need to do the left operation",
+      "words": [
+        {
+          "word": "subtracted",
+          "start_sec": 149.02,
+          "end_sec": 149.86,
+          "prob": 0.997
+        },
+        {
+          "word": "from",
+          "start_sec": 149.86,
+          "end_sec": 150.22,
+          "prob": 0.998
+        },
+        {
+          "word": "5",
+          "start_sec": 150.22,
+          "end_sec": 150.7,
+          "prob": 0.463
+        },
+        {
+          "word": "squared.",
+          "start_sec": 150.7,
+          "end_sec": 151.02,
+          "prob": 0.98
+        },
+        {
+          "word": "So",
+          "start_sec": 152.06,
+          "end_sec": 152.3,
+          "prob": 0.972
+        },
+        {
+          "word": "first",
+          "start_sec": 152.3,
+          "end_sec": 152.58,
+          "prob": 0.96
+        },
+        {
+          "word": "we",
+          "start_sec": 152.58,
+          "end_sec": 152.7,
+          "prob": 0.856
+        },
+        {
+          "word": "need",
+          "start_sec": 152.7,
+          "end_sec": 152.9,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 152.9,
+          "end_sec": 153.04,
+          "prob": 0.998
+        },
+        {
+          "word": "do",
+          "start_sec": 153.04,
+          "end_sec": 153.16,
+          "prob": 0.997
+        },
+        {
+          "word": "the",
+          "start_sec": 153.16,
+          "end_sec": 153.38,
+          "prob": 0.995
+        },
+        {
+          "word": "left",
+          "start_sec": 153.38,
+          "end_sec": 153.76,
+          "prob": 0.974
+        },
+        {
+          "word": "operation",
+          "start_sec": 153.76,
+          "end_sec": 154.36,
+          "prob": 0.983
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start_sec": 154.36,
+      "end_sec": 158.58,
+      "text": "first because it's a subtraction and an addition. Subtraction and addition",
+      "words": [
+        {
+          "word": "first",
+          "start_sec": 154.36,
+          "end_sec": 154.7,
+          "prob": 0.971
+        },
+        {
+          "word": "because",
+          "start_sec": 154.7,
+          "end_sec": 155.06,
+          "prob": 0.778
+        },
+        {
+          "word": "it's",
+          "start_sec": 155.06,
+          "end_sec": 155.7,
+          "prob": 0.958
+        },
+        {
+          "word": "a",
+          "start_sec": 155.7,
+          "end_sec": 155.84,
+          "prob": 0.882
+        },
+        {
+          "word": "subtraction",
+          "start_sec": 155.84,
+          "end_sec": 156.4,
+          "prob": 0.996
+        },
+        {
+          "word": "and",
+          "start_sec": 156.4,
+          "end_sec": 156.56,
+          "prob": 0.975
+        },
+        {
+          "word": "an",
+          "start_sec": 156.56,
+          "end_sec": 156.74,
+          "prob": 0.867
+        },
+        {
+          "word": "addition.",
+          "start_sec": 156.74,
+          "end_sec": 157.04,
+          "prob": 0.999
+        },
+        {
+          "word": "Subtraction",
+          "start_sec": 157.3,
+          "end_sec": 157.86,
+          "prob": 0.943
+        },
+        {
+          "word": "and",
+          "start_sec": 157.86,
+          "end_sec": 158.28,
+          "prob": 0.985
+        },
+        {
+          "word": "addition",
+          "start_sec": 158.28,
+          "end_sec": 158.58,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start_sec": 158.58,
+      "end_sec": 162.12,
+      "text": "have the same priority, so therefore we must go from left to right.",
+      "words": [
+        {
+          "word": "have",
+          "start_sec": 158.58,
+          "end_sec": 158.8,
+          "prob": 0.846
+        },
+        {
+          "word": "the",
+          "start_sec": 158.8,
+          "end_sec": 158.98,
+          "prob": 0.997
+        },
+        {
+          "word": "same",
+          "start_sec": 158.98,
+          "end_sec": 159.18,
+          "prob": 1.0
+        },
+        {
+          "word": "priority,",
+          "start_sec": 159.18,
+          "end_sec": 159.58,
+          "prob": 0.927
+        },
+        {
+          "word": "so",
+          "start_sec": 159.64,
+          "end_sec": 159.82,
+          "prob": 0.991
+        },
+        {
+          "word": "therefore",
+          "start_sec": 159.82,
+          "end_sec": 160.08,
+          "prob": 0.973
+        },
+        {
+          "word": "we",
+          "start_sec": 160.08,
+          "end_sec": 160.28,
+          "prob": 0.937
+        },
+        {
+          "word": "must",
+          "start_sec": 160.28,
+          "end_sec": 160.46,
+          "prob": 0.997
+        },
+        {
+          "word": "go",
+          "start_sec": 160.46,
+          "end_sec": 160.64,
+          "prob": 0.998
+        },
+        {
+          "word": "from",
+          "start_sec": 160.64,
+          "end_sec": 161.38,
+          "prob": 0.991
+        },
+        {
+          "word": "left",
+          "start_sec": 161.38,
+          "end_sec": 161.5,
+          "prob": 0.921
+        },
+        {
+          "word": "to",
+          "start_sec": 161.5,
+          "end_sec": 161.78,
+          "prob": 0.913
+        },
+        {
+          "word": "right.",
+          "start_sec": 161.78,
+          "end_sec": 162.12,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start_sec": 162.62,
+      "end_sec": 170.12,
+      "text": "25 minus 100 is equal to a minus 75, plus 30, which is equal to minus 45.",
+      "words": [
+        {
+          "word": "25",
+          "start_sec": 162.62,
+          "end_sec": 163.14,
+          "prob": 0.794
+        },
+        {
+          "word": "minus",
+          "start_sec": 163.14,
+          "end_sec": 163.64,
+          "prob": 0.718
+        },
+        {
+          "word": "100",
+          "start_sec": 163.64,
+          "end_sec": 164.1,
+          "prob": 0.989
+        },
+        {
+          "word": "is",
+          "start_sec": 164.1,
+          "end_sec": 164.42,
+          "prob": 0.977
+        },
+        {
+          "word": "equal",
+          "start_sec": 164.42,
+          "end_sec": 164.6,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 164.6,
+          "end_sec": 164.98,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 164.98,
+          "end_sec": 165.12,
+          "prob": 0.615
+        },
+        {
+          "word": "minus",
+          "start_sec": 165.12,
+          "end_sec": 165.4,
+          "prob": 0.877
+        },
+        {
+          "word": "75,",
+          "start_sec": 165.4,
+          "end_sec": 165.96,
+          "prob": 0.993
+        },
+        {
+          "word": "plus",
+          "start_sec": 166.68,
+          "end_sec": 167.08,
+          "prob": 0.997
+        },
+        {
+          "word": "30,",
+          "start_sec": 167.08,
+          "end_sec": 167.68,
+          "prob": 0.995
+        },
+        {
+          "word": "which",
+          "start_sec": 167.86,
+          "end_sec": 168.06,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 168.06,
+          "end_sec": 168.24,
+          "prob": 0.999
+        },
+        {
+          "word": "equal",
+          "start_sec": 168.24,
+          "end_sec": 168.38,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 168.38,
+          "end_sec": 168.62,
+          "prob": 0.997
+        },
+        {
+          "word": "minus",
+          "start_sec": 168.62,
+          "end_sec": 169.2,
+          "prob": 0.563
+        },
+        {
+          "word": "45.",
+          "start_sec": 169.2,
+          "end_sec": 170.12,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start_sec": 172.4,
+      "end_sec": 178.74,
+      "text": "Here we have a division and an addition. So here plainly we should do",
+      "words": [
+        {
+          "word": "Here",
+          "start_sec": 172.4,
+          "end_sec": 172.86,
+          "prob": 0.995
+        },
+        {
+          "word": "we",
+          "start_sec": 172.86,
+          "end_sec": 173.32,
+          "prob": 0.715
+        },
+        {
+          "word": "have",
+          "start_sec": 173.32,
+          "end_sec": 173.7,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 173.7,
+          "end_sec": 173.98,
+          "prob": 0.98
+        },
+        {
+          "word": "division",
+          "start_sec": 173.98,
+          "end_sec": 174.4,
+          "prob": 0.993
+        },
+        {
+          "word": "and",
+          "start_sec": 174.4,
+          "end_sec": 175.42,
+          "prob": 0.889
+        },
+        {
+          "word": "an",
+          "start_sec": 175.42,
+          "end_sec": 175.8,
+          "prob": 0.987
+        },
+        {
+          "word": "addition.",
+          "start_sec": 175.8,
+          "end_sec": 176.12,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 176.68,
+          "end_sec": 176.96,
+          "prob": 0.977
+        },
+        {
+          "word": "here",
+          "start_sec": 176.96,
+          "end_sec": 177.72,
+          "prob": 0.934
+        },
+        {
+          "word": "plainly",
+          "start_sec": 177.72,
+          "end_sec": 178.2,
+          "prob": 0.807
+        },
+        {
+          "word": "we",
+          "start_sec": 178.2,
+          "end_sec": 178.36,
+          "prob": 0.812
+        },
+        {
+          "word": "should",
+          "start_sec": 178.36,
+          "end_sec": 178.52,
+          "prob": 0.998
+        },
+        {
+          "word": "do",
+          "start_sec": 178.52,
+          "end_sec": 178.74,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start_sec": 178.74,
+      "end_sec": 183.28,
+      "text": "the division first, then the addition, even if the division is on the left or",
+      "words": [
+        {
+          "word": "the",
+          "start_sec": 178.74,
+          "end_sec": 179.0,
+          "prob": 0.979
+        },
+        {
+          "word": "division",
+          "start_sec": 179.0,
+          "end_sec": 179.26,
+          "prob": 0.987
+        },
+        {
+          "word": "first,",
+          "start_sec": 179.26,
+          "end_sec": 179.68,
+          "prob": 0.997
+        },
+        {
+          "word": "then",
+          "start_sec": 179.78,
+          "end_sec": 180.02,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 180.02,
+          "end_sec": 180.22,
+          "prob": 0.995
+        },
+        {
+          "word": "addition,",
+          "start_sec": 180.22,
+          "end_sec": 180.56,
+          "prob": 0.999
+        },
+        {
+          "word": "even",
+          "start_sec": 181.0,
+          "end_sec": 181.34,
+          "prob": 0.995
+        },
+        {
+          "word": "if",
+          "start_sec": 181.34,
+          "end_sec": 181.6,
+          "prob": 0.99
+        },
+        {
+          "word": "the",
+          "start_sec": 181.6,
+          "end_sec": 182.08,
+          "prob": 0.998
+        },
+        {
+          "word": "division",
+          "start_sec": 182.08,
+          "end_sec": 182.42,
+          "prob": 0.873
+        },
+        {
+          "word": "is",
+          "start_sec": 182.42,
+          "end_sec": 182.58,
+          "prob": 0.803
+        },
+        {
+          "word": "on",
+          "start_sec": 182.58,
+          "end_sec": 182.72,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 182.72,
+          "end_sec": 182.84,
+          "prob": 0.999
+        },
+        {
+          "word": "left",
+          "start_sec": 182.84,
+          "end_sec": 183.06,
+          "prob": 0.998
+        },
+        {
+          "word": "or",
+          "start_sec": 183.06,
+          "end_sec": 183.28,
+          "prob": 0.772
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start_sec": 183.28,
+      "end_sec": 187.56,
+      "text": "the division on the right doesn't matter, it comes first. So therefore 36",
+      "words": [
+        {
+          "word": "the",
+          "start_sec": 183.28,
+          "end_sec": 183.48,
+          "prob": 0.988
+        },
+        {
+          "word": "division",
+          "start_sec": 183.48,
+          "end_sec": 183.78,
+          "prob": 0.997
+        },
+        {
+          "word": "on",
+          "start_sec": 183.78,
+          "end_sec": 183.94,
+          "prob": 0.844
+        },
+        {
+          "word": "the",
+          "start_sec": 183.94,
+          "end_sec": 184.02,
+          "prob": 0.998
+        },
+        {
+          "word": "right",
+          "start_sec": 184.02,
+          "end_sec": 184.14,
+          "prob": 0.999
+        },
+        {
+          "word": "doesn't",
+          "start_sec": 184.14,
+          "end_sec": 184.42,
+          "prob": 0.778
+        },
+        {
+          "word": "matter,",
+          "start_sec": 184.42,
+          "end_sec": 184.76,
+          "prob": 0.999
+        },
+        {
+          "word": "it",
+          "start_sec": 184.88,
+          "end_sec": 185.14,
+          "prob": 0.997
+        },
+        {
+          "word": "comes",
+          "start_sec": 185.14,
+          "end_sec": 185.44,
+          "prob": 0.998
+        },
+        {
+          "word": "first.",
+          "start_sec": 185.44,
+          "end_sec": 185.88,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 186.24,
+          "end_sec": 186.42,
+          "prob": 0.98
+        },
+        {
+          "word": "therefore",
+          "start_sec": 186.42,
+          "end_sec": 186.92,
+          "prob": 0.967
+        },
+        {
+          "word": "36",
+          "start_sec": 186.92,
+          "end_sec": 187.56,
+          "prob": 0.619
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start_sec": 187.56,
+      "end_sec": 194.04,
+      "text": "divided by 6, that's equal to 6, then we add the 5, which is therefore equal to 11.",
+      "words": [
+        {
+          "word": "divided",
+          "start_sec": 187.56,
+          "end_sec": 187.9,
+          "prob": 0.099
+        },
+        {
+          "word": "by",
+          "start_sec": 187.9,
+          "end_sec": 188.16,
+          "prob": 0.986
+        },
+        {
+          "word": "6,",
+          "start_sec": 188.16,
+          "end_sec": 188.54,
+          "prob": 0.803
+        },
+        {
+          "word": "that's",
+          "start_sec": 188.78,
+          "end_sec": 189.0,
+          "prob": 0.935
+        },
+        {
+          "word": "equal",
+          "start_sec": 189.0,
+          "end_sec": 189.14,
+          "prob": 0.99
+        },
+        {
+          "word": "to",
+          "start_sec": 189.14,
+          "end_sec": 189.38,
+          "prob": 0.997
+        },
+        {
+          "word": "6,",
+          "start_sec": 189.38,
+          "end_sec": 189.84,
+          "prob": 0.979
+        },
+        {
+          "word": "then",
+          "start_sec": 190.1,
+          "end_sec": 190.38,
+          "prob": 0.966
+        },
+        {
+          "word": "we",
+          "start_sec": 190.38,
+          "end_sec": 190.66,
+          "prob": 0.987
+        },
+        {
+          "word": "add",
+          "start_sec": 190.66,
+          "end_sec": 190.82,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 190.82,
+          "end_sec": 191.04,
+          "prob": 0.97
+        },
+        {
+          "word": "5,",
+          "start_sec": 191.04,
+          "end_sec": 191.46,
+          "prob": 0.953
+        },
+        {
+          "word": "which",
+          "start_sec": 191.72,
+          "end_sec": 191.92,
+          "prob": 0.995
+        },
+        {
+          "word": "is",
+          "start_sec": 191.92,
+          "end_sec": 192.1,
+          "prob": 0.997
+        },
+        {
+          "word": "therefore",
+          "start_sec": 192.1,
+          "end_sec": 192.76,
+          "prob": 0.961
+        },
+        {
+          "word": "equal",
+          "start_sec": 192.76,
+          "end_sec": 193.24,
+          "prob": 0.962
+        },
+        {
+          "word": "to",
+          "start_sec": 193.24,
+          "end_sec": 193.6,
+          "prob": 0.998
+        },
+        {
+          "word": "11.",
+          "start_sec": 193.6,
+          "end_sec": 194.04,
+          "prob": 0.993
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start_sec": 195.08,
+      "end_sec": 199.12,
+      "text": "Up here on the upper left corner, notice we always are told to do what's",
+      "words": [
+        {
+          "word": "Up",
+          "start_sec": 195.08,
+          "end_sec": 195.36,
+          "prob": 0.946
+        },
+        {
+          "word": "here",
+          "start_sec": 195.36,
+          "end_sec": 195.52,
+          "prob": 0.999
+        },
+        {
+          "word": "on",
+          "start_sec": 195.52,
+          "end_sec": 195.68,
+          "prob": 0.756
+        },
+        {
+          "word": "the",
+          "start_sec": 195.68,
+          "end_sec": 195.76,
+          "prob": 0.998
+        },
+        {
+          "word": "upper",
+          "start_sec": 195.76,
+          "end_sec": 195.92,
+          "prob": 0.997
+        },
+        {
+          "word": "left",
+          "start_sec": 195.92,
+          "end_sec": 196.12,
+          "prob": 0.871
+        },
+        {
+          "word": "corner,",
+          "start_sec": 196.12,
+          "end_sec": 196.62,
+          "prob": 0.997
+        },
+        {
+          "word": "notice",
+          "start_sec": 197.12,
+          "end_sec": 197.28,
+          "prob": 0.991
+        },
+        {
+          "word": "we",
+          "start_sec": 197.28,
+          "end_sec": 197.48,
+          "prob": 0.946
+        },
+        {
+          "word": "always",
+          "start_sec": 197.48,
+          "end_sec": 197.86,
+          "prob": 0.913
+        },
+        {
+          "word": "are",
+          "start_sec": 197.86,
+          "end_sec": 198.18,
+          "prob": 0.983
+        },
+        {
+          "word": "told",
+          "start_sec": 198.18,
+          "end_sec": 198.42,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 198.42,
+          "end_sec": 198.64,
+          "prob": 0.996
+        },
+        {
+          "word": "do",
+          "start_sec": 198.64,
+          "end_sec": 198.78,
+          "prob": 0.997
+        },
+        {
+          "word": "what's",
+          "start_sec": 198.78,
+          "end_sec": 199.12,
+          "prob": 0.989
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start_sec": 199.12,
+      "end_sec": 203.56,
+      "text": "inside the parentheses first before we do any other operation. We know that we",
+      "words": [
+        {
+          "word": "inside",
+          "start_sec": 199.12,
+          "end_sec": 199.34,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 199.34,
+          "end_sec": 199.56,
+          "prob": 0.991
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 199.56,
+          "end_sec": 199.84,
+          "prob": 0.854
+        },
+        {
+          "word": "first",
+          "start_sec": 199.84,
+          "end_sec": 200.36,
+          "prob": 0.992
+        },
+        {
+          "word": "before",
+          "start_sec": 200.36,
+          "end_sec": 200.8,
+          "prob": 0.766
+        },
+        {
+          "word": "we",
+          "start_sec": 200.8,
+          "end_sec": 201.06,
+          "prob": 0.997
+        },
+        {
+          "word": "do",
+          "start_sec": 201.06,
+          "end_sec": 201.4,
+          "prob": 0.998
+        },
+        {
+          "word": "any",
+          "start_sec": 201.4,
+          "end_sec": 201.68,
+          "prob": 0.997
+        },
+        {
+          "word": "other",
+          "start_sec": 201.68,
+          "end_sec": 201.98,
+          "prob": 0.997
+        },
+        {
+          "word": "operation.",
+          "start_sec": 201.98,
+          "end_sec": 202.54,
+          "prob": 0.978
+        },
+        {
+          "word": "We",
+          "start_sec": 202.98,
+          "end_sec": 203.1,
+          "prob": 0.982
+        },
+        {
+          "word": "know",
+          "start_sec": 203.1,
+          "end_sec": 203.22,
+          "prob": 0.998
+        },
+        {
+          "word": "that",
+          "start_sec": 203.22,
+          "end_sec": 203.42,
+          "prob": 0.993
+        },
+        {
+          "word": "we",
+          "start_sec": 203.42,
+          "end_sec": 203.56,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start_sec": 203.56,
+      "end_sec": 206.9,
+      "text": "have the left parentheses multiplied times the right parentheses, even",
+      "words": [
+        {
+          "word": "have",
+          "start_sec": 203.56,
+          "end_sec": 203.72,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 203.72,
+          "end_sec": 203.92,
+          "prob": 0.982
+        },
+        {
+          "word": "left",
+          "start_sec": 203.92,
+          "end_sec": 204.16,
+          "prob": 0.994
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 204.16,
+          "end_sec": 204.62,
+          "prob": 0.96
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 204.62,
+          "end_sec": 205.24,
+          "prob": 0.71
+        },
+        {
+          "word": "times",
+          "start_sec": 205.24,
+          "end_sec": 205.54,
+          "prob": 0.787
+        },
+        {
+          "word": "the",
+          "start_sec": 205.54,
+          "end_sec": 205.7,
+          "prob": 0.992
+        },
+        {
+          "word": "right",
+          "start_sec": 205.7,
+          "end_sec": 205.9,
+          "prob": 0.999
+        },
+        {
+          "word": "parentheses,",
+          "start_sec": 205.9,
+          "end_sec": 206.34,
+          "prob": 0.983
+        },
+        {
+          "word": "even",
+          "start_sec": 206.64,
+          "end_sec": 206.9,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start_sec": 206.9,
+      "end_sec": 210.74,
+      "text": "though there's no multiplication sign, we could put a multiplication sign that",
+      "words": [
+        {
+          "word": "though",
+          "start_sec": 206.9,
+          "end_sec": 207.08,
+          "prob": 0.997
+        },
+        {
+          "word": "there's",
+          "start_sec": 207.08,
+          "end_sec": 207.28,
+          "prob": 0.979
+        },
+        {
+          "word": "no",
+          "start_sec": 207.28,
+          "end_sec": 207.54,
+          "prob": 0.997
+        },
+        {
+          "word": "multiplication",
+          "start_sec": 207.54,
+          "end_sec": 208.04,
+          "prob": 0.998
+        },
+        {
+          "word": "sign,",
+          "start_sec": 208.04,
+          "end_sec": 208.5,
+          "prob": 0.995
+        },
+        {
+          "word": "we",
+          "start_sec": 208.84,
+          "end_sec": 209.04,
+          "prob": 0.992
+        },
+        {
+          "word": "could",
+          "start_sec": 209.04,
+          "end_sec": 209.28,
+          "prob": 0.999
+        },
+        {
+          "word": "put",
+          "start_sec": 209.28,
+          "end_sec": 209.52,
+          "prob": 0.994
+        },
+        {
+          "word": "a",
+          "start_sec": 209.52,
+          "end_sec": 209.76,
+          "prob": 0.973
+        },
+        {
+          "word": "multiplication",
+          "start_sec": 209.76,
+          "end_sec": 210.2,
+          "prob": 0.998
+        },
+        {
+          "word": "sign",
+          "start_sec": 210.2,
+          "end_sec": 210.6,
+          "prob": 0.997
+        },
+        {
+          "word": "that",
+          "start_sec": 210.6,
+          "end_sec": 210.74,
+          "prob": 0.516
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start_sec": 210.74,
+      "end_sec": 214.22,
+      "text": "doesn't have to be there, it's understood to be multiplication, but we",
+      "words": [
+        {
+          "word": "doesn't",
+          "start_sec": 210.74,
+          "end_sec": 210.94,
+          "prob": 0.997
+        },
+        {
+          "word": "have",
+          "start_sec": 210.94,
+          "end_sec": 211.24,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 211.24,
+          "end_sec": 211.34,
+          "prob": 0.999
+        },
+        {
+          "word": "be",
+          "start_sec": 211.34,
+          "end_sec": 211.48,
+          "prob": 1.0
+        },
+        {
+          "word": "there,",
+          "start_sec": 211.48,
+          "end_sec": 211.66,
+          "prob": 0.998
+        },
+        {
+          "word": "it's",
+          "start_sec": 211.7,
+          "end_sec": 212.06,
+          "prob": 0.99
+        },
+        {
+          "word": "understood",
+          "start_sec": 212.06,
+          "end_sec": 212.4,
+          "prob": 0.996
+        },
+        {
+          "word": "to",
+          "start_sec": 212.4,
+          "end_sec": 212.58,
+          "prob": 0.999
+        },
+        {
+          "word": "be",
+          "start_sec": 212.58,
+          "end_sec": 212.78,
+          "prob": 0.999
+        },
+        {
+          "word": "multiplication,",
+          "start_sec": 212.78,
+          "end_sec": 213.36,
+          "prob": 0.986
+        },
+        {
+          "word": "but",
+          "start_sec": 213.74,
+          "end_sec": 213.96,
+          "prob": 0.996
+        },
+        {
+          "word": "we",
+          "start_sec": 213.96,
+          "end_sec": 214.22,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start_sec": 214.22,
+      "end_sec": 220.08,
+      "text": "simplify what's inside the parentheses, so this becomes 3 minus 6, which is a",
+      "words": [
+        {
+          "word": "simplify",
+          "start_sec": 214.22,
+          "end_sec": 215.22,
+          "prob": 0.157
+        },
+        {
+          "word": "what's",
+          "start_sec": 215.22,
+          "end_sec": 215.74,
+          "prob": 0.824
+        },
+        {
+          "word": "inside",
+          "start_sec": 215.74,
+          "end_sec": 216.0,
+          "prob": 0.991
+        },
+        {
+          "word": "the",
+          "start_sec": 216.0,
+          "end_sec": 216.28,
+          "prob": 0.968
+        },
+        {
+          "word": "parentheses,",
+          "start_sec": 216.28,
+          "end_sec": 216.66,
+          "prob": 0.833
+        },
+        {
+          "word": "so",
+          "start_sec": 217.26,
+          "end_sec": 217.34,
+          "prob": 0.921
+        },
+        {
+          "word": "this",
+          "start_sec": 217.34,
+          "end_sec": 217.58,
+          "prob": 0.981
+        },
+        {
+          "word": "becomes",
+          "start_sec": 217.58,
+          "end_sec": 218.28,
+          "prob": 0.994
+        },
+        {
+          "word": "3",
+          "start_sec": 218.28,
+          "end_sec": 218.96,
+          "prob": 0.794
+        },
+        {
+          "word": "minus",
+          "start_sec": 218.96,
+          "end_sec": 219.24,
+          "prob": 0.398
+        },
+        {
+          "word": "6,",
+          "start_sec": 219.24,
+          "end_sec": 219.56,
+          "prob": 0.993
+        },
+        {
+          "word": "which",
+          "start_sec": 219.56,
+          "end_sec": 219.74,
+          "prob": 0.994
+        },
+        {
+          "word": "is",
+          "start_sec": 219.74,
+          "end_sec": 219.96,
+          "prob": 0.998
+        },
+        {
+          "word": "a",
+          "start_sec": 219.96,
+          "end_sec": 220.08,
+          "prob": 0.952
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start_sec": 220.08,
+      "end_sec": 225.42,
+      "text": "minus 3, multiplied times 6 minus 3, which is a positive 3. Now we can simply",
+      "words": [
+        {
+          "word": "minus",
+          "start_sec": 220.08,
+          "end_sec": 220.34,
+          "prob": 0.966
+        },
+        {
+          "word": "3,",
+          "start_sec": 220.34,
+          "end_sec": 220.9,
+          "prob": 0.956
+        },
+        {
+          "word": "multiplied",
+          "start_sec": 221.06,
+          "end_sec": 221.58,
+          "prob": 0.397
+        },
+        {
+          "word": "times",
+          "start_sec": 221.58,
+          "end_sec": 222.08,
+          "prob": 0.658
+        },
+        {
+          "word": "6",
+          "start_sec": 222.08,
+          "end_sec": 222.38,
+          "prob": 0.982
+        },
+        {
+          "word": "minus",
+          "start_sec": 222.38,
+          "end_sec": 222.66,
+          "prob": 0.978
+        },
+        {
+          "word": "3,",
+          "start_sec": 222.66,
+          "end_sec": 222.88,
+          "prob": 0.958
+        },
+        {
+          "word": "which",
+          "start_sec": 222.98,
+          "end_sec": 223.06,
+          "prob": 0.987
+        },
+        {
+          "word": "is",
+          "start_sec": 223.06,
+          "end_sec": 223.24,
+          "prob": 0.995
+        },
+        {
+          "word": "a",
+          "start_sec": 223.24,
+          "end_sec": 223.42,
+          "prob": 0.963
+        },
+        {
+          "word": "positive",
+          "start_sec": 223.42,
+          "end_sec": 223.82,
+          "prob": 0.995
+        },
+        {
+          "word": "3.",
+          "start_sec": 223.82,
+          "end_sec": 224.26,
+          "prob": 0.972
+        },
+        {
+          "word": "Now",
+          "start_sec": 224.58,
+          "end_sec": 224.8,
+          "prob": 0.977
+        },
+        {
+          "word": "we",
+          "start_sec": 224.8,
+          "end_sec": 224.9,
+          "prob": 0.806
+        },
+        {
+          "word": "can",
+          "start_sec": 224.9,
+          "end_sec": 225.12,
+          "prob": 0.997
+        },
+        {
+          "word": "simply",
+          "start_sec": 225.12,
+          "end_sec": 225.42,
+          "prob": 0.989
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start_sec": 225.42,
+      "end_sec": 232.4,
+      "text": "multiply the two together, which is equal to a negative 9. Here again we",
+      "words": [
+        {
+          "word": "multiply",
+          "start_sec": 225.42,
+          "end_sec": 225.94,
+          "prob": 0.995
+        },
+        {
+          "word": "the",
+          "start_sec": 225.94,
+          "end_sec": 226.08,
+          "prob": 0.995
+        },
+        {
+          "word": "two",
+          "start_sec": 226.08,
+          "end_sec": 226.2,
+          "prob": 0.938
+        },
+        {
+          "word": "together,",
+          "start_sec": 226.2,
+          "end_sec": 226.7,
+          "prob": 0.999
+        },
+        {
+          "word": "which",
+          "start_sec": 227.1,
+          "end_sec": 227.18,
+          "prob": 0.998
+        },
+        {
+          "word": "is",
+          "start_sec": 227.18,
+          "end_sec": 227.44,
+          "prob": 0.998
+        },
+        {
+          "word": "equal",
+          "start_sec": 227.44,
+          "end_sec": 227.6,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 227.6,
+          "end_sec": 228.18,
+          "prob": 0.999
+        },
+        {
+          "word": "a",
+          "start_sec": 228.18,
+          "end_sec": 228.4,
+          "prob": 0.826
+        },
+        {
+          "word": "negative",
+          "start_sec": 228.4,
+          "end_sec": 228.76,
+          "prob": 0.972
+        },
+        {
+          "word": "9.",
+          "start_sec": 228.76,
+          "end_sec": 229.32,
+          "prob": 0.952
+        },
+        {
+          "word": "Here",
+          "start_sec": 231.12,
+          "end_sec": 231.58,
+          "prob": 0.963
+        },
+        {
+          "word": "again",
+          "start_sec": 231.58,
+          "end_sec": 232.24,
+          "prob": 0.681
+        },
+        {
+          "word": "we",
+          "start_sec": 232.24,
+          "end_sec": 232.4,
+          "prob": 0.538
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start_sec": 232.4,
+      "end_sec": 237.78,
+      "text": "must simplify what's inside the parentheses first. Notice I said the",
+      "words": [
+        {
+          "word": "must",
+          "start_sec": 232.4,
+          "end_sec": 233.22,
+          "prob": 0.999
+        },
+        {
+          "word": "simplify",
+          "start_sec": 233.22,
+          "end_sec": 234.54,
+          "prob": 0.382
+        },
+        {
+          "word": "what's",
+          "start_sec": 234.54,
+          "end_sec": 235.34,
+          "prob": 0.986
+        },
+        {
+          "word": "inside",
+          "start_sec": 235.34,
+          "end_sec": 235.94,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 235.94,
+          "end_sec": 236.2,
+          "prob": 0.99
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 236.2,
+          "end_sec": 236.5,
+          "prob": 0.982
+        },
+        {
+          "word": "first.",
+          "start_sec": 236.5,
+          "end_sec": 236.82,
+          "prob": 0.948
+        },
+        {
+          "word": "Notice",
+          "start_sec": 236.96,
+          "end_sec": 237.26,
+          "prob": 0.986
+        },
+        {
+          "word": "I",
+          "start_sec": 237.26,
+          "end_sec": 237.48,
+          "prob": 0.938
+        },
+        {
+          "word": "said",
+          "start_sec": 237.48,
+          "end_sec": 237.58,
+          "prob": 0.994
+        },
+        {
+          "word": "the",
+          "start_sec": 237.58,
+          "end_sec": 237.78,
+          "prob": 0.96
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start_sec": 237.78,
+      "end_sec": 241.66,
+      "text": "word solve, but that's wrong. We're not solving anything, we're simplifying",
+      "words": [
+        {
+          "word": "word",
+          "start_sec": 237.78,
+          "end_sec": 237.96,
+          "prob": 0.961
+        },
+        {
+          "word": "solve,",
+          "start_sec": 237.96,
+          "end_sec": 238.36,
+          "prob": 0.395
+        },
+        {
+          "word": "but",
+          "start_sec": 238.36,
+          "end_sec": 238.52,
+          "prob": 0.997
+        },
+        {
+          "word": "that's",
+          "start_sec": 238.52,
+          "end_sec": 238.8,
+          "prob": 0.997
+        },
+        {
+          "word": "wrong.",
+          "start_sec": 238.8,
+          "end_sec": 239.1,
+          "prob": 0.998
+        },
+        {
+          "word": "We're",
+          "start_sec": 239.36,
+          "end_sec": 239.54,
+          "prob": 0.98
+        },
+        {
+          "word": "not",
+          "start_sec": 239.54,
+          "end_sec": 239.68,
+          "prob": 0.999
+        },
+        {
+          "word": "solving",
+          "start_sec": 239.68,
+          "end_sec": 239.98,
+          "prob": 0.999
+        },
+        {
+          "word": "anything,",
+          "start_sec": 239.98,
+          "end_sec": 240.36,
+          "prob": 0.998
+        },
+        {
+          "word": "we're",
+          "start_sec": 240.68,
+          "end_sec": 241.02,
+          "prob": 0.988
+        },
+        {
+          "word": "simplifying",
+          "start_sec": 241.02,
+          "end_sec": 241.66,
+          "prob": 0.995
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start_sec": 241.66,
+      "end_sec": 248.04,
+      "text": "things. So simplify what's inside the parentheses, so this becomes 2 plus 3",
+      "words": [
+        {
+          "word": "things.",
+          "start_sec": 241.66,
+          "end_sec": 242.2,
+          "prob": 0.49
+        },
+        {
+          "word": "So",
+          "start_sec": 242.3,
+          "end_sec": 242.68,
+          "prob": 0.968
+        },
+        {
+          "word": "simplify",
+          "start_sec": 242.68,
+          "end_sec": 243.06,
+          "prob": 0.879
+        },
+        {
+          "word": "what's",
+          "start_sec": 243.06,
+          "end_sec": 243.42,
+          "prob": 0.963
+        },
+        {
+          "word": "inside",
+          "start_sec": 243.42,
+          "end_sec": 243.66,
+          "prob": 0.997
+        },
+        {
+          "word": "the",
+          "start_sec": 243.66,
+          "end_sec": 243.92,
+          "prob": 0.99
+        },
+        {
+          "word": "parentheses,",
+          "start_sec": 243.92,
+          "end_sec": 244.3,
+          "prob": 0.826
+        },
+        {
+          "word": "so",
+          "start_sec": 244.8,
+          "end_sec": 244.98,
+          "prob": 0.97
+        },
+        {
+          "word": "this",
+          "start_sec": 244.98,
+          "end_sec": 245.14,
+          "prob": 0.982
+        },
+        {
+          "word": "becomes",
+          "start_sec": 245.14,
+          "end_sec": 245.56,
+          "prob": 0.992
+        },
+        {
+          "word": "2",
+          "start_sec": 245.56,
+          "end_sec": 246.2,
+          "prob": 0.802
+        },
+        {
+          "word": "plus",
+          "start_sec": 246.2,
+          "end_sec": 247.22,
+          "prob": 0.595
+        },
+        {
+          "word": "3",
+          "start_sec": 247.38,
+          "end_sec": 248.04,
+          "prob": 0.87
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start_sec": 248.04,
+      "end_sec": 254.94,
+      "text": "plus 5, which is 8, minus 6 minus 4, which is 2. So I can already take out the",
+      "words": [
+        {
+          "word": "plus",
+          "start_sec": 248.04,
+          "end_sec": 248.34,
+          "prob": 0.984
+        },
+        {
+          "word": "5,",
+          "start_sec": 248.34,
+          "end_sec": 248.64,
+          "prob": 0.991
+        },
+        {
+          "word": "which",
+          "start_sec": 248.66,
+          "end_sec": 248.84,
+          "prob": 0.994
+        },
+        {
+          "word": "is",
+          "start_sec": 248.84,
+          "end_sec": 249.06,
+          "prob": 0.998
+        },
+        {
+          "word": "8,",
+          "start_sec": 249.06,
+          "end_sec": 249.7,
+          "prob": 0.984
+        },
+        {
+          "word": "minus",
+          "start_sec": 250.0,
+          "end_sec": 250.54,
+          "prob": 0.989
+        },
+        {
+          "word": "6",
+          "start_sec": 250.54,
+          "end_sec": 251.14,
+          "prob": 0.989
+        },
+        {
+          "word": "minus",
+          "start_sec": 251.14,
+          "end_sec": 251.5,
+          "prob": 0.987
+        },
+        {
+          "word": "4,",
+          "start_sec": 251.5,
+          "end_sec": 251.82,
+          "prob": 0.995
+        },
+        {
+          "word": "which",
+          "start_sec": 251.82,
+          "end_sec": 252.08,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 252.08,
+          "end_sec": 252.38,
+          "prob": 0.999
+        },
+        {
+          "word": "2.",
+          "start_sec": 252.38,
+          "end_sec": 252.82,
+          "prob": 0.989
+        },
+        {
+          "word": "So",
+          "start_sec": 253.12,
+          "end_sec": 253.34,
+          "prob": 0.981
+        },
+        {
+          "word": "I",
+          "start_sec": 253.34,
+          "end_sec": 253.44,
+          "prob": 0.968
+        },
+        {
+          "word": "can",
+          "start_sec": 253.44,
+          "end_sec": 253.84,
+          "prob": 0.997
+        },
+        {
+          "word": "already",
+          "start_sec": 253.84,
+          "end_sec": 254.26,
+          "prob": 0.996
+        },
+        {
+          "word": "take",
+          "start_sec": 254.26,
+          "end_sec": 254.52,
+          "prob": 0.999
+        },
+        {
+          "word": "out",
+          "start_sec": 254.52,
+          "end_sec": 254.7,
+          "prob": 0.684
+        },
+        {
+          "word": "the",
+          "start_sec": 254.7,
+          "end_sec": 254.94,
+          "prob": 0.925
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start_sec": 254.94,
+      "end_sec": 260.52,
+      "text": "parentheses because I simplify them. 3 plus 5 is 8, 6 minus 4 is 2, and I",
+      "words": [
+        {
+          "word": "parentheses",
+          "start_sec": 254.94,
+          "end_sec": 255.28,
+          "prob": 0.983
+        },
+        {
+          "word": "because",
+          "start_sec": 255.28,
+          "end_sec": 255.74,
+          "prob": 0.891
+        },
+        {
+          "word": "I",
+          "start_sec": 255.74,
+          "end_sec": 256.16,
+          "prob": 0.988
+        },
+        {
+          "word": "simplify",
+          "start_sec": 256.16,
+          "end_sec": 256.6,
+          "prob": 0.807
+        },
+        {
+          "word": "them.",
+          "start_sec": 256.6,
+          "end_sec": 257.04,
+          "prob": 0.995
+        },
+        {
+          "word": "3",
+          "start_sec": 257.46,
+          "end_sec": 257.72,
+          "prob": 0.955
+        },
+        {
+          "word": "plus",
+          "start_sec": 257.72,
+          "end_sec": 257.94,
+          "prob": 0.982
+        },
+        {
+          "word": "5",
+          "start_sec": 257.94,
+          "end_sec": 258.2,
+          "prob": 0.994
+        },
+        {
+          "word": "is",
+          "start_sec": 258.2,
+          "end_sec": 258.36,
+          "prob": 0.993
+        },
+        {
+          "word": "8,",
+          "start_sec": 258.36,
+          "end_sec": 258.72,
+          "prob": 0.99
+        },
+        {
+          "word": "6",
+          "start_sec": 258.94,
+          "end_sec": 259.24,
+          "prob": 0.988
+        },
+        {
+          "word": "minus",
+          "start_sec": 259.24,
+          "end_sec": 259.52,
+          "prob": 0.997
+        },
+        {
+          "word": "4",
+          "start_sec": 259.52,
+          "end_sec": 259.72,
+          "prob": 0.996
+        },
+        {
+          "word": "is",
+          "start_sec": 259.72,
+          "end_sec": 259.98,
+          "prob": 0.996
+        },
+        {
+          "word": "2,",
+          "start_sec": 259.98,
+          "end_sec": 260.2,
+          "prob": 0.993
+        },
+        {
+          "word": "and",
+          "start_sec": 260.2,
+          "end_sec": 260.42,
+          "prob": 0.997
+        },
+        {
+          "word": "I",
+          "start_sec": 260.42,
+          "end_sec": 260.52,
+          "prob": 0.975
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start_sec": 260.52,
+      "end_sec": 266.34,
+      "text": "subtract the 2 from the 8, so 8 minus 2. Now next what I'm going to do",
+      "words": [
+        {
+          "word": "subtract",
+          "start_sec": 260.52,
+          "end_sec": 261.12,
+          "prob": 0.999
+        },
+        {
+          "word": "the",
+          "start_sec": 261.12,
+          "end_sec": 261.54,
+          "prob": 0.967
+        },
+        {
+          "word": "2",
+          "start_sec": 261.54,
+          "end_sec": 261.96,
+          "prob": 0.962
+        },
+        {
+          "word": "from",
+          "start_sec": 261.96,
+          "end_sec": 262.52,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 262.52,
+          "end_sec": 262.86,
+          "prob": 0.995
+        },
+        {
+          "word": "8,",
+          "start_sec": 262.86,
+          "end_sec": 263.16,
+          "prob": 0.995
+        },
+        {
+          "word": "so",
+          "start_sec": 263.32,
+          "end_sec": 263.52,
+          "prob": 0.991
+        },
+        {
+          "word": "8",
+          "start_sec": 263.52,
+          "end_sec": 263.76,
+          "prob": 0.971
+        },
+        {
+          "word": "minus",
+          "start_sec": 263.76,
+          "end_sec": 264.04,
+          "prob": 0.989
+        },
+        {
+          "word": "2.",
+          "start_sec": 264.04,
+          "end_sec": 264.38,
+          "prob": 0.998
+        },
+        {
+          "word": "Now",
+          "start_sec": 265.0,
+          "end_sec": 265.28,
+          "prob": 0.944
+        },
+        {
+          "word": "next",
+          "start_sec": 265.28,
+          "end_sec": 265.48,
+          "prob": 0.862
+        },
+        {
+          "word": "what",
+          "start_sec": 265.48,
+          "end_sec": 265.64,
+          "prob": 0.793
+        },
+        {
+          "word": "I'm",
+          "start_sec": 265.64,
+          "end_sec": 265.86,
+          "prob": 0.985
+        },
+        {
+          "word": "going",
+          "start_sec": 265.86,
+          "end_sec": 265.96,
+          "prob": 0.996
+        },
+        {
+          "word": "to",
+          "start_sec": 265.96,
+          "end_sec": 266.18,
+          "prob": 0.999
+        },
+        {
+          "word": "do",
+          "start_sec": 266.18,
+          "end_sec": 266.34,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start_sec": 266.34,
+      "end_sec": 270.46,
+      "text": "is I'm going to solve what's inside the brackets, so we have 2 plus 8",
+      "words": [
+        {
+          "word": "is",
+          "start_sec": 266.34,
+          "end_sec": 266.58,
+          "prob": 0.857
+        },
+        {
+          "word": "I'm",
+          "start_sec": 266.58,
+          "end_sec": 266.78,
+          "prob": 0.947
+        },
+        {
+          "word": "going",
+          "start_sec": 266.78,
+          "end_sec": 266.9,
+          "prob": 0.998
+        },
+        {
+          "word": "to",
+          "start_sec": 266.9,
+          "end_sec": 267.06,
+          "prob": 0.997
+        },
+        {
+          "word": "solve",
+          "start_sec": 267.06,
+          "end_sec": 267.24,
+          "prob": 0.999
+        },
+        {
+          "word": "what's",
+          "start_sec": 267.24,
+          "end_sec": 267.52,
+          "prob": 0.983
+        },
+        {
+          "word": "inside",
+          "start_sec": 267.52,
+          "end_sec": 267.74,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 267.74,
+          "end_sec": 268.0,
+          "prob": 0.996
+        },
+        {
+          "word": "brackets,",
+          "start_sec": 268.0,
+          "end_sec": 268.28,
+          "prob": 0.867
+        },
+        {
+          "word": "so",
+          "start_sec": 268.3,
+          "end_sec": 268.52,
+          "prob": 0.997
+        },
+        {
+          "word": "we",
+          "start_sec": 268.52,
+          "end_sec": 268.66,
+          "prob": 0.996
+        },
+        {
+          "word": "have",
+          "start_sec": 268.66,
+          "end_sec": 268.84,
+          "prob": 0.998
+        },
+        {
+          "word": "2",
+          "start_sec": 268.84,
+          "end_sec": 269.22,
+          "prob": 0.971
+        },
+        {
+          "word": "plus",
+          "start_sec": 269.22,
+          "end_sec": 269.78,
+          "prob": 0.994
+        },
+        {
+          "word": "8",
+          "start_sec": 269.78,
+          "end_sec": 270.46,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start_sec": 270.46,
+      "end_sec": 276.58,
+      "text": "minus 2, which is 6, and finally 2 plus 6, which is equal to 8, which is the",
+      "words": [
+        {
+          "word": "minus",
+          "start_sec": 270.46,
+          "end_sec": 270.78,
+          "prob": 0.578
+        },
+        {
+          "word": "2,",
+          "start_sec": 270.78,
+          "end_sec": 271.0,
+          "prob": 0.449
+        },
+        {
+          "word": "which",
+          "start_sec": 271.04,
+          "end_sec": 271.16,
+          "prob": 0.993
+        },
+        {
+          "word": "is",
+          "start_sec": 271.16,
+          "end_sec": 271.36,
+          "prob": 0.997
+        },
+        {
+          "word": "6,",
+          "start_sec": 271.36,
+          "end_sec": 271.94,
+          "prob": 0.975
+        },
+        {
+          "word": "and",
+          "start_sec": 273.04,
+          "end_sec": 273.18,
+          "prob": 0.988
+        },
+        {
+          "word": "finally",
+          "start_sec": 273.18,
+          "end_sec": 273.54,
+          "prob": 0.958
+        },
+        {
+          "word": "2",
+          "start_sec": 273.54,
+          "end_sec": 273.84,
+          "prob": 0.827
+        },
+        {
+          "word": "plus",
+          "start_sec": 273.84,
+          "end_sec": 274.08,
+          "prob": 0.924
+        },
+        {
+          "word": "6,",
+          "start_sec": 274.08,
+          "end_sec": 274.54,
+          "prob": 0.997
+        },
+        {
+          "word": "which",
+          "start_sec": 274.6,
+          "end_sec": 274.88,
+          "prob": 0.998
+        },
+        {
+          "word": "is",
+          "start_sec": 274.88,
+          "end_sec": 275.08,
+          "prob": 0.998
+        },
+        {
+          "word": "equal",
+          "start_sec": 275.08,
+          "end_sec": 275.22,
+          "prob": 0.972
+        },
+        {
+          "word": "to",
+          "start_sec": 275.22,
+          "end_sec": 275.4,
+          "prob": 0.994
+        },
+        {
+          "word": "8,",
+          "start_sec": 275.4,
+          "end_sec": 275.76,
+          "prob": 0.993
+        },
+        {
+          "word": "which",
+          "start_sec": 275.88,
+          "end_sec": 276.08,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 276.08,
+          "end_sec": 276.32,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 276.32,
+          "end_sec": 276.58,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start_sec": 276.9,
+      "end_sec": 282.12,
+      "text": "simplest form of our initial expression. And finally we have something here",
+      "words": [
+        {
+          "word": "simplest",
+          "start_sec": 276.9,
+          "end_sec": 277.3,
+          "prob": 0.996
+        },
+        {
+          "word": "form",
+          "start_sec": 277.3,
+          "end_sec": 277.76,
+          "prob": 0.998
+        },
+        {
+          "word": "of",
+          "start_sec": 277.76,
+          "end_sec": 278.3,
+          "prob": 0.996
+        },
+        {
+          "word": "our",
+          "start_sec": 278.3,
+          "end_sec": 278.54,
+          "prob": 0.998
+        },
+        {
+          "word": "initial",
+          "start_sec": 278.54,
+          "end_sec": 278.84,
+          "prob": 0.994
+        },
+        {
+          "word": "expression.",
+          "start_sec": 278.84,
+          "end_sec": 279.44,
+          "prob": 0.999
+        },
+        {
+          "word": "And",
+          "start_sec": 280.38,
+          "end_sec": 280.66,
+          "prob": 0.878
+        },
+        {
+          "word": "finally",
+          "start_sec": 280.66,
+          "end_sec": 280.88,
+          "prob": 0.959
+        },
+        {
+          "word": "we",
+          "start_sec": 280.88,
+          "end_sec": 281.02,
+          "prob": 0.632
+        },
+        {
+          "word": "have",
+          "start_sec": 281.02,
+          "end_sec": 281.46,
+          "prob": 0.998
+        },
+        {
+          "word": "something",
+          "start_sec": 281.46,
+          "end_sec": 281.84,
+          "prob": 0.997
+        },
+        {
+          "word": "here",
+          "start_sec": 281.84,
+          "end_sec": 282.12,
+          "prob": 0.991
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start_sec": 282.12,
+      "end_sec": 284.68,
+      "text": "that looks a little bit more complicated. Notice we have absolute",
+      "words": [
+        {
+          "word": "that",
+          "start_sec": 282.12,
+          "end_sec": 282.24,
+          "prob": 0.989
+        },
+        {
+          "word": "looks",
+          "start_sec": 282.24,
+          "end_sec": 282.46,
+          "prob": 0.994
+        },
+        {
+          "word": "a",
+          "start_sec": 282.46,
+          "end_sec": 282.6,
+          "prob": 0.997
+        },
+        {
+          "word": "little",
+          "start_sec": 282.6,
+          "end_sec": 282.72,
+          "prob": 0.989
+        },
+        {
+          "word": "bit",
+          "start_sec": 282.72,
+          "end_sec": 282.86,
+          "prob": 0.956
+        },
+        {
+          "word": "more",
+          "start_sec": 282.86,
+          "end_sec": 283.12,
+          "prob": 0.996
+        },
+        {
+          "word": "complicated.",
+          "start_sec": 283.12,
+          "end_sec": 283.62,
+          "prob": 0.999
+        },
+        {
+          "word": "Notice",
+          "start_sec": 283.76,
+          "end_sec": 284.02,
+          "prob": 0.99
+        },
+        {
+          "word": "we",
+          "start_sec": 284.02,
+          "end_sec": 284.2,
+          "prob": 0.952
+        },
+        {
+          "word": "have",
+          "start_sec": 284.2,
+          "end_sec": 284.44,
+          "prob": 0.996
+        },
+        {
+          "word": "absolute",
+          "start_sec": 284.44,
+          "end_sec": 284.68,
+          "prob": 0.981
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start_sec": 284.68,
+      "end_sec": 289.12,
+      "text": "value signs, we have exponents, we have brackets. Alright, what do we do",
+      "words": [
+        {
+          "word": "value",
+          "start_sec": 284.68,
+          "end_sec": 285.08,
+          "prob": 0.893
+        },
+        {
+          "word": "signs,",
+          "start_sec": 285.08,
+          "end_sec": 285.5,
+          "prob": 0.353
+        },
+        {
+          "word": "we",
+          "start_sec": 285.74,
+          "end_sec": 285.74,
+          "prob": 0.991
+        },
+        {
+          "word": "have",
+          "start_sec": 285.74,
+          "end_sec": 286.12,
+          "prob": 0.999
+        },
+        {
+          "word": "exponents,",
+          "start_sec": 286.12,
+          "end_sec": 286.74,
+          "prob": 0.998
+        },
+        {
+          "word": "we",
+          "start_sec": 286.84,
+          "end_sec": 286.9,
+          "prob": 0.994
+        },
+        {
+          "word": "have",
+          "start_sec": 286.9,
+          "end_sec": 287.18,
+          "prob": 0.999
+        },
+        {
+          "word": "brackets.",
+          "start_sec": 287.18,
+          "end_sec": 287.7,
+          "prob": 0.999
+        },
+        {
+          "word": "Alright,",
+          "start_sec": 288.26,
+          "end_sec": 288.52,
+          "prob": 0.494
+        },
+        {
+          "word": "what",
+          "start_sec": 288.62,
+          "end_sec": 288.8,
+          "prob": 0.994
+        },
+        {
+          "word": "do",
+          "start_sec": 288.8,
+          "end_sec": 288.92,
+          "prob": 0.972
+        },
+        {
+          "word": "we",
+          "start_sec": 288.92,
+          "end_sec": 288.98,
+          "prob": 0.999
+        },
+        {
+          "word": "do",
+          "start_sec": 288.98,
+          "end_sec": 289.12,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start_sec": 289.12,
+      "end_sec": 293.1,
+      "text": "first? Well we solve what's inside the parentheses as well as what's",
+      "words": [
+        {
+          "word": "first?",
+          "start_sec": 289.12,
+          "end_sec": 289.48,
+          "prob": 0.998
+        },
+        {
+          "word": "Well",
+          "start_sec": 289.78,
+          "end_sec": 289.98,
+          "prob": 0.95
+        },
+        {
+          "word": "we",
+          "start_sec": 289.98,
+          "end_sec": 290.1,
+          "prob": 0.636
+        },
+        {
+          "word": "solve",
+          "start_sec": 290.1,
+          "end_sec": 290.4,
+          "prob": 0.991
+        },
+        {
+          "word": "what's",
+          "start_sec": 290.4,
+          "end_sec": 290.8,
+          "prob": 0.974
+        },
+        {
+          "word": "inside",
+          "start_sec": 290.8,
+          "end_sec": 291.06,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 291.06,
+          "end_sec": 291.34,
+          "prob": 0.994
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 291.34,
+          "end_sec": 291.68,
+          "prob": 0.825
+        },
+        {
+          "word": "as",
+          "start_sec": 291.68,
+          "end_sec": 292.28,
+          "prob": 0.654
+        },
+        {
+          "word": "well",
+          "start_sec": 292.28,
+          "end_sec": 292.58,
+          "prob": 0.999
+        },
+        {
+          "word": "as",
+          "start_sec": 292.58,
+          "end_sec": 292.72,
+          "prob": 0.992
+        },
+        {
+          "word": "what's",
+          "start_sec": 292.72,
+          "end_sec": 293.1,
+          "prob": 0.994
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start_sec": 293.1,
+      "end_sec": 296.5,
+      "text": "inside the absolute value signs. We do exactly the same with absolute",
+      "words": [
+        {
+          "word": "inside",
+          "start_sec": 293.1,
+          "end_sec": 293.38,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 293.38,
+          "end_sec": 293.62,
+          "prob": 0.996
+        },
+        {
+          "word": "absolute",
+          "start_sec": 293.62,
+          "end_sec": 293.86,
+          "prob": 0.995
+        },
+        {
+          "word": "value",
+          "start_sec": 293.86,
+          "end_sec": 294.2,
+          "prob": 0.929
+        },
+        {
+          "word": "signs.",
+          "start_sec": 294.2,
+          "end_sec": 294.46,
+          "prob": 0.957
+        },
+        {
+          "word": "We",
+          "start_sec": 294.58,
+          "end_sec": 294.64,
+          "prob": 0.99
+        },
+        {
+          "word": "do",
+          "start_sec": 294.64,
+          "end_sec": 294.8,
+          "prob": 0.91
+        },
+        {
+          "word": "exactly",
+          "start_sec": 294.8,
+          "end_sec": 295.22,
+          "prob": 0.991
+        },
+        {
+          "word": "the",
+          "start_sec": 295.22,
+          "end_sec": 295.46,
+          "prob": 0.999
+        },
+        {
+          "word": "same",
+          "start_sec": 295.46,
+          "end_sec": 295.88,
+          "prob": 1.0
+        },
+        {
+          "word": "with",
+          "start_sec": 295.88,
+          "end_sec": 296.18,
+          "prob": 0.967
+        },
+        {
+          "word": "absolute",
+          "start_sec": 296.18,
+          "end_sec": 296.5,
+          "prob": 0.845
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start_sec": 296.5,
+      "end_sec": 304.45,
+      "text": "value signs as we do with parentheses. So this is equal to 5 times 3 minus 4",
+      "words": [
+        {
+          "word": "value",
+          "start_sec": 296.5,
+          "end_sec": 296.9,
+          "prob": 0.534
+        },
+        {
+          "word": "signs",
+          "start_sec": 296.9,
+          "end_sec": 297.14,
+          "prob": 0.104
+        },
+        {
+          "word": "as",
+          "start_sec": 297.14,
+          "end_sec": 297.36,
+          "prob": 0.494
+        },
+        {
+          "word": "we",
+          "start_sec": 297.36,
+          "end_sec": 297.46,
+          "prob": 0.856
+        },
+        {
+          "word": "do",
+          "start_sec": 297.46,
+          "end_sec": 297.64,
+          "prob": 0.788
+        },
+        {
+          "word": "with",
+          "start_sec": 297.64,
+          "end_sec": 297.92,
+          "prob": 0.934
+        },
+        {
+          "word": "parentheses.",
+          "start_sec": 297.92,
+          "end_sec": 298.5,
+          "prob": 0.918
+        },
+        {
+          "word": "So",
+          "start_sec": 299.63,
+          "end_sec": 299.97,
+          "prob": 0.93
+        },
+        {
+          "word": "this",
+          "start_sec": 299.97,
+          "end_sec": 300.23,
+          "prob": 0.821
+        },
+        {
+          "word": "is",
+          "start_sec": 300.23,
+          "end_sec": 300.47,
+          "prob": 0.998
+        },
+        {
+          "word": "equal",
+          "start_sec": 300.47,
+          "end_sec": 300.63,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 300.63,
+          "end_sec": 301.01,
+          "prob": 0.996
+        },
+        {
+          "word": "5",
+          "start_sec": 301.01,
+          "end_sec": 301.43,
+          "prob": 0.605
+        },
+        {
+          "word": "times",
+          "start_sec": 301.43,
+          "end_sec": 302.55,
+          "prob": 0.831
+        },
+        {
+          "word": "3",
+          "start_sec": 302.55,
+          "end_sec": 303.39,
+          "prob": 0.923
+        },
+        {
+          "word": "minus",
+          "start_sec": 303.39,
+          "end_sec": 303.89,
+          "prob": 0.859
+        },
+        {
+          "word": "4",
+          "start_sec": 303.89,
+          "end_sec": 304.45,
+          "prob": 0.977
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start_sec": 304.45,
+      "end_sec": 309.65,
+      "text": "squared plus 16 minus 2 squared. So inside the parentheses we have an",
+      "words": [
+        {
+          "word": "squared",
+          "start_sec": 304.45,
+          "end_sec": 305.13,
+          "prob": 0.983
+        },
+        {
+          "word": "plus",
+          "start_sec": 305.13,
+          "end_sec": 306.13,
+          "prob": 0.893
+        },
+        {
+          "word": "16",
+          "start_sec": 306.13,
+          "end_sec": 306.87,
+          "prob": 0.992
+        },
+        {
+          "word": "minus",
+          "start_sec": 306.87,
+          "end_sec": 307.41,
+          "prob": 0.981
+        },
+        {
+          "word": "2",
+          "start_sec": 307.41,
+          "end_sec": 307.69,
+          "prob": 0.953
+        },
+        {
+          "word": "squared.",
+          "start_sec": 307.69,
+          "end_sec": 307.93,
+          "prob": 0.923
+        },
+        {
+          "word": "So",
+          "start_sec": 308.13,
+          "end_sec": 308.25,
+          "prob": 0.927
+        },
+        {
+          "word": "inside",
+          "start_sec": 308.25,
+          "end_sec": 308.51,
+          "prob": 0.964
+        },
+        {
+          "word": "the",
+          "start_sec": 308.51,
+          "end_sec": 308.73,
+          "prob": 0.639
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 308.73,
+          "end_sec": 309.11,
+          "prob": 0.979
+        },
+        {
+          "word": "we",
+          "start_sec": 309.11,
+          "end_sec": 309.31,
+          "prob": 0.863
+        },
+        {
+          "word": "have",
+          "start_sec": 309.31,
+          "end_sec": 309.41,
+          "prob": 0.955
+        },
+        {
+          "word": "an",
+          "start_sec": 309.41,
+          "end_sec": 309.65,
+          "prob": 0.974
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start_sec": 309.65,
+      "end_sec": 315.05,
+      "text": "exponent, we do that first. So we end up with 16 minus 4 inside the",
+      "words": [
+        {
+          "word": "exponent,",
+          "start_sec": 309.65,
+          "end_sec": 310.01,
+          "prob": 0.999
+        },
+        {
+          "word": "we",
+          "start_sec": 310.07,
+          "end_sec": 310.21,
+          "prob": 0.971
+        },
+        {
+          "word": "do",
+          "start_sec": 310.21,
+          "end_sec": 310.41,
+          "prob": 0.995
+        },
+        {
+          "word": "that",
+          "start_sec": 310.41,
+          "end_sec": 310.63,
+          "prob": 0.998
+        },
+        {
+          "word": "first.",
+          "start_sec": 310.63,
+          "end_sec": 310.91,
+          "prob": 0.998
+        },
+        {
+          "word": "So",
+          "start_sec": 310.97,
+          "end_sec": 311.11,
+          "prob": 0.638
+        },
+        {
+          "word": "we",
+          "start_sec": 311.11,
+          "end_sec": 311.15,
+          "prob": 0.985
+        },
+        {
+          "word": "end",
+          "start_sec": 311.15,
+          "end_sec": 311.31,
+          "prob": 0.987
+        },
+        {
+          "word": "up",
+          "start_sec": 311.31,
+          "end_sec": 311.45,
+          "prob": 0.999
+        },
+        {
+          "word": "with",
+          "start_sec": 311.45,
+          "end_sec": 311.63,
+          "prob": 0.629
+        },
+        {
+          "word": "16",
+          "start_sec": 311.63,
+          "end_sec": 312.27,
+          "prob": 0.996
+        },
+        {
+          "word": "minus",
+          "start_sec": 312.27,
+          "end_sec": 313.07,
+          "prob": 0.984
+        },
+        {
+          "word": "4",
+          "start_sec": 313.07,
+          "end_sec": 313.77,
+          "prob": 0.972
+        },
+        {
+          "word": "inside",
+          "start_sec": 313.77,
+          "end_sec": 314.71,
+          "prob": 0.971
+        },
+        {
+          "word": "the",
+          "start_sec": 314.71,
+          "end_sec": 315.05,
+          "prob": 0.996
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start_sec": 315.05,
+      "end_sec": 318.59,
+      "text": "absolute value signs. Now we can go ahead and do what's inside the absolute",
+      "words": [
+        {
+          "word": "absolute",
+          "start_sec": 315.05,
+          "end_sec": 315.19,
+          "prob": 0.995
+        },
+        {
+          "word": "value",
+          "start_sec": 315.19,
+          "end_sec": 315.57,
+          "prob": 0.931
+        },
+        {
+          "word": "signs.",
+          "start_sec": 315.57,
+          "end_sec": 315.93,
+          "prob": 0.891
+        },
+        {
+          "word": "Now",
+          "start_sec": 316.47,
+          "end_sec": 316.71,
+          "prob": 0.994
+        },
+        {
+          "word": "we",
+          "start_sec": 316.71,
+          "end_sec": 316.81,
+          "prob": 0.981
+        },
+        {
+          "word": "can",
+          "start_sec": 316.81,
+          "end_sec": 316.95,
+          "prob": 0.997
+        },
+        {
+          "word": "go",
+          "start_sec": 316.95,
+          "end_sec": 317.11,
+          "prob": 0.996
+        },
+        {
+          "word": "ahead",
+          "start_sec": 317.11,
+          "end_sec": 317.37,
+          "prob": 0.997
+        },
+        {
+          "word": "and",
+          "start_sec": 317.37,
+          "end_sec": 317.51,
+          "prob": 0.996
+        },
+        {
+          "word": "do",
+          "start_sec": 317.51,
+          "end_sec": 317.63,
+          "prob": 0.996
+        },
+        {
+          "word": "what's",
+          "start_sec": 317.63,
+          "end_sec": 317.93,
+          "prob": 0.972
+        },
+        {
+          "word": "inside",
+          "start_sec": 317.93,
+          "end_sec": 318.13,
+          "prob": 0.997
+        },
+        {
+          "word": "the",
+          "start_sec": 318.13,
+          "end_sec": 318.39,
+          "prob": 0.978
+        },
+        {
+          "word": "absolute",
+          "start_sec": 318.39,
+          "end_sec": 318.59,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "start_sec": 318.59,
+      "end_sec": 324.57,
+      "text": "value signs. So this is equal to 5 times 3 minus 4 squared plus the",
+      "words": [
+        {
+          "word": "value",
+          "start_sec": 318.59,
+          "end_sec": 318.91,
+          "prob": 0.914
+        },
+        {
+          "word": "signs.",
+          "start_sec": 318.91,
+          "end_sec": 319.21,
+          "prob": 0.868
+        },
+        {
+          "word": "So",
+          "start_sec": 319.25,
+          "end_sec": 319.43,
+          "prob": 0.961
+        },
+        {
+          "word": "this",
+          "start_sec": 319.43,
+          "end_sec": 319.63,
+          "prob": 0.974
+        },
+        {
+          "word": "is",
+          "start_sec": 319.63,
+          "end_sec": 319.83,
+          "prob": 0.998
+        },
+        {
+          "word": "equal",
+          "start_sec": 319.83,
+          "end_sec": 319.95,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 319.95,
+          "end_sec": 320.27,
+          "prob": 0.998
+        },
+        {
+          "word": "5",
+          "start_sec": 320.27,
+          "end_sec": 320.75,
+          "prob": 0.922
+        },
+        {
+          "word": "times",
+          "start_sec": 320.75,
+          "end_sec": 321.67,
+          "prob": 0.993
+        },
+        {
+          "word": "3",
+          "start_sec": 321.67,
+          "end_sec": 322.23,
+          "prob": 0.979
+        },
+        {
+          "word": "minus",
+          "start_sec": 322.23,
+          "end_sec": 322.83,
+          "prob": 0.993
+        },
+        {
+          "word": "4",
+          "start_sec": 322.83,
+          "end_sec": 323.23,
+          "prob": 0.991
+        },
+        {
+          "word": "squared",
+          "start_sec": 323.23,
+          "end_sec": 323.73,
+          "prob": 0.995
+        },
+        {
+          "word": "plus",
+          "start_sec": 323.73,
+          "end_sec": 324.27,
+          "prob": 0.935
+        },
+        {
+          "word": "the",
+          "start_sec": 324.27,
+          "end_sec": 324.57,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start_sec": 324.57,
+      "end_sec": 329.55,
+      "text": "value of 12. And now we can remove the absolute value signs and change that",
+      "words": [
+        {
+          "word": "value",
+          "start_sec": 324.57,
+          "end_sec": 325.07,
+          "prob": 0.425
+        },
+        {
+          "word": "of",
+          "start_sec": 325.07,
+          "end_sec": 325.33,
+          "prob": 0.958
+        },
+        {
+          "word": "12.",
+          "start_sec": 325.33,
+          "end_sec": 325.83,
+          "prob": 0.945
+        },
+        {
+          "word": "And",
+          "start_sec": 326.81,
+          "end_sec": 326.99,
+          "prob": 0.823
+        },
+        {
+          "word": "now",
+          "start_sec": 326.99,
+          "end_sec": 327.19,
+          "prob": 0.985
+        },
+        {
+          "word": "we",
+          "start_sec": 327.19,
+          "end_sec": 327.31,
+          "prob": 0.975
+        },
+        {
+          "word": "can",
+          "start_sec": 327.31,
+          "end_sec": 327.55,
+          "prob": 0.996
+        },
+        {
+          "word": "remove",
+          "start_sec": 327.55,
+          "end_sec": 327.87,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 327.87,
+          "end_sec": 328.13,
+          "prob": 0.995
+        },
+        {
+          "word": "absolute",
+          "start_sec": 328.13,
+          "end_sec": 328.27,
+          "prob": 0.983
+        },
+        {
+          "word": "value",
+          "start_sec": 328.27,
+          "end_sec": 328.65,
+          "prob": 0.929
+        },
+        {
+          "word": "signs",
+          "start_sec": 328.65,
+          "end_sec": 328.97,
+          "prob": 0.835
+        },
+        {
+          "word": "and",
+          "start_sec": 328.97,
+          "end_sec": 329.21,
+          "prob": 0.955
+        },
+        {
+          "word": "change",
+          "start_sec": 329.21,
+          "end_sec": 329.39,
+          "prob": 0.99
+        },
+        {
+          "word": "that",
+          "start_sec": 329.39,
+          "end_sec": 329.55,
+          "prob": 0.768
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "start_sec": 329.55,
+      "end_sec": 332.71,
+      "text": "number to a positive. Now since it's already a positive we don't have to do",
+      "words": [
+        {
+          "word": "number",
+          "start_sec": 329.55,
+          "end_sec": 329.75,
+          "prob": 0.992
+        },
+        {
+          "word": "to",
+          "start_sec": 329.75,
+          "end_sec": 329.97,
+          "prob": 0.991
+        },
+        {
+          "word": "a",
+          "start_sec": 329.97,
+          "end_sec": 330.17,
+          "prob": 0.543
+        },
+        {
+          "word": "positive.",
+          "start_sec": 330.17,
+          "end_sec": 330.49,
+          "prob": 0.996
+        },
+        {
+          "word": "Now",
+          "start_sec": 330.59,
+          "end_sec": 330.81,
+          "prob": 0.917
+        },
+        {
+          "word": "since",
+          "start_sec": 330.81,
+          "end_sec": 331.05,
+          "prob": 0.716
+        },
+        {
+          "word": "it's",
+          "start_sec": 331.05,
+          "end_sec": 331.21,
+          "prob": 0.842
+        },
+        {
+          "word": "already",
+          "start_sec": 331.21,
+          "end_sec": 331.51,
+          "prob": 0.988
+        },
+        {
+          "word": "a",
+          "start_sec": 331.51,
+          "end_sec": 331.69,
+          "prob": 0.623
+        },
+        {
+          "word": "positive",
+          "start_sec": 331.69,
+          "end_sec": 331.89,
+          "prob": 0.999
+        },
+        {
+          "word": "we",
+          "start_sec": 331.89,
+          "end_sec": 332.09,
+          "prob": 0.545
+        },
+        {
+          "word": "don't",
+          "start_sec": 332.09,
+          "end_sec": 332.25,
+          "prob": 0.998
+        },
+        {
+          "word": "have",
+          "start_sec": 332.25,
+          "end_sec": 332.43,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 332.43,
+          "end_sec": 332.57,
+          "prob": 0.999
+        },
+        {
+          "word": "do",
+          "start_sec": 332.57,
+          "end_sec": 332.71,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "start_sec": 332.71,
+      "end_sec": 341.18,
+      "text": "that, we simply write 12. So this is 5 times 3 minus 4 squared plus 12. The",
+      "words": [
+        {
+          "word": "that,",
+          "start_sec": 332.71,
+          "end_sec": 332.93,
+          "prob": 0.998
+        },
+        {
+          "word": "we",
+          "start_sec": 333.07,
+          "end_sec": 333.13,
+          "prob": 0.978
+        },
+        {
+          "word": "simply",
+          "start_sec": 333.13,
+          "end_sec": 333.41,
+          "prob": 0.969
+        },
+        {
+          "word": "write",
+          "start_sec": 333.41,
+          "end_sec": 333.69,
+          "prob": 0.992
+        },
+        {
+          "word": "12.",
+          "start_sec": 333.69,
+          "end_sec": 334.21,
+          "prob": 0.983
+        },
+        {
+          "word": "So",
+          "start_sec": 334.57,
+          "end_sec": 334.63,
+          "prob": 0.963
+        },
+        {
+          "word": "this",
+          "start_sec": 334.63,
+          "end_sec": 334.87,
+          "prob": 0.978
+        },
+        {
+          "word": "is",
+          "start_sec": 334.87,
+          "end_sec": 335.11,
+          "prob": 0.997
+        },
+        {
+          "word": "5",
+          "start_sec": 335.11,
+          "end_sec": 335.59,
+          "prob": 0.839
+        },
+        {
+          "word": "times",
+          "start_sec": 335.59,
+          "end_sec": 336.53,
+          "prob": 0.764
+        },
+        {
+          "word": "3",
+          "start_sec": 336.53,
+          "end_sec": 337.15,
+          "prob": 0.923
+        },
+        {
+          "word": "minus",
+          "start_sec": 337.15,
+          "end_sec": 337.79,
+          "prob": 0.774
+        },
+        {
+          "word": "4",
+          "start_sec": 337.79,
+          "end_sec": 338.25,
+          "prob": 0.98
+        },
+        {
+          "word": "squared",
+          "start_sec": 338.25,
+          "end_sec": 338.61,
+          "prob": 0.973
+        },
+        {
+          "word": "plus",
+          "start_sec": 338.61,
+          "end_sec": 339.01,
+          "prob": 0.979
+        },
+        {
+          "word": "12.",
+          "start_sec": 339.01,
+          "end_sec": 339.47,
+          "prob": 0.995
+        },
+        {
+          "word": "The",
+          "start_sec": 340.98,
+          "end_sec": 341.18,
+          "prob": 0.986
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "start_sec": 341.18,
+      "end_sec": 346.7,
+      "text": "next thing we need to do is apply the exponent inside the brackets. So",
+      "words": [
+        {
+          "word": "next",
+          "start_sec": 341.18,
+          "end_sec": 341.38,
+          "prob": 1.0
+        },
+        {
+          "word": "thing",
+          "start_sec": 341.38,
+          "end_sec": 341.54,
+          "prob": 0.999
+        },
+        {
+          "word": "we",
+          "start_sec": 341.54,
+          "end_sec": 341.7,
+          "prob": 0.997
+        },
+        {
+          "word": "need",
+          "start_sec": 341.7,
+          "end_sec": 341.82,
+          "prob": 0.999
+        },
+        {
+          "word": "to",
+          "start_sec": 341.82,
+          "end_sec": 342.04,
+          "prob": 1.0
+        },
+        {
+          "word": "do",
+          "start_sec": 342.04,
+          "end_sec": 342.4,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 342.4,
+          "end_sec": 343.56,
+          "prob": 0.987
+        },
+        {
+          "word": "apply",
+          "start_sec": 343.72,
+          "end_sec": 344.38,
+          "prob": 0.977
+        },
+        {
+          "word": "the",
+          "start_sec": 344.38,
+          "end_sec": 344.66,
+          "prob": 0.999
+        },
+        {
+          "word": "exponent",
+          "start_sec": 344.66,
+          "end_sec": 345.1,
+          "prob": 0.995
+        },
+        {
+          "word": "inside",
+          "start_sec": 345.1,
+          "end_sec": 345.52,
+          "prob": 0.998
+        },
+        {
+          "word": "the",
+          "start_sec": 345.52,
+          "end_sec": 345.78,
+          "prob": 0.999
+        },
+        {
+          "word": "brackets.",
+          "start_sec": 345.78,
+          "end_sec": 346.18,
+          "prob": 0.995
+        },
+        {
+          "word": "So",
+          "start_sec": 346.52,
+          "end_sec": 346.7,
+          "prob": 0.973
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "start_sec": 346.7,
+      "end_sec": 355.78,
+      "text": "this is equal to 5 times 3 minus 4 squared, which is 16 plus 12. Notice",
+      "words": [
+        {
+          "word": "this",
+          "start_sec": 346.7,
+          "end_sec": 346.92,
+          "prob": 0.989
+        },
+        {
+          "word": "is",
+          "start_sec": 346.92,
+          "end_sec": 347.16,
+          "prob": 0.999
+        },
+        {
+          "word": "equal",
+          "start_sec": 347.16,
+          "end_sec": 347.32,
+          "prob": 0.996
+        },
+        {
+          "word": "to",
+          "start_sec": 347.32,
+          "end_sec": 347.82,
+          "prob": 0.999
+        },
+        {
+          "word": "5",
+          "start_sec": 347.82,
+          "end_sec": 348.4,
+          "prob": 0.932
+        },
+        {
+          "word": "times",
+          "start_sec": 348.4,
+          "end_sec": 349.34,
+          "prob": 0.989
+        },
+        {
+          "word": "3",
+          "start_sec": 349.34,
+          "end_sec": 350.04,
+          "prob": 0.978
+        },
+        {
+          "word": "minus",
+          "start_sec": 350.04,
+          "end_sec": 350.62,
+          "prob": 0.993
+        },
+        {
+          "word": "4",
+          "start_sec": 350.62,
+          "end_sec": 351.08,
+          "prob": 0.985
+        },
+        {
+          "word": "squared,",
+          "start_sec": 351.08,
+          "end_sec": 351.48,
+          "prob": 0.988
+        },
+        {
+          "word": "which",
+          "start_sec": 351.5,
+          "end_sec": 351.74,
+          "prob": 0.998
+        },
+        {
+          "word": "is",
+          "start_sec": 351.74,
+          "end_sec": 351.92,
+          "prob": 0.999
+        },
+        {
+          "word": "16",
+          "start_sec": 351.92,
+          "end_sec": 352.62,
+          "prob": 0.998
+        },
+        {
+          "word": "plus",
+          "start_sec": 352.62,
+          "end_sec": 353.46,
+          "prob": 0.583
+        },
+        {
+          "word": "12.",
+          "start_sec": 353.46,
+          "end_sec": 354.16,
+          "prob": 0.998
+        },
+        {
+          "word": "Notice",
+          "start_sec": 355.4,
+          "end_sec": 355.78,
+          "prob": 0.997
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "start_sec": 355.78,
+      "end_sec": 359.54,
+      "text": "now I can simplify what's inside the brackets but I must operate from left",
+      "words": [
+        {
+          "word": "now",
+          "start_sec": 355.78,
+          "end_sec": 356.0,
+          "prob": 0.199
+        },
+        {
+          "word": "I",
+          "start_sec": 356.0,
+          "end_sec": 356.14,
+          "prob": 0.82
+        },
+        {
+          "word": "can",
+          "start_sec": 356.14,
+          "end_sec": 356.36,
+          "prob": 0.988
+        },
+        {
+          "word": "simplify",
+          "start_sec": 356.36,
+          "end_sec": 356.8,
+          "prob": 0.991
+        },
+        {
+          "word": "what's",
+          "start_sec": 356.8,
+          "end_sec": 357.12,
+          "prob": 0.788
+        },
+        {
+          "word": "inside",
+          "start_sec": 357.12,
+          "end_sec": 357.32,
+          "prob": 0.99
+        },
+        {
+          "word": "the",
+          "start_sec": 357.32,
+          "end_sec": 357.58,
+          "prob": 0.988
+        },
+        {
+          "word": "brackets",
+          "start_sec": 357.58,
+          "end_sec": 357.82,
+          "prob": 0.967
+        },
+        {
+          "word": "but",
+          "start_sec": 357.82,
+          "end_sec": 358.06,
+          "prob": 0.52
+        },
+        {
+          "word": "I",
+          "start_sec": 358.06,
+          "end_sec": 358.18,
+          "prob": 0.96
+        },
+        {
+          "word": "must",
+          "start_sec": 358.18,
+          "end_sec": 358.5,
+          "prob": 0.995
+        },
+        {
+          "word": "operate",
+          "start_sec": 358.5,
+          "end_sec": 359.0,
+          "prob": 0.993
+        },
+        {
+          "word": "from",
+          "start_sec": 359.0,
+          "end_sec": 359.26,
+          "prob": 0.992
+        },
+        {
+          "word": "left",
+          "start_sec": 359.26,
+          "end_sec": 359.54,
+          "prob": 0.989
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "start_sec": 359.54,
+      "end_sec": 363.64,
+      "text": "to right because I have a subtraction and an addition. So they have the same",
+      "words": [
+        {
+          "word": "to",
+          "start_sec": 359.54,
+          "end_sec": 359.82,
+          "prob": 0.991
+        },
+        {
+          "word": "right",
+          "start_sec": 359.82,
+          "end_sec": 360.02,
+          "prob": 0.997
+        },
+        {
+          "word": "because",
+          "start_sec": 360.02,
+          "end_sec": 360.36,
+          "prob": 0.933
+        },
+        {
+          "word": "I",
+          "start_sec": 360.36,
+          "end_sec": 360.54,
+          "prob": 0.961
+        },
+        {
+          "word": "have",
+          "start_sec": 360.54,
+          "end_sec": 360.72,
+          "prob": 0.996
+        },
+        {
+          "word": "a",
+          "start_sec": 360.72,
+          "end_sec": 360.84,
+          "prob": 0.957
+        },
+        {
+          "word": "subtraction",
+          "start_sec": 360.84,
+          "end_sec": 361.46,
+          "prob": 0.998
+        },
+        {
+          "word": "and",
+          "start_sec": 361.46,
+          "end_sec": 361.56,
+          "prob": 0.975
+        },
+        {
+          "word": "an",
+          "start_sec": 361.56,
+          "end_sec": 361.72,
+          "prob": 0.897
+        },
+        {
+          "word": "addition.",
+          "start_sec": 361.72,
+          "end_sec": 362.1,
+          "prob": 0.998
+        },
+        {
+          "word": "So",
+          "start_sec": 362.38,
+          "end_sec": 362.84,
+          "prob": 0.846
+        },
+        {
+          "word": "they",
+          "start_sec": 362.84,
+          "end_sec": 363.12,
+          "prob": 0.665
+        },
+        {
+          "word": "have",
+          "start_sec": 363.12,
+          "end_sec": 363.24,
+          "prob": 0.966
+        },
+        {
+          "word": "the",
+          "start_sec": 363.24,
+          "end_sec": 363.46,
+          "prob": 0.998
+        },
+        {
+          "word": "same",
+          "start_sec": 363.46,
+          "end_sec": 363.64,
+          "prob": 0.999
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "start_sec": 363.64,
+      "end_sec": 369.54,
+      "text": "priority so I start from the left. This is equal to 5 times 3 minus 16 is",
+      "words": [
+        {
+          "word": "priority",
+          "start_sec": 363.64,
+          "end_sec": 363.98,
+          "prob": 0.709
+        },
+        {
+          "word": "so",
+          "start_sec": 363.98,
+          "end_sec": 364.22,
+          "prob": 0.466
+        },
+        {
+          "word": "I",
+          "start_sec": 364.22,
+          "end_sec": 364.42,
+          "prob": 0.99
+        },
+        {
+          "word": "start",
+          "start_sec": 364.42,
+          "end_sec": 364.54,
+          "prob": 0.984
+        },
+        {
+          "word": "from",
+          "start_sec": 364.54,
+          "end_sec": 364.74,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 364.74,
+          "end_sec": 364.92,
+          "prob": 0.997
+        },
+        {
+          "word": "left.",
+          "start_sec": 364.92,
+          "end_sec": 365.26,
+          "prob": 0.998
+        },
+        {
+          "word": "This",
+          "start_sec": 365.8,
+          "end_sec": 366.0,
+          "prob": 0.961
+        },
+        {
+          "word": "is",
+          "start_sec": 366.0,
+          "end_sec": 366.2,
+          "prob": 0.997
+        },
+        {
+          "word": "equal",
+          "start_sec": 366.2,
+          "end_sec": 366.38,
+          "prob": 0.993
+        },
+        {
+          "word": "to",
+          "start_sec": 366.38,
+          "end_sec": 366.72,
+          "prob": 0.999
+        },
+        {
+          "word": "5",
+          "start_sec": 366.72,
+          "end_sec": 367.12,
+          "prob": 0.683
+        },
+        {
+          "word": "times",
+          "start_sec": 367.12,
+          "end_sec": 368.14,
+          "prob": 0.878
+        },
+        {
+          "word": "3",
+          "start_sec": 368.14,
+          "end_sec": 368.62,
+          "prob": 0.741
+        },
+        {
+          "word": "minus",
+          "start_sec": 368.62,
+          "end_sec": 368.9,
+          "prob": 0.677
+        },
+        {
+          "word": "16",
+          "start_sec": 368.9,
+          "end_sec": 369.3,
+          "prob": 0.997
+        },
+        {
+          "word": "is",
+          "start_sec": 369.3,
+          "end_sec": 369.54,
+          "prob": 0.951
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "start_sec": 369.54,
+      "end_sec": 376.45,
+      "text": "a minus 13 plus 12. Now I can add those two together. So this is equal to",
+      "words": [
+        {
+          "word": "a",
+          "start_sec": 369.54,
+          "end_sec": 369.72,
+          "prob": 0.849
+        },
+        {
+          "word": "minus",
+          "start_sec": 369.72,
+          "end_sec": 370.06,
+          "prob": 0.966
+        },
+        {
+          "word": "13",
+          "start_sec": 370.06,
+          "end_sec": 370.8,
+          "prob": 0.992
+        },
+        {
+          "word": "plus",
+          "start_sec": 370.8,
+          "end_sec": 371.3,
+          "prob": 0.979
+        },
+        {
+          "word": "12.",
+          "start_sec": 371.3,
+          "end_sec": 371.82,
+          "prob": 0.994
+        },
+        {
+          "word": "Now",
+          "start_sec": 372.97,
+          "end_sec": 373.21,
+          "prob": 0.991
+        },
+        {
+          "word": "I",
+          "start_sec": 373.21,
+          "end_sec": 373.33,
+          "prob": 0.821
+        },
+        {
+          "word": "can",
+          "start_sec": 373.33,
+          "end_sec": 373.55,
+          "prob": 0.993
+        },
+        {
+          "word": "add",
+          "start_sec": 373.55,
+          "end_sec": 374.09,
+          "prob": 0.986
+        },
+        {
+          "word": "those",
+          "start_sec": 374.09,
+          "end_sec": 374.33,
+          "prob": 0.993
+        },
+        {
+          "word": "two",
+          "start_sec": 374.33,
+          "end_sec": 374.53,
+          "prob": 0.912
+        },
+        {
+          "word": "together.",
+          "start_sec": 374.53,
+          "end_sec": 374.91,
+          "prob": 0.999
+        },
+        {
+          "word": "So",
+          "start_sec": 375.17,
+          "end_sec": 375.25,
+          "prob": 0.958
+        },
+        {
+          "word": "this",
+          "start_sec": 375.25,
+          "end_sec": 375.47,
+          "prob": 0.987
+        },
+        {
+          "word": "is",
+          "start_sec": 375.47,
+          "end_sec": 375.71,
+          "prob": 0.999
+        },
+        {
+          "word": "equal",
+          "start_sec": 375.71,
+          "end_sec": 375.85,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 375.85,
+          "end_sec": 376.45,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "start_sec": 376.45,
+      "end_sec": 383.01,
+      "text": "5 times a negative 1 and 5 times a negative 1 is equal to a negative 5",
+      "words": [
+        {
+          "word": "5",
+          "start_sec": 376.45,
+          "end_sec": 376.99,
+          "prob": 0.802
+        },
+        {
+          "word": "times",
+          "start_sec": 376.99,
+          "end_sec": 377.59,
+          "prob": 0.992
+        },
+        {
+          "word": "a",
+          "start_sec": 377.59,
+          "end_sec": 377.75,
+          "prob": 0.788
+        },
+        {
+          "word": "negative",
+          "start_sec": 377.75,
+          "end_sec": 378.03,
+          "prob": 0.92
+        },
+        {
+          "word": "1",
+          "start_sec": 378.03,
+          "end_sec": 378.73,
+          "prob": 0.895
+        },
+        {
+          "word": "and",
+          "start_sec": 378.73,
+          "end_sec": 379.35,
+          "prob": 0.643
+        },
+        {
+          "word": "5",
+          "start_sec": 379.35,
+          "end_sec": 379.65,
+          "prob": 0.873
+        },
+        {
+          "word": "times",
+          "start_sec": 379.65,
+          "end_sec": 379.91,
+          "prob": 0.995
+        },
+        {
+          "word": "a",
+          "start_sec": 379.91,
+          "end_sec": 380.05,
+          "prob": 0.946
+        },
+        {
+          "word": "negative",
+          "start_sec": 380.05,
+          "end_sec": 380.25,
+          "prob": 0.996
+        },
+        {
+          "word": "1",
+          "start_sec": 380.25,
+          "end_sec": 380.63,
+          "prob": 0.965
+        },
+        {
+          "word": "is",
+          "start_sec": 380.63,
+          "end_sec": 380.95,
+          "prob": 0.993
+        },
+        {
+          "word": "equal",
+          "start_sec": 380.95,
+          "end_sec": 381.15,
+          "prob": 0.997
+        },
+        {
+          "word": "to",
+          "start_sec": 381.15,
+          "end_sec": 381.65,
+          "prob": 0.997
+        },
+        {
+          "word": "a",
+          "start_sec": 381.65,
+          "end_sec": 381.91,
+          "prob": 0.939
+        },
+        {
+          "word": "negative",
+          "start_sec": 381.91,
+          "end_sec": 382.29,
+          "prob": 0.989
+        },
+        {
+          "word": "5",
+          "start_sec": 382.29,
+          "end_sec": 383.01,
+          "prob": 0.987
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "start_sec": 383.01,
+      "end_sec": 389.65,
+      "text": "and that's the final simplified form of my original expression. Notice start",
+      "words": [
+        {
+          "word": "and",
+          "start_sec": 383.01,
+          "end_sec": 383.37,
+          "prob": 0.456
+        },
+        {
+          "word": "that's",
+          "start_sec": 383.37,
+          "end_sec": 383.69,
+          "prob": 0.981
+        },
+        {
+          "word": "the",
+          "start_sec": 383.69,
+          "end_sec": 383.83,
+          "prob": 0.921
+        },
+        {
+          "word": "final",
+          "start_sec": 383.83,
+          "end_sec": 384.51,
+          "prob": 0.996
+        },
+        {
+          "word": "simplified",
+          "start_sec": 384.51,
+          "end_sec": 385.17,
+          "prob": 0.842
+        },
+        {
+          "word": "form",
+          "start_sec": 385.17,
+          "end_sec": 385.83,
+          "prob": 0.995
+        },
+        {
+          "word": "of",
+          "start_sec": 385.83,
+          "end_sec": 386.47,
+          "prob": 0.992
+        },
+        {
+          "word": "my",
+          "start_sec": 386.47,
+          "end_sec": 386.95,
+          "prob": 0.996
+        },
+        {
+          "word": "original",
+          "start_sec": 386.95,
+          "end_sec": 387.47,
+          "prob": 0.986
+        },
+        {
+          "word": "expression.",
+          "start_sec": 387.47,
+          "end_sec": 388.17,
+          "prob": 0.995
+        },
+        {
+          "word": "Notice",
+          "start_sec": 388.65,
+          "end_sec": 389.13,
+          "prob": 0.978
+        },
+        {
+          "word": "start",
+          "start_sec": 389.13,
+          "end_sec": 389.65,
+          "prob": 0.128
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "start_sec": 389.65,
+      "end_sec": 393.39,
+      "text": "from the inside, work out absolute value signs are treated just like",
+      "words": [
+        {
+          "word": "from",
+          "start_sec": 389.65,
+          "end_sec": 389.87,
+          "prob": 0.996
+        },
+        {
+          "word": "the",
+          "start_sec": 389.87,
+          "end_sec": 390.13,
+          "prob": 0.975
+        },
+        {
+          "word": "inside,",
+          "start_sec": 390.13,
+          "end_sec": 390.35,
+          "prob": 0.978
+        },
+        {
+          "word": "work",
+          "start_sec": 390.39,
+          "end_sec": 390.65,
+          "prob": 0.915
+        },
+        {
+          "word": "out",
+          "start_sec": 390.65,
+          "end_sec": 391.27,
+          "prob": 0.992
+        },
+        {
+          "word": "absolute",
+          "start_sec": 391.27,
+          "end_sec": 391.71,
+          "prob": 0.668
+        },
+        {
+          "word": "value",
+          "start_sec": 391.71,
+          "end_sec": 392.05,
+          "prob": 0.854
+        },
+        {
+          "word": "signs",
+          "start_sec": 392.05,
+          "end_sec": 392.27,
+          "prob": 0.965
+        },
+        {
+          "word": "are",
+          "start_sec": 392.27,
+          "end_sec": 392.57,
+          "prob": 0.951
+        },
+        {
+          "word": "treated",
+          "start_sec": 392.57,
+          "end_sec": 392.75,
+          "prob": 0.997
+        },
+        {
+          "word": "just",
+          "start_sec": 392.75,
+          "end_sec": 393.15,
+          "prob": 0.992
+        },
+        {
+          "word": "like",
+          "start_sec": 393.15,
+          "end_sec": 393.39,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "start_sec": 393.39,
+      "end_sec": 397.93,
+      "text": "parentheses. Figure out what's inside or simplify what's inside first before",
+      "words": [
+        {
+          "word": "parentheses.",
+          "start_sec": 393.39,
+          "end_sec": 393.87,
+          "prob": 0.935
+        },
+        {
+          "word": "Figure",
+          "start_sec": 394.39,
+          "end_sec": 394.61,
+          "prob": 0.96
+        },
+        {
+          "word": "out",
+          "start_sec": 394.61,
+          "end_sec": 394.77,
+          "prob": 0.998
+        },
+        {
+          "word": "what's",
+          "start_sec": 394.77,
+          "end_sec": 395.19,
+          "prob": 0.989
+        },
+        {
+          "word": "inside",
+          "start_sec": 395.19,
+          "end_sec": 395.37,
+          "prob": 0.99
+        },
+        {
+          "word": "or",
+          "start_sec": 395.37,
+          "end_sec": 395.71,
+          "prob": 0.733
+        },
+        {
+          "word": "simplify",
+          "start_sec": 395.71,
+          "end_sec": 396.23,
+          "prob": 0.985
+        },
+        {
+          "word": "what's",
+          "start_sec": 396.23,
+          "end_sec": 396.73,
+          "prob": 0.973
+        },
+        {
+          "word": "inside",
+          "start_sec": 396.73,
+          "end_sec": 396.97,
+          "prob": 0.997
+        },
+        {
+          "word": "first",
+          "start_sec": 396.97,
+          "end_sec": 397.39,
+          "prob": 0.987
+        },
+        {
+          "word": "before",
+          "start_sec": 397.39,
+          "end_sec": 397.93,
+          "prob": 0.781
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "start_sec": 397.93,
+      "end_sec": 401.59,
+      "text": "we take the absolute value signs away. Continue to simplify from the",
+      "words": [
+        {
+          "word": "we",
+          "start_sec": 397.93,
+          "end_sec": 398.33,
+          "prob": 0.997
+        },
+        {
+          "word": "take",
+          "start_sec": 398.33,
+          "end_sec": 398.55,
+          "prob": 0.993
+        },
+        {
+          "word": "the",
+          "start_sec": 398.55,
+          "end_sec": 398.69,
+          "prob": 0.921
+        },
+        {
+          "word": "absolute",
+          "start_sec": 398.69,
+          "end_sec": 398.87,
+          "prob": 0.978
+        },
+        {
+          "word": "value",
+          "start_sec": 398.87,
+          "end_sec": 399.15,
+          "prob": 0.963
+        },
+        {
+          "word": "signs",
+          "start_sec": 399.15,
+          "end_sec": 399.41,
+          "prob": 0.972
+        },
+        {
+          "word": "away.",
+          "start_sec": 399.41,
+          "end_sec": 399.75,
+          "prob": 0.997
+        },
+        {
+          "word": "Continue",
+          "start_sec": 400.03,
+          "end_sec": 400.49,
+          "prob": 0.951
+        },
+        {
+          "word": "to",
+          "start_sec": 400.49,
+          "end_sec": 400.73,
+          "prob": 0.993
+        },
+        {
+          "word": "simplify",
+          "start_sec": 400.73,
+          "end_sec": 401.17,
+          "prob": 0.997
+        },
+        {
+          "word": "from",
+          "start_sec": 401.17,
+          "end_sec": 401.41,
+          "prob": 0.969
+        },
+        {
+          "word": "the",
+          "start_sec": 401.41,
+          "end_sec": 401.59,
+          "prob": 0.955
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "start_sec": 401.59,
+      "end_sec": 406.45,
+      "text": "inside out. Again order of operation is always there for every situation",
+      "words": [
+        {
+          "word": "inside",
+          "start_sec": 401.59,
+          "end_sec": 401.83,
+          "prob": 0.997
+        },
+        {
+          "word": "out.",
+          "start_sec": 401.83,
+          "end_sec": 402.23,
+          "prob": 0.968
+        },
+        {
+          "word": "Again",
+          "start_sec": 402.97,
+          "end_sec": 403.25,
+          "prob": 0.993
+        },
+        {
+          "word": "order",
+          "start_sec": 403.25,
+          "end_sec": 403.47,
+          "prob": 0.277
+        },
+        {
+          "word": "of",
+          "start_sec": 403.47,
+          "end_sec": 403.73,
+          "prob": 0.985
+        },
+        {
+          "word": "operation",
+          "start_sec": 403.73,
+          "end_sec": 404.09,
+          "prob": 0.94
+        },
+        {
+          "word": "is",
+          "start_sec": 404.09,
+          "end_sec": 404.35,
+          "prob": 0.998
+        },
+        {
+          "word": "always",
+          "start_sec": 404.35,
+          "end_sec": 404.57,
+          "prob": 0.999
+        },
+        {
+          "word": "there",
+          "start_sec": 404.57,
+          "end_sec": 404.95,
+          "prob": 0.999
+        },
+        {
+          "word": "for",
+          "start_sec": 404.95,
+          "end_sec": 405.47,
+          "prob": 0.985
+        },
+        {
+          "word": "every",
+          "start_sec": 405.47,
+          "end_sec": 405.85,
+          "prob": 0.999
+        },
+        {
+          "word": "situation",
+          "start_sec": 405.85,
+          "end_sec": 406.45,
+          "prob": 0.998
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "start_sec": 406.45,
+      "end_sec": 411.29,
+      "text": "inside parentheses or inside brackets and that is how we simplify these",
+      "words": [
+        {
+          "word": "inside",
+          "start_sec": 406.45,
+          "end_sec": 406.89,
+          "prob": 0.922
+        },
+        {
+          "word": "parentheses",
+          "start_sec": 406.89,
+          "end_sec": 407.39,
+          "prob": 0.983
+        },
+        {
+          "word": "or",
+          "start_sec": 407.39,
+          "end_sec": 407.91,
+          "prob": 0.987
+        },
+        {
+          "word": "inside",
+          "start_sec": 407.91,
+          "end_sec": 408.15,
+          "prob": 0.998
+        },
+        {
+          "word": "brackets",
+          "start_sec": 408.15,
+          "end_sec": 408.61,
+          "prob": 0.999
+        },
+        {
+          "word": "and",
+          "start_sec": 408.61,
+          "end_sec": 409.11,
+          "prob": 0.391
+        },
+        {
+          "word": "that",
+          "start_sec": 409.11,
+          "end_sec": 409.41,
+          "prob": 0.999
+        },
+        {
+          "word": "is",
+          "start_sec": 409.41,
+          "end_sec": 409.73,
+          "prob": 0.988
+        },
+        {
+          "word": "how",
+          "start_sec": 409.73,
+          "end_sec": 409.95,
+          "prob": 0.998
+        },
+        {
+          "word": "we",
+          "start_sec": 409.95,
+          "end_sec": 410.11,
+          "prob": 0.951
+        },
+        {
+          "word": "simplify",
+          "start_sec": 410.11,
+          "end_sec": 410.79,
+          "prob": 0.994
+        },
+        {
+          "word": "these",
+          "start_sec": 410.79,
+          "end_sec": 411.29,
+          "prob": 0.992
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "start_sec": 411.29,
+      "end_sec": 412.15,
+      "text": "numerical expressions.",
+      "words": [
+        {
+          "word": "numerical",
+          "start_sec": 411.29,
+          "end_sec": 411.71,
+          "prob": 0.812
+        },
+        {
+          "word": "expressions.",
+          "start_sec": 411.71,
+          "end_sec": 412.15,
+          "prob": 0.994
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,493,0.00,16483.15,0.000,16.483,16.483,explain,36,0.928,0,"Hola a todos, soy Xuxi, bienvenidos a mi canal. En este vídeo continuamos con la serie de vídeos dedicados a operaciones con ángulos, y vamos a aprender concretamente a realizar multiplicaciones, así que vamos a ello."
+1,494,641,16483.15,21421.42,16.483,21.421,4.938,transit,0,,1,[silence]
+2,642,1161,21421.42,38772.11,21.421,38.772,17.351,explain,48,0.926,0,"A veces, cuando estamos trabajando con ángulos, nos piden hacer el doble de un ángulo o el triple o lo que sea, y tenemos que saber cómo multiplicar ese ángulo. En este caso tenemos este ángulo que lo queremos multiplicar por 7. ¿Cómo se realiza? Vamos a ponerlo"
+3,1162,1314,38772.11,43877.21,38.772,43.877,5.105,write,0,,1,[silence]
+4,1315,1533,43877.21,51184.52,43.877,51.185,7.307,explain,20,0.854,0,"y como es por 7, multiplicamos los segundos por 7, los minutos por 7 y los grados por 7, pues"
+5,1534,1677,51184.52,55989.32,51.185,55.989,4.805,write,5,0.97,0,"hacemos cada uno por 7,"
+6,1678,1846,55989.32,61628.29,55.989,61.628,5.639,explain,12,0.944,0,"y vemos cómo nos quedamos realizando las operaciones, los segundos por 7,"
+7,1847,2223,61628.29,74207.54,61.628,74.208,12.579,write,0,,1,[silence]
+8,2224,2300,74207.54,76776.78,74.208,76.777,2.569,fingererase,0,,1,[silence]
+9,2301,2568,76776.78,85719.05,76.777,85.719,8.942,write,0,,1,[silence]
+10,2569,3700,85719.05,123490.16,85.719,123.490,37.771,explain,72,0.887,0,"nos ha quedado este ángulo enorme y vemos aquí que tanto los segundos como los minutos se pasan de 60, entonces aquí tenemos que hacer como hacíamos en las sumas, si se nos pasaba, pues había que simplificar. Vamos a ver cómo hacerlo, lo vamos a simplificar primero, los de segundos vamos a ir yendo, luego con los minutos, vamos a empezar por la unidad más pequeña que son los segundos, 119,"
+11,3701,3754,123490.16,125291.96,123.490,125.292,1.802,write,0,,1,[silence]
+12,3755,4077,125291.96,136069.40,125.292,136.069,10.777,explain,12,0.869,0,vamos a ver cuántos minutos son y cuántos Pues vamos a ver
+13,4078,4173,136069.40,139272.61,136.069,139.273,3.203,write,5,0.896,0,estos segundos cuántos minutos son.
+14,4174,4240,139272.61,141508.17,139.273,141.508,2.236,write,3,0.915,0,"Realizamos la división,"
+15,4241,4719,141508.17,157490.82,141.508,157.491,15.983,write,2,0.968,0,pues es
+16,4720,4743,157490.82,158291.62,157.491,158.292,0.801,emphasize,2,0.851,0,un minuto
+17,4744,4945,158291.62,165031.70,158.292,165.032,6.740,explain,12,0.927,0,"y 59 segundos, pues este minuto se lo tengo que añadir aquí"
+18,4946,5048,165031.70,168468.47,165.032,168.468,3.437,write,2,0.72,0,y el
+19,5049,5074,168468.47,169336.00,168.468,169.336,0.868,point,1,0.874,0,119
+20,5075,5211,169336.00,173907.24,169.336,173.907,4.571,explain,7,0.993,0,"se va a convertir en 59 segundos,"
+21,5212,5261,173907.24,175575.58,173.907,175.576,1.668,write,0,,1,[silence]
+22,5262,5323,175575.58,177644.31,175.576,177.644,2.069,explain,5,0.874,0,y aquí como he añadido
+23,5324,5493,177644.31,183316.65,177.644,183.317,5.672,write,5,0.819,0,"uno, 323 minutos y los"
+24,5494,5940,183316.65,198231.56,183.317,198.232,14.915,explain,35,0.893,0,"grados siguen igual. Ahora me voy a centrar en minutos, que es el que se me ha pasado de 60 y lo mismo voy a ver cuántos grados hay en 323 minutos. Realizo la división,"
+25,5941,6404,198231.56,213713.71,198.232,213.714,15.482,write,11,0.977,0,lo que me sobra son minutos y lo que me da
+26,6405,6481,213713.71,216282.95,213.714,216.283,2.569,explain,5,0.991,0,son grados. ¿Cuántos grados son?
+27,6482,6534,216282.95,218051.38,216.283,218.051,1.768,write,1,0.636,0,Cinco
+28,6535,6672,218051.38,222655.99,218.051,222.656,4.605,explain,15,0.916,0,grados que se los añado y los minutos me van a quedar en realidad en
+29,6673,6691,222655.99,223289.96,222.656,223.290,0.634,point,0,,1,[silence]
+30,6692,6806,223289.96,227127.13,223.290,227.127,3.837,explain,5,0.551,0,23. Me pongo ahora 59
+31,6807,6847,227127.13,228495.16,227.127,228.495,1.368,write,2,0.857,0,segundos que
+32,6848,6950,228495.16,231931.93,228.495,231.932,3.437,explain,10,0.842,0,"me queda tal cual, 323 que se me ha pasado"
+33,6951,6988,231931.93,233199.87,231.932,233.200,1.268,write,2,0.978,0,a 23
+34,6989,7195,233199.87,240106.77,233.200,240.107,6.907,explain,21,0.895,0,"minutos porque le he robado los demás y los he convertido en 5 grados, que ahora en mes de ser 245"
+35,7196,7277,240106.77,242842.84,240.107,242.843,2.736,write,2,0.916,0,es 250
+36,7278,7372,242842.84,246012.68,242.843,246.013,3.170,emphasize,5,0.966,0,grados. Y este sería el
+37,7373,7585,246012.68,253119.79,246.013,253.120,7.107,explain,12,0.874,0,resultado de esta multiplicación con ángulos. Vamos a realizar otro ejercicio más.
+38,7586,7597,253119.79,253520.19,253.120,253.520,0.400,transit,0,,1,[silence]
+39,7598,7771,253520.19,259325.99,253.520,259.326,5.806,explain,12,0.954,0,Vamos a colocar la operación y vamos a ir realizándola. Tengo 37
+40,7772,8039,259325.99,268268.27,259.326,268.268,8.942,write,14,0.973,0,"minutos, 11 segundos por 13, así que tengo que multiplicar cada uno por 13."
+41,8040,8208,268268.27,273907.24,268.268,273.907,5.639,explain,11,0.857,0,"Vamos a hacer, si quiere, las operaciones aparte y vamos apuntando."
+42,8209,8321,273907.24,277677.68,273.907,277.678,3.770,write,0,,1,[silence]
+43,8322,8369,277677.68,279279.28,277.678,279.279,1.602,explain,7,0.777,0,"Tengo 7 por 13, 3 por 7,"
+44,8370,8385,279279.28,279813.15,279.279,279.813,0.534,write,1,0.977,0,"21,"
+45,8386,8473,279813.15,282749.42,279.813,282.749,2.936,explain,7,0.695,0,"llevo 2, 3 por 3, 9 y"
+46,8474,8511,282749.42,284017.35,282.749,284.017,1.268,write,2,0.94,0,"2, 11."
+47,8512,8547,284017.35,285218.55,284.017,285.219,1.201,explain,1,0.291,0,1
+48,8548,8560,285218.55,285652.32,285.219,285.652,0.434,write,2,0.949,0,"por 7,"
+49,8561,8605,285652.32,287153.82,285.652,287.154,1.502,explain,4,0.937,0,7 y 1 por
+50,8606,8822,287153.82,294394.39,287.154,294.394,7.241,write,12,0.974,0,"3, 3. Sumo, 1, 7 y 1, 8, 3 y 1, 4."
+51,8823,8915,294394.39,297497.50,294.394,297.497,3.103,explain,1,0.921,0,"481,"
+52,8916,8956,297497.50,298865.53,297.497,298.866,1.368,fingererase,3,0.878,0,"grados no, perdón,"
+53,8957,9023,298865.53,301101.10,298.866,301.101,2.236,explain,0,,1,[silence]
+54,9024,9030,301101.10,301334.67,301.101,301.335,0.234,write,1,0.986,0,minutos.
+55,9031,9090,301334.67,303336.67,301.335,303.337,2.002,explain,0,,1,[silence]
+56,9091,9159,303336.67,305638.97,303.337,305.639,2.302,write,0,,1,[silence]
+57,9160,9229,305638.97,307974.64,305.639,307.975,2.336,explain,5,0.956,0,Y ahora el 11 por
+58,9230,9732,307974.64,324758.09,307.975,324.758,16.783,write,31,0.856,0,"13, 11 por 13, 3 por 1, 3, 3 por 1, 3, 1 por 1, 1, 1 por 1, 1. Sumamos, 3, 1 y 3 son 4, 1 y el 1."
+59,9733,9806,324758.09,327227.23,324.758,327.227,2.469,explain,0,,1,[silence]
+60,9807,9865,327227.23,329195.86,327.227,329.196,1.969,write,1,0.947,0,143
+61,9866,10573,329195.86,352819.49,329.196,352.819,23.624,explain,45,0.894,0,"segundos. Nos fijamos y como tenemos minutos y segundos y ambos se pasan de 60, vamos a intentar ir simplificando para dar el resultado lo más simplificado posible. Empezamos por los segundos. 143 segundos. Yo tengo porque un minuto son 60 segundos. Realiza aquí la"
+62,10574,10956,352819.49,365598.93,352.819,365.599,12.779,write,1,0.973,0,división.
+63,10957,11060,365598.93,369069.07,365.599,369.069,3.470,explain,11,0.973,0,Lo que me sobra son segundos y lo que me da
+64,11061,11067,369069.07,369302.64,369.069,369.303,0.234,write,1,0.986,0,son
+65,11068,11240,369302.64,375075.08,369.303,375.075,5.772,explain,8,0.978,0,"minutos, es decir, en 143 segundos hay 23"
+66,11241,11256,375075.08,375608.94,375.075,375.609,0.534,point,1,0.995,0,segundos
+67,11257,11290,375608.94,376743.41,375.609,376.743,1.134,explain,2,0.855,0,y 2
+68,11291,11335,376743.41,378244.91,376.743,378.245,1.502,write,1,0.997,0,minutos.
+69,11336,11457,378244.91,382315.65,378.245,382.316,4.071,explain,13,0.901,0,Pues esos 2 minutos se los añado a los minutos y los segundos
+70,11458,11503,382315.65,383850.52,382.316,383.851,1.535,write,2,0.491,0,ahora van
+71,11504,11577,383850.52,386319.65,383.851,386.320,2.469,explain,5,0.859,0,a ser 23 y los
+72,11578,11671,386319.65,389456.12,386.320,389.456,3.136,write,2,0.98,0,minutos 483.
+73,11672,12102,389456.12,403837.17,389.456,403.837,14.381,explain,31,0.954,0,Ahora este resultado no lo puedo dejar así porque los minutos aún los puedo pasar a grados. Voy a ver cuántos grados hay en 483 minutos. Para ello divido entre 60.
+74,12103,12458,403837.17,415715.72,403.837,415.716,11.879,write,0,,1,[silence]
+75,12459,12540,415715.72,418451.79,415.716,418.452,2.736,explain,5,0.866,0,Me han sobrado 3 minutos
+76,12541,12550,418451.79,418785.45,418.452,418.785,0.334,write,0,,1,[silence]
+77,12551,12722,418785.45,424524.52,418.785,424.525,5.739,explain,12,0.795,0,y resulta que hay 8 grados y Eso que quiere decir que
+78,12723,12744,424524.52,425258.59,424.525,425.259,0.734,point,1,0.905,0,ahora
+79,12745,12796,425258.59,426993.66,425.259,426.994,1.735,explain,3,0.866,0,483 ya no
+80,12797,12828,426993.66,428061.39,426.994,428.061,1.068,write,3,0.985,0,va a ser
+81,12829,12889,428061.39,430096.76,428.061,430.097,2.035,explain,0,,1,[silence]
+82,12890,12958,430096.76,432399.07,430.097,432.399,2.302,explain,1,0.913,0,"483,"
+83,12959,13000,432399.07,433800.47,432.399,433.800,1.401,write,0,,1,[silence]
+84,13001,13054,433800.47,435602.27,433.800,435.602,1.802,explain,6,0.898,0,sino que va a ser 3
+85,13055,13075,435602.27,436302.97,435.602,436.303,0.701,write,1,0.986,0,minutos
+86,13076,13210,436302.97,440807.47,436.303,440.807,4.505,explain,10,0.973,0,"y 8 grados, que como antes no tenía nada de"
+87,13211,13235,440807.47,441641.64,440.807,441.642,0.834,write,1,0.991,0,"grados,"
+88,13236,13264,441641.64,442609.28,441.642,442.609,0.968,explain,2,0.957,0,se ha
+89,13265,13344,442609.28,445278.61,442.609,445.279,2.669,emphasize,4,0.986,0,añadido esa unidad nueva.
+90,13345,13839,445278.61,461795.13,445.279,461.795,16.517,explain,37,0.907,0,"Y este es mi resultado ya simplificado de esta multiplicación de un ángulo por 13. Si os dais cuenta aquí, ya ni minutos ni segundos superan 60. Está simplificado al máximo y el resultado está bien dado."
+91,13840,13853,461795.13,462262.26,461.795,462.262,0.467,transit,0,,1,[silence]
+92,13854,14294,462262.26,476976.98,462.262,476.977,14.715,explain,45,0.96,0,Ya hemos aprendido a realizar estas operaciones con ángulos. Si te ha gustado el vídeo dale a me gusta y compártelo. Suscríbete a este canal si quieres estar al tanto de nuevos vídeos. Que tengas un buen día y nos vemos en el próximo vídeo.
+93,14295,14595,476976.98,487020.35,476.977,487.020,10.043,transit,0,,1,[silence]

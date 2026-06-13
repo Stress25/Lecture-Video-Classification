@@ -1,0 +1,512 @@
+segment_id,start_frame,end_frame,start_time_ms,end_time_ms,start_time_sec,end_time_sec,duration_sec,label,word_count,mean_word_prob,is_silence,transcript
+0,0,32,0.00,1101.10,0.000,1.101,1.101,out,6,0.923,0,And the first thing we do
+1,33,110,1101.10,3703.70,1.101,3.704,2.603,out,9,0.876,0,in Chapter 2 is we get away from how
+2,111,419,3703.70,14014.01,3.704,14.014,10.310,explain,36,0.941,0,"to collect the data, this is the way we collect the data, and we move on into how to organize it and eventually how to summarize it. So we're going to talk about what's called a"
+3,420,472,14014.01,15782.45,14.014,15.782,1.768,pickerase,4,0.91,0,frequency distribution right now.
+4,473,569,15782.45,19019.02,15.782,19.019,3.237,explain,10,0.906,0,Are there any questions before we can go on this?
+5,570,1170,19019.02,39072.41,19.019,39.072,20.053,erase,0,,1,[silence]
+6,1171,1209,39072.41,40373.71,39.072,40.374,1.301,droperase,0,,1,[silence]
+7,1210,1597,40373.71,53319.99,40.374,53.320,12.946,explain,48,0.944,0,"Hey, if I asked you to look at this classroom and to count the number of brown -haired people and the number of black -haired people and the number of blonde -haired people and put it in a list, this is probably how you'd do it. You'd probably"
+8,1598,1844,53319.99,61561.56,53.320,61.562,8.242,write,4,0.865,0,"do blonde, brown, black,"
+9,1845,1915,61561.56,63930.60,61.562,63.931,2.369,explain,9,0.955,0,and count them up and put them right here.
+10,1916,2023,63930.60,67534.20,63.931,67.534,3.604,write,2,0.641,0,"Seven, fifteen,"
+11,2024,3097,67534.20,103370.04,67.534,103.370,35.836,explain,99,0.946,0,"twelve. You'd probably do something like that, wouldn't you? This is one of the simplest versions of a frequency distribution that I can think of. This is a frequency distribution. We're going to make it little more specific for our reasoning, but this is the idea. You have what are called classes, just groups, and you have counts, frequencies. A frequency is how often something occurs. Seven blonde people occurred seven times. Brown -haired people fifteen times. So these are our classes, and these are our frequencies. This is a frequency distribution. We're going talk about that right now."
+12,3098,3122,103370.04,104204.20,103.370,104.204,0.834,write,0,,1,[silence]
+13,3123,3447,104204.20,115048.38,104.204,115.048,10.844,write,7,0.909,0,"You know, think the way that I'd"
+14,3448,3456,115048.38,115348.68,115.048,115.349,0.300,write,2,0.992,0,like to
+15,3457,3457,115348.68,115382.05,115.349,115.382,0.033,explain,0,,1,[silence]
+16,3458,3477,115382.05,116049.38,115.382,116.049,0.667,explain,3,0.973,0,this with you
+17,3478,3559,116049.38,118785.45,116.049,118.785,2.736,explain,9,0.957,0,is we'll actually create a frequency distribution right now.
+18,3560,3585,118785.45,119652.99,118.785,119.653,0.868,pickerase,0,,1,[silence]
+19,3586,3654,119652.99,121955.29,119.653,121.955,2.302,erase,9,0.983,0,"And as we do it, I'll be giving you"
+20,3655,3678,121955.29,122756.09,121.955,122.756,0.801,droperase,2,0.986,0,the definitions
+21,3679,4378,122756.09,146112.78,122.756,146.113,23.357,explain,59,0.932,0,"and things like that and show you how. So the first thing you need to know about frequency distributions is there's something called a class whip. I need to define that before we actually start making this up. So frequency distributions, what we have is a list of values. These are our values, our classes, and the corresponding frequencies."
+22,4379,5051,146112.78,168568.57,146.113,168.569,22.456,write,7,0.901,0,A list of values with corresponding frequencies.
+23,5052,5129,168568.57,171171.17,168.569,171.171,2.603,explain,0,,1,[silence]
+24,5130,5309,171171.17,177177.18,171.171,177.177,6.006,write,0,,1,[silence]
+25,5310,5342,177177.18,178278.28,177.177,178.278,1.101,explain,0,,1,[silence]
+26,5343,5542,178278.28,184951.62,178.278,184.952,6.673,out,0,,1,[silence]
+27,5543,6164,184951.62,205705.71,184.952,205.706,20.754,explain,72,0.909,0,"We're going to talk about a class whip. What we're going be doing is creating frequency distributions that are based on numbers. In a second, what I'm going to do in this class is I'm going to make a frequency distribution based on our ages. So we can kind of have the idea of how you make home these things up. first thing, the class whip. This is going to be the"
+28,6165,6280,205705.71,209576.24,205.706,209.576,3.871,out,5,0.971,0,difference between two lower class
+29,6281,6470,209576.24,215915.92,209.576,215.916,6.340,explain,20,0.988,0,"limits. I haven't even defined that yet, but I'm going to. This is the difference between two lower class limits."
+30,6471,7109,215915.92,237237.24,215.916,237.237,21.321,write,0,,1,[silence]
+31,7110,7154,237237.24,238738.74,237.237,238.739,1.502,explain,0,,1,[silence]
+32,7155,7282,238738.74,243009.68,238.739,243.010,4.271,out,11,0.819,0,"Okay, well what in world is a lower class limit then?"
+33,7283,7304,243009.68,243743.74,243.010,243.744,0.734,explain,0,,1,[silence]
+34,7305,7317,243743.74,244177.51,243.744,244.178,0.434,out,0,,1,[silence]
+35,7318,7330,244177.51,244611.28,244.178,244.611,0.434,explain,0,,1,[silence]
+36,7331,7343,244611.28,245045.05,244.611,245.045,0.434,out,0,,1,[silence]
+37,7344,7424,245045.05,247747.75,245.045,247.748,2.703,explain,0,,1,[silence]
+38,7425,7695,247747.75,256790.12,247.748,256.790,9.042,write,0,,1,[silence]
+39,7696,7741,256790.12,258324.99,256.790,258.325,1.535,explain,0,,1,[silence]
+40,7742,7796,258324.99,260160.16,258.325,260.160,1.835,out,3,0.978,0,"Lower class limit,"
+41,7797,8972,260160.16,299399.40,260.160,299.399,39.239,explain,135,0.942,0,"classes, is not like this class. It's like the group, like the group of data that you're going to try to collect from. in here, do have anyone under 18 in here? Okay, so 18 is the nearest starting point. Under here, in this class, our first group is probably going to be 18 to 20 year olds. And that will be our first group, or 18 to 21 year olds. That will be our first class. The class is just the first group, or the second group, or the third group. Those are all classes. The lower class limit is where the class starts. So if I have a group of 18 to 21 year olds, 18 would be my lower class limit. Does that make sense to you? It's where the class starts."
+42,8973,9072,299399.40,302736.07,299.399,302.736,3.337,out,0,,1,[silence]
+43,9073,9290,302736.07,310010.01,302.736,310.010,7.274,explain,11,0.977,0,"So we'll say here, the smallest number belonging to a class."
+44,9291,9813,310010.01,327460.79,310.010,327.461,17.451,write,0,,1,[silence]
+45,9814,9859,327460.79,328995.66,327.461,328.996,1.535,explain,0,,1,[silence]
+46,9860,10224,328995.66,341174.51,328.996,341.175,12.179,out,12,0.965,0,"Well, there is an upper class limit also, and that's going to"
+47,10225,10362,341174.51,345779.11,341.175,345.779,4.605,explain,12,0.861,0,be the highest value belonging to a class. So upper class limit
+48,10363,10368,345779.11,345979.31,345.779,345.979,0.200,out,1,0.421,0,is
+49,10369,10381,345979.31,346413.08,345.979,346.413,0.434,explain,2,0.996,0,last thing
+50,10382,10389,346413.08,346680.01,346.413,346.680,0.267,out,0,,1,[silence]
+51,10390,10442,346680.01,348448.45,346.680,348.448,1.768,explain,5,0.847,0,before we get into this
+52,10443,10527,348448.45,351284.62,348.448,351.285,2.836,write,1,0.966,0,upper
+53,10528,10571,351284.62,352752.75,351.285,352.753,1.468,fingererase,0,,1,[silence]
+54,10572,11256,352752.75,375608.94,352.753,375.609,22.856,write,3,0.584,0,"class limit. Okay,"
+55,11257,11284,375608.94,376543.21,375.609,376.543,0.934,explain,0,,1,[silence]
+56,11285,11760,376543.21,392425.76,376.543,392.426,15.883,out,14,0.953,0,I'd like to give you your steps right here on how to do this.
+57,11761,11854,392425.76,395562.23,392.426,395.562,3.136,write,0,,1,[silence]
+58,11855,11860,395562.23,395762.43,395.562,395.762,0.200,explain,0,,1,[silence]
+59,11861,12054,395762.43,402235.57,395.762,402.236,6.473,out,14,0.974,0,The first thing that you need to do when you're creating your own frequency
+60,12055,12236,402235.57,408308.31,402.236,408.308,6.073,explain,12,0.981,0,"distribution like I'm about to do, is determine the number of classes."
+61,12237,12319,408308.31,411077.74,408.308,411.078,2.769,write,1,0.97,0,This
+62,12320,12373,411077.74,412879.55,411.078,412.880,1.802,explain,9,0.919,0,means like those groups we were just talking about.
+63,12374,12629,412879.55,421421.42,412.880,421.421,8.542,write,0,,1,[silence]
+64,12630,13382,421421.42,446546.55,421.421,446.547,25.125,explain,63,0.956,0,"You see, you don't want to have too few groups that you can't differentiate between them, or too many groups that it's just too cumbersome, you can't tell trends. So in this class, I'm going to separate us, just looking around. I'm thinking I'm going to want eight classes here. So I'm going have eight classes. So for us, in this one example,"
+65,13383,13410,446546.55,447480.81,446.547,447.481,0.934,write,1,0.974,0,I'm
+66,13411,14235,447480.81,475008.34,447.481,475.008,27.528,explain,79,0.953,0,"going make eight. I think that more than that would not show trends, and I think less than that. Do you ever want to have a frequency distribution with one class, do you think? With one class. Everybody would be in that class. Would that show you anything? Not so much. Would you want a class for every single person? You wouldn't see any trends. You wouldn't see that. So here we have a certain number of classes that"
+67,14236,14263,475008.34,475942.61,475.008,475.943,0.934,out,5,0.969,0,you're going to determine by
+68,14264,14341,475942.61,478545.21,475.943,478.545,2.603,explain,7,0.966,0,looking at your population that you're sampling.
+69,14342,14615,478545.21,487687.69,478.545,487.688,9.142,out,22,0.933,0,"Okay, the second thing you got to do is you have to figure out your class width. This is the important part."
+70,14616,14628,487687.69,488121.45,487.688,488.121,0.434,explain,0,,1,[silence]
+71,14629,14801,488121.45,493893.89,488.121,493.894,5.772,write,0,,1,[silence]
+72,14802,14820,493893.89,494527.86,493.894,494.528,0.634,explain,0,,1,[silence]
+73,14821,14986,494527.86,500066.73,494.528,500.067,5.539,out,11,0.924,0,"Here's how you, in general, find a class width. What you"
+74,14987,15465,500066.73,516049.38,500.067,516.049,15.983,explain,42,0.944,0,"do is you take your highest value in your sample and you take your lowest value in your sample, and you find the difference, so that range, and then you divide that by the number of classes. So I'm going say here"
+75,15466,16035,516049.38,535068.40,516.049,535.068,19.019,write,22,0.963,0,"the max value, subtract the min value. This is for your sample, and then you're going to divide by the number of..."
+76,16036,16089,535068.40,536870.20,535.068,536.870,1.802,explain,0,,1,[silence]
+77,16090,16132,536870.20,538304.97,536.870,538.305,1.435,out,0,,1,[silence]
+78,16133,16142,538304.97,538638.64,538.305,538.639,0.334,explain,0,,1,[silence]
+79,16143,16218,538638.64,541174.51,538.639,541.175,2.536,out,6,0.837,0,We're going do that in here.
+80,16219,17245,541174.51,575442.11,541.175,575.442,34.268,explain,53,0.904,0,"Hopefully no one's worried too much about their age. Are there any 17 -year -olds in here? 16? 15? Okay, good. 18? 18. Okay, good. Do we have anyone over... Well, I know I am. How about over 50? 45? 40? Do you mind? No, 44. 44. So 44 is our max value."
+81,17246,17365,575442.11,579446.11,575.442,579.446,4.004,write,6,0.994,0,Minus 18 is our minimum value.
+82,17366,17489,579446.11,583583.58,579.446,583.584,4.137,explain,20,0.831,0,"And we're going to divide by the number of classes. How many classes did pick here? Eight. Okay, we're going"
+83,17490,17515,583583.58,584451.12,583.584,584.451,0.868,write,3,0.918,0,divide by eight.
+84,17516,17549,584451.12,585585.59,584.451,585.586,1.134,explain,2,0.92,0,So we
+85,17550,17605,585585.59,587454.12,585.586,587.454,1.869,out,9,0.958,0,"do that. Someone with a calculator out there, what"
+86,17606,17669,587454.12,589589.59,587.454,589.590,2.135,explain,4,0.811,0,is 44 minus 18?
+87,17670,17755,589589.59,592459.13,589.590,592.459,2.870,out,7,0.89,0,How much do get? Or without a
+88,17756,17842,592459.13,595362.03,592.459,595.362,2.903,explain,4,0.946,0,calculator? Just do it.
+89,17843,17851,595362.03,595662.33,595.362,595.662,0.300,out,0,,1,[silence]
+90,17852,17879,595662.33,596596.60,595.662,596.597,0.934,explain,0,,1,[silence]
+91,17880,17892,596596.60,597030.36,596.597,597.030,0.434,write,0,,1,[silence]
+92,17893,18109,597030.36,604270.94,597.030,604.271,7.241,explain,11,0.955,0,"Don't everyone talk at once. Let's go here, people. How much?"
+93,18110,18159,604270.94,605939.27,604.271,605.939,1.668,write,0,,1,[silence]
+94,18160,18295,605939.27,610477.14,605.939,610.477,4.538,explain,11,0.835,0,"26, you said? I believe you. Divide it by eight. Well,"
+95,18296,18321,610477.14,611344.68,610.477,611.345,0.868,write,4,0.977,0,"wait a second, Mr."
+96,18322,18368,611344.68,612912.91,611.345,612.913,1.568,explain,3,0.874,0,Leonard. Eight doesn't
+97,18369,18429,612912.91,614948.28,612.913,614.948,2.035,out,5,0.948,0,"go into 26 evenly. No,"
+98,18430,18520,614948.28,617984.65,614.948,617.985,3.036,explain,14,0.916,0,"chances are this is probably not going to be even. In fact, we get,"
+99,18521,18532,617984.65,618385.05,617.985,618.385,0.400,write,0,,1,[silence]
+100,18533,18700,618385.05,623990.66,618.385,623.991,5.606,explain,4,0.877,0,"let's see, 3 .25?"
+101,18701,18761,623990.66,626026.03,623.991,626.026,2.035,write,0,,1,[silence]
+102,18762,19946,626026.03,665565.57,626.026,665.566,39.540,explain,141,0.922,0,"Your class width has to be a whole number. So here's what you're going to do. No matter what the decimal is, if you have a decimal, you are going to round upwards. If you round downwards, you're not going to have enough room for everybody in your sample. You'll have eight classes, but it will stop too short and you'll have to make another class. If you want eight classes, you need to round up. That will cover everybody. Did you see why? You can't round up. You've to round up. I know, even though it's 3 .2, you'll go, well, that rounds to three. Well, yeah. my calculus stuff, does. But in statistics, when we need a certain number of classes, we're to round that up. It's going to go to four. So we are going to round up."
+103,19947,20112,665565.57,671104.44,665.566,671.104,5.539,write,0,,1,[silence]
+104,20113,20200,671104.44,674040.71,671.104,674.041,2.936,explain,5,0.977,0,So this is going to
+105,20201,20232,674040.71,675108.44,674.041,675.108,1.068,point,1,0.994,0,become
+106,20233,20248,675108.44,675642.31,675.108,675.642,0.534,write,1,0.973,0,four.
+107,20249,20279,675642.31,676676.68,675.642,676.677,1.034,explain,0,,1,[silence]
+108,20280,20359,676676.68,679346.01,676.677,679.346,2.669,out,8,0.986,0,Our class width is going to be four
+109,20360,20454,679346.01,682515.85,679.346,682.516,3.170,explain,3,0.955,0,for our example.
+110,20455,20527,682515.85,684951.62,682.516,684.952,2.436,out,0,,1,[silence]
+111,20528,20715,684951.62,691224.56,684.952,691.225,6.273,explain,9,0.997,0,So we're about ready to start making this thing.
+112,20716,20791,691224.56,693760.43,691.225,693.760,2.536,write,0,,1,[silence]
+113,20792,20958,693760.43,699332.67,693.760,699.333,5.572,explain,15,0.992,0,Here's how a typical frequency distribution looks. We're going to have what we're looking at.
+114,20959,21123,699332.67,704838.17,699.333,704.838,5.506,write,14,0.847,0,"In our case, it's age here. And we're going to list the frequencies here."
+115,21124,21345,704838.17,712245.58,704.838,712.246,7.407,explain,7,0.944,0,So we determine the number of classes.
+116,21346,21418,712245.58,714681.35,712.246,714.681,2.436,out,11,0.952,0,"I determine that. In your book, it'll tell you what to"
+117,21419,22121,714681.35,738138.14,714.681,738.138,23.457,explain,84,0.953,0,"use. Or on your test, it'll tell you use eight classes or use six classes. So it will tell you that. But you do need to how to do this stuff. You'll take the max value minus the min value. That gives you a range for your sample. You divide that by the number of classes. You round it up. And that tells you your class width. Here's how you find your class width. You must have a starting point. This is step three."
+118,22122,22286,738138.14,743643.64,738.138,743.644,5.506,write,0,,1,[silence]
+119,22287,22798,743643.64,760727.39,743.644,760.727,17.084,explain,52,0.942,0,"And typically, we're going to start with the minimum value. That seems obvious. That'll include everybody. Or if you want to do this, you can start with a value just below your minimum value. So I can start with 17 if I wanted to. But typically, you start with your lowest value."
+120,22799,23223,760727.39,774908.24,760.727,774.908,14.181,write,8,0.94,0,"And so in our case, we had 18."
+121,23224,23308,774908.24,777744.41,774.908,777.744,2.836,explain,15,0.982,0,"So over here, we finally get to start filling this thing out. I'm going to"
+122,23309,23342,777744.41,778878.88,777.744,778.879,1.134,write,4,0.994,0,put 18 right here.
+123,23343,23757,778878.88,792726.06,778.879,792.726,13.847,explain,31,0.955,0,"The next step is the most important step. Because everyone can count. We can all count frequencies. But making up the classes, that's the hard part, where people get messed up."
+124,23758,23779,792726.06,793460.13,792.726,793.460,0.734,write,0,,1,[silence]
+125,23780,24173,793460.13,806606.61,793.460,806.607,13.146,explain,48,0.942,0,"So pay close attention. If you don't quite get it, go back on this lecture online and watch it again until you get this down. What you're going to do is after you start with the smallest value, you're going to create the classes using the class width."
+126,24174,24532,806606.61,818585.25,806.607,818.585,11.979,write,0,,1,[silence]
+127,24533,25106,818585.25,837737.74,818.585,837.738,19.152,explain,30,0.952,0,Here's the key. The class width is not the difference between 18 to this number. This would be the upper class limit. The class width is the difference between this
+128,25107,25125,837737.74,838371.71,837.738,838.372,0.634,write,1,0.994,0,number
+129,25126,25330,838371.71,845211.88,838.372,845.212,6.840,explain,19,0.95,0,"and this number. So we're not going to do this. We're not going to go 18, 19, 20, 21,"
+130,25331,25355,845211.88,846046.05,845.212,846.046,0.834,write,1,0.989,0,22.
+131,25356,25503,846046.05,850984.32,846.046,850.984,4.938,explain,9,0.98,0,We're not going to do that. We're going to
+132,25504,25539,850984.32,852185.52,850.984,852.186,1.201,fingererase,1,0.975,0,do
+133,25540,25629,852185.52,855188.52,852.186,855.189,3.003,explain,5,0.986,0,"18, 19, 20, 21, 22"
+134,25630,25654,855188.52,856022.69,855.189,856.023,0.834,write,1,0.455,0,comes
+135,25655,26797,856022.69,894160.83,856.023,894.161,38.138,explain,141,0.922,0,"here. Why? Because this distinguishes classes. And if you have classes which are four years apart, think about it. 18 -year -olds, 19 -year -olds, 20 -year -olds, and 21 -year -olds, four years, are going to fit in this class. Do you see that? I can't include 22 here. That would be a class with a five. It would include the 22 -year -olds. Do see the point there? That would actually be a class with a five. So be careful. This is where people make a mistake on the test. They go 22, and then they're off a sequential year for every class. And they go, wait a minute. I have way too many classes. This has zero. Well, that's because you did it wrong. So this is the way we do this. We go four here. And then"
+136,26798,26816,894160.83,894794.79,894.161,894.795,0.634,write,4,0.903,0,we're going to create
+137,26817,27004,894794.79,901067.73,894.795,901.068,6.273,explain,13,0.905,0,"eight classes from here on out. So 18 to 22, 22 to what?"
+138,27005,27560,901067.73,919619.62,901.068,919.620,18.552,write,22,0.813,0,"Remember, a class with this four. And then again, two. And then how many classes do we need? Eight. And then what?"
+139,27561,28402,919619.62,947714.38,919.620,947.714,28.095,explain,64,0.917,0,"Four, five, six, seven, eight. You know what? That's going to work out perfect for us. Because we have 44 in our group, right? Lookit. Our last class is going to include, I guess that could happen since you round up. We might have an extra class in there. Which we do. We're have zero, 46 through 47. So we do this. Then we"
+140,28403,28511,947714.38,951351.35,947.714,951.351,3.637,write,6,0.988,0,create our classes going this way.
+141,28512,28674,951351.35,956790.12,951.351,956.790,5.439,explain,19,0.891,0,So we're just going to go to one less than our next lower class limit. So this is to
+142,28675,29036,956790.12,968868.87,956.790,968.869,12.079,write,17,0.981,0,"be our 21, 25, our 29, 33, 37, 41, 45. And then lastly, we're to have 49."
+143,29037,29237,968868.87,975575.58,968.869,975.576,6.707,explain,13,0.943,0,But that's the way we do this. We create all the lower class
+144,29238,29508,975575.58,984617.95,975.576,984.618,9.042,write,2,0.978,0,limits first.
+145,29509,29527,984617.95,985251.92,984.618,985.252,0.634,star,0,,1,[silence]
+146,29528,30308,985251.92,1011311.31,985.252,1011.311,26.059,explain,97,0.932,0,"And finally, we're just going to tally up the results. We're going to start on this next time. You have all the information to make these now. But I really do want to go through this and do this again and count up all the people and make sure that we have that down. How many people understood what we talked about today? Okay. Again, why we might have an extra class is because you do round up. That's necessary to include everybody. But I guess you can be an extra class. You do have some homework?"
+147,30309,30343,1011311.31,1012479.15,1011.311,1012.479,1.168,out,2,0.957,0,"No, no,"
+148,30344,30486,1012479.15,1017250.58,1012.479,1017.251,4.771,explain,11,0.868,0,"no. Oh, it's just reverse it. It sounds a lot better."
+149,30487,30658,1017250.58,1022989.66,1017.251,1022.990,5.739,out,11,0.528,0,"Doesn't make it sound better. Just because I wanted to. Okay,"
+150,30659,30999,1022989.66,1034367.70,1022.990,1034.368,11.378,explain,49,0.936,0,"you're going to do, by the way, this is also on the website, which I gave you over there. Go ahead and look at the, please go on that. That way you get more views and feel cooler. Can you do that for me? Just kidding. Go to section"
+151,31000,31283,1034367.70,1043843.84,1034.368,1043.844,9.476,write,14,0.872,0,"1 .5 and do page 34 to 35. Numbers are 1, 2, 5 through"
+152,31284,31524,1043843.84,1051885.22,1043.844,1051.885,8.041,explain,34,0.869,0,"25. That assignment is also on the website if you go under and look at your class homework assignments, will be there as well. All right, guys. That will be due on Monday. Have"
+153,31525,31644,1051885.22,1055889.22,1051.885,1055.889,4.004,out,8,0.991,0,a great day. I'll see you on Monday.
+154,31645,31659,1055889.22,1056389.72,1055.889,1056.390,0.501,explain,0,,1,[silence]
+155,31660,31713,1056389.72,1058191.52,1056.390,1058.192,1.802,switch,0,,1,[silence]
+156,31714,31787,1058191.52,1060660.66,1058.192,1060.661,2.469,explain,12,0.915,0,"Okay, so if you do remember last time, we were going through"
+157,31788,31845,1060660.66,1062595.93,1060.661,1062.596,1.935,out,4,0.978,0,our frequency distributions. And
+158,31846,32789,1062595.93,1094094.09,1062.596,1094.094,31.498,explain,120,0.926,0,"I have given you definitions for this. Can you remember what our class width was from last time? 4. All right. And the way we figured out our class width from last time is we took the maximum value for our sample minus the minimum value for our sample, we divided by the number of classes we wanted, and we rounded up. As we found from last time, this is an approximate way to get your classes, but you're never going to be too low. You're going to have a class for every person at least. Maybe, I think we have one extra, actually. We're going have zero at one moment. That's okay. So our class width in our case"
+159,32790,32835,1094094.09,1095628.96,1094.094,1095.629,1.535,write,2,0.595,0,was 4.
+160,32836,33467,1095628.96,1116716.72,1095.629,1116.717,21.088,explain,75,0.962,0,"The lower class limit, that was the smallest value in each class. So we're going to list those out in just a second. And the upper class limit is the largest value in each class. The class midpoint, we'll get to those after we fill out our chart over there, our frequency distribution. Now, the question I have for you is this. As far as the class width goes, does the class width measure four"
+161,33468,33474,1116716.72,1116950.28,1116.717,1116.950,0.234,out,0,,1,[silence]
+162,33475,33569,1116950.28,1120120.12,1116.950,1120.120,3.170,explain,7,0.981,0,"units this way, from lower to upper,"
+163,33570,33709,1120120.12,1124791.46,1120.120,1124.791,4.671,out,18,0.92,0,"or does it measure this way, from lower to lower? Lower. So we're not going to go 18"
+164,33710,33755,1124791.46,1126326.33,1124.791,1126.326,1.535,explain,4,0.963,0,to 22 this way.
+165,33756,33886,1126326.33,1130697.36,1126.326,1130.697,4.371,out,21,0.955,0,"We're going to go 18 to 22 this way. I gave you the reason why last time, we want four years"
+166,33887,34079,1130697.36,1137137.14,1130.697,1137.137,6.440,explain,22,0.937,0,"spaced here, not five. If you go to 22 here, there's five years between the lowers. We want only four. That's why"
+167,34080,34091,1137137.14,1137537.54,1137.137,1137.538,0.400,out,2,0.976,0,our class
+168,34092,34143,1137537.54,1139272.61,1137.538,1139.273,1.735,explain,7,0.851,0,width is four. So we will make
+169,34144,34173,1139272.61,1140273.61,1139.273,1140.274,1.001,write,2,0.915,0,this 22.
+170,34174,34177,1140273.61,1140407.07,1140.274,1140.407,0.133,explain,0,,1,[silence]
+171,34178,34226,1140407.07,1142042.04,1140.407,1142.042,1.635,out,5,0.94,0,The next one I think
+172,34227,34322,1142042.04,1145245.25,1142.042,1145.245,3.203,explain,15,0.836,0,"I gave you, of course, we'll go on by four. So what's the next one?"
+173,34323,34347,1145245.25,1146079.41,1145.245,1146.079,0.834,write,1,0.21,0,Six.
+174,34348,34370,1146079.41,1146846.85,1146.079,1146.847,0.767,explain,2,0.927,0,And then?
+175,34371,34528,1146846.85,1152118.79,1146.847,1152.119,5.272,write,4,0.697,0,Thirty. Then? Thirty -four.
+176,34529,34530,1152118.79,1152185.52,1152.119,1152.186,0.067,explain,0,,1,[silence]
+177,34531,34549,1152185.52,1152819.49,1152.186,1152.819,0.634,out,0,,1,[silence]
+178,34550,34578,1152819.49,1153787.12,1152.819,1153.787,0.968,write,0,,1,[silence]
+179,34579,34631,1153787.12,1155555.56,1153.787,1155.556,1.768,out,8,0.904,0,"Okay, and I made the other ones up,"
+180,34632,34640,1155555.56,1155855.86,1155.556,1155.856,0.300,explain,1,0.99,0,the
+181,34641,34777,1155855.86,1160427.09,1155.856,1160.427,4.571,out,19,0.942,0,next part up very quickly last time. But what you're doing is you're just going to one step below
+182,34778,34864,1160427.09,1163330.00,1160.427,1163.330,2.903,explain,6,0.955,0,your next lower class limit. So
+183,34865,34907,1163330.00,1164764.76,1163.330,1164.765,1.435,out,4,0.825,0,"from 18 to 22,"
+184,34908,35120,1164764.76,1171871.87,1164.765,1171.872,7.107,explain,26,0.904,0,"we need the number what right here? Twenty -one. We don't want 22. Because 22, then you would count 22 -year -olds in two different classes."
+185,35121,35161,1171871.87,1173239.91,1171.872,1173.240,1.368,out,6,0.924,0,That's not a good thing. So
+186,35162,35182,1173239.91,1173940.61,1173.240,1173.941,0.701,explain,5,0.881,0,we're going to go to
+187,35183,35230,1173940.61,1175542.21,1173.941,1175.542,1.602,write,3,0.825,0,21. You're right.
+188,35231,35402,1175542.21,1181281.28,1175.542,1181.281,5.739,explain,20,0.879,0,"And then you can count up by four for all these limits also. for 21, this one's going to be,"
+189,35403,35430,1181281.28,1182215.55,1181.281,1182.216,0.934,write,1,0.384,0,and
+190,35431,35490,1182215.55,1184217.55,1182.216,1184.218,2.002,explain,10,0.949,0,it should be one less than our next lower class
+191,35491,35799,1184217.55,1194527.86,1184.218,1194.528,10.310,write,1,0.996,0,limit.
+192,35800,35803,1194527.86,1194661.33,1194.528,1194.661,0.133,explain,0,,1,[silence]
+193,35804,35869,1194661.33,1196863.53,1194.661,1196.864,2.202,out,6,0.906,0,Do you feel okay on getting
+194,35870,37475,1196863.53,1250450.45,1196.864,1250.450,53.587,explain,177,0.952,0,"the classes made up? So we get the maximum level for our sample minus the minimum value. We divide by the number of classes we want. We start at some starting spot, either the lowest value of our sample or something just below that. We make up our classes by using the class width in conjunction with that starting spot. Make up all your lower class limits first. Then we fill the upper class limits in. A couple of things before we actually do the frequency. The class midpoints. The midpoint is just the middle value of those classes. It's nothing tricky to find this. You're just going to average the upper and lower class limits. We haven't talked about average, but we're talking about the average that you all know as average, where you add two things together and you divide by two. That's our average. So when we find the middle, the class midpoint, we're talking about the value right in between the middle of our class. So we're going to take the upper class"
+195,37476,37951,1250450.45,1266333.00,1250.450,1266.333,15.883,write,19,0.914,0,"limit minus the lower class limit. I'm sorry, plus the lower class limit. And we'll divide that by two."
+196,37952,38076,1266333.00,1270503.84,1266.333,1270.504,4.171,explain,10,0.96,0,And that will give us the midpoint for each class.
+197,38077,38287,1270503.84,1277544.21,1270.504,1277.544,7.040,out,0,,1,[silence]
+198,38288,38920,1277544.21,1298665.33,1277.544,1298.665,21.121,explain,50,0.935,0,"Don't have an idea of the boundaries. The class boundaries are really only used, these two are really only used to make up a histogram, which we're going to talk about in just a little while. Class boundaries are the very middle between one upper class limit and the next"
+199,38921,38960,1298665.33,1300000.00,1298.665,1300.000,1.335,out,3,0.99,0,lower class limit.
+200,38961,39352,1300000.00,1313079.75,1300.000,1313.080,13.080,explain,47,0.928,0,"So we're going to discover these in just a second, but that's our definition. in order to find a class boundary, what you're going to take is the lower class limit minus the upper class limit, or plus the upper class limit, and geez, I'm saying everything"
+201,39353,39368,1313079.75,1313613.61,1313.080,1313.614,0.534,out,2,0.73,0,"wrong today,"
+202,39369,39883,1313613.61,1330797.46,1313.614,1330.797,17.184,explain,49,0.905,0,"huh? My goodness. We rephrased that for you. We're just going to average these ones as well. So the midpoint is the average of these two, the lower and the upper for the same class. The boundary is the average of these two, right in between the two classes."
+203,39884,39972,1330797.46,1333767.10,1330.797,1333.767,2.970,out,9,0.896,0,"So for us, we'll say that the boundary is"
+204,39973,42631,1333767.10,1422489.16,1333.767,1422.489,88.722,explain,301,0.921,0,"used to separate classes without gaps, because we can't have gaps on a histogram. You'll see what I'm talking about in just a minute. Well, the class width, are we giving it to us, or do we have to come up with our own? Well, you see, your class width is determined by your maximum value, minus your minimum value, and the number of classes that you need. So if I tell you five classes with a certain number... So the number of classes that we need? Yes. Yeah, I'll give you that. For this one, I just made up, I want eight classes. So for you guys, it'll be like in your homework, or I'll give it to you on a test, okay? On a test, I would give you like a list of data, like 20 pieces of data. I'd say I want you to make up a histogram, or a frequency distribution, which comes from it. Sorry, the histogram comes from the frequency distribution. So I'd give you the data. I'd say I want six classes figured out. You take the maximum value, minus minimum value, divide by six, round up, that gives your class width. Does that make sense to you? If you forgot how to do that, remember, go online. You can refresh that all you want. The whole lesson's on there already. Okay, great question. Any other questions about any of these things so far? We're going go through in a minute and identify all of our lower class limits, upper class limits, and all this stuff as well. So class boundaries, last thing we have to define. This is used to separate our classes without gaps. You see on a histogram, it's like a touching bar chart. We can't have any gaps in there."
+205,42632,42986,1422489.16,1434334.33,1422.489,1434.334,11.845,write,0,,1,[silence]
+206,42987,43123,1434334.33,1438905.57,1434.334,1438.906,4.571,explain,0,,1,[silence]
+207,43124,43273,1438905.57,1443910.58,1438.906,1443.911,5.005,out,6,0.844,0,"Okay, so let's go through it."
+208,43274,43279,1443910.58,1444110.78,1443.911,1444.111,0.200,explain,1,0.991,0,Let's
+209,43280,43293,1444110.78,1444577.91,1444.111,1444.578,0.467,out,1,0.997,0,identify
+210,43294,43711,1444577.91,1458525.19,1444.578,1458.525,13.947,explain,47,0.987,0,"what all these numbers are, because I've given you the definitions, but we really haven't even discussed what they actually are for this example. Can you tell me the first lower class limit that we have? Very good, okay? What's the next lower class limit that we"
+211,43712,43791,1458525.19,1461194.53,1458.525,1461.195,2.669,write,3,0.801,0,have? Good. How
+212,43792,43998,1461194.53,1468101.43,1461.195,1468.101,6.907,explain,21,0.892,0,"many lower class limits should we have? we eight classes, that's right. So 22, and then we go on up to"
+213,43999,44055,1468101.43,1470003.34,1468.101,1470.003,1.902,write,1,0.993,0,"26,"
+214,44056,44125,1470003.34,1472339.01,1470.003,1472.339,2.336,explain,14,0.899,0,et cetera. We should have eight of them that goes all the way to
+215,44126,44154,1472339.01,1473306.64,1472.339,1473.307,0.968,write,1,0.993,0,46.
+216,44155,44215,1473306.64,1475342.01,1473.307,1475.342,2.035,explain,4,0.985,0,How about the upper
+217,44216,44296,1475342.01,1478044.71,1475.342,1478.045,2.703,out,9,0.988,0,class limits? What are the upper class limits here?
+218,44297,44369,1478044.71,1480480.48,1478.045,1480.480,2.436,explain,4,0.849,0,The one's the first
+219,44370,44564,1480480.48,1486986.99,1480.480,1486.987,6.507,write,19,0.982,0,"one, and then? And again, we're getting all the way up to 49. There should be eight of them."
+220,44565,46962,1486986.99,1567000.33,1486.987,1567.000,80.013,explain,205,0.934,0,"The class midpoints, that's the average of the upper and lower class limits for each class. Can you tell me what is the class midpoint for our very first class? How much is that? Do it on your paper if you have to. You're taking the upper plus the lower divided by two, you're averaging that. Nice glasses, by the way, I like them. I got new ones, new glasses. They look identical. I'm the creature of habit. can't even change if things are going well, which I hope that these are going well. You can't change it. Did you figure it out as I was rambling? Use your calculator if you have to. You're averaging a couple numbers. What numbers are we adding together up here for our first class midpoint? Can you tell me that? Great, so we're going to have a class midpoint for every single class. So we look here, we go, okay, that's my upper class limit, that's my lower. Let's add them together, let's divide by two. That tells me what's right in middle of those two numbers, and what number is that? I'm sorry, I heard rustling and mumbling. What was it? 19 .5? Okay, I believe you."
+221,46963,47032,1567000.33,1569336.00,1567.000,1569.336,2.336,write,0,,1,[silence]
+222,47033,47875,1569336.00,1597464.13,1569.336,1597.464,28.128,explain,67,0.948,0,"Did anybody else get 19 .5? Do you know how 19 .5 is being found? Some people know. Okay, if you're not quite sure how you're finding the class midpoint, watch. How the class midpoint is found for each class, you're taking the upper CL stands for class limit. In our case, the upper class limit for our very first class is 21. So we are taking"
+223,47876,47932,1597464.13,1599366.03,1597.464,1599.366,1.902,write,4,0.677,0,21. We are adding
+224,47933,48103,1599366.03,1605071.74,1599.366,1605.072,5.706,explain,21,0.97,0,"to it. What are we adding to it? Oh, that's the lower class limit, that's this right here. You're adding 18,"
+225,48104,48177,1605071.74,1607540.87,1605.072,1607.541,2.469,write,5,0.941,0,and then you're dividing by
+226,48178,48810,1607540.87,1628662.00,1607.541,1628.662,21.121,explain,59,0.908,0,"two. Why are you dividing by two? So how do you find an average of any number of things? You add them all together, and you divide by the number of things you added. So here we have two classes, you're adding them, you're dividing by the number two, and then this number, this value, is going to give"
+227,48811,48837,1628662.00,1629562.90,1628.662,1629.563,0.901,point,1,0.997,0,you
+228,48838,50434,1629562.90,1682849.52,1629.563,1682.850,53.287,explain,168,0.924,0,"19 .5. You with me now? What's the next midpoint? Can you find that? I'll give you a little hint. Well firstly, you understand you can add these two together and divide by two, right? Nod your head if you're with me on that. That's how you find that class midpoint. Or you can be a little smarter than that. What's our class width? Just add four to that number. You're going to come up with the class midpoint. Okay, this is kind of neat. All these numbers are multiples of, well, you add four to that, not multiples of four, but you keep adding four to it. Here you keep adding four to it. Therefore the midpoint, you're going to keep adding four to it. You don't have to repeat all that work. You don't reinvent the wheel. Just add four to it. So someone who has added these two and divided by two, tell me what you got. Guess what? If I add four to this"
+229,50435,50489,1682849.52,1684684.68,1682.850,1684.685,1.835,write,5,0.947,0,"number, I get 23 .5."
+230,50490,50788,1684684.68,1694661.33,1684.685,1694.661,9.977,explain,32,0.953,0,So I'm going to find out midpoints right there. Are you with me? Can you tell me just very quickly what's the next midpoint without doing any math? That's kind of nice.
+231,50789,50841,1694661.33,1696429.76,1694.661,1696.430,1.768,write,1,0.316,0,How
+232,50842,50910,1696429.76,1698732.07,1696.430,1698.732,2.302,explain,4,0.923,0,about the next midpoint?
+233,50911,50955,1698732.07,1700233.57,1698.732,1700.234,1.502,write,0,,1,[silence]
+234,50956,51189,1700233.57,1708041.37,1700.234,1708.041,7.808,explain,16,0.848,0,"Someone on right hand side of the room, about the next midpoint? My right. Next midpoint."
+235,51190,51265,1708041.37,1710577.24,1708.041,1710.577,2.536,write,8,0.986,0,How many midpoints are we going to have?
+236,51266,51322,1710577.24,1712479.15,1710.577,1712.479,1.902,explain,0,,1,[silence]
+237,51323,51378,1712479.15,1714347.68,1712.479,1714.348,1.869,write,2,0.746,0,39 .5.
+238,51379,51605,1714347.68,1721921.92,1714.348,1721.922,7.574,explain,6,0.922,0,We'll have 40. What's next one?
+239,51606,51762,1721921.92,1727160.49,1721.922,1727.160,5.239,write,6,0.871,0,And lastly we'll have 47 .5.
+240,51763,54736,1727160.49,1826393.06,1727.160,1826.393,99.233,explain,312,0.939,0,"And those are the values that are right in between each class. Raise your hand if you're okay on the lower class limits, upper class limits, and the class midpoints. Feel okay about that? Good, very good. Remember, you don't have to do the work for every one of these. You just have to know the first one and know your class width. If you know your class width, it becomes very, very easy here. So we should have eight lower class limits, eight upper class limits, eight class midpoints. Let's talk about class boundaries, and then we're going to fill this thing out. It's going look beautiful. I'll tell you what else we can do with this. The class boundaries are used to separate your classes without gaps. Here's how you do it. What you do is, and by the way, I know it's a little confusing what class boundaries actually do, but they're not used in any computation. They're literally for one thing and one thing only. What you're going to do is be able to make a histogram up with this information. That's it. It doesn't tell you where things go, like where you're to tally up numbers. That's what your classes do. The class boundaries really are just to separate classes so you don't see any gaps. Are you with me on this? So class boundaries, they're the value that's right in between your upper class limit for one class and the sequential lower class limit for the next class. You can average them, add them just like you did the class midpoints and divide by two. Or you can just kind of think of that. What's right in between 21 and 20? Sit louder. It's 21 .5. Do know what you're going to get if you add 21 and 22 and divide by two? You get 21."
+241,54737,54801,1826393.06,1828561.90,1826.393,1828.562,2.169,write,0,,1,[silence]
+242,54802,55159,1828561.90,1840507.17,1828.562,1840.507,11.945,explain,26,0.915,0,"Some in the middle of the room here, can you tell me the next class boundary? Can you just tell me that? Sit louder. Yeah. You"
+243,55160,55213,1840507.17,1842308.98,1840.507,1842.309,1.802,write,0,,1,[silence]
+244,55214,55648,1842308.98,1856823.49,1842.309,1856.823,14.515,explain,51,0.88,0,"can still use that class width thing or you can do the math if you really, really want to. But you can average these two or just add four or just think about 25, 26. What's right in the middle? 25 .5. Next ones we can find all of them if"
+245,55649,55743,1856823.49,1859993.33,1856.823,1859.993,3.170,write,13,0.872,0,we like. We're going to have 29 .5 I hope. Is that right?
+246,55744,55844,1859993.33,1863363.36,1859.993,1863.363,3.370,explain,6,0.78,0,Yes. Alright. What's the next one?
+247,55845,56169,1863363.36,1874207.54,1863.363,1874.208,10.844,write,0,,1,[silence]
+248,56170,56256,1874207.54,1877110.44,1874.208,1877.110,2.903,explain,0,,1,[silence]
+249,56257,56409,1877110.44,1882215.55,1877.110,1882.216,5.105,write,0,,1,[silence]
+250,56410,56610,1882215.55,1888922.26,1882.216,1888.922,6.707,explain,5,0.917,0,How many should we have?
+251,56611,56668,1888922.26,1890857.52,1888.922,1890.858,1.935,write,0,,1,[silence]
+252,56669,58080,1890857.52,1937971.30,1890.858,1937.971,47.114,explain,166,0.911,0,"49 .5. Does 49 .5 make sense to you how we get that? There's not another class but you see that we're just going up by four every time. Now I know there's eight here and there's eight here and there's eight here and right now we have eight here but there's actually one more. There's actually one more. Notice that these class boundaries are really like slicing up a loaf of bread. So we have this loaf of bread that goes from 18 to 49 and we're slicing it up here and here here here here here here. If you have a loaf of bread and you slice it, you're going to get one more piece of bread for however many slices you make. Does that make sense? you have loaf of bread and you slice it once, you have two slices. True? Slice it three times, you're going to have four slices. We've sliced it using these classes but that means that we're going"
+253,58081,58087,1937971.30,1938204.87,1937.971,1938.205,0.234,write,1,0.996,0,have
+254,58088,58348,1938204.87,1946913.58,1938.205,1946.914,8.709,explain,30,0.949,0,"this little extra one to begin with because we have to start somewhere. can you tell me what the very first class boundary is going to be? Yeah, that's right."
+255,58349,58413,1946913.58,1949082.42,1946.914,1949.082,2.169,write,0,,1,[silence]
+256,58414,61784,1949082.42,2061561.56,1949.082,2061.562,112.479,explain,347,0.899,0,"Notice how in this case the class boundaries they really don't make a whole lot of sense for 17 .5 do they? Well, if you consider to have 0 .5 of a year, that doesn't make a whole lot of sense. It makes sense in this case though. If we are considering these numbers to be your age without decimals because I mean if you're over the age of like I don't know seven, you stop saying I'm like six and three quarters. You know, don't you? I don't say that I am blank age point three. Obviously. I just say I'm blank age. But you say I am 22. Are you 22? Are you seriously? I should work at a fair. So if you say I'm 22, you don't go I'm 22 .4 or 22 .6. If we're just counting the integer of our age or the whole number of our age then 17 .5 works, right? Because you're either 17 or 18. You're not going to count any extra people with 17 .5 is what I'm saying. The 17 year olds are excluded automatically. So it's kind of a weird thing to say but it's used really just to separate some classes from each other. That's it. It's not mathematically being used in any way up here. So we do have the first one. We're going to have one more class boundary then we have classes because we have to start somewhere and we to end somewhere. Okie dokie. Now let's go ahead and fill this thing out some more. We've already made our classes using our class width and our lower class limits and our starting spot and our range of numbers being subtracted divided by the number of classes that we want. That's how we got all this junk. Now we're going to fill it out by asking people how old they are. So how many people are between the ages of 18 and 21? Raise your hand. 18 to 21. Keep them up because I've to count you. Ok so we 25."
+257,61785,61820,2061561.56,2062762.76,2061.562,2062.763,1.201,write,0,,1,[silence]
+258,61821,62133,2062762.76,2073206.54,2062.763,2073.207,10.444,explain,5,0.978,0,How about 22 to 25?
+259,62134,62153,2073206.54,2073873.87,2073.207,2073.874,0.667,write,0,,1,[silence]
+260,62154,62386,2073873.87,2081648.31,2073.874,2081.648,7.774,explain,5,0.99,0,How about 26 to 29?
+261,62387,62405,2081648.31,2082282.28,2081.648,2082.282,0.634,write,0,,1,[silence]
+262,62406,62579,2082282.28,2088088.09,2082.282,2088.088,5.806,explain,3,0.991,0,30 to 33?
+263,62580,62592,2088088.09,2088521.86,2088.088,2088.522,0.434,write,0,,1,[silence]
+264,62593,62837,2088521.86,2096696.70,2088.522,2096.697,8.175,explain,3,0.902,0,34 to 37?
+265,62838,62844,2096696.70,2096930.26,2096.697,2096.930,0.234,write,0,,1,[silence]
+266,62845,63001,2096930.26,2102168.84,2096.930,2102.169,5.239,explain,3,0.996,0,38 to 41?
+267,63002,63013,2102168.84,2102569.24,2102.169,2102.569,0.400,write,0,,1,[silence]
+268,63014,63111,2102569.24,2105839.17,2102.569,2105.839,3.270,explain,3,0.99,0,42 to 45?
+269,63112,63115,2105839.17,2105972.64,2105.839,2105.973,0.133,write,0,,1,[silence]
+270,63116,63125,2105972.64,2106306.31,2105.973,2106.306,0.334,explain,0,,1,[silence]
+271,63126,63134,2106306.31,2106606.61,2106.306,2106.607,0.300,write,0,,1,[silence]
+272,63135,65790,2106606.61,2195228.56,2106.607,2195.229,88.622,explain,242,0.873,0,46 to 49? don't think we have anybody. you add yourself up? Count the number of people. Count that all up and we'll see. 32? I'm like 23. I'm just really old. It would actually be better if I was like 80 and just never aged. That'd be sweet. That'd be better. These are immortal people. We can't do that. But I could be lying. But no to do that. I'm counting myself as 18 to 21 year olds too. Anyway. So we have all these frequencies for each class. Just by looking at it where the majority of people are. Typically this is what's going happen in most of your classes. We're going to have people scattered but they're going to generally be right here and we'll have some people over here but most people are going to be here. That's what frequency distributions can show is trends and patterns. If we just had everyone's age down on a piece of paper it'd be hard to kind of see a lot of especially if there's lots and lots of data. Here we only have maybe 40 something pieces of data. You start having like a thousand pieces of data but you start seeing trends when you do this but not if you just have them listed out. It's really hard to see. So this is one way that we can organize our data. Are you okay on getting your frequency distribution?
+273,65791,65930,2195228.56,2199899.90,2195.229,2199.900,4.671,out,5,0.844,0,Well one thing that we
+274,65931,66027,2199899.90,2203136.47,2199.900,2203.136,3.237,explain,12,0.942,0,can do I'm going show you some extensions of this concept. One
+275,66028,66082,2203136.47,2204971.64,2203.136,2204.972,1.835,out,7,0.982,0,thing we can do is create what's
+276,66083,66645,2204971.64,2223757.09,2204.972,2223.757,18.785,explain,27,0.883,0,called a relative frequency distribution from this thing. Are there any questions on this? This stuff first? So relative frequency distribution we're going add some columns here.
+277,66646,66911,2223757.09,2232632.63,2223.757,2232.633,8.876,write,0,,1,[silence]
+278,66912,66943,2232632.63,2233700.37,2232.633,2233.700,1.068,explain,0,,1,[silence]
+279,66944,67001,2233700.37,2235635.64,2233.700,2235.636,1.935,out,0,,1,[silence]
+280,67002,67158,2235635.64,2240874.21,2235.636,2240.874,5.239,explain,10,0.957,0,I will say this is going to be relative frequency.
+281,67159,67843,2240874.21,2263730.40,2240.874,2263.730,22.856,write,3,0.95,0,Relative frequency distribution.
+282,67844,68594,2263730.40,2288788.79,2263.730,2288.789,25.058,explain,58,0.967,0,"Here's how this one works. What it does, it compares the frequency for each class to the total number of data items you collected. That's how relative frequency works. This one just gives you the number of people. Relative frequency is going to give you, write this down please, a percentage. This is going to be a percentage."
+283,68595,68792,2288788.79,2295395.40,2288.789,2295.395,6.607,write,0,,1,[silence]
+284,68793,70051,2295395.40,2337404.07,2295.395,2337.404,42.009,explain,106,0.883,0,"It's going to compare the class frequency to the total number of items in your sample. How can we find right now the total number of items that we have just collected without having me count every person in room because that's really boring. If every person has a spot, which we made sure of right, every person has a because that's how we create our frequency distribution to make sure that would happen. So if every person has a spot if you add all these up it's going to give you a total count for your sample. Okie dokie. I said that twice today already."
+285,70052,70083,2337404.07,2338471.81,2337.404,2338.472,1.068,out,2,0.947,0,"Old school,"
+286,70084,70123,2338471.81,2339806.47,2338.472,2339.806,1.335,explain,4,0.842,0,bringing back okie dokie.
+287,70124,70135,2339806.47,2340206.87,2339.806,2340.207,0.400,write,0,,1,[silence]
+288,70136,70152,2340206.87,2340774.11,2340.207,2340.774,0.567,explain,1,0.993,0,So
+289,70153,70640,2340774.11,2357057.06,2340.774,2357.057,16.283,out,37,0.944,0,add them all up. If we add them we get the 25 plus 10 plus 4 plus 2 plus 1 plus 1. How much is that? I got 43. We're going to use a letter for that.
+290,70641,70701,2357057.06,2359092.43,2357.057,2359.092,2.035,explain,4,0.823,0,That's a lowercase n.
+291,70702,70812,2359092.43,2362796.13,2359.092,2362.796,3.704,write,0,,1,[silence]
+292,70813,71001,2362796.13,2369102.44,2362.796,2369.102,6.306,explain,12,0.916,0,That's how many items we collected. You can also signify this way.
+293,71002,71043,2369102.44,2370503.84,2369.102,2370.504,1.401,write,6,0.991,0,Have you ever seen this symbol
+294,71044,71252,2370503.84,2377477.48,2370.504,2377.477,6.974,explain,13,0.936,0,before? It's like a Greek letter. Sigma means sum. means you're adding up
+295,71253,71271,2377477.48,2378111.44,2377.477,2378.111,0.634,write,0,,1,[silence]
+296,71272,71349,2378111.44,2380714.05,2378.111,2380.714,2.603,explain,6,0.977,0,all the frequencies. That also is
+297,71350,71383,2380714.05,2381848.52,2380.714,2381.849,1.134,point,3,0.986,0,the same thing.
+298,71384,71412,2381848.52,2382816.15,2381.849,2382.816,0.968,explain,0,,1,[silence]
+299,71413,71529,2382816.15,2386720.05,2382.816,2386.720,3.904,out,11,0.852,0,Some of the frequencies or n in some cases it's called.
+300,71530,71835,2386720.05,2396930.26,2386.720,2396.930,10.210,explain,21,0.873,0,So we want to relate the class count to our n or to the sum of our frequencies. We're going to
+301,71836,71898,2396930.26,2399032.37,2396.930,2399.032,2.102,out,10,0.944,0,create a percentage and here's how you do it. If
+302,71899,71921,2399032.37,2399799.80,2399.032,2399.800,0.767,write,5,0.992,0,you want to find the
+303,71922,71930,2399799.80,2400100.10,2399.800,2400.100,0.300,out,0,,1,[silence]
+304,71931,72321,2400100.10,2413146.48,2400.100,2413.146,13.046,explain,32,0.917,0,percent of the people who are in this bracket you're going to take the number your frequency and divide it by the total class count or the total n sum of frequencies.
+305,72322,72489,2413146.48,2418752.09,2413.146,2418.752,5.606,write,10,0.897,0,"So class, frequency divided by the sum of the frequencies."
+306,72490,73015,2418752.09,2436302.97,2418.752,2436.303,17.551,explain,42,0.893,0,Can someone out there with a calculator you should all have a calculator at this point someone out there with a calculator can you do the 25 divided by 43 and tell me what you get to the third decimal place. .581
+307,73016,73040,2436302.97,2437137.14,2436.303,2437.137,0.834,out,0,,1,[silence]
+308,73041,73085,2437137.14,2438638.64,2437.137,2438.639,1.502,explain,1,0.682,0,.581
+309,73086,73154,2438638.64,2440940.94,2438.639,2440.941,2.302,write,0,,1,[silence]
+310,73155,74628,2440940.94,2490123.46,2440.941,2490.123,49.183,explain,113,0.849,0,Did anyone else get .581? Did you all get .581? I hope you have a calculator to follow along because part of this class is calculator. You are going to be using one every day. So bring a calculator. What's .581 mean? .581 Sounds like a whole number rolls off your tongue. What's it mean? 58 % of the people are in that class right there at 18 -21. Perfect. How did you get 58 %? We can change proportions which is like a decimal into a percentage just by moving in two spots. So if I say .581 maybe for your boss you don't say .581 because he might have done what
+311,74629,74632,2490123.46,2490256.92,2490.123,2490.257,0.133,out,0,,1,[silence]
+312,74633,74763,2490256.92,2494627.96,2490.257,2494.628,4.371,explain,9,0.757,0,I asked you did when I asked you. So
+313,74764,74789,2494627.96,2495495.50,2494.628,2495.495,0.868,pickerase,3,0.942,0,maybe we go
+314,74790,74816,2495495.50,2496396.40,2495.495,2496.396,0.901,erase,3,0.481,0,okay instead of
+315,74817,74847,2496396.40,2497430.76,2496.396,2497.431,1.034,droperase,1,0.895,0,.581
+316,74848,74898,2497430.76,2499132.47,2497.431,2499.132,1.702,explain,3,0.736,0,we could write
+317,74899,74988,2499132.47,2502135.47,2499.132,2502.135,3.003,write,9,0.909,0,this as 58 .1 but you better put a
+318,74989,76192,2502135.47,2542308.98,2502.135,2542.309,40.174,explain,114,0.937,0,"percent if you are to do that. Either way is fine with me. really don't care. You just need to know that when we say .581 what we suggesting here is that 58 .1 % of our sample was between the ages of 18 and 21. That's what we said. Does that seem reasonable for our class? Sure, yeah. Most people, most is above 50 % for you just so you know. If anything ever says most it means above 50%. Most people are between 18 and 21. No problem. 58%. Let's do the rest of them on your own. Take out your calculator. Figure out the percentages for the rest of our classes."
+319,76193,79595,2542308.98,2655855.86,2542.309,2655.856,113.547,out,73,0.75,0,"Guys, if I'm walking around and you don't know what you're doing now is the time to ask me when I'm here to help you right now. So if you're like a little lost could you come here? Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay. Okay. In that class, you can light up a photo. They're so big. Oh, right. Okay, let's get back up here. If you're struggling a little bit"
+320,79596,80986,2655855.86,2702268.94,2655.856,2702.269,46.413,explain,134,0.92,0,"on finding this, what we're doing for each individual class, you're taking the frequency divided by your total count. That's your N or your sum of frequencies, which is pointing to 43. So for this one, we did 25 divided by 43. Now, that did give us .581. We're just changing that to a percentage because most people are better with percentages. You don't have to if you don't want to. I really don't care. For the next one, we're going take what number? Divided by what? What's 10 divided by 43? 23 point what? You have to round correctly here. So learn your rounding rules. You look at the decimal place past where you're trying to round. So if I said three decimal places, I think on your calculator it would have been"
+321,80987,81073,2702268.94,2705171.84,2702.269,2705.172,2.903,write,1,0.805,0,.232556.
+322,81074,81182,2705171.84,2708808.81,2705.172,2708.809,3.637,explain,5,0.779,0,Yes? No. What is it?
+323,81183,81237,2708808.81,2710643.98,2708.809,2710.644,1.835,pickerase,0,,1,[silence]
+324,81238,81247,2710643.98,2710977.64,2710.644,2710.978,0.334,erase,0,,1,[silence]
+325,81248,81273,2710977.64,2711845.18,2710.978,2711.845,0.868,droperase,2,0.296,0,.58. That's
+326,81274,81313,2711845.18,2713179.85,2711.845,2713.180,1.335,explain,5,0.926,0,pretty close. Come on now.
+327,81314,81337,2713179.85,2713980.65,2713.180,2713.981,0.801,write,0,,1,[silence]
+328,81338,81876,2713980.65,2731965.30,2713.981,2731.965,17.985,explain,60,0.946,0,"So we're trying to round here, We look just at the digit to the right. Not all this crap. We don't care about that. Just at this digit. If that's five or more, you better round this one up. If this is less than five, you leave this one alone. And then you stop your number. So in our case,"
+329,81877,81917,2731965.30,2733333.33,2731.965,2733.333,1.368,write,3,0.819,0,we are .233.
+330,81918,82938,2733333.33,2767400.73,2733.333,2767.401,34.067,explain,123,0.941,0,"If you round incorrectly in this class, it's going to kill you. The reason is because we deal with very small numbers and very precise numbers a lot of the times. We'll be at the fourth, fifth, sometimes even sixth decimal place when we're working with equations. If you round incorrectly on just a little portion of it, and we use that number over again, and we use that number over again, and we use that number over again, do you see how your error is going to be multiplied? Do you see that? It's like an exponential error after that. That's not a good thing. You're going to be way off. And in this class, it's a really precise class. So here,"
+331,82939,83059,2767400.73,2771438.10,2767.401,2771.438,4.037,pickerase,23,0.924,0,"we need to learn how to round. If you don't really know, you're not quite sure, come and see. I'll help you out"
+332,83060,83081,2771438.10,2772172.17,2771.438,2772.172,0.734,erase,2,0.996,0,with that.
+333,83082,83103,2772172.17,2772906.24,2772.172,2772.906,0.734,droperase,2,0.883,0,So in
+334,83104,83227,2772906.24,2777043.71,2772.906,2777.044,4.137,explain,9,0.962,0,"our case, we had, I'll make it also a"
+335,83228,83440,2777043.71,2784150.82,2777.044,2784.151,7.107,write,11,0.886,0,percentage. So we rounded to .233. We'll make it 23 .3
+336,83441,83764,2784150.82,2794961.63,2784.151,2794.962,10.811,explain,29,0.858,0,"percent. How many have we got? 23 .3 percent. Good. All right. Now you've already done the rest of it, I'm sure. So what's our four divided by 43?"
+337,83765,83946,2794961.63,2801034.37,2794.962,2801.034,6.073,write,6,0.714,0,Nine point what now? Three zero.
+338,83947,83987,2801034.37,2802402.40,2801.034,2802.402,1.368,explain,2,0.487,0,Over there.
+339,83988,84023,2802402.40,2803603.60,2802.402,2803.604,1.201,pickerase,1,0.758,0,Thanks.
+340,84024,84059,2803603.60,2804804.80,2803.604,2804.805,1.201,erase,4,0.875,0,you want us to
+341,84060,84086,2804804.80,2805705.71,2804.805,2805.706,0.901,droperase,3,0.784,0,go down there?
+342,84087,84158,2805705.71,2808108.11,2805.706,2808.108,2.402,explain,8,0.573,0,No. All right. I just went straight up.
+343,84159,84188,2808108.11,2809109.11,2808.108,2809.109,1.001,write,0,,1,[silence]
+344,84189,84392,2809109.11,2815915.92,2809.109,2815.916,6.807,explain,5,0.757,0,How about the two? Four.
+345,84393,84502,2815915.92,2819586.25,2815.916,2819.586,3.670,write,3,0.612,0,Which one? Seven.
+346,84503,84627,2819586.25,2823757.09,2819.586,2823.757,4.171,explain,5,0.844,0,How about four the one?
+347,84628,84683,2823757.09,2825625.63,2823.757,2825.626,1.869,write,0,,1,[silence]
+348,84684,84799,2825625.63,2829496.16,2825.626,2829.496,3.871,explain,7,0.888,0,How about four the zero? Zero. Good.
+349,84800,84831,2829496.16,2830563.90,2829.496,2830.564,1.068,write,0,,1,[silence]
+350,84832,84848,2830563.90,2831131.13,2830.564,2831.131,0.567,explain,0,,1,[silence]
+351,84849,84959,2831131.13,2834834.83,2831.131,2834.835,3.704,write,7,0.873,0,Figure that one out again. And zero.
+352,84960,85007,2834834.83,2836436.44,2834.835,2836.436,1.602,explain,3,0.992,0,"By the way,"
+353,85008,85022,2836436.44,2836936.94,2836.436,2836.937,0.501,out,0,,1,[silence]
+354,85023,85070,2836936.94,2838538.54,2836.937,2838.539,1.602,explain,6,0.995,0,how much should this add up
+355,85071,85082,2838538.54,2838938.94,2838.539,2838.939,0.400,out,1,0.996,0,to?
+356,85083,85097,2838938.94,2839439.44,2838.939,2839.439,0.501,explain,0,,1,[silence]
+357,85098,85159,2839439.44,2841508.17,2839.439,2841.508,2.069,out,4,0.915,0,"Better, right? If you"
+358,85160,86918,2841508.17,2900200.20,2841.508,2900.200,58.692,explain,167,0.909,0,"add that, and it comes out like 95 95 percent or like 120 percent, you probably made a mistake somewhere. So that's a way that you can check your work. Your relative frequency should add to 100 percent. That's what it should do. If it doesn't, you got an error somewhere. Now, because we're rounding, could you technically be over or under a little teeny bit? Yeah, you could because you're rounding, but it's not going to be much. It's not going be like over percent. So if it is, then you have an error there. How many people are with me so far on relative frequency? Good. So relative means as compared to the whole. That's what relative means. It's a percentage. How much over under would it be? Probably not over a percent. If we were over like 3 percent, if it was like 103 percent, there would be something wrong. You know, that would give a lot of classes. I guess that could happen"
+359,86919,86938,2900200.20,2900867.53,2900.200,2900.868,0.667,pickerase,0,,1,[silence]
+360,86939,86961,2900867.53,2901634.97,2900.868,2901.635,0.767,erase,1,0.442,0,around.
+361,86962,87019,2901634.97,2903570.24,2901.635,2903.570,1.935,droperase,1,0.645,0,"Okay,"
+362,87020,88845,2903570.24,2964497.83,2903.570,2964.498,60.928,explain,185,0.924,0,"so let's move on from relative frequency distributions. There's one of the ones we have to talk about before our histograms and some of our graphing here. It's called a cumulative frequency distribution. Have you ever heard that word cumulative? You have something that's cumulative, have the GPA. Cumulative GPA is not just for a semester, it? It's for what? The whole college experience. Yeah, that's exactly right. So cumulative means you're kind of adding to it as you go, right? You take a semester. That's your GPA. That's also your cumulative. But the next semester you take, not only do you have a GPA for that individual semester, you combine it with the first one. Are you following along? Because I'm going to draw an analogy here. After you take another semester, it's not just that one, but it's this one combined with the other two. And one of that is combined with the other three. You just keep on combining them and combining them. That's how a cumulative frequency distribution works as well. It just keeps on adding to it class by class."
+363,88846,89166,2964497.83,2975208.54,2964.498,2975.209,10.711,write,0,,1,[silence]
+364,89167,89216,2975208.54,2976876.88,2975.209,2976.877,1.668,explain,3,0.936,0,So cumulative frequency
+365,89217,89471,2976876.88,2985385.39,2976.877,2985.385,8.509,out,2,0.582,0,distribution just
+366,89472,89599,2985385.39,2989656.32,2985.385,2989.656,4.271,explain,10,0.88,0,keeps on adding as you go class by class. And
+367,89600,90102,2989656.32,3006439.77,2989.656,3006.440,16.783,write,6,0.869,0,I'll say add sequential classes together.
+368,90103,90153,3006439.77,3008141.47,3006.440,3008.141,1.702,explain,0,,1,[silence]
+369,90154,90231,3008141.47,3010744.08,3008.141,3010.744,2.603,out,0,,1,[silence]
+370,90232,90785,3010744.08,3029229.23,3010.744,3029.229,18.485,explain,31,0.907,0,"Let's try this for a second. So we have our very first class. How many people in our very first class? So if we're going to make a cumulative frequency distribution,"
+371,90786,91012,3029229.23,3036803.47,3029.229,3036.803,7.574,write,0,,1,[silence]
+372,91013,91562,3036803.47,3055155.16,3036.803,3055.155,18.352,explain,44,0.914,0,"what you keep asking yourself is how many people do you have right now, including all the previous classes? So after our first class, check it out, after our first class, how many people do we have total after this right at this class?"
+373,91563,91594,3055155.16,3056222.89,3055.155,3056.223,1.068,write,0,,1,[silence]
+374,91595,92148,3056222.89,3074708.04,3056.223,3074.708,18.485,explain,66,0.953,0,"Now we're going to go down to the next class. How many people do we have total after this class? Remember it's cumulative, so it includes the first class. Well, how did you get to 35? Great. So we're just adding up everything before. That's what makes it cumulative. As you keep going down, you just add everything up above it. So this is going to"
+375,92149,92183,3074708.04,3075875.88,3074.708,3075.876,1.168,write,2,0.991,0,be 35.
+376,92184,92885,3075875.88,3099299.30,3075.876,3099.299,23.423,explain,64,0.939,0,"That's how many people are this class or above. How many people are going to be after our third class over here? So you're not adding these two, are you? You're adding this column, your frequencies. Cumulative frequency means you're adding the frequency as you go. So here we had only 25 people. Here we have 35 people. Here we have how many again?"
+377,92886,92921,3099299.30,3100500.50,3099.299,3100.501,1.201,write,0,,1,[silence]
+378,92922,93007,3100500.50,3103370.04,3100.501,3103.370,2.870,explain,5,0.98,0,How about after this one?
+379,93008,93034,3103370.04,3104270.94,3103.370,3104.271,0.901,write,1,0.703,0,How
+380,93035,93085,3104270.94,3105972.64,3104.271,3105.973,1.702,explain,4,0.991,0,about after this one?
+381,93086,93117,3105972.64,3107040.37,3105.973,3107.040,1.068,write,0,,1,[silence]
+382,93118,93164,3107040.37,3108608.61,3107.040,3108.609,1.568,explain,2,0.949,0,This one?
+383,93165,93197,3108608.61,3109709.71,3108.609,3109.710,1.101,write,0,,1,[silence]
+384,93198,93240,3109709.71,3111144.48,3109.710,3111.144,1.435,explain,0,,1,[silence]
+385,93241,93271,3111144.48,3112178.85,3111.144,3112.179,1.034,write,0,,1,[silence]
+386,93272,93310,3112178.85,3113480.15,3112.179,3113.480,1.301,explain,0,,1,[silence]
+387,93311,93342,3113480.15,3114547.88,3113.480,3114.548,1.068,write,0,,1,[silence]
+388,93343,93376,3114547.88,3115682.35,3114.548,3115.682,1.134,explain,2,0.946,0,Guess what?
+389,93377,93407,3115682.35,3116716.72,3115.682,3116.717,1.034,out,0,,1,[silence]
+390,93408,94014,3116716.72,3136970.30,3116.717,3136.970,20.254,explain,58,0.931,0,"Is this a coincidence? We added up all the people in a different way. We added up all the people, right? When you get down to the end, these should be exactly the same number. If they're not, well, you have a mistake there. Cumulative frequency will end at the total number that you collected. That's it. That's"
+391,94015,94161,3136970.30,3141875.21,3136.970,3141.875,4.905,out,6,0.806,0,what we're going to Do you
+392,94162,94741,3141875.21,3161227.89,3141.875,3161.228,19.353,explain,74,0.948,0,"feel okay with all of our class width, lower class limit, upper class limit, class midpoint, class boundaries, making up our frequency distribution, and now with relative and cumulative frequency? Now, raise your head feel okay with that. That's good. That's great. You'll get some practice tonight when you go home and do some of that homework. By the way, you're going to go home and do some of that homework. All right. Well,"
+393,94742,95085,3161227.89,3172706.04,3161.228,3172.706,11.478,out,23,0.915,0,"it's Monday without homework, right? Right? Isn't it all right? It's actually a decent Monday. Okay. We are, in a second, going to"
+394,95086,96726,3172706.04,3227460.79,3172.706,3227.461,54.755,explain,172,0.931,0,"make this more graphical because a lot of people have trouble just looking at numbers and understanding really what we're trying to get them to grasp. So especially in real life, we like to use graphs. Pie charts or histograms, bar charts, things like that to make our data more visible because people can look at a graph and go, oh, I see. But when you look at a number, a lot of people aren't going to really grasp that concept. You know what saying? So I'm show you how to make up a few graphs here. Before I do that, I have to talk about the word normal. I don't mean normal length. Length is not normal. That's not the type of normal we're talking about. I'm talking about data normal. Data normal means that data goes up to a center point and goes back down. This data right here is not normal. You're see that more in our graph than in this data. But this data, can you see how"
+395,96727,96761,3227460.79,3228628.63,3227.461,3228.629,1.168,out,4,0.996,0,most of the data
+396,96762,97248,3228628.63,3244878.21,3228.629,3244.878,16.250,explain,58,0.937,0,is centered right here at the very beginning of our frequency? And then it really trails off here. Do you see that? There's no trail off up here. It starts highest and it goes lowest. Do see that? This means it's not normal. Normal data would look like this. If we were to graph it on a bar
+397,97249,97371,3244878.21,3248982.32,3244.878,3248.982,4.104,write,12,0.95,0,"chart or something, it would have a rise, peak, and a fall."
+398,97372,97471,3248982.32,3252318.99,3248.982,3252.319,3.337,explain,9,0.974,0,That's a normal distribution. This one is not going
+399,97472,97568,3252318.99,3255555.56,3252.319,3255.556,3.237,out,12,0.987,0,to be a normal distribution. We'll see that when we graph it.
+400,97569,97826,3255555.56,3264164.16,3255.556,3264.164,8.609,explain,26,0.923,0,"So when they ask you what normal means, normal means that your data rises to a peak and then falls down again. That's what normal means."
+401,97827,97877,3264164.16,3265865.87,3264.164,3265.866,1.702,droperase,0,,1,[silence]
+402,97878,98127,3265865.87,3274207.54,3265.866,3274.208,8.342,erase,0,,1,[silence]
+403,98128,98156,3274207.54,3275175.18,3274.208,3275.175,0.968,droperase,2,0.797,0,"Okay, so"
+404,98157,98216,3275175.18,3277177.18,3275.175,3277.177,2.002,explain,9,0.938,0,let's try making up a couple graphs. We're going
+405,98217,98353,3277177.18,3281748.42,3277.177,3281.748,4.571,out,20,0.972,0,"to do a histogram first. If you're not familiar with the histogram, you know what a bar chart is, right?"
+406,98354,98812,3281748.42,3297063.73,3281.748,3297.064,15.315,explain,54,0.945,0,"A chart has a horizontal and a vertical axis, and you just make little bars. A histogram is simply a bar chart where the bars are touching. There's no space between the bars, which is why we had to have the class founders in the first place. had our bars touching. So a histogram"
+407,98813,98984,3297063.73,3302802.80,3297.064,3302.803,5.739,write,1,0.589,0,we're
+408,98985,99171,3302802.80,3309042.38,3302.803,3309.042,6.240,explain,11,0.931,0,going to say is this is just a touching bar chart.
+409,99172,99431,3309042.38,3317717.72,3309.042,3317.718,8.675,write,0,,1,[silence]
+410,99432,100037,3317717.72,3337937.94,3317.718,3337.938,20.220,explain,45,0.886,0,"Touching bar chart. I'm not talking about touching like Hallmark touching. know that, right? Hall, thank you for my bar chart. Not like that. It's like even the bars are touching. You get that? I was just kidding by the way. That was a joke."
+411,100038,100104,3337937.94,3340173.51,3337.938,3340.174,2.236,write,0,,1,[silence]
+412,100105,100438,3340173.51,3351317.98,3340.174,3351.318,11.144,explain,18,0.822,0,Told you it was funny. It was. It was funny. You get to take my word for it.
+413,100439,100614,3351317.98,3357190.52,3351.318,3357.191,5.873,write,6,0.914,0,Of course we're to have two
+414,100615,100845,3357190.52,3364898.23,3357.191,3364.898,7.708,explain,31,0.905,0,"axes, the horizontal and the vertical. It's not really an XY because it doesn't go anywhere else. It's only the quadrant one if you were going to consider it that way."
+415,100846,100975,3364898.23,3369235.90,3364.898,3369.236,4.338,write,1,0.997,0,On
+416,100976,101434,3369235.90,3384551.22,3369.236,3384.551,15.315,explain,45,0.928,0,"the horizontal axis, we are going to put our classes. You use either the midpoints or the boundaries. It's your choice, by the way. Unless they specify which one you're going to use, it doesn't matter. You can use the midpoints or the class boundaries."
+417,101435,101854,3384551.22,3398565.23,3384.551,3398.565,14.014,write,0,,1,[silence]
+418,101855,102110,3398565.23,3407107.11,3398.565,3407.107,8.542,explain,13,0.93,0,On the vertical is going to go your frequency or your relative frequency.
+419,102111,102274,3407107.11,3412579.25,3407.107,3412.579,5.472,write,0,,1,[silence]
+420,102275,102436,3412579.25,3417984.65,3412.579,3417.985,5.405,explain,6,0.836,0,can have a bigger bar chart.
+421,102437,102470,3417984.65,3419119.12,3417.985,3419.119,1.134,write,0,,1,[silence]
+422,102471,103169,3419119.12,3442442.44,3419.119,3442.442,23.323,explain,49,0.952,0,"Okay, so let's try this. We're going to use either class midpoints or boundaries. I'll show you both cases and show you that it really doesn't make that much of a difference what you use. Some people can choose to leave a little gap here. don't. just make it"
+423,103170,103190,3442442.44,3443143.14,3442.442,3443.143,0.701,pickerase,1,0.126,0,right
+424,103191,103214,3443143.14,3443943.94,3443.143,3443.944,0.801,erase,0,,1,[silence]
+425,103215,103266,3443943.94,3445679.01,3443.944,3445.679,1.735,explain,2,0.99,0,against this
+426,103267,103294,3445679.01,3446613.28,3445.679,3446.613,0.934,write,3,0.906,0,vertical axis here.
+427,103295,103658,3446613.28,3458758.76,3446.613,3458.759,12.145,explain,31,0.862,0,"We look at our first class. What we're going to do is make up our eight bars. They have to be equidistant. For instance, if I want to make this one"
+428,103659,103698,3458758.76,3460093.43,3458.759,3460.093,1.335,write,6,0.915,0,"that far apart, I can't make"
+429,103699,103791,3460093.43,3463196.53,3460.093,3463.197,3.103,explain,17,0.931,0,the next one like that. It would just look silly. We're going to use the same spacing
+430,103792,103815,3463196.53,3463997.33,3463.197,3463.997,0.801,fingererase,4,0.994,0,all the way through.
+431,103816,103838,3463997.33,3464764.76,3463.997,3464.765,0.767,write,0,,1,[silence]
+432,103839,103882,3464764.76,3466232.90,3464.765,3466.233,1.468,explain,0,,1,[silence]
+433,103883,103989,3466232.90,3469803.14,3466.233,3469.803,3.570,write,0,,1,[silence]
+434,103990,104066,3469803.14,3472372.37,3469.803,3472.372,2.569,explain,0,,1,[silence]
+435,104067,104129,3472372.37,3474474.47,3472.372,3474.474,2.102,write,0,,1,[silence]
+436,104130,105282,3474474.47,3512946.28,3474.474,3512.946,38.472,explain,100,0.935,0,"We're going to have our eight bars here. Here's the difference between the class midpoints and the class boundaries. Do you guys have the midpoints still on your papers? If not, go back to them here. Can you tell me all my class midpoints, the first class midpoint? Here's how you'd use your, you know, maybe show you your boundaries first, and then I'll show you your midpoints. Show me your, because you said the 19 .5, right? Let's see the boundaries first. The first class boundary was 19 .5. Here's how you would show your class boundaries. You'd do"
+437,105283,105328,3512946.28,3514481.15,3512.946,3514.481,1.535,write,1,0.98,0,19
+438,105329,105536,3514481.15,3521421.42,3514.481,3521.421,6.940,explain,13,0.851,0,.5 here. What's the next class boundary? The 17 .5. The first one?
+439,105537,105584,3521421.42,3523023.02,3521.421,3523.023,1.602,pickerase,2,0.679,0,Good point.
+440,105585,105604,3523023.02,3523690.36,3523.023,3523.690,0.667,erase,0,,1,[silence]
+441,105605,105627,3523690.36,3524457.79,3523.690,3524.458,0.767,droperase,0,,1,[silence]
+442,105628,105844,3524457.79,3531698.37,3524.458,3531.698,7.241,explain,27,0.892,0,"Oh, you said the midpoint, huh? Yeah. Yeah, and I said midpoint first, and then I asked for boundaries. See, I screwed you everyone up. My bad."
+443,105845,105890,3531698.37,3533233.23,3531.698,3533.233,1.535,write,2,0.727,0,17 .5.
+444,105891,106065,3533233.23,3539072.41,3533.233,3539.072,5.839,explain,9,0.989,0,Thanks for that correction. What's the next class boundary?
+445,106066,106106,3539072.41,3540440.44,3539.072,3540.440,1.368,write,1,0.393,0,How
+446,106107,106296,3540440.44,3546780.11,3540.440,3546.780,6.340,explain,4,0.978,0,about the next one?
+447,106297,107120,3546780.11,3574274.27,3546.780,3574.274,27.494,write,20,0.93,0,And these should be on your paper. I just happened to erase them. And 49 .5 is the last one.
+448,107121,108051,3574274.27,3605338.67,3574.274,3605.339,31.064,explain,86,0.937,0,"Then we go back to our data, and we find out for each class how many people were there. So can you tell me how many people were between 17 .5 and 21 .5? As it relates to our class, that's just talking about this class right here. It's a little bit of overlap, but not much. We just need that .5 to make sure that our gap, there's no gaps between our bars there. So how many people are we talking about here? How many?"
+449,108052,108399,3605338.67,3616950.28,3605.339,3616.950,11.612,write,0,,1,[silence]
+450,108400,108544,3616950.28,3621788.46,3616.950,3621.788,4.838,explain,14,0.98,0,So 25 people are between these ages. This relates to our first class. So
+451,108545,108760,3621788.46,3628995.66,3621.788,3628.996,7.207,write,10,0.958,0,we're going to have a bar that looks like this.
+452,108761,108833,3628995.66,3631431.43,3628.996,3631.431,2.436,fingererase,0,,1,[silence]
+453,108834,109262,3631431.43,3645745.75,3631.431,3645.746,14.314,explain,19,0.913,0,Just keep on going. How much should our next class be? So we'll drop all the way down here
+454,109263,109321,3645745.75,3647714.38,3645.746,3647.714,1.969,write,0,,1,[silence]
+455,109322,109515,3647714.38,3654187.52,3647.714,3654.188,6.473,explain,17,0.861,0,"to 10. Looks like the next class was four, so we're going to drop down to four."
+456,109516,109793,3654187.52,3663463.46,3654.188,3663.463,9.276,write,9,0.869,0,Do that. Then we had two. We had one.
+457,109794,109935,3663463.46,3668201.53,3663.463,3668.202,4.738,explain,18,0.964,0,We had zero. So we're not going put anything there. There's no bar there. We're going to go
+458,109936,109987,3668201.53,3669936.60,3668.202,3669.937,1.735,write,4,0.959,0,back up to one.
+459,109988,112696,3669936.60,3760326.99,3669.937,3760.327,90.390,explain,226,0.916,0,"If you followed that nod your head, see if I still have you with me here. So we're just putting this one in a picture. Same information in there. Same exact information. We are using boundaries instead of upper and lower class limits because otherwise we'd have a gap here. If we want to show that we're not missing any people, that's why we don't have any gaps. So if you're a person between these ages, you were counted. You have no missing pieces here. Yes? Does it show the data a little bit better for the common person? Yes. Absolutely. Instead of looking at numbers, you go, oh, wow. Most people are here, aren't they? We have a strong drop -off. Strong drop -off. Do you see how it doesn't fit the normal curve? A normal curve would have... Look at the board, Look up here. A normal curve would do this. It'd have little bars, a little bigger, little bigger, biggest bars in the middle. Then it would go back down to little bars. That's how normal would look. A normal curve would be this superimposed on that. This is definitely not normal. This curve goes like that. Let me get the sound effect right. This one goes. That's how normal sounds. See? It's pretty. It's prettier. This is not that pretty. Fizzles out."
+460,112697,112750,3760326.99,3762128.80,3760.327,3762.129,1.802,out,7,0.834,0,That's our histogram. That's the most basic
+461,112751,112825,3762128.80,3764631.30,3762.129,3764.631,2.503,explain,7,0.98,0,histogram. It has to do with our
+462,112826,112833,3764631.30,3764898.23,3764.631,3764.898,0.267,out,1,0.994,0,frequencies.
+463,112834,112887,3764898.23,3766700.03,3764.898,3766.700,1.802,explain,6,0.983,0,Can you change it to include
+464,112888,112917,3766700.03,3767701.03,3766.700,3767.701,1.001,pickerase,4,0.89,0,midpoints instead of boundaries?
+465,112918,113005,3767701.03,3770637.30,3767.701,3770.637,2.936,explain,12,0.984,0,"Yes, and it's so easy. You don't change anything. All you do"
+466,113006,113055,3770637.30,3772305.64,3770.637,3772.306,1.668,pickerase,5,0.788,0,is... You ready for it?
+467,113056,113107,3772305.64,3774040.71,3772.306,3774.041,1.735,erase,2,0.972,0,Erase this.
+468,113108,113143,3774040.71,3775241.91,3774.041,3775.242,1.201,droperase,0,,1,[silence]
+469,113144,113179,3775241.91,3776443.11,3775.242,3776.443,1.201,explain,0,,1,[silence]
+470,113180,113291,3776443.11,3780180.18,3776.443,3780.180,3.737,write,9,0.952,0,"To me, I like the midpoints better. It looks"
+471,113292,113560,3780180.18,3789155.82,3780.180,3789.156,8.976,explain,28,0.827,0,cleaner. You put the midpoints. You're the number that represents your data class the best. So here you would use... What was our first midpoint? tell me? 23
+472,113561,113660,3789155.82,3792492.49,3789.156,3792.492,3.337,write,8,0.902,0,.5. And then you'd have the 23 .5
+473,113661,113730,3792492.49,3794828.16,3792.492,3794.828,2.336,explain,12,0.901,0,and so on and so on and so on. So you'd have
+474,113731,113931,3794828.16,3801534.87,3794.828,3801.535,6.707,write,2,0.835,0,27 .5.
+475,113932,114082,3801534.87,3806573.24,3801.535,3806.573,5.038,explain,12,0.897,0,Am getting them right so far? Next one should be 35 .5.
+476,114083,114324,3806573.24,3814647.98,3806.573,3814.648,8.075,write,0,,1,[silence]
+477,114325,115017,3814647.98,3837771.10,3814.648,3837.771,23.123,explain,51,0.957,0,"So you can use class and midpoints to make up your histogram as well. Either one. It really doesn't matter. What if we were to make a relative frequency? This is a basic frequency distribution, standard frequency distribution. If we were to make a relative frequency distribution, the graph wouldn't change,"
+478,115018,115053,3837771.10,3838972.31,3837.771,3838.972,1.201,pickerase,4,0.989,0,but this information would
+479,115054,115087,3838972.31,3840106.77,3838.972,3840.107,1.134,erase,3,0.996,0,change from frequencies
+480,115088,115151,3840106.77,3842242.24,3840.107,3842.242,2.135,droperase,3,0.988,0,to relative frequencies.
+481,115152,115282,3842242.24,3846613.28,3842.242,3846.613,4.371,explain,11,0.851,0,"So you'd say, oh, okay, this was 58%. So maybe you'd"
+482,115283,115385,3846613.28,3850050.05,3846.613,3850.050,3.437,fingererase,3,0.848,0,"say like, oh,"
+483,115386,115421,3850050.05,3851251.25,3850.050,3851.251,1.201,explain,2,0.98,0,this would
+484,115422,115485,3851251.25,3853386.72,3851.251,3853.387,2.135,write,4,0.799,0,be like 60 %
+485,115486,115711,3853386.72,3860927.59,3853.387,3860.928,7.541,explain,13,0.943,0,and then you'd go down from there. You'd say this would be like
+486,115712,116057,3860927.59,3872472.47,3860.928,3872.472,11.545,write,2,0.887,0,"50%, 40%."
+487,116058,116889,3872472.47,3900233.57,3872.472,3900.234,27.761,explain,79,0.912,0,"Everything would look identical. That's about right, right? Everything exactly the same. Only here you wouldn't have frequencies anymore. You would have relative frequencies. You'd just have percentages. Looks the same, doesn't it? Just has those percentages off to the left -hand side. Notice how the information didn't change. It's still the same information. It's just how you represent it on your graph. Still okay with me? The last thing that we can do in the last minute is"
+488,116890,116930,3900233.57,3901601.60,3900.234,3901.602,1.368,pickerase,6,0.981,0,you can make up a cumulative
+489,116931,117080,3901601.60,3906606.61,3901.602,3906.607,5.005,explain,12,0.996,0,"frequency distribution, and that is just this information put on that graph."
+490,117081,117111,3906606.61,3907640.97,3906.607,3907.641,1.034,pickerase,5,0.892,0,So I'll change it one
+491,117112,117316,3907640.97,3914481.15,3907.641,3914.481,6.840,erase,9,0.942,0,last time. The graph will change in this case.
+492,117317,117352,3914481.15,3915682.35,3914.481,3915.682,1.201,droperase,0,,1,[silence]
+493,117353,117397,3915682.35,3917183.85,3915.682,3917.184,1.502,explain,0,,1,[silence]
+494,117398,117550,3917183.85,3922288.96,3917.184,3922.289,5.105,fingererase,0,,1,[silence]
+495,117551,117594,3922288.96,3923757.09,3922.289,3923.757,1.468,explain,0,,1,[silence]
+496,117595,117871,3923757.09,3932999.67,3923.757,3933.000,9.243,write,0,,1,[silence]
+497,117872,117926,3932999.67,3934834.83,3933.000,3934.835,1.835,fingererase,0,,1,[silence]
+498,117927,117969,3934834.83,3936269.60,3934.835,3936.270,1.435,write,0,,1,[silence]
+499,117970,118384,3936269.60,3950116.78,3936.270,3950.117,13.847,explain,29,0.906,0,"Just putting this information over there. So for our first class, we'll use the midpoint still. We start with how many people? So we have 25 right at the"
+500,118385,118453,3950116.78,3952419.09,3950.117,3952.419,2.302,write,1,0.986,0,back.
+501,118454,118960,3952419.09,3969336.00,3952.419,3969.336,16.917,explain,56,0.925,0,Can someone out there tell me the next bar that I'm going to make? Am I going to go back down to 10 if I'm making a cumulative frequency distribution? Go to 35. I'm now plotting these numbers over here. I'm doing these bars because we're doing a cumulative frequency distribution. So next up we go
+502,118961,119057,3969336.00,3972572.57,3969.336,3972.573,3.237,write,2,0.923,0,to 35.
+503,119058,119177,3972572.57,3976576.58,3972.573,3976.577,4.004,explain,5,0.871,0,Next one would be what?
+504,119178,119967,3976576.58,4002936.27,3976.577,4002.936,26.360,write,11,0.799,0,"Much higher. Then we have 42 again, think, right? 43. Why"
+505,119968,120014,4002936.27,4004504.50,4002.936,4004.505,1.568,fingererase,5,0.898,0,people do this one is
+506,120015,120815,4004504.50,4031231.23,4004.505,4031.231,26.727,explain,75,0.917,0,"so you can see where most of the growth is. Because notice how it really plateaus over on this side of it. It says after this part was serious growth, as far as our age is here, and then nothing. We really didn't have that many people over here. You can see that with the frequency distribution as represented on the histogram. So at this point, do you feel okay on making up all these"
+507,120816,120877,4031231.23,4033299.97,4031.231,4033.300,2.069,out,1,0.999,0,things?
+508,120878,120889,4033299.97,4033700.37,4033.300,4033.700,0.400,explain,4,0.984,0,You can do a
+509,120890,120893,4033700.37,4033833.83,4033.700,4033.834,0.133,out,1,0.937,0,frequency
+510,120894,121175,4033833.83,4043243.24,4033.834,4043.243,9.409,explain,24,0.951,0,"distribution, can do relative frequency distribution, cumulative, you can represent on a graph. How many people understood everything we talked about today? Good deal."
